@@ -1,0 +1,609 @@
+@prefix : <http://semgis.de/XPlan2ToPLU#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://semgis.de/XPlan2ToPLU> .
+
+<http://semgis.de/XPlan2ToPLU> rdf:type owl:Ontology ;
+                                rdfs:comment "Ontology of relations between XPlanung Version 2 Standard to INSPIRE Planned Landuse Standard (PLU)" ;
+                                rdfs:seeAlso "http://www.xplanungwiki.de" ;
+                                <http://purl.org/dc/terms/publisher> "i3Mainz" ;
+                                <http://purl.org/dc/terms/description> "Ontology of relations between XPlanung Version 2 Standard to INSPIRE Planned Landuse Standard (PLU)" ;
+                                <http://purl.org/dc/terms/title> "XPlanung Version 2 to INSPIRE PLU" ;
+                                <http://purl.org/dc/terms/creator> "Timo Homburg" ;
+                                <http://purl.org/dc/terms/format> "Turtle" ;
+                                <http://purl.org/dc/terms/references> "http://www.xplanungwiki.de/index.php?title=Spezifikationen" ;
+                                <http://purl.org/dc/terms/license> "GPLv3" ;
+                                <http://purl.org/dc/terms/subject> "Ontology of relations between XPlanung Version 2 Standard to INSPIRE Planned Landuse Standard (PLU)" .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_1_CommercialAgriculturalProduction
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_1_CommercialAgriculturalProduction> rdf:type owl:NamedIndividual ;
+                                                                                          owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1100> ,
+                                                                                                     <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1200> ,
+                                                                                                     <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1300> ,
+                                                                                                     <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1400> ,
+                                                                                                     <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1500> ,
+                                                                                                     <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1600> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture> rdf:type owl:NamedIndividual ;
+                                                                   owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_Forestry
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_Forestry> rdf:type owl:NamedIndividual ;
+                                                                owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_1200> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_2_ProfessionalFishing
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_2_ProfessionalFishing> rdf:type owl:NamedIndividual ;
+                                                                             owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1700> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction> rdf:type owl:NamedIndividual ;
+                                                                       owl:sameAs <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1000> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_1_PublicAdministrationDefenceAndSocialSecurityServices
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_1_PublicAdministrationDefenceAndSocialSecurityServices> rdf:type owl:NamedIndividual ;
+                                                                                                              owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1000> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_2_EducationalServices
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_2_EducationalServices> rdf:type owl:NamedIndividual ;
+                                                                             owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1200> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_3_HealthAndSocialServices
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_3_HealthAndSocialServices> rdf:type owl:NamedIndividual ;
+                                                                                 owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1600> ,
+                                                                                            <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1800> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_4_ReligiousServices
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_4_ReligiousServices> rdf:type owl:NamedIndividual ;
+                                                                           owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1400> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_3_SportsInfrastructure
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_3_SportsInfrastructure> rdf:type owl:NamedIndividual ;
+                                                                              owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1400> ,
+                                                                                         <http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_1000> ,
+                                                                                         <http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_2000> ,
+                                                                                         <http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas> rdf:type owl:NamedIndividual ;
+                                                                                  owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1000> ,
+                                                                                             <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1200> ,
+                                                                                             <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1600> ,
+                                                                                             <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1800> ,
+                                                                                             <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2000> ,
+                                                                                             <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2200> ,
+                                                                                             <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2400> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_5_OtherServices
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_5_OtherServices> rdf:type owl:NamedIndividual ;
+                                                                     owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/3_TertiaryProduction
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/3_TertiaryProduction> rdf:type owl:NamedIndividual ;
+                                                                        owl:sameAs <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1200> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_1_RoadTransport
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_1_RoadTransport> rdf:type owl:NamedIndividual ;
+                                                                       owl:sameAs <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1000> ,
+                                                                                  <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1200> ,
+                                                                                  <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1400> ,
+                                                                                  <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_4_WaterTransport
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_4_WaterTransport> rdf:type owl:NamedIndividual ;
+                                                                        owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1000> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_5_OtherTransportNetwork
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_5_OtherTransportNetwork> rdf:type owl:NamedIndividual ;
+                                                                               owl:sameAs <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1000> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1100> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1200> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1300> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1400> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1500> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1550> ,
+                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_1_ElectricityGasAndThermalPowerDistributionServices
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_1_ElectricityGasAndThermalPowerDistributionServices> rdf:type owl:NamedIndividual ;
+                                                                                                           owl:sameAs <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1800> ,
+                                                                                                                      <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1000> ,
+                                                                                                                      <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1100> ,
+                                                                                                                      <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1200> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_2_WaterAndSewageInfrastructur
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_2_WaterAndSewageInfrastructur> rdf:type owl:NamedIndividual ;
+                                                                                     owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1300> ,
+                                                                                                <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1400> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_3_WasteTreatment
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_3_WasteTreatment> rdf:type owl:NamedIndividual ;
+                                                                        owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1500> ,
+                                                                                   <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1600> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_4_OtherUtilities
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_4_OtherUtilities> rdf:type owl:NamedIndividual ;
+                                                                        owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1700> ,
+                                                                                   <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse> rdf:type owl:NamedIndividual ;
+                                                                                        owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_1000> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_2_WaterAreasNotInOtherEconomicUse
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_2_WaterAreasNotInOtherEconomicUse> rdf:type owl:NamedIndividual ;
+                                                                                         owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1100> ,
+                                                                                                    <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1200> .
+
+
+###  http://inspire.ec.europa.eu/codelist/HILUCSValue/6_OtherUses
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/6_OtherUses> rdf:type owl:NamedIndividual ;
+                                                               owl:sameAs <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1600> ,
+                                                                          <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_9999> ,
+                                                                          <http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_9999> ,
+                                                                          <http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_9999> ,
+                                                                          <http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_1000> ,
+                                                                          <http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_1100> ,
+                                                                          <http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_4_SecondaryStructureArea
+<http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_4_SecondaryStructureArea> rdf:type owl:NamedIndividual ;
+                                                                                               owl:sameAs <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_1000> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_2000> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3000> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3100> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3200> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3300> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3400> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3500> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3600> ,
+                                                                                                          <http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_5_CollectiveFacility
+<http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_5_CollectiveFacility> rdf:type owl:NamedIndividual ;
+                                                                                           owl:sameAs <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_1000> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_2000> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3000> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3100> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3200> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3300> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3400> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3500> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3600> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3700> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3800> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3900> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_4000> ,
+                                                                                                      <http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_1_1_Road
+<http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_1_1_Road> rdf:type owl:NamedIndividual ;
+                                                                                 owl:sameAs <http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_1000> ,
+                                                                                            <http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_2000> ,
+                                                                                            <http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_3000> ,
+                                                                                            <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1000> ,
+                                                                                            <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1200> ,
+                                                                                            <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1400> ,
+                                                                                            <http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_Infrastructure
+<http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_Infrastructure> rdf:type owl:NamedIndividual ;
+                                                                                       owl:sameAs <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1000> ,
+                                                                                                  <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1200> ,
+                                                                                                  <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1300> ,
+                                                                                                  <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1400> ,
+                                                                                                  <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1600> ,
+                                                                                                  <http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_9999> .
+
+
+###  http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_2_PermittedActivities
+<http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_2_PermittedActivities> rdf:type owl:NamedIndividual ;
+                                                                                            owl:sameAs <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1000> ,
+                                                                                                       <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1200> ,
+                                                                                                       <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1600> ,
+                                                                                                       <http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1800> .
+
+
+###  http://semgis.de/inspire4#infraLocal
+<http://semgis.de/inspire4#infraLocal> rdf:type owl:NamedIndividual ;
+                                       owl:sameAs <http://www.xplanung.de/xplangml#BPlan_1000> .
+
+
+###  http://semgis.de/inspire4#1_BPlan
+<http://semgis.de/inspire4#1_BPlan> rdf:type owl:NamedIndividual ;
+                                    owl:sameAs <http://www.xplanung.de/xplangml#Unbelegt> .
+
+
+###  http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_1000
+<http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_2000
+<http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_2000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_3000
+<http://www.xplanung.de/xplangml#BP_StrassenkoerperHerstellung_3000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_1000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_2000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_2000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3100
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3200
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3300
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3300> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3400
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3500
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3500> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3600
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3700
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3700> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3800
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3800> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3900
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_3900> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_4000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_4000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_9999
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungGemeinschaftsanlagen_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_1000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_2000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_2000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3100
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3200
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3300
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3300> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3400
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3500
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3500> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3600
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_3600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_9999
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungNebenanlagen_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1000
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1100
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1200
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1300
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1300> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1400
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1500
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1500> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1550
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_1550> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_9999
+<http://www.xplanung.de/xplangml#BP_ZweckbestimmungStrassenverkehr_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#BPlan_1000
+<http://www.xplanung.de/xplangml#BPlan_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1000
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1200
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1600
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1800
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungPriviligiertesVorhaben_1800> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1000
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1200
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1400
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_1400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_9999
+<http://www.xplanung.de/xplangml#FP_ZweckbestimmungStrassenverkehr_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#Unbelegt
+<http://www.xplanung.de/xplangml#Unbelegt> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1400
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1600
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1800
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_1800> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGemeinbedarf_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1100
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGewaesser_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1400
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1600
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1800
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_1800> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2400
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_2400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungGruen_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1100
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1300
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1300> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1400
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1500
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1500> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1600
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1700
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_1700> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungLandwirtschaft_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_2000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_2000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungSpielSportanlage_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1100
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1300
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1300> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1400
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1400> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1500
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1500> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1600
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1600> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1700
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_1700> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungVerEntsorgung_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_1200
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_1200> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungWald_9999> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_1000
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_1000> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_1100
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_1100> rdf:type owl:NamedIndividual .
+
+
+###  http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_9999
+<http://www.xplanung.de/xplangml#XP_ZweckbestimmungWasserwirtschaft_9999> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
