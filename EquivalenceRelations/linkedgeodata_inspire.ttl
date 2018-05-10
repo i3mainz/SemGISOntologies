@@ -26,8 +26,8 @@
 <http://inspire.ec.europa.eu/schemas/elu/4.0#hilucsLandUse> rdf:type owl:ObjectProperty .
 
 
-###  http://semgis.de/aaa6#gebaeudefunktion
-<http://semgis.de/aaa6#gebaeudefunktion> rdf:type owl:ObjectProperty .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion
+<http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -141,11 +141,11 @@
 ###  http://linkedgeodata.org/ontology/Airport
 <http://linkedgeodata.org/ontology/Airport> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q1248784> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3092>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3092>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -157,11 +157,11 @@
 ###  http://linkedgeodata.org/ontology/Bank
 <http://linkedgeodata.org/ontology/Bank> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q22687> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2030>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2030>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -173,11 +173,11 @@
 ###  http://linkedgeodata.org/ontology/Barracks
 <http://linkedgeodata.org/ontology/Barracks> rdf:type owl:Class ;
                                              owl:equivalentClass <https://www.wikidata.org/wiki/Q131263> ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3073>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3073>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -189,11 +189,11 @@
 ###  http://linkedgeodata.org/ontology/Bowling
 <http://linkedgeodata.org/ontology/Bowling> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q3177899> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2093>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2093>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -220,11 +220,11 @@
 ###  http://linkedgeodata.org/ontology/Brewery
 <http://linkedgeodata.org/ontology/Brewery> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q131734> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2113>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2113>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -236,11 +236,11 @@
 ###  http://linkedgeodata.org/ontology/Bridge
 <http://linkedgeodata.org/ontology/Bridge> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q12280> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich_1800>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich_1800>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -252,11 +252,11 @@
 ###  http://linkedgeodata.org/ontology/BuildingBarn
 <http://linkedgeodata.org/ontology/BuildingBarn> rdf:type owl:Class ;
                                                  owl:equivalentClass <https://www.wikidata.org/wiki/Q1303167> ,
-                                                                     [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                     [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                   owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2726>
+                                                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2726>
                                                                                                                              )
                                                                                                                  ]
                                                                                             ]
@@ -268,11 +268,11 @@
 ###  http://linkedgeodata.org/ontology/BuildingBunker
 <http://linkedgeodata.org/ontology/BuildingBunker> rdf:type owl:Class ;
                                                    owl:equivalentClass <https://www.wikidata.org/wiki/Q91122> ,
-                                                                       [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                       [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                     owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3074>
+                                                                                                                     owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3074>
                                                                                                                                )
                                                                                                                    ]
                                                                                               ]
@@ -284,11 +284,11 @@
 ###  http://linkedgeodata.org/ontology/BuildingCommercial
 <http://linkedgeodata.org/ontology/BuildingCommercial> rdf:type owl:Class ;
                                                        owl:equivalentClass <https://www.wikidata.org/wiki/Q655686> ,
-                                                                           [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                           [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                    owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                     owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                         owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2100>
+                                                                                                                         owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2100>
                                                                                                                                    )
                                                                                                                        ]
                                                                                                   ]
@@ -300,11 +300,11 @@
 ###  http://linkedgeodata.org/ontology/BuildingUnknown
 <http://linkedgeodata.org/ontology/BuildingUnknown> rdf:type owl:Class ;
                                                     owl:equivalentClass <https://www.wikidata.org/wiki/Q24238356> ,
-                                                                        [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                        [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                 owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                  owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                      owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_9998>
+                                                                                                                      owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_9998>
                                                                                                                                 )
                                                                                                                     ]
                                                                                                ]
@@ -327,11 +327,11 @@
                                                                                    ) ;
                                                                 rdf:type owl:Class
                                                               ] ,
-                                                              [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Fliessgewaesser>
+                                                              [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser>
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                       owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                            owl:oneOf ( <http://semgis.de/aaa6#AX_Funktion_Fliessgewaesser_8300>
+                                                                                                            owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fliessgewaesser_8300>
                                                                                                                       )
                                                                                                           ]
                                                                                      ]
@@ -343,11 +343,11 @@
 ###  http://linkedgeodata.org/ontology/CarWash
 <http://linkedgeodata.org/ontology/CarWash> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q1139861> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2131>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2131>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -359,11 +359,11 @@
 ###  http://linkedgeodata.org/ontology/Casino
 <http://linkedgeodata.org/ontology/Casino> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q133215> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2094>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2094>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -375,11 +375,11 @@
 ###  http://linkedgeodata.org/ontology/Castle
 <http://linkedgeodata.org/ontology/Castle> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q23413> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_1410>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1410>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -402,11 +402,11 @@
                                                                                     ) ;
                                                                  rdf:type owl:Class
                                                                ] ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3043>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3043>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -429,11 +429,11 @@
                                                                                     ) ;
                                                                  rdf:type owl:Class
                                                                ] ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3041>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3041>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -460,11 +460,11 @@
 ###  http://linkedgeodata.org/ontology/Cinema
 <http://linkedgeodata.org/ontology/Cinema> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q41253> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2092>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2092>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -507,11 +507,11 @@
 <http://linkedgeodata.org/ontology/CommunityCenter> rdf:type owl:Class ;
                                                     owl:equivalentClass <http://linkedgeodata.org/ontology/CommunityCentre> ,
                                                                         <https://www.wikidata.org/wiki/Q77115> ,
-                                                                        [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                        [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                 owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                  owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                      owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3044>
+                                                                                                                      owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3044>
                                                                                                                                 )
                                                                                                                     ]
                                                                                                ]
@@ -527,11 +527,11 @@
 ###  http://linkedgeodata.org/ontology/ConcertHall
 <http://linkedgeodata.org/ontology/ConcertHall> rdf:type owl:Class ;
                                                 owl:equivalentClass <https://www.wikidata.org/wiki/Q1060829> ,
-                                                                    [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                    [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                            [ rdf:type owl:Restriction ;
-                                                                                             owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                             owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                  owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3033>
+                                                                                                                  owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3033>
                                                                                                                             )
                                                                                                                 ]
                                                                                            ]
@@ -543,11 +543,11 @@
 ###  http://linkedgeodata.org/ontology/Courthouse
 <http://linkedgeodata.org/ontology/Courthouse> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q1137809> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3015>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3015>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -559,11 +559,11 @@
 ###  http://linkedgeodata.org/ontology/Cycleway
 <http://linkedgeodata.org/ontology/Cycleway> rdf:type owl:Class ;
                                              owl:equivalentClass <https://www.wikidata.org/wiki/Q221722> ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Weg>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Weg>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Funktion_Weg_1106>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Weg_1106>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -590,11 +590,11 @@
 ###  http://linkedgeodata.org/ontology/DepartmentStore
 <http://linkedgeodata.org/ontology/DepartmentStore> rdf:type owl:Class ;
                                                     owl:equivalentClass <https://www.wikidata.org/wiki/Q216107> ,
-                                                                        [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                        [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                 owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                  owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                      owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2051>
+                                                                                                                      owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2051>
                                                                                                                                 )
                                                                                                                     ]
                                                                                                ]
@@ -621,11 +621,11 @@
 ###  http://linkedgeodata.org/ontology/Dock
 <http://linkedgeodata.org/ontology/Dock> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q124282> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2442>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2442>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -648,11 +648,11 @@
                                                                                      ) ;
                                                                   rdf:type owl:Class
                                                                 ] ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3053>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3053>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -664,11 +664,11 @@
 ###  http://linkedgeodata.org/ontology/Dormitory
 <http://linkedgeodata.org/ontology/Dormitory> rdf:type owl:Class ;
                                               owl:equivalentClass <https://www.wikidata.org/wiki/Q847950> ,
-                                                                  [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                  [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                          [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                           owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_1020>
+                                                                                                                owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1020>
                                                                                                                           )
                                                                                                               ]
                                                                                          ]
@@ -680,11 +680,11 @@
 ###  http://linkedgeodata.org/ontology/Embassy
 <http://linkedgeodata.org/ontology/Embassy> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q3917681> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3016>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3016>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -696,11 +696,11 @@
 ###  http://linkedgeodata.org/ontology/Factory
 <http://linkedgeodata.org/ontology/Factory> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q83405> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2111>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2111>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -712,11 +712,11 @@
 ###  http://linkedgeodata.org/ontology/Farm
 <http://linkedgeodata.org/ontology/Farm> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q489357> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_1221>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_1221>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -743,11 +743,11 @@
 ###  http://linkedgeodata.org/ontology/FireStation
 <http://linkedgeodata.org/ontology/FireStation> rdf:type owl:Class ;
                                                 owl:equivalentClass <https://www.wikidata.org/wiki/Q1195942> ,
-                                                                    [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                    [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                            [ rdf:type owl:Restriction ;
-                                                                                             owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                             owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                  owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3072>
+                                                                                                                  owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3072>
                                                                                                                             )
                                                                                                                 ]
                                                                                            ]
@@ -759,11 +759,11 @@
 ###  http://linkedgeodata.org/ontology/Forester
 <http://linkedgeodata.org/ontology/Forester> rdf:type owl:Class ;
                                              owl:equivalentClass <https://www.wikidata.org/wiki/Q1425352> ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_1223>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_1223>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -775,11 +775,11 @@
 ###  http://linkedgeodata.org/ontology/Fuel
 <http://linkedgeodata.org/ontology/Fuel> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q205495> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2130>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2130>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -791,11 +791,11 @@
 ###  http://linkedgeodata.org/ontology/Garage
 <http://linkedgeodata.org/ontology/Garage> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q22733> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2463>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2463>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -818,11 +818,11 @@
                                                                                      ) ;
                                                                   rdf:type owl:Class
                                                                 ] ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2622>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2622>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -848,13 +848,13 @@
 
 ###  http://linkedgeodata.org/ontology/Graveyard
 <http://linkedgeodata.org/ontology/Graveyard> rdf:type owl:Class ;
-                                              owl:equivalentClass <http://semgis.de/aaa6#AX_Friedhof> ,
+                                              owl:equivalentClass <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Friedhof> ,
                                                                   <https://www.wikidata.org/wiki/Q39614> .
 
 
 ###  http://linkedgeodata.org/ontology/Harbour
 <http://linkedgeodata.org/ontology/Harbour> rdf:type owl:Class ;
-                                            owl:equivalentClass <http://semgis.de/aaa6#AX_Harbour> ,
+                                            owl:equivalentClass <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Harbour> ,
                                                                 <https://www.wikidata.org/wiki/Q283202> ,
                                                                 [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
                                                                                        [ rdf:type owl:Restriction ;
@@ -1247,11 +1247,11 @@
 ###  http://linkedgeodata.org/ontology/HorseRiding
 <http://linkedgeodata.org/ontology/HorseRiding> rdf:type owl:Class ;
                                                 owl:equivalentClass <https://www.wikidata.org/wiki/Q3503155> ,
-                                                                    [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                    [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                            [ rdf:type owl:Restriction ;
-                                                                                             owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                             owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                  owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2728>
+                                                                                                                  owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2728>
                                                                                                                             )
                                                                                                                 ]
                                                                                            ]
@@ -1274,11 +1274,22 @@
                                                                                       ) ;
                                                                    rdf:type owl:Class
                                                                  ] ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3051>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3051>
+                                                                                                                         )
+                                                                                                             ]
+                                                                                        ]
+                                                                                      ) ;
+                                                                   rdf:type owl:Class
+                                                                 ] ,
+																 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
+                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1151>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -1290,11 +1301,11 @@
 ###  http://linkedgeodata.org/ontology/Hostel
 <http://linkedgeodata.org/ontology/Hostel> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q1589077> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2072>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2072>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1306,11 +1317,11 @@
 ###  http://linkedgeodata.org/ontology/Hotel
 <http://linkedgeodata.org/ontology/Hotel> rdf:type owl:Class ;
                                           owl:equivalentClass <https://www.wikidata.org/wiki/Q27686> ,
-                                                              [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                              [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                       owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                            owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_1010>
+                                                                                                            owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1010>
                                                                                                                       )
                                                                                                           ]
                                                                                      ]
@@ -1322,11 +1333,11 @@
 ###  http://linkedgeodata.org/ontology/HuntingLodge
 <http://linkedgeodata.org/ontology/HuntingLodge> rdf:type owl:Class ;
                                                  owl:equivalentClass <https://www.wikidata.org/wiki/Q1678289> ,
-                                                                     [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                     [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                   owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2735>
+                                                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2735>
                                                                                                                              )
                                                                                                                  ]
                                                                                             ]
@@ -1339,22 +1350,22 @@
 <http://linkedgeodata.org/ontology/Insurance> rdf:type owl:Class ;
                                               owl:equivalentClass <https://www.wikidata.org/wiki/Q18152526> ,
                                                                   <https://www.wikidata.org/wiki/Q2143354> ,
-                                                                  [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                  [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                          [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                           owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2040>
+                                                                                                                owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2040>
                                                                                                                           )
                                                                                                               ]
                                                                                          ]
                                                                                        ) ;
                                                                     rdf:type owl:Class
                                                                   ] ,
-                                                                  [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                  [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                          [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                           owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2040>
+                                                                                                                owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2040>
                                                                                                                           )
                                                                                                               ]
                                                                                          ]
@@ -1366,11 +1377,11 @@
 ###  http://linkedgeodata.org/ontology/Kindergarten
 <http://linkedgeodata.org/ontology/Kindergarten> rdf:type owl:Class ;
                                                  owl:equivalentClass <https://www.wikidata.org/wiki/Q126807> ,
-                                                                     [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                     [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                   owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_1210>
+                                                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1210>
                                                                                                                              )
                                                                                                                  ]
                                                                                             ]
@@ -1382,11 +1393,11 @@
 ###  http://linkedgeodata.org/ontology/Kiosk
 <http://linkedgeodata.org/ontology/Kiosk> rdf:type owl:Class ;
                                           owl:equivalentClass <https://www.wikidata.org/wiki/Q693369> ,
-                                                              [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                              [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                       owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                            owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2055>
+                                                                                                            owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2055>
                                                                                                                       )
                                                                                                           ]
                                                                                      ]
@@ -1427,13 +1438,13 @@
 
 ###  http://linkedgeodata.org/ontology/LanduseFarm
 <http://linkedgeodata.org/ontology/LanduseFarm> rdf:type owl:Class ;
-                                                owl:equivalentClass <http://semgis.de/aaa6#AX_Landwirtschaft> ,
+                                                owl:equivalentClass <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landwirtschaft> ,
                                                                     <https://www.wikidata.org/wiki/Q3395383> .
 
 
 ###  http://linkedgeodata.org/ontology/LanduseForest
 <http://linkedgeodata.org/ontology/LanduseForest> rdf:type owl:Class ;
-                                                  owl:equivalentClass <http://semgis.de/aaa6#AX_Wald> ,
+                                                  owl:equivalentClass <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wald> ,
                                                                       <https://www.wikidata.org/wiki/Q4421> ,
                                                                       [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
                                                                                              [ rdf:type owl:Restriction ;
@@ -1481,11 +1492,11 @@
 ###  http://linkedgeodata.org/ontology/Library
 <http://linkedgeodata.org/ontology/Library> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q7075> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_1130>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1130>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -1497,11 +1508,11 @@
 ###  http://linkedgeodata.org/ontology/Lighthouse
 <http://linkedgeodata.org/ontology/Lighthouse> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q39715> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Turm>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1006>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1006>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -1528,11 +1539,11 @@
 ###  http://linkedgeodata.org/ontology/LookoutTower
 <http://linkedgeodata.org/ontology/LookoutTower> rdf:type owl:Class ;
                                                  owl:equivalentClass <https://www.wikidata.org/wiki/Q1440300> ,
-                                                                     [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Turm>
+                                                                     [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm>
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                   owl:oneOf ( <http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1003>
+                                                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1003>
                                                                                                                              )
                                                                                                                  ]
                                                                                             ]
@@ -1544,11 +1555,11 @@
 ###  http://linkedgeodata.org/ontology/Mall
 <http://linkedgeodata.org/ontology/Mall> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q11315> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2052>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2052>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -1560,11 +1571,11 @@
 ###  http://linkedgeodata.org/ontology/ManMadeStorage
 <http://linkedgeodata.org/ontology/ManMadeStorage> rdf:type owl:Class ;
                                                    owl:equivalentClass <https://www.wikidata.org/wiki/Q9158768> ,
-                                                                       [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                       [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                     owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2143>
+                                                                                                                     owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2143>
                                                                                                                                )
                                                                                                                    ]
                                                                                               ]
@@ -1576,11 +1587,11 @@
 ###  http://linkedgeodata.org/ontology/Market
 <http://linkedgeodata.org/ontology/Market> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q2080521> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3024>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3024>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1592,11 +1603,11 @@
 ###  http://linkedgeodata.org/ontology/Mill
 <http://linkedgeodata.org/ontology/Mill> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q44494> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2210>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2210>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -1608,11 +1619,11 @@
 ###  http://linkedgeodata.org/ontology/Mine
 <http://linkedgeodata.org/ontology/Mine> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q820477> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2171>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2171>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -1665,11 +1676,11 @@
                                                                                       ) ;
                                                                    rdf:type owl:Class
                                                                  ] ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Strasse>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strasse>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Widmung_Strasse_1301>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Widmung_Strasse_1301>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -1681,11 +1692,11 @@
 ###  http://linkedgeodata.org/ontology/Museum
 <http://linkedgeodata.org/ontology/Museum> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q33506> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3034>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3034>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1697,11 +1708,11 @@
 ###  http://linkedgeodata.org/ontology/Office
 <http://linkedgeodata.org/ontology/Office> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q1021645> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2020>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2020>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1713,11 +1724,11 @@
 ###  http://linkedgeodata.org/ontology/Palace
 <http://linkedgeodata.org/ontology/Palace> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q16560> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3031>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3031>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1744,11 +1755,11 @@
 ###  http://linkedgeodata.org/ontology/Parking
 <http://linkedgeodata.org/ontology/Parking> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q13218805> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2461>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2461>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -1760,11 +1771,11 @@
 ###  http://linkedgeodata.org/ontology/Pedestrian
 <http://linkedgeodata.org/ontology/Pedestrian> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q369730> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Platz>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Funktion_Fahrbahnachse_1808>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fahrbahnachse_1808>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -1787,11 +1798,11 @@
                                                                                       ) ;
                                                                    rdf:type owl:Class
                                                                  ] ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2056>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2056>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -1803,11 +1814,11 @@
 ###  http://linkedgeodata.org/ontology/Pier
 <http://linkedgeodata.org/ontology/Pier> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q863454> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich_1820>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich_1820>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -1819,11 +1830,11 @@
 ###  http://linkedgeodata.org/ontology/Pipeline
 <http://linkedgeodata.org/ontology/Pipeline> rdf:type owl:Class ;
                                              owl:equivalentClass <https://www.wikidata.org/wiki/Q5307561> ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Transportanlage>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Transportanlage>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Bauwerksfunktion_Transportanalage_1101>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Transportanalage_1101>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -1835,11 +1846,11 @@
 ###  http://linkedgeodata.org/ontology/Police
 <http://linkedgeodata.org/ontology/Police> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q86195> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3071>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3071>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1851,11 +1862,11 @@
 ###  http://linkedgeodata.org/ontology/PostOffice
 <http://linkedgeodata.org/ontology/PostOffice> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q35054> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3013>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3013>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -1972,11 +1983,11 @@
 ###  http://linkedgeodata.org/ontology/Prison
 <http://linkedgeodata.org/ontology/Prison> rdf:type owl:Class ;
                                            owl:equivalentClass <https://www.wikidata.org/wiki/Q40357> ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3075>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3075>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -1988,11 +1999,11 @@
 ###  http://linkedgeodata.org/ontology/PublicBuilding
 <http://linkedgeodata.org/ontology/PublicBuilding> rdf:type owl:Class ;
                                                    owl:equivalentClass <https://www.wikidata.org/wiki/Q294422> ,
-                                                                       [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                       [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                     owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3000>
+                                                                                                                     owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3000>
                                                                                                                                )
                                                                                                                    ]
                                                                                               ]
@@ -2184,11 +2195,11 @@
 ###  http://linkedgeodata.org/ontology/ResidentialBuilding
 <http://linkedgeodata.org/ontology/ResidentialBuilding> rdf:type owl:Class ;
                                                         owl:equivalentClass <https://www.wikidata.org/wiki/Q11755880> ,
-                                                                            [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                            [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                     owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                     owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                          owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_1010>
+                                                                                                                          owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1010>
                                                                                                                                     )
                                                                                                                         ]
                                                                                                    ]
@@ -2215,11 +2226,11 @@
 ###  http://linkedgeodata.org/ontology/Restaurant
 <http://linkedgeodata.org/ontology/Restaurant> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q11707> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2081>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2081>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -2231,11 +2242,11 @@
 ###  http://linkedgeodata.org/ontology/Rig
 <http://linkedgeodata.org/ontology/Rig> rdf:type owl:Class ;
                                         owl:equivalentClass <https://www.wikidata.org/wiki/Q5307561> ,
-                                                            [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Turm>
+                                                            [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm>
                                                                                    [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                     owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                          owl:oneOf ( <http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1011>
+                                                                                                          owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1011>
                                                                                                                     )
                                                                                                         ]
                                                                                    ]
@@ -2288,11 +2299,11 @@
                                                                                     ) ;
                                                                  rdf:type owl:Class
                                                                ] ,
-                                                               [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                        owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                             owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3021>
+                                                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3021>
                                                                                                                        )
                                                                                                            ]
                                                                                       ]
@@ -2315,11 +2326,11 @@
                                                                                        ) ;
                                                                     rdf:type owl:Class
                                                                   ] ,
-                                                                  [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                  [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                          [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                           owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3022>
+                                                                                                                owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3022>
                                                                                                                           )
                                                                                                               ]
                                                                                          ]
@@ -2331,11 +2342,11 @@
 ###  http://linkedgeodata.org/ontology/Shed
 <http://linkedgeodata.org/ontology/Shed> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q721931> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2723>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2723>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -2347,11 +2358,11 @@
 ###  http://linkedgeodata.org/ontology/Shop
 <http://linkedgeodata.org/ontology/Shop> rdf:type owl:Class ;
                                          owl:equivalentClass <https://www.wikidata.org/wiki/Q213441> ,
-                                                             [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                             [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                      owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                           owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2054>
+                                                                                                           owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2054>
                                                                                                                      )
                                                                                                          ]
                                                                                     ]
@@ -2364,11 +2375,11 @@
 <http://linkedgeodata.org/ontology/ShoppingCenter> rdf:type owl:Class ;
                                                    owl:equivalentClass <http://linkedgeodata.org/ontology/ShoppingCentre> ,
                                                                        <https://www.wikidata.org/wiki/Q11315> ,
-                                                                       [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                       [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                     owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2052>
+                                                                                                                     owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2052>
                                                                                                                                )
                                                                                                                    ]
                                                                                               ]
@@ -2398,7 +2409,7 @@
 
 ###  http://linkedgeodata.org/ontology/Sluice
 <http://linkedgeodata.org/ontology/Sluice> rdf:type owl:Class ;
-                                           owl:equivalentClass <http://semgis.de/aaa6#AX_Schleuse> ,
+                                           owl:equivalentClass <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schleuse> ,
                                                                <https://www.wikidata.org/wiki/Q105731> .
 
 
@@ -2431,11 +2442,11 @@
                                                                                         ) ;
                                                                      rdf:type owl:Class
                                                                    ] ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2522>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2522>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -2462,11 +2473,11 @@
 ###  http://linkedgeodata.org/ontology/SwimmingPool
 <http://linkedgeodata.org/ontology/SwimmingPool> rdf:type owl:Class ;
                                                  owl:equivalentClass <https://www.wikidata.org/wiki/Q1501> ,
-                                                                     [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                     [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                   owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3221>
+                                                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3221>
                                                                                                                              )
                                                                                                                  ]
                                                                                             ]
@@ -2523,11 +2534,11 @@
 ###  http://linkedgeodata.org/ontology/Theatre
 <http://linkedgeodata.org/ontology/Theatre> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q24354> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3032>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3032>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -2539,11 +2550,11 @@
 ###  http://linkedgeodata.org/ontology/Toilets
 <http://linkedgeodata.org/ontology/Toilets> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q7813355> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_2612>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2612>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -2555,11 +2566,11 @@
 ###  http://linkedgeodata.org/ontology/TourismZoo
 <http://linkedgeodata.org/ontology/TourismZoo> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q43501> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3263>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3263>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -2571,11 +2582,11 @@
 ###  http://linkedgeodata.org/ontology/Tourist
 <http://linkedgeodata.org/ontology/Tourist> rdf:type owl:Class ;
                                             owl:equivalentClass <https://www.wikidata.org/wiki/Q1587716> ,
-                                                                [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                         owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                              owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3290>
+                                                                                                              owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3290>
                                                                                                                         )
                                                                                                             ]
                                                                                        ]
@@ -2587,11 +2598,11 @@
 ###  http://linkedgeodata.org/ontology/Townhall
 <http://linkedgeodata.org/ontology/Townhall> rdf:type owl:Class ;
                                              owl:equivalentClass <https://www.wikidata.org/wiki/Q543654> ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3012>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3012>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -2603,11 +2614,11 @@
 ###  http://linkedgeodata.org/ontology/TrainStation
 <http://linkedgeodata.org/ontology/TrainStation> rdf:type owl:Class ;
                                                  owl:equivalentClass <https://www.wikidata.org/wiki/Q55488> ,
-                                                                     [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                     [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                             [ rdf:type owl:Restriction ;
-                                                                                              owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                   owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3091>
+                                                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3091>
                                                                                                                              )
                                                                                                                  ]
                                                                                             ]
@@ -2660,11 +2671,11 @@
                                                                                         ) ;
                                                                      rdf:type owl:Class
                                                                    ] ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_3023>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3023>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -2691,11 +2702,11 @@
 ###  http://linkedgeodata.org/ontology/WaterTower
 <http://linkedgeodata.org/ontology/WaterTower> rdf:type owl:Class ;
                                                owl:equivalentClass <https://www.wikidata.org/wiki/Q274153> ,
-                                                                   [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Turm>
+                                                                   [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                            owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                 owl:oneOf ( <http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1001>
+                                                                                                                 owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1001>
                                                                                                                            )
                                                                                                                ]
                                                                                           ]
@@ -2722,11 +2733,11 @@
 ###  http://linkedgeodata.org/ontology/Watermill
 <http://linkedgeodata.org/ontology/Watermill> rdf:type owl:Class ;
                                               owl:equivalentClass <https://www.wikidata.org/wiki/Q185187> ,
-                                                                  [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                  [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                          [ rdf:type owl:Restriction ;
-                                                                                           owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                           owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2212>
+                                                                                                                owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2212>
                                                                                                                           )
                                                                                                               ]
                                                                                          ]
@@ -2753,11 +2764,11 @@
 ###  http://linkedgeodata.org/ontology/Windmill
 <http://linkedgeodata.org/ontology/Windmill> rdf:type owl:Class ;
                                              owl:equivalentClass <https://www.wikidata.org/wiki/Q38720> ,
-                                                                 [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                 [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                         [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                          owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                               owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeudefunktion_2211>
+                                                                                                               owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2211>
                                                                                                                          )
                                                                                                              ]
                                                                                         ]
@@ -2769,11 +2780,11 @@
 ###  http://linkedgeodata.org/ontology/Waste+disposal
 <http://linkedgeodata.org/ontology/Waste+disposal> rdf:type owl:Class ;
                                                    owl:equivalentClass <https://www.wikidata.org/wiki/Q23541247> ,
-                                                                       [ owl:intersectionOf ( <http://semgis.de/aaa6#AX_Gebaeude>
+                                                                       [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                owl:onProperty <http://semgis.de/aaa6#gebaeudefunktion> ;
+                                                                                                owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
                                                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                     owl:oneOf ( <http://semgis.de/aaa6#AX_Gebaeude_3620>
+                                                                                                                     owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3620>
                                                                                                                                )
                                                                                                                    ]
                                                                                               ]
@@ -2782,56 +2793,56 @@
                                                                        ] .
 
 
-###  http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich
-<http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Fliessgewaesser
-<http://semgis.de/aaa6#AX_Fliessgewaesser> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Friedhof
-<http://semgis.de/aaa6#AX_Friedhof> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Friedhof
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Friedhof> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude
-<http://semgis.de/aaa6#AX_Gebaeude> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Harbour
-<http://semgis.de/aaa6#AX_Harbour> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Harbour
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Harbour> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Landwirtschaft
-<http://semgis.de/aaa6#AX_Landwirtschaft> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landwirtschaft
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landwirtschaft> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Platz
-<http://semgis.de/aaa6#AX_Platz> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Schleuse
-<http://semgis.de/aaa6#AX_Schleuse> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schleuse
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schleuse> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Strasse
-<http://semgis.de/aaa6#AX_Strasse> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strasse
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strasse> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Transportanlage
-<http://semgis.de/aaa6#AX_Transportanlage> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Transportanlage
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Transportanlage> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Turm
-<http://semgis.de/aaa6#AX_Turm> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Wald
-<http://semgis.de/aaa6#AX_Wald> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wald
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wald> rdf:type owl:Class .
 
 
-###  http://semgis.de/aaa6#AX_Weg
-<http://semgis.de/aaa6#AX_Weg> rdf:type owl:Class .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Weg
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Weg> rdf:type owl:Class .
 
 
 ###  https://www.wikidata.org/wiki/Q1021645
@@ -3250,336 +3261,338 @@
 <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_1_3_6_Forestry> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich_1800
-<http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich_1800> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich_1800
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich_1800> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich_1820
-<http://semgis.de/aaa6#AX_BauwerkImVerkehrsbereich_1820> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich_1820
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich_1820> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Bauwerksfunktion_Transportanalage_1101
-<http://semgis.de/aaa6#AX_Bauwerksfunktion_Transportanalage_1101> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Transportanalage_1101
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Transportanalage_1101> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1001
-<http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1001> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1001
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1001> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1003
-<http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1003> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1003
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1003> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1006
-<http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1006> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1006
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1006> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1011
-<http://semgis.de/aaa6#AX_Bauwerksfunktion_Turm_1011> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1011
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1011> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Funktion_Fahrbahnachse_1808
-<http://semgis.de/aaa6#AX_Funktion_Fahrbahnachse_1808> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fahrbahnachse_1808
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fahrbahnachse_1808> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Funktion_Fliessgewaesser_8300
-<http://semgis.de/aaa6#AX_Funktion_Fliessgewaesser_8300> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fliessgewaesser_8300
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fliessgewaesser_8300> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Funktion_Weg_1106
-<http://semgis.de/aaa6#AX_Funktion_Weg_1106> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Weg_1106
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Weg_1106> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_1221
-<http://semgis.de/aaa6#AX_Gebaeude_1221> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_1221
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_1221> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_1223
-<http://semgis.de/aaa6#AX_Gebaeude_1223> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_1223
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_1223> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2020
-<http://semgis.de/aaa6#AX_Gebaeude_2020> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2020
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2020> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2040
-<http://semgis.de/aaa6#AX_Gebaeude_2040> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2040
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2040> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2052
-<http://semgis.de/aaa6#AX_Gebaeude_2052> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2052
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2052> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2055
-<http://semgis.de/aaa6#AX_Gebaeude_2055> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2055
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2055> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2093
-<http://semgis.de/aaa6#AX_Gebaeude_2093> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2093
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2093> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2094
-<http://semgis.de/aaa6#AX_Gebaeude_2094> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2094
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2094> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2100
-<http://semgis.de/aaa6#AX_Gebaeude_2100> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2100
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2100> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2130
-<http://semgis.de/aaa6#AX_Gebaeude_2130> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2130
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2130> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2143
-<http://semgis.de/aaa6#AX_Gebaeude_2143> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2143
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2143> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2442
-<http://semgis.de/aaa6#AX_Gebaeude_2442> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2442
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2442> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2461
-<http://semgis.de/aaa6#AX_Gebaeude_2461> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2461
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2461> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2522
-<http://semgis.de/aaa6#AX_Gebaeude_2522> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2522
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2522> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2612
-<http://semgis.de/aaa6#AX_Gebaeude_2612> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2612
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2612> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2622
-<http://semgis.de/aaa6#AX_Gebaeude_2622> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2622
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2622> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2723
-<http://semgis.de/aaa6#AX_Gebaeude_2723> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2723
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2723> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2726
-<http://semgis.de/aaa6#AX_Gebaeude_2726> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2726
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2726> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_2728
-<http://semgis.de/aaa6#AX_Gebaeude_2728> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2728
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_2728> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3000
-<http://semgis.de/aaa6#AX_Gebaeude_3000> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3000
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3000> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3012
-<http://semgis.de/aaa6#AX_Gebaeude_3012> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3012
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3012> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3015
-<http://semgis.de/aaa6#AX_Gebaeude_3015> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3015
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3015> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3022
-<http://semgis.de/aaa6#AX_Gebaeude_3022> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3022
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3022> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3024
-<http://semgis.de/aaa6#AX_Gebaeude_3024> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3024
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3024> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3033
-<http://semgis.de/aaa6#AX_Gebaeude_3033> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3033
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3033> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3043
-<http://semgis.de/aaa6#AX_Gebaeude_3043> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3043
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3043> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3044
-<http://semgis.de/aaa6#AX_Gebaeude_3044> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3044
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3044> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3053
-<http://semgis.de/aaa6#AX_Gebaeude_3053> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3053
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3053> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3091
-<http://semgis.de/aaa6#AX_Gebaeude_3091> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3091
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3091> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3092
-<http://semgis.de/aaa6#AX_Gebaeude_3092> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3092
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3092> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3221
-<http://semgis.de/aaa6#AX_Gebaeude_3221> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3221
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3221> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3263
-<http://semgis.de/aaa6#AX_Gebaeude_3263> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3263
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3263> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3290
-<http://semgis.de/aaa6#AX_Gebaeude_3290> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3290
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3290> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_3620
-<http://semgis.de/aaa6#AX_Gebaeude_3620> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3620
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_3620> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeude_9998
-<http://semgis.de/aaa6#AX_Gebaeude_9998> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_9998
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude_9998> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_1010
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_1010> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1010
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1010> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_1020
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_1020> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1020
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1020> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_1130
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_1130> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1130
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1130> rdf:type owl:NamedIndividual .
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1151
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1151> rdf:type owl:NamedIndividual .
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_1210
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_1210> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1210
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1210> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_1410
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_1410> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1410
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1410> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2030
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2030> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2030
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2030> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2040
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2040> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2040
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2040> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2051
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2051> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2051
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2051> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2052
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2052> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2052
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2052> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2054
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2054> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2054
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2054> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2056
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2056> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2056
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2056> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2072
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2072> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2072
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2072> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2081
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2081> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2081
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2081> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2092
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2092> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2092
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2092> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2111
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2111> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2111
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2111> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2113
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2113> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2113
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2113> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2131
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2131> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2131
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2131> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2171
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2171> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2171
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2171> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2210
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2210> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2210
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2210> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2211
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2211> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2211
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2211> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2212
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2212> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2212
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2212> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2463
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2463> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2463
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2463> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_2735
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_2735> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2735
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2735> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3013
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3013> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3013
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3013> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3016
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3016> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3016
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3016> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3021
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3021> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3021
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3021> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3023
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3023> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3023
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3023> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3031
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3031> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3031
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3031> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3032
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3032> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3032
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3032> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3034
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3034> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3034
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3034> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3041
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3041> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3041
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3041> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3051
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3051> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3051
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3051> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3071
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3071> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3071
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3071> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3072
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3072> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3072
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3072> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3073
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3073> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3073
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3073> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3074
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3074> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3074
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3074> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Gebaeudefunktion_3075
-<http://semgis.de/aaa6#AX_Gebaeudefunktion_3075> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3075
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3075> rdf:type owl:NamedIndividual .
 
 
-###  http://semgis.de/aaa6#AX_Widmung_Strasse_1301
-<http://semgis.de/aaa6#AX_Widmung_Strasse_1301> rdf:type owl:NamedIndividual .
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Widmung_Strasse_1301
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Widmung_Strasse_1301> rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
