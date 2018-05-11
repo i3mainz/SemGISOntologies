@@ -545,7 +545,8 @@
 
 ###  http://linkedgeodata.org/ontology/Clinic
 <http://linkedgeodata.org/ontology/Clinic> rdf:type owl:Class ;
-                                           owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
+										   owl:equivalentClass <https://www.wikidata.org/wiki/Q1774898> ,
+                                           [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
                                                                                       [ rdf:type owl:Restriction ;
                                                                                         owl:onProperty <http://inspire.ec.europa.eu/schemas/elu/4.0#hilucsLandUse> ;
                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
@@ -1655,6 +1656,7 @@
 ###  http://linkedgeodata.org/ontology/Mall
 <http://linkedgeodata.org/ontology/Mall> rdf:type owl:Class ;
                                          owl:equivalentClass <http://www.wikidata.org/entity/Q11315> ,
+										 <http://dbpedia.org/ontology/ShoppingMall>,
                                                              [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude>
                                                                                     [ rdf:type owl:Restriction ;
                                                                                       owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
@@ -1842,7 +1844,9 @@
 
 ###  http://linkedgeodata.org/ontology/Park
 <http://linkedgeodata.org/ontology/Park> rdf:type owl:Class ;
-                                         owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
+										 owl:equivalentClass <https://www.wikidata.org/wiki/Q22698> ,
+										  <http://dbpedia.org/ontology/Park> ,
+                                         [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
                                                                                     [ rdf:type owl:Restriction ;
                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/elu/4.0#hilucsLandUse> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
@@ -2117,7 +2121,8 @@
 
 ###  http://linkedgeodata.org/ontology/Rail
 <http://linkedgeodata.org/ontology/Rail> rdf:type owl:Class ;
-                                         owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
+										 owl:equivalentClass <https://www.wikidata.org/wiki/Q633423>,
+                                         [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject>
                                                                                     [ rdf:type owl:Restriction ;
                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/elu/4.0#hilucsLandUse> ;
                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
@@ -2825,6 +2830,7 @@
 ###  http://linkedgeodata.org/ontology/WaterTower
 <http://linkedgeodata.org/ontology/WaterTower> rdf:type owl:Class ;
                                                owl:equivalentClass <http://www.wikidata.org/entity/Q274153> ,
+											   <http://dbpedia.org/ontology/WaterTower>,
                                                                    [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm>
                                                                                           [ rdf:type owl:Restriction ;
                                                                                             owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion> ;
