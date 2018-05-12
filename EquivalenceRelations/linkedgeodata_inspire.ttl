@@ -118,9 +118,20 @@ dbo:Airport rdf:type owl:Class ;
 dbo:Bank rdf:type owl:Class ;
          owl:equivalentClass lgd:Bank .
 		 
-		 		 
+lgd:Observatory rdf:type owl:Class ;
+		  owl:equivalentClass <https://www.wikidata.org/wiki/Q62832> .
+		 
 lgd:Silo rdf:type owl:Class ;
 		 owl:equivalentClass <http://www.wikidata.org/entity/Q213643> .
+
+lgd:Island rdf:type owl:Class ;
+		 owl:equivalentClass <https://www.wikidata.org/wiki/Q23442> .
+		 
+lgd:Aquarium rdf:type owl:Class ;
+		 owl:equivalentClass <https://www.wikidata.org/wiki/Q2281788> .
+		 
+aaa6:AX_Polder rdf:type owl:Class ;
+			owl:equivalentClass <https://www.wikidata.org/wiki/Q106259> .
 		 
 lgd:Chimney rdf:type owl:Class ;		 
 		 owl:equivalentClass <http://www.wikidata.org/entity/Q170477> .
@@ -526,8 +537,18 @@ lgd:Bridge rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ] ,
+                               [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/hy-p/4.0#ManMadeObject>
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#CrossingTypeValue> ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CrossingTypeValue/bridge>
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] .
-
 
 ###  http://linkedgeodata.org/ontology/BuildingBarn
 lgd:BuildingBarn rdf:type owl:Class ;
@@ -621,9 +642,35 @@ lgd:Canal rdf:type owl:Class ;
 
 lgd:City rdf:type owl:Class ;
 		 owl:equivalentClass <http://www.wikidata.org/entity/Q515>, <http://dbpedia.org/ontology/City> .
+		 
+lgd:Country rdf:type owl:Class ;
+		 owl:equivalentClass <https://www.wikidata.org/wiki/Q6256>, <http://dbpedia.org/ontology/Country> .
 
 lgd:Stadium rdf:type owl:Class ;
-			owl:equivalentClass <http://www.wikidata.org/entity/Q483110>, <http://dbpedia.org/ontology/Stadium> .
+			owl:equivalentClass <http://www.wikidata.org/entity/Q483110>, <http://dbpedia.org/ontology/Stadium> ,
+			                               [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature> ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium>
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
+			                               [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkOderAnlageFuerSportFreizeitUndErholung>
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature> ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerSportFreizeitUndErholung_1440>
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .							   
+							   
 
 lgd:Bakery rdf:type owl:Class ;
 			owl:equivalentClass <http://www.wikidata.org/entity/Q274393> .	
@@ -2314,11 +2361,23 @@ lgd:PowerPylon rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/PowerStation
 lgd:PowerStation rdf:type owl:Class ;
+				 owl:equivalentClass <http://dbpedia.org/ontology/PowerStation> , <https://www.wikidata.org/wiki/Q159719> ;
                  owl:equivalentClass [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty inspire-elu:hilucsLandUse ;
                                                               owl:someValuesFrom [ rdf:type owl:Class ;
                                                                                    owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_1_ElectricityGasAndThermalPowerDistributionServices>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+				                 owl:equivalentClass [ owl:intersectionOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_IndustrieUndGewerbeflaeche>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#funktion> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_IndustrieUndGewerbeflaeche_2530>
                                                                                              )
                                                                                  ]
                                                             ]
@@ -2806,6 +2865,7 @@ lgd:Sluice rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Stream
 lgd:Stream rdf:type owl:Class ;
+			owl:equivalentClass <https://www.wikidata.org/wiki/Q47521> ;
            owl:equivalentClass [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty inspire-elu:hilucsLandUse ;
