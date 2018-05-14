@@ -15,13 +15,14 @@
 @prefix inspire-base: <http://inspire.ec.europa.eu/schemas/base/4.0#> .
 @prefix inspire-code: <http://inspire.ec.europa.eu/codelist/> .
 @prefix inspire-hy-n: <http://inspire.ec.europa.eu/schemas/hy-n/4.0#> .
+@prefix inspire-bubase: <http://inspire.ec.europa.eu/schemas/bu-base/4.0#> .
 @base <http://semgis.de/INSPIRELGD> .
 
 <http://semgis.de/INSPIRELGD> rdf:type owl:Ontology ;
                                rdfs:seeAlso "http://www.xplanungwiki.de" ;
                                <http://purl.org/dc/terms/title> "Interlinkings Between INSPIRE 4, AAA-Data, LinkedGeoData, DBPedia and Wikidata" ;
-                               <http://purl.org/dc/terms/publisher> "i3Mainz" ;
                                <http://purl.org/dc/terms/subject> "Interlinkings Between INSPIRE 4, AAA-Data, LinkedGeoData, DBPedia and Wikidata" ;
+                               <http://purl.org/dc/terms/publisher> "i3Mainz" ;
                                rdfs:comment "Interlinkings Between INSPIRE 4, AAA-Data, LinkedGeoData, DBPedia and Wikidata" ;
                                <http://purl.org/dc/terms/description> "Interlinkings Between INSPIRE 4, AAA-Data, LinkedGeoData, DBPedia and Wikidata" ;
                                <http://purl.org/dc/terms/creator> "Timo Homburg" ;
@@ -59,11 +60,11 @@ inspire-base:validFrom rdf:type owl:ObjectProperty ;
 
 
 ###  http://inspire.ec.europa.eu/schemas/bu-base/4.0#CrossingTypeValue
-<http://inspire.ec.europa.eu/schemas/bu-base/4.0#CrossingTypeValue> rdf:type owl:ObjectProperty .
+inspire-bubase:CrossingTypeValue rdf:type owl:ObjectProperty .
 
 
 ###  http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature
-<http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature> rdf:type owl:ObjectProperty .
+inspire-bubase:buildingNature rdf:type owl:ObjectProperty .
 
 
 ###  http://inspire.ec.europa.eu/schemas/cp/4.0#areaValue
@@ -149,6 +150,11 @@ dbo:Bridge rdf:type owl:Class ;
            owl:equivalentClass lgd:Bridge .
 
 
+###  http://dbpedia.org/ontology/Building
+dbo:Building rdf:type owl:Class ;
+             owl:equivalentClass aaa6:AX_Gebaeude .
+
+
 ###  http://dbpedia.org/ontology/Canal
 dbo:Canal rdf:type owl:Class ;
           owl:equivalentClass lgd:Canal .
@@ -162,6 +168,11 @@ dbo:Casino rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/Castle
 dbo:Castle rdf:type owl:Class ;
            owl:equivalentClass lgd:Castle .
+
+
+###  http://dbpedia.org/ontology/Cemetery
+dbo:Cemetery rdf:type owl:Class ;
+             owl:equivalentClass lgd:Graveyard .
 
 
 ###  http://dbpedia.org/ontology/Church
@@ -219,6 +230,11 @@ dbo:Hotel rdf:type owl:Class ;
           owl:equivalentClass lgd:Hotel .
 
 
+###  http://dbpedia.org/ontology/Island
+dbo:Island rdf:type owl:Class ;
+           owl:equivalentClass lgd:Island .
+
+
 ###  http://dbpedia.org/ontology/Library
 dbo:Library rdf:type owl:Class ;
             owl:equivalentClass lgd:Library .
@@ -242,6 +258,11 @@ dbo:Mine rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/Monastery
 dbo:Monastery rdf:type owl:Class ;
               owl:equivalentClass lgd:Monastery .
+
+
+###  http://dbpedia.org/ontology/Mosque
+dbo:Mosque rdf:type owl:Class ;
+           owl:equivalentClass wd:Q32815 .
 
 
 ###  http://dbpedia.org/ontology/MountainPass
@@ -299,6 +320,11 @@ dbo:River rdf:type owl:Class ;
           owl:equivalentClass lgd:River .
 
 
+###  http://dbpedia.org/ontology/Road
+dbo:Road rdf:type owl:Class ;
+         owl:equivalentClass <http://inspire.ec.europa.eu/schemas/tn-ro/4.0#Road> .
+
+
 ###  http://dbpedia.org/ontology/School
 dbo:School rdf:type owl:Class ;
            owl:equivalentClass lgd:School .
@@ -312,6 +338,11 @@ dbo:ShoppingMall rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/Stadium
 dbo:Stadium rdf:type owl:Class ;
             owl:equivalentClass lgd:Stadium .
+
+
+###  http://dbpedia.org/ontology/Temple
+dbo:Temple rdf:type owl:Class ;
+           owl:equivalentClass wd:Q44539 .
 
 
 ###  http://dbpedia.org/ontology/Theatre
@@ -337,6 +368,11 @@ dbo:Watermill rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/Windmill
 dbo:Windmill rdf:type owl:Class ;
              owl:equivalentClass lgd:Windmill .
+
+
+###  http://dbpedia.org/ontology/Zoo
+dbo:Zoo rdf:type owl:Class ;
+        owl:equivalentClass lgd:TourismZoo .
 
 
 ###  http://inspire.ec.europa.eu/schemas/am/4.0#AdministrativeBoundary
@@ -372,7 +408,7 @@ inspire-am:Condominium rdf:type owl:Class ;
 
 
 ###  http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding
-<http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding> rdf:type owl:Class .
+inspire-bubase:AbstractBuilding rdf:type owl:Class .
 
 
 ###  http://inspire.ec.europa.eu/schemas/bu/4.0#ControlTower
@@ -428,7 +464,8 @@ inspire-hy-n:WatercourseLink rdf:type owl:Class ;
 
 ###  http://inspire.ec.europa.eu/schemas/tn-ro/4.0#Road
 <http://inspire.ec.europa.eu/schemas/tn-ro/4.0#Road> rdf:type owl:Class ;
-                                                     owl:equivalentClass aaa6:AX_Strasse .
+                                                     owl:equivalentClass aaa6:AX_Strasse ,
+                                                                         wd:Q34442 .
 
 
 ###  http://linkedgeodata.org/ontology/AbandonedStation
@@ -463,62 +500,8 @@ lgd:Aeroway rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] .
-lgd:Crane rdf:type owl:Class ;
-            owl:equivalentClass wd:Q178692 ,
-                                [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:bauwerksfunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1330
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] .
-lgd:Dock rdf:type owl:Class ;
-            owl:equivalentClass wd:Q124282 ,
-                                [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:bauwerksfunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1340
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] .
-								
-wd:Q181485 rdf:type owl:Class ;
-			rdfs:label "Blast Furnace"@en ;
-            owl:equivalentClass 
-                                [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:bauwerksfunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1350
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] .
-wd:Q193886 rdf:type owl:Class ;
-			rdfs:label "Cooling Tower"@en ;
-            owl:equivalentClass 
-                                [ owl:intersectionOf ( aaa6:AX_Turm
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:bauwerksfunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_Turm_1005
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] .
-								
+
+
 ###  http://linkedgeodata.org/ontology/AerowayGate
 lgd:AerowayGate rdf:type owl:Class ;
                 owl:equivalentClass [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
@@ -546,17 +529,18 @@ lgd:AerowayTower rdf:type owl:Class ;
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
-                                     ] , [ owl:intersectionOf ( aaa6:AX_Turm
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:gebaeudefunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_Turm_1004
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] .
+                                     ] ,
+                                     [ owl:intersectionOf ( aaa6:AX_Turm
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty aaa6:gebaeudefunktion ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( aaa6:AX_Bauwerksfunktion_Turm_1004
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://linkedgeodata.org/ontology/Airport
@@ -598,7 +582,18 @@ lgd:Antenna rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Aquarium
 lgd:Aquarium rdf:type owl:Class ;
-             owl:equivalentClass wd:Q2281788 .
+             owl:equivalentClass wd:Q2281788 ,
+                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_3262
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
 
 
 ###  http://linkedgeodata.org/ontology/Bakery
@@ -641,6 +636,22 @@ lgd:Barracks rdf:type owl:Class ;
                                                           owl:onProperty aaa6:gebaeudefunktion ;
                                                           owl:someValuesFrom [ rdf:type owl:Class ;
                                                                                owl:oneOf ( aaa6:AX_Gebaeudefunktion_3073
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+
+
+###  http://linkedgeodata.org/ontology/BasicHut
+lgd:BasicHut rdf:type owl:Class ;
+             owl:equivalentClass wd:Q182676 ,
+                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_3281
                                                                                          )
                                                                              ]
                                                         ]
@@ -711,7 +722,7 @@ lgd:Bridge rdf:type owl:Class ;
            owl:equivalentClass wd:Q12280 ,
                                [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/hy-p/4.0#ManMadeObject>
                                                       [ rdf:type owl:Restriction ;
-                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#CrossingTypeValue> ;
+                                                        owl:onProperty inspire-bubase:CrossingTypeValue ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CrossingTypeValue/bridge>
                                                                                        )
@@ -779,6 +790,22 @@ lgd:BuildingCommercial rdf:type owl:Class ;
                                                                 ) ;
                                              rdf:type owl:Class
                                            ] .
+
+
+###  http://linkedgeodata.org/ontology/BuildingGarage
+lgd:BuildingGarage rdf:type owl:Class ;
+                   owl:equivalentClass wd:Q2431970 ,
+                                       [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty aaa6:gebaeudefunktion ;
+                                                                owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                     owl:oneOf ( aaa6:AX_Gebaeudefunktion_2465
+                                                                                               )
+                                                                                   ]
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] .
 
 
 ###  http://linkedgeodata.org/ontology/BuildingUnknown
@@ -955,7 +982,8 @@ lgd:Church rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ;
+           rdfs:subClassOf lgd:PlaceOfWorship .
 
 
 ###  http://linkedgeodata.org/ontology/ChurchHall
@@ -1089,6 +1117,38 @@ lgd:Courthouse rdf:type owl:Class ;
                                    ] .
 
 
+###  http://linkedgeodata.org/ontology/Crane
+lgd:Crane rdf:type owl:Class ;
+          owl:equivalentClass wd:Q178692 ,
+                              [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:bauwerksfunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1330
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+
+
+###  http://linkedgeodata.org/ontology/Crematorium
+lgd:Crematorium rdf:type owl:Class ;
+                owl:equivalentClass wd:Q157570 ,
+                                    [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty aaa6:gebaeudefunktion ;
+                                                             owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                  owl:oneOf ( aaa6:AX_Gebaeudefunktion_3082
+                                                                                            )
+                                                                                ]
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .
+
+
 ###  http://linkedgeodata.org/ontology/Cycleway
 lgd:Cycleway rdf:type owl:Class ;
              owl:equivalentClass wd:Q221722 ,
@@ -1175,6 +1235,17 @@ lgd:Ditch rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Dock
 lgd:Dock rdf:type owl:Class ;
          owl:equivalentClass wd:Q124282 ,
+                             [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty aaa6:bauwerksfunktion ;
+                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                           owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1340
+                                                                                     )
+                                                                         ]
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ,
                              [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                     [ rdf:type owl:Restriction ;
                                                       owl:onProperty aaa6:gebaeudefunktion ;
@@ -1186,6 +1257,22 @@ lgd:Dock rdf:type owl:Class ;
                                                   ) ;
                                rdf:type owl:Class
                              ] .
+
+
+###  http://linkedgeodata.org/ontology/Doctor
+lgd:Doctor rdf:type owl:Class ;
+           owl:equivalentClass wd:Q718966 ,
+                               [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_1220
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Doctors
@@ -2706,7 +2793,8 @@ lgd:PowerSwitch rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/PowerTower
 lgd:PowerTower rdf:type owl:Class ;
-               owl:equivalentClass wd:Q914711,[ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
+               owl:equivalentClass wd:Q914711 ,
+                                   [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty inspire-elu:hilucsLandUse ;
                                                             owl:someValuesFrom [ rdf:type owl:Class ;
@@ -2717,30 +2805,19 @@ lgd:PowerTower rdf:type owl:Class ;
                                                         ) ;
                                      rdf:type owl:Class
                                    ] ,
-                               [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:gebaeudefunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1250
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
-lgd:Telescope rdf:type owl:Class ;
-               owl:equivalentClass wd:Q184356,
-                               [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:gebaeudefunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1280
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
+                                   [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty aaa6:gebaeudefunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1250
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+
+
 ###  http://linkedgeodata.org/ontology/Preschool
 lgd:Preschool rdf:type owl:Class ;
               owl:equivalentClass wd:Q1076052 .
@@ -3217,12 +3294,28 @@ lgd:Sluice rdf:type owl:Class ;
                                wd:Q105731 .
 
 
+###  http://linkedgeodata.org/ontology/SportsCentre
+lgd:SportsCentre rdf:type owl:Class ;
+                 owl:equivalentClass wd:Q14092 ,
+                                     [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty aaa6:gebaeudefunktion ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( aaa6:AX_Gebaeudefunktion_3211
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
+
+
 ###  http://linkedgeodata.org/ontology/Stadium
 lgd:Stadium rdf:type owl:Class ;
             owl:equivalentClass wd:Q483110 ,
-                                [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                [ owl:intersectionOf ( inspire-bubase:AbstractBuilding
                                                        [ rdf:type owl:Restriction ;
-                                                         owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature> ;
+                                                         owl:onProperty inspire-bubase:buildingNature ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
                                                                               owl:oneOf ( <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium>
                                                                                         )
@@ -3233,7 +3326,7 @@ lgd:Stadium rdf:type owl:Class ;
                                 ] ,
                                 [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung
                                                        [ rdf:type owl:Restriction ;
-                                                         owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature> ;
+                                                         owl:onProperty inspire-bubase:buildingNature ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
                                                                               owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerSportFreizeitUndErholung_1440
                                                                                         )
@@ -3350,6 +3443,22 @@ lgd:Taxiway rdf:type owl:Class ;
                                 ] .
 
 
+###  http://linkedgeodata.org/ontology/Telescope
+lgd:Telescope rdf:type owl:Class ;
+              owl:equivalentClass wd:Q184356 ,
+                                  [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty aaa6:gebaeudefunktion ;
+                                                           owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1280
+                                                                                          )
+                                                                              ]
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] .
+
+
 ###  http://linkedgeodata.org/ontology/Terminal
 lgd:Terminal rdf:type owl:Class ;
              owl:equivalentClass wd:Q849706 ,
@@ -3411,6 +3520,22 @@ lgd:Toilets rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] .
+
+
+###  http://linkedgeodata.org/ontology/TourismInformation
+lgd:TourismInformation rdf:type owl:Class ;
+                       owl:equivalentClass wd:Q1587716 ,
+                                           [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty aaa6:gebaeudefunktion ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( aaa6:AX_Gebaeudefunktion_3290
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] .
 
 
 ###  http://linkedgeodata.org/ontology/TourismZoo
@@ -3717,6 +3842,10 @@ aaa6:AX_BauwerkImVerkehrsbereich rdf:type owl:Class ;
                                  rdfs:subClassOf gml:AbstractFeature .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
+aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe rdf:type owl:Class .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkOderAnlageFuerSportFreizeitUndErholung
 aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung rdf:type owl:Class .
 
@@ -3739,6 +3868,10 @@ aaa6:AX_Bundesland rdf:type owl:Class ;
 aaa6:AX_DammWallDeich rdf:type owl:Class .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinrichtungenFuerDenSchiffsverkehr
+aaa6:AX_EinrichtungenFuerDenSchiffsverkehr rdf:type owl:Class .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser
 aaa6:AX_Fliessgewaesser rdf:type owl:Class .
 
@@ -3752,7 +3885,8 @@ aaa6:AX_Friedhof rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude
-aaa6:AX_Gebaeude rdf:type owl:Class .
+aaa6:AX_Gebaeude rdf:type owl:Class ;
+                 owl:equivalentClass wd:Q41176 .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebiet_Bundesland
@@ -3912,6 +4046,45 @@ gml:AbstractFeature rdf:type owl:Class .
 wd:Q1021645 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q10482023
+wd:Q10482023 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_2521
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "electricity plant"@en .
+lgd:ClubHouse rdf:type owl:Class ;
+             owl:equivalentClass wd:Q1103285, [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_2521
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+lgd:StationEntrance rdf:type owl:Class ;
+             owl:equivalentClass wd:Q1339195, [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_3090
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+
 ###  http://www.wikidata.org/entity/Q1048525
 wd:Q1048525 rdf:type owl:Class .
 
@@ -4000,6 +4173,22 @@ wd:Q124282 rdf:type owl:Class .
 wd:Q1248784 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1251750
+wd:Q1251750 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2114
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Distillery"@en .
+
+
 ###  http://www.wikidata.org/entity/Q12518
 wd:Q12518 rdf:type owl:Class .
 
@@ -4010,6 +4199,22 @@ wd:Q1267889 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q126807
 wd:Q126807 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1291673
+wd:Q1291673 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2141
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Cool Warehouse"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1303167
@@ -4052,8 +4257,56 @@ wd:Q133215 rdf:type owl:Class .
 wd:Q133346 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1362225
+wd:Q1362225 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2142
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Warehouse"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1364150
 wd:Q1364150 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1365704
+wd:Q1365704 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2422
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Roundhouse"@de .
+
+
+###  http://www.wikidata.org/entity/Q1371789
+wd:Q1371789 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_1311
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Holiday Home"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1399349
@@ -4088,6 +4341,10 @@ wd:Q1408777 rdf:type owl:Class ;
             rdfs:label "Festplatz"@en .
 
 
+###  http://www.wikidata.org/entity/Q14092
+wd:Q14092 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q1424016
 wd:Q1424016 rdf:type owl:Class .
 
@@ -4100,9 +4357,66 @@ wd:Q1425352 rdf:type owl:Class .
 wd:Q1440300 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q14524070
+wd:Q14524070 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_2213
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Schöpfwerk"@de .
+
+
 ###  http://www.wikidata.org/entity/Q148571
 wd:Q148571 rdf:type owl:Class .
 
+
+###  http://www.wikidata.org/entity/Q1495738
+wd:Q1495738 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2571
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Gasworks"@en .
+wd:Q573607 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_3019
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Revenue service"@en .
+wd:Q2385804 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_3020
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Educational Institution"@en .
 
 ###  http://www.wikidata.org/entity/Q1499928
 wd:Q1499928 rdf:type owl:Class .
@@ -4114,6 +4428,10 @@ wd:Q1501 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q152810
 wd:Q152810 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q157570
+wd:Q157570 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q1587716
@@ -4176,28 +4494,120 @@ wd:Q16980762 rdf:type owl:Class .
 wd:Q170477 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1722438
+wd:Q1722438 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_3064
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Obdachlosenheim"@de .
+
+
 ###  http://www.wikidata.org/entity/Q1730505
 wd:Q1730505 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1739809
+wd:Q1739809 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2529
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "boiler house"@en .
 
 
 ###  http://www.wikidata.org/entity/Q174814
 wd:Q174814 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q17485533
+wd:Q17485533 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_EinrichtungenFuerDenSchiffsverkehr
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Art_EinrichtungenFuerDenSchiffsverkehr_1420
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Leuchtfeuer"@de .
+
+
 ###  http://www.wikidata.org/entity/Q1774898
 wd:Q1774898 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1777951
+wd:Q1777951 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2444
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Boathouse"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1785071
 wd:Q1785071 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q178692
+wd:Q178692 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q181348
 wd:Q181348 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q181485
+wd:Q181485 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bauwerksfunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1350
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Blast Furnace"@en .
+
+
 ###  http://www.wikidata.org/entity/Q18152526
 wd:Q18152526 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q182676
+wd:Q182676 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q184356
+wd:Q184356 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q184590
@@ -4244,8 +4654,56 @@ wd:Q190928 rdf:type owl:Class ;
            rdfs:label "Shipyard"@en .
 
 
+###  http://www.wikidata.org/entity/Q192375
+wd:Q192375 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_2431
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Hangar"@en .
+
+
+###  http://www.wikidata.org/entity/Q193886
+wd:Q193886 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Turm
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bauwerksfunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bauwerksfunktion_Turm_1005
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Cooling Tower"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1971570
 wd:Q1971570 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q19833158
+wd:Q19833158 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_3081
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Trauerhalle"@de .
 
 
 ###  http://www.wikidata.org/entity/Q2048319
@@ -4280,12 +4738,44 @@ wd:Q216107 rdf:type owl:Class .
 wd:Q216212 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q218550
+wd:Q218550 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_3014
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Zollamt"@de .
+
+
 ###  http://www.wikidata.org/entity/Q221275
 wd:Q221275 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q221722
 wd:Q221722 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q2240172
+wd:Q2240172 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_EinrichtungenFuerDenSchiffsverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_EinrichtungenFuerDenSchiffsverkehr_1460
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Anleger"@de .
 
 
 ###  http://www.wikidata.org/entity/Q2251287
@@ -4376,6 +4866,10 @@ wd:Q241570 rdf:type owl:Class ;
 wd:Q24238356 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q2431970
+wd:Q2431970 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q24354
 wd:Q24354 rdf:type owl:Class .
 
@@ -4457,6 +4951,22 @@ wd:Q294422 rdf:type owl:Class .
 wd:Q3177899 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q31838271
+wd:Q31838271 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:gebaeudefunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Gebaeudefunktion_2091
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Festsaal"@de .
+
+
 ###  http://www.wikidata.org/entity/Q325358
 wd:Q325358 rdf:type owl:Class .
 
@@ -4464,6 +4974,37 @@ wd:Q325358 rdf:type owl:Class .
 ###  http://www.wikidata.org/entity/Q327333
 wd:Q327333 rdf:type owl:Class .
 
+
+###  http://www.wikidata.org/entity/Q32815
+wd:Q32815 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:gebaeudefunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Gebaeudefunktion_3046
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf lgd:PlaceOfWorship ;
+          rdfs:label "Mosque"@en .
+
+wd:Q34627 rdf:type owl:Class ;
+          owl:equivalentClass <http://dbpedia.org/ontology/Synagogue>, [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:gebaeudefunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Gebaeudefunktion_3042
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf lgd:PlaceOfWorship ;
+          rdfs:label "Synagoge"@en .
 
 ###  http://www.wikidata.org/entity/Q330284
 wd:Q330284 rdf:type owl:Class .
@@ -4481,12 +5022,32 @@ wd:Q3395383 rdf:type owl:Class .
 wd:Q34038 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q34442
+wd:Q34442 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q3503155
 wd:Q3503155 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q35054
 wd:Q35054 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q365627
+wd:Q365627 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_2421
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Bahnwärterhaus"@de .
 
 
 ###  http://www.wikidata.org/entity/Q369730
@@ -4529,6 +5090,10 @@ wd:Q4022 rdf:type owl:Class .
 wd:Q40357 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q41176
+wd:Q41176 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q41253
 wd:Q41253 rdf:type owl:Class .
 
@@ -4545,12 +5110,45 @@ wd:Q4421 rdf:type owl:Class .
 wd:Q44494 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q44539
+wd:Q44539 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:gebaeudefunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Gebaeudefunktion_3047
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf lgd:PlaceOfWorship ;
+          rdfs:label "Temple"@en .
+
+
 ###  http://www.wikidata.org/entity/Q44613
 wd:Q44613 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q45701
 wd:Q45701 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q46124
+wd:Q46124 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:gebaeudefunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Gebaeudefunktion_3242
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "sanatorium"@en .
 
 
 ###  http://www.wikidata.org/entity/Q46169
@@ -4609,6 +5207,22 @@ wd:Q5 rdf:type owl:Class .
 wd:Q502074 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q505213
+wd:Q505213 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_2121
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Sawmill"@en .
+
+
 ###  http://www.wikidata.org/entity/Q515
 wd:Q515 rdf:type owl:Class .
 
@@ -4623,6 +5237,22 @@ wd:Q543654 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q55488
 wd:Q55488 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q5787273
+wd:Q5787273 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_1313
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Garden house"@en .
 
 
 ###  http://www.wikidata.org/entity/Q6256
@@ -4647,6 +5277,38 @@ wd:Q6501028 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q655686
 wd:Q655686 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q656720
+wd:Q656720 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_2120
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Workshop"@en .
+
+
+###  http://www.wikidata.org/entity/Q674251
+wd:Q674251 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Gebaeudefunktion_2412
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Waiting room"@en .
 
 
 ###  http://www.wikidata.org/entity/Q693369
@@ -4675,6 +5337,10 @@ wd:Q7138926 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "Parliament Building"@en .
+
+
+###  http://www.wikidata.org/entity/Q718966
+wd:Q718966 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q721931
@@ -4729,6 +5395,22 @@ wd:Q832778 rdf:type owl:Class .
 wd:Q83405 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q8463304
+wd:Q8463304 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_2083
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Cafeteria"@en .
+
+
 ###  http://www.wikidata.org/entity/Q847950
 wd:Q847950 rdf:type owl:Class .
 
@@ -4771,6 +5453,10 @@ wd:Q910597 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q91122
 wd:Q91122 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q914711
+wd:Q914711 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q9158768
@@ -4959,6 +5645,14 @@ aaa6:AX_ArtDerGebietsgrenze_Gebietsgrenze_7105 rdf:type owl:NamedIndividual .
 aaa6:AX_ArtDerGebietsgrenze_Gebietsgrenze_7106 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_EinrichtungenFuerDenSchiffsverkehr_1420
+aaa6:AX_Art_EinrichtungenFuerDenSchiffsverkehr_1420 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_EinrichtungenFuerDenSchiffsverkehr_1460
+aaa6:AX_Art_EinrichtungenFuerDenSchiffsverkehr_1460 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bahnkategorie_1100
 aaa6:AX_Bahnkategorie_1100 rdf:type owl:NamedIndividual .
 
@@ -5015,6 +5709,26 @@ aaa6:AX_BauwerkImVerkehrsbereich_1800 rdf:type owl:NamedIndividual .
 aaa6:AX_BauwerkImVerkehrsbereich_1820 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1250
+aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1250 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1280
+aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1280 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1330
+aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1330 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1340
+aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1340 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1350
+aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerIndustrieUndGewerbe_1350 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_BauwerkOderAnlageFuerSportFreizeitUndErholung_1440
 aaa6:AX_Bauwerksfunktion_BauwerkOderAnlageFuerSportFreizeitUndErholung_1440 rdf:type owl:NamedIndividual .
 
@@ -5029,6 +5743,14 @@ aaa6:AX_Bauwerksfunktion_Turm_1001 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1003
 aaa6:AX_Bauwerksfunktion_Turm_1003 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1004
+aaa6:AX_Bauwerksfunktion_Turm_1004 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1005
+aaa6:AX_Bauwerksfunktion_Turm_1005 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_Turm_1006
@@ -5131,6 +5853,10 @@ aaa6:AX_Gebaeudefunktion_1151 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_1210 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1220
+aaa6:AX_Gebaeudefunktion_1220 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1221
 aaa6:AX_Gebaeudefunktion_1221 rdf:type owl:NamedIndividual .
 
@@ -5139,8 +5865,16 @@ aaa6:AX_Gebaeudefunktion_1221 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_1223 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1311
+aaa6:AX_Gebaeudefunktion_1311 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1312
 aaa6:AX_Gebaeudefunktion_1312 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1313
+aaa6:AX_Gebaeudefunktion_1313 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1410
@@ -5187,6 +5921,14 @@ aaa6:AX_Gebaeudefunktion_2072 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_2081 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2083
+aaa6:AX_Gebaeudefunktion_2083 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2091
+aaa6:AX_Gebaeudefunktion_2091 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2092
 aaa6:AX_Gebaeudefunktion_2092 rdf:type owl:NamedIndividual .
 
@@ -5211,12 +5953,32 @@ aaa6:AX_Gebaeudefunktion_2111 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_2113 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2114
+aaa6:AX_Gebaeudefunktion_2114 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2120
+aaa6:AX_Gebaeudefunktion_2120 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2121
+aaa6:AX_Gebaeudefunktion_2121 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2130
 aaa6:AX_Gebaeudefunktion_2130 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2131
 aaa6:AX_Gebaeudefunktion_2131 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2141
+aaa6:AX_Gebaeudefunktion_2141 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2142
+aaa6:AX_Gebaeudefunktion_2142 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2143
@@ -5241,6 +6003,10 @@ aaa6:AX_Gebaeudefunktion_2211 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2212
 aaa6:AX_Gebaeudefunktion_2212 rdf:type owl:NamedIndividual .
+aaa6:AX_Gebaeudefunktion_3090 rdf:type owl:NamedIndividual .
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2213
+aaa6:AX_Gebaeudefunktion_2213 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2220
@@ -5251,12 +6017,32 @@ aaa6:AX_Gebaeudefunktion_2220 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_2411 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2412
+aaa6:AX_Gebaeudefunktion_2412 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2421
+aaa6:AX_Gebaeudefunktion_2421 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2422
+aaa6:AX_Gebaeudefunktion_2422 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2423
 aaa6:AX_Gebaeudefunktion_2423 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2431
+aaa6:AX_Gebaeudefunktion_2431 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2442
 aaa6:AX_Gebaeudefunktion_2442 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2444
+aaa6:AX_Gebaeudefunktion_2444 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2461
@@ -5267,8 +6053,24 @@ aaa6:AX_Gebaeudefunktion_2461 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_2463 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2465
+aaa6:AX_Gebaeudefunktion_2465 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2521
+aaa6:AX_Gebaeudefunktion_2521 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2522
 aaa6:AX_Gebaeudefunktion_2522 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2529
+aaa6:AX_Gebaeudefunktion_2529 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2571
+aaa6:AX_Gebaeudefunktion_2571 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_2612
@@ -5317,6 +6119,10 @@ aaa6:AX_Gebaeudefunktion_3012 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3013
 aaa6:AX_Gebaeudefunktion_3013 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3014
+aaa6:AX_Gebaeudefunktion_3014 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3015
@@ -5375,6 +6181,14 @@ aaa6:AX_Gebaeudefunktion_3044 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_3045 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3046
+aaa6:AX_Gebaeudefunktion_3046 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3047
+aaa6:AX_Gebaeudefunktion_3047 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3048
 aaa6:AX_Gebaeudefunktion_3048 rdf:type owl:NamedIndividual .
 
@@ -5387,9 +6201,15 @@ aaa6:AX_Gebaeudefunktion_3051 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_3053 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3064
+aaa6:AX_Gebaeudefunktion_3064 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3071
 aaa6:AX_Gebaeudefunktion_3071 rdf:type owl:NamedIndividual .
-
+aaa6:AX_Gebaeudefunktion_3019 rdf:type owl:NamedIndividual .
+aaa6:AX_Gebaeudefunktion_3020 rdf:type owl:NamedIndividual .
+aaa6:AX_Gebaeudefunktion_3042 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3072
 aaa6:AX_Gebaeudefunktion_3072 rdf:type owl:NamedIndividual .
@@ -5407,6 +6227,14 @@ aaa6:AX_Gebaeudefunktion_3074 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_3075 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3081
+aaa6:AX_Gebaeudefunktion_3081 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3082
+aaa6:AX_Gebaeudefunktion_3082 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3091
 aaa6:AX_Gebaeudefunktion_3091 rdf:type owl:NamedIndividual .
 
@@ -5415,12 +6243,28 @@ aaa6:AX_Gebaeudefunktion_3091 rdf:type owl:NamedIndividual .
 aaa6:AX_Gebaeudefunktion_3092 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3211
+aaa6:AX_Gebaeudefunktion_3211 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3221
 aaa6:AX_Gebaeudefunktion_3221 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3242
+aaa6:AX_Gebaeudefunktion_3242 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3262
+aaa6:AX_Gebaeudefunktion_3262 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3263
 aaa6:AX_Gebaeudefunktion_3263 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3281
+aaa6:AX_Gebaeudefunktion_3281 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_3290
