@@ -6493,6 +6493,32 @@ wd:Q160047 rdf:type owl:Class ;
                                  rdf:type owl:Class
                                ] ;
            rdfs:label "maglev train"@en .
+wd:Q2140646 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bahnkategorie ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1200
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Stadtbahn"@en .
+wd:Q37176024 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bahnkategorie ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1102
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Güterverkehr"@de .
 
 ###  http://www.wikidata.org/entity/Q365627
 wd:Q365627 rdf:type owl:Class ;
@@ -6652,7 +6678,8 @@ lgd:Aqueduct rdf:type owl:Class ;
                                                  ) ;
                               rdf:type owl:Class
                             ] .
-
+lgd:Battlefield rdf:type owl:Class ;
+        owl:equivalentClass wd:Q37896512 .
 
 ###  http://www.wikidata.org/entity/Q47521
 wd:Q47521 rdf:type owl:Class .
