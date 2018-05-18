@@ -3,6 +3,7 @@
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix gml: <http://www.opengis.net/gml#> .
+@prefix gnd: <http://d-nb.info/standards/elementset/gnd#Country> .
 @prefix lgd: <http://linkedgeodata.org/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -98,12 +99,20 @@ aaa6:archaeologischerTyp rdf:type owl:ObjectProperty .
 aaa6:art rdf:type owl:ObjectProperty .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#bahnkategorie
+aaa6:bahnkategorie rdf:type owl:ObjectProperty .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bauwerksfunktion
 aaa6:bauwerksfunktion rdf:type owl:ObjectProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginnt
 aaa6:beginnt rdf:type owl:ObjectProperty .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#bewuchs
+aaa6:bewuchs rdf:type owl:ObjectProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bezeichnung
@@ -120,6 +129,10 @@ aaa6:funktion rdf:type owl:ObjectProperty .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudefunktion
 aaa6:gebaeudefunktion rdf:type owl:ObjectProperty .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#oberflaechenmaterial
+aaa6:oberflaechenmaterial rdf:type owl:ObjectProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#position
@@ -145,6 +158,21 @@ aaa6:zeitpunktDerEntstehung rdf:type owl:ObjectProperty .
 #################################################################
 #    Classes
 #################################################################
+
+###  http://d-nb.info/standards/elementset/gnd#AdministrativeUnit
+<http://d-nb.info/standards/elementset/gnd#AdministrativeUnit> rdf:type owl:Class ;
+                                                               owl:equivalentClass inspire-am:AdministrativeUnit .
+
+
+###  http://d-nb.info/standards/elementset/gnd#BuildingOrMemorial
+<http://d-nb.info/standards/elementset/gnd#BuildingOrMemorial> rdf:type owl:Class ;
+                                                               owl:equivalentClass inspire-bubase:Building .
+
+
+###  http://d-nb.info/standards/elementset/gnd#Country
+gnd: rdf:type owl:Class ;
+     owl:equivalentClass lgd:Country .
+
 
 ###  http://dbpedia.org/ontology/Airport
 dbo:Airport rdf:type owl:Class ;
@@ -702,6 +730,22 @@ lgd:Aquarium rdf:type owl:Class ;
                                  ] .
 
 
+###  http://linkedgeodata.org/ontology/Aqueduct
+lgd:Aqueduct rdf:type owl:Class ;
+             owl:equivalentClass wd:Q474 ,
+                                 [ owl:intersectionOf ( aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:archaeologischerTyp ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_ArchaeologischerTyp_HistorischesBauwerkOderHistorischeEinrichtung_1110
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+
+
 ###  http://linkedgeodata.org/ontology/Bakery
 lgd:Bakery rdf:type owl:Class ;
            owl:equivalentClass wd:Q274393 .
@@ -764,6 +808,11 @@ lgd:BasicHut rdf:type owl:Class ;
                                                       ) ;
                                    rdf:type owl:Class
                                  ] .
+
+
+###  http://linkedgeodata.org/ontology/Battlefield
+lgd:Battlefield rdf:type owl:Class ;
+                owl:equivalentClass wd:Q37896512 .
 
 
 ###  http://linkedgeodata.org/ontology/Bay
@@ -1691,6 +1740,33 @@ lgd:Garbage rdf:type owl:Class ;
                             ] .
 
 
+###  http://linkedgeodata.org/ontology/Garden
+lgd:Garden rdf:type owl:Class ;
+           owl:equivalentClass wd:Q294953 ,
+                               [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:funktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4460
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty inspire-elu:hilucsLandUse ;
+                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                         owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas>
+                                                                                   )
+                                                                       ]
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] .
+
+
 ###  http://linkedgeodata.org/ontology/Generator
 lgd:Generator rdf:type owl:Class ;
               rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
@@ -1756,6 +1832,22 @@ lgd:Harbour rdf:type owl:Class ;
                             ] .
 
 
+###  http://linkedgeodata.org/ontology/Hedge
+lgd:Hedge rdf:type owl:Class ;
+          owl:equivalentClass wd:Q235779 ,
+                              [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:bewuchs ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1100
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+
+
 ###  http://linkedgeodata.org/ontology/Heliport
 lgd:Heliport rdf:type owl:Class ;
              owl:equivalentClass wd:Q502074 ,
@@ -1781,48 +1873,7 @@ lgd:Heliport rdf:type owl:Class ;
                                                   ) ;
                                rdf:type owl:Class
                              ] .
-wd:Q2265915 rdf:type owl:Class ;
-			 rdfs:label "glider airfield"@en ;
-             owl:equivalentClass 
-                                 [ owl:intersectionOf ( aaa6:AX_Flugverkehr
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:art ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Art_Flugverkehr_5550
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] .
-wd:Q2138424 rdf:type owl:Class ;
-			 rdfs:label "regional airport"@en ;
-             owl:equivalentClass 
-                                 [ owl:intersectionOf ( aaa6:AX_Flugverkehr
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:art ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Art_Flugverkehr_5512
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] .
-wd:Q2516330 rdf:type owl:Class ;
-			 rdfs:label "commercial airfield"@en ;
-             owl:equivalentClass 
-                                 [ owl:intersectionOf ( aaa6:AX_Flugverkehr
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:art ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Art_Flugverkehr_5520
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] .
+
 
 ###  http://linkedgeodata.org/ontology/Highway
 lgd:Highway rdf:type owl:Class ;
@@ -2771,6 +2822,22 @@ lgd:NationalPark rdf:type owl:Class ;
                  rdfs:subClassOf lgd:Boundary .
 
 
+###  http://linkedgeodata.org/ontology/NaturalSpring
+lgd:NaturalSpring rdf:type owl:Class ;
+                  owl:equivalentClass wd:Q124714 ,
+                                      [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty aaa6:art ;
+                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                    owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1610
+                                                                                              )
+                                                                                  ]
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] .
+
+
 ###  http://linkedgeodata.org/ontology/Observatory
 lgd:Observatory rdf:type owl:Class ;
                 owl:equivalentClass wd:Q62832 .
@@ -2810,17 +2877,18 @@ lgd:Palace rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Park
 lgd:Park rdf:type owl:Class ;
-         owl:equivalentClass wd:Q22698 , [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:funktion ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4420
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
+         owl:equivalentClass wd:Q22698 ,
+                             [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty aaa6:funktion ;
+                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                           owl:oneOf ( aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4420
+                                                                                     )
+                                                                         ]
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ;
          rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty inspire-elu:hilucsLandUse ;
@@ -2832,29 +2900,7 @@ lgd:Park rdf:type owl:Class ;
                                               ) ;
                            rdf:type owl:Class
                          ] .
-lgd:Garden rdf:type owl:Class ;
-         owl:equivalentClass wd:Q294953 , [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:funktion ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4460
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-         rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty inspire-elu:hilucsLandUse ;
-                                                  owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                       owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas>
-                                                                                 )
-                                                                     ]
-                                                ]
-                                              ) ;
-                           rdf:type owl:Class
-                         ] .
+
 
 ###  http://linkedgeodata.org/ontology/Parking
 lgd:Parking rdf:type owl:Class ;
@@ -3364,6 +3410,22 @@ lgd:RailwaySwitch rdf:type owl:Class ;
                                   ] .
 
 
+###  http://linkedgeodata.org/ontology/Rapids
+lgd:Rapids rdf:type owl:Class ;
+           owl:equivalentClass wd:Q695793 ,
+                               [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:art ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1630
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+
+
 ###  http://linkedgeodata.org/ontology/Residential
 lgd:Residential rdf:type owl:Class ;
                 rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
@@ -3569,6 +3631,22 @@ lgd:Shed rdf:type owl:Class ;
                                                   ) ;
                                rdf:type owl:Class
                              ] .
+
+
+###  http://linkedgeodata.org/ontology/Shoal
+lgd:Shoal rdf:type owl:Class ;
+          owl:equivalentClass wd:Q28337 ,
+                              [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:art ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1640
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
 
 
 ###  http://linkedgeodata.org/ontology/Shop
@@ -3865,6 +3943,33 @@ lgd:Terminal rdf:type owl:Class ;
                              ] .
 
 
+###  http://linkedgeodata.org/ontology/Terrace
+lgd:Terrace rdf:type owl:Class ;
+            owl:equivalentClass wd:Q641406 ,
+                                [ owl:intersectionOf ( aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:bauwerksfunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_SonstigesBauwerkOderSonstigeEinrichtung_1670
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty inspire-elu:hilucsLandUse ;
+                                                     owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                          owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_OtherUses>
+                                                                                    )
+                                                                        ]
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] .
+
+
 ###  http://linkedgeodata.org/ontology/Tertiary
 lgd:Tertiary rdf:type owl:Class ;
              rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
@@ -3941,7 +4046,8 @@ lgd:TourismZoo rdf:type owl:Class ;
                                                           ]
                                                         ) ;
                                      rdf:type owl:Class
-                                   ] , [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
+                                   ] ,
+                                   [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:funktion ;
                                                             owl:someValuesFrom [ rdf:type owl:Class ;
@@ -3984,6 +4090,21 @@ lgd:Townhall rdf:type owl:Class ;
                                                       ) ;
                                    rdf:type owl:Class
                                  ] .
+
+
+###  http://linkedgeodata.org/ontology/Trade
+lgd:Trade rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Funktion_IndustrieUndGewerbeflaeche
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:funktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Funktion_IndustrieUndGewerbeflaeche_1400
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
 
 
 ###  http://linkedgeodata.org/ontology/TrafficLight
@@ -4049,6 +4170,22 @@ lgd:Trunk rdf:type owl:Class ;
                           ] .
 
 
+###  http://linkedgeodata.org/ontology/Tumulus
+lgd:Tumulus rdf:type owl:Class ;
+            owl:equivalentClass wd:Q34023 ,
+                                [ owl:intersectionOf ( aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:archaeologischerTyp ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_ArchaeologischerTyp_HistorischesBauwerkOderHistorischeEinrichtung_1020
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] .
+
+
 ###  http://linkedgeodata.org/ontology/University
 lgd:University rdf:type owl:Class ;
                owl:equivalentClass wd:Q3918 ,
@@ -4090,44 +4227,6 @@ lgd:Viaduct rdf:type owl:Class ;
                                                  ) ;
                               rdf:type owl:Class
                             ] .
-lgd:Hedge rdf:type owl:Class ;
-			owl:equivalentClass wd:Q235779, [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:bewuchs ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1100
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] .
-wd:Q620424 rdf:type owl:Class ;
-            rdfs:label "reed bed"@en ;
-			owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:bewuchs ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1400
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] .
-wd:Q148993 rdf:type owl:Class ;
-            rdfs:label "broad-leaved tree"@en ;
-			owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:bewuchs ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1012
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] .
 
 
 ###  http://linkedgeodata.org/ontology/Vineyard
@@ -4239,10 +4338,37 @@ lgd:WaterTower rdf:type owl:Class ;
                                ] .
 
 
+###  http://linkedgeodata.org/ontology/WaterWorks
+lgd:WaterWorks rdf:type owl:Class ;
+               owl:equivalentClass wd:Q11849395 ,
+                                   [ owl:intersectionOf ( aaa6:AX_IndustrieUndGewerbeflaeche
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty aaa6:funktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( aaa6:AX_Funktion_IndustrieUndGewerbeflaeche_2520
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty inspire-elu:hilucsLandUse ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_2_WaterAndSewageInfrastructure>
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+
+
 ###  http://linkedgeodata.org/ontology/Waterfall
 lgd:Waterfall rdf:type owl:Class ;
               owl:equivalentClass wd:Q34038 ,
-			                                    [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
+                                  [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty aaa6:art ;
                                                            owl:someValuesFrom [ rdf:type owl:Class ;
@@ -4264,68 +4390,7 @@ lgd:Waterfall rdf:type owl:Class ;
                                                    ) ;
                                 rdf:type owl:Class
                               ] .
-lgd:Shoal rdf:type owl:Class ;
-              owl:equivalentClass wd:Q28337,  [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty aaa6:art ;
-                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1640
-                                                                                          )
-                                                                              ]
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] .
-wd:Q27250 rdf:type owl:Class ;
-		  rdfs:label "tidal creek"@en ;
-              owl:equivalentClass   [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty aaa6:art ;
-                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1660
-                                                                                          )
-                                                                              ]
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] .
-wd:Q31796 rdf:type owl:Class ;
-		  rdfs:label "mudflat"@en ;
-              owl:equivalentClass   [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty aaa6:art ;
-                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1650
-                                                                                          )
-                                                                              ]
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] .
-lgd:Rapids  rdf:type owl:Class ;
-              owl:equivalentClass wd:Q695793,  [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty aaa6:art ;
-                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1630
-                                                                                          )
-                                                                              ]
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] .
-lgd:NaturalSpring  rdf:type owl:Class ;
-              owl:equivalentClass  wd:Q124714, [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty aaa6:art ;
-                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1610
-                                                                                          )
-                                                                              ]
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] .
+
 
 ###  http://linkedgeodata.org/ontology/Watermill
 lgd:Watermill rdf:type owl:Class ;
@@ -4357,6 +4422,11 @@ lgd:Waterway rdf:type owl:Class ;
                                                   ) ;
                                rdf:type owl:Class
                              ] .
+
+
+###  http://linkedgeodata.org/ontology/Way
+lgd:Way rdf:type owl:Class ;
+        owl:equivalentClass aaa6:AX_Weg .
 
 
 ###  http://linkedgeodata.org/ontology/Windmill
@@ -4413,6 +4483,10 @@ aaa6:AA_Objekt rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_ArtDerGebietsgrenze_Gebietsgrenze
 aaa6:AX_ArtDerGebietsgrenze_Gebietsgrenze rdf:type owl:Class .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bahnverkehr
+aaa6:AX_Bahnverkehr rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImGewaesserbereich
@@ -4486,6 +4560,10 @@ aaa6:AX_Flurstueck rdf:type owl:Class .
 aaa6:AX_Friedhof rdf:type owl:Class .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_IndustrieUndGewerbeflaeche
+aaa6:AX_Funktion_IndustrieUndGewerbeflaeche rdf:type owl:Class .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeude
 aaa6:AX_Gebaeude rdf:type owl:Class ;
                  owl:equivalentClass wd:Q41176 .
@@ -4540,6 +4618,10 @@ aaa6:AX_Gemeinde rdf:type owl:Class ;
 aaa6:AX_Gewaesserachse rdf:type owl:Class .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gewaessermerkmal
+aaa6:AX_Gewaessermerkmal rdf:type owl:Class .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Harbour
 aaa6:AX_Harbour rdf:type owl:Class .
 
@@ -4582,7 +4664,7 @@ aaa6:AX_Nationalstaat rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Person
 aaa6:AX_Person rdf:type owl:Class ;
-               owl:equivalentClass wd:Q5 .
+               owl:equivalentClass wd:Q5, <http://d-nb.info/standards/elementset/gnd#Person> , <http://xmlns.com/foaf/0.1/Person> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz
@@ -4664,6 +4746,14 @@ aaa6:AX_Turm rdf:type owl:Class ;
                              ] .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_UnlandVegetationsloseFlaeche
+aaa6:AX_UnlandVegetationsloseFlaeche rdf:type owl:Class .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Vegetationsmerkmal
+aaa6:AX_Vegetationsmerkmal rdf:type owl:Class .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wald
 aaa6:AX_Wald rdf:type owl:Class .
 
@@ -4673,7 +4763,7 @@ aaa6:AX_Wasserlauf rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Weg
-aaa6:AX_Weg rdf:type owl:Class ; owl:equivalentClass lgd:Way .
+aaa6:AX_Weg rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wohnplatz
@@ -4816,29 +4906,7 @@ wd:Q11755880 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q11849395
-lgd:WaterWorks  rdf:type owl:Class ;
-             owl:equivalentClass wd:Q11849395, [ owl:intersectionOf ( aaa6:AX_IndustrieUndGewerbeflaeche
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:funktion ;
-                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Funktion_IndustrieUndGewerbeflaeche_2520
-                                                                                         )
-                                                                             ]
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-             rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
-                                                    [ rdf:type owl:Restriction ;
-                                                      owl:onProperty inspire-elu:hilucsLandUse ;
-                                                      owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                           owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_2_WaterAndSewageInfrastructure>
-                                                                                     )
-                                                                         ]
-                                                    ]
-                                                  ) ;
-                               rdf:type owl:Class
-                             ] .
+wd:Q11849395 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q1195942
@@ -4863,6 +4931,10 @@ wd:Q12323 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q124282
 wd:Q124282 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q124714
+wd:Q124714 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q1248784
@@ -5100,57 +5172,7 @@ wd:Q1362225 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "Warehouse"@en .
-wd:Q1404150 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_UnlandVegetationsloseFlaeche
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:oberflaechenmaterial ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Oberflaechenmaterial_UnlandVegetationsloseFlaeche_1010
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] ;
-            rdfs:label "rock"@en .
-wd:Q22908 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:gebaeudefunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_1022
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] ;
-            rdfs:label "retirement home"@en .
-wd:Q3661265 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:gebaeudefunktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_1024
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] ;
-            rdfs:label "university dormitory"@en .
-lgd:Trade rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Funktion_IndustrieUndGewerbeflaeche
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty aaa6:funktion ;
-                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Funktion_IndustrieUndGewerbeflaeche_1400
-                                                                                        )
-                                                                            ]
-                                                       ]
-                                                     ) ;
-                                  rdf:type owl:Class
-                                ] .
+
 
 ###  http://www.wikidata.org/entity/Q1364150
 wd:Q1364150 rdf:type owl:Class .
@@ -5204,6 +5226,22 @@ wd:Q1399349 rdf:type owl:Class ;
             rdfs:label "Wochenendhaus"@en .
 
 
+###  http://www.wikidata.org/entity/Q1404150
+wd:Q1404150 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_UnlandVegetationsloseFlaeche
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:oberflaechenmaterial ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Oberflaechenmaterial_UnlandVegetationsloseFlaeche_1010
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "rock"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1408777
 wd:Q1408777 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Platz
@@ -5225,7 +5263,19 @@ wd:Q14092 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q1424016
-wd:Q1424016 rdf:type owl:Class .
+wd:Q1424016 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:bahnkategorie ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Bahnkategorie_1300
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "cableway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1425352
@@ -5254,6 +5304,22 @@ wd:Q14524070 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q148571
 wd:Q148571 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q148993
+wd:Q148993 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bewuchs ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1012
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "broad-leaved tree"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1495738
@@ -5399,6 +5465,22 @@ wd:Q159334 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q159719
 wd:Q159719 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q160047
+wd:Q160047 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bahnkategorie ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1600
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "maglev train"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1613929
@@ -5863,6 +5945,38 @@ wd:Q213441 rdf:type owl:Class .
 wd:Q213643 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q2138424
+wd:Q2138424 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5512
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "regional airport"@en .
+
+
+###  http://www.wikidata.org/entity/Q2140646
+wd:Q2140646 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:bahnkategorie ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Bahnkategorie_1200
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Stadtbahn"@en .
+
+
 ###  http://www.wikidata.org/entity/Q2143354
 wd:Q2143354 rdf:type owl:Class .
 
@@ -5931,6 +6045,22 @@ wd:Q2251287 rdf:type owl:Class ;
             rdfs:label "Schullandheim"@en .
 
 
+###  http://www.wikidata.org/entity/Q2265915
+wd:Q2265915 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5550
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "glider airfield"@en .
+
+
 ###  http://www.wikidata.org/entity/Q22687
 wd:Q22687 rdf:type owl:Class .
 
@@ -5953,6 +6083,22 @@ wd:Q22733 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q2281788
 wd:Q2281788 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q22908
+wd:Q22908 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:gebaeudefunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Gebaeudefunktion_1022
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "retirement home"@en .
 
 
 ###  http://www.wikidata.org/entity/Q23041045
@@ -6080,6 +6226,10 @@ wd:Q2354897 rdf:type owl:Class ;
             rdfs:label "Road Maintenance Depot"@en .
 
 
+###  http://www.wikidata.org/entity/Q235779
+wd:Q235779 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q236371
 wd:Q236371 rdf:type owl:Class ;
            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landwirtschaft
@@ -6183,6 +6333,22 @@ wd:Q244326 rdf:type owl:Class ;
            rdfs:label "Salt evaporation pond"@en .
 
 
+###  http://www.wikidata.org/entity/Q2516330
+wd:Q2516330 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5520
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "commercial airfield"@en .
+
+
 ###  http://www.wikidata.org/entity/Q2516534
 wd:Q2516534 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
@@ -6223,6 +6389,22 @@ wd:Q2649726 rdf:type owl:Class ;
 wd:Q269949 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q27250
+wd:Q27250 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:art ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1660
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "tidal creek"@en .
+
+
 ###  http://www.wikidata.org/entity/Q274153
 wd:Q274153 rdf:type owl:Class .
 
@@ -6244,6 +6426,10 @@ wd:Q27686 rdf:type owl:Class .
 wd:Q283202 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q28337
+wd:Q28337 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q2897058
 wd:Q2897058 rdf:type owl:Class .
 
@@ -6256,8 +6442,28 @@ wd:Q2924561 rdf:type owl:Class .
 wd:Q294422 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q294953
+wd:Q294953 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q3177899
 wd:Q3177899 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q31796
+wd:Q31796 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:art ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Art_Gewaessermerkmal_1650
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "mudflat"@en .
 
 
 ###  http://www.wikidata.org/entity/Q31838271
@@ -6357,18 +6563,7 @@ wd:Q3395383 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q34023
-lgd:Tumulus rdf:type owl:Class ;
-          owl:equivalentClass wd:Q34023, [ owl:intersectionOf ( aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung
-                                                     [ rdf:type owl:Restriction ;
-                                                       owl:onProperty aaa6:archaeologischerTyp ;
-                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                            owl:oneOf ( aaa6:AX_ArchaeologischerTyp_HistorischesBauwerkOderHistorischeEinrichtung_1020
-                                                                                      )
-                                                                          ]
-                                                     ]
-                                                   ) ;
-                                rdf:type owl:Class
-                              ] .
+wd:Q34023 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q34038
@@ -6440,85 +6635,7 @@ wd:Q358976 rdf:type owl:Class ;
                                  rdf:type owl:Class
                                ] ;
            rdfs:label "Excavation Lake"@en .
-		   
-wd:Q378445 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bahnkategorie ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1301
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:label "rack railway"@en .
-wd:Q1424016 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bahnkategorie ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1300
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:label "cableway"@en .
-wd:Q420962 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bahnkategorie ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1400
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:label "heritage railway"@en .
-wd:Q160047 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bahnkategorie ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1600
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:label "maglev train"@en .
-wd:Q2140646 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bahnkategorie ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1200
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:label "Stadtbahn"@en .
-wd:Q37176024 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bahnkategorie ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1102
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:label "Güterverkehr"@de .
+
 
 ###  http://www.wikidata.org/entity/Q365627
 wd:Q365627 rdf:type owl:Class ;
@@ -6536,8 +6653,60 @@ wd:Q365627 rdf:type owl:Class ;
            rdfs:label "Bahnwärterhaus"@de .
 
 
+###  http://www.wikidata.org/entity/Q3661265
+wd:Q3661265 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:gebaeudefunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_1024
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "university dormitory"@en .
+
+
 ###  http://www.wikidata.org/entity/Q369730
 wd:Q369730 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q37176024
+wd:Q37176024 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty aaa6:bahnkategorie ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( aaa6:AX_Bahnkategorie_1102
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Güterverkehr"@de .
+
+
+###  http://www.wikidata.org/entity/Q378445
+wd:Q378445 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bahnkategorie ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1301
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "rack railway"@en .
+
+
+###  http://www.wikidata.org/entity/Q37896512
+wd:Q37896512 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q38720
@@ -6582,6 +6751,22 @@ wd:Q41176 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q41253
 wd:Q41253 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q420962
+wd:Q420962 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Bahnverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bahnkategorie ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bahnkategorie_1400
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "heritage railway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q43483
@@ -6666,20 +6851,8 @@ wd:Q473972 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q474
-lgd:Aqueduct rdf:type owl:Class ;
-        owl:equivalentClass wd:Q474, [ owl:intersectionOf ( aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung
-                                                   [ rdf:type owl:Restriction ;
-                                                     owl:onProperty aaa6:archaeologischerTyp ;
-                                                     owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                          owl:oneOf ( aaa6:AX_ArchaeologischerTyp_HistorischesBauwerkOderHistorischeEinrichtung_1110
-                                                                                    )
-                                                                        ]
-                                                   ]
-                                                 ) ;
-                              rdf:type owl:Class
-                            ] .
-lgd:Battlefield rdf:type owl:Class ;
-        owl:equivalentClass wd:Q37896512 .
+wd:Q474 rdf:type owl:Class .
+
 
 ###  http://www.wikidata.org/entity/Q47521
 wd:Q47521 rdf:type owl:Class .
@@ -6857,6 +7030,22 @@ wd:Q606619 rdf:type owl:Class ;
            rdfs:label "fish ladder"@en .
 
 
+###  http://www.wikidata.org/entity/Q620424
+wd:Q620424 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bewuchs ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1400
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "reed bed"@en .
+
+
 ###  http://www.wikidata.org/entity/Q6256
 wd:Q6256 rdf:type owl:Class .
 
@@ -6874,29 +7063,7 @@ wd:Q634299 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q641406
-lgd:Terrace rdf:type owl:Class ;
-           owl:equivalentClass wd:Q641406, [ owl:intersectionOf ( aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty aaa6:bauwerksfunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( aaa6:AX_Bauwerksfunktion_SonstigesBauwerkOderSonstigeEinrichtung_1670
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
-                                                  [ rdf:type owl:Restriction ;
-                                                    owl:onProperty inspire-elu:hilucsLandUse ;
-                                                    owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                         owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_OtherUses>
-                                                                                   )
-                                                                       ]
-                                                  ]
-                                                ) ;
-                             rdf:type owl:Class
-                           ] .
+wd:Q641406 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q642682
@@ -6972,6 +7139,10 @@ wd:Q693369 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q695416
 wd:Q695416 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q695793
+wd:Q695793 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q7075
@@ -7573,8 +7744,44 @@ aaa6:AX_Art_EinrichtungenFuerDenSchiffsverkehr_1450 rdf:type owl:NamedIndividual
 aaa6:AX_Art_EinrichtungenFuerDenSchiffsverkehr_1460 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Flugverkehr_5512
+aaa6:AX_Art_Flugverkehr_5512 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Flugverkehr_5520
+aaa6:AX_Art_Flugverkehr_5520 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Flugverkehr_5530
 aaa6:AX_Art_Flugverkehr_5530 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Flugverkehr_5550
+aaa6:AX_Art_Flugverkehr_5550 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Gewaessermerkmal_1610
+aaa6:AX_Art_Gewaessermerkmal_1610 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Gewaessermerkmal_1620
+aaa6:AX_Art_Gewaessermerkmal_1620 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Gewaessermerkmal_1630
+aaa6:AX_Art_Gewaessermerkmal_1630 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Gewaessermerkmal_1640
+aaa6:AX_Art_Gewaessermerkmal_1640 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Gewaessermerkmal_1650
+aaa6:AX_Art_Gewaessermerkmal_1650 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Gewaessermerkmal_1660
+aaa6:AX_Art_Gewaessermerkmal_1660 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Art_Strassenverkehrsanlage_2000
@@ -7777,6 +7984,18 @@ aaa6:AX_Bauwerksfunktion_Turm_1006 rdf:type owl:NamedIndividual .
 aaa6:AX_Bauwerksfunktion_Turm_1011 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bewuchs_Vegetationsmerkmal_1012
+aaa6:AX_Bewuchs_Vegetationsmerkmal_1012 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bewuchs_Vegetationsmerkmal_1100
+aaa6:AX_Bewuchs_Vegetationsmerkmal_1100 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bewuchs_Vegetationsmerkmal_1400
+aaa6:AX_Bewuchs_Vegetationsmerkmal_1400 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_DammWallDeich_3001
 aaa6:AX_Funktion_DammWallDeich_3001 rdf:type owl:NamedIndividual .
 
@@ -7799,6 +8018,10 @@ aaa6:AX_Funktion_Fliessgewaesser_8400 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_Fliessgewaesser_8500
 aaa6:AX_Funktion_Fliessgewaesser_8500 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_IndustrieUndGewerbeflaeche_1400
+aaa6:AX_Funktion_IndustrieUndGewerbeflaeche_1400 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_IndustrieUndGewerbeflaeche_1790
@@ -7853,6 +8076,10 @@ aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4110 rdf:type owl:NamedIndivid
 aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4150 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4210
+aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4210 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4220
 aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4220 rdf:type owl:NamedIndividual .
 
@@ -7873,12 +8100,24 @@ aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4260 rdf:type owl:NamedIndivid
 aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4270 rdf:type owl:NamedIndividual .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4330
+aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4330 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4420
+aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4420 rdf:type owl:NamedIndividual .
+
+
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4430
 aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4430 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4440
 aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4440 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4460
+aaa6:AX_Funktion_SportFreizeitUndErholungsflaeche_4460 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Funktion_SportFreizeitUndErholungsflaeche_4470
@@ -7911,6 +8150,14 @@ aaa6:AX_Gebaeudefunktion_1010 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1020
 aaa6:AX_Gebaeudefunktion_1020 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1022
+aaa6:AX_Gebaeudefunktion_1022 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1024
+aaa6:AX_Gebaeudefunktion_1024 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_1025
@@ -8403,6 +8650,10 @@ aaa6:AX_Gebaeudefunktion_4470 rdf:type owl:NamedIndividual .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebaeudefunktion_9998
 aaa6:AX_Gebaeudefunktion_9998 rdf:type owl:NamedIndividual .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Oberflaechenmaterial_UnlandVegetationsloseFlaeche_1010
+aaa6:AX_Oberflaechenmaterial_UnlandVegetationsloseFlaeche_1010 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Vegetationsmerkmal_Landwirtschaft_1012
