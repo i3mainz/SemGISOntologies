@@ -1880,7 +1880,7 @@ lgd:Graveyard rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Harbour
 lgd:Harbour rdf:type owl:Class ;
-            owl:equivalentClass aaa6:AX_Harbour ,
+            owl:equivalentClass aaa6:AX_Hafen ,
                                 wd:Q283202 ;
             rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                    [ rdf:type owl:Restriction ;
@@ -3853,6 +3853,35 @@ wd:Q3456796 rdf:type owl:Class ;
 
 wd:Q1414773 rdf:type owl:Class; owl:equivalentClass aaa6:AX_Hafenbecken .
 
+wd:Q1420027 rdf:type owl:Class;  
+rdfs:label "fishing port"@en ;         
+owl:equivalentClass 
+                              [ owl:intersectionOf ( aaa6:AX_Hafen
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:hafenkategorie ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Hafenkategorie_Hafen_1030
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+wd:Q1478783 rdf:type owl:Class;  
+rdfs:label "ferry port"@en ;         
+owl:equivalentClass 
+                              [ owl:intersectionOf ( aaa6:AX_Hafen
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:hafenkategorie ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Hafenkategorie_Hafen_1050
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+
 lgd:Sea rdf:type owl:Class; owl:equivalentClass wd:Q165,dbo:Sea,aaa6:AX_Meer .
 							  
 wd:Q1757209 rdf:type owl:Class ;
@@ -4138,6 +4167,7 @@ wd:Q770135 rdf:type owl:Class ;
                                                        ) ;
                                     rdf:type owl:Class
                                   ] .
+lgd:Line rdf:type owl:Class ; owl:equivalentClass wd:Q1939150, aaa6:AX_Leitung .
 wd:Q7883691 rdf:type owl:Class ;
 		 rdfs:label "undergrounding"@en ;
          owl:equivalentClass                                   [ owl:intersectionOf ( aaa6:AX_Leitung
@@ -4585,6 +4615,19 @@ lgd:TrafficLight rdf:type owl:Class ;
                                        rdf:type owl:Class
                                      ] ;
                  rdfs:label "Traffic Light"@en .
+lgd:LevelCrossing rdf:type owl:Class ;
+                 owl:equivalentClass wd:Q171448 ,
+                                     [ owl:intersectionOf ( aaa6:AX_EinrichtungInOeffentlichenBereichen
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty aaa6:art ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( aaa6:AX_Art_EinrichtungInOeffentlichenBereichen_1500
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://linkedgeodata.org/ontology/TrainStation
@@ -4999,7 +5042,7 @@ aaa6:AX_BesondereFlurstuecksgrenze rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bundesland
 aaa6:AX_Bundesland rdf:type owl:Class ;
-                   owl:equivalentClass wd:Q1221156 .
+                   owl:equivalentClass wd:Q1221156 , <http://schema.org/State> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_DammWallDeich
