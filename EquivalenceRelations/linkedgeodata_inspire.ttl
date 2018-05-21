@@ -181,7 +181,7 @@ dbo:Airport rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Bank
 dbo:Bank rdf:type owl:Class ;
-         owl:equivalentClass lgd:Bank .
+         owl:equivalentClass lgd:Bank, <http://schema.org/BankOrCreditUnion> .
 
 
 ###  http://dbpedia.org/ontology/Bay
@@ -206,12 +206,12 @@ dbo:Building rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Canal
 dbo:Canal rdf:type owl:Class ;
-          owl:equivalentClass lgd:Canal .
+          owl:equivalentClass lgd:Canal ,<http://schema.org/Canal> .
 
 
 ###  http://dbpedia.org/ontology/Casino
 dbo:Casino rdf:type owl:Class ;
-           owl:equivalentClass lgd:Casino .
+           owl:equivalentClass lgd:Casino, <http://schema.org/Casino> .
 
 
 ###  http://dbpedia.org/ontology/Castle
@@ -221,27 +221,27 @@ dbo:Castle rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Cemetery
 dbo:Cemetery rdf:type owl:Class ;
-             owl:equivalentClass lgd:Graveyard .
+             owl:equivalentClass lgd:Graveyard, <http://schema.org/Cemetery> .
 
 
 ###  http://dbpedia.org/ontology/Church
 dbo:Church rdf:type owl:Class ;
-           owl:equivalentClass lgd:Church .
+           owl:equivalentClass lgd:Church, <http://schema.org/Church> .
 
 
 ###  http://dbpedia.org/ontology/Cinema
 dbo:Cinema rdf:type owl:Class ;
-           owl:equivalentClass lgd:Cinema .
+           owl:equivalentClass lgd:Cinema , <http://schema.org/MovieTheater> .
 
 
 ###  http://dbpedia.org/ontology/City
 dbo:City rdf:type owl:Class ;
-         owl:equivalentClass lgd:City .
+         owl:equivalentClass lgd:City , <http://schema.org/City>.
 
 
 ###  http://dbpedia.org/ontology/Country
 dbo:Country rdf:type owl:Class ;
-            owl:equivalentClass lgd:Country .
+            owl:equivalentClass lgd:Country , <http://schema.org/Country> .
 
 
 ###  http://dbpedia.org/ontology/Escalator
@@ -329,10 +329,14 @@ dbo:Mosque rdf:type owl:Class ;
 dbo:MountainPass rdf:type owl:Class ;
                  owl:equivalentClass lgd:MountainPass .
 
-
+lgd:Volcano rdf:type owl:Class ;
+                 owl:equivalentClass <http://schema.org/Volcano> , wd:Q8072 .
+				 
+lgd:Recycling rdf:type owl:Class ;
+					owl:equivalentClass <http://schema.org/RecyclingCenter> .
 ###  http://dbpedia.org/ontology/Museum
 dbo:Museum rdf:type owl:Class ;
-           owl:equivalentClass lgd:Museum .
+           owl:equivalentClass lgd:Museum , <http://schema.org/Museum> .
 
 
 ###  http://dbpedia.org/ontology/Park
@@ -378,7 +382,7 @@ dbo:Restaurant rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/River
 dbo:River rdf:type owl:Class ;
           owl:equivalentClass <http://inspire.ec.europa.eu/schemas/wfd/4.0#WFDRiver> ,
-                              lgd:River .
+                              lgd:River ,<http://schema.org/RiverBodyOfWater> .
 
 
 ###  http://dbpedia.org/ontology/Road
@@ -388,7 +392,7 @@ dbo:Road rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/School
 dbo:School rdf:type owl:Class ;
-           owl:equivalentClass lgd:School .
+           owl:equivalentClass lgd:School , <http://schema.org/School> .
 
 
 ###  http://dbpedia.org/ontology/ShoppingMall
@@ -408,7 +412,7 @@ dbo:Synagogue rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Temple
 dbo:Temple rdf:type owl:Class ;
-           owl:equivalentClass wd:Q44539 .
+           owl:equivalentClass wd:Q44539 , <http://schema.org/BuddhistTemple> .
 
 
 ###  http://dbpedia.org/ontology/Theatre
@@ -472,6 +476,8 @@ inspire-am:AdministrativeBoundary rdf:type owl:Class ;
 ###  http://inspire.ec.europa.eu/schemas/am/4.0#AdministrativeUnit
 inspire-am:AdministrativeUnit rdf:type owl:Class .
 
+geo:Geometry rdf:type owl:Class ;
+		owl:equivalentClass <http://schema.org/GeospatialGeometry> .
 
 ###  http://inspire.ec.europa.eu/schemas/am/4.0#Condominium
 inspire-am:Condominium rdf:type owl:Class ;
@@ -668,7 +674,7 @@ lgd:AerowayTower rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Airport
 lgd:Airport rdf:type owl:Class ;
-            owl:equivalentClass wd:Q1248784 ,
+            owl:equivalentClass wd:Q1248784 , <http://schema.org/Airport> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -716,7 +722,7 @@ lgd:Antenna rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Aquarium
 lgd:Aquarium rdf:type owl:Class ;
-             owl:equivalentClass wd:Q2281788 ,
+             owl:equivalentClass wd:Q2281788 , <http://schema.org/Aquarium> ,
                                  [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:gebaeudefunktion ;
@@ -748,7 +754,7 @@ lgd:Aqueduct rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Bakery
 lgd:Bakery rdf:type owl:Class ;
-           owl:equivalentClass wd:Q274393 .
+           owl:equivalentClass wd:Q274393, <http://schema.org/Bakery> .
 
 
 ###  http://linkedgeodata.org/ontology/Bank
@@ -827,7 +833,7 @@ lgd:Boundary rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Bowling
 lgd:Bowling rdf:type owl:Class ;
-            owl:equivalentClass wd:Q3177899 ,
+            owl:equivalentClass wd:Q3177899 ,<http://schema.org/BowlingAlley> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -858,7 +864,7 @@ lgd:Box rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Brewery
 lgd:Brewery rdf:type owl:Class ;
-            owl:equivalentClass wd:Q131734 ,
+            owl:equivalentClass wd:Q131734 , <http://schema.org/Brewery> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -874,7 +880,7 @@ lgd:Brewery rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Bridge
 lgd:Bridge rdf:type owl:Class ;
-           owl:equivalentClass wd:Q12280 ,
+           owl:equivalentClass wd:Q12280 , <http://schema.org/Bridge> ,
                                [ owl:intersectionOf ( aaa6:AX_BauwerkImVerkehrsbereich
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -978,10 +984,12 @@ lgd:BuildingUnknown rdf:type owl:Class ;
                                           rdf:type owl:Class
                                         ] .
 
+lgd:Beach rdf:type owl:Class ;
+			owl:equivalentClass <http://schema.org/Beach> , wd:Q40080 , <http://dbpedia.org/ontology/Beach> .
 
 ###  http://linkedgeodata.org/ontology/BusStop
 lgd:BusStop rdf:type owl:Class ;
-            owl:equivalentClass wd:Q953806 ,
+            owl:equivalentClass wd:Q953806 , <http://schema.org/BusStop> ,
                                 [ owl:intersectionOf ( aaa6:AX_EinrichtungInOeffentlichenBereichen
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -995,10 +1003,14 @@ lgd:BusStop rdf:type owl:Class ;
                                 ] ;
             rdfs:label "Bus Stop"@en .
 
-
+lgd:Apartment rdf:type owl:Class ;
+				owl:equivalentClass <http://schema.org/Apartment>, wd:Q188507 .
+			
+<http://schema.org/Continent> rdf:type owl:Class ;
+					owl:equivalentClass wd:Q5107 .
 ###  http://linkedgeodata.org/ontology/CampSite
 lgd:CampSite rdf:type owl:Class ;
-             owl:equivalentClass wd:Q832778 ,
+             owl:equivalentClass wd:Q832778 , <http://schema.org/Campground> ,
                                  [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:funktion ;
@@ -1216,7 +1228,7 @@ lgd:CityGate rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Clinic
 lgd:Clinic rdf:type owl:Class ;
-           owl:equivalentClass wd:Q1774898 ;
+           owl:equivalentClass wd:Q1774898, <http://schema.org/MedicalClinic> ;
            rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty inspire-elu:hilucsLandUse ;
@@ -1291,7 +1303,7 @@ lgd:Country rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Courthouse
 lgd:Courthouse rdf:type owl:Class ;
-               owl:equivalentClass wd:Q1137809 ,
+               owl:equivalentClass wd:Q1137809 , <http://schema.org/Courthouse> ,
                                    [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:gebaeudefunktion ;
@@ -1323,7 +1335,7 @@ lgd:Crane rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Crematorium
 lgd:Crematorium rdf:type owl:Class ;
-                owl:equivalentClass wd:Q157570 ,
+                owl:equivalentClass wd:Q157570 , <http://schema.org/Crematorium> ,
                                     [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty aaa6:gebaeudefunktion ;
@@ -1371,6 +1383,7 @@ lgd:Dam rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Dentist
 lgd:Dentist rdf:type owl:Class ;
+			owl:equivalentClass <http://schema.org/Dentist> ;
             rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty inspire-elu:hilucsLandUse ;
@@ -1519,7 +1532,7 @@ lgd:Dormitory rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Embassy
 lgd:Embassy rdf:type owl:Class ;
-            owl:equivalentClass wd:Q3917681 ,
+            owl:equivalentClass wd:Q3917681 , <http://schema.org/Embassy> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -1630,7 +1643,7 @@ lgd:Fingerpost rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/FireStation
 lgd:FireStation rdf:type owl:Class ;
-                owl:equivalentClass wd:Q1195942 ,
+                owl:equivalentClass wd:Q1195942 , <http://schema.org/FireStation> ,
                                     [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty aaa6:gebaeudefunktion ;
@@ -1784,7 +1797,7 @@ lgd:Generator rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/GolfCourse
 lgd:GolfCourse rdf:type owl:Class ;
-               owl:equivalentClass wd:Q1048525 ,
+               owl:equivalentClass wd:Q1048525 , <http://schema.org/GolfCourse> ,
                                    [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:funktion ;
@@ -1904,10 +1917,11 @@ lgd:HighwayBarrier rdf:type owl:Class ;
                                      rdf:type owl:Class
                                    ] .
 
-
+lgd:ChildCare rdf:type owl:Class ;
+				owl:equivalentClass <http://schema.org/ChildCare> .
 ###  http://linkedgeodata.org/ontology/HighwayBusStation
 lgd:HighwayBusStation rdf:type owl:Class ;
-                      owl:equivalentClass wd:Q494829 ;
+                      owl:equivalentClass wd:Q494829 ,<http://schema.org/BusStation> ;
                       rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                              [ rdf:type owl:Restriction ;
                                                                owl:onProperty inspire-elu:hilucsLandUse ;
@@ -2258,7 +2272,7 @@ lgd:HorseRiding rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Hospital
 lgd:Hospital rdf:type owl:Class ;
-             owl:equivalentClass wd:Q16917 ,
+             owl:equivalentClass wd:Q16917 , <http://schema.org/Hospital> ,
                                  [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:gebaeudefunktion ;
@@ -2296,7 +2310,7 @@ lgd:Hospital rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Hostel
 lgd:Hostel rdf:type owl:Class ;
-           owl:equivalentClass wd:Q1589077 ,
+           owl:equivalentClass wd:Q1589077 ,<http://schema.org/Hostel> ,
                                [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -2312,7 +2326,7 @@ lgd:Hostel rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Hotel
 lgd:Hotel rdf:type owl:Class ;
-          owl:equivalentClass wd:Q27686 ,
+          owl:equivalentClass wd:Q27686 , <http://schema.org/Hotel> ,
                               [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty aaa6:gebaeudefunktion ;
@@ -2515,7 +2529,7 @@ lgd:LevelCrossing rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Library
 lgd:Library rdf:type owl:Class ;
-            owl:equivalentClass wd:Q7075 ,
+            owl:equivalentClass wd:Q7075 , <http://schema.org/Library> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -2732,7 +2746,7 @@ lgd:Monastery rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Motel
 lgd:Motel rdf:type owl:Class ;
-          owl:equivalentClass wd:Q216212 ,
+          owl:equivalentClass wd:Q216212 ,<http://schema.org/Motel> ,
                               [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty aaa6:gebaeudefunktion ;
@@ -2877,7 +2891,7 @@ lgd:Palace rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Park
 lgd:Park rdf:type owl:Class ;
-         owl:equivalentClass wd:Q22698 ,
+         owl:equivalentClass wd:Q22698 , <http://schema.org/Park> ,
                              [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
                                                     [ rdf:type owl:Restriction ;
                                                       owl:onProperty aaa6:funktion ;
@@ -2901,10 +2915,10 @@ lgd:Park rdf:type owl:Class ;
                            rdf:type owl:Class
                          ] .
 
-
+lgd:MusicVenue rdf:type owl:Class ; owl:equivalentClass <http://schema.org/MusicVenue> , wd:Q8719053 .
 ###  http://linkedgeodata.org/ontology/Parking
 lgd:Parking rdf:type owl:Class ;
-            owl:equivalentClass wd:Q13218805 ,
+            owl:equivalentClass wd:Q13218805 ,<http://schema.org/ParkingFacility> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -2936,7 +2950,7 @@ lgd:Pedestrian rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Pharmacy
 lgd:Pharmacy rdf:type owl:Class ;
-             owl:equivalentClass wd:Q13107184 ,
+             owl:equivalentClass wd:Q13107184 , <http://schema.org/Pharmacy> ,
                                  [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:gebaeudefunktion ;
@@ -3011,7 +3025,7 @@ lgd:PlaceOfWorship rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Police
 lgd:Police rdf:type owl:Class ;
-           owl:equivalentClass wd:Q86195 ,
+           owl:equivalentClass wd:Q86195 , <http://schema.org/PoliceStation> ,
                                [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -3044,7 +3058,7 @@ lgd:PostBox rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/PostOffice
 lgd:PostOffice rdf:type owl:Class ;
-               owl:equivalentClass wd:Q35054 ,
+               owl:equivalentClass wd:Q35054 , <http://schema.org/PostOffice> ,
                                    [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:gebaeudefunktion ;
@@ -3189,7 +3203,7 @@ lgd:PowerTower rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Preschool
 lgd:Preschool rdf:type owl:Class ;
-              owl:equivalentClass wd:Q1076052 ;
+              owl:equivalentClass wd:Q1076052 , <http://schema.org/Preschool>;
               rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty inspire-elu:hilucsLandUse ;
@@ -3474,7 +3488,7 @@ lgd:ResidentialHome rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Restaurant
 lgd:Restaurant rdf:type owl:Class ;
-               owl:equivalentClass wd:Q11707 ,
+               owl:equivalentClass wd:Q11707 , <http://schema.org/Restaurant> ,
                                    [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:gebaeudefunktion ;
@@ -3648,10 +3662,12 @@ lgd:Shoal rdf:type owl:Class ;
                                 rdf:type owl:Class
                               ] .
 
-
+lgd:Cafe rdf:type owl:Class ; owl:equivalentClass <http://schema.org/CafeOrCoffeeShop> , wd:Q30022 .
+lgd:Bar rdf:type owl:Class ; owl:equivalentClass <http://schema.org/BarOrPub> , wd:Q187456 .
+lgd:Resort rdf:type owl:Class ; owl:equivalentClass <http://schema.org/Resort> , wd:Q875157 .
 ###  http://linkedgeodata.org/ontology/Shop
 lgd:Shop rdf:type owl:Class ;
-         owl:equivalentClass wd:Q213441 ,
+         owl:equivalentClass wd:Q213441 ,<http://schema.org/Store> ,
                              [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                     [ rdf:type owl:Restriction ;
                                                       owl:onProperty aaa6:gebaeudefunktion ;
@@ -3668,7 +3684,7 @@ lgd:Shop rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/ShoppingCenter
 lgd:ShoppingCenter rdf:type owl:Class ;
                    owl:equivalentClass lgd:ShoppingCentre ,
-                                       wd:Q11315 ,
+                                       wd:Q11315 , <http://schema.org/ShoppingCenter> ,
                                        [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty aaa6:gebaeudefunktion ;
@@ -3753,7 +3769,7 @@ lgd:SportsCentre rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Stadium
 lgd:Stadium rdf:type owl:Class ;
-            owl:equivalentClass wd:Q483110 ,
+            owl:equivalentClass wd:Q483110 ,<http://schema.org/StadiumOrArena> , 
                                 [ owl:intersectionOf ( aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:funktion ;
@@ -3870,7 +3886,7 @@ lgd:Suburb rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/SwimmingPool
 lgd:SwimmingPool rdf:type owl:Class ;
-                 owl:equivalentClass wd:Q1501 ,
+                 owl:equivalentClass wd:Q1501 ,<http://schema.org/PublicSwimmingPool>,
                                      [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty aaa6:gebaeudefunktion ;
@@ -3894,7 +3910,9 @@ lgd:SwimmingPool rdf:type owl:Class ;
                                    rdf:type owl:Class
                                  ] .
 
-
+lgd:Taxi rdf:type owl:Class ; owl:equivalentClass <http://schema.org/TaxiStand>, wd:Q1395196 .
+								 
+								 
 ###  http://linkedgeodata.org/ontology/Taxiway
 lgd:Taxiway rdf:type owl:Class ;
             owl:equivalentClass wd:Q910386 ;
@@ -4003,7 +4021,7 @@ lgd:Theatre rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Toilets
 lgd:Toilets rdf:type owl:Class ;
-            owl:equivalentClass wd:Q7813355 ,
+            owl:equivalentClass wd:Q7813355 , <http://schema.org/PublicToilet> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -4035,7 +4053,7 @@ lgd:TourismInformation rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/TourismZoo
 lgd:TourismZoo rdf:type owl:Class ;
-               owl:equivalentClass wd:Q43501 ,
+               owl:equivalentClass wd:Q43501 , <http://schema.org/Zoo> ,
                                    [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:gebaeudefunktion ;
@@ -4059,10 +4077,12 @@ lgd:TourismZoo rdf:type owl:Class ;
                                      rdf:type owl:Class
                                    ] .
 
-
+lgd:TravelAgency rdf:type owl:Class ;
+			owl:equivalentClass <http://schema.org/TravelAgency>, wd:Q217107 .
+								   
 ###  http://linkedgeodata.org/ontology/Tourist
 lgd:Tourist rdf:type owl:Class ;
-            owl:equivalentClass wd:Q1587716 ,
+            owl:equivalentClass wd:Q1587716 ,<http://schema.org/TouristInformationCenter> ,
                                 [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
@@ -4078,7 +4098,7 @@ lgd:Tourist rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Townhall
 lgd:Townhall rdf:type owl:Class ;
-             owl:equivalentClass wd:Q543654 ,
+             owl:equivalentClass wd:Q543654 ,<http://schema.org/CityHall> ,
                                  [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:gebaeudefunktion ;
@@ -4126,7 +4146,7 @@ lgd:TrafficLight rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/TrainStation
 lgd:TrainStation rdf:type owl:Class ;
-                 owl:equivalentClass wd:Q55488 ,
+                 owl:equivalentClass wd:Q55488 , <http://schema.org/TrainStation>, 
                                      [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty aaa6:gebaeudefunktion ;
@@ -4367,7 +4387,7 @@ lgd:WaterWorks rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Waterfall
 lgd:Waterfall rdf:type owl:Class ;
-              owl:equivalentClass wd:Q34038 ,
+              owl:equivalentClass wd:Q34038 ,<http://schema.org/Waterfall> ,
                                   [ owl:intersectionOf ( aaa6:AX_Gewaessermerkmal
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty aaa6:art ;
@@ -4509,7 +4529,7 @@ aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Behoerde
 aaa6:AX_Behoerde rdf:type owl:Class ;
-                 owl:equivalentClass wd:Q327333 .
+                 owl:equivalentClass wd:Q327333 , <http://schema.org/GovernmentOrganization> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BesondereFlurstuecksgrenze
@@ -4664,7 +4684,7 @@ aaa6:AX_Nationalstaat rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Person
 aaa6:AX_Person rdf:type owl:Class ;
-               owl:equivalentClass wd:Q5, <http://d-nb.info/standards/elementset/gnd#Person> , <http://xmlns.com/foaf/0.1/Person> .
+               owl:equivalentClass wd:Q5, <http://d-nb.info/standards/elementset/gnd#Person> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz
@@ -4772,7 +4792,7 @@ aaa6:AX_Wohnplatz rdf:type owl:Class .
 
 ###  http://www.opengis.net/gml#AbstractFeature
 gml:AbstractFeature rdf:type owl:Class ;
-                    owl:equivalentClass geo:Feature .
+                    owl:equivalentClass geo:Feature, <http://www.geonames.org/ontology#Feature> .
 
 
 ###  http://www.opengis.net/ont/geosparql#Feature
@@ -4970,7 +4990,7 @@ wd:Q12511 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q1251750
 wd:Q1251750 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+            owl:equivalentClass  <http://schema.org/Distillery> , [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
@@ -5077,7 +5097,7 @@ wd:Q131263 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q131681
 wd:Q131681 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_StehendesGewaesser
+           owl:equivalentClass <http://schema.org/Reservoir>, [ owl:intersectionOf ( aaa6:AX_StehendesGewaesser
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:funktion ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
@@ -5133,7 +5153,7 @@ wd:Q13499616 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q13607440
 wd:Q13607440 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
+             owl:equivalentClass <http://schema.org/Playground> , [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:gebaeudefunktion ;
                                                           owl:someValuesFrom [ rdf:type owl:Class ;
@@ -5853,6 +5873,7 @@ wd:Q193886 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q194195
 wd:Q194195 rdf:type owl:Class ;
+		   owl:equivalentClass <http://schema.org/AmusementPark> ;
            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -6184,7 +6205,7 @@ wd:Q23383 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q23397
 wd:Q23397 rdf:type owl:Class ;
-          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_StehendesGewaesser
+          owl:equivalentClass <http://schema.org/LakeBodyOfWater>, [ owl:intersectionOf ( aaa6:AX_StehendesGewaesser
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty aaa6:funktion ;
                                                        owl:someValuesFrom [ rdf:type owl:Class ;
@@ -6275,7 +6296,7 @@ wd:Q2376564 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q2385804
 wd:Q2385804 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+            owl:equivalentClass <http://schema.org/EducationalOrganization> , [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:gebaeudefunktion ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
@@ -6484,7 +6505,8 @@ wd:Q31838271 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q3253281
 wd:Q3253281 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_StehendesGewaesser
+			
+            owl:equivalentClass <http://schema.org/Pond>, [ owl:intersectionOf ( aaa6:AX_StehendesGewaesser
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:funktion ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
@@ -6508,7 +6530,7 @@ wd:Q327333 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q32815
 wd:Q32815 rdf:type owl:Class ;
-          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+          owl:equivalentClass <http://schema.org/Mosque> , [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty aaa6:gebaeudefunktion ;
                                                        owl:someValuesFrom [ rdf:type owl:Class ;
@@ -6576,7 +6598,7 @@ wd:Q34442 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q34627
 wd:Q34627 rdf:type owl:Class ;
-          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
+          owl:equivalentClass <http://schema.org/Synaogogue> ,[ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty aaa6:gebaeudefunktion ;
                                                        owl:someValuesFrom [ rdf:type owl:Class ;
