@@ -237,7 +237,7 @@ dbo:Airport rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Atoll
 dbo:Atoll rdf:type owl:Class ;
-          owl:equivalentClass [ rdf:type owl:Restriction ;
+          owl:equivalentClass wd:Q42523, [ rdf:type owl:Restriction ;
                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                 owl:hasValue <http://www.geonames.org/ontology#T.ATOL>
                               ] ;
@@ -1487,7 +1487,7 @@ lgd:Canal rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Cape
 lgd:Cape rdf:type owl:Class ;
-         owl:equivalentClass [ rdf:type owl:Restriction ;
+         owl:equivalentClass wd:Q185113 , [ rdf:type owl:Restriction ;
                                owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                owl:hasValue <http://www.geonames.org/ontology#T.CAPE>
                              ] ;
@@ -2187,7 +2187,7 @@ lgd:FireStation rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Fjord
 lgd:Fjord rdf:type owl:Class ;
-          owl:equivalentClass [ rdf:type owl:Restriction ;
+          owl:equivalentClass wd:Q45776, [ rdf:type owl:Restriction ;
                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                 owl:hasValue <http://www.geonames.org/ontology#H.FJD>
                               ] ;
@@ -2351,7 +2351,7 @@ lgd:Geyser rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Glacier
 lgd:Glacier rdf:type owl:Class ;
-            owl:equivalentClass [ rdf:type owl:Restriction ;
+            owl:equivalentClass wd:Q35666, [ rdf:type owl:Restriction ;
                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                   owl:hasValue <http://www.geonames.org/ontology#H.GLCR>
                                 ] ;
@@ -3730,7 +3730,7 @@ lgd:Pedestrian rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Peninsula
 lgd:Peninsula rdf:type owl:Class ;
-              owl:equivalentClass [ rdf:type owl:Restriction ;
+              owl:equivalentClass wd:Q34763, [ rdf:type owl:Restriction ;
                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                     owl:hasValue <http://www.geonames.org/ontology#T.PEN>
                                   ] ;
