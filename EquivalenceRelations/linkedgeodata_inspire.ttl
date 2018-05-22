@@ -7262,6 +7262,33 @@ wd:Q643352 rdf:type owl:Class ;
                                  rdf:type owl:Class
                                ] ;
            rdfs:label "grass"@en .
+wd:Q487843 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bewuchs ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1300
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "cutline"@en .
+		   
+wd:Q42295 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:bewuchs ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Bewuchs_Vegetationsmerkmal_1260
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "shrub"@en .
 ###  http://www.wikidata.org/entity/Q1495738
 wd:Q1495738 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
