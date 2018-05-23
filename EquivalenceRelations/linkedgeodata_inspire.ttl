@@ -2202,7 +2202,19 @@ lgd:Dam rdf:type owl:Class ;
         rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
         rdfs:label "Dam"@en .
 
-
+wd:Q2027640 rdf:type owl:Class ;
+		rdfs:label "sleeper dike"@en ;
+        owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_DammWallDeich
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty aaa6:funktion ;
+                                                     owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                          owl:oneOf ( aaa6:AX_Funktion_DammWallDeich_1960
+                                                                                    )
+                                                                        ]
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] .
 ###  http://linkedgeodata.org/ontology/Dentist
 lgd:Dentist rdf:type owl:Class ;
             owl:equivalentClass <http://schema.org/Dentist> ;
@@ -6631,7 +6643,7 @@ aaa6:AX_Fahrwegachse rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser
-aaa6:AX_Fliessgewaesser rdf:type owl:Class .
+aaa6:AX_Fliessgewaesser rdf:type owl:Class ; owl:equivalentClass wd:Q355304 , <http://inspire.ec.europa.eu/schemas/hy-p/4.0#Watercourse> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Flugverkehr
@@ -6798,7 +6810,7 @@ aaa6:AX_LagebezeichnungKatalogeintrag rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landschaft
-aaa6:AX_Landschaft rdf:type owl:Class .
+aaa6:AX_Landschaft rdf:type owl:Class ; owl:equivalentClass wd:Q107425 .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landwirtschaft
@@ -6892,7 +6904,7 @@ aaa6:AX_Strasse rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strassenverkehr
-aaa6:AX_Strassenverkehr rdf:type owl:Class .
+aaa6:AX_Strassenverkehr rdf:type owl:Class ; owl:equivalentClass wd:Q516739 .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strassenverkehrsanlage
