@@ -4639,7 +4639,7 @@ lgd:School rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Sea
 lgd:Sea rdf:type owl:Class ;
-        owl:equivalentClass aaa6:AX_Meer ,
+        owl:equivalentClass aaa6:AX_Meer , <http://inspire.ec.europa.eu/schemas/sr/4.0#Sea>,
                             wd:Q165 .
 
 
@@ -7111,7 +7111,7 @@ wd:Q1339195 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q13499616
 wd:Q13499616 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_EinrichtungenFuerDenSchiffsverkehr
+             owl:equivalentClass <http://inspire.ec.europa.eu/schemas/tn-w/4.0#Buoy>, [ owl:intersectionOf ( aaa6:AX_EinrichtungenFuerDenSchiffsverkehr
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:art ;
                                                           owl:someValuesFrom [ rdf:type owl:Class ;
