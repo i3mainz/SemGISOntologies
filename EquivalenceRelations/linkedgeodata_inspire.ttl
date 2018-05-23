@@ -1414,7 +1414,17 @@ lgd:Bank rdf:type owl:Class ;
                                                     ]
                                                   ) ;
                                rdf:type owl:Class
-                             ] ;
+                             ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
          rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty inspire-elu:hilucsLandUse ;
@@ -2367,7 +2377,17 @@ lgd:Dormitory rdf:type owl:Class ;
                                                          ]
                                                        ) ;
                                     rdf:type owl:Class
-                                  ] .
+                                  ]; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] .
 
 
 ###  http://linkedgeodata.org/ontology/Embassy
@@ -3263,7 +3283,17 @@ lgd:Hostel rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] .
 
 
 ###  http://linkedgeodata.org/ontology/HotSpring
@@ -3341,7 +3371,17 @@ lgd:Insurance rdf:type owl:Class ;
                                                          ]
                                                        ) ;
                                     rdf:type owl:Class
-                                  ] .
+                                  ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] .
 
 
 ###  http://linkedgeodata.org/ontology/Island
@@ -3958,7 +3998,17 @@ lgd:Office rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/commerceAndServices> <http://inspire.ec.europa.eu/codelist/CurrentUseValue/office>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ]  .
 
 
 ###  http://linkedgeodata.org/ontology/Palace
@@ -4703,6 +4753,16 @@ lgd:ResidentialBuilding rdf:type owl:Class ;
                                                                ]
                                                              ) ;
                                           rdf:type owl:Class
+                                        ],[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/BuildingUseValue/residential>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
                                         ] .
 
 
@@ -4747,7 +4807,17 @@ lgd:Restaurant rdf:type owl:Class ;
                                                           ]
                                                         ) ;
                                      rdf:type owl:Class
-                                   ] ,
+                                   ] ,[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/BuildingUseValue/commerceAndServices>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ],
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.REST>
@@ -7608,7 +7678,17 @@ wd:Q1399349 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/residential>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
             rdfs:label "Wochenendhaus"@en .
 
 
@@ -8916,7 +8996,15 @@ wd:Q2251287 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ] ;  rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:hasValue <http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities> ;
+
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
             rdfs:label "Schullandheim"@en .
 
 
@@ -9004,7 +9092,17 @@ wd:Q22908 rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
-                              ] ;
+                              ]; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ]; 
           rdfs:label "retirement home"@en .
 
 
@@ -9669,7 +9767,17 @@ wd:Q3661265 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ]; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/residenceForCommunities>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
             rdfs:label "university dormitory"@en .
 
 
@@ -10320,7 +10428,17 @@ wd:Q5787273 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#AbstractBuilding>
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#currentUse> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/CurrentUseValue/ancillary>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
             rdfs:label "Garden house"@en .
 
 
