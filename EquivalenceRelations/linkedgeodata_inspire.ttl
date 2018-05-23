@@ -134,10 +134,6 @@ aaa6:bahnkategorie rdf:type owl:ObjectProperty .
 aaa6:bauwerksfunktion rdf:type owl:ObjectProperty .
 
 
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#bauwerksfunktionn
-aaa6:bauwerksfunktionn rdf:type owl:ObjectProperty .
-
-
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginnt
 aaa6:beginnt rdf:type owl:ObjectProperty .
 
@@ -4123,7 +4119,7 @@ lgd:Pipeline rdf:type owl:Class ;
              owl:equivalentClass wd:Q5307561 ,
                                  [ owl:intersectionOf ( aaa6:AX_Transportanlage
                                                         [ rdf:type owl:Restriction ;
-                                                          owl:onProperty aaa6:bauwerksfunktionn ;
+                                                          owl:onProperty aaa6:bauwerksfunktion ;
                                                           owl:someValuesFrom [ rdf:type owl:Class ;
                                                                                owl:oneOf ( aaa6:AX_Bauwerksfunktion_Transportanlage_1101
                                                                                          )
@@ -8292,7 +8288,7 @@ wd:Q17485533 rdf:type owl:Class ;
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty aaa6:bauwerksfunktion ;
                                                           owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                               owl:oneOf ( aaa6:AX_Bauwerksfuntion_Turm_1006
+                                                                               owl:oneOf ( aaa6:AX_Bauwerksfunktion_Turm_1006
                                                                                          )
                                                                              ]
                                                         ]
@@ -8305,7 +8301,18 @@ wd:Q17485533 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q1756525
 wd:Q1756525 rdf:type owl:Class ;
-            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_VorratsbehaelterSpeicherbauwerk
+            owl:equivalentClass [ owl:intersectionOf ( inspire-bubase:Building
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty inspire-bubase:buildingNature ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank>
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ,
+                                [ owl:intersectionOf ( aaa6:AX_VorratsbehaelterSpeicherbauwerk
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:bauwerksfunktion ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
@@ -8315,17 +8322,7 @@ wd:Q1756525 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ,[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/bu-base/4.0#Building>
-                                                     [ rdf:type owl:Restriction ;
-                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/bu-base/4.0#buildingNature> ;
-                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank>
-                                                                                      )
-                                                                          ]
-                                                     ]
-                                                   ) ;
-                                rdf:type owl:Class
-                              ] ;
+                                ] ;
             rdfs:label "storage tank"@en .
 
 
@@ -11070,6 +11067,10 @@ wd:Q962715 rdf:type owl:Class ;
 <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/stadium> rdf:type owl:NamedIndividual .
 
 
+###  http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank
+<http://inspire.ec.europa.eu/codelist/BuildingNatureValue/storageTank> rdf:type owl:NamedIndividual .
+
+
 ###  http://inspire.ec.europa.eu/codelist/BuildingNatureValue/synagogue
 <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/synagogue> rdf:type owl:NamedIndividual .
 
@@ -11848,10 +11849,6 @@ aaa6:AX_Bauwerksfunktion_VorratsbehaelterSpeicherbauwerk_1205 rdf:type owl:Named
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfunktion_VorratsbehaelterSpeicherbauwerk_1206
 aaa6:AX_Bauwerksfunktion_VorratsbehaelterSpeicherbauwerk_1206 rdf:type owl:NamedIndividual .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bauwerksfuntion_Turm_1006
-aaa6:AX_Bauwerksfuntion_Turm_1006 rdf:type owl:NamedIndividual .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bewuchs_Vegetationsmerkmal_1012
