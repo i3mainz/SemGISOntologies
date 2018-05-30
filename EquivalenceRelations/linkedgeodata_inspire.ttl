@@ -609,7 +609,7 @@ dbo:RailwayStation rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/RailwayTunnel
 dbo:RailwayTunnel rdf:type owl:Class ;
-                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                  owl:equivalentClass wd:Q1311958,[ rdf:type owl:Restriction ;
                                         owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                         owl:hasValue <http://www.geonames.org/ontology#R.TNLRR>
                                       ] ;
@@ -798,7 +798,7 @@ dbo:Zoo rdf:type owl:Class ;
 
 ###  http://inspire.ec.europa.eu/schemas/ad/4.0#Address
 <http://inspire.ec.europa.eu/schemas/ad/4.0#Address> rdf:type owl:Class ;
-                                                     owl:equivalentClass aaa6:AX_GeoreferenzierteGebaeudeadresse .
+                                                     owl:equivalentClass wd:Q319608,aaa6:AX_GeoreferenzierteGebaeudeadresse .
 
 
 ###  http://inspire.ec.europa.eu/schemas/ad/4.0#AdminUnitName
@@ -857,11 +857,35 @@ inspire-bubase:Building rdf:type owl:Class ;
 
 ###  http://inspire.ec.europa.eu/schemas/cp/4.0#CadastralParcel
 inspire-cp:CadastralParcel rdf:type owl:Class ;
-                           owl:equivalentClass aaa6:AX_Flurstueck .
+                           owl:equivalentClass wd:Q683595,aaa6:AX_Flurstueck .
 
+wd:Q921543 rdf:type owl:Class ;
+            rdfs:label "water protection area"@en ;
+            owl:equivalentClass aaa6:AX_SchutzgebietNachWasserrecht .
+            
+wd:Q1802748 rdf:type owl:Class ;
+                rdfs:label "Landeswappen"@de ;
+                owl:equivalentClass aaa6:AX_Landeswappen .
+                
+wd:Q1221119 rdf:type owl:Class ;
+              rdfs:label "Dienststelle"@de ;
+              owl:equivalentClass aaa6:AX_Dienststelle .
+              
+wd:Q811165 rdf:type owl:Class ;
+            rdfs:label "architectural heritage monument"@en ;
+            owl:equivalentClass aaa6:AX_Denkmalschutzrecht .
+           
+wd:Q757163 rdf:type owl:Class ;
+            rdfs:label "Gehoelz"@de ;
+            owl:equivalentClass aaa6:AX_Gehoelz .
 
+wd:Q25391 rdf:type owl:Class ;
+            rdfs:label "dune"@en ;
+            owl:equivalentClass aaa6:AX_Duene .
+            
 ###  http://inspire.ec.europa.eu/schemas/elu/4.0#ExistingLandUseObject
 inspire-elu:ExistingLandUseObject rdf:type owl:Class ;
+                                  owl:equivalentClass lgd:Landuse ;
                                   rdfs:subClassOf gml:AbstractFeature .
 
 
@@ -2667,6 +2691,7 @@ lgd:Garden rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Generator
 lgd:Generator rdf:type owl:Class ;
+            owl:equivalentClass wd:Q131502 ;
               rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty inspire-elu:hilucsLandUse ;
@@ -3739,7 +3764,7 @@ lgd:Marketplace rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Meadow
 lgd:Meadow rdf:type owl:Class ;
-           owl:equivalentClass [ rdf:type owl:Restriction ;
+           owl:equivalentClass wd:Q7777019 , [ rdf:type owl:Restriction ;
                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                  owl:hasValue <http://www.geonames.org/ontology#V.MDW>
                                ] ;
@@ -4210,7 +4235,7 @@ lgd:PlaceOfWorship rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Plain
 lgd:Plain rdf:type owl:Class ;
-          owl:equivalentClass [ rdf:type owl:Restriction ;
+          owl:equivalentClass wd:Q160091 ,[ rdf:type owl:Restriction ;
                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                 owl:hasValue <http://www.geonames.org/ontology#T.PLN>
                               ] ;
@@ -4294,10 +4319,12 @@ lgd:Power rdf:type owl:Class ;
                             rdf:type owl:Class
                           ] .
 
-
+lgd:Construction rdf:type owl:Class ;
+                owl:equivalentClass wd:Q385378 .
+                          
 ###  http://linkedgeodata.org/ontology/PowerConstruction
 lgd:PowerConstruction rdf:type owl:Class ;
-                      rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
+                      rdfs:subClassOf lgd:Construction, [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                              [ rdf:type owl:Restriction ;
                                                                owl:onProperty inspire-elu:hilucsLandUse ;
                                                                owl:someValuesFrom [ rdf:type owl:Class ;
@@ -4711,7 +4738,7 @@ lgd:Rapids rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Recycling
 lgd:Recycling rdf:type owl:Class ;
-              owl:equivalentClass <http://schema.org/RecyclingCenter> .
+              owl:equivalentClass <http://schema.org/RecyclingCenter>, wd:Q27106436 .
 
 
 ###  http://linkedgeodata.org/ontology/Reef
@@ -6463,7 +6490,7 @@ lgd:disposal rdf:type owl:Class ;
 
 ###  http://schema.org/RadioStation
 <http://schema.org/RadioStation> rdf:type owl:Class ;
-                                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:equivalentClass wd:Q14350,<http://dbpedia.org/ontology/RadioStation>,[ rdf:type owl:Restriction ;
                                                        owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                                        owl:hasValue <http://www.geonames.org/ontology#S.STNR>
                                                      ] ;
