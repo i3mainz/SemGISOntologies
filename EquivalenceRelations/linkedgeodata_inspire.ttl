@@ -6793,8 +6793,8 @@ aaa6:AX_Gemarkung rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemeinde
-aaa6:AX_Gemeinde rdf:type owl:Class ;
-                 owl:equivalentClass wd:Q262166 ;
+lgd:Municipality rdf:type owl:Class ;
+                 owl:equivalentClass aaa6:AX_Gemeinde ,wd:Q262166 ;
                  rdfs:subClassOf inspire-am:AdministrativeUnit .
 
 
@@ -7664,6 +7664,7 @@ wd:Q1371789 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q1395196
 wd:Q1395196 rdf:type owl:Class .
+
 
 
 ###  http://www.wikidata.org/entity/Q1399349
