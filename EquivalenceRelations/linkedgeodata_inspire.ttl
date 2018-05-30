@@ -764,10 +764,50 @@ dbo:Tunnel rdf:type owl:Class ;
 dbo:University rdf:type owl:Class ;
                owl:equivalentClass lgd:University .
 
-
+wd:Q1742059 rdf:type owl:Class ;
+			rdfs:label "lake area"@en ;
+			owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:landschaftstyp ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Landschaftstyp_2100
+                                                                                       )
+                                                                           ]
+                                                      ])] .
+wd:Q193071	rdf:type owl:Class ;
+			rdfs:label "lowland"@en ;
+			owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:landschaftstyp ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Landschaftstyp_1500
+                                                                                       )
+                                                                           ]
+                                                      ])] .	   
+wd:Q1402592 rdf:type owl:Class ;
+			rdfs:label "island group"@en ;
+			owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:landschaftstyp ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Landschaftstyp_2000
+                                                                                       )
+                                                                           ]
+                                                      ])] .
+			 
 ###  http://dbpedia.org/ontology/Valley
 dbo:Valley rdf:type owl:Class ;
-           owl:equivalentClass wd:Q39816 ,
+           owl:equivalentClass wd:Q39816 ,  [ owl:intersectionOf ( aaa6:AX_Landschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:landschaftstyp ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( aaa6:AX_Landschaftstyp_1400
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                  owl:hasValue <http://www.geonames.org/ontology#T.VAL>
@@ -7200,6 +7240,11 @@ wd:Q1068623 rdf:type owl:Class ;
 ###  http://www.wikidata.org/entity/Q1076052
 wd:Q1076052 rdf:type owl:Class .
 
+wd:Q2379791 rdf:type owl:Class ;
+			owl:equivalentClass aaa6:AX_Soll .
+			
+wd:Q1348006 rdf:type owl:Class ;
+			owl:equivalentClass aaa6:AX_Baublock . 
 
 ###  http://www.wikidata.org/entity/Q1076291
 wd:Q1076291 rdf:type owl:Class ;
@@ -9343,13 +9388,67 @@ wd:Q244326 rdf:type owl:Class ;
            rdfs:label "Salt evaporation pond"@en .
 
 
+wd:Q644371 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5511
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "international airport"@en .		   
+wd:Q837800 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5512
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "domestic airport"@en .	
+wd:Q1479818 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5513
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "special airport"@en .		
+wd:Q2301048 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty aaa6:art ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5522
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "special airfield"@en .				
+		   
+		   
 ###  http://www.wikidata.org/entity/Q2516330
 wd:Q2516330 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Flugverkehr
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty aaa6:art ;
                                                          owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5520
+                                                                              owl:oneOf ( aaa6:AX_Art_Flugverkehr_5521
                                                                                         )
                                                                             ]
                                                        ]
@@ -10731,8 +10830,32 @@ wd:Q75520 rdf:type owl:Class ;
                                 rdf:type owl:Class
                               ] ;
           rdfs:label "plateau"@en .
-
-
+wd:Q46831 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landschaft
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:landschaftstyp ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Landschaftstyp_1100
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "mountain range"@en .
+wd:Q2271117 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landschaft
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:landschaftstyp ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_Landschaftstyp_1300
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "Senke"@de .
 ###  http://www.wikidata.org/entity/Q756102
 wd:Q756102 rdf:type owl:Class ;
            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
