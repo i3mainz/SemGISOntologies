@@ -951,8 +951,82 @@ wd:Q1221119 rdf:type owl:Class ;
               
 wd:Q811165 rdf:type owl:Class ;
             rdfs:label "architectural heritage monument"@en ;
-            owl:equivalentClass aaa6:AX_Denkmalschutzrecht .
-           
+            owl:equivalentClass  [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_2711
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+ wd:Q1792363 rdf:type owl:Class ;
+            rdfs:label "Kunstdenkmal"@de ;
+            owl:equivalentClass  [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_2712
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .  
+wd:Q1363360 rdf:type owl:Class ;
+            rdfs:label "circular rampart"@en ;
+            owl:equivalentClass  [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_3113
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] . 
+wd:Q146924 rdf:type owl:Class ;
+            rdfs:label "Roman limes"@en ;
+            owl:equivalentClass  [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_3132
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] . 
+wd:Q33565 rdf:type owl:Class ;
+            rdfs:label "stilt house"@en ;
+            owl:equivalentClass  [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_3210
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] . 
+wd:Q22969563 rdf:type owl:Class ;
+            rdfs:label "Bodendenkmal"@de ;
+            owl:equivalentClass  [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_2820
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .  
 wd:Q757163 rdf:type owl:Class ;
             rdfs:label "Gehoelz"@de ;
             owl:equivalentClass aaa6:AX_Gehoelz .
@@ -10180,7 +10254,19 @@ wd:Q420962 rdf:type owl:Class ;
                                ] ;
            rdfs:label "heritage railway"@en .
 
-
+wd:Q358 rdf:type owl:Class ;
+                rdfs:label "heritage site"@en ;
+                owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Denkmalschutzrecht
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty aaa6:artDerFestlegung;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( aaa6:AX_ArtDerFestlegung_Denkmalschutzrecht_2700
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
 ###  http://www.wikidata.org/entity/Q42295
 wd:Q42295 rdf:type owl:Class ;
           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Vegetationsmerkmal
