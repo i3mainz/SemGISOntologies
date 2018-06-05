@@ -11,6 +11,7 @@
 @prefix aaa6: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix swrlgeo: <http://semgis.de/spatial/swrlgeo#> .
+@prefix xerl: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix inspire-am: <http://inspire.ec.europa.eu/schemas/am/4.0#> .
 @prefix inspire-cp: <http://inspire.ec.europa.eu/schemas/cp/4.0#> .
 @prefix inspire-elu: <http://inspire.ec.europa.eu/schemas/elu/4.0#> .
@@ -297,7 +298,18 @@ dbo:Bay rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Beach
 dbo:Beach rdf:type owl:Class ;
-          owl:equivalentClass lgd:Beach .
+          owl:equivalentClass lgd:Beach ,
+          [ owl:intersectionOf ( xerl:XE_Baden
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31401000_EN_Baden_Strand
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://dbpedia.org/ontology/Brewery
@@ -311,6 +323,17 @@ dbo:Bridge rdf:type owl:Class ;
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                  owl:hasValue <http://www.geonames.org/ontology#S.BDG>
+                               ] ;
+            owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301300_EN_TechnischesBauwerk_Bruecke
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
            rdfs:label "Bridge"@en .
@@ -360,6 +383,17 @@ dbo:Cave rdf:type owl:Class ;
                                owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                owl:hasValue <http://www.geonames.org/ontology#S.CAVE>
                              ] ;
+       owl:equivalentClass [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31102200_EN_NaturLandschaft_Hoehle
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ];
          rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
          rdfs:label "Cave"@en .
 
@@ -377,6 +411,17 @@ dbo:Church rdf:type owl:Class ;
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                  owl:hasValue <http://www.geonames.org/ontology#S.CH>
+                               ] ;
+                        owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22601000_EN_Gotteshaus_Kirche
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
            rdfs:label "Church"@en .
@@ -425,7 +470,8 @@ dbo:Factory rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Forest
 dbo:Forest rdf:type owl:Class ;
-           owl:equivalentClass lgd:LanduseForest .
+           owl:equivalentClass lgd:LanduseForest   .                   
+
 
 
 ###  http://dbpedia.org/ontology/Fort
@@ -482,6 +528,17 @@ dbo:Island rdf:type owl:Class ;
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                  owl:hasValue <http://www.geonames.org/ontology#T.ISL>
+                               ] ;
+          owl:equivalentClass [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31102600_EN_NaturLandschaft_Insel
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
            rdfs:label "Island"@en .
@@ -554,6 +611,17 @@ dbo:Mountain rdf:type owl:Class ;
                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                    owl:hasValue <http://www.geonames.org/ontology#T.MT>
                                  ] ;
+                   owl:equivalentClass [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31102500_EN_NaturLandschaft_Berg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ];
              rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
              rdfs:label "Mountain"@en .
 
@@ -601,6 +669,17 @@ dbo:Person rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/PowerStation
 dbo:PowerStation rdf:type owl:Class ;
                  owl:equivalentClass lgd:PowerStation ,
+                                                     [ owl:intersectionOf ( xerl:XE_VerEntsorgungsbetrieb
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:64101250_EN_VerEntsorgungsbetrieb_Kraftwerk
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                        owl:hasValue <http://www.geonames.org/ontology#S.PS>
@@ -751,14 +830,35 @@ dbo:Theatre rdf:type owl:Class ;
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                   owl:hasValue <http://www.geonames.org/ontology#S.THTR>
-                                ] ;
+                                ] ,
+            [ owl:intersectionOf ( xerl:XE_TheaterMusik
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:21201000_EN_TheaterMusik_Theater
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
             rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
             rdfs:label "Theatre"@en .
 
 
 ###  http://dbpedia.org/ontology/Tower
 dbo:Tower rdf:type owl:Class ;
-          owl:equivalentClass aaa6:AX_Turm .
+          owl:equivalentClass aaa6:AX_Turm ,  [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301100_EN_TechnischesBauwerk_Turm
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://dbpedia.org/ontology/Tunnel
@@ -769,6 +869,17 @@ dbo:Tunnel rdf:type owl:Class ;
                                                         owl:onProperty aaa6:bauwerksfunktion ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                              owl:oneOf ( aaa6:AX_Bauwerksfunktion_BauwerkImVerkehrsbereich_1870
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
+                                                  [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301400_EN_TechnischesBauwerk_Tunnel
                                                                                        )
                                                                            ]
                                                       ]
@@ -1470,7 +1581,7 @@ lgd:Aqueduct rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Bakery
 lgd:Bakery rdf:type owl:Class ;
            owl:equivalentClass <http://schema.org/Bakery> ,
-                               wd:Q274393 .
+                               wd:Q274393 . 
 
 
 ###  http://linkedgeodata.org/ontology/Bank
@@ -1634,7 +1745,17 @@ lgd:Brewery rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] .
+                                ]    ,  [ owl:intersectionOf ( xerl:XE_Gastronomie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11201350_EN_Gastronomie_Brauerei
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Bridge
@@ -1914,6 +2035,17 @@ lgd:Castle rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ,
+                             [ owl:intersectionOf ( xerl:XE_Bauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22201100_EN_Bauwerk_Burg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -1963,6 +2095,17 @@ lgd:Chapel rdf:type owl:Class ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                              owl:oneOf ( aaa6:AX_Gebaeudefunktion_3043
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+                            owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22601100_EN_Gotteshaus_Kapelle
                                                                                        )
                                                                            ]
                                                       ]
@@ -2103,7 +2246,17 @@ lgd:City rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/CityGate
 lgd:CityGate rdf:type owl:Class ;
-             owl:equivalentClass wd:Q82117 .
+             owl:equivalentClass wd:Q82117 , [ owl:intersectionOf ( xerl:XE_Bauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22201000_EN_Bauwerk_Stadttor
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Clinic
@@ -2320,7 +2473,17 @@ lgd:DepartmentStore rdf:type owl:Class ;
                                                                ]
                                                              ) ;
                                           rdf:type owl:Class
-                                        ] .
+                                        ] , [ owl:intersectionOf ( xerl:XE_Einzelhandel
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72301140_EN_Einzelhandel_Kaufhaus
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/DisusedStation
@@ -2814,7 +2977,17 @@ lgd:GraveYard rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Graveyard
 lgd:Graveyard rdf:type owl:Class ;
               owl:equivalentClass aaa6:AX_Friedhof ,
-                                  wd:Q39614 .
+                                  wd:Q39614,   [ owl:intersectionOf ( xerl:XE_Religioeses
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22701000_EN_Religioeses_Friedhof
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Harbour
@@ -3393,6 +3566,17 @@ lgd:Hotel rdf:type owl:Class ;
                                                    ) ;
                                 rdf:type owl:Class
                               ] ,
+                              [ owl:intersectionOf ( xerl:XE_Unterkunft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11401510_EN_Unterkunft_HotelGasthof
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                               [ rdf:type owl:Restriction ;
                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                 owl:hasValue <http://www.geonames.org/ontology#S.HTL>
@@ -3583,6 +3767,17 @@ lgd:LanduseFarm rdf:type owl:Class ;
 lgd:LanduseForest rdf:type owl:Class ;
                   owl:equivalentClass aaa6:AX_Wald ,
                                       wd:Q4421 ;
+                                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31102700_EN_NaturLandschaft_Wald
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
                   rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty inspire-elu:hilucsLandUse ;
@@ -3686,6 +3881,17 @@ lgd:Lighthouse rdf:type owl:Class ;
                                                         ) ;
                                      rdf:type owl:Class
                                    ] ,
+                                      [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301110_EN_TechnischesBauwerk_Leuchtturm
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.LTHSE>
@@ -3762,7 +3968,17 @@ lgd:ManMadeFireHydrant rdf:type owl:Class ;
                                                                   ]
                                                                 ) ;
                                              rdf:type owl:Class
-                                           ] .
+                                           ],  [ owl:intersectionOf ( aaa6:XE_Rettung
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty xerl:objektFunktion ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( xerl:68101310_EN_Rettung_Hydrant
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ]  .
 
 
 ###  http://linkedgeodata.org/ontology/ManMadeStorage
@@ -3897,6 +4113,17 @@ lgd:Monastery rdf:type owl:Class ;
                                                        ) ;
                                     rdf:type owl:Class
                                   ] ,
+                                                               [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22601150_EN_Gotteshaus_Kloster
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                     owl:hasValue <http://www.geonames.org/ontology#S.MSTY>
@@ -3950,7 +4177,17 @@ lgd:Motel rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
-                              ] ;
+                              ]  ,                             [ owl:intersectionOf ( xerl:XE_Unterkunft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11401520_EN_Unterkunft_Motel
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
           rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                  [ rdf:type owl:Restriction ;
                                                    owl:onProperty inspire-elu:hilucsLandUse ;
@@ -4379,7 +4616,17 @@ lgd:Police rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ],  [ owl:intersectionOf ( xerl:XE_Behoerde
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty aaa6:gebaeudefunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:62101000_EN_Behoerde_Polizei
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ]  .
 
 
 ###  http://linkedgeodata.org/ontology/PostBox
@@ -4947,6 +5194,17 @@ lgd:Restaurant rdf:type owl:Class ;
                                                         ) ;
                                      rdf:type owl:Class
                                    ] ,
+                                    [ owl:intersectionOf ( xerl:XE_Gastronomie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11201150_EN_Gastronomie_Restaurant
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                    [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty aaa6:gebaeudefunktion ;
@@ -5204,7 +5462,17 @@ lgd:ShoppingCenter rdf:type owl:Class ;
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
-                                       ] .
+                                       ] ,                             [ owl:intersectionOf ( xerl:XE_Shopping
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11501020_EN_Shopping_Einkaufszentrum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/ShoppingCentre
@@ -5268,7 +5536,17 @@ lgd:SkatePark rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Sluice
 lgd:Sluice rdf:type owl:Class ;
            owl:equivalentClass aaa6:AX_Schleuse ,
-                               wd:Q105731 .
+                               wd:Q105731 , [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301210_EN_TechnischesBauwerk_Schleuse
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/SportsCentre
@@ -5302,6 +5580,17 @@ lgd:Stadium rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] ,
+                                  [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31301020_EN_Sport_StadionArena
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                   owl:hasValue <http://www.geonames.org/ontology#S.STDM>
@@ -5797,6 +6086,17 @@ lgd:University rdf:type owl:Class ;
                                                         ) ;
                                      rdf:type owl:Class
                                    ] ,
+                                  [ owl:intersectionOf ( xerl:XE_Wissenschaft
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:61301000_EN_Wissenschaft_Hochschule
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.UNIV>
@@ -5819,6 +6119,17 @@ lgd:University rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Viaduct
 lgd:Viaduct rdf:type owl:Class ;
             owl:equivalentClass wd:Q181348 ;
+               owl:equivalentClass                                 [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301320_EN_TechnischesBauwerk_Viadukt
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty inspire-elu:hilucsLandUse ;
@@ -5938,7 +6249,18 @@ lgd:WaterTower rdf:type owl:Class ;
                                                           ]
                                                         ) ;
                                      rdf:type owl:Class
-                                   ] ;
+                                   ] ,
+                                    [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301130_EN_TechnischesBauwerk_Wasserturm
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
                rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty inspire-elu:hilucsLandUse ;
@@ -5994,6 +6316,17 @@ lgd:Waterfall rdf:type owl:Class ;
                                                        ) ;
                                     rdf:type owl:Class
                                   ] ,
+                                   [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31101520_EN_NaturLandschaft_Wasserfall
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                     owl:hasValue <http://www.geonames.org/ontology#H.FLLS>
@@ -6026,7 +6359,17 @@ lgd:Watermill rdf:type owl:Class ;
                                                          ]
                                                        ) ;
                                     rdf:type owl:Class
-                                  ] .
+                                  ] ,                                [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301000_EN_TechnischesBauwerk_Wassermuehle
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Waterway
@@ -6131,6 +6474,17 @@ lgd:Windmill rdf:type owl:Class ;
                                                       ) ;
                                    rdf:type owl:Class
                                  ] ,
+                                [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22301010_EN_TechnischesBauwerk_Windmuehle
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                    owl:hasValue <http://www.geonames.org/ontology#S.MLWND>
@@ -6484,6 +6838,17 @@ lgd:disposal rdf:type owl:Class ;
                                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                                  owl:hasValue <http://www.geonames.org/ontology#S.MSQE>
                                                ] ;
+                          owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22601200_EN_Gotteshaus_Moschee
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
                            rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
                            rdfs:label "Mosque"@en .
 
@@ -6998,7 +7363,18 @@ aaa6:AX_Hafenbecken rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Halde
 aaa6:AX_Halde rdf:type owl:Class ;
-              owl:equivalentClass wd:Q2710737 .
+              owl:equivalentClass wd:Q2710737 ;                     
+              owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22401400_EN_Landmarke_Halde
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Heide
@@ -8727,6 +9103,17 @@ wd:Q167346 rdf:type owl:Class ;
                                                 ) ;
                              rdf:type owl:Class
                            ] ;
+                         owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31101020_EN_NaturLandschaft_BotanischerGarten
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
            rdfs:label "Botanical Garden"@en .
 
 
@@ -9425,6 +9812,17 @@ wd:Q2138424 rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Flughafen
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:66401100_EN_Flughafen_Regionalflughafen
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "regional airport"@en .
 
 
@@ -10334,6 +10732,17 @@ wd:Q34627 rdf:type owl:Class ;
                                                ) ;
                             rdf:type owl:Class
                           ] ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22601210_EN_Gotteshaus_Synagoge
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;              
           rdfs:label "Synagoge"@en .
 
 
@@ -11234,6 +11643,17 @@ wd:Q644371 rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ;
+                       owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Flughafen
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:66401200_EN_Flughafen_InternationalerFlughafen
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
            rdfs:label "international airport"@en .
 
 
@@ -11914,6 +12334,17 @@ wd:Q947103 rdf:type owl:Class ;
                                                         owl:onProperty aaa6:archaeologischerTyp ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                              owl:oneOf ( aaa6:AX_ArchaeologischerTyp_HistorischesBauwerkOderHistorischeEinrichtung_1210
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+                        owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22201050_EN_Bauwerk_Wachturm
                                                                                        )
                                                                            ]
                                                       ]
