@@ -629,7 +629,17 @@ wd:Q608152 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedServiceOfSocialProtection>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 ###  http://dbpedia.org/ontology/Hospital
 dbo:Hospital rdf:type owl:Class ;
              owl:equivalentClass lgd:Hospital ,
@@ -648,10 +658,33 @@ dbo:Hospital rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ;
+                              owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/generalHospital>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ];
              rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
              rdfs:label "Hospital"@en .
 
-
+xerl:XE_Rettung rdf:type owl:Class ;
+                              owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/rescueService>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
+             
 ###  http://dbpedia.org/ontology/Hotel
 dbo:Hotel rdf:type owl:Class ;
           owl:equivalentClass lgd:Hotel ,
@@ -1814,7 +1847,17 @@ lgd:Barracks rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] ,
+                               ]  , [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/barrack>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                    owl:hasValue <http://www.geonames.org/ontology#S.BRKS>
@@ -2637,10 +2680,21 @@ lgd:Courthouse rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ,
-                                   [ rdf:type owl:Restriction ;
+                                [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.CTHSE>
                                    ] ;
+                               rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
                rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
                rdfs:label "Courthouse"@en .
 
@@ -3047,7 +3101,17 @@ lgd:FireStation rdf:type owl:Class ;
                                                            ]
                                                          ) ;
                                       rdf:type owl:Class
-                                    ] .
+                                    ], [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireStation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://linkedgeodata.org/ontology/Fjord
@@ -3982,6 +4046,17 @@ lgd:Kindergarten rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ;
+                                                owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/childCareService>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
                  rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty inspire-elu:hilucsLandUse ;
@@ -4294,7 +4369,17 @@ lgd:ManMadeFireHydrant rdf:type owl:Class ;
                                                                   ]
                                                                 ) ;
                                              rdf:type owl:Class
-                                           ]  .
+                                           ]   , [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/hydrant>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://linkedgeodata.org/ontology/ManMadeStorage
@@ -4829,6 +4914,17 @@ lgd:Pharmacy rdf:type owl:Class ;
                                                       ) ;
                                    rdf:type owl:Class
                                  ] ;
+                            owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/medicalProductsAppliancesAndEquipment>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
                owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gesundheit
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -4953,7 +5049,17 @@ lgd:Police rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ]  .
+                               ]  , [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/policeService>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ]  .
 
 
 ###  http://linkedgeodata.org/ontology/PostBox
@@ -5151,7 +5257,18 @@ lgd:Preschool rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
-                              ] .
+                              ] ;
+                owl:equivalentClass   [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/earlyChildhoodEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://linkedgeodata.org/ontology/Prison
@@ -5178,11 +5295,22 @@ lgd:Prison rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] ,   
-                               [ rdf:type owl:Restriction ;
+                               ] ,  
+                             [ rdf:type owl:Restriction ;
                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                  owl:hasValue <http://www.geonames.org/ontology#S.PRN>
                                ] ;
+                               rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
            rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
            rdfs:label "Prison"@en .
 
@@ -7573,9 +7701,12 @@ aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Behoerde
 aaa6:AX_Behoerde rdf:type owl:Class ;
-                 owl:equivalentClass wd:Q327333 .
+                 owl:equivalentClass wd:Q327333, xerl:XE_Behoerde .
 
-
+wd:Q126793 rdf:type owl:Class ;
+                        rdfs:label "retail"@en ;
+                        owl:equivalentClass xerl:XE_Einzelhandel .
+                 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BesondereFlurstuecksgrenze
 aaa6:AX_BesondereFlurstuecksgrenze rdf:type owl:Class .
 
@@ -8921,7 +9052,17 @@ wd:Q1378975 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/lowerSecondaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 wd:Q1110689 rdf:type owl:Class ;
                         rdfs:label "special education school"@en ;
                         rdfs:subClassOf lgd:School ;
@@ -8935,7 +9076,17 @@ wd:Q1110689 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/primaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 wd:Q1314860 rdf:type owl:Class ;
                         rdfs:label "secondary school"@en ;
                         rdfs:subClassOf lgd:School ;
@@ -8949,7 +9100,17 @@ wd:Q1314860 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/lowerSecondaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 wd:Q55043 rdf:type owl:Class ;
                         rdfs:label "Gymnasium"@de ;
                         rdfs:subClassOf lgd:School ;
@@ -8963,7 +9124,17 @@ wd:Q55043 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/upperSecondaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 wd:Q33026952 rdf:type owl:Class ;
                         rdfs:label "Gesamtschule"@de ;
                         rdfs:subClassOf lgd:School ;
@@ -8977,7 +9148,17 @@ wd:Q33026952 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/upperSecondaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
   wd:Q675423 rdf:type owl:Class ;
                         rdfs:label "Hauptschule"@en ;
                         rdfs:subClassOf lgd:School ;
@@ -8991,7 +9172,17 @@ wd:Q33026952 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/lowerSecondaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 wd:Q9842 rdf:type owl:Class ;
                         rdfs:label "primary school"@en ;
                         rdfs:subClassOf lgd:School ;
@@ -9005,7 +9196,17 @@ wd:Q9842 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] .
+                               ] ; rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/primaryEducation>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 wd:Q23005337 rdf:type owl:Class ;
                         rdfs:label "Part-time vocational school"@en ;
                         rdfs:subClassOf lgd:School ;
@@ -10519,7 +10720,18 @@ wd:Q218550 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ] ;       
+                               ] ;     
+                rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
            rdfs:label "Zollamt"@de .
 
 wd:Q372690 rdf:type owl:Class ;
@@ -10854,6 +11066,17 @@ wd:Q2354897 rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ;
+                             rdfs:subClassOf [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#serviceType> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/specializedAdministrationOffice>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
             rdfs:label "Road Maintenance Depot"@en .
 
 
