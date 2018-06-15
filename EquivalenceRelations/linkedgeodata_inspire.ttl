@@ -18,6 +18,7 @@
 @prefix inspire-base: <http://inspire.ec.europa.eu/schemas/base/4.0#> .
 @prefix inspire-code: <http://inspire.ec.europa.eu/codelist/> .
 @prefix inspire-hy-n: <http://inspire.ec.europa.eu/schemas/hy-n/4.0#> .
+@prefix inspire-us-govserv: <http://inspire.ec.europa.eu/schemas/us-govserv/4.0#> .
 @prefix inspire-bubase: <http://inspire.ec.europa.eu/schemas/bu-base/4.0#> .
 @base <http://semgis.de/INSPIRELGD> .
 
@@ -5749,6 +5750,7 @@ lgd:ResidentialHome rdf:type owl:Class ;
                                     ] .
 
 
+
 ###  http://linkedgeodata.org/ontology/Resort
 lgd:Resort rdf:type owl:Class ;
            owl:equivalentClass <http://schema.org/Resort> ,
@@ -7496,7 +7498,18 @@ lgd:disposal rdf:type owl:Class ;
 
 
 ###  http://schema.org/FireStation
-<http://schema.org/FireStation> rdf:type owl:Class .
+<http://schema.org/FireStation> rdf:type owl:Class ; 
+					owl:equivalentClass 	[ owl:intersectionOf ( inspire-us-govserv:GovernmentalServices 
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty inspire-us-govserv:serviceType ;
+                                                             owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                  owl:oneOf ( <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/fireStation>
+                                                                                            )
+                                                                                ]
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .
 
 
 ###  http://schema.org/GeospatialGeometry
