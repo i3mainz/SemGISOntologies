@@ -406,9 +406,87 @@ dbo:Canal rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/Casino
 dbo:Casino rdf:type owl:Class ;
            owl:equivalentClass lgd:Casino ,
-                               <http://schema.org/Casino> .
+                               <http://schema.org/Casino> 
+         , [ owl:intersectionOf ( xerl:XE_Kultureinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21301100_EN_Kultureinrichtung_Spielbank
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
-
+wd:Q2072285 rdf:type owl:Class ;
+                    rdfs:label "atelier"@en ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Kultureinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21301020_EN_Kultureinrichtung_AtelierKuenstlerhaus
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1007870 rdf:type owl:Class ;
+                    rdfs:label "art gallery"@en ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Kultureinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21301010_EN_Kultureinrichtung_Galerie
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1329623 rdf:type owl:Class ;
+                    rdfs:label "cultural center"@en ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Kultureinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21301050_EN_Kultureinrichtung_Kulturzentrum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+                               
+wd:Q748998 rdf:type owl:Class ;
+                    rdfs:label "fire lookout tower"@en ;
+                    rdfs:subClassOf aaa6:AX_Turm ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22401050_EN_Landmarke_Feuerwachturm
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q6023295 rdf:type owl:Class ;
+                    rdfs:label "grave monument"@en ;
+                    rdfs:subClassOf aaa6:AX_Turm ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22401200_EN_Landmarke_Grabmal
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://dbpedia.org/ontology/Castle
 dbo:Castle rdf:type owl:Class ;
            owl:equivalentClass lgd:Castle .
@@ -1016,10 +1094,51 @@ dbo:Synagogue rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Temple
 dbo:Temple rdf:type owl:Class ;
-           owl:equivalentClass <http://schema.org/BuddhistTemple> ,
+           owl:equivalentClass 
                                wd:Q44539 .
 
-
+wd:Q842402 rdf:type owl:Class ;
+                rdfs:label "Hindu temple"@en; 
+                rdfs:subClassOf dbo:Temple ;
+                owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22601220_EN_Gotteshaus_TempelHinduistisch
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+ wd:Q845945  rdf:type owl:Class ;
+                rdfs:label "Shinto temple"@en; 
+                rdfs:subClassOf dbo:Temple ;
+                owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22601230_EN_Gotteshaus_TempelShintoistisch
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .          
+wd:Q5393308 rdf:type owl:Class ;
+                rdfs:label "Buddhist temple"@en; 
+                rdfs:subClassOf dbo:Temple ;
+                owl:equivalentClass <http://schema.org/BuddhistTemple> , [ owl:intersectionOf ( xerl:XE_Gotteshaus
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22601240_EN_Gotteshaus_TempelBuddhistisch
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .    
 ###  http://dbpedia.org/ontology/Theatre
 dbo:Theatre rdf:type owl:Class ;
             owl:equivalentClass lgd:Theatre ,
@@ -2473,7 +2592,33 @@ lgd:Chapel rdf:type owl:Class ;
                              rdf:type owl:Class
                            ] .
 
-
+wd:Q1153108 rdf:type owl:Class ;
+                        rdfs:label "multiplex cinema"@en ;
+                        owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Kino
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21401050_EN_Kino_Multiplexkino
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+                               
+wd:Q1454553 rdf:type owl:Class ;
+                        rdfs:label "outdoor cinema"@en ;
+                        owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Kino
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21401100_EN_Kino_Freilichtkino
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://linkedgeodata.org/ontology/ChildCare
 lgd:ChildCare rdf:type owl:Class ;
               owl:equivalentClass <http://schema.org/ChildCare> .
@@ -3642,7 +3787,7 @@ lgd:HighwayFIXME rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/HighwayJunction
 lgd:HighwayJunction rdf:type owl:Class ;
-                    owl:equivalentClass wd:Q2924561 ;
+                    owl:equivalentClass wd:Q2924561  ;
                     rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty inspire-elu:hilucsLandUse ;
@@ -4333,7 +4478,17 @@ lgd:Library rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ,
+                                ] , [ owl:intersectionOf ( xerl:XE_Mediathek
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:61501000_EN_Mediathek_Bibliothek
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                   owl:hasValue <http://www.geonames.org/ontology#S.LIBR>
@@ -4352,7 +4507,58 @@ lgd:Library rdf:type owl:Class ;
                             ] ;
             rdfs:label "Library"@en .
 
-
+wd:Q16934465 rdf:type owl:Class ;
+                rdfs:label "Military exclusion zone"@en ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Militaer
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:65101100_EN_Militaer_MilitaerischesSperrgebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1254933 rdf:type owl:Class ;
+                rdfs:label "astronomical observatory"@en ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Museum
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21101800_EN_Museum_Sternwarte
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q207694 rdf:type owl:Class ;
+                rdfs:label "art museum"@en ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Museum
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21101400_EN_Museum_Kunstmuseum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q148319 rdf:type owl:Class ;
+                rdfs:label "planetarium"@en ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Museum
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21101650_EN_Museum_Planetarium
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://linkedgeodata.org/ontology/Lighthouse
 lgd:Lighthouse rdf:type owl:Class ;
                owl:equivalentClass wd:Q39715 ,
@@ -4416,8 +4622,39 @@ lgd:LookoutTower rdf:type owl:Class ;
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
-                                     ] .
+                                     ] , [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22401010_EN_Landmarke_Aussichtsturm
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
 
+wd:Q1169870 rdf:type owl:Class ;
+                        rdfs:label "educational trail"@en ;
+                        owl:equivalentClass xerl:XE_Lehrpfad .
+wd:Q20820103 rdf:type owl:Class ;
+                        rdfs:label "Landmarke"@de ;
+                        owl:equivalentClass xerl:XE_Landmarke .
+                        
+wd:Q492425 rdf:type owl:Class ;
+                    rdfs:label "Containerterminal"@en ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Logistik
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:71301100_EN_Logistik_Containerterminal
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+                                   
 
 ###  http://linkedgeodata.org/ontology/Mall
 lgd:Mall rdf:type owl:Class ;
@@ -4755,7 +4992,7 @@ lgd:Municipality rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Museum
 lgd:Museum rdf:type owl:Class ;
-           owl:equivalentClass wd:Q33506 ,
+           owl:equivalentClass wd:Q33506 , xerl:XE_Museum ,
                                [ owl:intersectionOf ( aaa6:AX_Gebaeude
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty aaa6:gebaeudefunktion ;
@@ -6760,9 +6997,31 @@ lgd:Tumulus rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] .
+                                ] ,[ owl:intersectionOf ( xerl:XE_Landmarke
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22401200_EN_Landmarke_Grabmal
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
 
-
+wd:Q749151 rdf:type owl:Class ;
+                    rdfs:label "Landwehr"@de ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22401150_EN_Landmarke_Landwehr
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
 ###  http://linkedgeodata.org/ontology/University
 lgd:University rdf:type owl:Class ;
                owl:equivalentClass wd:Q3918 ,
