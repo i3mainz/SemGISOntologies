@@ -6804,7 +6804,19 @@ lgd:University rdf:type owl:Class ;
                                ] ;
                rdfs:label "University"@en .
 
-
+wd:Q1996635 rdf:type owl:Class ;
+                    rdfs:label "optician"@en ;
+                     owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Dienstleistung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72402300_EN_Dienstleistung_Optiker
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://linkedgeodata.org/ontology/Viaduct
 lgd:Viaduct rdf:type owl:Class ;
             owl:equivalentClass wd:Q181348 ;
@@ -6892,7 +6904,32 @@ lgd:Wall rdf:type owl:Class ;
                                rdf:type owl:Class
                              ] .
 
-
+wd:Q1004887 rdf:type owl:Class ;
+                    rdfs:label "thermal bath"@en; 
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Baden
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31401200_EN_Baden_Thermalbad
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q444677 rdf:type owl:Class ;
+                        rdfs:label "bathing lake"@en ;
+                        owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Baden
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31401060_EN_Baden_Badesee
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://linkedgeodata.org/ontology/WastewaterPlant
 lgd:WastewaterPlant rdf:type owl:Class ;
                     owl:equivalentClass wd:Q221275 ,
