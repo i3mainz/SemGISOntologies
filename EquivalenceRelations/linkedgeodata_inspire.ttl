@@ -4559,6 +4559,45 @@ wd:Q148319 rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] .
+wd:Q1595639  rdf:type owl:Class ;
+                rdfs:label "local museum"@en ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Museum
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21101000_EN_Museum_Heimatkundemuseum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1228895 rdf:type owl:Class ;
+                rdfs:label "discotheque"@en ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Nachtleben
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21501050_EN_Nachtleben_Diskothek
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q15849827 rdf:type owl:Class ;
+                rdfs:label "Szeneviertel"@de ;
+                owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Nachtleben
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21501100_EN_Nachtleben_Szeneviertel
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://linkedgeodata.org/ontology/Lighthouse
 lgd:Lighthouse rdf:type owl:Class ;
                owl:equivalentClass wd:Q39715 ,
@@ -11534,9 +11573,58 @@ wd:Q23397 rdf:type owl:Class ;
                                                    ) ;
                                 rdf:type owl:Class
                               ] ;
+                            owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31101510_EN_NaturLandschaft_See
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
           rdfs:label "Lake"@en .
 
-
+wd:Q30148256 rdf:type owl:Class ;
+                    rdfs:label "sinkhole"@en ;
+                    owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31102000_EN_NaturLandschaft_Doline
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q272231 rdf:type owl:Class ;
+                rdfs:label "arboretum"@en ;
+                 owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31101040_EN_NaturLandschaft_Arboretum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q190107 rdf:type owl:Class ;
+                rdfs:label "weather station"@en ;
+                 owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31104100_EN_NaturLandschaft_Wetterstation
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://www.wikidata.org/entity/Q23413
 wd:Q23413 rdf:type owl:Class .
 
