@@ -2543,7 +2543,45 @@ lgd:Cave rdf:type owl:Class ;
          rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
          rdfs:label "Cave"@en .
 
-
+wd:Q81235 rdf:type owl:Class ;
+                    rdfs:label "automated teller machine"@en ;
+                    owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Servicestelle
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11101300_EN_Servicestelle_Geldautomat
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q588750 rdf:type owl:Class ;
+                rdfs:label "puppetry"@en ;
+                owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TheaterMusik
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21201020_EN_TheaterMusik_Puppentheater
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q940462 rdf:type owl:Class ;
+                rdfs:label "music hall"@en ;
+                owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TheaterMusik
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:21201050_EN_TheaterMusik_Variete
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://linkedgeodata.org/ontology/Cemetery
 lgd:Cemetery rdf:type owl:Class ;
              owl:equivalentClass lgd:GraveYard ,
