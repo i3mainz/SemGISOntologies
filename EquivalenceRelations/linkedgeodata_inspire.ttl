@@ -10649,10 +10649,85 @@ wd:Q17485533 rdf:type owl:Class ;
                                                       ) ;
                                    rdf:type owl:Class
                                  ] ;
+             owl:equivalentClass           [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401600_EN_Wasserverkehr_Leuchtfeuer
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
              rdfs:label "Beacon"@en ,
                         "Leuchtfeuer"@de .
 
-
+wd:Q361945 rdf:type owl:Class ;
+                    rdfs:label "slipway"@en ;
+                    owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401110_EN_Wasserverkehr_Slipanlage
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1499295 rdf:type owl:Class ;
+                    rdfs:label "Gelbe Welle"@de ;
+                    owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401400_EN_Wasserverkehr_GelbeWelle
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q721207 rdf:type owl:Class ;
+                    rdfs:label "marina"@en ;
+                    owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401050_EN_Wasserverkehr_Sportboothafen
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q2168243 rdf:type owl:Class ;
+                    rdfs:label "shallow"@en ;
+                    owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401900_EN_Wasserverkehr_Untiefe
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1821399 rdf:type owl:Class ;
+                    rdfs:label "Leuchttonne"@de ;
+                    owl:equivalentClass  [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401610_EN_Wasserverkehr_Leuchttonne
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://www.wikidata.org/entity/Q1756525
 wd:Q1756525 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( inspire-bubase:Building
@@ -10717,6 +10792,17 @@ wd:Q1777951 rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] ;
+                         owl:equivalentClass           [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67401200_EN_Wasserverkehr_Bootshaus
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "Boathouse"@en .
 
 
