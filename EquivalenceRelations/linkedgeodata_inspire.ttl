@@ -10558,9 +10558,71 @@ wd:Q1714375 rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] ;
+                owl:equivalentClass                                [ owl:intersectionOf ( xerl:XE_Tierwelt
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31201050_EN_Tierwelt_TierparkWildgehege
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "game reserve"@en .
 
-
+wd:Q1377575 rdf:type owl:Class ;
+    rdfs:label "wildlife refuge"@en ;
+owl:equivalentClass                                [ owl:intersectionOf ( xerl:XE_Tierwelt
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31201160_EN_Tierwelt_Wildruhezone
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1395316 rdf:type owl:Class ;
+    rdfs:label "Familienzentrum"@de ;
+owl:equivalentClass                                [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:63301150_EN_SozialEinrichtung_Familienzentrum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1269448 rdf:type owl:Class ;
+    rdfs:label "retirement community"@en ;
+owl:equivalentClass                                [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:63301420_EN_SozialEinrichtung_Seniorenbegegnungsstaette
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q2002253 rdf:type owl:Class ;
+    rdfs:label "KinderNotinsel"@de ;
+owl:equivalentClass                                [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:63301070_EN_SozialEinrichtung_KinderNotinsel
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 ###  http://www.wikidata.org/entity/Q171448
 wd:Q171448 rdf:type owl:Class .
 
