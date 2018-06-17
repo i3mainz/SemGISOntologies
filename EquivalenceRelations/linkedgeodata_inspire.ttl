@@ -3585,6 +3585,17 @@ lgd:GolfCourse rdf:type owl:Class ;
                                                         ) ;
                                      rdf:type owl:Class
                                    ] ,
+                                    [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31301700_EN_Sport_Golf
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ],
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.RECG>
@@ -8884,6 +8895,17 @@ wd:Q1109069 rdf:type owl:Class ;
                                                      ) ;
                                   rdf:type owl:Class
                                 ] ;
+                                owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31302580_EN_Sport_Sprungschanze
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "ski jumping hill"@en .
 
 
@@ -10617,6 +10639,162 @@ owl:equivalentClass                                [ owl:intersectionOf ( xerl:X
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                              owl:oneOf ( xerl:63301070_EN_SozialEinrichtung_KinderNotinsel
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1561361 rdf:type owl:Class ;
+                    rdfs:label "dance studio"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31305200_EN_Sport_Tanzschule
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q830528 rdf:type owl:Class ;
+                    rdfs:label "velodrome"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31303520_EN_Sport_Radrennbahn
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1282870 rdf:type owl:Class ;
+                    rdfs:label "ice rink"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31302510_EN_Sport_Eisbahn
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1777138 rdf:type owl:Class ;
+                    rdfs:label "race track"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31304020_EN_Sport_Rennstrecke
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1774225 rdf:type owl:Class ;
+                    rdfs:label "climbing rock"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31305010_EN_Sport_Kletterfelsen
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1232319 rdf:type owl:Class ;
+                    rdfs:label "kart circuit"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31304000_EN_Sport_Kartbahn
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1939700 rdf:type owl:Class ;
+                    rdfs:label "rope course"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31305020_EN_Sport_SeilgartenKlettergarten
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q1621657 rdf:type owl:Class ;
+                    rdfs:label "equestrian facility"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31303070_EN_Sport_Reitanlage
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q25384001 rdf:type owl:Class ;
+                    rdfs:label "boat rental"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31302050_EN_Sport_Bootsvermietung
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q27106471 rdf:type owl:Class ;
+                    rdfs:label "bowling alley"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31301750_EN_Sport_Bowling
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q12019965 rdf:type owl:Class ;
+                    rdfs:label "ice stadium"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31302520_EN_Sport_Eissporthalle
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q626687 rdf:type owl:Class ;
+                    rdfs:label "boules pitch"@en;
+                    owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:31301770_EN_Sport_Bouleplatz
                                                                                        )
                                                                            ]
                                                       ]
