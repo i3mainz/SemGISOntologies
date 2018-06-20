@@ -219,7 +219,25 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                           ]
                                                                                                         ) ;
                                                                                      rdf:type owl:Class
-                                                                                   ] .
+                                                                                   ] ,
+															 [owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/10_OtherSupplementaryRegulation>
+                                                                                                                                      )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_5_AufschuettungsFlaeche>
+                                                                                                                                      )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_AusgleichsFlaeche
@@ -604,17 +622,25 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinschaftsanlagenFlaeche
 <http://www.xplanung.de/xplangml/5/0#BP_GemeinschaftsanlagenFlaeche> rdf:type owl:Class ;
-                                                                     owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                                  owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                                  owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                       owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_5_CollectiveFacility>
-                                                                                                                                                 )
-                                                                                                                                     ]
-                                                                                                                ]
-                                                                                                              ) ;
-                                                                                           rdf:type owl:Class
-                                                                                         ] .
+                                                                     owl:equivalentClass 
+																	[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_5_CollectiveFacility>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_24_GemeinschaftsanlagenFlaeche>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinschaftsanlagenZuordnung
@@ -741,22 +767,25 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche
 <http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche> rdf:type owl:Class ;
-                                                               owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                          [ rdf:type owl:Restriction ;
-                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/1_1_1_NoiseProtectionArea>
-                                                                                                                                             <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/10_OtherSupplementaryRegulation>
-                                                                                                                                             <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_2_2_RestrictedZonesAroundContaminatedSites>
-                                                                                                                                             <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_3_Mining>
-                                                                                                                                             <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_RiskExposure>
-                                                                                                                                             <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/5_3_AreaReservedForRestructuringParcels>
-                                                                                                                                           )
-                                                                                                                               ]
-                                                                                                          ]
-                                                                                                        ) ;
-                                                                                     rdf:type owl:Class
-                                                                                   ] .
+                                                               owl:equivalentClass [ 
+															 owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/10_OtherSupplementaryRegulation>
+                                                                                                                                      )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_31_KennzeichnungsFlaeche>
+                                                                                                                                      )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_KleintierhaltungFlaeche
@@ -806,7 +835,24 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                    ]
                                                                                                  ) ;
                                                                               rdf:type owl:Class
-                                                                            ] .
+                                                                            ] ,  [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/3_33_Landwirtschaft>
+                                                                                                                                      )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_2_1_Agriculture>
+                                                                                                                                      )
+                                                                                                                          ]
+                                                                                                     ]
+                                                                                                   ) ;
+                                                                                rdf:type owl:Class
+                                                                              ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_LuftreinhalteFlaeche
@@ -946,24 +992,46 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                            ]
                                                                                                          ) ;
                                                                                       rdf:type owl:Class
-                                                                                    ] .
+                                                                                    ] ,[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_39_RekultivierungsFlaeche>
+                                                                                                                                                  )
+                                                                                                                                      ]
+                                                                                                                 ]
+                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_2_8_Recultivation>
+                                                                                                                                                  )
+                                                                                                                                      ]
+                                                                                                                 ]
+                                                                                                               ) ;
+                                                                                            rdf:type owl:Class
+                                                                                          ] . 
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_SchutzPflegeEntwicklungsFlaeche
 <http://www.xplanung.de/xplangml/5/0#BP_SchutzPflegeEntwicklungsFlaeche> rdf:type owl:Class ;
                                                                          owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                                      owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                           owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_1_NaturalHeritageProtection>
-                                                                                                                                                       <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_2_PermittedActivities>
-                                                                                                                                                       <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_RegulatedActivities>
-                                                                                                                                                     )
-                                                                                                                                         ]
-                                                                                                                    ]
-                                                                                                                  ) ;
-                                                                                               rdf:type owl:Class
-                                                                                             ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_1_NaturalHeritageProtection>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_40_SchutzPflegeEntwicklungsFlaeche>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ],
                                                                                              [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement>
                                                                                                                     [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#hilucsLandUse> ;
@@ -1278,12 +1346,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                                              ]
                                                                                                                            ) ;
                                                                                                         rdf:type owl:Class
-                                                                                                      ] .
-
-
-###  http://www.xplanung.de/xplangml/5/0#BP_VerkehrsflaecheBesondererZweckbestimnung
-<http://www.xplanung.de/xplangml/5/0#BP_VerkehrsflaecheBesondererZweckbestimnung> rdf:type owl:Class ;
-                                                                                  owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement>
+                                                                                                      ] ,[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement>
                                                                                                                              [ rdf:type owl:Restriction ;
                                                                                                                                owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#hilucsLandUse> ;
                                                                                                                                owl:someValuesFrom [ rdf:type owl:Class ;
@@ -1294,6 +1357,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                                            ) ;
                                                                                                         rdf:type owl:Class
                                                                                                       ] .
+
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_WaldFlaeche
@@ -1502,11 +1566,16 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                         owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
                                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_1_NaturalHeritageProtection>
-                                                                                                                                         <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_2_PermittedActivities>
-                                                                                                                                         <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_RegulatedActivities>
                                                                                                                                        )
                                                                                                                            ]
                                                                                                       ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_4_AusgleichsFlaeche>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
                                                                                                     ) ;
                                                                                  rdf:type owl:Class
                                                                                ] ,
@@ -1580,7 +1649,25 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                   ]
                                                                                                 ) ;
                                                                              rdf:type owl:Class
-                                                                           ] .
+                                                                           ] ,
+																		   [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_2_7_RawMaterials>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_6_Bodenschaetze>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_BodenschaetzeFlaeche
@@ -1620,7 +1707,24 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                  ]
                                                                                                ) ;
                                                                             rdf:type owl:Class
-                                                                          ] .
+                                                                          ] , [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_1_3_3_Services>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_7_Gemeinbedarf>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_GenerischesObjekt
@@ -1645,8 +1749,25 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                                       ]
                                                                                                     ) ;
                                                                                  rdf:type owl:Class
+                                                                               ] ,
+																[ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/10_OtherSupplementaryRegulation>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_8_GenerischesObjekt>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
                                                                                ] .
-
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_Gewaesser
 <http://www.xplanung.de/xplangml/5/0#FP_Gewaesser> rdf:type owl:Class ;
@@ -1973,18 +2094,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#FP_SchutzPflegeEntwicklung
 <http://www.xplanung.de/xplangml/5/0#FP_SchutzPflegeEntwicklung> rdf:type owl:Class ;
                                                                  owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                            [ rdf:type owl:Restriction ;
-                                                                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_1_NaturalHeritageProtection>
-                                                                                                                                               <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_2_PermittedActivities>
-                                                                                                                                               <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_RegulatedActivities>
-                                                                                                                                             )
-                                                                                                                                 ]
-                                                                                                            ]
-                                                                                                          ) ;
-                                                                                       rdf:type owl:Class
-                                                                                     ] .
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_HeritageProtection>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_16_SchutzPflegeEntwicklung>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_SpielSportAnlage
@@ -2030,16 +2156,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#FP_Strassenverkehr
 <http://www.xplanung.de/xplangml/5/0#FP_Strassenverkehr> rdf:type owl:Class ;
                                                          owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                           owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_1_1_Road>
-                                                                                                                                     )
-                                                                                                                         ]
-                                                                                                    ]
-                                                                                                  ) ;
-                                                                               rdf:type owl:Class
-                                                                             ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_1_1_Road>
+                                                                                                                                       )
+                                                                                                                           ]
+                                                                                                      ]
+																									  [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_18_Strassenverkehr>
+                                                                                                                                           )
+                                                                                                                               ]
+                                                                                                          ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ] ,
                                                                              [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement>
                                                                                                     [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                                                              owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#hilucsLandUse> ;
@@ -2183,17 +2316,24 @@ rdfs:label rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#FP_Wasserwirtschaft
 <http://www.xplanung.de/xplangml/5/0#FP_Wasserwirtschaft> rdf:type owl:Class ;
                                                           owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                       owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                            owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_1_FloodRisks>
-                                                                                                                                        <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_RiskExposure>
-                                                                                                                                      )
-                                                                                                                          ]
-                                                                                                     ]
-                                                                                                   ) ;
-                                                                                rdf:type owl:Class
-                                                                              ] .
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/2_1_FloodRisks>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_24_Wasserwirtschaft>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] .
+														
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_ZentralerVersorgungsbereich
@@ -3041,16 +3181,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#RP_NaturschutzrechtlichesSchutzgebiet
 <http://www.xplanung.de/xplangml/5/0#RP_NaturschutzrechtlichesSchutzgebiet> rdf:type owl:Class ;
                                                                             owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                                         owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/1_4_NatureProtection>
-                                                                                                                                                        )
-                                                                                                                                            ]
-                                                                                                                       ]
-                                                                                                                     ) ;
-                                                                                                  rdf:type owl:Class
-                                                                                                ] ,
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/1_4_NatureProtection>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/1_1_5_NaturschutzrechtlichesSchutzgebiet>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ,
                                                                                                 [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement>
                                                                                                                        [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                                                                                 owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#hilucsLandUse> ;
@@ -3907,24 +4054,23 @@ rdfs:label rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#SO_Gebiet
 <http://www.xplanung.de/xplangml/5/0#SO_Gebiet> rdf:type owl:Class ;
                                                 owl:equivalentClass [ owl:intersectionOf ( <http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation>
-                                                                                           [ rdf:type owl:Restriction ;
-                                                                                             owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
-                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                  owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/10_OtherSupplementaryRegulation>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_3_BuiltHeritageProtection>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/5_3_AreaReservedForRestructuringParcels>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_4_1_UrbanRenewal>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_4_2_UrbanRegenerationAndRevitalisation>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_4_3_UrbanRehabilitationAndRestoration>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/8_SocialHealthChoices>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_1_RestrictedActivities>
-                                                                                                                              <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_2_PermittedActivities>
-                                                                                                                            )
-                                                                                                                ]
-                                                                                           ]
-                                                                                         ) ;
-                                                                      rdf:type owl:Class
-                                                                    ] .
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#specificSupplementaryRegulation> ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/5_4_Gebiet>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://inspire.ec.europa.eu/schemas/plu/4.0#supplementaryRegulation> ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/10_OtherSupplementaryRegulation>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#SO_Grenze
@@ -5332,7 +5478,8 @@ rdfs:label rdf:type owl:AnnotationProperty .
                                                                                              <http://inspire.ec.europa.eu/codelist/de/landuse/Codelist> ;
                                                                                     owl:sameAs <http://www.xplanung.de/xplangml/5/0#RP_Landwirtschaft_7000> .
 
-
+<http://inspire.ec.europa.eu/codelist/HILUCSValue/6_6_NotKnownUse> rdf:type <http://inspire.ec.europa.eu/schemas/lunom/4.0#HILUCSValue> .
+																					
 ###  http://inspire.ec.europa.eu/codelist/de/landuse/1_1_13_Landwirtschaft
 <http://inspire.ec.europa.eu/codelist/de/landuse/1_1_13_Landwirtschaft> rdf:type owl:NamedIndividual ,
                                                                                  <http://inspire.ec.europa.eu/codelist/de/landuse/Codelist> ;
@@ -16488,9 +16635,9 @@ rdfs:label rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_16000
 <http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_16000> rdf:type owl:NamedIndividual .
 
-
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_16001
 <http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_16001> rdf:type owl:NamedIndividual .
+
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_16002
