@@ -7154,7 +7154,25 @@ xplan5:BP_AbgrabungsFlaeche rdf:type owl:Class ;
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
-                                                ] .
+                                                ] , [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/1_3_MiningAndQuarrying>
+                                                                                                    
+                                                                                                  )
+                                                                                      ]
+                                                                 ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_1_AbgrabungsFlaeche>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                               ) ;
+														rdf:type owl:Class
+														] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_AbstandsFlaeche
@@ -7285,7 +7303,25 @@ xplan5:BP_AusgleichsFlaeche rdf:type owl:Class ;
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
-                                                ] .
+                                                ] , [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse>
+                                                                                                    
+                                                                                                  )
+                                                                                      ]
+                                                                 ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_6_AusgleichsFlaeche>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                               ) ;
+														rdf:type owl:Class
+														] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_AusgleichsMassnahme
@@ -7659,7 +7695,24 @@ xplan5:BP_GemeinbedarfsFlaeche rdf:type owl:Class ;
                                                                           ]
                                                                         ) ;
                                                      rdf:type owl:Class
-                                                   ] .
+                                                   ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_23_Gemeinbedarf>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_1_3_3_Services>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinschaftsanlagenFlaeche
@@ -8188,7 +8241,24 @@ xplan5:BP_SpielSportanlagenFlaeche rdf:type owl:Class ;
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
-                                                       ] .
+                                                       ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_43_SpielSportanlagenFlaeche>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_2_3_Recreation>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_StrassenVerkehrsFlaeche
@@ -8213,7 +8283,24 @@ xplan5:BP_StrassenVerkehrsFlaeche rdf:type owl:Class ;
                                                                              ]
                                                                            ) ;
                                                         rdf:type owl:Class
-                                                      ] .
+                                                      ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_44_StrassenVerkehrsFlaeche>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_1_1_Road>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_StrassenbegrenzungsLinie
@@ -8420,16 +8507,178 @@ xplan5:BP_WaldFlaeche rdf:type owl:Class ;
                                                                    owl:onProperty inspire-plu:hilucsLandUse ;
                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
                                                                                         owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_Forestry>
-                                                                                                    <http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas>
-                                                                                                    <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse>
-                                                                                                    <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_OtherUses>
+                                                                                                    
                                                                                                   )
                                                                                       ]
                                                                  ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_54_WaldFlaeche>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
                                                                ) ;
                                             rdf:type owl:Class
                                           ] .
 
+										  
+
+###  http://semgis.de/XPlan4ToPLU#BP_WaldFlaeche_Schutzwald
+:BP_WaldFlaeche_Schutzwald rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse>
+                                                                                                    
+                                                                                                  )
+                                                                                      ]
+                                                                 ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_54_4_Schutzwald>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                               ) ;
+														rdf:type owl:Class
+														] ,
+													   
+                                                       [ owl:intersectionOf ( xplan5:BP_WaldFlaeche
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty xplan5:zweckbestimmung ;
+                                                                                owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                                    owl:oneOf ( xplan5:XP_ZweckbestimmungWald_1600
+                                                                                                              )
+                                                                                                  ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :isBuildingPlanOf ;
+                                                         owl:someValuesFrom wd:Q329842
+                                                       ] ;
+                                   rdfs:subClassOf xplan5:BP_WaldFlaeche .
+								   
+###  http://semgis.de/XPlan4ToPLU#BP_WaldFlaeche_Erholungswald
+:BP_WaldFlaeche_Erholungswald rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas>
+                                                                                                    
+                                                                                                  )
+                                                                                      ]
+                                                                 ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_54_3_Erholungswald>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                               ) ;
+														rdf:type owl:Class
+														] ,
+													   
+                                                       [ owl:intersectionOf ( xplan5:BP_WaldFlaeche
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty xplan5:zweckbestimmung ;
+                                                                                owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                                    owl:oneOf ( xplan5:XP_ZweckbestimmungWald_1400
+                                                                                                              )
+                                                                                                  ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :isBuildingPlanOf ;
+                                                         owl:someValuesFrom wd:Q18620846
+                                                       ] ;
+                                   rdfs:subClassOf xplan5:BP_WaldFlaeche .
+								   
+###  http://semgis.de/XPlan4ToPLU#BP_WaldFlaeche_Nutzwald
+:BP_WaldFlaeche_Nutzwald rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_Forestry>
+                                                                                                    
+                                                                                                  )
+                                                                                      ]
+                                                                 ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_54_2_Nutzwald>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                               ) ;
+														rdf:type owl:Class
+														] ,
+													   
+                                                       [ owl:intersectionOf ( xplan5:BP_WaldFlaeche
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty xplan5:zweckbestimmung ;
+                                                                                owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                                    owl:oneOf ( xplan5:XP_ZweckbestimmungWald_1200
+                                                                                                              )
+                                                                                                  ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :isBuildingPlanOf ;
+                                                         owl:someValuesFrom wd:Q2586008
+                                                       ] ;
+                                   rdfs:subClassOf xplan5:BP_WaldFlaeche .
+								   
+###  http://semgis.de/XPlan4ToPLU#BP_WaldFlaeche_Naturwald
+:BP_WaldFlaeche_Naturwald rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse>
+                                                                                                    
+                                                                                                  )
+                                                                                      ]
+                                                                 ]
+																 [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/3_54_1_Naturwald>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                               ) ;
+														rdf:type owl:Class
+														] ,
+													   
+                                                       [ owl:intersectionOf ( xplan5:BP_WaldFlaeche
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty xplan5:zweckbestimmung ;
+                                                                                owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                                    owl:oneOf ( xplan5:XP_ZweckbestimmungWald_1000
+                                                                                                              )
+                                                                                                  ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :isBuildingPlanOf ;
+                                                         owl:someValuesFrom wd:Q445467
+                                                       ] ;
+                                   rdfs:subClassOf xplan5:BP_WaldFlaeche .
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_WasserwirtschaftsFlaeche
 xplan5:BP_WasserwirtschaftsFlaeche rdf:type owl:Class ;
@@ -8515,6 +8764,23 @@ xplan5:FP_Abgrabung rdf:type owl:Class ;
                                                                ]
                                                              ) ;
                                           rdf:type owl:Class
+                                        ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_1_Abgrabung>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_2_7_RawMaterials>
+                                                                                                )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
                                         ] .
 
 
@@ -8562,7 +8828,24 @@ xplan5:FP_AnpassungKlimawandel rdf:type owl:Class ;
                                                                           ]
                                                                         ) ;
                                                      rdf:type owl:Class
-                                                   ] .
+                                                   ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_2_AnpassungKlimawandel>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/1_5_ClimateProtection>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_Aufschuettung
@@ -8587,7 +8870,24 @@ xplan5:FP_Aufschuettung rdf:type owl:Class ;
                                                                    ]
                                                                  ) ;
                                               rdf:type owl:Class
-                                            ] .
+                                            ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_3_Aufschuettung>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                              owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/10_OtherSupplementaryRegulation>
+                                                                                                        )
+                                                                                            ]
+                                                                       ]
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_AufschuettungsFlaeche
@@ -9037,7 +9337,27 @@ xplan5:FP_Kennzeichnung rdf:type owl:Class ;
                                                                    ]
                                                                  ) ;
                                               rdf:type owl:Class
-                                            ] .
+                                            ] , [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                               [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_6_NotKnownUse>
+                                                                                                                       )
+                                                                                                           ]
+                                                                                      ]
+                                                                                      [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty inspire-plu:specificLandUse ;
+                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                             owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/2_12_Kennzeichnung>
+                                                                                                                       )
+                                                                                                           ]
+                                                                                      ]
+                                                                                    ) ;
+                                                                 rdf:type owl:Class
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_LandwirtschaftsFlaeche
@@ -9172,7 +9492,27 @@ xplan5:FP_SchutzPflegeEntwicklung rdf:type owl:Class ;
                                                                              ]
                                                                            ) ;
                                                         rdf:type owl:Class
-                                                      ] .
+                                                      ] , [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                   [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty inspire-plu:specificLandUse ;
+                                                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                 owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/2_16_SchutzPflegeEntwicklung>
+                                                                                                                           )
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_SpielSportAnlage
@@ -9349,7 +9689,24 @@ xplan5:FP_VorbehalteFlaeche rdf:type owl:Class ;
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
-                                                ] .
+                                                ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                    owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_22_VorbehalteFlaeche>
+                                                                                                              )
+                                                                                                  ]
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                               owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                    owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_6_NotKnownUse>
+                                                                                                              )
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_WaldFlaeche
@@ -9396,7 +9753,27 @@ xplan5:FP_Wasserwirtschaft rdf:type owl:Class ;
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
-                                               ] .
+                                               ] , [ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                     [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/4_3_2_WaterAndSewageInfrastructure>
+                                                                                                                             )
+                                                                                                                 ]
+                                                                                            ]
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty inspire-plu:specificLandUse ;
+                                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/2_24_Wasserwirtschaft>
+                                                                                                                             )
+                                                                                                                 ]
+                                                                                            ]
+                                                                                          ) ;
+                                                                       rdf:type owl:Class
+                                                                     ]
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_ZentralerVersorgungsbereich
@@ -9472,7 +9849,24 @@ xplan5:RP_Bodenschutz rdf:type owl:Class ;
                                                                  ]
                                                                ) ;
                                             rdf:type owl:Class
-                                          ] .
+                                          ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/1_1_1_Bodenschutz>
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_RiskExposure>
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#RP_Einzelhandel
@@ -10421,7 +10815,24 @@ xplan5:RP_RadwegWanderweg rdf:type owl:Class ;
                                                                      ]
                                                                    ) ;
                                                 rdf:type owl:Class
-                                              ] .
+                                              ] , [ owl:intersectionOf ( inspire-plu:SupplementaryRegulation
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty inspire-plu:specificSupplementaryRegulation ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/supplementaryRegulation/1_1_14_RadwegWanderweg>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty inspire-plu:supplementaryRegulation ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_3_1_4_OtherNetworkInfrastructure>
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#RP_Raumkategorie
@@ -12676,7 +13087,27 @@ xplan5:SO_Gebiet rdf:type owl:Class ;
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
-                                     ] .
+                                     ] ,[ owl:intersectionOf ( inspire-plu:ZoningElement
+                                                                 [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty inspire-plu:hilucsLandUse ;
+                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                               owl:oneOf ( <http://inspire.ec.europa.eu/codelist/HILUCSValue/6_OtherUses>
+                                                                                                                         )
+                                                                                                             ]
+                                                                                        ]
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty inspire-plu:specificLandUse ;
+                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                               owl:oneOf ( <http://inspire.ec.europa.eu/codelist/de/landuse/5_4_Gebiet>
+                                                                                                                         )
+                                                                                                             ]
+                                                                                        ]
+                                                                                      ) ;
+                                                                   rdf:type owl:Class
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#SO_Grenze
