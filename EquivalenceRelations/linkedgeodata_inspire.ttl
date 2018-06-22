@@ -6562,6 +6562,104 @@ wd:Q1333922 rdf:type owl:Class ;
                                ] . 
 							   
 wd:Q1151556  rdf:type owl:Class ;
+                            rdfs:label "photographic laboratory"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72203610_EN_GewerbeIndustrie_Fotolabor
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q878295 rdf:type owl:Class ;
+                            rdfs:label "tiler"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72202710_EN_GewerbeIndustrie_Fliesenleger
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1529413 rdf:type owl:Class ;
+                            rdfs:label "glaziery"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72203650_EN_GewerbeIndustrie_Glaserei
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q338313 rdf:type owl:Class ;
+                            rdfs:label "business park"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101000_EN_Gewerbegebiet_Gewerbegebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q329683 rdf:type owl:Class ;
+                            rdfs:label "industrial park"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101200_EN_Gewerbegebiet_Industriegebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1719485 rdf:type owl:Class ;
+                            rdfs:label "Mischgebiet"@de ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101300_EN_Gewerbegebiet_Mischgebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1670596 rdf:type owl:Class ;
+                            rdfs:label "Sondergebiet"@de ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101400_EN_Gewerbegebiet_Sondergebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q656208 rdf:type owl:Class ;
                             rdfs:label "bicycle parking station"@en ;
                             owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Radverkehr
                                                       [ rdf:type owl:Restriction ;
