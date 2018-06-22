@@ -2058,7 +2058,17 @@ lgd:BasicHut rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
-                                 ] .
+                                 ] ,  [ owl:intersectionOf ( xerl:XE_Rast
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11301200_EN_Rast_Schutzhuette
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Battlefield
@@ -4879,7 +4889,7 @@ lgd:ManMadeFireHydrant rdf:type owl:Class ;
                                                                   ]
                                                                 ) ;
                                              rdf:type owl:Class
-                                           ],  [ owl:intersectionOf ( aaa6:XE_Rettung
+                                           ],  [ owl:intersectionOf ( xerl:XE_Rettung
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty xerl:objektFunktion ;
                                                                     owl:someValuesFrom [ rdf:type owl:Class ;
@@ -6516,6 +6526,76 @@ wd:Q1450682 rdf:type owl:Class ;
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
                                                                              owl:oneOf ( xerl:68101120_EN_Rettung_Defibrillator
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q818978 rdf:type owl:Class ;
+                            rdfs:label "staging area"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101250_EN_Rettung_Bereitstellungsraum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1333922 rdf:type owl:Class ;
+                            rdfs:label "Emergency Access Point"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101000_EN_Rettung_Rettungspunkt
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1151556  rdf:type owl:Class ;
+                            rdfs:label "bicycle parking station"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Radverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67301010_EN_Radverkehr_Fahrradstation
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1249491 rdf:type owl:Class ;
+                            rdfs:label "Rettungsweg"@de ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101010_EN_Rettung_Rettungsweg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1546788 rdf:type owl:Class ;
+                            rdfs:label "barbecue"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rast
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11301110_EN_Rast_Grillplatz
                                                                                        )
                                                                            ]
                                                       ]
