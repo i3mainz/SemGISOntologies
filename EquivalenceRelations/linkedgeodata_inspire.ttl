@@ -1793,7 +1793,17 @@ lgd:BasicHut rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
-                                 ] .
+                                 ] ,  [ owl:intersectionOf ( xerl:XE_Rast
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11301200_EN_Rast_Schutzhuette
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 
 ###  http://linkedgeodata.org/ontology/Battlefield
@@ -3015,8 +3025,77 @@ lgd:Fuel rdf:type owl:Class ;
                                                     ]
                                                   ) ;
                                rdf:type owl:Class
-                             ] .
+                             ] ,[ owl:intersectionOf ( xerl:XE_Tankstelle
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67201000_EN_Tankstelle_Tankstelle
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
+wd:Q1281105 rdf:type owl:Class ;
+		 rdfs:label "piste"@en ;
+         owl:equivalentClass 
+                             [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:41501510_EN_SonstigerFreizeitweg_Skipiste
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+							   
+wd:Q1754598 rdf:type owl:Class ;
+		 rdfs:label "Cross-country skiing trail"@en ;
+         owl:equivalentClass 
+                             [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:41501500_EN_SonstigerFreizeitweg_Loipe
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+							   
+wd:Q648116 rdf:type owl:Class ;
+		 rdfs:label "via ferrata"@en ;
+         owl:equivalentClass 
+                             [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:41501400_EN_SonstigerFreizeitweg_Klettersteig
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+							
+wd:Q787113 rdf:type owl:Class ;
+		 rdfs:label "promenade"@en ;
+         owl:equivalentClass 
+                             [ owl:intersectionOf ( xerl:XE_Siedlung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22101200_EN_Siedlung_Promenade
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
 
 ###  http://linkedgeodata.org/ontology/Garage
 lgd:Garage rdf:type owl:Class ;
@@ -4183,18 +4262,48 @@ lgd:LookoutTower rdf:type owl:Class ;
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
-                                     ] ,
-                                     [ owl:intersectionOf ( xerl:XE_Landmarke
-                                                            [ rdf:type owl:Restriction ;
-                                                              owl:onProperty xerl:objektFunktion ;
-                                                              owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                   owl:oneOf ( xerl:_EN_Landmarke_Aussichtsturm
-                                                                                             )
-                                                                                 ]
-                                                            ]
-                                                          ) ;
-                                       rdf:type owl:Class
-                                     ] .
+                                     ] , [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22401010_EN_Landmarke_Aussichtsturm
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+								   
+wd:Q14908 rdf:type owl:Class ;
+				rdfs:label "boat lift"@en ;
+                 owl:equivalentClass 
+                                     [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22301200_EN_TechnischesBauwerk_Schiffshebewerk
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+								   
+wd:Q483453 rdf:type owl:Class ;
+				rdfs:label "fountain"@en ;
+                 owl:equivalentClass 
+                                     [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty xerl:objektFunktion ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:oneOf ( xerl:22301260_EN_TechnischesBauwerk_Fontaene
+                                                                                           )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] .
+
 
 
 ###  http://linkedgeodata.org/ontology/Mall
@@ -4243,8 +4352,7 @@ lgd:ManMadeFireHydrant rdf:type owl:Class ;
                                                                   ]
                                                                 ) ;
                                              rdf:type owl:Class
-                                           ] ,
-                                           [ owl:intersectionOf ( aaa6:XE_Rettung
+                                           ],  [ owl:intersectionOf ( xerl:XE_Rettung
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty xerl:objektFunktion ;
                                                                     owl:someValuesFrom [ rdf:type owl:Class ;
@@ -5843,8 +5951,214 @@ lgd:ShoppingCenter rdf:type owl:Class ;
                                                             ) ;
                                          rdf:type owl:Class
                                        ] .
-
-
+                                       
+wd:Q76470 rdf:type owl:Class ;
+                    rdfs:label "Outlet store"@en ;
+                         owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Shopping
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11501020_EN_Shopping_OutletCenter
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] .
+wd:Q15233417  rdf:type owl:Class ;
+                    rdfs:label "Altstadt"@en ;
+                         owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Siedlung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:22101000_EN_Siedlung_Altstadt
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+wd:Q1450682 rdf:type owl:Class ;
+                            rdfs:label "defibrillator"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101120_EN_Rettung_Defibrillator
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q818978 rdf:type owl:Class ;
+                            rdfs:label "staging area"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101250_EN_Rettung_Bereitstellungsraum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1333922 rdf:type owl:Class ;
+                            rdfs:label "Emergency Access Point"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101000_EN_Rettung_Rettungspunkt
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1151556  rdf:type owl:Class ;
+                            rdfs:label "photographic laboratory"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72203610_EN_GewerbeIndustrie_Fotolabor
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q878295 rdf:type owl:Class ;
+                            rdfs:label "tiler"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72202710_EN_GewerbeIndustrie_Fliesenleger
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1529413 rdf:type owl:Class ;
+                            rdfs:label "glaziery"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:72203650_EN_GewerbeIndustrie_Glaserei
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q338313 rdf:type owl:Class ;
+                            rdfs:label "business park"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101000_EN_Gewerbegebiet_Gewerbegebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q329683 rdf:type owl:Class ;
+                            rdfs:label "industrial park"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101200_EN_Gewerbegebiet_Industriegebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1719485 rdf:type owl:Class ;
+                            rdfs:label "Mischgebiet"@de ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101300_EN_Gewerbegebiet_Mischgebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1670596 rdf:type owl:Class ;
+                            rdfs:label "Sondergebiet"@de ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:71101400_EN_Gewerbegebiet_Sondergebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q656208 rdf:type owl:Class ;
+                            rdfs:label "bicycle parking station"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Radverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:67301010_EN_Radverkehr_Fahrradstation
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1249491 rdf:type owl:Class ;
+                            rdfs:label "Rettungsweg"@de ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:68101010_EN_Rettung_Rettungsweg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
+							   
+wd:Q1546788 rdf:type owl:Class ;
+                            rdfs:label "barbecue"@en ;
+                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rast
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:11301110_EN_Rast_Grillplatz
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] . 
 ###  http://linkedgeodata.org/ontology/ShoppingCentre
 lgd:ShoppingCentre rdf:type owl:Class .
 
@@ -6779,7 +7093,7 @@ lgd:Watermill rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Waterway
 lgd:Waterway rdf:type owl:Class ;
-             owl:equivalentClass wd:Q1267889 ;
+             owl:equivalentClass wd:Q1267889 , <http://inspire.ec.europa.eu/schemas/tn-w/4.0#Waterway> ;
              rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                     [ rdf:type owl:Restriction ;
                                                       owl:onProperty inspire-elu:hilucsLandUse ;
@@ -6792,6 +7106,10 @@ lgd:Waterway rdf:type owl:Class ;
                                rdf:type owl:Class
                              ] .
 
+							 
+wd:Q93352 rdf:type owl:Class ;
+			owl:equivalentClass <http://inspire.ec.europa.eu/schemas/sr/4.0#Coastline> ;
+			rdfs:label "Coastline"@en .
 
 ###  http://linkedgeodata.org/ontology/Way
 lgd:Way rdf:type owl:Class ;
@@ -8319,6 +8637,48 @@ wd:Q1109069 rdf:type owl:Class ;
                                 ] ;
             rdfs:label "ski jumping hill"@en .
 
+wd:Q13405588 rdf:type owl:Class ;
+            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Wanderweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:41101050_EN_Wanderweg_Fernwanderweg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+            rdfs:label "long-distance trail"@en .
+			
+wd:Q2974115 rdf:type owl:Class ;
+            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Wanderweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:41101100_EN_Wanderweg_Rundwanderweg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+            rdfs:label "tourist circuit"@en .
+			
+wd:Q1702970 rdf:type owl:Class ;
+            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Wanderweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:41101150_EN_Wanderweg_Themenwanderweg
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+            rdfs:label "themed walk"@en .
+
 
 ###  http://www.wikidata.org/entity/Q1110689
 wd:Q1110689 rdf:type owl:Class ;
@@ -8347,7 +8707,10 @@ wd:Q1110689 rdf:type owl:Class ;
                             ] ;
             rdfs:label "special education school"@en .
 
-
+wd:Q2143825 rdf:type owl:Class ;
+			owl:equivalentClass xerl:XE_Wanderweg ;
+			rdfs:label "walking path"@en .
+			
 ###  http://www.wikidata.org/entity/Q11315
 wd:Q11315 rdf:type owl:Class .
 
@@ -8694,6 +9057,10 @@ wd:Q1291673 rdf:type owl:Class ;
                                 ] ;
             rdfs:label "Cool Warehouse"@en .
 
+			
+wd:Q446013 rdf:type owl:Class ;
+			owl:equivalentClass <http://inspire.ec.europa.eu/schemas/ugs/4.0#PumpingStation> ;
+			rdfs:label "Pumping Station"@en .
 
 ###  http://www.wikidata.org/entity/Q1302299
 wd:Q1302299 rdf:type owl:Class ;
@@ -12772,8 +13139,32 @@ wd:Q43483 rdf:type owl:Class ;
                                                    ) ;
                                 rdf:type owl:Class
                               ] ;
+		          owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty xerl:objektFunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( xerl:22301250_EN_TechnischesBauwerk_Brunnen
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
           rdfs:label "water well"@en .
 
+wd:Q11166728 rdf:type owl:Class ;
+		          owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty xerl:objektFunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( xerl:22301120_EN_TechnischesBauwerk_Fernsehturm
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "TV tower"@en .
 
 ###  http://www.wikidata.org/entity/Q43501
 wd:Q43501 rdf:type owl:Class .
