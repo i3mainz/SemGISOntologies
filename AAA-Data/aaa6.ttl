@@ -4203,7 +4203,9 @@ aaa6:besondereFunktion rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf aaa6:AAA6 ;
                        rdfs:domain aaa6:AX_Forstrecht ;
                        rdfs:range aaa6:AX_BesondereFunktion_Forstrecht ;
-                       rdfs:label "besondereFunktion"@de .
+                       aaa6:kennung "BFU"^^xsd:string ;
+                       rdfs:label "besondereFunktion"@de ;
+                       skos:definition "'Besondere Funktion' ist die Angabe besonderer forstrechtlicher Bindungen."@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#besondereFunktionForst
@@ -4331,7 +4333,9 @@ aaa6:bezeichnung rdf:type owl:ObjectProperty ;
                              aaa6:AX_Wohnplatz ;
                  rdfs:range aaa6:AX_Lagebezeichnung ,
                             xsd:string ;
-                 rdfs:label "bezeichnung"@de .
+                 aaa6:kennung "BEZ"^^xsd:string ;
+                 rdfs:label "bezeichnung"@de ;
+                 skos:definition "'Bezeichnung' ist die amtlich festgelegte Verschlüsselung von 'Bau-, Raum- oder Bodenordnungsrecht'."@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bezeichnungArt
@@ -67439,8 +67443,24 @@ aaa6:datenerhebung skos:definition "'Datenerhebung' gibt die Methode der Ermittl
 aaa6:datum aaa6:kennung "DAT"@de .
 
 
+aaa6:datumAbgabe skos:definition "'Datum Abgabe' ist das Datum, an dem der neue Stand an das Kataster- und Vermessungsamt abgegeben wurde."@de ;
+                 aaa6:kennung "DAB"^^xsd:string .
+
+
+aaa6:datumAnordnung skos:definition "'Datum Anordnung' ist das Datum, an dem das Verfahren, das durch die Attributart 'Art der Festlegung' bestimmt ist, eingeleitet oder angeordnet wurde."@de ;
+                    aaa6:kennung "DAN"^^xsd:string .
+
+
+aaa6:datumBesitzeinweisung skos:definition "'Datum Besitzeinweisung' ist das Datum, an dem die Beteiligten des Verfahrens, das durch die Attributart 'Art der Festlegung' bestimmt ist, vor dem rechtskräftigen Eigentumsübergang in den Besitz eingewiesen wurden."@de ;
+                           aaa6:kennung "DBE"^^xsd:string .
+
+
 aaa6:datumDerAusgabe skos:definition "'Datum der Ausgabe' ist das Datum der erstmaligen Anfertigung der Ausgabe und wird bei nochmaligen Anfertigungen bei Fortführungsnachweisen beibehalten."@de ;
                      aaa6:kennung "DAG"@de .
+
+
+aaa6:datumrechtskraeftig skos:definition "'Datum rechtskräftig' ist das Datum, an dem 'Bau-, Raum oder Bodenordnungsrecht' rechtskräftig geworden ist."@de ;
+                         aaa6:kennung "DRK"^^xsd:string .
 
 
 aaa6:dienststelle aaa6:kennung "FKV"@de ;
@@ -67625,6 +67645,10 @@ aaa6:ueberpruefungsdatum skos:definition "'Überprüfungsdatum' gibt das Datum d
 
 
 aaa6:uri aaa6:kennung "URI"@de .
+
+
+aaa6:veraenderungOhneRuecksprache aaa6:kennung "VOR"^^xsd:string ;
+                                  skos:definition "'Veränderung ohne Rücksprache' ist die Kennzeichnung, daß das Kataster- und Vermessungsamt Änderungen an Flurstücken, die am Verfahren, das durch die 'Art der Festlegung' bestimmt ist, beteiligt sind, ohne Rücksprache mit der 'Zuständigen Stelle' durchführen darf."@de .
 
 
 aaa6:vertrauenswuerdigkeit skos:definition "Die \"Vertrauenswürdigkeit\" gibt die Vertrauenswürdigkeit der Koordinate oder Höhe an."@de .
