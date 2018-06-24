@@ -7639,7 +7639,8 @@ wd:Q1788582 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q1803798
 wd:Q1803798 rdf:type owl:Class ;
-            owl:equivalentClass xplan5:LP_Plan .
+            owl:equivalentClass xplan5:LP_Plan ;
+            rdfs:label "Landschaftsplan"@de .
 
 
 ###  http://www.wikidata.org/entity/Q184590
@@ -7723,305 +7724,380 @@ wd:Q22698 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2333223
-wd:Q2333223 rdf:type owl:Class .
+wd:Q2333223 rdf:type owl:Class ;
+            rdfs:label "Start- und Landeplatz"@de .
 
 
 ###  http://www.wikidata.org/entity/Q2354973
-wd:Q2354973 rdf:type owl:Class .
+wd:Q2354973 rdf:type owl:Class ;
+            rdfs:label "road tunnel"@en .
 
 
 ###  http://www.wikidata.org/entity/Q23790
-wd:Q23790 rdf:type owl:Class .
+wd:Q23790 rdf:type owl:Class ;
+          rdfs:label "natural monument"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2401720
-wd:Q2401720 rdf:type owl:Class .
+wd:Q2401720 rdf:type owl:Class ;
+            rdfs:label "Telekommunikationsanlage"@de .
 
 
 ###  http://www.wikidata.org/entity/Q2431970
-wd:Q2431970 rdf:type owl:Class .
+wd:Q2431970 rdf:type owl:Class ;
+            rdfs:label "Basement garage"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2478649
-wd:Q2478649 rdf:type owl:Class .
+wd:Q2478649 rdf:type owl:Class ;
+            rdfs:label "Umschlagplatz"@de .
 
 
 ###  http://www.wikidata.org/entity/Q2497639
-wd:Q2497639 rdf:type owl:Class .
+wd:Q2497639 rdf:type owl:Class ;
+            rdfs:label "Untergrundspeicher"@de .
 
 
 ###  http://www.wikidata.org/entity/Q2516330
-wd:Q2516330 rdf:type owl:Class .
+wd:Q2516330 rdf:type owl:Class ;
+            rdfs:label "commercial airfield"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2551525
-wd:Q2551525 rdf:type owl:Class .
+wd:Q2551525 rdf:type owl:Class ;
+            rdfs:label "water reservoir"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2586008
-wd:Q2586008 rdf:type owl:Class .
+wd:Q2586008 rdf:type owl:Class ;
+            rdfs:label "commercial forest"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2638480
-wd:Q2638480 rdf:type owl:Class .
+wd:Q2638480 rdf:type owl:Class ;
+            rdfs:label "congregation"@en .
 
 
 ###  http://www.wikidata.org/entity/Q283202
-wd:Q283202 rdf:type owl:Class .
+wd:Q283202 rdf:type owl:Class ;
+           rdfs:label "harbor"@en .
 
 
 ###  http://www.wikidata.org/entity/Q28916711
 wd:Q28916711 rdf:type owl:Class ;
-             owl:equivalentClass xplan5:BP_Plan .
+             owl:equivalentClass xplan5:BP_Plan ;
+             rdfs:label "Bebauungsplan"@de .
 
 
 ###  http://www.wikidata.org/entity/Q313301
-wd:Q313301 rdf:type owl:Class .
+wd:Q313301 rdf:type owl:Class ;
+           rdfs:label "German autobahn"@en .
 
 
 ###  http://www.wikidata.org/entity/Q319210
-wd:Q319210 rdf:type owl:Class .
+wd:Q319210 rdf:type owl:Class ;
+           rdfs:label "Adventure playground"@en .
 
 
 ###  http://www.wikidata.org/entity/Q322563
-wd:Q322563 rdf:type owl:Class .
+wd:Q322563 rdf:type owl:Class ;
+           rdfs:label "vocational school"@en .
 
 
 ###  http://www.wikidata.org/entity/Q329683
-wd:Q329683 rdf:type owl:Class .
+wd:Q329683 rdf:type owl:Class ;
+           rdfs:label "industrial park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q329842
-wd:Q329842 rdf:type owl:Class .
+wd:Q329842 rdf:type owl:Class ;
+           rdfs:label "Protection forest"@en .
 
 
 ###  http://www.wikidata.org/entity/Q333379
-wd:Q333379 rdf:type owl:Class .
+wd:Q333379 rdf:type owl:Class ;
+           rdfs:label "uiterwaard"@en .
 
 
 ###  http://www.wikidata.org/entity/Q336164
-wd:Q336164 rdf:type owl:Class .
+wd:Q336164 rdf:type owl:Class ;
+           rdfs:label "sewerage pumping station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q336169
-wd:Q336169 rdf:type owl:Class .
+wd:Q336169 rdf:type owl:Class ;
+           rdfs:label "Abwasserrohr"@de .
 
 
 ###  http://www.wikidata.org/entity/Q338313
-wd:Q338313 rdf:type owl:Class .
+wd:Q338313 rdf:type owl:Class ;
+           rdfs:label "business park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3407658
-wd:Q3407658 rdf:type owl:Class .
+wd:Q3407658 rdf:type owl:Class ;
+            rdfs:label "tramcar"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3500933
-wd:Q3500933 rdf:type owl:Class .
+wd:Q3500933 rdf:type owl:Class ;
+            rdfs:label "detention basin"@en .
 
 
 ###  http://www.wikidata.org/entity/Q35054
-wd:Q35054 rdf:type owl:Class .
+wd:Q35054 rdf:type owl:Class ;
+          rdfs:label "post office"@en .
 
 
 ###  http://www.wikidata.org/entity/Q353070
-wd:Q353070 rdf:type owl:Class .
+wd:Q353070 rdf:type owl:Class ;
+           rdfs:label "junction"@en .
 
 
 ###  http://www.wikidata.org/entity/Q369730
-wd:Q369730 rdf:type owl:Class .
+wd:Q369730 rdf:type owl:Class ;
+           rdfs:label "pedestrian zone"@en .
 
 
 ###  http://www.wikidata.org/entity/Q373609
-wd:Q373609 rdf:type owl:Class .
+wd:Q373609 rdf:type owl:Class ;
+           rdfs:label "water pipe"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3914
-wd:Q3914 rdf:type owl:Class .
+wd:Q3914 rdf:type owl:Class ;
+         rdfs:label "school"@en .
 
 
 ###  http://www.wikidata.org/entity/Q39614
-wd:Q39614 rdf:type owl:Class .
+wd:Q39614 rdf:type owl:Class ;
+          rdfs:label "cemetery"@en .
 
 
 ###  http://www.wikidata.org/entity/Q40015
-wd:Q40015 rdf:type owl:Class .
+wd:Q40015 rdf:type owl:Class ;
+          rdfs:label "solar energy"@en .
 
 
 ###  http://www.wikidata.org/entity/Q43302
-wd:Q43302 rdf:type owl:Class .
+wd:Q43302 rdf:type owl:Class ;
+          rdfs:label "wind power"@en .
 
 
 ###  http://www.wikidata.org/entity/Q43483
-wd:Q43483 rdf:type owl:Class .
+wd:Q43483 rdf:type owl:Class ;
+          rdfs:label "water well"@en .
 
 
 ###  http://www.wikidata.org/entity/Q4421
-wd:Q4421 rdf:type owl:Class .
+wd:Q4421 rdf:type owl:Class ;
+         rdfs:label "forest"@en .
 
 
 ###  http://www.wikidata.org/entity/Q445467
-wd:Q445467 rdf:type owl:Class .
+wd:Q445467 rdf:type owl:Class ;
+           rdfs:label "biological reserve"@en .
 
 
 ###  http://www.wikidata.org/entity/Q44782
-wd:Q44782 rdf:type owl:Class .
+wd:Q44782 rdf:type owl:Class ;
+          rdfs:label "port"@en .
 
 
 ###  http://www.wikidata.org/entity/Q46169
-wd:Q46169 rdf:type owl:Class .
+wd:Q46169 rdf:type owl:Class ;
+          rdfs:label "national park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q46622
-wd:Q46622 rdf:type owl:Class .
+wd:Q46622 rdf:type owl:Class ;
+          rdfs:label "controlled-access highway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q47848
-wd:Q47848 rdf:type owl:Class .
+wd:Q47848 rdf:type owl:Class ;
+          rdfs:label "sacred architecture"@en .
 
 
 ###  http://www.wikidata.org/entity/Q49833
-wd:Q49833 rdf:type owl:Class .
+wd:Q49833 rdf:type owl:Class ;
+          rdfs:label "wind turbine"@en .
 
 
 ###  http://www.wikidata.org/entity/Q502074
-wd:Q502074 rdf:type owl:Class .
+wd:Q502074 rdf:type owl:Class ;
+           rdfs:label "heliport"@en .
 
 
 ###  http://www.wikidata.org/entity/Q503021
-wd:Q503021 rdf:type owl:Class .
+wd:Q503021 rdf:type owl:Class ;
+           rdfs:label "Natura 2000"@en .
 
 
 ###  http://www.wikidata.org/entity/Q515449
-wd:Q515449 rdf:type owl:Class .
+wd:Q515449 rdf:type owl:Class ;
+           rdfs:label "Regionalbahn"@en .
 
 
 ###  http://www.wikidata.org/entity/Q5198662
-wd:Q5198662 rdf:type owl:Class .
+wd:Q5198662 rdf:type owl:Class ;
+            rdfs:label "cycling infrastructure"@en .
 
 
 ###  http://www.wikidata.org/entity/Q521839
-wd:Q521839 rdf:type owl:Class .
+wd:Q521839 rdf:type owl:Class ;
+           rdfs:label "shooting range"@en .
 
 
 ###  http://www.wikidata.org/entity/Q548662
-wd:Q548662 rdf:type owl:Class .
+wd:Q548662 rdf:type owl:Class ;
+           rdfs:label "transportation stop"@en .
 
 
 ###  http://www.wikidata.org/entity/Q5503
-wd:Q5503 rdf:type owl:Class .
+wd:Q5503 rdf:type owl:Class ;
+         rdfs:label "subterranean rapid transit"@en .
 
 
 ###  http://www.wikidata.org/entity/Q55493
-wd:Q55493 rdf:type owl:Class .
+wd:Q55493 rdf:type owl:Class ;
+          rdfs:label "goods station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q5573447
-wd:Q5573447 rdf:type owl:Class .
+wd:Q5573447 rdf:type owl:Class ;
+            rdfs:label "materials recovery facility"@en .
 
 
 ###  http://www.wikidata.org/entity/Q561431
-wd:Q561431 rdf:type owl:Class .
+wd:Q561431 rdf:type owl:Class ;
+           rdfs:label "Bundesstraße"@en .
 
 
 ###  http://www.wikidata.org/entity/Q5637838
-wd:Q5637838 rdf:type owl:Class .
+wd:Q5637838 rdf:type owl:Class ;
+            rdfs:label "Birds Directive"@en .
 
 
 ###  http://www.wikidata.org/entity/Q604276
-wd:Q604276 rdf:type owl:Class .
+wd:Q604276 rdf:type owl:Class ;
+           rdfs:label "Trasse"@de .
 
 
 ###  http://www.wikidata.org/entity/Q62447
-wd:Q62447 rdf:type owl:Class .
+wd:Q62447 rdf:type owl:Class ;
+          rdfs:label "aerodrome"@en .
 
 
 ###  http://www.wikidata.org/entity/Q6498663
-wd:Q6498663 rdf:type owl:Class .
+wd:Q6498663 rdf:type owl:Class ;
+            rdfs:label "fire department"@en .
 
 
 ###  http://www.wikidata.org/entity/Q721207
-wd:Q721207 rdf:type owl:Class .
+wd:Q721207 rdf:type owl:Class ;
+           rdfs:label "marina"@en .
 
 
 ###  http://www.wikidata.org/entity/Q728904
-wd:Q728904 rdf:type owl:Class .
+wd:Q728904 rdf:type owl:Class ;
+           rdfs:label "nature park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q759421
-wd:Q759421 rdf:type owl:Class .
+wd:Q759421 rdf:type owl:Class ;
+           rdfs:label "Naturschutzgebiet"@de .
 
 
 ###  http://www.wikidata.org/entity/Q759882
-wd:Q759882 rdf:type owl:Class .
+wd:Q759882 rdf:type owl:Class ;
+           rdfs:label "protected landscape area"@en .
 
 
 ###  http://www.wikidata.org/entity/Q800279
-wd:Q800279 rdf:type owl:Class .
+wd:Q800279 rdf:type owl:Class ;
+           rdfs:label "railway facility"@en .
 
 
 ###  http://www.wikidata.org/entity/Q811858
-wd:Q811858 rdf:type owl:Class .
+wd:Q811858 rdf:type owl:Class ;
+           rdfs:label "Bauschutzbereich"@de .
 
 
 ###  http://www.wikidata.org/entity/Q819681
-wd:Q819681 rdf:type owl:Class .
+wd:Q819681 rdf:type owl:Class ;
+           rdfs:label "Mining act"@en .
 
 
 ###  http://www.wikidata.org/entity/Q832778
-wd:Q832778 rdf:type owl:Class .
+wd:Q832778 rdf:type owl:Class ;
+           rdfs:label "campsite"@de .
 
 
 ###  http://www.wikidata.org/entity/Q837215
 wd:Q837215 rdf:type owl:Class ;
-           owl:equivalentClass xplan5:FP_Plan .
+           owl:equivalentClass xplan5:FP_Plan ;
+           rdfs:label "General plan"@en .
 
 
 ###  http://www.wikidata.org/entity/Q863915
-wd:Q863915 rdf:type owl:Class .
+wd:Q863915 rdf:type owl:Class ;
+           rdfs:label "inland port"@en .
 
 
 ###  http://www.wikidata.org/entity/Q864553
-wd:Q864553 rdf:type owl:Class .
+wd:Q864553 rdf:type owl:Class ;
+           rdfs:label "biomass combined heat and power station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q864912
-wd:Q864912 rdf:type owl:Class .
+wd:Q864912 rdf:type owl:Class ;
+           rdfs:label "wildlife corridor"@en .
 
 
 ###  http://www.wikidata.org/entity/Q884750
-wd:Q884750 rdf:type owl:Class .
+wd:Q884750 rdf:type owl:Class ;
+           rdfs:label "cogeneration unit"@en .
 
 
 ###  http://www.wikidata.org/entity/Q891698
-wd:Q891698 rdf:type owl:Class .
+wd:Q891698 rdf:type owl:Class ;
+           rdfs:label "Bolzplatz"@de .
 
 
 ###  http://www.wikidata.org/entity/Q896009
-wd:Q896009 rdf:type owl:Class .
+wd:Q896009 rdf:type owl:Class ;
+           rdfs:label "Landesstraße"@en .
 
 
 ###  http://www.wikidata.org/entity/Q913035
-wd:Q913035 rdf:type owl:Class .
+wd:Q913035 rdf:type owl:Class ;
+           rdfs:label "roadstead"@en .
 
 
 ###  http://www.wikidata.org/entity/Q918457
-wd:Q918457 rdf:type owl:Class .
+wd:Q918457 rdf:type owl:Class ;
+           rdfs:label "heat-only boiler station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q921543
-wd:Q921543 rdf:type owl:Class .
+wd:Q921543 rdf:type owl:Class ;
+           rdfs:label "water protection area"@en .
 
 
 ###  http://www.wikidata.org/entity/Q952931
-wd:Q952931 rdf:type owl:Class .
+wd:Q952931 rdf:type owl:Class ;
+           rdfs:label "compressor station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q95723
-wd:Q95723 rdf:type owl:Class .
+wd:Q95723 rdf:type owl:Class ;
+          rdfs:label "S-Bahn"@en .
 
 
 ###  http://www.wikidata.org/entity/Q962715
-wd:Q962715 rdf:type owl:Class .
+wd:Q962715 rdf:type owl:Class ;
+           rdfs:label "gas holder"@en .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_AbgrabungsFlaeche
