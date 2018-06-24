@@ -7583,7 +7583,8 @@ wd:Q1689678 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q16917
-wd:Q16917 rdf:type owl:Class .
+wd:Q16917 rdf:type owl:Class ;
+          rdfs:label "hospital"@en .
 
 
 ###  http://www.wikidata.org/entity/Q16970
@@ -7592,39 +7593,48 @@ wd:Q16970 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q170321
-wd:Q170321 rdf:type owl:Class .
+wd:Q170321 rdf:type owl:Class ;
+           rdfs:label "wetland"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1719485
-wd:Q1719485 rdf:type owl:Class .
+wd:Q1719485 rdf:type owl:Class ;
+            rdfs:label "Mischgebiet"@de .
 
 
 ###  http://www.wikidata.org/entity/Q174782
-wd:Q174782 rdf:type owl:Class .
+wd:Q174782 rdf:type owl:Class ;
+           rdfs:label "square"@en .
 
 
 ###  http://www.wikidata.org/entity/Q174814
-wd:Q174814 rdf:type owl:Class .
+wd:Q174814 rdf:type owl:Class ;
+           rdfs:label "electrical substation"@en .
 
 
 ###  http://www.wikidata.org/entity/Q175208
-wd:Q175208 rdf:type owl:Class .
+wd:Q175208 rdf:type owl:Class ;
+           rdfs:label "biotope"@en .
 
 
 ###  http://www.wikidata.org/entity/Q177749
-wd:Q177749 rdf:type owl:Class .
+wd:Q177749 rdf:type owl:Class ;
+           rdfs:label "sidewalk"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1778846
-wd:Q1778846 rdf:type owl:Class .
+wd:Q1778846 rdf:type owl:Class ;
+            rdfs:label "proving ground"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1787825
-wd:Q1787825 rdf:type owl:Class .
+wd:Q1787825 rdf:type owl:Class ;
+            rdfs:label "Kreisstraße"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1788582
-wd:Q1788582 rdf:type owl:Class .
+wd:Q1788582 rdf:type owl:Class ;
+            rdfs:label "state highway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1803798
@@ -7633,67 +7643,83 @@ wd:Q1803798 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q184590
-wd:Q184590 rdf:type owl:Class .
+wd:Q184590 rdf:type owl:Class ;
+           rdfs:label "runway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q18537
-wd:Q18537 rdf:type owl:Class .
+wd:Q18537 rdf:type owl:Class ;
+          rdfs:label "biomass"@en .
 
 
 ###  http://www.wikidata.org/entity/Q18562917
-wd:Q18562917 rdf:type owl:Class .
+wd:Q18562917 rdf:type owl:Class ;
+             rdfs:label "high-voltage power line"@en .
 
 
 ###  http://www.wikidata.org/entity/Q18620846
-wd:Q18620846 rdf:type owl:Class .
+wd:Q18620846 rdf:type owl:Class ;
+             rdfs:label "Erholungswald"@de .
 
 
 ###  http://www.wikidata.org/entity/Q186637
-wd:Q186637 rdf:type owl:Class .
+wd:Q186637 rdf:type owl:Class ;
+           rdfs:label "arcade"@en .
 
 
 ###  http://www.wikidata.org/entity/Q194195
-wd:Q194195 rdf:type owl:Class .
+wd:Q194195 rdf:type owl:Class ;
+           rdfs:label "amusement park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1968322
-wd:Q1968322 rdf:type owl:Class .
+wd:Q1968322 rdf:type owl:Class ;
+            rdfs:label "Nationales Naturmonument"@en .
 
 
 ###  http://www.wikidata.org/entity/Q20890541
-wd:Q20890541 rdf:type owl:Class .
+wd:Q20890541 rdf:type owl:Class ;
+             rdfs:label "Pipeline"@en .
 
 
 ###  http://www.wikidata.org/entity/Q21028957
-wd:Q21028957 rdf:type owl:Class .
+wd:Q21028957 rdf:type owl:Class ;
+             rdfs:label "Hochschule"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2138424
-wd:Q2138424 rdf:type owl:Class .
+wd:Q2138424 rdf:type owl:Class ;
+            rdfs:label "regional airport"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2143825
-wd:Q2143825 rdf:type owl:Class .
+wd:Q2143825 rdf:type owl:Class ;
+            rdfs:label "walking path"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2145163
-wd:Q2145163 rdf:type owl:Class .
+wd:Q2145163 rdf:type owl:Class ;
+            rdfs:label "trunk road"@en .
 
 
 ###  http://www.wikidata.org/entity/Q221275
-wd:Q221275 rdf:type owl:Class .
+wd:Q221275 rdf:type owl:Class ;
+           rdfs:label "sewage treatment"@en .
 
 
 ###  http://www.wikidata.org/entity/Q221620
-wd:Q221620 rdf:type owl:Class .
+wd:Q221620 rdf:type owl:Class ;
+           rdfs:label "cogeneration"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2265915
-wd:Q2265915 rdf:type owl:Class .
+wd:Q2265915 rdf:type owl:Class ;
+            rdfs:label "glider airfield"@en .
 
 
 ###  http://www.wikidata.org/entity/Q22698
-wd:Q22698 rdf:type owl:Class .
+wd:Q22698 rdf:type owl:Class ;
+          rdfs:label "park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2333223

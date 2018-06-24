@@ -259,13 +259,85 @@ xerl:objektFunktion rdf:type owl:ObjectProperty .
 #    Data properties
 #################################################################
 
+###  http://linkedgeodata.org/ontology/disused
+lgd:disused rdf:type owl:DatatypeProperty ;
+            owl:equivalentProperty xerl:istStillgelegt .
+
+
+###  http://linkedgeodata.org/ontology/postCode
+lgd:postCode rdf:type owl:DatatypeProperty ;
+             owl:equivalentProperty xerl:plz .
+
+
+###  http://linkedgeodata.org/ontology/ruins
+lgd:ruins rdf:type owl:DatatypeProperty ;
+          owl:equivalentProperty xerl:istRuine .
+
+
 ###  http://linkedgeodata.org/ontology/toilet
 lgd:toilet rdf:type owl:DatatypeProperty ;
            owl:equivalentProperty xerl:besuchHatWC .
 
 
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#email
+aaa6:email rdf:type owl:DatatypeProperty ;
+           owl:equivalentProperty xerl:email .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#hausnummer
+aaa6:hausnummer rdf:type owl:DatatypeProperty ;
+                owl:equivalentProperty xerl:hausnr ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#postfach
+aaa6:postfach rdf:type owl:DatatypeProperty ;
+              owl:equivalentProperty xerl:postfach ;
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#postleitzahl
+aaa6:postleitzahl rdf:type owl:DatatypeProperty ;
+                  owl:equivalentProperty xerl:plz .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#strasse
+aaa6:strasse rdf:type owl:DatatypeProperty ;
+             owl:equivalentProperty xerl:strasse .
+
+
 ###  http://www.xerleben.de/schema/2.0_1/besuchHatWC
 xerl:besuchHatWC rdf:type owl:DatatypeProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/email
+xerl:email rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/hausnr
+xerl:hausnr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/istRuine
+xerl:istRuine rdf:type owl:DatatypeProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/istStillgelegt
+xerl:istStillgelegt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/plz
+xerl:plz rdf:type owl:DatatypeProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/postfach
+xerl:postfach rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.xerleben.de/schema/2.0_1/strasse
+xerl:strasse rdf:type owl:DatatypeProperty .
 
 
 #################################################################
@@ -1158,6 +1230,11 @@ inspire-hy-n:WatercourseLink rdf:type owl:Class ;
 <http://inspire.ec.europa.eu/schemas/mu/3.0#MaritimeZone> rdf:type owl:Class .
 
 
+###  http://inspire.ec.europa.eu/schemas/sr/4.0#Coastline
+<http://inspire.ec.europa.eu/schemas/sr/4.0#Coastline> rdf:type owl:Class ;
+                                                       owl:equivalentClass wd:Q93352 .
+
+
 ###  http://inspire.ec.europa.eu/schemas/sr/4.0#Sea
 <http://inspire.ec.europa.eu/schemas/sr/4.0#Sea> rdf:type owl:Class ;
                                                  owl:equivalentClass lgd:Sea .
@@ -1392,6 +1469,11 @@ inspire-hy-n:WatercourseLink rdf:type owl:Class ;
                                                                             ] .
 
 
+###  http://inspire.ec.europa.eu/schemas/tn-w/4.0#Waterway
+<http://inspire.ec.europa.eu/schemas/tn-w/4.0#Waterway> rdf:type owl:Class ;
+                                                        owl:equivalentClass lgd:Waterway .
+
+
 ###  http://inspire.ec.europa.eu/schemas/tn-w/4.0#WaterwayLink
 <http://inspire.ec.europa.eu/schemas/tn-w/4.0#WaterwayLink> rdf:type owl:Class ;
                                                             owl:equivalentClass aaa6:AX_SchifffahrtslinieFaehrverkehr .
@@ -1422,6 +1504,11 @@ inspire-hy-n:WatercourseLink rdf:type owl:Class ;
                                                                               rdf:type owl:Class
                                                                             ] ;
                                                         rdfs:label "Markerpost"@en .
+
+
+###  http://inspire.ec.europa.eu/schemas/ugs/4.0#PumpingStation
+<http://inspire.ec.europa.eu/schemas/ugs/4.0#PumpingStation> rdf:type owl:Class ;
+                                                             owl:equivalentClass wd:Q446013 .
 
 
 ###  http://inspire.ec.europa.eu/schemas/us-govserv/4.0#GovernmentalService
@@ -1793,17 +1880,18 @@ lgd:BasicHut rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
-                                 ] ,  [ owl:intersectionOf ( xerl:XE_Rast
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:11301200_EN_Rast_Schutzhuette
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
+                                 ] ,
+                                 [ owl:intersectionOf ( xerl:XE_Rast
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_Rast_Schutzhuette
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
 
 
 ###  http://linkedgeodata.org/ontology/Battlefield
@@ -1832,6 +1920,11 @@ lgd:Beach rdf:type owl:Class ;
                               ] ;
           rdfs:subClassOf <http://www.geonames.org/ontology#Feature> ;
           rdfs:label "Beach"@en .
+
+
+###  http://linkedgeodata.org/ontology/BedAndBreakfast
+lgd:BedAndBreakfast rdf:type owl:Class ;
+                    owl:equivalentClass wd:Q367914 .
 
 
 ###  http://linkedgeodata.org/ontology/Boundary
@@ -3025,77 +3118,19 @@ lgd:Fuel rdf:type owl:Class ;
                                                     ]
                                                   ) ;
                                rdf:type owl:Class
-                             ] ,[ owl:intersectionOf ( xerl:XE_Tankstelle
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:67201000_EN_Tankstelle_Tankstelle
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
+                             ] ,
+                             [ owl:intersectionOf ( xerl:XE_Tankstelle
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty xerl:objektFunktion ;
+                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                           owl:oneOf ( xerl:_EN_Tankstelle_Tankstelle
+                                                                                     )
+                                                                         ]
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] .
 
-wd:Q1281105 rdf:type owl:Class ;
-		 rdfs:label "piste"@en ;
-         owl:equivalentClass 
-                             [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:41501510_EN_SonstigerFreizeitweg_Skipiste
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
-							   
-wd:Q1754598 rdf:type owl:Class ;
-		 rdfs:label "Cross-country skiing trail"@en ;
-         owl:equivalentClass 
-                             [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:41501500_EN_SonstigerFreizeitweg_Loipe
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
-							   
-wd:Q648116 rdf:type owl:Class ;
-		 rdfs:label "via ferrata"@en ;
-         owl:equivalentClass 
-                             [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:41501400_EN_SonstigerFreizeitweg_Klettersteig
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
-							
-wd:Q787113 rdf:type owl:Class ;
-		 rdfs:label "promenade"@en ;
-         owl:equivalentClass 
-                             [ owl:intersectionOf ( xerl:XE_Siedlung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:22101200_EN_Siedlung_Promenade
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
 
 ###  http://linkedgeodata.org/ontology/Garage
 lgd:Garage rdf:type owl:Class ;
@@ -4262,48 +4297,18 @@ lgd:LookoutTower rdf:type owl:Class ;
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
-                                     ] , [ owl:intersectionOf ( xerl:XE_Landmarke
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty xerl:objektFunktion ;
-                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                 owl:oneOf ( xerl:22401010_EN_Landmarke_Aussichtsturm
-                                                                                           )
-                                                                               ]
-                                                          ]
-                                                        ) ;
-                                     rdf:type owl:Class
-                                   ] .
-								   
-wd:Q14908 rdf:type owl:Class ;
-				rdfs:label "boat lift"@en ;
-                 owl:equivalentClass 
-                                     [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty xerl:objektFunktion ;
-                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                 owl:oneOf ( xerl:22301200_EN_TechnischesBauwerk_Schiffshebewerk
-                                                                                           )
-                                                                               ]
-                                                          ]
-                                                        ) ;
-                                     rdf:type owl:Class
-                                   ] .
-								   
-wd:Q483453 rdf:type owl:Class ;
-				rdfs:label "fountain"@en ;
-                 owl:equivalentClass 
-                                     [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty xerl:objektFunktion ;
-                                                            owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                 owl:oneOf ( xerl:22301260_EN_TechnischesBauwerk_Fontaene
-                                                                                           )
-                                                                               ]
-                                                          ]
-                                                        ) ;
-                                     rdf:type owl:Class
-                                   ] .
-
+                                     ] ,
+                                     [ owl:intersectionOf ( xerl:XE_Landmarke
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty xerl:objektFunktion ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( xerl:_EN_Landmarke_Aussichtsturm
+                                                                                             )
+                                                                                 ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] .
 
 
 ###  http://linkedgeodata.org/ontology/Mall
@@ -4352,7 +4357,8 @@ lgd:ManMadeFireHydrant rdf:type owl:Class ;
                                                                   ]
                                                                 ) ;
                                              rdf:type owl:Class
-                                           ],  [ owl:intersectionOf ( xerl:XE_Rettung
+                                           ] ,
+                                           [ owl:intersectionOf ( xerl:XE_Rettung
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty xerl:objektFunktion ;
                                                                     owl:someValuesFrom [ rdf:type owl:Class ;
@@ -5951,214 +5957,8 @@ lgd:ShoppingCenter rdf:type owl:Class ;
                                                             ) ;
                                          rdf:type owl:Class
                                        ] .
-                                       
-wd:Q76470 rdf:type owl:Class ;
-                    rdfs:label "Outlet store"@en ;
-                         owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Shopping
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:11501020_EN_Shopping_OutletCenter
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] .
-wd:Q15233417  rdf:type owl:Class ;
-                    rdfs:label "Altstadt"@en ;
-                         owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Siedlung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:22101000_EN_Siedlung_Altstadt
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-wd:Q1450682 rdf:type owl:Class ;
-                            rdfs:label "defibrillator"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:68101120_EN_Rettung_Defibrillator
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q818978 rdf:type owl:Class ;
-                            rdfs:label "staging area"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:68101250_EN_Rettung_Bereitstellungsraum
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1333922 rdf:type owl:Class ;
-                            rdfs:label "Emergency Access Point"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:68101000_EN_Rettung_Rettungspunkt
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1151556  rdf:type owl:Class ;
-                            rdfs:label "photographic laboratory"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:72203610_EN_GewerbeIndustrie_Fotolabor
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q878295 rdf:type owl:Class ;
-                            rdfs:label "tiler"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:72202710_EN_GewerbeIndustrie_Fliesenleger
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1529413 rdf:type owl:Class ;
-                            rdfs:label "glaziery"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:72203650_EN_GewerbeIndustrie_Glaserei
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q338313 rdf:type owl:Class ;
-                            rdfs:label "business park"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:71101000_EN_Gewerbegebiet_Gewerbegebiet
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q329683 rdf:type owl:Class ;
-                            rdfs:label "industrial park"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:71101200_EN_Gewerbegebiet_Industriegebiet
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1719485 rdf:type owl:Class ;
-                            rdfs:label "Mischgebiet"@de ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:71101300_EN_Gewerbegebiet_Mischgebiet
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1670596 rdf:type owl:Class ;
-                            rdfs:label "Sondergebiet"@de ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:71101400_EN_Gewerbegebiet_Sondergebiet
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q656208 rdf:type owl:Class ;
-                            rdfs:label "bicycle parking station"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Radverkehr
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:67301010_EN_Radverkehr_Fahrradstation
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1249491 rdf:type owl:Class ;
-                            rdfs:label "Rettungsweg"@de ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rettung
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:68101010_EN_Rettung_Rettungsweg
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
-							   
-wd:Q1546788 rdf:type owl:Class ;
-                            rdfs:label "barbecue"@en ;
-                            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Rast
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:11301110_EN_Rast_Grillplatz
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] . 
+
+
 ###  http://linkedgeodata.org/ontology/ShoppingCentre
 lgd:ShoppingCentre rdf:type owl:Class .
 
@@ -6662,6 +6462,17 @@ lgd:Townhall rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
+                                 ] ,
+                                 [ owl:intersectionOf ( xerl:XE_Bauwerk
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_Bauwerk_RathausBauwerk
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
                                  ] .
 
 
@@ -7093,7 +6904,7 @@ lgd:Watermill rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Waterway
 lgd:Waterway rdf:type owl:Class ;
-             owl:equivalentClass wd:Q1267889 , <http://inspire.ec.europa.eu/schemas/tn-w/4.0#Waterway> ;
+             owl:equivalentClass wd:Q1267889 ;
              rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                     [ rdf:type owl:Restriction ;
                                                       owl:onProperty inspire-elu:hilucsLandUse ;
@@ -7106,10 +6917,6 @@ lgd:Waterway rdf:type owl:Class ;
                                rdf:type owl:Class
                              ] .
 
-							 
-wd:Q93352 rdf:type owl:Class ;
-			owl:equivalentClass <http://inspire.ec.europa.eu/schemas/sr/4.0#Coastline> ;
-			rdfs:label "Coastline"@en .
 
 ###  http://linkedgeodata.org/ontology/Way
 lgd:Way rdf:type owl:Class ;
@@ -7230,6 +7037,11 @@ lgd:Windmill rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Windpump
 lgd:Windpump rdf:type owl:Class ;
              owl:equivalentClass wd:Q1730505 .
+
+
+###  http://linkedgeodata.org/ontology/Windsock
+lgd:Windsock rdf:type owl:Class ;
+             owl:equivalentClass wd:Q216346 .
 
 
 ###  http://linkedgeodata.org/ontology/disposal
@@ -8483,7 +8295,10 @@ wd:Q1044817 rdf:type owl:Class ;
                             ] ;
             rdfs:label "Carport"@en .
 
-
+wd:Q5078274 rdf:type owl:Class ;
+                rdfs:label "sketch"@en ;
+                owl:equivalentClass aaa6:AX_Skizze .
+            
 ###  http://www.wikidata.org/entity/Q10482023
 wd:Q10482023 rdf:type owl:Class ;
              owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
@@ -8637,48 +8452,6 @@ wd:Q1109069 rdf:type owl:Class ;
                                 ] ;
             rdfs:label "ski jumping hill"@en .
 
-wd:Q13405588 rdf:type owl:Class ;
-            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Wanderweg
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:41101050_EN_Wanderweg_Fernwanderweg
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-            rdfs:label "long-distance trail"@en .
-			
-wd:Q2974115 rdf:type owl:Class ;
-            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Wanderweg
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:41101100_EN_Wanderweg_Rundwanderweg
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-            rdfs:label "tourist circuit"@en .
-			
-wd:Q1702970 rdf:type owl:Class ;
-            owl:equivalentClass   [ owl:intersectionOf ( xerl:XE_Wanderweg
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty xerl:objektFunktion ;
-                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                             owl:oneOf ( xerl:41101150_EN_Wanderweg_Themenwanderweg
-                                                                                       )
-                                                                           ]
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-            rdfs:label "themed walk"@en .
-
 
 ###  http://www.wikidata.org/entity/Q1110689
 wd:Q1110689 rdf:type owl:Class ;
@@ -8707,10 +8480,23 @@ wd:Q1110689 rdf:type owl:Class ;
                             ] ;
             rdfs:label "special education school"@en .
 
-wd:Q2143825 rdf:type owl:Class ;
-			owl:equivalentClass xerl:XE_Wanderweg ;
-			rdfs:label "walking path"@en .
-			
+
+###  http://www.wikidata.org/entity/Q11166728
+wd:Q11166728 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_TechnischesBauwerk_Fernsehturm
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "TV tower"@en .
+
+
 ###  http://www.wikidata.org/entity/Q11315
 wd:Q11315 rdf:type owl:Class .
 
@@ -8721,6 +8507,22 @@ wd:Q1137809 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q1139861
 wd:Q1139861 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1151556
+wd:Q1151556 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_GewerbeIndustrie_Fotolabor
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "photographic laboratory"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1153108
@@ -8890,6 +8692,22 @@ wd:Q124714 rdf:type owl:Class .
 wd:Q1248784 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1249491
+wd:Q1249491 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Rettung
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Rettung_Rettungsweg
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Rettungsweg"@de .
+
+
 ###  http://www.wikidata.org/entity/Q12511
 wd:Q12511 rdf:type owl:Class ;
           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung
@@ -9026,6 +8844,22 @@ wd:Q12743 rdf:type owl:Class ;
           rdfs:label "ford"@en .
 
 
+###  http://www.wikidata.org/entity/Q1281105
+wd:Q1281105 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_SonstigerFreizeitweg_Skipiste
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "piste"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1282870
 wd:Q1282870 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Sport
@@ -9057,10 +8891,6 @@ wd:Q1291673 rdf:type owl:Class ;
                                 ] ;
             rdfs:label "Cool Warehouse"@en .
 
-			
-wd:Q446013 rdf:type owl:Class ;
-			owl:equivalentClass <http://inspire.ec.europa.eu/schemas/ugs/4.0#PumpingStation> ;
-			rdfs:label "Pumping Station"@en .
 
 ###  http://www.wikidata.org/entity/Q1302299
 wd:Q1302299 rdf:type owl:Class ;
@@ -9250,8 +9080,40 @@ wd:Q133215 rdf:type owl:Class .
 wd:Q133346 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1333922
+wd:Q1333922 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Rettung
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Rettung_Rettungspunkt
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Emergency Access Point"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1339195
 wd:Q1339195 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q13405588
+wd:Q13405588 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Wanderweg
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_Wanderweg_Fernwanderweg
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "long-distance trail"@en .
 
 
 ###  http://www.wikidata.org/entity/Q134447
@@ -9708,6 +9570,17 @@ wd:Q1450682 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ owl:intersectionOf ( xerl:XE_Rettung
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Rettung_Defibrillator
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
                                 ] ;
             rdfs:label "defibrillator"@en .
 
@@ -9903,6 +9776,22 @@ wd:Q148993 rdf:type owl:Class ;
            rdfs:label "broad-leaved tree"@en .
 
 
+###  http://www.wikidata.org/entity/Q14908
+wd:Q14908 rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty xerl:objektFunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( xerl:_EN_TechnischesBauwerk_Schiffshebewerk
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:label "boat lift"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1495738
 wd:Q1495738 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Gebaeude
@@ -9959,6 +9848,22 @@ wd:Q15003 rdf:type owl:Class ;
 wd:Q1501 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q15077340
+wd:Q15077340 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Denkmal
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_Denkmal_Denkmal
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Denkmal"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1520009
 wd:Q1520009 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_VorratsbehaelterSpeicherbauwerk
@@ -9987,12 +9892,39 @@ wd:Q15233417 rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
+                                 ] ,
+                                 [ owl:intersectionOf ( xerl:XE_Siedlung
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_Siedlung_Altstadt
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
                                  ] ;
              rdfs:label "Altstadt"@en .
 
 
 ###  http://www.wikidata.org/entity/Q152810
 wd:Q152810 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1529413
+wd:Q1529413 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_GewerbeIndustrie_Glaserei
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "glaziery"@en .
 
 
 ###  http://www.wikidata.org/entity/Q153562
@@ -10025,6 +9957,22 @@ wd:Q1541226 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "graduation tower"@en .
+
+
+###  http://www.wikidata.org/entity/Q1546788
+wd:Q1546788 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Rast
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Rast_Grillplatz
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "barbecue"@en .
 
 
 ###  http://www.wikidata.org/entity/Q155511
@@ -10312,6 +10260,12 @@ wd:Q15911738 rdf:type owl:Class ;
 wd:Q159334 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1594437
+wd:Q1594437 rdf:type owl:Class ;
+            owl:equivalentClass xerl:XE_Nachtleben ;
+            rdfs:label "nightlife"@en .
+
+
 ###  http://www.wikidata.org/entity/Q1595639
 wd:Q1595639 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Museum
@@ -10486,6 +10440,22 @@ wd:Q1663988 rdf:type owl:Class ;
 wd:Q166735 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q1670596
+wd:Q1670596 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Gewerbegebiet_Sondergebiet
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Sondergebiet"@de .
+
+
 ###  http://www.wikidata.org/entity/Q167346
 wd:Q167346 rdf:type owl:Class ;
            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_SportFreizeitUndErholungsflaeche
@@ -10589,6 +10559,22 @@ wd:Q170087 rdf:type owl:Class ;
            rdfs:label "Volkshochschule"@de .
 
 
+###  http://www.wikidata.org/entity/Q1702970
+wd:Q1702970 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Wanderweg
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Wanderweg_Themenwanderweg
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "themed walk"@en .
+
+
 ###  http://www.wikidata.org/entity/Q170477
 wd:Q170477 rdf:type owl:Class .
 
@@ -10623,6 +10609,22 @@ wd:Q1706476 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "veterinary hospital"@en .
+
+
+###  http://www.wikidata.org/entity/Q1707610
+wd:Q1707610 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Denkmal
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Denkmal_Kriegsgraeberstaette
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "war cemetary"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1714375
@@ -10697,6 +10699,22 @@ wd:Q1719063 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "betting shop"@en .
+
+
+###  http://www.wikidata.org/entity/Q1719485
+wd:Q1719485 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Gewerbegebiet_Mischgebiet
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Mischgebiet"@de .
 
 
 ###  http://www.wikidata.org/entity/Q1722438
@@ -10796,6 +10814,22 @@ wd:Q17485533 rdf:type owl:Class ;
                                  ] ;
              rdfs:label "Beacon"@en ,
                         "Leuchtfeuer"@de .
+
+
+###  http://www.wikidata.org/entity/Q1754598
+wd:Q1754598 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_SonstigerFreizeitweg_Loipe
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Cross-country skiing trail"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1756525
@@ -11172,6 +11206,22 @@ wd:Q190928 rdf:type owl:Class ;
                                  rdf:type owl:Class
                                ] ;
            rdfs:label "Shipyard"@en .
+
+
+###  http://www.wikidata.org/entity/Q192350
+wd:Q192350 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Behoerde
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Behoerde_Ministerium
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "ministry"@en .
 
 
 ###  http://www.wikidata.org/entity/Q192375
@@ -11635,6 +11685,12 @@ wd:Q2142845 rdf:type owl:Class .
 wd:Q2143354 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q2143825
+wd:Q2143825 rdf:type owl:Class ;
+            owl:equivalentClass xerl:XE_Wanderweg ;
+            rdfs:label "walking path"@en .
+
+
 ###  http://www.wikidata.org/entity/Q2144320
 wd:Q2144320 rdf:type owl:Class ;
             owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Leitung
@@ -11657,6 +11713,10 @@ wd:Q216107 rdf:type owl:Class .
 
 ###  http://www.wikidata.org/entity/Q216212
 wd:Q216212 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q216346
+wd:Q216346 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q2168243
@@ -11863,6 +11923,22 @@ wd:Q2281315 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "Sicherheitstor"@de .
+
+
+###  http://www.wikidata.org/entity/Q22815176
+wd:Q22815176 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Bauwerk
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty xerl:objektFunktion ;
+                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( xerl:_EN_Bauwerk_Foersterei
+                                                                                         )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Forestry"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2281788
@@ -12453,6 +12529,22 @@ wd:Q294422 rdf:type owl:Class .
 wd:Q294953 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q2974115
+wd:Q2974115 rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Wanderweg
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty xerl:objektFunktion ;
+                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                              owl:oneOf ( xerl:_EN_Wanderweg_Rundwanderweg
+                                                                                        )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "tourist circuit"@en .
+
+
 ###  http://www.wikidata.org/entity/Q29925
 wd:Q29925 rdf:type owl:Class ;
           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Landwirtschaft
@@ -12608,6 +12700,22 @@ wd:Q32815 rdf:type owl:Class ;
           rdfs:label "Mosque"@en .
 
 
+###  http://www.wikidata.org/entity/Q329683
+wd:Q329683 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Gewerbegebiet_Industriegebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "industrial park"@en .
+
+
 ###  http://www.wikidata.org/entity/Q33026952
 wd:Q33026952 rdf:type owl:Class ;
              owl:equivalentClass [ owl:intersectionOf ( xerl:XE_SchuleAllgemein
@@ -12695,6 +12803,22 @@ wd:Q335778 rdf:type owl:Class ;
 ###  http://www.wikidata.org/entity/Q337567
 wd:Q337567 rdf:type owl:Class ;
            rdfs:label "Still waters"@en .
+
+
+###  http://www.wikidata.org/entity/Q338313
+wd:Q338313 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Gewerbegebiet
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Gewerbegebiet_Gewerbegebiet
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "business park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3395121
@@ -12925,6 +13049,10 @@ wd:Q3661265 rdf:type owl:Class ;
             rdfs:label "university dormitory"@en .
 
 
+###  http://www.wikidata.org/entity/Q367914
+wd:Q367914 rdf:type owl:Class .
+
+
 ###  http://www.wikidata.org/entity/Q369730
 wd:Q369730 rdf:type owl:Class .
 
@@ -13138,12 +13266,12 @@ wd:Q43483 rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
-                              ] ;
-		          owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                              ] ,
+                              [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty xerl:objektFunktion ;
                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                            owl:oneOf ( xerl:22301250_EN_TechnischesBauwerk_Brunnen
+                                                                            owl:oneOf ( xerl:_EN_TechnischesBauwerk_Brunnen
                                                                                       )
                                                                           ]
                                                      ]
@@ -13152,19 +13280,6 @@ wd:Q43483 rdf:type owl:Class ;
                               ] ;
           rdfs:label "water well"@en .
 
-wd:Q11166728 rdf:type owl:Class ;
-		          owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
-                                                     [ rdf:type owl:Restriction ;
-                                                       owl:onProperty xerl:objektFunktion ;
-                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                            owl:oneOf ( xerl:22301120_EN_TechnischesBauwerk_Fernsehturm
-                                                                                      )
-                                                                          ]
-                                                     ]
-                                                   ) ;
-                                rdf:type owl:Class
-                              ] ;
-          rdfs:label "TV tower"@en .
 
 ###  http://www.wikidata.org/entity/Q43501
 wd:Q43501 rdf:type owl:Class .
@@ -13224,6 +13339,11 @@ wd:Q44539 rdf:type owl:Class ;
                               ] ;
           rdfs:subClassOf lgd:PlaceOfWorship ;
           rdfs:label "Temple"@en .
+
+
+###  http://www.wikidata.org/entity/Q446013
+wd:Q446013 rdf:type owl:Class ;
+           rdfs:label "Pumping Station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q44613
@@ -13413,6 +13533,22 @@ wd:Q478986 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q483110
 wd:Q483110 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q483453
+wd:Q483453 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_TechnischesBauwerk_Fontaene
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "fountain"@en .
 
 
 ###  http://www.wikidata.org/entity/Q487843
@@ -13754,6 +13890,22 @@ wd:Q573607 rdf:type owl:Class ;
            rdfs:label "Revenue service"@en .
 
 
+###  http://www.wikidata.org/entity/Q575759
+wd:Q575759 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Denkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Denkmal_Kriegerehrenmal
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "war memorial"@en .
+
+
 ###  http://www.wikidata.org/entity/Q57821
 wd:Q57821 rdf:type owl:Class ;
           owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung
@@ -14038,12 +14190,44 @@ wd:Q6452175 rdf:type owl:Class ;
             rdfs:label "Widerlager"@de .
 
 
+###  http://www.wikidata.org/entity/Q648116
+wd:Q648116 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_SonstigerFreizeitweg
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_SonstigerFreizeitweg_Klettersteig
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "via ferrata"@en .
+
+
 ###  http://www.wikidata.org/entity/Q6501028
 wd:Q6501028 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q655686
 wd:Q655686 rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q656208
+wd:Q656208 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Radverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Radverkehr_Fahrradstation
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "bicycle parking station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q656720
@@ -14265,6 +14449,22 @@ wd:Q721207 rdf:type owl:Class ;
            rdfs:label "marina"@en .
 
 
+###  http://www.wikidata.org/entity/Q721747
+wd:Q721747 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Denkmal
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Denkmal_Gedenktafel
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "commemorative plaque"@en .
+
+
 ###  http://www.wikidata.org/entity/Q721931
 wd:Q721931 rdf:type owl:Class .
 
@@ -14402,6 +14602,17 @@ wd:Q76470 rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
+                              ] ,
+                              [ owl:intersectionOf ( xerl:XE_Shopping
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty xerl:objektFunktion ;
+                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                            owl:oneOf ( xerl:_EN_Shopping_OutletCenter
+                                                                                      )
+                                                                          ]
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
                               ] ;
           rdfs:label "Outlet store"@en .
 
@@ -14448,6 +14659,23 @@ wd:Q785486 rdf:type owl:Class ;
                                  rdf:type owl:Class
                                ] ;
            rdfs:label "three-way interchange"@en .
+
+
+###  http://www.wikidata.org/entity/Q785979
+wd:Q785979 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Autoverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Autoverkehr_Autobahnparkplatz
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Autobahnparkplatz"@de ,
+                      "rest area"@en .
 
 
 ###  http://www.wikidata.org/entity/Q786014
@@ -14519,6 +14747,22 @@ wd:Q786922 rdf:type owl:Class ;
                                ] ;
            rdfs:label "Drive-In Theatre"@en ,
                       "drive-in theatre"@en .
+
+
+###  http://www.wikidata.org/entity/Q787113
+wd:Q787113 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Siedlung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Siedlung_Promenade
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "promenade"@en .
 
 
 ###  http://www.wikidata.org/entity/Q7883691
@@ -14611,6 +14855,38 @@ wd:Q81235 rdf:type owl:Class ;
                                 rdf:type owl:Class
                               ] ;
           rdfs:label "automated teller machine"@en .
+
+
+###  http://www.wikidata.org/entity/Q814499
+wd:Q814499 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Autoverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Autoverkehr_Behindertenparkplatz
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Disabled parking permit"@en .
+
+
+###  http://www.wikidata.org/entity/Q818978
+wd:Q818978 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Rettung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Rettung_Bereitstellungsraum
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "staging area"@en .
 
 
 ###  http://www.wikidata.org/entity/Q820477
@@ -14835,6 +15111,38 @@ wd:Q8719053 rdf:type owl:Class .
 wd:Q875157 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q878295
+wd:Q878295 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_GewerbeIndustrie
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_GewerbeIndustrie_Fliesenleger
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "tiler"@en .
+
+
+###  http://www.wikidata.org/entity/Q879050
+wd:Q879050 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( xerl:XE_Bauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:oneOf ( xerl:_EN_Bauwerk_Herrenhaus
+                                                                                       )
+                                                                           ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "manor house"@en .
+
+
 ###  http://www.wikidata.org/entity/Q896009
 wd:Q896009 rdf:type owl:Class ;
            owl:equivalentClass [ owl:intersectionOf ( aaa6:AX_Strasse
@@ -15010,6 +15318,11 @@ wd:Q921543 rdf:type owl:Class ;
 wd:Q928830 rdf:type owl:Class .
 
 
+###  http://www.wikidata.org/entity/Q93352
+wd:Q93352 rdf:type owl:Class ;
+          rdfs:label "Coastline"@en .
+
+
 ###  http://www.wikidata.org/entity/Q940462
 wd:Q940462 rdf:type owl:Class ;
            owl:equivalentClass [ owl:intersectionOf ( xerl:XE_TheaterMusik
@@ -15039,7 +15352,7 @@ wd:Q947103 rdf:type owl:Class ;
                                                     ) ;
                                  rdf:type owl:Class
                                ] ,
-                               [ owl:intersectionOf ( xerl:XE_TechnischesBauwerk
+                               [ owl:intersectionOf ( xerl:XE_Bauwerk
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:someValuesFrom [ rdf:type owl:Class ;
@@ -15160,6 +15473,10 @@ xerl:XE_Bauwerk rdf:type owl:Class .
 xerl:XE_Behoerde rdf:type owl:Class .
 
 
+###  http://www.xerleben.de/schema/2.0_1/XE_Denkmal
+xerl:XE_Denkmal rdf:type owl:Class .
+
+
 ###  http://www.xerleben.de/schema/2.0_1/XE_Dienstleistung
 xerl:XE_Dienstleistung rdf:type owl:Class .
 
@@ -15182,6 +15499,10 @@ xerl:XE_Gesundheit rdf:type owl:Class .
 
 ###  http://www.xerleben.de/schema/2.0_1/XE_GewerbeIndustrie
 xerl:XE_GewerbeIndustrie rdf:type owl:Class .
+
+
+###  http://www.xerleben.de/schema/2.0_1/XE_Gewerbegebiet
+xerl:XE_Gewerbegebiet rdf:type owl:Class .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/XE_Gotteshaus
@@ -15228,6 +15549,14 @@ xerl:XE_Nachtleben rdf:type owl:Class .
 xerl:XE_NaturLandschaft rdf:type owl:Class .
 
 
+###  http://www.xerleben.de/schema/2.0_1/XE_Radverkehr
+xerl:XE_Radverkehr rdf:type owl:Class .
+
+
+###  http://www.xerleben.de/schema/2.0_1/XE_Rast
+xerl:XE_Rast rdf:type owl:Class .
+
+
 ###  http://www.xerleben.de/schema/2.0_1/XE_Religioeses
 xerl:XE_Religioeses rdf:type owl:Class .
 
@@ -15271,12 +15600,20 @@ xerl:XE_Shopping rdf:type owl:Class .
 xerl:XE_Siedlung rdf:type owl:Class .
 
 
+###  http://www.xerleben.de/schema/2.0_1/XE_SonstigerFreizeitweg
+xerl:XE_SonstigerFreizeitweg rdf:type owl:Class .
+
+
 ###  http://www.xerleben.de/schema/2.0_1/XE_SozialEinrichtung
 xerl:XE_SozialEinrichtung rdf:type owl:Class .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/XE_Sport
 xerl:XE_Sport rdf:type owl:Class .
+
+
+###  http://www.xerleben.de/schema/2.0_1/XE_Tankstelle
+xerl:XE_Tankstelle rdf:type owl:Class .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/XE_TechnischesBauwerk
@@ -15313,6 +15650,10 @@ xerl:XE_Veranstaltungsort rdf:type owl:Class .
 
 ###  http://www.xerleben.de/schema/2.0_1/XE_Verband
 xerl:XE_Verband rdf:type owl:Class .
+
+
+###  http://www.xerleben.de/schema/2.0_1/XE_Wanderweg
+xerl:XE_Wanderweg rdf:type owl:Class .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/XE_Wasserverkehr
@@ -17627,680 +17968,844 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#V.VIN> rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11101000_EN_Servicestelle_Touristinformation
-xerl:_EN_Servicestelle_Touristinformation rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Autoverkehr_AutobahnraststaetteAutohof
+xerl:_EN_Autoverkehr_AutobahnraststaetteAutohof rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11101300_EN_Servicestelle_Geldautomat
-xerl:_EN_Servicestelle_Geldautomat rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Autoverkehr_Tiefgarage
+xerl:_EN_Autoverkehr_Tiefgarage rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11102000_EN_Servicestelle_Post
-xerl:_EN_Servicestelle_Post rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Baden_Badesee
+xerl:_EN_Baden_Badesee rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11201050_EN_Gastronomie_Eisdiele
-xerl:_EN_Gastronomie_Eisdiele rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Baden_Strand
+xerl:_EN_Baden_Strand rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11201150_EN_Gastronomie_Restaurant
-xerl:_EN_Gastronomie_Restaurant rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Baden_Thermalbad
+xerl:_EN_Baden_Thermalbad rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11201310_EN_Gastronomie_Biergarten
+###  http://www.xerleben.de/schema/2.0_1/_EN_Bauwerk_Burg
+xerl:_EN_Bauwerk_Burg rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Bauwerk_Stadttor
+xerl:_EN_Bauwerk_Stadttor rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Bauwerk_Wachturm
+xerl:_EN_Bauwerk_Wachturm rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Botschaft
+xerl:_EN_Behoerde_Botschaft rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Bundespolizei
+xerl:_EN_Behoerde_Bundespolizei rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Gefaengnis
+xerl:_EN_Behoerde_Gefaengnis rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Gericht
+xerl:_EN_Behoerde_Gericht rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Konsulat
+xerl:_EN_Behoerde_Konsulat rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Polizei
+xerl:_EN_Behoerde_Polizei rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Standesamt
+xerl:_EN_Behoerde_Standesamt rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Strassenmeisterei
+xerl:_EN_Behoerde_Strassenmeisterei rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Wasserschutzpolizei
+xerl:_EN_Behoerde_Wasserschutzpolizei rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Behoerde_Zollamt
+xerl:_EN_Behoerde_Zollamt rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Dienstleistung_Optiker
+xerl:_EN_Dienstleistung_Optiker rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Dienstleistung_Wettbuero
+xerl:_EN_Dienstleistung_Wettbuero rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Autohaus
+xerl:_EN_Einzelhandel_Autohaus rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Baeckerei
+xerl:_EN_Einzelhandel_Baeckerei rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Buchhandlung
+xerl:_EN_Einzelhandel_Buchhandlung rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Erotikshop
+xerl:_EN_Einzelhandel_Erotikshop rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Kaufhaus
+xerl:_EN_Einzelhandel_Kaufhaus rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Kiosk
+xerl:_EN_Einzelhandel_Kiosk rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Reformhaus
+xerl:_EN_Einzelhandel_Reformhaus rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Einzelhandel_Zoohandlung
+xerl:_EN_Einzelhandel_Zoohandlung rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Flughafen_InternationalerFlughafen
+xerl:_EN_Flughafen_InternationalerFlughafen rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Flughafen_Regionalflughafen
+xerl:_EN_Flughafen_Regionalflughafen rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gastronomie_Biergarten
 xerl:_EN_Gastronomie_Biergarten rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11201350_EN_Gastronomie_Brauerei
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gastronomie_Brauerei
 xerl:_EN_Gastronomie_Brauerei rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11401000_EN_Unterkunft_Feriendorf
-xerl:_EN_Unterkunft_Feriendorf rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gastronomie_Eisdiele
+xerl:_EN_Gastronomie_Eisdiele rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11401500_EN_Unterkunft_HotelGarni
-xerl:_EN_Unterkunft_HotelGarni rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gastronomie_Restaurant
+xerl:_EN_Gastronomie_Restaurant rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11401510_EN_Unterkunft_HotelGasthof
-xerl:_EN_Unterkunft_HotelGasthof rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gesundheit_Apotheke
+xerl:_EN_Gesundheit_Apotheke rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11401520_EN_Unterkunft_Motel
-xerl:_EN_Unterkunft_Motel rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gesundheit_Heilpraktiker
+xerl:_EN_Gesundheit_Heilpraktiker rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11401600_EN_Unterkunft_Campingplatz
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gesundheit_KrankenhausKlinik
+xerl:_EN_Gesundheit_KrankenhausKlinik rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gesundheit_Tagesklinik
+xerl:_EN_Gesundheit_Tagesklinik rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_GewerbeIndustrie_Baumschule
+xerl:_EN_GewerbeIndustrie_Baumschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_GewerbeIndustrie_Saegewerk
+xerl:_EN_GewerbeIndustrie_Saegewerk rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_Kapelle
+xerl:_EN_Gotteshaus_Kapelle rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_Kirche
+xerl:_EN_Gotteshaus_Kirche rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_Kloster
+xerl:_EN_Gotteshaus_Kloster rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_Moschee
+xerl:_EN_Gotteshaus_Moschee rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_Synagoge
+xerl:_EN_Gotteshaus_Synagoge rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_TempelBuddhistisch
+xerl:_EN_Gotteshaus_TempelBuddhistisch rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_TempelHinduistisch
+xerl:_EN_Gotteshaus_TempelHinduistisch rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Gotteshaus_TempelShintoistisch
+xerl:_EN_Gotteshaus_TempelShintoistisch rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kino_Autokino
+xerl:_EN_Kino_Autokino rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kino_Freilichtkino
+xerl:_EN_Kino_Freilichtkino rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kino_Multiplexkino
+xerl:_EN_Kino_Multiplexkino rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kultureinrichtung_AtelierKuenstlerhaus
+xerl:_EN_Kultureinrichtung_AtelierKuenstlerhaus rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kultureinrichtung_Galerie
+xerl:_EN_Kultureinrichtung_Galerie rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kultureinrichtung_Kulturzentrum
+xerl:_EN_Kultureinrichtung_Kulturzentrum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Kultureinrichtung_Spielbank
+xerl:_EN_Kultureinrichtung_Spielbank rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Landmarke_Aussichtsturm
+xerl:_EN_Landmarke_Aussichtsturm rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Landmarke_Feuerwachturm
+xerl:_EN_Landmarke_Feuerwachturm rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Landmarke_Grabmal
+xerl:_EN_Landmarke_Grabmal rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Landmarke_Halde
+xerl:_EN_Landmarke_Halde rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Landmarke_Landwehr
+xerl:_EN_Landmarke_Landwehr rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Logistik_Containerterminal
+xerl:_EN_Logistik_Containerterminal rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Mediathek_Archiv
+xerl:_EN_Mediathek_Archiv rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Mediathek_Bibliothek
+xerl:_EN_Mediathek_Bibliothek rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Militaer_Kaserne
+xerl:_EN_Militaer_Kaserne rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Militaer_Militaerflugplatz
+xerl:_EN_Militaer_Militaerflugplatz rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Militaer_MilitaerischesSperrgebiet
+xerl:_EN_Militaer_MilitaerischesSperrgebiet rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Museum_Heimatkundemuseum
+xerl:_EN_Museum_Heimatkundemuseum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Museum_Kunstmuseum
+xerl:_EN_Museum_Kunstmuseum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Museum_Planetarium
+xerl:_EN_Museum_Planetarium rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Museum_Sternwarte
+xerl:_EN_Museum_Sternwarte rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Nachtleben_Diskothek
+xerl:_EN_Nachtleben_Diskothek rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Nachtleben_Szeneviertel
+xerl:_EN_Nachtleben_Szeneviertel rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Arboretum
+xerl:_EN_NaturLandschaft_Arboretum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Berg
+xerl:_EN_NaturLandschaft_Berg rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_BotanischerGarten
+xerl:_EN_NaturLandschaft_BotanischerGarten rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Doline
+xerl:_EN_NaturLandschaft_Doline rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Hoehle
+xerl:_EN_NaturLandschaft_Hoehle rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Insel
+xerl:_EN_NaturLandschaft_Insel rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_See
+xerl:_EN_NaturLandschaft_See rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Wald
+xerl:_EN_NaturLandschaft_Wald rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Wasserfall
+xerl:_EN_NaturLandschaft_Wasserfall rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_NaturLandschaft_Wetterstation
+xerl:_EN_NaturLandschaft_Wetterstation rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Religioeses_Friedhof
+xerl:_EN_Religioeses_Friedhof rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Religioeses_Krematorium
+xerl:_EN_Religioeses_Krematorium rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Rettung_Defibrillator
+xerl:_EN_Rettung_Defibrillator rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Rettung_Hydrant
+xerl:_EN_Rettung_Hydrant rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sammelstelle_Recyclinghof
+xerl:_EN_Sammelstelle_Recyclinghof rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Foerderschule
+xerl:_EN_SchuleAllgemein_Foerderschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Gesamtschule
+xerl:_EN_SchuleAllgemein_Gesamtschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Grundschule
+xerl:_EN_SchuleAllgemein_Grundschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Gymnasium
+xerl:_EN_SchuleAllgemein_Gymnasium rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Hauptschule
+xerl:_EN_SchuleAllgemein_Hauptschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Realschule
+xerl:_EN_SchuleAllgemein_Realschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleAllgemein_Sekundarschule
+xerl:_EN_SchuleAllgemein_Sekundarschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleSpezial_Musikschule
+xerl:_EN_SchuleSpezial_Musikschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleSpezial_Sprachschule
+xerl:_EN_SchuleSpezial_Sprachschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SchuleSpezial_Verkehrsschule
+xerl:_EN_SchuleSpezial_Verkehrsschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Servicestelle_Geldautomat
+xerl:_EN_Servicestelle_Geldautomat rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Servicestelle_Post
+xerl:_EN_Servicestelle_Post rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Servicestelle_Touristinformation
+xerl:_EN_Servicestelle_Touristinformation rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Shopping_Einkaufszentrum
+xerl:_EN_Shopping_Einkaufszentrum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Shopping_OutletCenter
+xerl:_EN_Shopping_OutletCenter rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Siedlung_Altstadt
+xerl:_EN_Siedlung_Altstadt rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Babyklappe
+xerl:_EN_SozialEinrichtung_Babyklappe rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Familienzentrum
+xerl:_EN_SozialEinrichtung_Familienzentrum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Fluechtlingsunterkunft
+xerl:_EN_SozialEinrichtung_Fluechtlingsunterkunft rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Hospiz
+xerl:_EN_SozialEinrichtung_Hospiz rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Jugendzentrum
+xerl:_EN_SozialEinrichtung_Jugendzentrum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_KinderNotinsel
+xerl:_EN_SozialEinrichtung_KinderNotinsel rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Kindergarten
+xerl:_EN_SozialEinrichtung_Kindergarten rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_SozialEinrichtung_Seniorenbegegnungsstaette
+xerl:_EN_SozialEinrichtung_Seniorenbegegnungsstaette rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Bootsvermietung
+xerl:_EN_Sport_Bootsvermietung rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Bouleplatz
+xerl:_EN_Sport_Bouleplatz rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Bowling
+xerl:_EN_Sport_Bowling rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Eisbahn
+xerl:_EN_Sport_Eisbahn rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Eissporthalle
+xerl:_EN_Sport_Eissporthalle rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Golf
+xerl:_EN_Sport_Golf rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Kartbahn
+xerl:_EN_Sport_Kartbahn rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Kletterfelsen
+xerl:_EN_Sport_Kletterfelsen rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Radrennbahn
+xerl:_EN_Sport_Radrennbahn rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Reitanlage
+xerl:_EN_Sport_Reitanlage rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Rennstrecke
+xerl:_EN_Sport_Rennstrecke rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_SeilgartenKlettergarten
+xerl:_EN_Sport_SeilgartenKlettergarten rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Sprungschanze
+xerl:_EN_Sport_Sprungschanze rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_StadionArena
+xerl:_EN_Sport_StadionArena rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Sport_Tanzschule
+xerl:_EN_Sport_Tanzschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Bruecke
+xerl:_EN_TechnischesBauwerk_Bruecke rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Leuchtturm
+xerl:_EN_TechnischesBauwerk_Leuchtturm rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Schleuse
+xerl:_EN_TechnischesBauwerk_Schleuse rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Tunnel
+xerl:_EN_TechnischesBauwerk_Tunnel rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Turm
+xerl:_EN_TechnischesBauwerk_Turm rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Viadukt
+xerl:_EN_TechnischesBauwerk_Viadukt rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Wassermuehle
+xerl:_EN_TechnischesBauwerk_Wassermuehle rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Wasserturm
+xerl:_EN_TechnischesBauwerk_Wasserturm rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TechnischesBauwerk_Windmuehle
+xerl:_EN_TechnischesBauwerk_Windmuehle rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TheaterMusik_Opernhaus
+xerl:_EN_TheaterMusik_Opernhaus rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TheaterMusik_Puppentheater
+xerl:_EN_TheaterMusik_Puppentheater rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TheaterMusik_Theater
+xerl:_EN_TheaterMusik_Theater rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_TheaterMusik_Variete
+xerl:_EN_TheaterMusik_Variete rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Tiermedizin_Tierheim
+xerl:_EN_Tiermedizin_Tierheim rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Tiermedizin_Tierklinik
+xerl:_EN_Tiermedizin_Tierklinik rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Tierwelt_Aquarium
+xerl:_EN_Tierwelt_Aquarium rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Tierwelt_Streichelzoo
+xerl:_EN_Tierwelt_Streichelzoo rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Tierwelt_TierparkWildgehege
+xerl:_EN_Tierwelt_TierparkWildgehege rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Tierwelt_Wildruhezone
+xerl:_EN_Tierwelt_Wildruhezone rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Unterkunft_Campingplatz
 xerl:_EN_Unterkunft_Campingplatz rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11401700_EN_Unterkunft_Heuherberge
+###  http://www.xerleben.de/schema/2.0_1/_EN_Unterkunft_Feriendorf
+xerl:_EN_Unterkunft_Feriendorf rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Unterkunft_Heuherberge
 xerl:_EN_Unterkunft_Heuherberge rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/11501020_EN_Shopping_Einkaufszentrum
-xerl:_EN_Shopping_Einkaufszentrum rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/_EN_Unterkunft_HotelGarni
+xerl:_EN_Unterkunft_HotelGarni rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Unterkunft_HotelGasthof
+xerl:_EN_Unterkunft_HotelGasthof rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Unterkunft_Motel
+xerl:_EN_Unterkunft_Motel rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_VerEntsorgungsbetrieb_Klaeranlage
+xerl:_EN_VerEntsorgungsbetrieb_Klaeranlage rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_VerEntsorgungsbetrieb_Kraftwerk
+xerl:_EN_VerEntsorgungsbetrieb_Kraftwerk rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Veranstaltungsort_Festplatz
+xerl:_EN_Veranstaltungsort_Festplatz rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Veranstaltungsort_Kongresszentrum
+xerl:_EN_Veranstaltungsort_Kongresszentrum rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Veranstaltungsort_Wahllokal
+xerl:_EN_Veranstaltungsort_Wahllokal rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Verband_PolitischePartei
+xerl:_EN_Verband_PolitischePartei rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Verband_Verein
+xerl:_EN_Verband_Verein rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_Bootshaus
+xerl:_EN_Wasserverkehr_Bootshaus rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_GelbeWelle
+xerl:_EN_Wasserverkehr_GelbeWelle rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_Leuchtfeuer
+xerl:_EN_Wasserverkehr_Leuchtfeuer rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_Leuchttonne
+xerl:_EN_Wasserverkehr_Leuchttonne rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_Slipanlage
+xerl:_EN_Wasserverkehr_Slipanlage rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_Sportboothafen
+xerl:_EN_Wasserverkehr_Sportboothafen rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wasserverkehr_Untiefe
+xerl:_EN_Wasserverkehr_Untiefe rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Weiterbildung_Berufsschule
+xerl:_EN_Weiterbildung_Berufsschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Weiterbildung_Fachschule
+xerl:_EN_Weiterbildung_Fachschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Weiterbildung_Volkshochschule
+xerl:_EN_Weiterbildung_Volkshochschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/_EN_Wissenschaft_Hochschule
+xerl:_EN_Wissenschaft_Hochschule rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/11301110_EN_Rast_Grillplatz
+xerl:_EN_Rast_Grillplatz rdf:type owl:NamedIndividual .
+
+
+###  http://www.xerleben.de/schema/2.0_1/11301200_EN_Rast_Schutzhuette
+xerl:_EN_Rast_Schutzhuette rdf:type owl:NamedIndividual .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/11501020_EN_Shopping_OutletCenter
 xerl:_EN_Shopping_OutletCenter rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/21101000_EN_Museum_Heimatkundemuseum
-xerl:_EN_Museum_Heimatkundemuseum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21101400_EN_Museum_Kunstmuseum
-xerl:_EN_Museum_Kunstmuseum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21101650_EN_Museum_Planetarium
-xerl:_EN_Museum_Planetarium rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21101800_EN_Museum_Sternwarte
-xerl:_EN_Museum_Sternwarte rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21201000_EN_TheaterMusik_Theater
-xerl:_EN_TheaterMusik_Theater rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21201020_EN_TheaterMusik_Puppentheater
-xerl:_EN_TheaterMusik_Puppentheater rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21201050_EN_TheaterMusik_Variete
-xerl:_EN_TheaterMusik_Variete rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21201200_EN_TheaterMusik_Opernhaus
-xerl:_EN_TheaterMusik_Opernhaus rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21301010_EN_Kultureinrichtung_Galerie
-xerl:_EN_Kultureinrichtung_Galerie rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21301020_EN_Kultureinrichtung_AtelierKuenstlerhaus
-xerl:_EN_Kultureinrichtung_AtelierKuenstlerhaus rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21301050_EN_Kultureinrichtung_Kulturzentrum
-xerl:_EN_Kultureinrichtung_Kulturzentrum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21301100_EN_Kultureinrichtung_Spielbank
-xerl:_EN_Kultureinrichtung_Spielbank rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21401050_EN_Kino_Multiplexkino
-xerl:_EN_Kino_Multiplexkino rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21401100_EN_Kino_Freilichtkino
-xerl:_EN_Kino_Freilichtkino rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21401150_EN_Kino_Autokino
-xerl:_EN_Kino_Autokino rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21501050_EN_Nachtleben_Diskothek
-xerl:_EN_Nachtleben_Diskothek rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/21501100_EN_Nachtleben_Szeneviertel
-xerl:_EN_Nachtleben_Szeneviertel rdf:type owl:NamedIndividual .
-
-
 ###  http://www.xerleben.de/schema/2.0_1/22101000_EN_Siedlung_Altstadt
 xerl:_EN_Siedlung_Altstadt rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22201000_EN_Bauwerk_Stadttor
-xerl:_EN_Bauwerk_Stadttor rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22101200_EN_Siedlung_Promenade
+xerl:_EN_Siedlung_Promenade rdf:type owl:NamedIndividual .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/22201050_EN_Bauwerk_Wachturm
 xerl:_EN_Bauwerk_Wachturm rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22201100_EN_Bauwerk_Burg
-xerl:_EN_Bauwerk_Burg rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22201120_EN_Bauwerk_Herrenhaus
+xerl:_EN_Bauwerk_Herrenhaus rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22301000_EN_TechnischesBauwerk_Wassermuehle
-xerl:_EN_TechnischesBauwerk_Wassermuehle rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22201150_EN_Bauwerk_RathausBauwerk
+xerl:_EN_Bauwerk_RathausBauwerk rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22301010_EN_TechnischesBauwerk_Windmuehle
-xerl:_EN_TechnischesBauwerk_Windmuehle rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22201250_EN_Bauwerk_Foersterei
+xerl:_EN_Bauwerk_Foersterei rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22301100_EN_TechnischesBauwerk_Turm
-xerl:_EN_TechnischesBauwerk_Turm rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22301120_EN_TechnischesBauwerk_Fernsehturm
+xerl:_EN_TechnischesBauwerk_Fernsehturm rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22301110_EN_TechnischesBauwerk_Leuchtturm
-xerl:_EN_TechnischesBauwerk_Leuchtturm rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22301200_EN_TechnischesBauwerk_Schiffshebewerk
+xerl:_EN_TechnischesBauwerk_Schiffshebewerk rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22301130_EN_TechnischesBauwerk_Wasserturm
-xerl:_EN_TechnischesBauwerk_Wasserturm rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22301250_EN_TechnischesBauwerk_Brunnen
+xerl:_EN_TechnischesBauwerk_Brunnen rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22301210_EN_TechnischesBauwerk_Schleuse
-xerl:_EN_TechnischesBauwerk_Schleuse rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/22301300_EN_TechnischesBauwerk_Bruecke
-xerl:_EN_TechnischesBauwerk_Bruecke rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/22301320_EN_TechnischesBauwerk_Viadukt
-xerl:_EN_TechnischesBauwerk_Viadukt rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/22301400_EN_TechnischesBauwerk_Tunnel
-xerl:_EN_TechnischesBauwerk_Tunnel rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22301260_EN_TechnischesBauwerk_Fontaene
+xerl:_EN_TechnischesBauwerk_Fontaene rdf:type owl:NamedIndividual .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/22401010_EN_Landmarke_Aussichtsturm
 xerl:_EN_Landmarke_Aussichtsturm rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22401050_EN_Landmarke_Feuerwachturm
-xerl:_EN_Landmarke_Feuerwachturm rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22801010_EN_Denkmal_Denkmal
+xerl:_EN_Denkmal_Denkmal rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22401150_EN_Landmarke_Landwehr
-xerl:_EN_Landmarke_Landwehr rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22801030_EN_Denkmal_Gedenktafel
+xerl:_EN_Denkmal_Gedenktafel rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22401200_EN_Landmarke_Grabmal
-xerl:_EN_Landmarke_Grabmal rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22801040_EN_Denkmal_Kriegerehrenmal
+xerl:_EN_Denkmal_Kriegerehrenmal rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22401400_EN_Landmarke_Halde
-xerl:_EN_Landmarke_Halde rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/22801050_EN_Denkmal_Kriegsgraeberstaette
+xerl:_EN_Denkmal_Kriegsgraeberstaette rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601000_EN_Gotteshaus_Kirche
-xerl:_EN_Gotteshaus_Kirche rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/41101050_EN_Wanderweg_Fernwanderweg
+xerl:_EN_Wanderweg_Fernwanderweg rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601100_EN_Gotteshaus_Kapelle
-xerl:_EN_Gotteshaus_Kapelle rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/41101100_EN_Wanderweg_Rundwanderweg
+xerl:_EN_Wanderweg_Rundwanderweg rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601150_EN_Gotteshaus_Kloster
-xerl:_EN_Gotteshaus_Kloster rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/41101150_EN_Wanderweg_Themenwanderweg
+xerl:_EN_Wanderweg_Themenwanderweg rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601200_EN_Gotteshaus_Moschee
-xerl:_EN_Gotteshaus_Moschee rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/41501400_EN_SonstigerFreizeitweg_Klettersteig
+xerl:_EN_SonstigerFreizeitweg_Klettersteig rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601210_EN_Gotteshaus_Synagoge
-xerl:_EN_Gotteshaus_Synagoge rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/41501500_EN_SonstigerFreizeitweg_Loipe
+xerl:_EN_SonstigerFreizeitweg_Loipe rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601220_EN_Gotteshaus_TempelHinduistisch
-xerl:_EN_Gotteshaus_TempelHinduistisch rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/41501510_EN_SonstigerFreizeitweg_Skipiste
+xerl:_EN_SonstigerFreizeitweg_Skipiste rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/22601230_EN_Gotteshaus_TempelShintoistisch
-xerl:_EN_Gotteshaus_TempelShintoistisch rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/22601240_EN_Gotteshaus_TempelBuddhistisch
-xerl:_EN_Gotteshaus_TempelBuddhistisch rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/22701000_EN_Religioeses_Friedhof
-xerl:_EN_Religioeses_Friedhof rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/22701030_EN_Religioeses_Krematorium
-xerl:_EN_Religioeses_Krematorium rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31101020_EN_NaturLandschaft_BotanischerGarten
-xerl:_EN_NaturLandschaft_BotanischerGarten rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31101040_EN_NaturLandschaft_Arboretum
-xerl:_EN_NaturLandschaft_Arboretum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31101510_EN_NaturLandschaft_See
-xerl:_EN_NaturLandschaft_See rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31101520_EN_NaturLandschaft_Wasserfall
-xerl:_EN_NaturLandschaft_Wasserfall rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31102000_EN_NaturLandschaft_Doline
-xerl:_EN_NaturLandschaft_Doline rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31102200_EN_NaturLandschaft_Hoehle
-xerl:_EN_NaturLandschaft_Hoehle rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31102500_EN_NaturLandschaft_Berg
-xerl:_EN_NaturLandschaft_Berg rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31102600_EN_NaturLandschaft_Insel
-xerl:_EN_NaturLandschaft_Insel rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31102700_EN_NaturLandschaft_Wald
-xerl:_EN_NaturLandschaft_Wald rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31104100_EN_NaturLandschaft_Wetterstation
-xerl:_EN_NaturLandschaft_Wetterstation rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31201010_EN_Tierwelt_Streichelzoo
-xerl:_EN_Tierwelt_Streichelzoo rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31201050_EN_Tierwelt_TierparkWildgehege
-xerl:_EN_Tierwelt_TierparkWildgehege rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31201160_EN_Tierwelt_Wildruhezone
-xerl:_EN_Tierwelt_Wildruhezone rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31201200_EN_Tierwelt_Aquarium
-xerl:_EN_Tierwelt_Aquarium rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31301020_EN_Sport_StadionArena
-xerl:_EN_Sport_StadionArena rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31301700_EN_Sport_Golf
-xerl:_EN_Sport_Golf rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31301750_EN_Sport_Bowling
-xerl:_EN_Sport_Bowling rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31301770_EN_Sport_Bouleplatz
-xerl:_EN_Sport_Bouleplatz rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31302050_EN_Sport_Bootsvermietung
-xerl:_EN_Sport_Bootsvermietung rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31302510_EN_Sport_Eisbahn
-xerl:_EN_Sport_Eisbahn rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31302520_EN_Sport_Eissporthalle
-xerl:_EN_Sport_Eissporthalle rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31302580_EN_Sport_Sprungschanze
-xerl:_EN_Sport_Sprungschanze rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31303070_EN_Sport_Reitanlage
-xerl:_EN_Sport_Reitanlage rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31303520_EN_Sport_Radrennbahn
-xerl:_EN_Sport_Radrennbahn rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31304000_EN_Sport_Kartbahn
-xerl:_EN_Sport_Kartbahn rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31304020_EN_Sport_Rennstrecke
-xerl:_EN_Sport_Rennstrecke rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31305010_EN_Sport_Kletterfelsen
-xerl:_EN_Sport_Kletterfelsen rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31305020_EN_Sport_SeilgartenKlettergarten
-xerl:_EN_Sport_SeilgartenKlettergarten rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31305200_EN_Sport_Tanzschule
-xerl:_EN_Sport_Tanzschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31401000_EN_Baden_Strand
-xerl:_EN_Baden_Strand rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31401060_EN_Baden_Badesee
-xerl:_EN_Baden_Badesee rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/31401200_EN_Baden_Thermalbad
-xerl:_EN_Baden_Thermalbad rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/51201100_EN_Veranstaltungsort_Kongresszentrum
-xerl:_EN_Veranstaltungsort_Kongresszentrum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/51201350_EN_Veranstaltungsort_Festplatz
-xerl:_EN_Veranstaltungsort_Festplatz rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/51201400_EN_Veranstaltungsort_Wahllokal
-xerl:_EN_Veranstaltungsort_Wahllokal rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101000_EN_SchuleAllgemein_Grundschule
-xerl:_EN_SchuleAllgemein_Grundschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101050_EN_SchuleAllgemein_Hauptschule
-xerl:_EN_SchuleAllgemein_Hauptschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101150_EN_SchuleAllgemein_Realschule
-xerl:_EN_SchuleAllgemein_Realschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101160_EN_SchuleAllgemein_Sekundarschule
-xerl:_EN_SchuleAllgemein_Sekundarschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101200_EN_SchuleAllgemein_Gymnasium
-xerl:_EN_SchuleAllgemein_Gymnasium rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101250_EN_SchuleAllgemein_Gesamtschule
-xerl:_EN_SchuleAllgemein_Gesamtschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61101300_EN_SchuleAllgemein_Foerderschule
-xerl:_EN_SchuleAllgemein_Foerderschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61201000_EN_Weiterbildung_Berufsschule
-xerl:_EN_Weiterbildung_Berufsschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61201200_EN_Weiterbildung_Fachschule
-xerl:_EN_Weiterbildung_Fachschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61201300_EN_Weiterbildung_Volkshochschule
-xerl:_EN_Weiterbildung_Volkshochschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61301000_EN_Wissenschaft_Hochschule
-xerl:_EN_Wissenschaft_Hochschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61401050_EN_SchuleSpezial_Musikschule
-xerl:_EN_SchuleSpezial_Musikschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61401300_EN_SchuleSpezial_Sprachschule
-xerl:_EN_SchuleSpezial_Sprachschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61401400_EN_SchuleSpezial_Verkehrsschule
-xerl:_EN_SchuleSpezial_Verkehrsschule rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61501000_EN_Mediathek_Bibliothek
-xerl:_EN_Mediathek_Bibliothek rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/61501200_EN_Mediathek_Archiv
-xerl:_EN_Mediathek_Archiv rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101000_EN_Behoerde_Polizei
-xerl:_EN_Behoerde_Polizei rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101010_EN_Behoerde_Bundespolizei
-xerl:_EN_Behoerde_Bundespolizei rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101020_EN_Behoerde_Wasserschutzpolizei
-xerl:_EN_Behoerde_Wasserschutzpolizei rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101351_EN_Behoerde_Gericht
-xerl:_EN_Behoerde_Gericht rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101352_EN_Behoerde_Gefaengnis
-xerl:_EN_Behoerde_Gefaengnis rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101550_EN_Behoerde_Zollamt
-xerl:_EN_Behoerde_Zollamt rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101650_EN_Behoerde_Botschaft
-xerl:_EN_Behoerde_Botschaft rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101660_EN_Behoerde_Konsulat
-xerl:_EN_Behoerde_Konsulat rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101760_EN_Behoerde_Standesamt
-xerl:_EN_Behoerde_Standesamt rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62101801_EN_Behoerde_Strassenmeisterei
-xerl:_EN_Behoerde_Strassenmeisterei rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62201600_EN_Verband_PolitischePartei
-xerl:_EN_Verband_PolitischePartei rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/62202000_EN_Verband_Verein
-xerl:_EN_Verband_Verein rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63101100_EN_Gesundheit_KrankenhausKlinik
-xerl:_EN_Gesundheit_KrankenhausKlinik rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63101120_EN_Gesundheit_Tagesklinik
-xerl:_EN_Gesundheit_Tagesklinik rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63101200_EN_Gesundheit_Heilpraktiker
-xerl:_EN_Gesundheit_Heilpraktiker rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63101300_EN_Gesundheit_Apotheke
-xerl:_EN_Gesundheit_Apotheke rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63201050_EN_Tiermedizin_Tierklinik
-xerl:_EN_Tiermedizin_Tierklinik rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63201200_EN_Tiermedizin_Tierheim
-xerl:_EN_Tiermedizin_Tierheim rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301000_EN_SozialEinrichtung_Kindergarten
-xerl:_EN_SozialEinrichtung_Kindergarten rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301060_EN_SozialEinrichtung_Babyklappe
-xerl:_EN_SozialEinrichtung_Babyklappe rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301070_EN_SozialEinrichtung_KinderNotinsel
-xerl:_EN_SozialEinrichtung_KinderNotinsel rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301110_EN_SozialEinrichtung_Jugendzentrum
-xerl:_EN_SozialEinrichtung_Jugendzentrum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301150_EN_SozialEinrichtung_Familienzentrum
-xerl:_EN_SozialEinrichtung_Familienzentrum rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301420_EN_SozialEinrichtung_Seniorenbegegnungsstaette
-xerl:_EN_SozialEinrichtung_Seniorenbegegnungsstaette rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301500_EN_SozialEinrichtung_Hospiz
-xerl:_EN_SozialEinrichtung_Hospiz rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/63301820_EN_SozialEinrichtung_Fluechtlingsunterkunft
-xerl:_EN_SozialEinrichtung_Fluechtlingsunterkunft rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/64101130_EN_VerEntsorgungsbetrieb_Klaeranlage
-xerl:_EN_VerEntsorgungsbetrieb_Klaeranlage rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/64101250_EN_VerEntsorgungsbetrieb_Kraftwerk
-xerl:_EN_VerEntsorgungsbetrieb_Kraftwerk rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/64201100_EN_Sammelstelle_Recyclinghof
-xerl:_EN_Sammelstelle_Recyclinghof rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/65101000_EN_Militaer_Kaserne
-xerl:_EN_Militaer_Kaserne rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/65101100_EN_Militaer_MilitaerischesSperrgebiet
-xerl:_EN_Militaer_MilitaerischesSperrgebiet rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/65101200_EN_Militaer_Militaerflugplatz
-xerl:_EN_Militaer_Militaerflugplatz rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/66401100_EN_Flughafen_Regionalflughafen
-xerl:_EN_Flughafen_Regionalflughafen rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/66401200_EN_Flughafen_InternationalerFlughafen
-xerl:_EN_Flughafen_InternationalerFlughafen rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/62101600_EN_Behoerde_Ministerium
+xerl:_EN_Behoerde_Ministerium rdf:type owl:NamedIndividual .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/67101060_EN_Autoverkehr_Tiefgarage
 xerl:_EN_Autoverkehr_Tiefgarage rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/67101300_EN_Autoverkehr_AutobahnraststaetteAutohof
-xerl:_EN_Autoverkehr_AutobahnraststaetteAutohof rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/67101210_EN_Autoverkehr_Autobahnparkplatz
+xerl:_EN_Autoverkehr_Autobahnparkplatz rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/67401050_EN_Wasserverkehr_Sportboothafen
-xerl:_EN_Wasserverkehr_Sportboothafen rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/67101260_EN_Autoverkehr_Behindertenparkplatz
+xerl:_EN_Autoverkehr_Behindertenparkplatz rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/67401110_EN_Wasserverkehr_Slipanlage
-xerl:_EN_Wasserverkehr_Slipanlage rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/67201000_EN_Tankstelle_Tankstelle
+xerl:_EN_Tankstelle_Tankstelle rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/67401200_EN_Wasserverkehr_Bootshaus
-xerl:_EN_Wasserverkehr_Bootshaus rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/67301010_EN_Radverkehr_Fahrradstation
+xerl:_EN_Radverkehr_Fahrradstation rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/67401400_EN_Wasserverkehr_GelbeWelle
-xerl:_EN_Wasserverkehr_GelbeWelle rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/68101000_EN_Rettung_Rettungspunkt
+xerl:_EN_Rettung_Rettungspunkt rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/67401600_EN_Wasserverkehr_Leuchtfeuer
-xerl:_EN_Wasserverkehr_Leuchtfeuer rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/67401610_EN_Wasserverkehr_Leuchttonne
-xerl:_EN_Wasserverkehr_Leuchttonne rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/67401900_EN_Wasserverkehr_Untiefe
-xerl:_EN_Wasserverkehr_Untiefe rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/68101010_EN_Rettung_Rettungsweg
+xerl:_EN_Rettung_Rettungsweg rdf:type owl:NamedIndividual .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/68101120_EN_Rettung_Defibrillator
 xerl:_EN_Rettung_Defibrillator rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/68101310_EN_Rettung_Hydrant
-xerl:_EN_Rettung_Hydrant rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/68101250_EN_Rettung_Bereitstellungsraum
+xerl:_EN_Rettung_Bereitstellungsraum rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/71301100_EN_Logistik_Containerterminal
-xerl:_EN_Logistik_Containerterminal rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/71101000_EN_Gewerbegebiet_Gewerbegebiet
+xerl:_EN_Gewerbegebiet_Gewerbegebiet rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/72201200_EN_GewerbeIndustrie_Baumschule
-xerl:_EN_GewerbeIndustrie_Baumschule rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/71101200_EN_Gewerbegebiet_Industriegebiet
+xerl:_EN_Gewerbegebiet_Industriegebiet rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/72202100_EN_GewerbeIndustrie_Saegewerk
-xerl:_EN_GewerbeIndustrie_Saegewerk rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/71101300_EN_Gewerbegebiet_Mischgebiet
+xerl:_EN_Gewerbegebiet_Mischgebiet rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/72301005_EN_Einzelhandel_Baeckerei
-xerl:_EN_Einzelhandel_Baeckerei rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/71101400_EN_Gewerbegebiet_Sondergebiet
+xerl:_EN_Gewerbegebiet_Sondergebiet rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/72301060_EN_Einzelhandel_Reformhaus
-xerl:_EN_Einzelhandel_Reformhaus rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/72202710_EN_GewerbeIndustrie_Fliesenleger
+xerl:_EN_GewerbeIndustrie_Fliesenleger rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/72301080_EN_Einzelhandel_Kiosk
-xerl:_EN_Einzelhandel_Kiosk rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/72203610_EN_GewerbeIndustrie_Fotolabor
+xerl:_EN_GewerbeIndustrie_Fotolabor rdf:type owl:NamedIndividual .
 
 
-###  http://www.xerleben.de/schema/2.0_1/72301140_EN_Einzelhandel_Kaufhaus
-xerl:_EN_Einzelhandel_Kaufhaus rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/72301220_EN_Einzelhandel_Erotikshop
-xerl:_EN_Einzelhandel_Erotikshop rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/72301300_EN_Einzelhandel_Buchhandlung
-xerl:_EN_Einzelhandel_Buchhandlung rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/72301540_EN_Einzelhandel_Zoohandlung
-xerl:_EN_Einzelhandel_Zoohandlung rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/72301700_EN_Einzelhandel_Autohaus
-xerl:_EN_Einzelhandel_Autohaus rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/72401810_EN_Dienstleistung_Wettbuero
-xerl:_EN_Dienstleistung_Wettbuero rdf:type owl:NamedIndividual .
-
-
-###  http://www.xerleben.de/schema/2.0_1/72402300_EN_Dienstleistung_Optiker
-xerl:_EN_Dienstleistung_Optiker rdf:type owl:NamedIndividual .
+###  http://www.xerleben.de/schema/2.0_1/72203650_EN_GewerbeIndustrie_Glaserei
+xerl:_EN_GewerbeIndustrie_Glaserei rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
