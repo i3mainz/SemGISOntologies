@@ -1459,8 +1459,6 @@ aaa6:AX_Fliessgewaesser rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Flugverkehr
 aaa6:AX_Flugverkehr rdf:type owl:ObjectProperty ;
-                    skos:definition "'Flugverkehr' umfasst die baulich geprägte Fläche und die mit ihr in Zusammenhang stehende Freifläche, die ausschließlich oder vorwiegend dem Flugverkehr dient."@de ;
-                    aaa6:kennung "42015"^^xsd:integer ;
                     rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1513,8 +1511,6 @@ aaa6:AX_Fortfuehrungsnummer rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Friedhof
 aaa6:AX_Friedhof rdf:type owl:ObjectProperty ;
-                skos:definition "'Friedhof' ist eine Landfläche, die zur Bestattung dient oder gedient hat, sofern die Zuordnung zu Grünanlage nicht zutreffender ist. Waldbestattungsflächen werden der Nutzungsart Wald zugeordnet."@de ;
-                aaa6:kennung "41009"^^xsd:integer ;
                  rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1588,8 +1584,6 @@ aaa6:AX_Gebietsgrenze rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gehoelz
 aaa6:AX_Gehoelz rdf:type owl:ObjectProperty ;
-                skos:definition "'Gehölz' ist eine Fläche, die mit einzelnen Bäumen, Baumgruppen, Büschen, Hecken und Sträuchern bestockt ist."@de ;
-                aaa6:kennung "43003"^^xsd:integer ;
                 rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1708,22 +1702,16 @@ aaa6:AX_Hafen rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Hafenbecken
 aaa6:AX_Hafenbecken rdf:type owl:ObjectProperty ;
-                    skos:definition "'Hafenbecken' ist ein natürlicher oder künstlich angelegter oder abgetrennter Teil eines Gewässers, in dem Schiffe be- und entladen werden."@de ;
-                    aaa6:kennung "44005"^^xsd:integer ;
                     rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Halde
 aaa6:AX_Halde rdf:type owl:ObjectProperty ;
-              skos:definition "'Halde' ist eine Fläche, auf der Material langfristig gelagert wird und beschreibt die auch im Relief zu modellierende tatsächliche Aufschüttung. Dauerhaft anders genutzte Halden werden als Objekte entsprechend der tatsächlichen Nutzung erfasst."@de ;
-              aaa6:kennung "41003"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Heide
 aaa6:AX_Heide rdf:type owl:ObjectProperty ;
-              skos:definition "'Heide' ist eine Fläche mit typischen Sträuchern, Gräsern und geringwertigem Baumbestand."@de ;
-              aaa6:kennung "43004"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1769,8 +1757,6 @@ aaa6:AX_Hoehleneingang rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_IndustrieUndGewerbeflaeche
 aaa6:AX_IndustrieUndGewerbeflaeche rdf:type owl:ObjectProperty ;
-                                    skos:definition "'Industrie- und Gewerbefläche' ist eine Fläche, auf der sich Industrie-, Gewerbe-, Handels- und Dienstleistungsunternehmen sowie deren Betriebsflächen befinden."@de ;
-                                    aaa6:kennung "41002"^^xsd:integer ;
                                    rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2266,8 +2252,6 @@ aaa6:AX_Landschaft rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landwirtschaft
 aaa6:AX_Landwirtschaft rdf:type owl:ObjectProperty ;
-                        skos:definition "'Landwirtschaft' ist eine Fläche für den Anbau von Feldfrüchten sowie eine Fläche, die beweidet und gemäht werden kann, einschließlich der mit besonderen Pflanzen angebauten Fläche (einschließlich landwirtschaftlichen Brachlands)."@de ;
-                        aaa6:kennung "43001"^^xsd:integer ;
                        rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2283,8 +2267,6 @@ aaa6:AX_MarkanterGelaendepunkt rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Meer
 aaa6:AX_Meer rdf:type owl:ObjectProperty ;
-            skos:definition "'Meer' ist die das Festland umgebende Wasserfläche."@de ;
-            aaa6:kennung "44007"^^xsd:integer ;
              rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2297,9 +2279,6 @@ aaa6:AX_Metadaten_Benutzungsergebnis rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Moor
 aaa6:AX_Moor rdf:type owl:ObjectProperty ;
-            skos:definition "'Moor' ist eine unkultivierte Fläche, deren obere Schicht aus vertorften oder zersetzten Pflanzenresten besteht.
-Torfstich bzw. Torfabbaufläche wird der Objektart 41005 'Tagebau, Grube, Steinbruch' mit AGT 'Torf' zugeordnet."@de ;
-            aaa6:kennung "43005"^^xsd:integer ;
              rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2404,8 +2383,6 @@ aaa6:AX_Phasenzentrumsvariation_Referenzstationspunkt rdf:type owl:ObjectPropert
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz
 aaa6:AX_Platz rdf:type owl:ObjectProperty ;
-              skos:definition "'Platz' ist eine Verkehrsfläche in Ortschaften oder eine ebene, befestigte oder unbefestigte Fläche, die bestimmten Zwecken dient (z. B. für Verkehr, Parkplätze, Märkte, Festveranstaltungen)."@de ;
-              aaa6:kennung "42009"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2559,8 +2536,6 @@ aaa6:AX_SchifffahrtslinieFaehrverkehr rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schiffsverkehr
 aaa6:AX_Schiffsverkehr rdf:type owl:ObjectProperty ;
-                       skos:definition "'Schiffsverkehr' umfasst die baulich geprägte Fläche und die mit ihr in Zusammenhang stehende Freifläche, die ausschließlich oder vorwiegend dem Schiffsverkehr dient."@de ;
-                       aaa6:kennung "42016"^^xsd:integer ;
                        rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2660,8 +2635,6 @@ aaa6:AX_SportFreizeitUndErholungsflaeche rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_StehendesGewaesser
 aaa6:AX_StehendesGewaesser rdf:type owl:ObjectProperty ;
-                            skos:definition "'Stehendes Gewässer' ist eine natürliche oder künstliche mit Wasser gefüllte, allseitig umschlossene Hohlform der Landoberfläche ohne unmittelbaren Zusammenhang mit 'Meer'."@de ;
-                            aaa6:kennung "44006"^^xsd:integer ;
                            rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2677,8 +2650,6 @@ aaa6:AX_Strassenachse rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strassenverkehr
 aaa6:AX_Strassenverkehr rdf:type owl:ObjectProperty ;
-                        skos:definition "'Straßenverkehr' umfasst alle für die bauliche Anlage Straße erforderlichen Flächen und die dem Straßenverkehr dienenden bebauten und unbebauten Flächen."@de ;
-                        aaa6:kennung "42001"^^xsd:integer ;
                         rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2694,16 +2665,11 @@ aaa6:AX_StrukturiertErfassteGelaendepunkte rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Sumpf
 aaa6:AX_Sumpf rdf:type owl:ObjectProperty ;
-              skos:definition "'Sumpf' ist ein wassergesättigtes, zeitweise unter Wasser stehendes Gelände.
-Nach Regenfällen kurzzeitig nasse Stellen im Boden werden nicht als 'Sumpf' erfasst."@de ;
-              aaa6:kennung "43006"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_TagebauGrubeSteinbruch
 aaa6:AX_TagebauGrubeSteinbruch rdf:type owl:ObjectProperty ;
-                                skos:definition "'Tagebau, Grube, Steinbruch' ist eine Fläche, auf der oberirdisch Bodenmaterial abgebaut wird. Rekultivierte Tagebaue, Gruben, Steinbrüche werden als Objekte entsprechend der vorhandenen Nutzung erfasst."@de;
-                                aaa6:kennung "41005"^^xsd:integer ;
                                rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2746,8 +2712,6 @@ aaa6:AX_Turm rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_UnlandVegetationsloseFlaeche
 aaa6:AX_UnlandVegetationsloseFlaeche rdf:type owl:ObjectProperty ;
-                                    skos:definition "'Unland/Vegetationslose Fläche' ist eine Fläche, die nicht dauerhaft landwirtschaftlich genutzt wird, wie z. B. Fels-, Sand- oder Eisflächen, Uferstreifen längs von Gewässern und Sukzessionsflächen."@de ;
-                                    aaa6:kennung "43007"^^xsd:integer ;
                                      rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2807,8 +2771,6 @@ aaa6:AX_VorratsbehaelterSpeicherbauwerk rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wald
 aaa6:AX_Wald rdf:type owl:ObjectProperty ;
-             skos:definition "'Wald' ist eine Fläche, die mit Forstpflanzen (Waldbäume und Waldsträucher) bestockt ist."@de ;
-             aaa6:kennung "43002"^^xsd:integer ;
              rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2824,8 +2786,6 @@ aaa6:AX_Wasserspiegelhoehe rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Weg
 aaa6:AX_Weg rdf:type owl:ObjectProperty ;
-            skos:definition "'Weg' umfasst alle Flächen, die zum Befahren und/oder Begehen vorgesehen sind. Zur Wegfläche gehören auch Seitenstreifen und Gräben zur Wegentwässerung."@de ;
-            aaa6:kennung "42006"^^xsd:integer ;
             rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2841,8 +2801,6 @@ aaa6:AX_WirtschaftlicheEinheit rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wohnbauflaeche
 aaa6:AX_Wohnbauflaeche rdf:type owl:ObjectProperty ;
-                       skos:definition "'Wohnbaufläche' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freiflächen (z.B. Vorgärten, Ziergärten, Zufahrten, Stellplätze und Hofraumflächen), die ausschließlich oder vorwiegend dem Wohnen dient."@de ;
-                       aaa6:kennung "41001"^^xsd:integer ;
                        rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -5982,7 +5940,11 @@ aaa6:gehoertZu rdf:type owl:ObjectProperty ;
                rdfs:range aaa6:AX_Dienststelle_Schluessel ,
                           aaa6:AX_Dienststelle_SchluesselProperty ,
                           gml:Reference ;
-               rdfs:label "gehoertZu"@de .
+               aaa6:kennung "(INV)11001-12001"^^xsd:string ;
+               rdfs:label "gehoertZu"@de ;
+               skos:definition """Eine 'Lagebezeichnung ohne Hausnummer' gehört zu einem oder mehreren 'Flurstücken'.
+
+Es handelt sich um die inverse Relationsrichtung."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gehoertZuBauwerk_AX_Abschnitt
@@ -6390,6 +6352,7 @@ aaa6:gemeinde rdf:type owl:ObjectProperty ;
                           aaa6:AX_VerschluesselteLagebezeichnung ;
               rdfs:range aaa6:AX_Gemeindekennzeichen ,
                          xsd:string ;
+              aaa6:kennung "GMD"^^xsd:string ;
               rdfs:label "gemeinde"@de .
 
 
@@ -6779,7 +6742,10 @@ aaa6:hatAuch rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf aaa6:AAA6 ;
              rdfs:domain aaa6:AX_GeoreferenzierteGebaeudeadresse ;
              rdfs:range gml:Reference ;
-             rdfs:label "hatAuch"@de .
+             aaa6:kennung "12006-12002"^^xsd:string ;
+             rdfs:label "hatAuch"@de ;
+             skos:definition """Die inverse Relation wird optional belegt, damit keine Implementierung unmittelbar
+zur Umstellung auf das neue Verfahren zur Ableitung der Hauskoordinate gezwungen wird."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hatDirektUnten
@@ -6984,7 +6950,9 @@ aaa6:horizontfreiheit rdf:type owl:ObjectProperty ;
                                   aaa6:AX_Netzpunkt ;
                       rdfs:range aaa6:AX_Horizontfreiheit_Grenzpunkt ,
                                  aaa6:AX_Horizontfreiheit_Netzpunkt ;
-                      rdfs:label "horizontfreiheit"@de .
+                      aaa6:kennung "HOZ"^^xsd:string ;
+                      rdfs:label "horizontfreiheit"@de ;
+                      skos:definition "'Horizontfreiheit' beschreibt die Abschattung bei Satellitenmessverfahren."@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#http
@@ -7728,7 +7696,10 @@ aaa6:koordinatenstatus rdf:type owl:ObjectProperty ;
                                    aaa6:AX_PunktortAU ,
                                    aaa6:AX_PunktortTA ;
                        rdfs:range aaa6:AX_Koordinatenstatus_Punktort ;
-                       rdfs:label "koordinatenstatus"@de .
+                       aaa6:kennung "KST"^^xsd:string ;
+                       rdfs:label "koordinatenstatus"@de ;
+                       skos:definition """\"Koordinatenstatus\" gibt an, ob die Koordinaten bzw. die Höhe amtlich sind
+oder einen anderen Status besitzen."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#kopf
@@ -7770,6 +7741,7 @@ aaa6:kreis rdf:type owl:ObjectProperty ;
                        aaa6:AX_Verwaltungsgemeinschaft_Schluessel ;
            rdfs:range aaa6:AX_Kreis_Schluessel ,
                       xsd:string ;
+           aaa6:kennung "KRS"^^xsd:string ;
            rdfs:label "kreis"@de .
 
 
@@ -8743,7 +8715,11 @@ aaa6:postalischeAdresse rdf:type owl:ObjectProperty ;
                         rdfs:domain aaa6:AX_GeoreferenzierteGebaeudeadresse ;
                         rdfs:range aaa6:AX_Post ,
                                    aaa6:AX_PostProperty ;
-                        rdfs:label "postalischeAdresse"@de .
+                        aaa6:kennung "POA"^^xsd:string ;
+                        rdfs:label "postalischeAdresse"@de ;
+                        skos:definition """'Postalische Adresse' enthält Angaben, die entweder direkt geführt oder extern
+ergänzt werden. Das Endprodukt muss bei Abgabe an den Kunden diese Informationen
+enthalten."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#postfach
@@ -9100,7 +9076,9 @@ aaa6:regierungsbezirk rdf:type owl:ObjectProperty ;
                                   aaa6:AX_Verwaltungsgemeinschaft_Schluessel ;
                       rdfs:range aaa6:AX_Regierungsbezirk_Schluessel ,
                                  xsd:string ;
-                      rdfs:label "regierungsbezirk"@de .
+                      aaa6:kennung "RBZ"^^xsd:string ;
+                      rdfs:label "regierungsbezirk"@de ;
+                      skos:definition "Belegt mit einer Stelle. Falls Regierungsbezirk nicht vorkommt, wird Füllzeichen '0' verwendet."@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#relativeHoehe
@@ -9113,7 +9091,11 @@ aaa6:relativeHoehe rdf:type owl:ObjectProperty ;
                                aaa6:AX_Netzpunkt ;
                    rdfs:range gml:Length ,
                               xsd:string ;
-                   rdfs:label "relativeHoehe"@de .
+                   aaa6:kennung "RHO"^^xsd:string ;
+                   rdfs:label "relativeHoehe"@de ;
+                   skos:definition """'Relative Höhe' ist die Angabe der Höhe [m] der 'Abmarkung (Marke)' oberhalb
+der Erdoberfläche oder der Tiefe [m] unterhalb der Erdoberfläche.
+ (Vorzeichenregel: oberhalb der Erdoberfläche '+', unterhalb der Erdoberfläche '-'.)"""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#reserviert
@@ -9378,7 +9360,27 @@ aaa6:sonstigeEigenschaften rdf:type owl:ObjectProperty ;
                                        aaa6:AX_Person ;
                            rdfs:range aaa6:AX_SonstigeEigenschaften_Flurstueck ,
                                       xsd:string ;
-                           rdfs:label "sonstigeEigenschaften"@de .
+                           aaa6:kennung "SES"^^xsd:string ;
+                           rdfs:label "sonstigeEigenschaften"@de ;
+                           skos:definition """'Sonstige Eigenschaften' sind flurstücksbezogene Informationen, die in dem Datentyp AX_SonstigeEigenschaften enthalten sind. Die Attributart setzt sich zusammen aus:
+
+1. Kennung, Schlüssel gemäß Festlegung im ALB
+
+2. Fläche des Abschnitts [qm]
+
+3. Angaben zum Abschnitt/Flurstück (unstrukturiert)
+
+4. Angaben zum Abschnitt - Stelle
+
+5. Angaben zum Abschnitt - Nummer, Aktenzeichen
+
+6. Angaben zum Abschnitt - Bemerkung,
+
+Die Angaben zum Abschnitt/Flurstück sind unstrukturiert (3. Stelle) oder
+
+strukturiert (4. - 6. Stelle).
+
+Die Attributart kommt vor wenn sie übergangsweise im Rahmen der Migration aus bestehenden Verfahrenslösungen benötigt wird oder wenn die Angaben nicht als eigenständige raumbezogene Elementarobjekte aus dem Objektbereich 'Gesetzliche Festlegungen, Zuständigkeiten und Gebietseinheiten' geführt werden."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#sonstigesModell
@@ -9656,7 +9658,12 @@ aaa6:ueberschriftImFortfuehrungsnachweis rdf:type owl:ObjectProperty ;
                                                      aaa6:AX_K_Fortfuehrungsfall_FM ,
                                                      aaa6:AX_K_Fortfuehrungsfall_FMJ ;
                                          rdfs:range gml:Code ;
-                                         rdfs:label "ueberschriftImFortfuehrungsnachweis"@de .
+                                         aaa6:kennung "UIV"^^xsd:string ;
+                                         rdfs:label "ueberschriftImFortfuehrungsnachweis"@de ;
+                                         skos:definition """'Überschrift im Fortführungsnachweis' gibt für den Fortführungsnachweis und
+die Mitteilungsverfahren den Grund der unter einem Fortführungsfall beschriebenen
+Veränderung bzw. Fortführung gemäß dem Katalog der Fortführungsanlässe
+an."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#uebersichtsgrafik
@@ -9901,7 +9908,10 @@ aaa6:vermarkung_Marke rdf:type owl:ObjectProperty ;
                                   aaa6:AX_Netzpunkt ;
                       rdfs:range aaa6:AX_Marke ,
                                  xsd:string ;
-                      rdfs:label "vermarkung_Marke"@de .
+                      aaa6:kennung "VMA"^^xsd:string ;
+                      rdfs:label "vermarkung_Marke"@de ;
+                      skos:definition """Vermarkung (Marke)' ist die Marke zur dauerhaften Kennzeichnung von Vermessungspunkten
+im Boden und an baulichen Anlagen."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vermarkungsart
@@ -9993,7 +10003,10 @@ aaa6:verweistAuf rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_FGraphik ,
                             aaa6:AX_FGraphikProperty ,
                             gml:Reference ;
-                 rdfs:label "verweistAuf"@de .
+                 aaa6:kennung "VWA"^^xsd:string ;
+                 rdfs:label "verweistAuf"@de ;
+                 skos:definition """'Verweist auf' verweist auf einen Datentyp 'F-Graphik', der eine URI zu einer
+Karte enthält, die die Veränderung darstellt (Gegenüberstellung alt-neu)."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#verwendeteInstanzenthemen
@@ -10661,7 +10674,8 @@ aaa6:ackerzahlOderGruenlandzahl rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#adressat
-aaa6:adressat rdf:type owl:DatatypeProperty .
+aaa6:adressat rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#adressierungszusatz
@@ -10750,7 +10764,8 @@ aaa6:art rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerAusgabe
-aaa6:artDerAusgabe rdf:type owl:DatatypeProperty .
+aaa6:artDerAusgabe rdf:type owl:DatatypeProperty ;
+                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerVertretung
@@ -10946,7 +10961,8 @@ aaa6:defaultSRS rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dienststelle
-aaa6:dienststelle rdf:type owl:DatatypeProperty .
+aaa6:dienststelle rdf:type owl:DatatypeProperty ;
+                  rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#direkt
@@ -11098,7 +11114,8 @@ aaa6:geburtsname rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsnummer
-aaa6:gemarkungsnummer rdf:type owl:DatatypeProperty .
+aaa6:gemarkungsnummer rdf:type owl:DatatypeProperty ;
+                      rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsteilFlur
@@ -11198,11 +11215,13 @@ aaa6:lage rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#lagezuverlaessigkeit
-aaa6:lagezuverlaessigkeit rdf:type owl:DatatypeProperty .
+aaa6:lagezuverlaessigkeit rdf:type owl:DatatypeProperty ;
+                          rdfs:range xsd:boolean .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummer
-aaa6:laufendeNummer rdf:type owl:DatatypeProperty .
+aaa6:laufendeNummer rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummerDerBuchungsstelle
@@ -11274,7 +11293,8 @@ aaa6:nationalstaat rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nenner
-aaa6:nenner rdf:type owl:DatatypeProperty .
+aaa6:nenner rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nichtMehrAktuelleObjekte
@@ -11566,7 +11586,8 @@ aaa6:wohnortOderSitz rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zaehler
-aaa6:zaehler rdf:type owl:DatatypeProperty .
+aaa6:zaehler rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zahlungsweise
@@ -15139,8 +15160,6 @@ aaa6:AX_Bahnstrecke rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bahnverkehr
 aaa6:AX_Bahnverkehr rdf:type owl:Class ;
-                    skos:definition "'Bahnverkehr' umfasst alle für den Schienenverkehr erforderlichen Flächen und die dem Schienenverkehr dienenden bebauten und unbebauten Flächen."@de ;
-                    aaa6:kennung "42010"^^xsd:integer ;
                     rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:bahnkategorie ;
@@ -16129,7 +16148,6 @@ aaa6:AX_Benutzer rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Benutzergruppe
 aaa6:AX_Benutzergruppe rdf:type owl:Class ;
-                        aaa6:kennung "81002"^^xsd:integer ;
                        rdfs:subClassOf aaa6:AA_Benutzergruppe ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:bestehtAus ;
@@ -16360,8 +16378,6 @@ aaa6:AX_BereichZeitlichProperty rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bergbaubetrieb
 aaa6:AX_Bergbaubetrieb rdf:type owl:Class ;
-                        skos:definition "'Bergbaubetrieb' ist eine Fläche, die für die Förderung des Abbaugutes unter Tage genutzt wird."@de ;
-                        aaa6:kennung "41004"^^xsd:integer ;
                        rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:abbaugut ;
@@ -19690,8 +19706,6 @@ aaa6:AX_Firstlinie rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FlaecheBesondererFunktionalerPraegung
 aaa6:AX_FlaecheBesondererFunktionalerPraegung rdf:type owl:Class ;
-                                              skos:definition "'Fläche besonderer funktionaler Prägung' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche, auf denen vorwiegend Gebäude und/oder Anlagen zur Erfüllung öffentlicher Zwecke oder historische Anlagen vorhanden sind."@de ;
-                                              aaa6:kennung "41007"^^xsd:integer ;
                                               rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty aaa6:artDerBebauung ;
@@ -19729,8 +19743,6 @@ aaa6:AX_FlaecheBesondererFunktionalerPraegung rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FlaecheGemischterNutzung
 aaa6:AX_FlaecheGemischterNutzung rdf:type owl:Class ;
-                                 skos:definition "'Fläche gemischter Nutzung' ist eine bebaute Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), auf der keine Art der baulichen Nutzung vorherrscht. Solche Flächen sind insbesondere ländlich-dörflich geprägte Flächen mit land- und forstwirtschaftlichen Betrieben, Wohngebäuden u.a. sowie städtisch geprägte Kerngebiete mit Handelsbetrieben und zentralen Einrichtungen für die Wirtschaft und die Verwaltung."@de ;
-                                 aaa6:kennung "41006"^^xsd:integer ;
                                  rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                                  [ rdf:type owl:Restriction ;
                                                    owl:onProperty aaa6:artDerBebauung ;
@@ -19773,11 +19785,6 @@ aaa6:AX_FlaecheZurZeitUnbestimmbar rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser
 aaa6:AX_Fliessgewaesser rdf:type owl:Class ;
-                        skos:definition "'Fließgewässer' ist ein geometrisch begrenztes, auf dem Festland fließendes Gewässer, das die Wassermengen sammelt, die als Niederschläge auf die Erdoberfläche fallen oder in Quellen austreten, und in ein anderes Gewässer, ein Meer oder in einen See transportiert oder
-ein in einem System von natürlichen oder künstlichen Bodenvertiefungen verlaufendes Wasser, das zur Be- und Entwässerung an- oder abgeleitet wird
-oder
-ein geometrisch begrenzter, für die Schifffahrt angelegter künstlicher Wasserlauf, der in einem oder in mehreren Abschnitten die jeweils gleiche Höhe des Wasserspiegels besitzt."@de ;
-                        aaa6:kennung "44001"^^xsd:integer ;
                         rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty aaa6:funktion ;
@@ -26981,8 +26988,6 @@ aaa6:AX_Ortslage rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Person
 aaa6:AX_Person rdf:type owl:Class ;
-                skos:definition "'Person' ist eine natürliche oder juristische Person und kann z.B. in den Rollen Eigentümer, Erwerber, Verwalter oder Vertreter in Katasterangelegenheiten geführt werden."@de ; 
-                aaa6:kennung "21001"^^xsd:integer ;
                rdfs:subClassOf aaa6:AA_NREO ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty aaa6:AX_DQOhneDatenerhebung ;
@@ -29813,8 +29818,6 @@ aaa6:AX_Sperrergebnis rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_SportFreizeitUndErholungsflaeche
 aaa6:AX_SportFreizeitUndErholungsflaeche rdf:type owl:Class ;
-                                         skos:definition "'Sport-, Freizeit- und Erholungsfläche' ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient."@de ;
-                                         aaa6:kennung "41008"^^xsd:integer ;
                                          rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty aaa6:bezeichnung ;
@@ -30519,14 +30522,6 @@ aaa6:AX_Tagesabschnitt rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_TatsaechlicheNutzung
 aaa6:AX_TatsaechlicheNutzung rdf:type owl:Class ;
-                            aaa6:kennung "40001"^^xsd:integer ;
-                            skos:definition "Die abstrakte Oberklasse für alle tatsächlichen Nutzungen.
-
-Objekte in der Grundfläche besitzen alle dasselbe Thema (TS_Theme 'Tatsächliche Nutzung (Grundfläche)'). Alle anderen AX_TatsaechlicheNutzung-Objekte liegen in einem anderen Thema. I.d.R. wird hierbei jedem überlagernden Objekt ein eigenes Thema zugeordnet.
-
-Unterführungsreferenzen regeln den Schichtenaufbau der verschiedenen Nutzungsebenen. Unterführungsreferenzen bestehen stets zwischen einer Nutzungsfläche und einem Bauwerk (z.B. Straße über Brücke).
-
-Es handelt sich um eine abstrakte Objektart."@de ;
                              rdfs:subClassOf aaa6:TA_SurfaceComponent ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:AX_DQMitDatenerhebung ;
@@ -66909,6 +66904,10 @@ Das Aufnahmepunktfeld ist eine Verdichtungsstufe des Lagefestpunktfeldes - Trigo
 aaa6:AX_Auszug aaa6:kennung "15005"@de .
 
 
+aaa6:AX_Bahnverkehr aaa6:kennung 42010 ;
+                    skos:definition "'Bahnverkehr' umfasst alle für den Schienenverkehr erforderlichen Flächen und die dem Schienenverkehr dienenden bebauten und unbebauten Flächen."@de .
+
+
 aaa6:AX_Bahnverkehrsanlage skos:definition """'Bahnverkehrsanlage' ist eine Fläche mit Einrichtungen zur Abwicklung des Personen- und/oder Güterverkehrs bei Schienenbahnen oder Schwebebahnen. Dazu gehören das Empfangsgebäude, sonstige räumlich angegliederte Verwaltungs- und Lagergebäude, bahntechnische Einrichtungen, Freiflächen und Gleisanlagen.
 
 Die 'Bahnverkehrsanlage' der Eisenbahnen beginnt oder endet im Allgemeinen am Einfahrtssignal oder an der Einfahrtsweiche."""@de .
@@ -66937,7 +66936,8 @@ aaa6:AX_Benutzer skos:definition "In der Objektart 'Benutzer' werden allgemeine 
 
 aaa6:AX_Benutzergruppe skos:definition """In der 'Benutzergruppe' werden Informationen über die Benutzer der Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken sowie Standardparameter für die Benutzergruppe vermerken.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                       aaa6:kennung 81002 .
 
 
 aaa6:AX_BenutzergruppeMitZugriffskontrolle skos:definition "In der Objektart 'Benutzergruppe mit Zugriffskontrolle' werden Informationen über die Benutzer der ALKIS-Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken."@de .
@@ -66947,6 +66947,10 @@ aaa6:AX_BenutzergruppeNBA skos:definition "In der Objektart 'Benutzergruppe (NBA
 
 
 aaa6:AX_BereichZeitlich skos:definition "'Bereich - zeitlich' bezeichnet den Zeitraum für die Abgabe von Änderungsinformationen und Bestandsdaten."@de .
+
+
+aaa6:AX_Bergbaubetrieb skos:definition "'Bergbaubetrieb' ist eine Fläche, die für die Förderung des Abbaugutes unter Tage genutzt wird."@de ;
+                       aaa6:kennung 41004 .
 
 
 aaa6:AX_BesondereFlurstuecksgrenze skos:definition "'Besondere Flurstücksgrenze' ist ein Teil der Grenzlinie eines Flurstücks, der von genau zwei benachbarten Grenzpunkten begrenzt wird und für den besondere Informationen vorliegen."@de .
@@ -67034,6 +67038,25 @@ aaa6:AX_FOLGEVA skos:definition "Der komplexe Datentyp 'FOLGEVA' enthält Parame
 aaa6:AX_FelsenFelsblockFelsnadel skos:definition "'Felsen, Felsblock, Felsnadel' ist eine aufragende Gesteinsmasse oder ein einzelner großer Stein."@de .
 
 
+aaa6:AX_FlaecheBesondererFunktionalerPraegung skos:definition "'Fläche besonderer funktionaler Prägung' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche, auf denen vorwiegend Gebäude und/oder Anlagen zur Erfüllung öffentlicher Zwecke oder historische Anlagen vorhanden sind."@de ;
+                                              aaa6:kennung 41007 .
+
+
+aaa6:AX_FlaecheGemischterNutzung aaa6:kennung 41006 ;
+                                 skos:definition "'Fläche gemischter Nutzung' ist eine bebaute Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), auf der keine Art der baulichen Nutzung vorherrscht. Solche Flächen sind insbesondere ländlich-dörflich geprägte Flächen mit land- und forstwirtschaftlichen Betrieben, Wohngebäuden u.a. sowie städtisch geprägte Kerngebiete mit Handelsbetrieben und zentralen Einrichtungen für die Wirtschaft und die Verwaltung."@de .
+
+
+aaa6:AX_Fliessgewaesser aaa6:kennung 44001 ;
+                        skos:definition """'Fließgewässer' ist ein geometrisch begrenztes, auf dem Festland fließendes Gewässer, das die Wassermengen sammelt, die als Niederschläge auf die Erdoberfläche fallen oder in Quellen austreten, und in ein anderes Gewässer, ein Meer oder in einen See transportiert oder
+ein in einem System von natürlichen oder künstlichen Bodenvertiefungen verlaufendes Wasser, das zur Be- und Entwässerung an- oder abgeleitet wird
+oder
+ein geometrisch begrenzter, für die Schifffahrt angelegter künstlicher Wasserlauf, der in einem oder in mehreren Abschnitten die jeweils gleiche Höhe des Wasserspiegels besitzt."""@de .
+
+
+aaa6:AX_Flugverkehr skos:definition "'Flugverkehr' umfasst die baulich geprägte Fläche und die mit ihr in Zusammenhang stehende Freifläche, die ausschließlich oder vorwiegend dem Flugverkehr dient."@de ;
+                    aaa6:kennung 42015 .
+
+
 aaa6:AX_Flugverkehrsanlage skos:definition "'Flugverkehrsanlage' ist eine Fläche, auf der Luftfahrzeuge bewegt oder abgestellt werden."@de .
 
 
@@ -67057,6 +67080,10 @@ aaa6:AX_FortfuehrungsnachweisDeckblatt aaa6:kennung "15001"@de ;
 aaa6:AX_Fortfuehrungsnummer skos:definition "'AX_Fortführungsnummer' enthält die Bestandteile zur Ableitung der Nummer des Fortführungsnachweises."@de .
 
 
+aaa6:AX_Friedhof skos:definition "'Friedhof' ist eine Landfläche, die zur Bestattung dient oder gedient hat, sofern die Zuordnung zu Grünanlage nicht zutreffender ist. Waldbestattungsflächen werden der Nutzungsart Wald zugeordnet."@de ;
+                 aaa6:kennung 41009 .
+
+
 aaa6:AX_Gebaeudeausgestaltung skos:definition "'Gebäudeausgestaltung' dient zur Speicherung von Gebäudeausgestaltungslinien, wenn eine Objektbildung im Zuge der Migration nicht möglich ist."@de .
 
 
@@ -67072,6 +67099,10 @@ aaa6:AX_Gebiet_Regierungsbezirk skos:definition "'Regierungsbezirk' enthält all
 
 
 aaa6:AX_Gebiet_Verwaltungsgemeinschaft skos:definition "'Verwaltungsgemeinschaft' umfasst das Gebiet der zur Verwaltungsgemeinschaft gehörenden Verwaltungseinheiten."@de .
+
+
+aaa6:AX_Gehoelz skos:definition "'Gehölz' ist eine Fläche, die mit einzelnen Bäumen, Baumgruppen, Büschen, Hecken und Sträuchern bestockt ist."@de ;
+                aaa6:kennung 43003 .
 
 
 aaa6:AX_Gemarkung skos:definition "\"Gemarkung\" ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden."@de .
@@ -67131,6 +67162,18 @@ aaa6:AX_Grenzpunkt skos:definition "'Grenzpunkt' ist ein den Grenzverlauf bestim
 aaa6:AX_Hafen skos:definition "Der ufernahe Bereich eines Gewässers, der so ausgebaut ist, dass Schiffe zum Be- und Entladen dort festmachen können und der gleichzeitig Schiffen Schutz bietet. Zum Hafen gehören neben den Wasserflächen der Hafenbecken auch die Flächen auf dem festen Land, die von den Be- und Entladeeinrichtungen, Lagergebäuden, Werften u.dgl. in Anspruch genommen werden."@de .
 
 
+aaa6:AX_Hafenbecken aaa6:kennung 44005 ;
+                    skos:definition "'Hafenbecken' ist ein natürlicher oder künstlich angelegter oder abgetrennter Teil eines Gewässers, in dem Schiffe be- und entladen werden."@de .
+
+
+aaa6:AX_Halde aaa6:kennung 41003 ;
+              skos:definition "'Halde' ist eine Fläche, auf der Material langfristig gelagert wird und beschreibt die auch im Relief zu modellierende tatsächliche Aufschüttung. Dauerhaft anders genutzte Halden werden als Objekte entsprechend der tatsächlichen Nutzung erfasst."@de .
+
+
+aaa6:AX_Heide aaa6:kennung 43004 ;
+              skos:definition "'Heide' ist eine Fläche mit typischen Sträuchern, Gräsern und geringwertigem Baumbestand."@de .
+
+
 aaa6:AX_HeilquelleGasquelle skos:definition "'Heilquelle, Gasquelle' ist eine natürliche, örtlich begrenzte Austrittsstelle von Heilwasser oder Gas."@de .
 
 
@@ -67159,6 +67202,10 @@ aaa6:AX_Hoehenlinie skos:definition "'Höhenlinie' ist die Schnittlinie einer Ob
 aaa6:AX_Hoehleneingang skos:definition "'Höhleneingang' ist die Öffnung eines unterirdischen Hohlraumes an der Erdoberfläche."@de .
 
 
+aaa6:AX_IndustrieUndGewerbeflaeche skos:definition "'Industrie- und Gewerbefläche' ist eine Fläche, auf der sich Industrie-, Gewerbe-, Handels- und Dienstleistungsunternehmen sowie deren Betriebsflächen befinden."@de ;
+                                   aaa6:kennung 41002 .
+
+
 aaa6:AX_Insel skos:definition "'Insel' ist ein von Wasser umgebener Teil der Erdoberfläche."@de .
 
 
@@ -67184,7 +67231,8 @@ aaa6:AX_KleinraeumigerLandschaftsteil skos:definition "'Kleinräumiger Landschaf
 aaa6:AX_KommunalesGebiet skos:definition "'Kommunales Gebiet' ist ein Teil der Erdoberfläche, der von einer festgelegten Grenzlinie umschlossen ist und den politischen Einflussbereich einer Kommune repräsentiert (z.B. Stadt-, Landgemeinde, gemeindefreies Gebiet)."@de .
 
 
-aaa6:AX_KreisRegion skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ; aaa6:kennung "73004"^^xsd:integer .
+aaa6:AX_KreisRegion skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ;
+                    aaa6:kennung 73004 .
 
 
 aaa6:AX_Kreis_Schluessel skos:definition "Amtliche Verschlüsselung des Kreises."@de .
@@ -67229,7 +67277,20 @@ aaa6:AX_Landeswappen skos:definition "Die Externe Objektart \"Landeswappen\" ent
 aaa6:AX_Landschaft skos:definition "'Landschaft' ist hinsichtlich des äußeren Erscheinungsbildes (Bodenformen, Bewuchs, Besiedlung, Bewirtschaftung) ein in bestimmter Weise geprägter Teil der Erdoberfläche."@de .
 
 
+aaa6:AX_Landwirtschaft aaa6:kennung 43001 ;
+                       skos:definition "'Landwirtschaft' ist eine Fläche für den Anbau von Feldfrüchten sowie eine Fläche, die beweidet und gemäht werden kann, einschließlich der mit besonderen Pflanzen angebauten Fläche (einschließlich landwirtschaftlichen Brachlands)."@de .
+
+
 aaa6:AX_Leitung skos:definition "'Leitung' ist eine aus Drähten oder Fasern hergestellte Leitung zum Transport von elektrischer Energie und zur Übertragung von elektrischen Signalen."@de .
+
+
+aaa6:AX_Meer aaa6:kennung 44007 ;
+             skos:definition "'Meer' ist die das Festland umgebende Wasserfläche."@de .
+
+
+aaa6:AX_Moor aaa6:kennung 43005 ;
+             skos:definition """'Moor' ist eine unkultivierte Fläche, deren obere Schicht aus vertorften oder zersetzten Pflanzenresten besteht.
+Torfstich bzw. Torfabbaufläche wird der Objektart 41005 'Tagebau, Grube, Steinbruch' mit AGT 'Torf' zugeordnet."""@de .
 
 
 aaa6:AX_MusterLandesmusterUndVergleichsstueck skos:definition "'Muster-und Vergleichsstück' ist eine besondere bodengeschätzte Fläche nach dem BodSchätzG, die im Liegenschaftskataster nachzuweisen ist."@de .
@@ -67249,6 +67310,14 @@ aaa6:AX_Ortslage skos:definition """'Ortslage' ist eine im Zusammenhang bebaute 
 Die Grenze der Ortslage zur Feldlage oder zu Waldflächen wird in der Regel durch die Grenzen der bebauten Grundstücke unter Einbeziehung der Hofraumflächen und Hausgärten gebildet. Der Umring bildet einen geschlossenen Linienzug. Die Ortslage kann Objekte des Objektbereichs Vegetation als Inseln umschließen.
 
 Bei Vergabe des Namens (NAM) ist streng nach einer Hierarchie zu verfahren. Es wird jeweils der Name der niedrigsten zutreffenden Hierarchiestufe (Wohnplatz, Gemeindeteil, Gemeinde) vergeben, in dem die Ortslage vollständig liegt."""@de .
+
+
+aaa6:AX_Person skos:definition "'Person' ist eine natürliche oder juristische Person und kann z.B. in den Rollen Eigentümer, Erwerber, Verwalter oder Vertreter in Katasterangelegenheiten geführt werden."@de ;
+               aaa6:kennung 21001 .
+
+
+aaa6:AX_Platz aaa6:kennung 42009 ;
+              skos:definition "'Platz' ist eine Verkehrsfläche in Ortschaften oder eine ebene, befestigte oder unbefestigte Fläche, die bestimmten Zwecken dient (z. B. für Verkehr, Parkplätze, Märkte, Festveranstaltungen)."@de .
 
 
 aaa6:AX_Post aaa6:kennung "12007"@de .
@@ -67292,6 +67361,10 @@ aaa6:AX_Reservierungsauftrag_Gebietskennung aaa6:kennung "16004"@de .
 
 
 aaa6:AX_SchifffahrtslinieFaehrverkehr skos:definition "'Schifffahrtslinie, Fährverkehr' ist die regelmäßige Schiffs- oder Fährverbindung."@de .
+
+
+aaa6:AX_Schiffsverkehr aaa6:kennung 42016 ;
+                       skos:definition "'Schiffsverkehr' umfasst die baulich geprägte Fläche und die mit ihr in Zusammenhang stehende Freifläche, die ausschließlich oder vorwiegend dem Schiffsverkehr dient."@de .
 
 
 aaa6:AX_Schleuse skos:definition "Anlage zur Überführung von Wasserfahrzeugen zwischen Gewässern verschiedener Wasserspiegelhöhen einschließlich der Betriebsflächen und -gebäude."@de .
@@ -67348,10 +67421,41 @@ aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung skos:definition "'Sonstiges Bauw
 aaa6:AX_SonstigesRecht skos:definition "'Sonstiges Recht' sind die auf den Grund und Boden bezogenen Beschränkungen, Belastungen oder anderen Eigenschaften einer Fläche nach weiteren, nicht unter die Objektarten 71001 bis 71010 zu subsumierenden öffentlich - rechtlichen Vorschriften."@de .
 
 
+aaa6:AX_SportFreizeitUndErholungsflaeche skos:definition "'Sport-, Freizeit- und Erholungsfläche' ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient."@de ;
+                                         aaa6:kennung 41008 .
+
+
+aaa6:AX_StehendesGewaesser skos:definition "'Stehendes Gewässer' ist eine natürliche oder künstliche mit Wasser gefüllte, allseitig umschlossene Hohlform der Landoberfläche ohne unmittelbaren Zusammenhang mit 'Meer'."@de ;
+                           aaa6:kennung 44006 .
+
+
+aaa6:AX_Strassenverkehr skos:definition "'Straßenverkehr' umfasst alle für die bauliche Anlage Straße erforderlichen Flächen und die dem Straßenverkehr dienenden bebauten und unbebauten Flächen."@de ;
+                        aaa6:kennung 42001 .
+
+
 aaa6:AX_Strassenverkehrsanlage skos:definition "'Straßenverkehrsanlage' ist eine besondere Anlage für den Straßenverkehr."@de .
 
 
+aaa6:AX_Sumpf aaa6:kennung 43006 ;
+              skos:definition """'Sumpf' ist ein wassergesättigtes, zeitweise unter Wasser stehendes Gelände.
+Nach Regenfällen kurzzeitig nasse Stellen im Boden werden nicht als 'Sumpf' erfasst."""@de .
+
+
+aaa6:AX_TagebauGrubeSteinbruch skos:definition "'Tagebau, Grube, Steinbruch' ist eine Fläche, auf der oberirdisch Bodenmaterial abgebaut wird. Rekultivierte Tagebaue, Gruben, Steinbrüche werden als Objekte entsprechend der vorhandenen Nutzung erfasst."@de ;
+                               aaa6:kennung 41005 .
+
+
 aaa6:AX_Tagesabschnitt skos:definition "'Tagesabschnitt' ist ein Ordnungskriterium der Schätzungsarbeiten für die geschätzte Fläche. Tagesabschnitt bezieht sich auf ein Ordnungsmerkmal, dem die Grablöcher eindeutig zugeordnet sind."@de .
+
+
+aaa6:AX_TatsaechlicheNutzung aaa6:kennung 40001 ;
+                             skos:definition """Die abstrakte Oberklasse für alle tatsächlichen Nutzungen.
+
+Objekte in der Grundfläche besitzen alle dasselbe Thema (TS_Theme 'Tatsächliche Nutzung (Grundfläche)'). Alle anderen AX_TatsaechlicheNutzung-Objekte liegen in einem anderen Thema. I.d.R. wird hierbei jedem überlagernden Objekt ein eigenes Thema zugeordnet.
+
+Unterführungsreferenzen regeln den Schichtenaufbau der verschiedenen Nutzungsebenen. Unterführungsreferenzen bestehen stets zwischen einer Nutzungsfläche und einem Bauwerk (z.B. Straße über Brücke).
+
+Es handelt sich um eine abstrakte Objektart."""@de .
 
 
 aaa6:AX_TopographischeLinie skos:definition "'Topographische Linie' ist eine topographische Abgrenzungslinie ohne Objektbedeutung, die Übergangsweise im Rahmen der Migration aus bestehenden Verfahrenslösungen benötigt wird."@de ;
@@ -67362,6 +67466,10 @@ aaa6:AX_Transportanlage skos:definition "'Transportanlage' ist eine Anlage zur F
 
 
 aaa6:AX_Turm skos:definition "'Turm' ist ein hoch aufragendes, auf einer verhältnismäßig kleinen Fläche stehendes Bauwerk."@de .
+
+
+aaa6:AX_UnlandVegetationsloseFlaeche skos:definition "'Unland/Vegetationslose Fläche' ist eine Fläche, die nicht dauerhaft landwirtschaftlich genutzt wird, wie z. B. Fels-, Sand- oder Eisflächen, Uferstreifen längs von Gewässern und Sukzessionsflächen."@de ;
+                                     aaa6:kennung 43007 .
 
 
 aaa6:AX_UntergeordnetesGewaesser skos:definition "'UntergeordnetesGewaesser' ist ein stehendes oder fließendes Gewässer mit untergeordneter Bedeutung."@de .
@@ -67394,13 +67502,25 @@ aaa6:AX_Verwaltungsgemeinschaft skos:definition "'Verwaltungsgemeinschaft' bezei
 aaa6:AX_VorratsbehaelterSpeicherbauwerk skos:definition "'Vorratsbehälter, Speicherbauwerk' ist ein Bauwerk zum Aufbewahren von festen, flüssigen oder gasförmigen Stoffen."@de .
 
 
+aaa6:AX_Wald aaa6:kennung 43002 ;
+             skos:definition "'Wald' ist eine Fläche, die mit Forstpflanzen (Waldbäume und Waldsträucher) bestockt ist."@de .
+
+
 aaa6:AX_Wasserspiegelhoehe skos:definition "'Wasserspiegelhöhe' ist bei Stauseen die Höhe des maximalen Füllstands, bei allen anderen Gewässern die Höhe des mittleren Wasserstandes über bzw. unter der Höhenbezugsfläche."@de .
+
+
+aaa6:AX_Weg aaa6:kennung 42006 ;
+            skos:definition "'Weg' umfasst alle Flächen, die zum Befahren und/oder Begehen vorgesehen sind. Zur Wegfläche gehören auch Seitenstreifen und Gräben zur Wegentwässerung."@de .
 
 
 aaa6:AX_WegPfadSteig skos:definition "'Weg, Pfad, Steig' ist ein befestigter oder unbefestigter Geländestreifen, der zum Befahren und/oder Begehen vorgesehen ist."@de .
 
 
 aaa6:AX_WirtschaftlicheEinheit skos:definition "'Wirtschaftliche Einheit' ist eine in der Örtlichkeit vorhandene wirtschaftliche Einheit mehrerer Flurstücke, die nicht mit der rechtlichen Einheit (Grundstück im rechtlichen Sinn) identisch sein muss (Beispiel: Wirtschaftliche Einheit zweier Flurstücke/Grundstücke, wobei nur ein Flurstück ein Erbbaugrundstück ist)."@de .
+
+
+aaa6:AX_Wohnbauflaeche aaa6:kennung 41001 ;
+                       skos:definition "'Wohnbaufläche' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freiflächen (z.B. Vorgärten, Ziergärten, Zufahrten, Stellplätze und Hofraumflächen), die ausschließlich oder vorwiegend dem Wohnen dient."@de .
 
 
 aaa6:AX_Wohnplatz skos:definition "'Wohnplatz' ist ein bewohntes Gebiet, das einen Eigennamen trägt."@de .
@@ -67435,6 +67555,22 @@ aaa6:abweichenderRechtszustand skos:definition "'Abweichender Rechtszustand' ist
 
 
 aaa6:adressat aaa6:kennung "ADR"@de .
+
+
+aaa6:angabenZumAbschnittBemerkung aaa6:kennung "ABE"^^xsd:string ;
+                                  skos:definition "Angaben zum Abschnitt - Bemerkung"@de .
+
+
+aaa6:angabenZumAbschnittFlurstueck aaa6:kennung "AFL"^^xsd:string ;
+                                   skos:definition "Angaben zum Abschnitt (unstrukturiert)"@de .
+
+
+aaa6:angabenZumAbschnittNummerAktenzeichen aaa6:kennung "ANA"^^xsd:string ;
+                                           skos:definition "Angaben zum Abschnitt - Nummer, Aktenzeichen"@de .
+
+
+aaa6:angabenZumAbschnittStelle aaa6:kennung "AST"^^xsd:string ;
+                               skos:definition "Angaben zum Abschnitt - Stelle"@de .
 
 
 aaa6:anmerkungFuerDenNotar skos:definition "'Anmerkung für den Notar' ist ein freies Textfeld zur Beschreibung von Fortführungsnachweis-relevanten Tatbeständen bezüglich des Flurstücks für den Notar."@de ;
@@ -67476,6 +67612,10 @@ Die Zeitangabe für den Datentyp \"DateTime\" entspricht den Festlegungen von IS
 Beispiel:
 
 2004-02-29T10:15:30Z""" .
+
+
+aaa6:bemerkung aaa6:kennung "BEM"^^xsd:string ;
+               skos:definition "'Bemerkung' enthält zusätzliche Informationen zum Fortführungsfall."@de .
 
 
 aaa6:berechnungsdatum skos:definition "'Berechnungsdatum' gibt das Datum der Berechnung der Schwere an."@de .
@@ -67521,6 +67661,11 @@ aaa6:buchungsblattnummerMitBuchstabenerweiterung aaa6:kennung "BBN"^^xsd:string 
 aaa6:datenerhebung skos:definition "'Datenerhebung' gibt die Methode der Ermittlung des Schwerewertes an."@de .
 
 
+aaa6:datensatznummer aaa6:kennung "DSN"^^xsd:string ;
+                     skos:definition """Enthält eine eindeutige Datensatznummer, bestehend aus dem Schlüssel des
+Bundeslandes gefolgt von einer Nummer. Wird im Rahmen der Migration belegt."""@de .
+
+
 aaa6:datum aaa6:kennung "DAT"@de .
 
 
@@ -67558,6 +67703,10 @@ aaa6:endgueltigePunktkennung skos:definition "\"Endgültige Punktkennung\" enth�
 
 aaa6:enthaeltEWP aaa6:kennung "EWP"@de ;
                  skos:definition "'EnthältEWP' enthält eine eindeutige Dateibezeichnung (uri), in der das Landeswappen vorgehalten wird."@de .
+
+
+aaa6:flaecheDesAbschnitts aaa6:kennung "FLA"^^xsd:string ;
+                          skos:definition "Fläche des Abschnitts/Flurstück in Quadratmeter [m2]"@de .
 
 
 aaa6:flur aaa6:kennung "FLR"^^xsd:string .
@@ -67611,16 +67760,37 @@ aaa6:gemarkungsnummer aaa6:kennung "GEM"@de ;
                       skos:definition "Diese Attributart enthält den Schlüssel der Gemarkung."@de .
 
 
-aaa6:genauigkeitsstufe skos:definition "\"Genauigkeitsstufe \" ist die Stufe der Standardabweichung (S) als Ergebnis einer Schätzung (i.d.R. nach der Methode der kleinsten Quadrate), in welche die Messelemente der gleichzeitig berechneten Punkte einbezogen und in der Regel die Ausgangspunkte als fehlerfrei eingeführt wurden."@de .
+aaa6:genauigkeitsstufe aaa6:kennung "GST"^^xsd:string ;
+                       skos:definition "\"Genauigkeitsstufe \" ist die Stufe der Standardabweichung (S) als Ergebnis einer Schätzung (i.d.R. nach der Methode der kleinsten Quadrate), in welche die Messelemente der gleichzeitig berechneten Punkte einbezogen und in der Regel die Ausgangspunkte als fehlerfrei eingeführt wurden."@de .
 
 
-aaa6:genauigkeitswert skos:definition "\"Genauigkeitswert\" gibt die relative Genauigkeit gemäß der entsprechenden ISO-Norm an."@de .
+aaa6:genauigkeitswert skos:definition "\"Genauigkeitswert\" gibt die relative Genauigkeit gemäß der entsprechenden ISO-Norm an."@de ;
+                      aaa6:kennung "GWT"^^xsd:string .
 
 
-aaa6:herkunft skos:definition "'Herkunft' enthält Angaben zur Datenerhebung sowie zum Datum der Berechnung und Erhebung der Koordinaten."@de .
+aaa6:hausnummer skos:definition "'Hausnummer' ist die von der Gemeinde für ein bestehendes oder geplantes Gebäude vergebene Nummer und ggf. einem Adressierungszusatz. Diese Attributart wird in Verbindung mit dem Straßennamen (verschlüsselte oder unverschlüsselte Lagebezeichnung) vergeben."@de ;
+                aaa6:kennung "HNR"^^xsd:string .
 
 
-aaa6:hinweise skos:definition "'Hinweise' kann Bemerkungen zur Schweremessung, zur Schwereberechnung, zum Schwerestatus, zu Genauigkeitsangaben oder zum Punktuntergang enthalten."@de .
+aaa6:herkunft skos:definition "'Herkunft' enthält Angaben zur Datenerhebung sowie zum Datum der Berechnung und Erhebung der Koordinaten."@de ;
+              aaa6:kennung "DPL"^^xsd:string .
+
+
+aaa6:hinweise aaa6:kennung "HIN"^^xsd:string ;
+              skos:definition "'Hinweise' kann Bemerkungen zur Schweremessung, zur Schwereberechnung, zum Schwerestatus, zu Genauigkeitsangaben oder zum Punktuntergang enthalten."@de .
+
+
+aaa6:kartendarstellung skos:definition """'Kartendarstellung' ist ein Hinweis darauf, dass der 'Punktort' zur Darstellung in
+einer Karte führt. Welche Objektarten Bestandteil der ALKIS-Standardausgabe
+'Liegenschaftskarte' sind, regelt der ensprechende Filterausdruck (siehe GeoInfoDok,
+Kapitel 7.2) .
+ Hinweis:
+ Die Objektarten 'Grenzpunkt', 'Besonderer Gebäudepunkt', 'Besonderer topographischer
+Punkt', 'Besonderer Bauwerkspunkt', 'Aufnahmepunkt', 'Sicherungspunkt'
+und 'Sonstiger Vermessungspunkt' weisen jeweils immer nur einen
+'Punktort' mit der Attributart 'Kartendarstellung' mit der Werteart TRUE auf.
+ Die Werteart TRUE kommt immer vor beim 'PunktortTA'-Objekt zu einem 'Grenzpunkt'."""@de ;
+                       aaa6:kennung "KDS"^^xsd:string .
 
 
 aaa6:lagezuverlaessigkeit skos:definition """'Lagezuverlässigkeit' enthält eine Aussage über die Identität zwischen den Koordinaten des amtlichen Nachweises und den bei der Grenzuntersuchung bestimmten Koordinaten von Objektpunkten.
@@ -67669,6 +67839,10 @@ aaa6:name aaa6:kennung "NAM"^^xsd:string ;
           skos:definition "'Name' ist der Eigenname von 'Schutzgebiet nach Natur-, Umwelt- oder Bodenschutzrecht'."@de .
 
 
+aaa6:nenner skos:definition "Dieses Attribut enthält den Nenner der Flurstücknummer ohne führende Nullen. Diese sind gegebenenfalls bei der Erzeugung des Flurstückskennzeichens zu ergänzen."@de ;
+            aaa6:kennung "NEN"^^xsd:string .
+
+
 aaa6:nivlinie skos:definition "Bezeichnung der Zugehörigkeit eines Höhenfestpunktes zu einer NIV-Linie."@de ;
               aaa6:kennung "NVL"^^xsd:string .
 
@@ -67689,6 +67863,10 @@ aaa6:ordnung aaa6:kennung "ORD"^^xsd:string ;
 
 
 aaa6:ortsnamePost skos:definition "'OrtsnamePost' ist der postalische Ortsname."@de .
+
+
+aaa6:ortsteil aaa6:kennung "ORT"^^xsd:string ;
+              skos:definition "'Ortsteil' ist eine Ergänzung zur Lagebezeichnung um den Ortsteil."@de .
 
 
 aaa6:plzOrt aaa6:kennung "PLZ"@de .
@@ -67726,7 +67904,8 @@ aaa6:telefon skos:definition "'Telefon' ist die Nummer des Telefonanschlusses."@
              aaa6:kennung "TEL"@de .
 
 
-aaa6:ueberpruefungsdatum skos:definition "'Überprüfungsdatum' gibt das Datum der letzten Überprüfung an, bei der der Schwerewert gegenüber benachbarten Festpunkten als unverändert festgestellt wurde."@de .
+aaa6:ueberpruefungsdatum aaa6:kennung "PRU"^^xsd:string ;
+                         skos:definition "'Überprüfungsdatum' gibt das Datum der letzten Überprüfung an, bei der der Schwerewert gegenüber benachbarten Festpunkten als unverändert festgestellt wurde."@de .
 
 
 aaa6:uri aaa6:kennung "URI"@de .
@@ -67736,7 +67915,8 @@ aaa6:veraenderungOhneRuecksprache aaa6:kennung "VOR"^^xsd:string ;
                                   skos:definition "'Veränderung ohne Rücksprache' ist die Kennzeichnung, daß das Kataster- und Vermessungsamt Änderungen an Flurstücken, die am Verfahren, das durch die 'Art der Festlegung' bestimmt ist, beteiligt sind, ohne Rücksprache mit der 'Zuständigen Stelle' durchführen darf."@de .
 
 
-aaa6:vertrauenswuerdigkeit skos:definition "Die \"Vertrauenswürdigkeit\" gibt die Vertrauenswürdigkeit der Koordinate oder Höhe an."@de .
+aaa6:vertrauenswuerdigkeit skos:definition "Die \"Vertrauenswürdigkeit\" gibt die Vertrauenswürdigkeit der Koordinate oder Höhe an."@de ;
+                           aaa6:kennung "VWL"^^xsd:string .
 
 
 aaa6:vorgaengerFlurstueckskennzeichen skos:definition """'Vorgänger-Flurstückskennzeichen' ist die Bezeichnung der Flurstücke, die dem Objekt 'Historisches Flurstück ALB' direkt vorangehen.
@@ -67769,6 +67949,42 @@ aaa6:vorlaeufigePunktkennung skos:definition "\"Vorläufige Punktkennung\" enth�
                              aaa6:kennung "VPK"@de .
 
 
+aaa6:zaehler skos:definition "Dieses Attribut enthält den Zähler der Flurstücknummer ohne führende Nullen. Diese sind gebenefalls bei der Erzeugung des Flurstückskennzeichens zu ergänzen."@de ;
+             aaa6:kennung "ZAE"^^xsd:string .
+
+
+aaa6:zeigtAufAltesFlurstueck aaa6:kennung "ZAA"^^xsd:string ;
+                             skos:definition """'ZeigtAufAltesFlurstueck' enthält das Flurstückskennzeichen des Flurstücks, das
+unter einem Fortführungsfall im Fortführungsnachweis verändert wurden oder
+zu veränderten Objekten in Beziehung stehen.
+ Bildungsregel:
+ Die Attributart setzt sich aus den nachfolgenden expliziten Attributarten in der
+angegebenen Reihenfolge zusammen:
+ 1. Land (2 Stellen)
+ 2. Gemarkungsnummer (4 Stellen)
+ 3. Flurnummer (3 Stellen)
+ 4. Flurstücksnummer
+ 4.1 Zähler (5 Stellen)
+ 4.2 Nenner (4 Stellen)
+ 5. Flurstücksfolge (2 Stellen)
+ Die Elemente sind rechtsbündig zu belegen, fehlende Stellen sind mit führenden
+Nullen zu belegen. Da die Flurnummer und die Flurstücksfolge optional
+sind, sind aufgrund der bundeseinheitlichen Definition im Flurstückskennzeichen
+die entsprechenden Stellen, sofern sie nicht belegt sind, durch Unterstrich
+\"_\" ersetzt. Gleiches gilt für Flurstücksnummern ohne Nenner, hier ist der fehlende
+Nenner im Flurstückskennzeichen durch Unterstriche zu ersetzen.
+ Die Gesamtlänge des Flurstückkennzeichens beträgt immer 20 Zeichen."""@de .
+
+
+aaa6:zeigtAufNeuesFlurstueck aaa6:kennung "ZAN"^^xsd:string .
+
+
+aaa6:zeitpunktDerEntstehung skos:definition """\"Zeitpunkt der Entstehung\" ist der Zeitpunkt, zu dem das Flurstück fachlich entstanden ist.
+
+Das Attribut kommt vor, wenn der Zeitpunkt der Entstehung von dem Zeitpunkt abweicht, der systemseitig bei der Eintragung in den Bestandsdaten als Anfang der Lebenszeit (siehe Lebenszeitintervall bei Objekten) gesetzt wird. Die Regelungen hierzu sind länderspezifisch gefasst."""@de ;
+                            aaa6:kennung "ZDE"^^xsd:string .
+
+
 aaa6:zeitpunktDerEntstehungDesBezugsflurstuecks aaa6:kennung "ZDE"^^xsd:string ;
                                                 skos:definition "'Zeitpunkt der Entstehung des Bezugsflurstücks' ist der Zeitpunkt, zu dem das Flurstück, aus dem das Objekt 'Historisches Flurstück ALB' direkt abgeleitet ist, fachlich entstanden ist (im ALB mit 'LF2 - Entstehung' bezeichnet. Da im ALB nur ein Jahr angegeben ist, ist dies zu einem Datum zu ergänzen.) Hinweis: Der Zeitpunkt des Untergangs des Bezugsflurstücks ist identisch mit dem Beginn des Lebenszeitintervalls des 'Historischen Flurstück ALB'."@de .
 
@@ -67780,6 +67996,10 @@ Das Attribut kommt vor, wenn der Zeitpunkt der Historisierung vom Zeitpunkt der 
 
 
 aaa6:zusatzOrtsname skos:definition "'ZusatzOrtsname' enthält einen Zusatz zum postalischen Ortsnamen."@de .
+
+
+aaa6:zusatzZurLagebezeichnung skos:definition "'Zusatz zur Lagebezeichnung' ist eine Ergänzung zur Lagebezeichnung."@de ;
+                              aaa6:kennung "ZLB"^^xsd:string .
 
 
 aaa6:zwischenmarke skos:definition "'Zwischenmarke' ist eine gebietsweise übliche Bezeichnung für ein Grenzzeichen, das in eine geradlinige Flurstücksgrenze eingebracht ist, um den Grenzverlauf bei fehlender Sichtverbindung oder großer Entfernung zwischen den Grenzzeichen ausreichend erkennbar zu machen." .
