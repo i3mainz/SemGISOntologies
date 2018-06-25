@@ -1459,6 +1459,8 @@ aaa6:AX_Fliessgewaesser rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Flugverkehr
 aaa6:AX_Flugverkehr rdf:type owl:ObjectProperty ;
+                    skos:definition "'Flugverkehr' umfasst die baulich geprägte Fläche und die mit ihr in Zusammenhang stehende Freifläche, die ausschließlich oder vorwiegend dem Flugverkehr dient."@de ;
+                    aaa6:kennung "42015"^^xsd:integer ;
                     rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1511,6 +1513,8 @@ aaa6:AX_Fortfuehrungsnummer rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Friedhof
 aaa6:AX_Friedhof rdf:type owl:ObjectProperty ;
+                skos:definition "'Friedhof' ist eine Landfläche, die zur Bestattung dient oder gedient hat, sofern die Zuordnung zu Grünanlage nicht zutreffender ist. Waldbestattungsflächen werden der Nutzungsart Wald zugeordnet."@de ;
+                aaa6:kennung "41009"^^xsd:integer ;
                  rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1584,6 +1588,8 @@ aaa6:AX_Gebietsgrenze rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gehoelz
 aaa6:AX_Gehoelz rdf:type owl:ObjectProperty ;
+                skos:definition "'Gehölz' ist eine Fläche, die mit einzelnen Bäumen, Baumgruppen, Büschen, Hecken und Sträuchern bestockt ist."@de ;
+                aaa6:kennung "43003"^^xsd:integer ;
                 rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1702,16 +1708,22 @@ aaa6:AX_Hafen rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Hafenbecken
 aaa6:AX_Hafenbecken rdf:type owl:ObjectProperty ;
+                    skos:definition "'Hafenbecken' ist ein natürlicher oder künstlich angelegter oder abgetrennter Teil eines Gewässers, in dem Schiffe be- und entladen werden."@de ;
+                    aaa6:kennung "44005"^^xsd:integer ;
                     rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Halde
 aaa6:AX_Halde rdf:type owl:ObjectProperty ;
+              skos:definition "'Halde' ist eine Fläche, auf der Material langfristig gelagert wird und beschreibt die auch im Relief zu modellierende tatsächliche Aufschüttung. Dauerhaft anders genutzte Halden werden als Objekte entsprechend der tatsächlichen Nutzung erfasst."@de ;
+              aaa6:kennung "41003"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Heide
 aaa6:AX_Heide rdf:type owl:ObjectProperty ;
+              skos:definition "'Heide' ist eine Fläche mit typischen Sträuchern, Gräsern und geringwertigem Baumbestand."@de ;
+              aaa6:kennung "43004"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -1757,6 +1769,8 @@ aaa6:AX_Hoehleneingang rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_IndustrieUndGewerbeflaeche
 aaa6:AX_IndustrieUndGewerbeflaeche rdf:type owl:ObjectProperty ;
+                                    skos:definition "'Industrie- und Gewerbefläche' ist eine Fläche, auf der sich Industrie-, Gewerbe-, Handels- und Dienstleistungsunternehmen sowie deren Betriebsflächen befinden."@de ;
+                                    aaa6:kennung "41002"^^xsd:integer ;
                                    rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2252,6 +2266,8 @@ aaa6:AX_Landschaft rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landwirtschaft
 aaa6:AX_Landwirtschaft rdf:type owl:ObjectProperty ;
+                        skos:definition "'Landwirtschaft' ist eine Fläche für den Anbau von Feldfrüchten sowie eine Fläche, die beweidet und gemäht werden kann, einschließlich der mit besonderen Pflanzen angebauten Fläche (einschließlich landwirtschaftlichen Brachlands)."@de ;
+                        aaa6:kennung "43001"^^xsd:integer ;
                        rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2267,6 +2283,8 @@ aaa6:AX_MarkanterGelaendepunkt rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Meer
 aaa6:AX_Meer rdf:type owl:ObjectProperty ;
+            skos:definition "'Meer' ist die das Festland umgebende Wasserfläche."@de ;
+            aaa6:kennung "44007"^^xsd:integer ;
              rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2279,6 +2297,9 @@ aaa6:AX_Metadaten_Benutzungsergebnis rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Moor
 aaa6:AX_Moor rdf:type owl:ObjectProperty ;
+            skos:definition "'Moor' ist eine unkultivierte Fläche, deren obere Schicht aus vertorften oder zersetzten Pflanzenresten besteht.
+Torfstich bzw. Torfabbaufläche wird der Objektart 41005 'Tagebau, Grube, Steinbruch' mit AGT 'Torf' zugeordnet."@de ;
+            aaa6:kennung "43005"^^xsd:integer ;
              rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2383,6 +2404,8 @@ aaa6:AX_Phasenzentrumsvariation_Referenzstationspunkt rdf:type owl:ObjectPropert
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Platz
 aaa6:AX_Platz rdf:type owl:ObjectProperty ;
+              skos:definition "'Platz' ist eine Verkehrsfläche in Ortschaften oder eine ebene, befestigte oder unbefestigte Fläche, die bestimmten Zwecken dient (z. B. für Verkehr, Parkplätze, Märkte, Festveranstaltungen)."@de ;
+              aaa6:kennung "42009"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2536,6 +2559,8 @@ aaa6:AX_SchifffahrtslinieFaehrverkehr rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schiffsverkehr
 aaa6:AX_Schiffsverkehr rdf:type owl:ObjectProperty ;
+                       skos:definition "'Schiffsverkehr' umfasst die baulich geprägte Fläche und die mit ihr in Zusammenhang stehende Freifläche, die ausschließlich oder vorwiegend dem Schiffsverkehr dient."@de ;
+                       aaa6:kennung "42016"^^xsd:integer ;
                        rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2635,6 +2660,8 @@ aaa6:AX_SportFreizeitUndErholungsflaeche rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_StehendesGewaesser
 aaa6:AX_StehendesGewaesser rdf:type owl:ObjectProperty ;
+                            skos:definition "'Stehendes Gewässer' ist eine natürliche oder künstliche mit Wasser gefüllte, allseitig umschlossene Hohlform der Landoberfläche ohne unmittelbaren Zusammenhang mit 'Meer'."@de ;
+                            aaa6:kennung "44006"^^xsd:integer ;
                            rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2650,6 +2677,8 @@ aaa6:AX_Strassenachse rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strassenverkehr
 aaa6:AX_Strassenverkehr rdf:type owl:ObjectProperty ;
+                        skos:definition "'Straßenverkehr' umfasst alle für die bauliche Anlage Straße erforderlichen Flächen und die dem Straßenverkehr dienenden bebauten und unbebauten Flächen."@de ;
+                        aaa6:kennung "42001"^^xsd:integer ;
                         rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2665,11 +2694,16 @@ aaa6:AX_StrukturiertErfassteGelaendepunkte rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Sumpf
 aaa6:AX_Sumpf rdf:type owl:ObjectProperty ;
+              skos:definition "'Sumpf' ist ein wassergesättigtes, zeitweise unter Wasser stehendes Gelände.
+Nach Regenfällen kurzzeitig nasse Stellen im Boden werden nicht als 'Sumpf' erfasst."@de ;
+              aaa6:kennung "43006"^^xsd:integer ;
               rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_TagebauGrubeSteinbruch
 aaa6:AX_TagebauGrubeSteinbruch rdf:type owl:ObjectProperty ;
+                                skos:definition "'Tagebau, Grube, Steinbruch' ist eine Fläche, auf der oberirdisch Bodenmaterial abgebaut wird. Rekultivierte Tagebaue, Gruben, Steinbrüche werden als Objekte entsprechend der vorhandenen Nutzung erfasst."@de;
+                                aaa6:kennung "41005"^^xsd:integer ;
                                rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2712,6 +2746,8 @@ aaa6:AX_Turm rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_UnlandVegetationsloseFlaeche
 aaa6:AX_UnlandVegetationsloseFlaeche rdf:type owl:ObjectProperty ;
+                                    skos:definition "'Unland/Vegetationslose Fläche' ist eine Fläche, die nicht dauerhaft landwirtschaftlich genutzt wird, wie z. B. Fels-, Sand- oder Eisflächen, Uferstreifen längs von Gewässern und Sukzessionsflächen."@de ;
+                                    aaa6:kennung "43007"^^xsd:integer ;
                                      rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2771,6 +2807,8 @@ aaa6:AX_VorratsbehaelterSpeicherbauwerk rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wald
 aaa6:AX_Wald rdf:type owl:ObjectProperty ;
+             skos:definition "'Wald' ist eine Fläche, die mit Forstpflanzen (Waldbäume und Waldsträucher) bestockt ist."@de ;
+             aaa6:kennung "43002"^^xsd:integer ;
              rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2786,6 +2824,8 @@ aaa6:AX_Wasserspiegelhoehe rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Weg
 aaa6:AX_Weg rdf:type owl:ObjectProperty ;
+            skos:definition "'Weg' umfasst alle Flächen, die zum Befahren und/oder Begehen vorgesehen sind. Zur Wegfläche gehören auch Seitenstreifen und Gräben zur Wegentwässerung."@de ;
+            aaa6:kennung "42006"^^xsd:integer ;
             rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -2801,6 +2841,8 @@ aaa6:AX_WirtschaftlicheEinheit rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wohnbauflaeche
 aaa6:AX_Wohnbauflaeche rdf:type owl:ObjectProperty ;
+                       skos:definition "'Wohnbaufläche' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freiflächen (z.B. Vorgärten, Ziergärten, Zufahrten, Stellplätze und Hofraumflächen), die ausschließlich oder vorwiegend dem Wohnen dient."@de ;
+                       aaa6:kennung "41001"^^xsd:integer ;
                        rdfs:subPropertyOf aaa6:AX_TatsaechlicheNutzung .
 
 
@@ -4414,7 +4456,11 @@ aaa6:bodenart rdf:type owl:ObjectProperty ;
                           aaa6:AX_MusterLandesmusterUndVergleichsstueck ;
               rdfs:range aaa6:AX_Bodenart_Bodenschaetzung ,
                          aaa6:AX_Bodenart_MusterLandesmusterUndVergleichsstueck ;
-              rdfs:label "bodenart"@de .
+              aaa6:kennung "BOA"^^xsd:string ;
+              rdfs:label "bodenart"@de ;
+              skos:definition """'Bodenart' ist die nach den Verwaltungsanweisungen zum Bodenschätzungsgesetz festgelegte Bezeichnung der Bodenart.
+
+Diese Attributart ist objektbildend."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bodenzahlOderGruenlandgrundzahl
@@ -8411,7 +8457,9 @@ aaa6:objekthoehe rdf:type owl:ObjectProperty ;
                              aaa6:AX_VorratsbehaelterSpeicherbauwerk ;
                  rdfs:range gml:Length ,
                             xsd:string ;
-                 rdfs:label "objekthoehe"@de .
+                 aaa6:kennung "HHO"^^xsd:string ;
+                 rdfs:label "objekthoehe"@de ;
+                 skos:definition "'Objekthöhe' ist die Höhendifferenz in [m] zwischen dem höchsten Punkt von 'Felsen, Felsblock, Felsnadel' und der Geländeoberfläche."@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#objektkoordinaten
@@ -9025,7 +9073,9 @@ aaa6:rechtszustand rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf aaa6:AAA6 ;
                    rdfs:domain aaa6:AX_Schutzzone ;
                    rdfs:range aaa6:AX_Rechtszustand_Schutzzone ;
-                   rdfs:label "rechtszustand"@de .
+                   aaa6:kennung "RZS"^^xsd:string ;
+                   rdfs:label "rechtszustand"@de ;
+                   skos:definition "'Rechtszustand' gibt den zum Zeitpunkt der Erfassung vorliegenden rechtlichen Zustand von 'Schutzzone' an."@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#referenzZumFremdobjekt
@@ -10264,7 +10314,11 @@ aaa6:zone rdf:type owl:ObjectProperty ;
                       aaa6:AX_Schutzzone ;
           rdfs:range aaa6:AX_Zone_Schutzzone ,
                      xsd:string ;
-          rdfs:label "zone"@de .
+          aaa6:kennung "ZON"^^xsd:string ;
+          rdfs:label "zone"@de ;
+          skos:definition """'Zone' ist die amtlich festgesetzte Einstufung der Schutzzone.
+
+Diese Attributart ist objektbildend."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zu
@@ -15085,6 +15139,8 @@ aaa6:AX_Bahnstrecke rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bahnverkehr
 aaa6:AX_Bahnverkehr rdf:type owl:Class ;
+                    skos:definition "'Bahnverkehr' umfasst alle für den Schienenverkehr erforderlichen Flächen und die dem Schienenverkehr dienenden bebauten und unbebauten Flächen."@de ;
+                    aaa6:kennung "42010"^^xsd:integer ;
                     rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:bahnkategorie ;
@@ -16073,6 +16129,7 @@ aaa6:AX_Benutzer rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Benutzergruppe
 aaa6:AX_Benutzergruppe rdf:type owl:Class ;
+                        aaa6:kennung "81002"^^xsd:integer ;
                        rdfs:subClassOf aaa6:AA_Benutzergruppe ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:bestehtAus ;
@@ -16303,6 +16360,8 @@ aaa6:AX_BereichZeitlichProperty rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bergbaubetrieb
 aaa6:AX_Bergbaubetrieb rdf:type owl:Class ;
+                        skos:definition "'Bergbaubetrieb' ist eine Fläche, die für die Förderung des Abbaugutes unter Tage genutzt wird."@de ;
+                        aaa6:kennung "41004"^^xsd:integer ;
                        rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:abbaugut ;
@@ -19631,6 +19690,8 @@ aaa6:AX_Firstlinie rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FlaecheBesondererFunktionalerPraegung
 aaa6:AX_FlaecheBesondererFunktionalerPraegung rdf:type owl:Class ;
+                                              skos:definition "'Fläche besonderer funktionaler Prägung' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche, auf denen vorwiegend Gebäude und/oder Anlagen zur Erfüllung öffentlicher Zwecke oder historische Anlagen vorhanden sind."@de ;
+                                              aaa6:kennung "41007"^^xsd:integer ;
                                               rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty aaa6:artDerBebauung ;
@@ -19668,6 +19729,8 @@ aaa6:AX_FlaecheBesondererFunktionalerPraegung rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FlaecheGemischterNutzung
 aaa6:AX_FlaecheGemischterNutzung rdf:type owl:Class ;
+                                 skos:definition "'Fläche gemischter Nutzung' ist eine bebaute Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), auf der keine Art der baulichen Nutzung vorherrscht. Solche Flächen sind insbesondere ländlich-dörflich geprägte Flächen mit land- und forstwirtschaftlichen Betrieben, Wohngebäuden u.a. sowie städtisch geprägte Kerngebiete mit Handelsbetrieben und zentralen Einrichtungen für die Wirtschaft und die Verwaltung."@de ;
+                                 aaa6:kennung "41006"^^xsd:integer ;
                                  rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                                  [ rdf:type owl:Restriction ;
                                                    owl:onProperty aaa6:artDerBebauung ;
@@ -19710,6 +19773,11 @@ aaa6:AX_FlaecheZurZeitUnbestimmbar rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fliessgewaesser
 aaa6:AX_Fliessgewaesser rdf:type owl:Class ;
+                        skos:definition "'Fließgewässer' ist ein geometrisch begrenztes, auf dem Festland fließendes Gewässer, das die Wassermengen sammelt, die als Niederschläge auf die Erdoberfläche fallen oder in Quellen austreten, und in ein anderes Gewässer, ein Meer oder in einen See transportiert oder
+ein in einem System von natürlichen oder künstlichen Bodenvertiefungen verlaufendes Wasser, das zur Be- und Entwässerung an- oder abgeleitet wird
+oder
+ein geometrisch begrenzter, für die Schifffahrt angelegter künstlicher Wasserlauf, der in einem oder in mehreren Abschnitten die jeweils gleiche Höhe des Wasserspiegels besitzt."@de ;
+                        aaa6:kennung "44001"^^xsd:integer ;
                         rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty aaa6:funktion ;
@@ -26913,6 +26981,8 @@ aaa6:AX_Ortslage rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Person
 aaa6:AX_Person rdf:type owl:Class ;
+                skos:definition "'Person' ist eine natürliche oder juristische Person und kann z.B. in den Rollen Eigentümer, Erwerber, Verwalter oder Vertreter in Katasterangelegenheiten geführt werden."@de ; 
+                aaa6:kennung "21001"^^xsd:integer ;
                rdfs:subClassOf aaa6:AA_NREO ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty aaa6:AX_DQOhneDatenerhebung ;
@@ -29743,6 +29813,8 @@ aaa6:AX_Sperrergebnis rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_SportFreizeitUndErholungsflaeche
 aaa6:AX_SportFreizeitUndErholungsflaeche rdf:type owl:Class ;
+                                         skos:definition "'Sport-, Freizeit- und Erholungsfläche' ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient."@de ;
+                                         aaa6:kennung "41008"^^xsd:integer ;
                                          rdfs:subClassOf aaa6:AX_TatsaechlicheNutzung ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty aaa6:bezeichnung ;
@@ -30447,6 +30519,14 @@ aaa6:AX_Tagesabschnitt rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_TatsaechlicheNutzung
 aaa6:AX_TatsaechlicheNutzung rdf:type owl:Class ;
+                            aaa6:kennung "40001"^^xsd:integer ;
+                            skos:definition "Die abstrakte Oberklasse für alle tatsächlichen Nutzungen.
+
+Objekte in der Grundfläche besitzen alle dasselbe Thema (TS_Theme 'Tatsächliche Nutzung (Grundfläche)'). Alle anderen AX_TatsaechlicheNutzung-Objekte liegen in einem anderen Thema. I.d.R. wird hierbei jedem überlagernden Objekt ein eigenes Thema zugeordnet.
+
+Unterführungsreferenzen regeln den Schichtenaufbau der verschiedenen Nutzungsebenen. Unterführungsreferenzen bestehen stets zwischen einer Nutzungsfläche und einem Bauwerk (z.B. Straße über Brücke).
+
+Es handelt sich um eine abstrakte Objektart."@de ;
                              rdfs:subClassOf aaa6:TA_SurfaceComponent ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:AX_DQMitDatenerhebung ;
@@ -66931,7 +67011,8 @@ aaa6:AX_Dienststellenlogo skos:definition "Die externe Objektart \"Dienststellen
                           aaa6:kennung "ELL"@de .
 
 
-aaa6:AX_Duene skos:definition "'Düne' ist ein vom Wind angewehter Sandhügel."@de .
+aaa6:AX_Duene skos:definition "'Düne' ist ein vom Wind angewehter Sandhügel."@de ;
+              aaa6:kennung 61007 .
 
 
 aaa6:AX_EinrichtungInOeffentlichenBereichen skos:definition "'Einrichtung in öffentlichen Bereichen' sind Gegenstände und Einrichtungen verschiedenster Art in öffentlichen oder öffentlich zugänglichen Bereichen (z. B. Straßen, Parkanlagen)."@de .
@@ -67103,7 +67184,7 @@ aaa6:AX_KleinraeumigerLandschaftsteil skos:definition "'Kleinräumiger Landschaf
 aaa6:AX_KommunalesGebiet skos:definition "'Kommunales Gebiet' ist ein Teil der Erdoberfläche, der von einer festgelegten Grenzlinie umschlossen ist und den politischen Einflussbereich einer Kommune repräsentiert (z.B. Stadt-, Landgemeinde, gemeindefreies Gebiet)."@de .
 
 
-aaa6:AX_KreisRegion skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+aaa6:AX_KreisRegion skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ; aaa6:kennung "73004"^^xsd:integer .
 
 
 aaa6:AX_Kreis_Schluessel skos:definition "Amtliche Verschlüsselung des Kreises."@de .
@@ -67590,6 +67671,10 @@ aaa6:name aaa6:kennung "NAM"^^xsd:string ;
 
 aaa6:nivlinie skos:definition "Bezeichnung der Zugehörigkeit eines Höhenfestpunktes zu einer NIV-Linie."@de ;
               aaa6:kennung "NVL"^^xsd:string .
+
+
+aaa6:nummerDerSchutzzone skos:definition "'Nummer der Schutzzone' ist die amtlich festgelegte Verschlüsselung von 'Schutzzone'."@de ;
+                         aaa6:kennung "NRS"^^xsd:string .
 
 
 aaa6:nummerDesSchutzgebietes skos:definition "'Nummer des Schutzgebietes' ist die amtlich festgelegte Verschlüsselung von 'Schutzgebiet nach Natur-, Umwelt- oder Bodenschutzrecht'."@de ;
