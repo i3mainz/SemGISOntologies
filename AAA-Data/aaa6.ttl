@@ -7412,7 +7412,11 @@ aaa6:istGebucht rdf:type owl:ObjectProperty ;
                 rdfs:domain aaa6:AX_Flurstueck ,
                             aaa6:AX_HistorischesFlurstueckOhneRaumbezug ;
                 rdfs:range gml:Reference ;
-                rdfs:label "istGebucht"@de .
+                aaa6:kennung "11001-21008"^^xsd:string ;
+                rdfs:label "istGebucht"@de ;
+                skos:definition """Ein (oder mehrere) Flurstück(e) ist (sind) unter genau einer Buchungsstelle
+gebucht. Bei Anteilsbuchungen ist dies nur dann möglich, wenn ein fiktives Buchungsblatt
+angelegt wird."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#istIdentischMitAP
@@ -10674,8 +10678,7 @@ aaa6:ackerzahlOderGruenlandzahl rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#adressat
-aaa6:adressat rdf:type owl:DatatypeProperty ;
-              rdfs:range xsd:string .
+aaa6:adressat rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#adressierungszusatz
@@ -10764,8 +10767,7 @@ aaa6:art rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerAusgabe
-aaa6:artDerAusgabe rdf:type owl:DatatypeProperty ;
-                   rdfs:range xsd:string .
+aaa6:artDerAusgabe rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerVertretung
@@ -10961,8 +10963,7 @@ aaa6:defaultSRS rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dienststelle
-aaa6:dienststelle rdf:type owl:DatatypeProperty ;
-                  rdfs:range xsd:string .
+aaa6:dienststelle rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#direkt
@@ -11114,8 +11115,7 @@ aaa6:geburtsname rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsnummer
-aaa6:gemarkungsnummer rdf:type owl:DatatypeProperty ;
-                      rdfs:range xsd:string .
+aaa6:gemarkungsnummer rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsteilFlur
@@ -11215,13 +11215,11 @@ aaa6:lage rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#lagezuverlaessigkeit
-aaa6:lagezuverlaessigkeit rdf:type owl:DatatypeProperty ;
-                          rdfs:range xsd:boolean .
+aaa6:lagezuverlaessigkeit rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummer
-aaa6:laufendeNummer rdf:type owl:DatatypeProperty ;
-                    rdfs:range xsd:string .
+aaa6:laufendeNummer rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummerDerBuchungsstelle
@@ -11293,8 +11291,7 @@ aaa6:nationalstaat rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nenner
-aaa6:nenner rdf:type owl:DatatypeProperty ;
-            rdfs:range xsd:string .
+aaa6:nenner rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nichtMehrAktuelleObjekte
@@ -11586,8 +11583,7 @@ aaa6:wohnortOderSitz rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zaehler
-aaa6:zaehler rdf:type owl:DatatypeProperty ;
-             rdfs:range xsd:string .
+aaa6:zaehler rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zahlungsweise
@@ -66895,6 +66891,10 @@ aaa6:AX_AndereFestlegungNachStrassenrecht skos:definition "'Andere Festlegung na
 aaa6:AX_AndereFestlegungNachWasserrecht skos:definition "'Andere Festlegung nach Wasserrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, wasserrechtlichen Vorschriften."@de .
 
 
+aaa6:AX_Anschrift skos:definition """'Anschrift' ist die postalische Adresse, verbunden mit weiteren Adressen aus dem Bereich
+elektronischer Kommunikationsmedien."""@de .
+
+
 aaa6:AX_Aufnahmepunkt skos:definition """'Aufnahmepunkt' ist ein Punkt des Lagefestpunktfeldes - Aufnahmepunktfeld und dient der örtlichen Aufnahme von Objektpunkten.
 
 Das Aufnahmepunktfeld ist eine Verdichtungsstufe des Lagefestpunktfeldes - Trigonometrisches Festpunktfeld (Grundlagenvermessung)."""@de ;
@@ -66934,10 +66934,10 @@ aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung skos:definition "'Bauwerk 
 aaa6:AX_Benutzer skos:definition "In der Objektart 'Benutzer' werden allgemeine Informationen über den Benutzer verwaltet."@de .
 
 
-aaa6:AX_Benutzergruppe skos:definition """In der 'Benutzergruppe' werden Informationen über die Benutzer der Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken sowie Standardparameter für die Benutzergruppe vermerken.
+aaa6:AX_Benutzergruppe aaa6:kennung 81002 ;
+                       skos:definition """In der 'Benutzergruppe' werden Informationen über die Benutzer der Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken sowie Standardparameter für die Benutzergruppe vermerken.
 
-Es handelt sich um eine abstrakte Objektart."""@de ;
-                       aaa6:kennung 81002 .
+Es handelt sich um eine abstrakte Objektart."""@de .
 
 
 aaa6:AX_BenutzergruppeMitZugriffskontrolle skos:definition "In der Objektart 'Benutzergruppe mit Zugriffskontrolle' werden Informationen über die Benutzer der ALKIS-Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken."@de .
@@ -66977,10 +66977,19 @@ aaa6:AX_Buchung_HistorischesFlurstueck aaa6:kennung 17004 ;
                                        skos:definition "'Buchung' ist ein Hinweis auf die 'Buchungsstelle' (und in Verbindung damit auch auf das 'Buchungsblatt'), auf die das Flurstück des Liegenschaftskatasters zum 'Zeitpunkt der Historisierung' verweist."@de .
 
 
+aaa6:AX_Buchungsblatt skos:definition """'Buchungsblatt' enthält die Buchungen (Buchungsstellen und Namensnummern) des Grundbuchs
+und des Liegenschhaftskatasters (bei buchungsfreien Grundstücken).
+Das Buchungsblatt für Buchungen im Liegenschaftskataster kann entweder ein Kataster-, Erwerber-,
+Pseudo- oder ein Fiktives Blatt sein."""@de .
+
+
 aaa6:AX_Buchungsblattbezirk skos:definition "\"Buchungsblattbezirk\" enthält die Verschlüsselung von Buchungsbezirken mit der entsprechenden Bezeichnung."@de .
 
 
 aaa6:AX_Buchungsblattbezirk_Schluessel skos:definition "Amtliche Verschlüsselung des Buchungsblattbezirks."@de .
+
+
+aaa6:AX_Buchungsstelle skos:definition "'Buchungsstelle' ist die unter einer laufenden Nummer im Verzeichnis des Buchungsblattes eingetragene Buchung."@de .
 
 
 aaa6:AX_Bundesland skos:definition "'Bundesland' umfasst das Gebiet des jeweiligen Bundeslandes innerhalb der Bundesrepublik Deutschland."@de .
@@ -67296,6 +67305,11 @@ Torfstich bzw. Torfabbaufläche wird der Objektart 41005 'Tagebau, Grube, Steinb
 aaa6:AX_MusterLandesmusterUndVergleichsstueck skos:definition "'Muster-und Vergleichsstück' ist eine besondere bodengeschätzte Fläche nach dem BodSchätzG, die im Liegenschaftskataster nachzuweisen ist."@de .
 
 
+aaa6:AX_Namensnummer skos:definition """'Namensnummer' ist die laufende Nummer der Eintragung, unter welcher der Eigentümer
+oder Erbbauberechtigte im Buchungsblatt geführt wird. Rechtsgemeinschaften werden auch
+unter AX_Namensnummer geführt."""@de .
+
+
 aaa6:AX_NaturUmweltOderBodenschutzrecht skos:definition "'Natur-, Umwelt- oder Bodenschutzrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche oder eines Gegenstandes nach öffentlichen, natur-, umwelt- oder bodenschutzrechtlichen Vorschriften."@de .
 
 
@@ -67314,6 +67328,9 @@ Bei Vergabe des Namens (NAM) ist streng nach einer Hierarchie zu verfahren. Es w
 
 aaa6:AX_Person skos:definition "'Person' ist eine natürliche oder juristische Person und kann z.B. in den Rollen Eigentümer, Erwerber, Verwalter oder Vertreter in Katasterangelegenheiten geführt werden."@de ;
                aaa6:kennung 21001 .
+
+
+aaa6:AX_Personengruppe skos:definition "'Personengruppe' ist die Zusammenfassung von Personen unter einem Ordnungsbegriff."@de .
 
 
 aaa6:AX_Platz aaa6:kennung 42009 ;
@@ -67720,7 +67737,8 @@ aaa6:flurstuecksfolge aaa6:kennung "FSF"^^xsd:string ;
                       skos:definition "'Flurstücksfolge' ist eine weitere Angabe zur Flurstücksnummer."@de .
 
 
-aaa6:flurstueckskennzeichen skos:definition """'Flurstückskennzeichen' ist das von der katasterführenden Stelle zur eindeutigen Bezeichnung des Flurstücks vergebenes Ordnungsmerkmal.
+aaa6:flurstueckskennzeichen aaa6:kennung "FSK"^^xsd:string ;
+                            skos:definition """'Flurstückskennzeichen' ist das von der katasterführenden Stelle zur eindeutigen Bezeichnung des Flurstücks vergebenes Ordnungsmerkmal.
 
 Bildungsregel:
 
@@ -67744,8 +67762,7 @@ Die Elemente sind rechtsbündig zu belegen, fehlende Stellen sind mit führenden
 
 Die Gesamtlänge des Flurstückkennzeichens beträgt immer 20 Zeichen.
 
-Es handelt sich um eine abgeleitete Eigenschaft."""@de ;
-                            aaa6:kennung "FSK"^^xsd:string .
+Es handelt sich um eine abgeleitete Eigenschaft."""@de .
 
 
 aaa6:fortfuehrungsart skos:definition "Enthält die Fortführungsart gemäß Belegung im ALB."@de ;
@@ -67780,7 +67797,8 @@ aaa6:hinweise aaa6:kennung "HIN"^^xsd:string ;
               skos:definition "'Hinweise' kann Bemerkungen zur Schweremessung, zur Schwereberechnung, zum Schwerestatus, zu Genauigkeitsangaben oder zum Punktuntergang enthalten."@de .
 
 
-aaa6:kartendarstellung skos:definition """'Kartendarstellung' ist ein Hinweis darauf, dass der 'Punktort' zur Darstellung in
+aaa6:kartendarstellung aaa6:kennung "KDS"^^xsd:string ;
+                       skos:definition """'Kartendarstellung' ist ein Hinweis darauf, dass der 'Punktort' zur Darstellung in
 einer Karte führt. Welche Objektarten Bestandteil der ALKIS-Standardausgabe
 'Liegenschaftskarte' sind, regelt der ensprechende Filterausdruck (siehe GeoInfoDok,
 Kapitel 7.2) .
@@ -67789,18 +67807,17 @@ Kapitel 7.2) .
 Punkt', 'Besonderer Bauwerkspunkt', 'Aufnahmepunkt', 'Sicherungspunkt'
 und 'Sonstiger Vermessungspunkt' weisen jeweils immer nur einen
 'Punktort' mit der Attributart 'Kartendarstellung' mit der Werteart TRUE auf.
- Die Werteart TRUE kommt immer vor beim 'PunktortTA'-Objekt zu einem 'Grenzpunkt'."""@de ;
-                       aaa6:kennung "KDS"^^xsd:string .
+ Die Werteart TRUE kommt immer vor beim 'PunktortTA'-Objekt zu einem 'Grenzpunkt'."""@de .
 
 
-aaa6:lagezuverlaessigkeit skos:definition """'Lagezuverlässigkeit' enthält eine Aussage über die Identität zwischen den Koordinaten des amtlichen Nachweises und den bei der Grenzuntersuchung bestimmten Koordinaten von Objektpunkten.
+aaa6:lagezuverlaessigkeit aaa6:kennung "LZK"@de ;
+                          skos:definition """'Lagezuverlässigkeit' enthält eine Aussage über die Identität zwischen den Koordinaten des amtlichen Nachweises und den bei der Grenzuntersuchung bestimmten Koordinaten von Objektpunkten.
 
 TRUE belegt die Überprüfung eines Punktes nach dem Katsternachweis. Damit wird zum Ausdruck gebracht, dass ein Punkt in der Örtlichkeit eindeutig identifiziert und unter Berücksichtigung der Nachbarschaftsbeziehungen als identisch mit dem Katasterzahlenwerk festgestellt wurde.
 
 FALSE gibt an, dass für eine aufgemessene Koordinate eine derartige Überprüfung nicht stattgefunden hat und die Koordinate zunächst vorläufigen Character besitzt, um eine spätere, genauere Bestimmung zu erleichtern (z.B. durch Transformation).
 
-Wird die Attribuart nicht geführt, entfällt eine Aussage über die Lagezuverlässigkeit."""@de ;
-                          aaa6:kennung "LZK"@de .
+Wird die Attribuart nicht geführt, entfällt eine Aussage über die Lagezuverlässigkeit."""@de .
 
 
 aaa6:laufendeNummer skos:definition "Diese Attributart enthält die laufende Nummer des Fortführungsnachweises."@de ;
@@ -67919,7 +67936,8 @@ aaa6:vertrauenswuerdigkeit skos:definition "Die \"Vertrauenswürdigkeit\" gibt d
                            aaa6:kennung "VWL"^^xsd:string .
 
 
-aaa6:vorgaengerFlurstueckskennzeichen skos:definition """'Vorgänger-Flurstückskennzeichen' ist die Bezeichnung der Flurstücke, die dem Objekt 'Historisches Flurstück ALB' direkt vorangehen.
+aaa6:vorgaengerFlurstueckskennzeichen aaa6:kennung "VFK"^^xsd:string ;
+                                      skos:definition """'Vorgänger-Flurstückskennzeichen' ist die Bezeichnung der Flurstücke, die dem Objekt 'Historisches Flurstück ALB' direkt vorangehen.
 
 Bildungsregel:
 
@@ -67941,8 +67959,7 @@ Die Attributart setzt sich aus den nachfolgenden expliziten Attributarten in der
 
 Die Elemente sind rechtsbündig zu belegen, fehlende Stellen sind mit führenden Nullen zu belegen. Da die Flurnummer und die Flurstücksfolge optional sind, sind aufgrund der bundeseinheitlichen Definition im Flurstückskennzeichen die entsprechenden Stellen, sofern sie nicht belegt sind, durch Unterstrich \"_\" ersetzt. Gleiches gilt für Flurstücksnummern ohne Nenner, hier ist der fehlende Nenner im Flurstückskennzeichen durch Unterstriche zu ersetzen.
 
-Die Gesamtlänge des Flurstückkennzeichens beträgt immer 20 Zeichen."""@de ;
-                                      aaa6:kennung "VFK"^^xsd:string .
+Die Gesamtlänge des Flurstückkennzeichens beträgt immer 20 Zeichen."""@de .
 
 
 aaa6:vorlaeufigePunktkennung skos:definition "\"Vorläufige Punktkennung\" enthält die im Erhebungsprozess für Messungs- und Berechnungszwecke verwendete vorläufige Punktnummer."@de ;
