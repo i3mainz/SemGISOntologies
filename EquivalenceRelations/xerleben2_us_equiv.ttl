@@ -1,0 +1,34 @@
+@prefix : <http://semgis.de/XPlan2ToPLU#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xerl: <http://www.xerleben.de/schema/2.0_1/> .
+@base <http://semgis.de/XPlan2ToPLU> .
+
+<http://semgis.de/XPlan2ToPLU> rdf:type owl:Ontology ;
+                                rdfs:comment "Ontology of relations between XErlebenVersion 2 Standard to INSPIRE US Standard (US)" ;
+                                rdfs:seeAlso "http://www.xplanungwiki.de" ;
+                                <http://purl.org/dc/terms/publisher> "i3Mainz" ;
+                                <http://purl.org/dc/terms/description> "Ontology of relations between XErlebenVersion 2 Standard to INSPIRE US Standard (US)" ;
+                                <http://purl.org/dc/terms/title> "Xerleben Version 2 to INSPIRE US" ;
+                                <http://purl.org/dc/terms/creator> "Timo Homburg" ;
+                                <http://purl.org/dc/terms/format> "Turtle" ;
+                                <http://purl.org/dc/terms/references> "http://www.xplanungwiki.de/index.php?title=Spezifikationen" ;
+                                <http://purl.org/dc/terms/license> "GPLv3" ;
+                                <http://purl.org/dc/terms/subject> "Ontology of relations between XErlebenVersion 2 Standard to INSPIRE US Standard (US)"" .
+
+lgd:Marketplace rdf:type owl:Class ;
+                owl:equivalentClass wd:Q330284 ,
+                                    [ owl:intersectionOf ( aaa6:AX_Platz
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty aaa6:funktion ;
+                                                             owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                  owl:oneOf ( aaa6:AX_Funktion_Platz_5340
+                                                                                            )
+                                                                                ]
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] .

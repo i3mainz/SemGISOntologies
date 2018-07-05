@@ -64,6 +64,7 @@ inspire-base:beginLifespanVersion rdf:type owl:ObjectProperty ;
                                   owl:equivalentProperty aaa6:beginnt .
 
 
+
 ###  http://inspire.ec.europa.eu/schemas/base/4.0#endLifespanVersion
 inspire-base:endLifespanVersion rdf:type owl:ObjectProperty ;
                                 owl:equivalentProperty aaa6:endet .
@@ -281,7 +282,7 @@ lgd:toilet rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#email
 aaa6:email rdf:type owl:DatatypeProperty ;
-           owl:equivalentProperty xerl:email .
+           owl:equivalentProperty xerl:email , xerl:objektEmail .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hausnummer
@@ -9846,7 +9847,6 @@ wd:Q15003 rdf:type owl:Class ;
 
 ###  http://www.wikidata.org/entity/Q1501
 wd:Q1501 rdf:type owl:Class .
-
 
 ###  http://www.wikidata.org/entity/Q15077340
 wd:Q15077340 rdf:type owl:Class ;

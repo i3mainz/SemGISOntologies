@@ -1,0 +1,1020 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix dnba: <http://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dnbt: <http://d-nb.info/standards/elementset/dnb#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://d-nb.info/gnd/118540238> a gndo:DifferentiatedPerson ;
+	gndo:gndIdentifier "118540238" ;
+	foaf:page <https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe> ;
+	owl:sameAs <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> , <http://viaf.org/viaf/24602065> ;
+	gndo:oldAuthorityNumber "(DE-588)1131918517" ;
+	owl:sameAs <http://d-nb.info/gnd/1131918517> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1131918517" ;
+	gndo:oldAuthorityNumber "(DE-588)1095607278" ;
+	owl:sameAs <http://d-nb.info/gnd/1095607278> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1095607278" ;
+	gndo:oldAuthorityNumber "(DE-588)1022736213" ;
+	owl:sameAs <http://d-nb.info/gnd/1022736213> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1022736213" ;
+	gndo:oldAuthorityNumber "(DE-588)1032060956" ;
+	owl:sameAs <http://d-nb.info/gnd/1032060956> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1032060956" ;
+	gndo:oldAuthorityNumber "(DE-588c)4021455-2" , "(DE-588)1014927390" ;
+	owl:sameAs <http://d-nb.info/gnd/1014927390> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/1014927390" ;
+	gndo:oldAuthorityNumber "(DE-588a)1014927390" , "(DE-588)101488358X" ;
+	owl:sameAs <http://d-nb.info/gnd/101488358X> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/101488358X" ;
+	gndo:oldAuthorityNumber "(DE-588a)101488358X" , "(DE-588)185848826" ;
+	owl:sameAs <http://d-nb.info/gnd/185848826> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/185848826" ;
+	gndo:oldAuthorityNumber "(DE-588a)185848826" , "(DE-588)185808069" ;
+	owl:sameAs <http://d-nb.info/gnd/185808069> ;
+	dnbt:deprecatedUri "http://d-nb.info/gnd/185808069" ;
+	gndo:oldAuthorityNumber "(DE-588a)185808069" , "(DE-588a)118540238" , "(DE-588a)1014123208" ;
+	gndo:relatedWork <http://d-nb.info/gnd/1085150313> , <http://d-nb.info/gnd/1085154025> ;
+	gndo:variantNameForThePerson "Goethe, Johann Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832687 .
+
+_:node1cdhequ6hx1832687 gndo:forename "Johann Wolfgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Johan Wolfgang von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832688 .
+
+_:node1cdhequ6hx1832688 gndo:forename "Johan Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Johan Wolphgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832689 .
+
+_:node1cdhequ6hx1832689 gndo:forename "Johan Wolphgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Johan W. von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832690 .
+
+_:node1cdhequ6hx1832690 gndo:forename "Johan W." ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Joh. Wolfg. v." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832691 .
+
+_:node1cdhequ6hx1832691 gndo:forename "Joh. Wolfg." ;
+	gndo:prefix "v." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, J. Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832692 .
+
+_:node1cdhequ6hx1832692 gndo:forename "J. Wolfgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, J. W. v." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832693 .
+
+_:node1cdhequ6hx1832693 gndo:forename "J. W." ;
+	gndo:prefix "v." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, J. W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832694 .
+
+_:node1cdhequ6hx1832694 gndo:forename "J. W." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Jan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832695 .
+
+_:node1cdhequ6hx1832695 gndo:forename "Jan Wolfgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Jean Wolfgang von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832696 .
+
+_:node1cdhequ6hx1832696 gndo:forename "Jean Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Juan Wolfgang von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832697 .
+
+_:node1cdhequ6hx1832697 gndo:forename "Juan Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Juan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832698 .
+
+_:node1cdhequ6hx1832698 gndo:forename "Juan Wolfgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Juan W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832699 .
+
+_:node1cdhequ6hx1832699 gndo:forename "Juan W." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, João Wolfgang von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832700 .
+
+_:node1cdhequ6hx1832700 gndo:forename "João Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Iohann Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832701 .
+
+_:node1cdhequ6hx1832701 gndo:forename "Iohann Wolfgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Iohan Wolphgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832702 .
+
+_:node1cdhequ6hx1832702 gndo:forename "Iohan Wolphgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Ioannes W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832703 .
+
+_:node1cdhequ6hx1832703 gndo:forename "Ioannes W." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, I. W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832704 .
+
+_:node1cdhequ6hx1832704 gndo:forename "I. W." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Wolfgango" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832705 .
+
+_:node1cdhequ6hx1832705 gndo:forename "Wolfgango" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Wolfango" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832706 .
+
+_:node1cdhequ6hx1832706 gndo:forename "Wolfango" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, W. von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832707 .
+
+_:node1cdhequ6hx1832707 gndo:forename "W." ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Volfgango" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832708 .
+
+_:node1cdhequ6hx1832708 gndo:forename "Volfgango" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Volfango" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832709 .
+
+_:node1cdhequ6hx1832709 gndo:forename "Volfango" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Giov. L." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832710 .
+
+_:node1cdhequ6hx1832710 gndo:forename "Giov. L." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, G. L." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832711 .
+
+_:node1cdhequ6hx1832711 gndo:forename "G. L." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832712 .
+
+_:node1cdhequ6hx1832712 gndo:personalName "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Von Goethe, Johann Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832713 .
+
+_:node1cdhequ6hx1832713 gndo:forename "Johann Wolfgang" ;
+	gndo:surname "Von Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethius" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832714 .
+
+_:node1cdhequ6hx1832714 gndo:personalName "Goethius" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe, Johann Wolfgang von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832715 .
+
+_:node1cdhequ6hx1832715 gndo:forename "Johann Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe, Johann W. êvonë" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832716 .
+
+_:node1cdhequ6hx1832716 gndo:forename "Johann W. êvonë" ;
+	gndo:surname "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe, Jan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832717 .
+
+_:node1cdhequ6hx1832717 gndo:forename "Jan Wolfgang" ;
+	gndo:surname "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe, Jan Wolfang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832718 .
+
+_:node1cdhequ6hx1832718 gndo:forename "Jan Wolfang" ;
+	gndo:surname "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe, J. W. von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832719 .
+
+_:node1cdhequ6hx1832719 gndo:forename "J. W." ;
+	gndo:prefix "von" ;
+	gndo:surname "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe, Giov. Volfango" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832720 .
+
+_:node1cdhequ6hx1832720 gndo:forename "Giov. Volfango" ;
+	gndo:surname "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göthe" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832721 .
+
+_:node1cdhequ6hx1832721 gndo:personalName "Göthe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göte, Iogann V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832722 .
+
+_:node1cdhequ6hx1832722 gndo:forename "Iogann V." ;
+	gndo:surname "Göte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Göte" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832723 .
+
+_:node1cdhequ6hx1832723 gndo:personalName "Göte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goete, Iohan V. p'on" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832724 .
+
+_:node1cdhequ6hx1832724 gndo:forename "Iohan V." ;
+	gndo:prefix "p'on" ;
+	gndo:surname "Goete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goet'e, Iohan Volp'gang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832725 .
+
+_:node1cdhequ6hx1832725 gndo:forename "Iohan Volp'gang" ;
+	gndo:surname "Goet'e" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goet'e" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832726 .
+
+_:node1cdhequ6hx1832726 gndo:personalName "Goet'e" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goe te" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832727 .
+
+_:node1cdhequ6hx1832727 gndo:personalName "Goe te" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gêôt'ê" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832728 .
+
+_:node1cdhequ6hx1832728 gndo:personalName "Gêôt'ê" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "G'ote, Jochan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832729 .
+
+_:node1cdhequ6hx1832729 gndo:forename "Jochan Volfgang" ;
+	gndo:surname "G'ote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Yohan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832730 .
+
+_:node1cdhequ6hx1832730 gndo:forename "Yohan Volfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "G'ote, V. f." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832731 .
+
+_:node1cdhequ6hx1832731 gndo:forename "V." ;
+	gndo:prefix "f." ;
+	gndo:surname "G'ote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "G'ote" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832732 .
+
+_:node1cdhequ6hx1832732 gndo:personalName "G'ote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gót, J. V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832733 .
+
+_:node1cdhequ6hx1832733 gndo:forename "J. V." ;
+	gndo:surname "Gót" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gót" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832734 .
+
+_:node1cdhequ6hx1832734 gndo:personalName "Gót" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Go't, I. V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832735 .
+
+_:node1cdhequ6hx1832735 gndo:forename "I. V." ;
+	gndo:surname "Go't" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goithios" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832736 .
+
+_:node1cdhequ6hx1832736 gndo:personalName "Goithios" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gotenin" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832737 .
+
+_:node1cdhequ6hx1832737 gndo:personalName "Gotenin" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gejteh" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832738 .
+
+_:node1cdhequ6hx1832738 gndo:personalName "Gejteh" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Jōhan Wolfgang fon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832739 .
+
+_:node1cdhequ6hx1832739 gndo:forename "Jōhan Wolfgang" ;
+	gndo:prefix "fon" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Johann Volʹfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832740 .
+
+_:node1cdhequ6hx1832740 gndo:forename "Johann Volʹfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Géte, Johans Volfgangs" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832741 .
+
+_:node1cdhequ6hx1832741 gndo:forename "Johans Volfgangs" ;
+	gndo:surname "Géte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gėtė, Johanas Volfgangas" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832742 .
+
+_:node1cdhequ6hx1832742 gndo:forename "Johanas Volfgangas" ;
+	gndo:surname "Gėtė" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Jochan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832743 .
+
+_:node1cdhequ6hx1832743 gndo:forename "Jochan Volfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Jogann Vol'fgang fon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832744 .
+
+_:node1cdhequ6hx1832744 gndo:forename "Jogann Vol'fgang" ;
+	gndo:prefix "fon" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Jogann Vol'fgang êfonë" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832745 .
+
+_:node1cdhequ6hx1832745 gndo:forename "Jogann Vol'fgang êfonë" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Jogann-Vol'fgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832746 .
+
+_:node1cdhequ6hx1832746 gndo:forename "Jogann-Vol'fgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, J. V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832747 .
+
+_:node1cdhequ6hx1832747 gndo:forename "J. V." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, J.-V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832748 .
+
+_:node1cdhequ6hx1832748 gndo:forename "J.-V." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Iogann W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832749 .
+
+_:node1cdhequ6hx1832749 gndo:forename "Iogann W." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, I. W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832750 .
+
+_:node1cdhequ6hx1832750 gndo:forename "I. W." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Iohan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832751 .
+
+_:node1cdhequ6hx1832751 gndo:forename "Iohan Volfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gëte, Iogann Vol'fgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832752 .
+
+_:node1cdhequ6hx1832752 gndo:forename "Iogann Vol'fgang" ;
+	gndo:surname "Gëte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gëte, Johann Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832753 .
+
+_:node1cdhequ6hx1832753 gndo:forename "Johann Volfgang" ;
+	gndo:surname "Gëte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ge͏̈te, Iogann Vol'fgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832754 .
+
+_:node1cdhequ6hx1832754 gndo:forename "Iogann Vol'fgang" ;
+	gndo:surname "Ge͏̈te" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, I. V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832755 .
+
+_:node1cdhequ6hx1832755 gndo:forename "I. V." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, I.-V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832756 .
+
+_:node1cdhequ6hx1832756 gndo:forename "I.-V." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Yohan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832757 .
+
+_:node1cdhequ6hx1832757 gndo:forename "Yohan Wolfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Yôhân Wôlfgang fôn" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832758 .
+
+_:node1cdhequ6hx1832758 gndo:forename "Yôhân Wôlfgang" ;
+	gndo:prefix "fôn" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gête, Yôhan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832759 .
+
+_:node1cdhequ6hx1832759 gndo:forename "Yôhan Wolfgang" ;
+	gndo:surname "Gête" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Yohann Volfqanq" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832760 .
+
+_:node1cdhequ6hx1832760 gndo:forename "Yohann Volfqanq" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Yogann Volʹfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832761 .
+
+_:node1cdhequ6hx1832761 gndo:forename "Yogann Volʹfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Y. W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832762 .
+
+_:node1cdhequ6hx1832762 gndo:forename "Y. W." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gêtê, Y. W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832763 .
+
+_:node1cdhequ6hx1832763 gndo:forename "Y. W." ;
+	gndo:surname "Gêtê" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Volʹfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832764 .
+
+_:node1cdhequ6hx1832764 gndo:forename "Volʹfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832765 .
+
+_:node1cdhequ6hx1832765 gndo:forename "V." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Egan Vol'fgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832766 .
+
+_:node1cdhequ6hx1832766 gndo:forename "Egan Vol'fgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832767 .
+
+_:node1cdhequ6hx1832767 gndo:personalName "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gēte" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832768 .
+
+_:node1cdhequ6hx1832768 gndo:personalName "Gēte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gě'ṭe" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832769 .
+
+_:node1cdhequ6hx1832769 gndo:personalName "Gě'ṭe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gette, G." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832770 .
+
+_:node1cdhequ6hx1832770 gndo:forename "G." ;
+	gndo:surname "Gette" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gede, Yuehan Wofugang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832771 .
+
+_:node1cdhequ6hx1832771 gndo:forename "Yuehan Wofugang" ;
+	gndo:surname "Gede" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gede" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832772 .
+
+_:node1cdhequ6hx1832772 gndo:personalName "Gede" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ge de" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832773 .
+
+_:node1cdhequ6hx1832773 gndo:personalName "Ge de" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Geteh, Yohan Ṿolfgang fon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832774 .
+
+_:node1cdhequ6hx1832774 gndo:forename "Yohan Ṿolfgang" ;
+	gndo:prefix "fon" ;
+	gndo:surname "Geteh" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gūta, Yūhān Wulfgāng fun" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832775 .
+
+_:node1cdhequ6hx1832775 gndo:forename "Yūhān Wulfgāng" ;
+	gndo:prefix "fun" ;
+	gndo:surname "Gūta" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gūta, Yūhān Wulfgāng fūn" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832776 .
+
+_:node1cdhequ6hx1832776 gndo:forename "Yūhān Wulfgāng" ;
+	gndo:prefix "fūn" ;
+	gndo:surname "Gūta" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ǧūta, Yūhān Wulfǧānǧ fūn" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832777 .
+
+_:node1cdhequ6hx1832777 gndo:forename "Yūhān Wulfǧānǧ" ;
+	gndo:prefix "fūn" ;
+	gndo:surname "Ǧūta" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gūta" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832778 .
+
+_:node1cdhequ6hx1832778 gndo:personalName "Gūta" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ǧīta" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832779 .
+
+_:node1cdhequ6hx1832779 gndo:personalName "Ǧīta" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ǧītā" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832780 .
+
+_:node1cdhequ6hx1832780 gndo:personalName "Ǧītā" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ǧītah" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832781 .
+
+_:node1cdhequ6hx1832781 gndo:personalName "Ǧītah" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ǧītih" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832782 .
+
+_:node1cdhequ6hx1832782 gndo:personalName "Ǧītih" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Giote, Johan Wolphgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832783 .
+
+_:node1cdhequ6hx1832783 gndo:forename "Johan Wolphgang" ;
+	gndo:surname "Giote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Giote, J. W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832784 .
+
+_:node1cdhequ6hx1832784 gndo:forename "J. W." ;
+	gndo:surname "Giote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gǐote, Jochan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832785 .
+
+_:node1cdhequ6hx1832785 gndo:forename "Jochan Volfgang" ;
+	gndo:surname "Gǐote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Giote, J. V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832786 .
+
+_:node1cdhequ6hx1832786 gndo:forename "J. V." ;
+	gndo:surname "Giote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ġūta, Yūhān Fūlfġānḡ" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832787 .
+
+_:node1cdhequ6hx1832787 gndo:forename "Yūhān Fūlfġānḡ" ;
+	gndo:surname "Ġūta" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ġūtah, Yūhān Fūlfġānḡ" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832788 .
+
+_:node1cdhequ6hx1832788 gndo:forename "Yūhān Fūlfġānḡ" ;
+	gndo:surname "Ġūtah" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ġūtih, Yūhān Vūlfġanġ fūn" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832789 .
+
+_:node1cdhequ6hx1832789 gndo:forename "Yūhān Vūlfġanġ" ;
+	gndo:prefix "fūn" ;
+	gndo:surname "Ġūtih" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ġūtih, Yūhān Fūlfġānḡ" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832790 .
+
+_:node1cdhequ6hx1832790 gndo:forename "Yūhān Fūlfġānḡ" ;
+	gndo:surname "Ġūtih" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goytä, Yohan Welfgang fon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832791 .
+
+_:node1cdhequ6hx1832791 gndo:forename "Yohan Welfgang" ;
+	gndo:prefix "fon" ;
+	gndo:surname "Goytä" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gyote, Johān Bholphgãā" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832792 .
+
+_:node1cdhequ6hx1832792 gndo:forename "Johān Bholphgãā" ;
+	gndo:surname "Gyote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gyot'e, Yohan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832793 .
+
+_:node1cdhequ6hx1832793 gndo:forename "Yohan Wolfgang" ;
+	gndo:surname "Gyot'e" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gyot'e, Yohan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832794 .
+
+_:node1cdhequ6hx1832794 gndo:forename "Yohan Volfgang" ;
+	gndo:surname "Gyot'e" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "GŚutih, YŚuhŚan VŚulf·gan·g fŚun" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832795 .
+
+_:node1cdhequ6hx1832795 gndo:forename "YŚuhŚan VŚulf·gan·g fŚun" ;
+	gndo:surname "GŚutih" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gkaite, Giochan Bolphnkannk phon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832796 .
+
+_:node1cdhequ6hx1832796 gndo:forename "Giochan Bolphnkannk" ;
+	gndo:prefix "phon" ;
+	gndo:surname "Gkaite" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gkaite, Giochan Bolphnkannk êphonë" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832797 .
+
+_:node1cdhequ6hx1832797 gndo:forename "Giochan Bolphnkannk êphonë" ;
+	gndo:surname "Gkaite" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gkaite, Giochan B. phon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832798 .
+
+_:node1cdhequ6hx1832798 gndo:forename "Giochan B." ;
+	gndo:prefix "phon" ;
+	gndo:surname "Gkaite" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gkaite, Iōann Mpolphgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832799 .
+
+_:node1cdhequ6hx1832799 gndo:forename "Iōann Mpolphgang" ;
+	gndo:surname "Gkaite" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gkaite" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832800 .
+
+_:node1cdhequ6hx1832800 gndo:personalName "Gkaite" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Koet'e, Yohan Polp'ŭgang p'on" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832801 .
+
+_:node1cdhequ6hx1832801 gndo:forename "Yohan Polp'ŭgang" ;
+	gndo:prefix "p'on" ;
+	gndo:surname "Koet'e" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Koet'e" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832802 .
+
+_:node1cdhequ6hx1832802 gndo:personalName "Koet'e" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Kêôt'ê, Volfkank" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832803 .
+
+_:node1cdhequ6hx1832803 gndo:forename "Volfkank" ;
+	gndo:surname "Kêôt'ê" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Kēōthē" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832804 .
+
+_:node1cdhequ6hx1832804 gndo:personalName "Kēōthē" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Kote, Johann Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832805 .
+
+_:node1cdhequ6hx1832805 gndo:forename "Johann Volfgang" ;
+	gndo:surname "Kote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Kote, Jochann Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832806 .
+
+_:node1cdhequ6hx1832806 gndo:forename "Jochann Volfgang" ;
+	gndo:surname "Kote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Kote, J. V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832807 .
+
+_:node1cdhequ6hx1832807 gndo:forename "J. V." ;
+	gndo:surname "Kote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Kote, V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832808 .
+
+_:node1cdhequ6hx1832808 gndo:forename "V." ;
+	gndo:surname "Kote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Hete, Johann-Vol'fhanh" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832809 .
+
+_:node1cdhequ6hx1832809 gndo:forename "Johann-Vol'fhanh" ;
+	gndo:surname "Hete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "He͏̈te, E͏̈han Vol'fhanh" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832810 .
+
+_:node1cdhequ6hx1832810 gndo:forename "E͏̈han Vol'fhanh" ;
+	gndo:surname "He͏̈te" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Hëte, &Euml;han Vol'fhanh" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832811 .
+
+_:node1cdhequ6hx1832811 gndo:forename "&Euml;han Vol'fhanh" ;
+	gndo:surname "Hëte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Höte, Iohann Volfqanq" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832812 .
+
+_:node1cdhequ6hx1832812 gndo:forename "Iohann Volfqanq" ;
+	gndo:surname "Höte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Yo han Bol peu gang pon Goe te" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832813 .
+
+_:node1cdhequ6hx1832813 gndo:personalName "Yo han Bol peu gang pon Goe te" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Yohan-Bolpeugang-pon-Goete" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832814 .
+
+_:node1cdhequ6hx1832814 gndo:personalName "Yohan-Bolpeugang-pon-Goete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Yue han Wo fu gang Ge de" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832815 .
+
+_:node1cdhequ6hx1832815 gndo:personalName "Yue han Wo fu gang Ge de" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Yuehan-Wofugang-Gede" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832816 .
+
+_:node1cdhequ6hx1832816 gndo:personalName "Yuehan-Wofugang-Gede" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gyote, Yohan Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832817 .
+
+_:node1cdhequ6hx1832817 gndo:forename "Yohan Wolfgang" ;
+	gndo:surname "Gyote" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Johann Wolfgang v." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832818 .
+
+_:node1cdhequ6hx1832818 gndo:forename "Johann Wolfgang" ;
+	gndo:prefix "v." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Johann W. von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832819 .
+
+_:node1cdhequ6hx1832819 gndo:forename "Johann W." ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Johann W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832820 .
+
+_:node1cdhequ6hx1832820 gndo:forename "Johann W." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, J. W. von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832821 .
+
+_:node1cdhequ6hx1832821 gndo:forename "J. W." ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Wolfgang von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832822 .
+
+_:node1cdhequ6hx1832822 gndo:forename "Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, Wolfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832823 .
+
+_:node1cdhequ6hx1832823 gndo:forename "Wolfgang" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Johan Volfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832824 .
+
+_:node1cdhequ6hx1832824 gndo:forename "Johan Volfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, Iogann Volʹfgang" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832825 .
+
+_:node1cdhequ6hx1832825 gndo:forename "Iogann Volʹfgang" ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gete, J.V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832826 .
+
+_:node1cdhequ6hx1832826 gndo:forename "J.V." ;
+	gndo:surname "Gete" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goithios, I.V." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832827 .
+
+_:node1cdhequ6hx1832827 gndo:forename "I.V." ;
+	gndo:surname "Goithios" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Gēte, Yohan Vorufugangu Fon" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832828 .
+
+_:node1cdhequ6hx1832828 gndo:forename "Yohan Vorufugangu Fon" ;
+	gndo:surname "Gēte" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Ġūtih, Yūhān Fūlfġānġ fūn" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832829 .
+
+_:node1cdhequ6hx1832829 gndo:forename "Yūhān Fūlfġānġ fūn" ;
+	gndo:surname "Ġūtih" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goythe" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832830 .
+
+_:node1cdhequ6hx1832830 gndo:personalName "Goythe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, J.W. von" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832831 .
+
+_:node1cdhequ6hx1832831 gndo:forename "J.W." ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Goethe, J.W." ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832832 .
+
+_:node1cdhequ6hx1832832 gndo:forename "J.W." ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "Гёте, Йоҳанн Волфганг" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832833 .
+
+_:node1cdhequ6hx1832833 gndo:forename "Йоҳанн Волфганг" ;
+	gndo:surname "Гёте" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "歌德" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832834 .
+
+_:node1cdhequ6hx1832834 gndo:personalName "歌德" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "約翰・沃爾夫岡・馮・歌德" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832835 .
+
+_:node1cdhequ6hx1832835 gndo:personalName "約翰・沃爾夫岡・馮・歌德" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "约翰・沃尔夫冈・冯・歌德" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832836 .
+
+_:node1cdhequ6hx1832836 gndo:personalName "约翰・沃尔夫冈・冯・歌德" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "ゲーテ, ヨハン・ヴォルフガング・フォン" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832837 .
+
+_:node1cdhequ6hx1832837 gndo:forename "ヨハン・ヴォルフガング・フォン" ;
+	gndo:surname "ゲーテ" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "גתה, יוהן וולפגנג פון" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832838 .
+
+_:node1cdhequ6hx1832838 gndo:forename "יוהן וולפגנג פון" ;
+	gndo:surname "גתה" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "歌德" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832839 .
+
+_:node1cdhequ6hx1832839 gndo:personalName "歌德" .
+
+<http://d-nb.info/gnd/118540238> gndo:variantNameForThePerson "ゲーテ, ヨハン・ヴォルフガング・フォン" ;
+	gndo:variantNameEntityForThePerson _:node1cdhequ6hx1832840 .
+
+_:node1cdhequ6hx1832840 gndo:forename "ヨハン・ヴォルフガング・フォン" ;
+	gndo:surname "ゲーテ" .
+
+<http://d-nb.info/gnd/118540238> gndo:preferredNameForThePerson "Goethe, Johann Wolfgang von" ;
+	gndo:preferredNameEntityForThePerson _:node1cdhequ6hx1832841 .
+
+_:node1cdhequ6hx1832841 gndo:forename "Johann Wolfgang" ;
+	gndo:prefix "von" ;
+	gndo:surname "Goethe" .
+
+<http://d-nb.info/gnd/118540238> gndo:familialRelationship <http://d-nb.info/gnd/118695940> ;
+	dnba:hasParent <http://d-nb.info/gnd/118695940> ;
+	gndo:familialRelationship <http://d-nb.info/gnd/118540246> ;
+	dnba:hasParent <http://d-nb.info/gnd/118540246> ;
+	gndo:familialRelationship <http://d-nb.info/gnd/11871791X> ;
+	dnba:hasSibling <http://d-nb.info/gnd/11871791X> ;
+	gndo:familialRelationship <http://d-nb.info/gnd/118795163> , <http://d-nb.info/gnd/118628011> ;
+	dnba:hasSpouse <http://d-nb.info/gnd/118628011> ;
+	gndo:familialRelationship <http://d-nb.info/gnd/11854022X> ;
+	dnba:hasChild <http://d-nb.info/gnd/11854022X> ;
+	gndo:familialRelationship <http://d-nb.info/gnd/118540254> , <http://d-nb.info/gnd/11687256X> ;
+	dnba:hasAuntUncle <http://d-nb.info/gnd/11687256X> ;
+	gndo:acquaintanceshipOrFriendship <http://d-nb.info/gnd/118617222> ;
+	dnba:hasFriend <http://d-nb.info/gnd/118617222> ;
+	gndo:acquaintanceshipOrFriendship <http://d-nb.info/gnd/118633252> ;
+	dnba:hasFriend <http://d-nb.info/gnd/118633252> ;
+	gndo:acquaintanceshipOrFriendship <http://d-nb.info/gnd/118638076> ;
+	dnba:hasFriend <http://d-nb.info/gnd/118638076> ;
+	gndo:acquaintanceshipOrFriendship <http://d-nb.info/gnd/119277387> ;
+	dnba:hasFriend <http://d-nb.info/gnd/119277387> ;
+	gndo:acquaintanceshipOrFriendship <http://d-nb.info/gnd/118727907> ;
+	gndo:professionalRelationship <http://d-nb.info/gnd/11856014X> ;
+	gndo:acquaintanceshipOrFriendship <http://d-nb.info/gnd/118607626> ;
+	gndo:professionOrOccupation <http://d-nb.info/gnd/4053309-8> , <http://d-nb.info/gnd/4176310-5> , <http://d-nb.info/gnd/4046517-2> , <http://d-nb.info/gnd/4029050-5> , <http://d-nb.info/gnd/4041423-1> , <http://d-nb.info/gnd/4185044-0> , <http://d-nb.info/gnd/4037215-7> , <http://d-nb.info/gnd/4200345-3> ;
+	gndo:gndSubjectCategory <http://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#15.1p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#13.4p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p> , <http://d-nb.info/standards/vocab/gnd/gnd-sc#18p> ;
+	gndo:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+	gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/ger> ;
+	gndo:biographicalOrHistoricalInformation "Staatsmann, Geheimrat"@de ;
+	gndo:placeOfBirth <http://d-nb.info/gnd/4018118-2> ;
+	gndo:placeOfDeath <http://d-nb.info/gnd/4065105-8> ;
+	gndo:placeOfActivity <http://d-nb.info/gnd/4065105-8> ;
+	owl:sameAs <http://www.filmportal.de/person/CCBAA3CEF5654B98AD772651F9023DE6> ;
+	gndo:gender <http://d-nb.info/standards/vocab/gnd/gender#male> ;
+	gndo:dateOfBirth "1749-08-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	gndo:dateOfDeath "1832-03-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+
