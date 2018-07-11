@@ -11386,7 +11386,18 @@ wd:Q1821399 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ], [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Leuchttonne" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 67401610 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ; 
             rdfs:label "Leuchttonne"@de .
 
 
@@ -11480,6 +11491,17 @@ wd:Q190107 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ],  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Wetterstation" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 31104100 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:label "Weather Station"@en ,
                       "weather station"@en .
@@ -11510,6 +11532,17 @@ wd:Q192350 rdf:type owl:Class ;
                                                                              owl:oneOf ( xerl:EN_Behoerde_Ministerium
                                                                                        )
                                                                            ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ],  [ owl:intersectionOf ( xerl:XE_Behoerde
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Ministerium" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 62101600 ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
@@ -11556,7 +11589,18 @@ wd:Q19279682 rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
-                                 ] ;
+                                 ],  [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Fluechtlingsunterkunft" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 63301820 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ]  ;
              rdfs:label "refugee accommodation"@de .
 
 
@@ -11639,7 +11683,18 @@ wd:Q1939700 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ], ,  [ owl:intersectionOf ( xerl:XE_Sport
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "SeilgartenKlettergarten" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 31305020 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "rope course"@en .
 
 
@@ -11702,7 +11757,18 @@ wd:Q1996635 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ] ,  [ owl:intersectionOf ( xerl:XE_Dienstleistung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Optiker" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 72402300 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ];
             rdfs:label "optician"@en .
 
 
@@ -11718,7 +11784,18 @@ wd:Q2002253 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ], ,  [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "KinderNotinsel" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 63301070 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "KinderNotinsel"@de .
 
 
@@ -11790,7 +11867,18 @@ wd:Q2072285 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ],  [ owl:intersectionOf ( xerl:XE_Kultureinrichtung
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "AtelierKuenstlerhaus" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 21301020 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "atelier"@en .
 
 
@@ -11811,6 +11899,17 @@ wd:Q207694 rdf:type owl:Class ;
                                                                              owl:oneOf ( xerl:EN_Museum_Kunstmuseum
                                                                                        )
                                                                            ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ], ,  [ owl:intersectionOf ( xerl:XE_Museum
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Kunstmuseum" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 21101400 ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
@@ -11899,6 +11998,17 @@ wd:Q213283 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ], ,  [ owl:intersectionOf ( xerl:XE_Behoerde
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Botschaft" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 62101650 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:label "diplomatic mission"@en .
 
@@ -11923,7 +12033,18 @@ wd:Q2136798 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ],  [ owl:intersectionOf ( xerl:XE_Einzelhandel
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Reformhaus" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 72301060 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "Reformhaus"@de .
 
 
