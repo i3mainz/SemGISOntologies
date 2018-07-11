@@ -11683,7 +11683,7 @@ wd:Q1939700 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ], ,  [ owl:intersectionOf ( xerl:XE_Sport
+                                ],  [ owl:intersectionOf ( xerl:XE_Sport
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:hasValue "SeilgartenKlettergarten" ;
@@ -11784,7 +11784,7 @@ wd:Q2002253 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ], ,  [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
+                                ], [ owl:intersectionOf ( xerl:XE_SozialEinrichtung
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:hasValue "KinderNotinsel" ;
@@ -11902,7 +11902,7 @@ wd:Q207694 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ], ,  [ owl:intersectionOf ( xerl:XE_Museum
+                               ],  [ owl:intersectionOf ( xerl:XE_Museum
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:hasValue "Kunstmuseum" ;
@@ -11998,7 +11998,7 @@ wd:Q213283 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
-                               ], ,  [ owl:intersectionOf ( xerl:XE_Behoerde
+                               ],  [ owl:intersectionOf ( xerl:XE_Behoerde
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xerl:objektFunktion ;
                                                         owl:hasValue "Botschaft" ;
