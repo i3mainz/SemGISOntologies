@@ -12071,7 +12071,18 @@ wd:Q2138424 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ],  [ owl:intersectionOf ( xerl:XE_Flughafen
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Regionalflughafen ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 66401100 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:label "regional airport"@en .
 
 
@@ -12145,7 +12156,18 @@ wd:Q2168243 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ],  [ owl:intersectionOf ( xerl:XE_Wasserverkehr
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Untiefe" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 67401900 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ];
             rdfs:label "shallow"@en .
 
 
@@ -12176,6 +12198,17 @@ wd:Q218550 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ],  [ owl:intersectionOf ( xerl:XE_Behoerde
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Zollamt" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 62101550 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:subClassOf [ owl:intersectionOf ( inspire-us-govserv:GovernmentalService
                                                   [ rdf:type owl:Restriction ;
@@ -12203,6 +12236,17 @@ wd:Q220142 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ],  [ owl:intersectionOf ( xerl:XE_Einzelhandel
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Zoohandlung" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 72301540 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
                                ] ;
            rdfs:label "pet store"@en .
 
@@ -12220,6 +12264,17 @@ wd:Q221618 rdf:type owl:Class ;
                                                                              owl:oneOf ( xerl:EN_Einzelhandel_Erotikshop
                                                                                        )
                                                                            ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ], [ owl:intersectionOf ( xerl:XE_Einzelhandel
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Erotikshop" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 72301220 ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
@@ -12351,7 +12406,18 @@ wd:Q22815176 rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
-                                 ] ;
+                                 ],  [ owl:intersectionOf ( xerl:XE_Bauwerk
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Foersterei" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 22201250 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
              rdfs:label "Forestry"@en .
 
 
@@ -12532,7 +12598,18 @@ wd:Q23397 rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
-                              ] ;
+                              ],  [ owl:intersectionOf ( xerl:XE_NaturLandschaft
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "See" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 31101510 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
           rdfs:label "Lake"@en .
 
 
@@ -12571,7 +12648,18 @@ wd:Q2354897 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
-                                ] ;
+                                ], ,  [ owl:intersectionOf ( xerl:XE_Behoerde
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektFunktion ;
+                                                        owl:hasValue "Strassenmeisterei" ;
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty xerl:objektCode ;
+                                                        owl:hasValue 62101801 ;
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
             rdfs:subClassOf [ owl:intersectionOf ( inspire-us-govserv:GovernmentalService
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty inspire-us-govserv:serviceType ;
