@@ -23,6 +23,8 @@
       xerl:code "71201300" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_NUTZUNGSSTATUS_UrspruenglichGenutzt
       a       owl:NamedIndividual , xerl:EN_NUTZUNGSSTATUS ;
       rdfs:label "UrspruenglichGenutzt" .
@@ -56,8 +58,6 @@ xerl:EN_Wanderweg
       xerl:code "41000000" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/72202630_EN_GewerbeIndustrie_Heizungsinstallation>
       a       xerl:EN_GewerbeIndustrie ;
       rdfs:label "Heizungsinstallation"@de ;
@@ -84,6 +84,8 @@ xerl:objektTelefon
       skos:definition "Staumauer einer Talsperre, nicht der See als Erholungsobjekt"@de ;
       xerl:code "22301220" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_GASTRONOMIE_KUECHE_Balkanspezialitäten
       a       xerl:EN_GASTRONOMIE_KUECHE , owl:NamedIndividual ;
@@ -120,6 +122,8 @@ xerl:EN_FOERDERSCHWERPUNKT_FoederschwerpunktGehoerlose
       xerl:code "72402220" ;
       xerl:sinceVersion "3.1" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:XE_Kino
       a       owl:Class , owl:ObjectProperty ;
       rdfs:label "XE_Kino"@de ;
@@ -127,8 +131,6 @@ xerl:XE_Kino
       rdfs:subClassOf xerl:XE_OrtVonInteresse ;
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_OrtVonInteresse ;
       skos:definition "Orte von Interesse, an denen öffentlich Filme vorgeführt werden."@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/67401800_EN_Wasserverkehr_Trinkwasserentnahmestelle>
       a       xerl:EN_Wasserverkehr ;
@@ -200,138 +202,13 @@ xerl:XE_OrtVonInteresse
       rdfs:subClassOf xerl:XErleben2 , <http://www.opengis.net/gml/3.2#AbstractFeature> ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Adresse ;
-                owl:onProperty xerl:XE_Adresse
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Ressource ;
-                owl:onProperty xerl:XE_Ressource
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Adresse ;
-                owl:onProperty xerl:objektAdresse
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom <http://xoev.de/latinchars/1_1/datatypes#String.Latin> ;
-                owl:onProperty xerl:objektName
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Telefon ;
-                owl:onProperty xerl:XE_Telefon
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_KLASS_TOURISMUS ;
-                owl:onProperty xerl:klassifizierungTourismus
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Oeffnungszeiten ;
-                owl:onProperty xerl:XE_Oeffnungszeiten
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Postfachadresse ;
-                owl:onProperty xerl:XE_Postfachadresse
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom <http://www.opengis.net/gml/3.2#MultiPoint> ;
-                owl:onProperty xerl:lagePunktmenge
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom <urn:oasis:names:tc:ciq:xsdschema:xAL:2.0#AddressDetails> ;
-                owl:onProperty xerl:objektXalAddress
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:replaceref_XE_Telefon ;
-                owl:onProperty xerl:XE_Telefon
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Oeffnungszeiten ;
-                owl:onProperty xerl:besuchOeffnungszeiten
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_BETRIEBSSTATUS ;
-                owl:onProperty xerl:infoStatus
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Externe_Info ;
-                owl:onProperty xerl:infoVerweis
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_OviBeziehung ;
-                owl:onProperty xerl:bez
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Praedikat ;
-                owl:onProperty xerl:praedikat
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:replaceref_XE_Adresse ;
-                owl:onProperty xerl:XE_Adresse
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_KLASS_BEDEUTUNG ;
-                owl:onProperty xerl:klassifizierungBedeutung
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:replaceref_XE_Postfachadresse ;
-                owl:onProperty xerl:XE_Postfachadresse
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Telefon ;
-                owl:onProperty xerl:objektFax
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Postfachadresse ;
-                owl:onProperty xerl:objektPostfachadresse
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:replaceref_XE_Ressource ;
-                owl:onProperty xerl:XE_Ressource
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
                 owl:allValuesFrom <http://www.opengis.net/gml/3.2#Surface> ;
                 owl:onProperty xerl:lageFlaeche
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:allValuesFrom <http://www.opengis.net/gml/3.2#Curve> ;
-                owl:onProperty xerl:lageVerlauf
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:replaceref_XE_Oeffnungszeiten ;
-                owl:onProperty xerl:XE_Oeffnungszeiten
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Barrierefreiheit_Info ;
-                owl:onProperty xerl:barrierefreiFuer
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Telefon ;
-                owl:onProperty xerl:objektTelefon
+                owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> ;
+                owl:onProperty xerl:XE_OrtVonInteresse
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
@@ -345,8 +222,133 @@ xerl:XE_OrtVonInteresse
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> ;
-                owl:onProperty xerl:XE_OrtVonInteresse
+                owl:allValuesFrom xerl:EN_KLASS_BEDEUTUNG ;
+                owl:onProperty xerl:klassifizierungBedeutung
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:replaceref_XE_Adresse ;
+                owl:onProperty xerl:XE_Adresse
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom <http://www.opengis.net/gml/3.2#MultiPoint> ;
+                owl:onProperty xerl:lagePunktmenge
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Postfachadresse ;
+                owl:onProperty xerl:XE_Postfachadresse
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Adresse ;
+                owl:onProperty xerl:objektAdresse
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Ressource ;
+                owl:onProperty xerl:XE_Ressource
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom <http://xoev.de/latinchars/1_1/datatypes#String.Latin> ;
+                owl:onProperty xerl:objektName
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Telefon ;
+                owl:onProperty xerl:XE_Telefon
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Telefon ;
+                owl:onProperty xerl:objektTelefon
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Barrierefreiheit_Info ;
+                owl:onProperty xerl:barrierefreiFuer
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:EN_KLASS_TOURISMUS ;
+                owl:onProperty xerl:klassifizierungTourismus
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Oeffnungszeiten ;
+                owl:onProperty xerl:XE_Oeffnungszeiten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Praedikat ;
+                owl:onProperty xerl:praedikat
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_OviBeziehung ;
+                owl:onProperty xerl:bez
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:EN_BETRIEBSSTATUS ;
+                owl:onProperty xerl:infoStatus
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Externe_Info ;
+                owl:onProperty xerl:infoVerweis
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Adresse ;
+                owl:onProperty xerl:XE_Adresse
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Oeffnungszeiten ;
+                owl:onProperty xerl:besuchOeffnungszeiten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:replaceref_XE_Oeffnungszeiten ;
+                owl:onProperty xerl:XE_Oeffnungszeiten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom <http://www.opengis.net/gml/3.2#Curve> ;
+                owl:onProperty xerl:lageVerlauf
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:replaceref_XE_Postfachadresse ;
+                owl:onProperty xerl:XE_Postfachadresse
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Telefon ;
+                owl:onProperty xerl:objektFax
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:replaceref_XE_Ressource ;
+                owl:onProperty xerl:XE_Ressource
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Postfachadresse ;
+                owl:onProperty xerl:objektPostfachadresse
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:replaceref_XE_Telefon ;
+                owl:onProperty xerl:XE_Telefon
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom <urn:oasis:names:tc:ciq:xsdschema:xAL:2.0#AddressDetails> ;
+                owl:onProperty xerl:objektXalAddress
               ] ;
       rdfs:subPropertyOf xerl:XErleben2 ;
       owl:Class "" ;
@@ -416,6 +418,8 @@ xerl:EN_BLICKRICHTUNG
       xerl:code "72401100" ;
       xerl:sinceVersion "3.1" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:abschnittVerlauf
       a       owl:ObjectProperty ;
       rdfs:domain xerl:XE_Wegabschnitt ;
@@ -465,8 +469,6 @@ xerl:EN_SonstigerFreizeitweg
       xerl:code "63101020" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://xoev.de/latinchars/1_1/datatypes#String.Latin>
       a       owl:Class .
 
@@ -475,46 +477,6 @@ xerl:XE_Wegabschnitt
       rdfs:label "XE_Wegabschnitt"@de ;
       rdfs:range xerl:XE_Wegabschnitt ;
       rdfs:subClassOf xerl:XErleben2 , <http://www.opengis.net/gml/3.2#AbstractFeature> ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_LWG_WEGABSCHNITT ;
-                owl:onProperty xerl:abschnittLage
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Wegknoten ;
-                owl:onProperty xerl:VonKnoten
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_WGF_WEGABSCHNITT ;
-                owl:onProperty xerl:abschnittWegefuehrung
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Wegknoten ;
-                owl:onProperty xerl:XE_Wegknoten
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_ZST_WEGABSCHNITT ;
-                owl:onProperty xerl:abschnittZustand
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Externe_Info ;
-                owl:onProperty xerl:verweis
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:EN_BSM_WEGABSCHNITT ;
-                owl:onProperty xerl:abschnittBesMerkmal
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Wegknoten ;
-                owl:onProperty xerl:abschnittBisKnoten
-              ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
                 owl:allValuesFrom xerl:EN_UGR_WEGABSCHNITT ;
@@ -534,6 +496,46 @@ xerl:XE_Wegabschnitt
               [ a       owl:Restriction ;
                 owl:allValuesFrom xerl:XE_Wegknoten ;
                 owl:onProperty xerl:BisKnoten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:EN_WGF_WEGABSCHNITT ;
+                owl:onProperty xerl:abschnittWegefuehrung
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Wegknoten ;
+                owl:onProperty xerl:VonKnoten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:EN_ZST_WEGABSCHNITT ;
+                owl:onProperty xerl:abschnittZustand
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Wegknoten ;
+                owl:onProperty xerl:XE_Wegknoten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Externe_Info ;
+                owl:onProperty xerl:verweis
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:EN_BSM_WEGABSCHNITT ;
+                owl:onProperty xerl:abschnittBesMerkmal
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:XE_Wegknoten ;
+                owl:onProperty xerl:abschnittBisKnoten
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom xerl:EN_LWG_WEGABSCHNITT ;
+                owl:onProperty xerl:abschnittLage
               ] ;
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Kleinste, zusammenhängende Einheit eines Freizeitweges mit gleichen Attributwerten. Dem 'Wegabschnitt'  können Angaben zum Zustand, zur Verkehrsbelastung etc. zugeordnet werden. Ein Freizeitweg besteht i.d.R. aus mehreren Wegabschnitten."@de .
@@ -557,6 +559,8 @@ xerl:EN_VerEntsorgungsbetrieb
       xerl:code "64100000" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:XE_Barrierefreiheit_Info
       a       owl:Class , owl:ObjectProperty ;
       rdfs:label "XE_Barrierefreiheit_Info"@de ;
@@ -576,8 +580,6 @@ xerl:EN_BETRIEBSSTATUS_Stillgelegt
       skos:definition "Anlage zum Bobfahren, i.d.R. professionelle Nutzung, aber auch touristische Nutzung möglich."@de ;
       xerl:code "31302500" ;
       xerl:sinceVersion "1.0" .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/66309900_EN_OEVLinie_VerkehrsmittelSonstigesLinie>
       a       xerl:EN_OEVLinie ;
@@ -651,8 +653,6 @@ xerl:XE_SozialEinrichtung_Info
       skos:definition "Öffentlich zugänglicher Streichelzoo"@de ;
       xerl:code "31201010" ;
       xerl:sinceVersion "1.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/72202580_EN_GewerbeIndustrie_Stukateur>
       a       xerl:EN_GewerbeIndustrie ;
@@ -754,8 +754,6 @@ xerl:istKauf
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Information zur Frage, ob das Objekt zum Verkauf ansteht (Ja/Nein)."@de .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:istDenkmal
       a       owl:DatatypeProperty , owl:ObjectProperty ;
       rdfs:label "istDenkmal"@de ;
@@ -834,8 +832,6 @@ xerl:EN_NaturLandschaft
       skos:definition "Freie zu vermarktende Gewerbefläche, z.B. Grundstück im Gewerbegebiet."@de ;
       xerl:code "71201200" ;
       xerl:sinceVersion "1.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/21101000_EN_Museum_Heimatkundemuseum>
       a       xerl:EN_Museum ;
@@ -927,8 +923,6 @@ xerl:XE_SonstigerFreizeitweg
       skos:definition "'Veranstaltung aus der Kategorie ''Politik und Verwaltung'' u. ä.'"@de ;
       xerl:code "51101300" ;
       xerl:sinceVersion "2.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/68101310_EN_Rettung_Hydrant>
       a       xerl:EN_Rettung ;
@@ -1172,8 +1166,6 @@ xerl:EN_GASTRONOMIE_KUECHE_Asiatisch
       a       xerl:EN_GASTRONOMIE_KUECHE , owl:NamedIndividual ;
       rdfs:label "Asiatisch" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/31101040_EN_NaturLandschaft_Arboretum>
       a       xerl:EN_NaturLandschaft ;
       rdfs:label "Arboretum"@de ;
@@ -1264,8 +1256,6 @@ xerl:XE_Gewerbeimmobilie_Info
       xerl:code "64201100" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/31501330_EN_Erholung_Indoorspielplatz>
       a       xerl:EN_Erholung ;
       rdfs:label "Indoorspielplatz"@de ;
@@ -1288,6 +1278,8 @@ xerl:EN_ADMINHIERARCHYLEVEL_6thOrder
 xerl:EN_TURNUSTAG_Sonntag
       a       xerl:EN_TURNUSTAG , owl:NamedIndividual ;
       rdfs:label "Sonntag" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/22201110_EN_Bauwerk_Schloss>
       a       xerl:EN_Bauwerk ;
@@ -1417,6 +1409,8 @@ xerl:abschnittUntergrund
       skos:definition "Nach Angaben einer Institution errichtete Abgrenzung"@de ;
       xerl:code "31201150" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:besuchKosten
       a       owl:DatatypeProperty , owl:ObjectProperty ;
@@ -1723,6 +1717,8 @@ xerl:EN_TAGESZEIT_Abends
       xerl:code "51102010" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_ART_BESCHILDERUNG_WegweiserSTVO
       a       xerl:EN_ART_BESCHILDERUNG , owl:NamedIndividual ;
       rdfs:label "WegweiserSTVO" ;
@@ -1899,6 +1895,8 @@ xerl:XE_Unterkunft
       xerl:code "66000000" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_GESUND_FACH_Sportmedizin
       a       xerl:EN_GESUND_FACH , owl:NamedIndividual ;
       rdfs:label "Sportmedizin" .
@@ -1940,6 +1938,8 @@ xerl:EN_NUTZUNGSSTATUS
       skos:definition "Eine Brennerei (Destillerie) dient der Herstellung von stark alkoholhaltigen Spirituosen aus nur schwach alkoholhaltigen Ausgangsstoffen durch Destillation (Brennen). Als Brennerei/Destillerie wird sowohl das Gebäude, als auch das Unternehmen bezeichnet."@de ;
       xerl:code "11201360" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_GESUND_FACH_Chirurgie
       a       xerl:EN_GESUND_FACH , owl:NamedIndividual ;
@@ -2064,6 +2064,8 @@ xerl:EN_ZIELGRUPPE_Radfahrer
       skos:definition "Der Schlüsseldienst ist beim Öffnen von Türen/Schlössern hilfreich."@de ;
       xerl:code "72401200" ;
       xerl:sinceVersion "3.1" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/22301200_EN_TechnischesBauwerk_Schiffshebewerk>
       a       xerl:EN_TechnischesBauwerk ;
@@ -2212,8 +2214,6 @@ xerl:EN_SOZIALANGEBOT_Wohnen
       a       xerl:EN_SOZIALANGEBOT , owl:NamedIndividual ;
       rdfs:label "Wohnen" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:EN_WGF_WEGABSCHNITT_BusspurRadfahrerFrei
       a       xerl:EN_WGF_WEGABSCHNITT , owl:NamedIndividual ;
       rdfs:label "BusspurRadfahrerFrei" .
@@ -2260,8 +2260,6 @@ xerl:EN_STRECKENVARIANTE_Hauptstrecke
       a       xerl:EN_STRECKENVARIANTE , owl:NamedIndividual ;
       rdfs:label "Hauptstrecke" .
 
-[]    owl:minCardinality "0"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:EN_Gewerbeimmobilie
       a       owl:Class ;
       rdfs:label "EN_Gewerbeimmobilie"@de ;
@@ -2284,6 +2282,8 @@ xerl:EN_TAGESZEIT_Halbtags
 xerl:EN_WGF_WEGABSCHNITT_FussRadwegGemeinsam
       a       xerl:EN_WGF_WEGABSCHNITT , owl:NamedIndividual ;
       rdfs:label "FussRadwegGemeinsam" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_Flughafen
       a       owl:Class ;
@@ -2378,6 +2378,8 @@ xerl:replaceref_XE_Ressource
       xerl:code "62101020" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/41501200_EN_SonstigerFreizeitweg_InlineSkating>
       a       xerl:EN_SonstigerFreizeitweg ;
       rdfs:label "InlineSkating"@de ;
@@ -2408,10 +2410,6 @@ xerl:EN_GEFAHRENGRUPPE
                 owl:oneOf (xerl:EN_GEFAHRENGRUPPE_Autofahrer xerl:EN_GEFAHRENGRUPPE_BlindeMenschen xerl:EN_GEFAHRENGRUPPE_Fußgänger xerl:EN_GEFAHRENGRUPPE_GehbehinderteMenschen xerl:EN_GEFAHRENGRUPPE_Inlinerfahrer xerl:EN_GEFAHRENGRUPPE_Kanuten xerl:EN_GEFAHRENGRUPPE_Kinder xerl:EN_GEFAHRENGRUPPE_Motorradfahrer xerl:EN_GEFAHRENGRUPPE_Mountainbiker xerl:EN_GEFAHRENGRUPPE_Radfahrer xerl:EN_GEFAHRENGRUPPE_Reiter xerl:EN_GEFAHRENGRUPPE_Rollstuhlfahrer xerl:EN_GEFAHRENGRUPPE_Senioren xerl:EN_GEFAHRENGRUPPE_Wassersportler)
               ] ;
       skos:definition "Gruppe von Personen mit ähnlichen Gefährdungen."@de .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_Rast
       a       owl:Class ;
@@ -2477,8 +2475,6 @@ xerl:istRuine
       a       owl:DatatypeProperty , owl:ObjectProperty ;
       rdfs:label "istRuine"@de ;
       rdfs:subPropertyOf xerl:XErleben2 .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_KNOTENTYP_Kreuzung
       a       xerl:EN_KNOTENTYP , owl:NamedIndividual ;
@@ -2614,8 +2610,6 @@ xerl:XE_SchuleAllgemein_Info
       xerl:code "66202500" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/72301005_EN_Einzelhandel_Baeckerei>
       a       xerl:EN_Einzelhandel ;
       rdfs:label "Baeckerei"@de ;
@@ -2659,8 +2653,6 @@ xerl:XE_Gewerbegebiet
       rdfs:subClassOf xerl:XE_OrtVonInteresse ;
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_OrtVonInteresse ;
       skos:definition "Orte von Interesse aus der Kategorie umfassen verschiedene Typen benannter Gewerbegebiete."@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/62101800_EN_Behoerde_FachbehoerdeVerkehr>
       a       xerl:EN_Behoerde ;
@@ -2797,6 +2789,8 @@ xerl:EN_SOZIALANGEBOT_Therapie
       xerl:code "11501010" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/72301800_EN_Einzelhandel_Spielwarengeschaeft>
       a       xerl:EN_Einzelhandel ;
       rdfs:label "Spielwarengeschaeft"@de ;
@@ -2886,6 +2880,8 @@ xerl:EN_Kultureinrichtung
       xerl:code "22301000" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/11101990_EN_Servicestelle_ServicestelleSonstiges>
       a       xerl:EN_Servicestelle ;
       rdfs:label "ServicestelleSonstiges"@de ;
@@ -2899,8 +2895,6 @@ xerl:infoLaengeM
       rdfs:label "infoLaengeM"@de ;
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Berechnete Länge eines Weges"@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_BARRIEREGRUPPE_Rollstuhlfahrer
       a       xerl:EN_BARRIEREGRUPPE , owl:NamedIndividual ;
@@ -3112,6 +3106,8 @@ xerl:XE_Radwanderweg
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_Freizeitweg ;
       skos:definition "Radwanderwege und Radrouten sind ausgeschilderte Wege für Radfahrer. Das Radwegenetz NRW sowie viele Themenrouten sind enthalten. Die Daten stammen vom Radroutenplaner NRW."@de .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:XE_Veranstaltung_Info
       a       owl:Class , owl:ObjectProperty ;
       rdfs:label "XE_Veranstaltung_Info"@de ;
@@ -3171,8 +3167,6 @@ xerl:XE_Sport
       rdfs:subClassOf xerl:XE_OrtVonInteresse ;
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_OrtVonInteresse ;
       skos:definition "Orte von Interesse aus der Kategorie Sport umfassen Stadien, Sportanlagen und weitere Indoor- und Outdoor-Sportstandorte gegliedert in einzelne Sportarten."@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/67101240_EN_Autoverkehr_WanderReitParkplatz>
       a       xerl:EN_Autoverkehr ;
@@ -3257,6 +3251,8 @@ xerl:XE_Wegweisung
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_OrtVonInteresse ;
       skos:definition "Orte von Interesse aus der Kategorie Wegweisung umfassen Wegweiser und Schilder für Radwege, Reitwege und Wanderwege."@de .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/66201200_EN_OEVTrasse_SchwebebahnTrasse>
       a       xerl:EN_OEVTrasse ;
       rdfs:label "SchwebebahnTrasse"@de ;
@@ -3338,6 +3334,8 @@ xerl:freitag1_bis
       rdfs:range <http://www.w3.org/2001/XMLSchematime> ;
       rdfs:subPropertyOf xerl:XErleben2 .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_KLASS_TOURISMUS
       a       owl:Class ;
       rdfs:label "EN_KLASS_TOURISMUS"@de ;
@@ -3356,8 +3354,6 @@ xerl:EN_ZIELGRUPPE_Jeder
       a       xerl:EN_ZIELGRUPPE , owl:NamedIndividual ;
       rdfs:label "Jeder" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:EN_NATURSCHUTZSTATUS_FFHGebiet
       a       xerl:EN_NATURSCHUTZSTATUS , owl:NamedIndividual ;
       rdfs:label "FFHGebiet" .
@@ -3368,6 +3364,8 @@ xerl:EN_NATURSCHUTZSTATUS_FFHGebiet
       skos:definition "Linienverlauf einer bestimmten Touristenbahnlinie"@de ;
       xerl:code "66301000" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_Religioeses
       a       owl:Class ;
@@ -3422,8 +3420,6 @@ xerl:EN_ADMINHIERARCHYLEVEL_3rdOrder
       rdfs:label "3rdOrder" ;
       skos:definition "Behörde/Institution eines Regierungsbezirks"@de .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/67101050_EN_Autoverkehr_Parkrevier>
       a       xerl:EN_Autoverkehr ;
       rdfs:label "Parkrevier"@de ;
@@ -3475,6 +3471,8 @@ xerl:abschnittBisHNrRechts
       xerl:code "22101990" ;
       xerl:sinceVersion "2.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/63301050_EN_SozialEinrichtung_Kinderheim>
       a       xerl:EN_SozialEinrichtung ;
       rdfs:label "Kinderheim"@de ;
@@ -3516,8 +3514,6 @@ xerl:wegSchluessel
       a       owl:DatatypeProperty , owl:ObjectProperty ;
       rdfs:label "wegSchluessel"@de ;
       rdfs:subPropertyOf xerl:XErleben2 .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/22401150_EN_Landmarke_Landwehr>
       a       xerl:EN_Landmarke ;
@@ -3565,6 +3561,8 @@ xerl:EN_Veranstaltungsort
       xerl:code "51200000" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/41201300_EN_Radwanderweg_RadwanderwegUeberregional>
       a       xerl:EN_Radwanderweg ;
       rdfs:label "RadwanderwegUeberregional"@de ;
@@ -3584,6 +3582,8 @@ xerl:EN_ADMINEBENE_Regierungsbezirk
       xerl:code "31102300" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/22301010_EN_TechnischesBauwerk_Windmuehle>
       a       xerl:EN_TechnischesBauwerk ;
       rdfs:label "Windmuehle"@de ;
@@ -3597,8 +3597,6 @@ xerl:EN_ADMINEBENE_Regierungsbezirk
       skos:definition "Annahmestelle oder Verteilzentrum eines Post und Paketdienstleisters"@de ;
       xerl:code "72401230" ;
       xerl:sinceVersion "3.1" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_Museum
       a       owl:Class ;
@@ -3639,6 +3637,8 @@ xerl:objektKategorie
       skos:definition "'Objekte mit der Kategorie Angebot dienen der Zusammenfassung von einzelnen Orten zu einem Angebot. Das Angebot nennt sich z.B. ''Aktiv-Wochenende für Zwei''. Es besteht aus Spaßbad, Unterkunft und Gastronomie im Hotel sowie Mountainbike- und Wandertouren.'"@de ;
       xerl:code "90001000" ;
       xerl:sinceVersion "2.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/21501150_EN_Nachtleben_Vergnuegungsmeile>
       a       xerl:EN_Nachtleben ;
@@ -3724,6 +3724,8 @@ xerl:XE_Flughafen
       xerl:code "62101750" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31301000_EN_Sport_Sportanlage>
       a       xerl:EN_Sport ;
       rdfs:label "Sportanlage"@de ;
@@ -3737,8 +3739,6 @@ xerl:XE_Flughafen
       skos:definition "Touristenbushaltestelle. In Hamburg gibt es Sightseeingbuslinien mit Haltestellen, wo man an Sehenswertem aussteigen und zusteigen kann."@de ;
       xerl:code "66102530" ;
       xerl:sinceVersion "3.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:istTouristisch
       a       owl:DatatypeProperty , owl:ObjectProperty ;
@@ -3793,6 +3793,8 @@ xerl:infoZusatzinfo
       xerl:code "61101050" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31309900_EN_Sport_SportSonstiges>
       a       xerl:EN_Sport ;
       rdfs:label "SportSonstiges"@de ;
@@ -3810,8 +3812,6 @@ xerl:EN_GASTRONOMIE_KUECHE_Thailändisch
       skos:definition "Geschäft zum Verkauf von Fahrrädern und oder E-Bikes"@de ;
       xerl:code "72301720" ;
       xerl:sinceVersion "3.1" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_GEFAHRENGRUPPE_GehbehinderteMenschen
       a       owl:NamedIndividual , xerl:EN_GEFAHRENGRUPPE ;
@@ -4032,8 +4032,6 @@ xerl:klassifizierungBedeutung
       rdfs:range xerl:EN_KLASS_BEDEUTUNG ;
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Fachliche Bedeutung des Ortes von Interesse, "@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/66202510_EN_OEVTrasse_SchulbusTrasse>
       a       xerl:EN_OEVTrasse ;
@@ -4367,8 +4365,6 @@ xerl:EN_ADMINHIERARCHYLEVEL_5thOrder
       rdfs:label "5thOrder" ;
       skos:definition "Behörde/Institution einer Verwaltungsgemeinschaft"@de .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:EN_NUTSEBENE_NUTS3
       a       owl:NamedIndividual , xerl:EN_NUTSEBENE ;
       rdfs:label "NUTS3" ;
@@ -4589,6 +4585,8 @@ xerl:zielgruppe
       xerl:code "51201400" ;
       xerl:sinceVersion "2.0" .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:istStillgelegt
       a       owl:DatatypeProperty , owl:ObjectProperty ;
       rdfs:label "istStillgelegt"@de ;
@@ -4686,6 +4684,8 @@ xerl:XE_Aussichtspunkt
       xerl:code "62101700" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/21101400_EN_Museum_Kunstmuseum>
       a       xerl:EN_Museum ;
       rdfs:label "Kunstmuseum"@de ;
@@ -4723,8 +4723,6 @@ xerl:EN_WGF_WEGABSCHNITT
                 owl:oneOf (xerl:EN_WGF_WEGABSCHNITT_Anliegerstrasse xerl:EN_WGF_WEGABSCHNITT_BusspurRadfahrerFrei xerl:EN_WGF_WEGABSCHNITT_EigenerWeg xerl:EN_WGF_WEGABSCHNITT_Fahrradstrasse xerl:EN_WGF_WEGABSCHNITT_FussRadwegGemeinsam xerl:EN_WGF_WEGABSCHNITT_FussRadwegGetrennt xerl:EN_WGF_WEGABSCHNITT_Fussgaengerbereich xerl:EN_WGF_WEGABSCHNITT_FussgaengerzoneRadfahrerFrei xerl:EN_WGF_WEGABSCHNITT_FussgaengerzoneZeitlichBegrenzteOeffnung xerl:EN_WGF_WEGABSCHNITT_GehwegRadfahrerFrei xerl:EN_WGF_WEGABSCHNITT_Mehrzweckstreifen xerl:EN_WGF_WEGABSCHNITT_Radfahrstreifen xerl:EN_WGF_WEGABSCHNITT_Radweg xerl:EN_WGF_WEGABSCHNITT_Sonstige xerl:EN_WGF_WEGABSCHNITT_Strasse xerl:EN_WGF_WEGABSCHNITT_VerkehrsberuhigterBereich xerl:EN_WGF_WEGABSCHNITT_Zone30 <http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_ForstWirtschaftsWeg%20> <http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Schutzstreifen%20>)
               ] ;
       skos:definition "Wegeführung des Wegabschnitts im Hinblick auf andere Verkehrsteilnehmer."@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/22601230_EN_Gotteshaus_TempelShintoistisch>
       a       xerl:EN_Gotteshaus ;
@@ -4996,6 +4994,8 @@ xerl:abschnittBreiteMMax
       xerl:code "22801030" ;
       xerl:sinceVersion "2.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/65101200_EN_Militaer_Militaerflugplatz>
       a       xerl:EN_Militaer ;
       rdfs:label "Militaerflugplatz"@de ;
@@ -5024,8 +5024,6 @@ xerl:EN_OEVHaltestelle
       skos:definition "Ein Bahnhof, eine Station, Halte- oder Anlegestelle für verschiedene öffentlich Verkehrsmittel."@de ;
       xerl:code "66100000" ;
       xerl:sinceVersion "1.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_ENTSORG_SAMMELGUT_Glas
       a       xerl:EN_ENTSORG_SAMMELGUT , owl:NamedIndividual ;
@@ -5109,6 +5107,8 @@ xerl:montag1_von
       xerl:code "31301500" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_FOERDERSCHWERPUNKT
       a       owl:Class ;
       rdfs:label "EN_FOERDERSCHWERPUNKT"@de ;
@@ -5147,8 +5147,6 @@ xerl:EN_ZIELGRUPPE_Motorradfahrer
 xerl:EN_BARRIEREGRUPPE_GehoerloseMenschen
       a       xerl:EN_BARRIEREGRUPPE , owl:NamedIndividual ;
       rdfs:label "GehoerloseMenschen" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_Mediathek
       a       owl:Class ;
@@ -5197,6 +5195,8 @@ xerl:EN_GEFAHRENGRUPPE_Rollstuhlfahrer
       xerl:code "31701160" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:minCardinality "0"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31201110_EN_Tierwelt_VogelparkFalknerei>
       a       xerl:EN_Tierwelt ;
       rdfs:label "VogelparkFalknerei"@de ;
@@ -5210,8 +5210,6 @@ xerl:EN_GEFAHRENGRUPPE_Rollstuhlfahrer
       skos:definition "Das Sondergebiet unterscheidet sich von anderen Gebieten, dass hier die Nutzung zweckgebunden ist. (Nutzungen: Einzelhandel, Fremdenverkehr, Kultur ...)."@de ;
       xerl:code "71101400" ;
       xerl:sinceVersion "1.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/31301510_EN_Sport_Soccerhalle>
       a       xerl:EN_Sport ;
@@ -5270,6 +5268,8 @@ xerl:XE_OEVLinie_Info
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Zusatzinformationen zu Objekten des Featuretypes XE_OEVLinie."@de .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/67101230_EN_Autoverkehr_Wanderparkplatz>
       a       xerl:EN_Autoverkehr ;
       rdfs:label "Wanderparkplatz"@de ;
@@ -5283,10 +5283,6 @@ xerl:XE_OEVLinie_Info
       skos:definition "Büro eines Exkursionsanbieters, Stadtführungen, Fremdenführers, Bergführers etc."@de ;
       xerl:code "72402230" ;
       xerl:sinceVersion "3.1" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/62101660_EN_Behoerde_Konsulat>
       a       xerl:EN_Behoerde ;
@@ -5487,8 +5483,6 @@ xerl:EN_Weiterbildung
       xerl:code "61200000" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:XE_Telefon
       a       owl:Class , owl:ObjectProperty ;
       rdfs:label "XE_Telefon"@de ;
@@ -5612,8 +5606,6 @@ xerl:XE_Lehrpfad
 xerl:EN_GASTRONOMIE_KUECHE_Iranisch
       a       xerl:EN_GASTRONOMIE_KUECHE , owl:NamedIndividual ;
       rdfs:label "Iranisch" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/11102220_EN_Servicestelle_Trinkwasserstelle>
       a       xerl:EN_Servicestelle ;
@@ -5887,6 +5879,8 @@ xerl:EN_ART_BESCHILDERUNG_Wegweiser
       xerl:code "31701200" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/22101200_EN_Siedlung_Promenade>
       a       xerl:EN_Siedlung ;
       rdfs:label "Promenade"@de ;
@@ -6111,6 +6105,8 @@ xerl:kueche
       xerl:code "66301160" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31302550_EN_Sport_Skiverleih>
       a       xerl:EN_Sport ;
       rdfs:label "Skiverleih"@de ;
@@ -6178,6 +6174,8 @@ xerl:XE_Shopping
       skos:definition "Radverkehrsnetz eines Bundeslandes"@de ;
       xerl:code "41201000" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_GASTRONOMIE_KUECHE_Persisch
       a       xerl:EN_GASTRONOMIE_KUECHE , owl:NamedIndividual ;
@@ -6350,6 +6348,8 @@ xerl:infoStatus
       xerl:code "31501320" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_GESUND_FACH_Allgemeinmedizin
       a       xerl:EN_GESUND_FACH , owl:NamedIndividual ;
       rdfs:label "Allgemeinmedizin" .
@@ -6396,6 +6396,8 @@ xerl:knotentyp
       rdfs:range xerl:EN_KNOTENTYP ;
       rdfs:subPropertyOf xerl:XErleben2 .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31303100_EN_Sport_Pferdeverleih>
       a       xerl:EN_Sport ;
       rdfs:label "Pferdeverleih"@de ;
@@ -6416,8 +6418,6 @@ xerl:replaceref_XE_Oeffnungszeiten
 xerl:EN_SOZIALANGEBOT_Selbsthilfe
       a       xerl:EN_SOZIALANGEBOT , owl:NamedIndividual ;
       rdfs:label "Selbsthilfe" .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/66101500_EN_OEVHaltestelle_SeilbahnStation>
       a       xerl:EN_OEVHaltestelle ;
@@ -6464,6 +6464,8 @@ xerl:ortszusatz
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Namenszusatz für den Ort"@de .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_TURNUSTAG
       a       owl:Class ;
       rdfs:label "EN_TURNUSTAG"@de ;
@@ -6488,8 +6490,6 @@ xerl:EN_ZIELGRUPPE_SozialSchwache
 xerl:EN_WGF_WEGABSCHNITT_FussgaengerzoneZeitlichBegrenzteOeffnung
       a       xerl:EN_WGF_WEGABSCHNITT , owl:NamedIndividual ;
       rdfs:label "FussgaengerzoneZeitlichBegrenzteOeffnung" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/63101120_EN_Gesundheit_Tagesklinik>
       a       xerl:EN_Gesundheit ;
@@ -6539,6 +6539,8 @@ xerl:EN_VERENTSORG_FACH_Waerme
       xerl:code "66102600" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31701310_EN_Moeblierung_Litfasssaeule>
       a       xerl:EN_Moeblierung ;
       rdfs:label "Litfasssaeule"@de ;
@@ -6567,6 +6569,8 @@ xerl:XE_Landmarke
       skos:definition "Fachbehörde / Amt für Dienstleistungen in den Ressorts Umwelt- und Naturschutz."@de ;
       xerl:code "62101890" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/31501500_EN_Erholung_Erlebnisbauernhof>
       a       xerl:EN_Erholung ;
@@ -6618,6 +6622,8 @@ xerl:EN_STRECKENVARIANTE
               ] ;
       skos:definition "Kennzeichung einer Route als Hauptroute, Nebenstrecke oder an einem Ende nicht verbundene Stichstrecke."@de .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/72301200_EN_Einzelhandel_DrogerieParfuemerie>
       a       xerl:EN_Einzelhandel ;
       rdfs:label "DrogerieParfuemerie"@de ;
@@ -6632,8 +6638,6 @@ xerl:XE_Bauwerk
       rdfs:subClassOf xerl:XE_OrtVonInteresse ;
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_OrtVonInteresse ;
       skos:definition "Orte von Interesse aus der Kategorie Bauwerk umfassen Objekte wie Stadtbefestigungen, Burgen, Schlösser, die sich durch ihre Historie oder besondere Architektur auszeichnen."@de .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_VERENTSORG_FACH_Gas
       a       owl:NamedIndividual , xerl:EN_VERENTSORG_FACH ;
@@ -6857,6 +6861,8 @@ xerl:knotensystem
       xerl:code "11401700" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_GESUND_FACH_PsychiatrieSucht
       a       xerl:EN_GESUND_FACH , owl:NamedIndividual ;
       rdfs:label "PsychiatrieSucht" .
@@ -6904,6 +6910,8 @@ xerl:mimetype
       rdfs:label "mimetype"@de ;
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Ggf. MIME-Type-Bezeichnung für das Datenformat bei Bildern, Audio- und Video-Dateien"@de .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/67401900_EN_Wasserverkehr_Untiefe>
       a       xerl:EN_Wasserverkehr ;
@@ -7477,8 +7485,6 @@ xerl:istMiete
       rdfs:subPropertyOf xerl:XErleben2 ;
       skos:definition "Information zu der Frage, ob das Objekt gemietet werden kann (Ja/Nein)."@de .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:EN_BLICKRICHTUNG_Suedwest
       a       xerl:EN_BLICKRICHTUNG , owl:NamedIndividual ;
       rdfs:label "Suedwest" .
@@ -7626,8 +7632,6 @@ xerl:XE_OEVTrasse
       rdfs:subClassOf xerl:XE_OrtVonInteresse ;
       rdfs:subPropertyOf xerl:XErleben2 , xerl:XE_OrtVonInteresse ;
       skos:definition "Eine OEVTrasse ist eine erfasste Fahrstrecke eines öffentlichen Verkehrsmittels, z.B. die Gleise einer Bahn, oder eine Strecke, die regelmäßig von Bussen oder Schiffen befahren wird."@de .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/51101150_EN_Veranstaltung_KunstKulturVeranstaltung>
       a       xerl:EN_Veranstaltung ;
@@ -7781,8 +7785,6 @@ xerl:EN_BSM_WEGABSCHNITT_Rollstuhlgerecht
       xerl:code "66302510" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:XE_Reitweg
       a       owl:Class , owl:ObjectProperty ;
       rdfs:label "XE_Reitweg"@de ;
@@ -7859,8 +7861,6 @@ xerl:EN_LWG_WEGABSCHNITT_AufEigenstaendigemPfad
       skos:definition "Beratung und Verkauf von Urlaubsreisen, Flügen"@de ;
       xerl:code "72402200" ;
       xerl:sinceVersion "3.1" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/66301600_EN_OEVLinie_SesselliftLinie>
       a       xerl:EN_OEVLinie ;
@@ -7999,8 +7999,6 @@ xerl:EN_GESUND_FACH_Neurologie
       a       xerl:EN_GESUND_FACH , owl:NamedIndividual ;
       rdfs:label "Neurologie" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.opengis.net/gml/3.2#AbstractObject>
       a       owl:Class .
 
@@ -8074,8 +8072,6 @@ xerl:abschnittBesMerkmal
       rdfs:label "abschnittBesMerkmal"@de ;
       rdfs:range xerl:EN_BSM_WEGABSCHNITT ;
       rdfs:subPropertyOf xerl:XErleben2 .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <urn:oasis:names:tc:ciq:xsdschema:xAL:2.0#AddressDetails>
       a       owl:Class .
@@ -8525,8 +8521,8 @@ xerl:XE_Person
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Telefon ;
-                owl:onProperty xerl:fax
+                owl:allValuesFrom xerl:URI ;
+                owl:onProperty xerl:url
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
@@ -8535,8 +8531,8 @@ xerl:XE_Person
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:XE_Postfachadresse ;
-                owl:onProperty xerl:postfachadresse
+                owl:allValuesFrom xerl:XE_Telefon ;
+                owl:onProperty xerl:fax
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
@@ -8545,8 +8541,8 @@ xerl:XE_Person
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:allValuesFrom xerl:URI ;
-                owl:onProperty xerl:url
+                owl:allValuesFrom xerl:XE_Postfachadresse ;
+                owl:onProperty xerl:postfachadresse
               ] ;
       rdfs:subPropertyOf xerl:XErleben2 ;
       owl:Class "" .
@@ -8977,8 +8973,6 @@ xerl:knotenschluessel
       xerl:code "31601050" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/71301000_EN_Logistik_Autobahnanschlussstelle>
       a       xerl:EN_Logistik ;
       rdfs:label "Autobahnanschlussstelle"@de ;
@@ -9011,6 +9005,8 @@ xerl:istIndustriedenkmal
       skos:definition "Dient dem Transport von Gas."@de ;
       xerl:code "64101310" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:abschnittLage
       a       owl:ObjectProperty ;
@@ -9202,6 +9198,8 @@ xerl:EN_ZST_WEGABSCHNITT_GrobBefestigt
       xerl:code "22401350" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_ZIELGRUPPE_Sonstige
       a       xerl:EN_ZIELGRUPPE , owl:NamedIndividual ;
       rdfs:label "Sonstige" .
@@ -9238,8 +9236,6 @@ xerl:EN_Servicestelle
       skos:definition "MalerLackierer"@de ;
       xerl:code "72202740" ;
       xerl:sinceVersion "3.1" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_FOERDERSCHWERPUNKT_FoerderschwerpunktBlinde
       a       xerl:EN_FOERDERSCHWERPUNKT , owl:NamedIndividual ;
@@ -9303,6 +9299,8 @@ xerl:EN_GESUND_FACH_SonstigesFachgebiet
       xerl:code "11501000" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/72202510_EN_GewerbeIndustrie_Bauunternehmen>
       a       xerl:EN_GewerbeIndustrie ;
       rdfs:label "Bauunternehmen"@de ;
@@ -9331,8 +9329,6 @@ xerl:blickwinkel
       rdfs:label "blickwinkel"@de ;
       rdfs:range xerl:EN_BLICKWINKEL ;
       rdfs:subPropertyOf xerl:XErleben2 .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:lageBezirkRolle
       a       owl:DatatypeProperty , owl:ObjectProperty ;
@@ -9402,8 +9398,6 @@ xerl:EN_TURNUSTAG_Samstag
       a       xerl:EN_TURNUSTAG , owl:NamedIndividual ;
       rdfs:label "Samstag" .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/31303090_EN_Sport_Reitstadion>
       a       xerl:EN_Sport ;
       rdfs:label "Reitstadion"@de ;
@@ -9449,6 +9443,8 @@ xerl:EN_GESUND_FACH_Augen
       skos:definition "Eine Babyklappe ermöglicht es Müttern in Not, ihr Neugeborenes anonym bei einer Institution abzugeben."@de ;
       xerl:code "63301060" ;
       xerl:sinceVersion "3.1" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:lagePunktmenge
       a       owl:ObjectProperty ;
@@ -9499,6 +9495,8 @@ xerl:EN_LWG_WEGABSCHNITT_AufForstLandwirtschaftsweg
       skos:definition "Auffällige Markierung oder besonderes, weithin sichtbares Merkmal in der Landschaft, das nicht zu den bisher angeführten Kategorien zählt (z. B. freistehende, markante große Bäume oder Bauobjekte)."@de ;
       xerl:code "22401990" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:XE_Wegknoten
       a       owl:Class , owl:ObjectProperty ;
@@ -9574,14 +9572,14 @@ xerl:titel
       a       owl:Class ;
       rdfs:subClassOf geosparql:Geometry .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/11501020_EN_Shopping_Einkaufszentrum>
       a       xerl:EN_Shopping ;
       rdfs:label "Einkaufszentrum"@de ;
       skos:definition "Einkaufszentrum mit einer räumlichen Konzentration von Einzelhandelsgeschäften und Dienstleistungsfirmen, zentralen Parkplätzen und oftmals erweiterten, vielfältigen Angeboten wie Kinos (z. B. Centro Oberhausen)."@de ;
       xerl:code "11501020" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_GASTRONOMIE_KUECHE_Rumänisch
       a       xerl:EN_GASTRONOMIE_KUECHE , owl:NamedIndividual ;
@@ -9612,6 +9610,8 @@ xerl:EN_ENTSORG_SAMMELGUT_Sondermuell
       skos:definition "Haltestelle für meist vierrädrige Bahndienstfahrzeuge (Draisinen), die mit Muskel- oder Motorantrieb ausgestattet sind. Sie dienen als Hilfsfahrzeug bei Inspektionen sowie für touristische Zwecke."@de ;
       xerl:code "66101010" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/31305000_EN_Sport_Kletteranlage>
       a       xerl:EN_Sport ;
@@ -9679,6 +9679,8 @@ xerl:XE_Verband
       xerl:code "72301440" ;
       xerl:sinceVersion "3.1" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:EN_SOZIALANGEBOT_Arbeit
       a       xerl:EN_SOZIALANGEBOT , owl:NamedIndividual ;
       rdfs:label "Arbeit" .
@@ -9743,6 +9745,8 @@ xerl:donnerstag1_bis
       xerl:code "66301520" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 xerl:dienstag1_bis
       a       owl:DatatypeProperty , owl:ObjectProperty ;
       rdfs:domain xerl:XE_Oeffnungszeiten ;
@@ -9795,6 +9799,8 @@ xerl:EN_BLICKRICHTUNG_Ost
       skos:definition "Kloster oder Klostergebäude mit besonderer touristischer Bedeutung (Baustil, Historie, Inventar). "@de ;
       xerl:code "22601150" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:XE_Veranstaltungsort_Info
       a       owl:Class , owl:ObjectProperty ;
@@ -10318,6 +10324,8 @@ xerl:EN_ENTSORG_SAMMELGUT
       xerl:code "67401300" ;
       xerl:sinceVersion "1.0" .
 
+[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
+
 <http://www.xerleben.de/schema/2.0_1/31302050_EN_Sport_Bootsvermietung>
       a       xerl:EN_Sport ;
       rdfs:label "Bootsvermietung"@de ;
@@ -10378,6 +10386,8 @@ xerl:EN_BARRIEREGRUPPE_Rollator
       skos:definition "Technische Einrichtung bzw. technisches Gerät zur Bargeldabhebung oder auch -einzahlung bei Geld- und Kreditinstituten. "@de ;
       xerl:code "11101300" ;
       xerl:sinceVersion "2.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/31701100_EN_Moeblierung_Steighilfe>
       a       xerl:EN_Moeblierung ;
@@ -10458,6 +10468,8 @@ xerl:nutsebene
       skos:definition "Gebäude mit regelmäßigen, öffentlichen Kabarettveranstaltungen, i.d.R. gegen Entgelt. "@de ;
       xerl:code "21201060" ;
       xerl:sinceVersion "1.0" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_WGF_WEGABSCHNITT_Fahrradstrasse
       a       xerl:EN_WGF_WEGABSCHNITT , owl:NamedIndividual ;
@@ -10547,6 +10559,8 @@ xerl:donnerstag1_von
       skos:definition "Geschäft zum Verkauf von Getränken und Spirituosen"@de ;
       xerl:code "72301040" ;
       xerl:sinceVersion "3.1" .
+
+[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_GESUND_FACH_InnereMedizin
       a       xerl:EN_GESUND_FACH , owl:NamedIndividual ;
@@ -10947,8 +10961,6 @@ xerl:infoTraegerart
       xerl:code "31302560" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/22301110_EN_TechnischesBauwerk_Leuchtturm>
       a       xerl:EN_TechnischesBauwerk ;
       rdfs:label "Leuchtturm"@de ;
@@ -11075,8 +11087,6 @@ xerl:infoExterneInfo
       skos:definition "Haltestelle bzw. Bahnhof im Schienensystem des öffentlichen Personenfernverkehrs (SPNV). Die Station wird u. a. von den Fernzügen Intercity-Express (ICE), InterCity (IC) und EuroCity (EC) angefahren."@de ;
       xerl:code "66101120" ;
       xerl:sinceVersion "1.0" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/72202540_EN_GewerbeIndustrie_Fensterbau>
       a       xerl:EN_GewerbeIndustrie ;
@@ -11222,8 +11232,6 @@ xerl:EN_SOZIALANGEBOT_Notruf
       xerl:code "31304560" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 <http://www.xerleben.de/schema/2.0_1/62101810_EN_Behoerde_FachbehoerdeGesundheit>
       a       xerl:EN_Behoerde ;
       rdfs:label "FachbehoerdeGesundheit"@de ;
@@ -11280,8 +11288,6 @@ xerl:EN_GASTRONOMIE_KUECHE_Türkisch
 xerl:EN_NUTZUNGSSTATUS_AndersGenutzt
       a       owl:NamedIndividual , xerl:EN_NUTZUNGSSTATUS ;
       rdfs:label "AndersGenutzt" .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:metaGueltigStart
       a       owl:DatatypeProperty , owl:ObjectProperty ;
@@ -11347,8 +11353,6 @@ xerl:fax
       skos:definition "Tischlerei"@de ;
       xerl:code "72202120" ;
       xerl:sinceVersion "3.1" .
-
-[]    owl:maxCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 <http://www.xerleben.de/schema/2.0_1/41501700_EN_SonstigerFreizeitweg_AutorouteTouristisch>
       a       xerl:EN_SonstigerFreizeitweg ;
@@ -11517,8 +11521,6 @@ xerl:EN_FreizeitErholung
       xerl:code "31305100" ;
       xerl:sinceVersion "1.0" .
 
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
-
 xerl:objektEmail
       a       owl:DatatypeProperty , owl:ObjectProperty ;
       rdfs:domain xerl:XE_OrtVonInteresse ;
@@ -11549,8 +11551,6 @@ xerl:fachgebiet
                 owl:unionOf (xerl:EN_GESUND_FACH xerl:EN_VERENTSORG_FACH)
               ] ;
       rdfs:subPropertyOf xerl:XErleben2 .
-
-[]    owl:minCardinality "1"^^<http://www.w3.org/2001/XMLSchemanonNegativeInteger> .
 
 xerl:EN_ZIELGRUPPE
       a       owl:Class ;
