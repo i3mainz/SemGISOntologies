@@ -25389,6 +25389,100 @@ xplan5:XP_ZweckbestimmungWald_1200 xplan5:image "<svg xmlns=\"http://www.w3.org/
 xplan5:XP_ZweckbestimmungWald_1400 xplan5:image "<svg xmlns=\"http://www.w3.org/2000/svg\"  version=\"1.1\"><Circle  stroke=\"black\" stroke-width=\"1\"  cx=\"0\" cy=\"0\" r=\"4.5\" /><Text  fill=\"black\"  x=\"0\" y=\"1.5\" size=\"4\" text=\"E\" /></svg>"^^xplan5:svgLiteral . 
 xplan5:XP_ZweckbestimmungWald_1600 xplan5:image "<svg xmlns=\"http://www.w3.org/2000/svg\"  version=\"1.1\"><Circle  stroke=\"black\" stroke-width=\"1\"  cx=\"0\" cy=\"0\" r=\"4.5\" /><Text  fill=\"black\"  x=\"0\" y=\"1.5\" size=\"4\" text=\"SW\" /></svg>"^^xplan5:svgLiteral . 
 xplan5:XP_ZweckbestimmungWald_1800 xplan5:image "<svg xmlns=\"http://www.w3.org/2000/svg\"  version=\"1.1\"><Circle  stroke=\"black\" stroke-width=\"1\"  cx=\"0\" cy=\"0\" r=\"4.5\" /><Text  fill=\"black\"  x=\"0\" y=\"1.5\" size=\"4\" text=\"FlF\" /></svg>"^^xplan5:svgLiteral . 
-
+xplan5:BP_AbgrabungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_AbstandsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_AnpflanzungBindungErhaltung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_AufschuettungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_AusgleichsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_AusgleichsMassnahme xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_BaugebietsTeilFlaeche xplan5:style " \"fill\":\"#e45c00\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_Bereich xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_BesondererNutzungszweckFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_BodenschaetzeFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_DenkmalschutzEinzelanlage xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_DenkmalschutzEnsembleFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_EingriffsBereich xplan5:style " \"stroke\":\"red\", \"stroke-width\":\"4\" "^^xplan5:cssLiteral . 
+xplan5:BP_ErhaltungsBereichFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_FestsetzungNachLandesrecht xplan5:style " \"fill\":\"#ee3173\", \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_FoerderungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_FreiFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_GebaeudeFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"3\" "^^xplan5:cssLiteral . 
+xplan5:BP_GemeinbedarfsFlaeche xplan5:style " \"fill\":\"#ff0700\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_GemeinschaftsanlagenFlaeche xplan5:style " \"stroke\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_GemeinschaftsanlagenZuordnung xplan5:style " \"stroke\":\"#ff000\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_GenerischesObjekt xplan5:style " \"fill\":\"#610c10\", \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_GewaesserFlaeche xplan5:style " \"fill\":\"#75c7ff\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_GruenFlaeche xplan5:style " \"fill\":\"#0e480\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_Immissionsschutz xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_KennzeichnungsFlaeche xplan5:style " \"stroke\":\"#0000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_KleintierhaltungFlaeche xplan5:style " \"fill\":\"#0e480\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_Landwirtschaft xplan5:style " \"fill\":\"#99cc00\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_NebenanlagenAusschlussFlaeche xplan5:style " \"stroke\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_NebenanlagenFlaeche xplan5:style " \"stroke\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_PersGruppenBestimmteFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_Plan xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_RegelungVergnuegungsstaetten xplan5:style " \"stroke\":\"fuchsia\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_RekultivierungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_SchutzPflegeEntwicklungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_SchutzPflegeEntwicklungsMassnahme xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_Schutzgebiet xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_SpezielleBauweise xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_SpielSportanlagenFlaeche xplan5:style " \"fill\":\"white\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_StrassenVerkehrsFlaeche xplan5:style " \"fill\":\"#ffdc45\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_Strassenkoerper xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_TechnischeMassnahmenFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:BP_TextlicheFestsetzungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_UeberbaubareGrundstuecksFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_UnverbindlicheVormerkung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"4\" "^^xplan5:cssLiteral . 
+xplan5:BP_VerEntsorgung xplan5:style " \"fill\":\"#ffec99\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_Veraenderungssperre xplan5:style " \"stroke\":\"#af1ba5\", \"stroke-width\":\"3\" "^^xplan5:cssLiteral . 
+xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_WaldFlaeche xplan5:style " \"fill\":\"#339966\", \"stroke\":\"#0000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_WasserwirtschaftsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_Wegerecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_Abgrabung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_AnpassungKlimawandel xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_Aufschuettung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_AusgleichsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:FP_BebauungsFlaeche xplan5:style " \"fill\":\"#e45c00\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_Bereich xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_Bodenschaetze xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_Gemeinbedarf xplan5:style " \"fill\":\"#ff0700\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_GenerischesObjekt xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:FP_Gewaesser xplan5:style " \"fill\":\"#75c7ff\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_Gruen xplan5:style " \"fill\":\"#0e480\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche xplan5:style " \"stroke\":\"#ffff00\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_Kennzeichnung xplan5:style " \"stroke\":\"#0000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_LandwirtschaftsFlaeche xplan5:style " \"fill\":\"#99cc00\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_NutzungsbeschraenkungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_Plan xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_PrivilegiertesVorhaben xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_SchutzPflegeEntwicklung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:FP_SpielSportanlage xplan5:style " \"fill\":\"white\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_Strassenverkehr xplan5:style " \"fill\":\"#ffdc45\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_TextlicheDarstellungsFlaeche xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_UnverbindlicheVormerkung xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"4\" "^^xplan5:cssLiteral . 
+xplan5:FP_VerEntsorgung xplan5:style " \"fill\":\"#ffec99\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_VorbehalteFlaeche xplan5:style " \"stroke\":\"#646464\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:FP_WaldFlaeche xplan5:style " \"fill\":\"#339966\", \"stroke\":\"#0000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:FP_Wasserwirtschaft xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:FP_ZentralerVersorgungsbereich xplan5:style " \"fill\":\"#ffec99\", \"stroke\":\"#4430fc\", \"stroke-width\":\"01\" "^^xplan5:cssLiteral . 
+xplan5:FehlerFlaechenobjektA xplan5:style " \"fill\":\"red\" "^^xplan5:cssLiteral . 
+xplan5:FehlerFlaechenobjektB xplan5:style " \"fill\":\"#ff8a6f\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:SO_Bereich xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:SO_Bodenschutzrecht xplan5:style " \"fill\":\"#9f5000\", \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:SO_Denkmalschutzrecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:SO_Forstrecht xplan5:style " \"fill\":\"#339966\", \"stroke\":\"#0000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:SO_Gebiet xplan5:style " \"stroke\":\"red\", \"stroke-width\":\"4\" "^^xplan5:cssLiteral . 
+xplan5:SO_Luftverkehrsrecht xplan5:style " \"stroke\":\"#cc3399\", \"stroke-width\":\"4\" "^^xplan5:cssLiteral . 
+xplan5:SO_Plan xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:SO_Schienenverkehrsrecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:SO_SchutzgebietNaturschutzrecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:SO_SchutzgebietSonstRecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"3\" "^^xplan5:cssLiteral . 
+xplan5:SO_SchutzgebietWasserrecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:SO_SonstigesRecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:SO_Strassenverkehrsrecht xplan5:style " \"fill\":\"#ffdc45\", \"stroke\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:SO_Wasserrecht xplan5:style " \"stroke\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:XP_Rasterdarstellung xplan5:style " \"fill\":\"#dfdfdf\" "^^xplan5:cssLiteral . 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
