@@ -20902,7 +20902,7 @@ Die Zone III reicht von der Grenze des Einzugsgebietes bis zur Außengrenze der 
 
 
 ###  http://www.xplanung.de/xplangml/5/0#RP_WohnenSiedlungTypen_1000
-<http://www.xplanung.de/xplangml/5/0#RP_WohnenSiedlungTypen_1000> rdf:type owl:NamedIndividual ,
+<http://www.xplanung.de/xplangml/5/0#RP_WohnenSiedlungTypen_1000> rdf:type owl:Class ; rdfs:subClassOf 
                                                                            <http://www.xplanung.de/xplangml/5/0#RP_WohnenSiedlungTypen> ;
                                                                   rdfs:comment "Wohnen"@de ;
                                                                   rdfs:label "1000" .
