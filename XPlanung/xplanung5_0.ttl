@@ -25412,18 +25412,18 @@ xplan5:BP_FoerderungsFlaeche xplan5:style " \"stroke\":true, \"color\":\"black\"
 xplan5:BP_FreiFlaeche xplan5:style " \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
 xplan5:BP_GebaeudeFlaeche xplan5:style " \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"3\" "^^xplan5:cssLiteral . 
 xplan5:BP_GemeinbedarfsFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#ff0700\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
-xplan5:BP_GemeinschaftsanlagenFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
-xplan5:BP_GemeinschaftsanlagenZuordnung xplan5:style " \"stroke\":true, \"color\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_GemeinschaftsanlagenFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ff0000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_GemeinschaftsanlagenZuordnung xplan5:style " \"stroke\":true, \"color\":\"#ff0000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
 xplan5:BP_GenerischesObjekt xplan5:style " \"stroke\":true, \"color\":\"#610c10\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
 xplan5:BP_GewaesserFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#75c7ff\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
-xplan5:BP_GruenFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#0e480\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_GruenFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#0e4800\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
 xplan5:BP_HoehenMass xplan5:style " \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
 xplan5:BP_Immissionsschutz xplan5:style " \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
 xplan5:BP_KennzeichnungsFlaeche xplan5:style " \"stroke\":true, \"color\":\"#000000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
-xplan5:BP_KleintierhaltungFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#0e480\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
+xplan5:BP_KleintierhaltungFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#0e4800\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
 xplan5:BP_Landwirtschaft xplan5:style " \"stroke\":true, \"color\":\"green\" "^^xplan5:cssLiteral . 
-xplan5:BP_NebenanlagenAusschlussFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
-xplan5:BP_NebenanlagenFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ff000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_NebenanlagenAusschlussFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ff0000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
+xplan5:BP_NebenanlagenFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ff0000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
 xplan5:BP_NutzungsartenGrenze xplan5:style " \"stroke\":true, \"color\":\"#000000\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
 xplan5:BP_PersGruppenBestimmteFlaeche xplan5:style " \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
 xplan5:BP_Plan xplan5:style " \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
@@ -25457,7 +25457,7 @@ xplan5:FP_Bodenschaetze xplan5:style " \"stroke\":true, \"color\":\"black\", \"s
 xplan5:FP_Gemeinbedarf xplan5:style " \"fill\":true, \"fillColor\":\"#ff0700\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
 xplan5:FP_GenerischesObjekt xplan5:style " \"stroke\":true, \"color\":\"#610c10\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
 xplan5:FP_Gewaesser xplan5:style " \"stroke\":true, \"color\":\"#75c7ff\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
-xplan5:FP_Gruen xplan5:style " \"stroke\":true, \"color\":\"#0e480\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
+xplan5:FP_Gruen xplan5:style " \"stroke\":true, \"color\":\"#0e4800\", \"stroke-width\":\"2\" "^^xplan5:cssLiteral . 
 xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche xplan5:style " \"stroke\":true, \"color\":\"#ffff00\", \"stroke-width\":\"1\" "^^xplan5:cssLiteral . 
 xplan5:FP_Kennzeichnung xplan5:style " \"stroke\":true, \"color\":\"#000000\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
 xplan5:FP_LandwirtschaftsFlaeche xplan5:style " \"fill\":true, \"fillColor\":\"#99cc00\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"0.5\" "^^xplan5:cssLiteral . 
