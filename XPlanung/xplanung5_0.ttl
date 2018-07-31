@@ -24014,6 +24014,11 @@ Freiräume sind naturnahem Zustand, oder beinhalten Nutzungsformen, die mit sein
 <http://www.xplanung.de/xplangml/5/0#zweckbestimmung> rdfs:label "zweckbestimmung"@de .
 
 
+semgis:styleProperty rdf:type owl:AnnotationProperty .
+semgis:linestringStyle rdf:type owl:AnnotationProperty . semgis:linestringStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:polygonStyle rdf:type owl:AnnotationProperty . semgis:polygonStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
 xplan5:BP_ZweckbestimmungGemeinschaftsanlagen_3000 rdf:type owl:Class ; semgis:image "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"color\"=\"black\"  \"stroke-width\"=\"1\" width=\"36\" height=\"24\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M 14.5 21 L 11 9.5 L 26 9.5 L 22.5 21 Z\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M 11 9.5 L 10 7.5 L 11 4 L 14 3 L 23 3 L 26 4 L 27 7.5 L 26 9.5 Z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_ZweckbestimmungNebenanlagen_3000 rdf:type owl:Class ; semgis:image "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"color\"=\"black\"  \"stroke-width\"=\"1\" width=\"36\" height=\"24\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M 14.5 21 L 11 9.5 L 26 9.5 L 22.5 21 Z\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M 11 9.5 L 10 7.5 L 11 4 L 14 3 L 23 3 L 26 4 L 27 7.5 L 26 9.5 Z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_ZweckbestimmungStrassenverkehr_1000 rdf:type owl:Class ; semgis:image "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"black\" width=\"23\" height=\"23\" /><Text  \"fill\"=\"white\" size=\"20\" x=\"10.5\" y=\"20\" text=\"P\" /></svg>"^^semgis:svgLiteral . 
@@ -24288,6 +24293,8 @@ xplan5:SO_Wasserrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#75c
 xplan5:SO_Wasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:XP_LPO semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:XP_Rasterdarstellung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#dfdfdf\"  "^^semgis:cssLiteral . 
+
+
 
 
 

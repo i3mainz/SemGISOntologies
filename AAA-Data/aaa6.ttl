@@ -68022,6 +68022,11 @@ aaa6:zusatzZurLagebezeichnung skos:definition "'Zusatz zur Lagebezeichnung' ist 
 
 aaa6:zwischenmarke skos:definition "'Zwischenmarke' ist eine gebietsweise übliche Bezeichnung für ein Grenzzeichen, das in eine geradlinige Flurstücksgrenze eingebracht ist, um den Grenzverlauf bei fehlender Sichtverbindung oder großer Entfernung zwischen den Grenzzeichen ausreichend erkennbar zu machen." .
 
+semgis:styleProperty rdf:type owl:AnnotationProperty .
+semgis:linestringStyle rdf:type owl:AnnotationProperty . semgis:linestringStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:polygonStyle rdf:type owl:AnnotationProperty . semgis:polygonStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
 aaa6:AX_Bahnverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffb7e7\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
 aaa6:AX_Bahnverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\"  "^^semgis:cssLiteral . 
 aaa6:AX_Bauteil semgis:polygonStyle " \"stroke\":true, \"color\":\"maroon\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
@@ -68056,6 +68061,11 @@ aaa6:AX_Vegetationsmerkmal semgis:polygonStyle " \"fill\":true, \"fillColor\":\"
 aaa6:AX_Weg semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#5c5c5c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_WegPfadSteig semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 aaa6:AX_Wohnbauflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+
+
+
+
+
  
 
 
