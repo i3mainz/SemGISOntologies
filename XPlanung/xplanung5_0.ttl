@@ -24293,64 +24293,65 @@ xplan5:SO_Wasserrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#75c
 xplan5:SO_Wasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:XP_LPO semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:XP_Rasterdarstellung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#dfdfdf\"  "^^semgis:cssLiteral . 
-xplan5:BP_AbgrabungsFlaeche semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" />"^^semgis:svgLiteral . 
+xplan5:BP_AbgrabungsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_AbgrabungsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_AbstandsFlaeche semgis:linestringImage "<Path  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" path=\"M 0 0 L 0 -2\" /><Path  \"fill\"=\"black\" path=\"M 0 -2.5 L 0.5 -1.5 L -0.5 -1.5 Z\" />"^^semgis:svgLiteral . 
+xplan5:BP_AbstandsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" path=\"M 0 0 L 0 -2\" /><Path  \"fill\"=\"black\" path=\"M 0 -2.5 L 0.5 -1.5 L -0.5 -1.5 Z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_AbstandsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":4, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_AnpflanzungBindungErhaltung semgis:linestringImage "<Circle  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" cx=\"0\" cy=\"-2.0\" r=\"1\" />"^^semgis:svgLiteral . 
+xplan5:BP_AnpflanzungBindungErhaltung semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Circle  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" cx=\"0\" cy=\"-2.0\" r=\"1\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_AnpflanzungBindungErhaltung semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":5, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_AufschuettungsFlaeche semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 1.432 L 1 1.432 L 0 0  Z \" />"^^semgis:svgLiteral . 
+xplan5:BP_AufschuettungsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 1.432 L 1 1.432 L 0 0  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_AufschuettungsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_BauGrenze semgis:linestringImage "<Rect  \"fill\"=\"#066ff0\"  \"stroke-width\"=\"1\" x=\"-2\" y=\"0.5\" width=\"4\" height=\"2\" />"^^semgis:svgLiteral . 
+xplan5:BP_BauGrenze semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"#066ff0\"  \"stroke-width\"=\"1\" x=\"-2\" y=\"0.5\" width=\"4\" height=\"2\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_BauGrenze semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":3, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_BauLinie semgis:linestringImage "<Rect  \"fill\"=\"#ff3300\"  \"stroke-width\"=\"1\" x=\"-2\" y=\"0.5\" width=\"4\" height=\"2\" />"^^semgis:svgLiteral . 
+xplan5:BP_BauLinie semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"#ff3300\"  \"stroke-width\"=\"1\" x=\"-2\" y=\"0.5\" width=\"4\" height=\"2\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_BauLinie semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":3, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_BereichOhneEinAusfahrtLinie semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  0 1 L 0 -1 L 0.8 -1 A 1.5 1.5 0 0 1  0.8 1 Z\" />"^^semgis:svgLiteral . 
+xplan5:BP_BereichOhneEinAusfahrtLinie semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  0 1 L 0 -1 L 0.8 -1 A 1.5 1.5 0 0 1  0.8 1 Z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_BereichOhneEinAusfahrtLinie semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":10, \"pixelSize\":20.0 }"^^semgis:cssLiteral . 
-xplan5:BP_BodenschaetzeFlaeche semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" />"^^semgis:svgLiteral . 
+xplan5:BP_BodenschaetzeFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_BodenschaetzeFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_FreiFlaeche semgis:linestringImage "<Path  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" path=\"M -1.8 -0.25 L 0 -2 L  1.8 -0.25 z\" />"^^semgis:svgLiteral . 
+xplan5:BP_FreiFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" path=\"M -1.8 -0.25 L 0 -2 L  1.8 -0.25 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_FreiFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":4, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_Immissionsschutz semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M -3 -0.25 L 0 -3.25 L 3 -0.25 z\" />"^^semgis:svgLiteral . 
+xplan5:BP_Immissionsschutz semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M -3 -0.25 L 0 -3.25 L 3 -0.25 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_Immissionsschutz semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":4, \"pixelSize\":5.0 }"^^semgis:cssLiteral . 
-xplan5:BP_KennzeichnungsFlaeche semgis:linestringImage "<Rect  \"fill\"=\"#808080\" width=\"4\" height=\"4\" x=\"-2\" y=\"-4\" />"^^semgis:svgLiteral . 
+xplan5:BP_KennzeichnungsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"#808080\" width=\"4\" height=\"4\" x=\"-2\" y=\"-4\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_KennzeichnungsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":6, \"pixelSize\":5.0 }"^^semgis:cssLiteral . 
-xplan5:BP_NutzungsartenGrenze semgis:linestringImage "<Circle  \"fill\"=\"black\"  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" cx=\"0\" cy=\"0\" r=\"1\" />"^^semgis:svgLiteral . 
+xplan5:BP_NutzungsartenGrenze semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Circle  \"fill\"=\"black\"  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" cx=\"0\" cy=\"0\" r=\"1\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_NutzungsartenGrenze semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":10, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_RekultivierungsFlaeche semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" />"^^semgis:svgLiteral . 
+xplan5:BP_RekultivierungsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_RekultivierungsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_StrassenbegrenzungsLinie semgis:linestringImage "<Rect  \"fill\"=\"#99cc00\"  \"stroke-width\"=\"1\" x=\"-2\" y=\"0.5\" width=\"4\" height=\"2\" />"^^semgis:svgLiteral . 
+xplan5:BP_StrassenbegrenzungsLinie semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"#99cc00\"  \"stroke-width\"=\"1\" x=\"-2\" y=\"0.5\" width=\"4\" height=\"2\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_StrassenbegrenzungsLinie semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":3, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_Strassenkoerper semgis:linestringImage "<Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M -1.0 -2 L -1.0 2\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M  1.0 -2 L  1.  2\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M -1. -1.5 L 1.0 1.5\" />"^^semgis:svgLiteral . 
+xplan5:BP_Strassenkoerper semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M -1.0 -2 L -1.0 2\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M  1.0 -2 L  1.  2\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M -1. -1.5 L 1.0 1.5\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_Strassenkoerper semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":3, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_TechnischeMassnahmenFlaeche semgis:linestringImage "<Path  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" path=\"M -3 -0.25 L 0 -3.25 L 3 -0.25 z\" />"^^semgis:svgLiteral . 
+xplan5:BP_TechnischeMassnahmenFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"color\"=\"black\"  \"stroke-width\"=\"0.2\" path=\"M -3 -0.25 L 0 -3.25 L 3 -0.25 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_TechnischeMassnahmenFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":10, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:BP_VerEntsorgung semgis:linestringImage "<Path  \"fill\"=\"black\"  \"stroke-width\"=\"0.5\" path=\"M -4,0 L 0,4 L4,0 L 0,-4 z\" />"^^semgis:svgLiteral . 
+xplan5:BP_VerEntsorgung semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\"  \"stroke-width\"=\"0.5\" path=\"M -4,0 L 0,4 L4,0 L 0,-4 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_VerEntsorgung semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":30, \"pixelSize\":5.0 }"^^semgis:cssLiteral . 
-xplan5:BP_WasserwirtschaftsFlaeche semgis:linestringImage "<Path  \"fill\"=\"#07bce0\" path=\"M 0 10 L 100 10 L 100 30 A 33, 33, 0, 0, 0, 75, 35 A 33, 33, 0, 0, 1, 50, 40  A 33, 33, 0, 0, 1, 25, 35  A 33, 33, 0, 0, 0, 0, 30 L 0,10\" />"^^semgis:svgLiteral . 
+xplan5:BP_WasserwirtschaftsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"#07bce0\" path=\"M 0 10 L 100 10 L 100 30 A 33, 33, 0, 0, 0, 75, 35 A 33, 33, 0, 0, 1, 50, 40  A 33, 33, 0, 0, 1, 25, 35  A 33, 33, 0, 0, 0, 0, 30 L 0,10\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_WasserwirtschaftsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":4.5, \"pixelSize\":0.5 }"^^semgis:cssLiteral . 
-xplan5:BP_Wegerecht semgis:linestringImage "<Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M  -1.5  -1.5 L -5  -1.5\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M  1.5  -1.5 L 5  -1.5\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M -1.5 1.5 L -5  1.5\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M 1.5 1.5 L 5  1.5\" />"^^semgis:svgLiteral . 
+xplan5:BP_Wegerecht semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M  -1.5  -1.5 L -5  -1.5\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M  1.5  -1.5 L 5  -1.5\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M -1.5 1.5 L -5  1.5\" /><Path  \"color\"=\"black\"  \"stroke-width\"=\"1\" path=\"M 1.5 1.5 L 5  1.5\" /></svg>"^^semgis:svgLiteral . 
 xplan5:BP_Wegerecht semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":6, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:FP_Abgrabung semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" />"^^semgis:svgLiteral . 
+xplan5:FP_Abgrabung semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_Abgrabung semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:FP_Aufschuettung semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 1.432 L 1 1.432 L 0 0  Z \" />"^^semgis:svgLiteral . 
+xplan5:FP_Aufschuettung semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 1.432 L 1 1.432 L 0 0  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_Aufschuettung semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:FP_Bodenschaetze semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" />"^^semgis:svgLiteral . 
+xplan5:FP_Bodenschaetze semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M  -1 0 L 1 0 L 0 1.432  Z \" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_Bodenschaetze semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":2, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
-xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche semgis:linestringImage "<Rect  \"fill\"=\"#ffff00\" x=\"-1.75\" y=\"-4\" width=\"3.5\" height=\"3.5\" />"^^semgis:svgLiteral . 
+xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"#ffff00\" x=\"-1.75\" y=\"-4\" width=\"3.5\" height=\"3.5\" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":5, \"pixelSize\":6.0 }"^^semgis:cssLiteral . 
-xplan5:FP_Kennzeichnung semgis:linestringImage "<Rect  \"fill\"=\"#808080\" width=\"4\" height=\"4\" x=\"-2\" y=\"-4\" />"^^semgis:svgLiteral . 
+xplan5:FP_Kennzeichnung semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"fill\"=\"#808080\" width=\"4\" height=\"4\" x=\"-2\" y=\"-4\" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_Kennzeichnung semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":6, \"pixelSize\":5.0 }"^^semgis:cssLiteral . 
-xplan5:FP_NutzungsbeschraenkungsFlaeche semgis:linestringImage "<Path  \"fill\"=\"black\" path=\"M -3 -0.25 L 0 -3.25 L 3 -0.25 z\" />"^^semgis:svgLiteral . 
+xplan5:FP_NutzungsbeschraenkungsFlaeche semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\" path=\"M -3 -0.25 L 0 -3.25 L 3 -0.25 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_NutzungsbeschraenkungsFlaeche semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":4, \"pixelSize\":5.0 }"^^semgis:cssLiteral . 
-xplan5:FP_PrivilegiertesVorhaben semgis:linestringImage "<Rect  \"color\"=\"#ff0700\"  \"stroke-width\"=\"0.5\" x=\"-1.75\" y=\"-4\" width=\"3.5\" height=\"3.\" />"^^semgis:svgLiteral . 
+xplan5:FP_PrivilegiertesVorhaben semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Rect  \"color\"=\"#ff0700\"  \"stroke-width\"=\"0.5\" x=\"-1.75\" y=\"-4\" width=\"3.5\" height=\"3.\" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_PrivilegiertesVorhaben semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":5, \"pixelSize\":6.0 }"^^semgis:cssLiteral . 
-xplan5:FP_VerEntsorgung semgis:linestringImage "<Path  \"fill\"=\"black\"  \"stroke-width\"=\"0.5\" path=\"M -4,0 L 0,4 L4,0 L 0,-4 z\" />"^^semgis:svgLiteral . 
+xplan5:FP_VerEntsorgung semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"black\"  \"stroke-width\"=\"0.5\" path=\"M -4,0 L 0,4 L4,0 L 0,-4 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_VerEntsorgung semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":30, \"pixelSize\":5.0 }"^^semgis:cssLiteral . 
-xplan5:FP_Wasserwirtschaft semgis:linestringImage "<Path  \"fill\"=\"#07bce0\" path=\"M 0 10 L 100 10 L 100 30 A 33, 33, 0, 0, 0, 75, 35 A 33, 33, 0, 0, 1, 50, 40  A 33, 33, 0, 0, 1, 25, 35  A 33, 33, 0, 0, 0, 0, 30 L 0,10\" />"^^semgis:svgLiteral . 
+xplan5:FP_Wasserwirtschaft semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"#07bce0\" path=\"M 0 10 L 100 10 L 100 30 A 33, 33, 0, 0, 0, 75, 35 A 33, 33, 0, 0, 1, 50, 40  A 33, 33, 0, 0, 1, 25, 35  A 33, 33, 0, 0, 0, 0, 30 L 0,10\" /></svg>"^^semgis:svgLiteral . 
 xplan5:FP_Wasserwirtschaft semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":4.5, \"pixelSize\":0.5 }"^^semgis:cssLiteral . 
-xplan5:SO_Wasserrecht semgis:linestringImage "<Path  \"fill\"=\"#07bce0\" path=\"M -3 -0.5 L 0 -3.25 L 3 -0.5 z\" />"^^semgis:svgLiteral . 
+xplan5:SO_Wasserrecht semgis:linestringImage "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Path  \"fill\"=\"#07bce0\" path=\"M -3 -0.5 L 0 -3.25 L 3 -0.5 z\" /></svg>"^^semgis:svgLiteral . 
 xplan5:SO_Wasserrecht semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":6, \"pixelSize\":10.0 }"^^semgis:cssLiteral . 
+
 
 
 
