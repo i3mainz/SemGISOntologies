@@ -68029,14 +68029,14 @@ semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPr
 semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
 aaa6:AX_Bahnverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffb7e7\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
 aaa6:AX_Bahnverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\"  "^^semgis:cssLiteral . 
-aaa6:AX_Bauteil semgis:polygonStyle " \"stroke\":true, \"color\":\"maroon\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+aaa6:AX_Bauteil semgis:polygonStyle " \"stroke\":true, \"color\":\"maroon\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 aaa6:AX_BauwerkImGewaesserbereich semgis:linestringStyle " \"stroke\":true, \"color\":\"#c8c8c8\"  "^^semgis:cssLiteral . 
 aaa6:AX_BauwerkImVerkehrsbereich semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral . 
 aaa6:AX_BauwerkImVerkehrsbereich semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral . 
 aaa6:AX_BesondereFlurstuecksgrenze semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\"  "^^semgis:cssLiteral . 
 aaa6:AX_BesondereGebaeudelinie semgis:linestringStyle " \"stroke\":true, \"color\":\"blue\"  "^^semgis:cssLiteral . 
-aaa6:AX_Boeschungsflaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Boeschungsflaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 aaa6:AX_FlaecheBesondererFunktionalerPraegung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_FlaecheGemischterNutzung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_Fliessgewaesser semgis:polygonStyle " \"fill\":true, \"fillColor\":\"blue\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
@@ -68048,7 +68048,7 @@ aaa6:AX_HistorischesBauwerk semgis:polygonStyle " \"fill\":true, \"fillColor\":\
 aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung semgis:linestringStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"#b4e160\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_IndustrieUndGewerbeflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_KlassifizierungNachWasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"blue\"  "^^semgis:cssLiteral . 
+aaa6:AX_KlassifizierungNachWasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"blue\"  , \"fill\":true "^^semgis:cssLiteral . 
 aaa6:AX_Leitung semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 aaa6:AX_Platz semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#808040\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung semgis:linestringStyle " \"stroke\":true, \"color\":\"fuchsia\"  "^^semgis:cssLiteral . 
@@ -68061,6 +68061,7 @@ aaa6:AX_Vegetationsmerkmal semgis:polygonStyle " \"fill\":true, \"fillColor\":\"
 aaa6:AX_Weg semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#5c5c5c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 aaa6:AX_WegPfadSteig semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 aaa6:AX_Wohnbauflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+
 
 
 

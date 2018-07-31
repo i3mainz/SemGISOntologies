@@ -24161,136 +24161,136 @@ xplan5:XP_ZweckbestimmungWald_1200 rdf:type owl:Class ; semgis:image "<svg xmlns
 xplan5:XP_ZweckbestimmungWald_1400 rdf:type owl:Class ; semgis:image "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Circle  \"color\"=\"black\"  \"stroke-width\"=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\" /><Text  \"fill\"=\"black\" x=\"0\" y=\"1.5\" size=\"4\" text=\"E\" /></svg>"^^semgis:svgLiteral . 
 xplan5:XP_ZweckbestimmungWald_1600 rdf:type owl:Class ; semgis:image "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Circle  \"color\"=\"black\"  \"stroke-width\"=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\" /><Text  \"fill\"=\"black\" x=\"0\" y=\"1.5\" size=\"4\" text=\"SW\" /></svg>"^^semgis:svgLiteral . 
 xplan5:XP_ZweckbestimmungWald_1800 rdf:type owl:Class ; semgis:image "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><Circle  \"color\"=\"black\"  \"stroke-width\"=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\" /><Text  \"fill\"=\"black\" x=\"0\" y=\"1.5\" size=\"4\" text=\"FlF\" /></svg>"^^semgis:svgLiteral . 
-xplan5:BP_AbgrabungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_AbstandsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_AbgrabungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_AbstandsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_AnpflanzungBindungErhaltung semgis:linestringStyle "  "^^semgis:cssLiteral . 
-xplan5:BP_AnpflanzungBindungErhaltung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_AufschuettungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_AusgleichsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:BP_AnpflanzungBindungErhaltung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_AufschuettungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_AusgleichsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_AusgleichsMassnahme semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_AusgleichsMassnahme semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:BP_AusgleichsMassnahme semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_BauGrenze semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:BP_BauLinie semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:BP_BaugebietsTeilFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_Bereich semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_BesondererNutzungszweckFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_BodenschaetzeFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_DenkmalschutzEinzelanlage semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_DenkmalschutzEnsembleFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_Bereich semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_BesondererNutzungszweckFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_BodenschaetzeFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_DenkmalschutzEinzelanlage semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_DenkmalschutzEnsembleFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_EinfahrtsbereichLinie semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_EingriffsBereich semgis:polygonStyle " \"stroke\":true, \"color\":\"red\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
-xplan5:BP_ErhaltungsBereichFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_EingriffsBereich semgis:polygonStyle " \"stroke\":true, \"color\":\"red\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_ErhaltungsBereichFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_FestsetzungNachLandesrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#3def45\" , \"stroke-width\":\"3\"  "^^semgis:cssLiteral . 
 xplan5:BP_FestsetzungNachLandesrecht semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ee3173\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:BP_FirstRichtungsLinie semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_FoerderungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_FreiFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_GebaeudeFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"3\"  "^^semgis:cssLiteral . 
+xplan5:BP_FoerderungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_FreiFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_GebaeudeFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"3\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_GemeinbedarfsFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_GemeinschaftsanlagenFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_GemeinschaftsanlagenFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_GemeinschaftsanlagenZuordnung semgis:linestringStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_GemeinschaftsanlagenZuordnung semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:BP_GemeinschaftsanlagenZuordnung semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_GenerischesObjekt semgis:linestringStyle " \"stroke\":true, \"color\":\"#610c10\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:BP_GenerischesObjekt semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#610c10\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:BP_GewaesserFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#75c7ff\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:BP_GruenFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:BP_HoehenMass semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:BP_Immissionsschutz semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_Immissionsschutz semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_KennzeichnungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
+xplan5:BP_Immissionsschutz semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_KennzeichnungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_KleintierhaltungFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:BP_Landwirtschaft semgis:linestringStyle " \"stroke\":true, \"color\":\"green\"  "^^semgis:cssLiteral . 
 xplan5:BP_Landwirtschaft semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_NebenanlagenAusschlussFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_NebenanlagenFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_NebenanlagenAusschlussFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_NebenanlagenFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_NutzungsartenGrenze semgis:linestringStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_PersGruppenBestimmteFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_Plan semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_RegelungVergnuegungsstaetten semgis:polygonStyle " \"stroke\":true, \"color\":\"fuchsia\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_RekultivierungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_SchutzPflegeEntwicklungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:BP_PersGruppenBestimmteFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_Plan semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_RegelungVergnuegungsstaetten semgis:polygonStyle " \"stroke\":true, \"color\":\"fuchsia\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_RekultivierungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_SchutzPflegeEntwicklungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_SchutzPflegeEntwicklungsMassnahme semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_SchutzPflegeEntwicklungsMassnahme semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_Schutzgebiet semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_SpezielleBauweise semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:BP_SchutzPflegeEntwicklungsMassnahme semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_Schutzgebiet semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_SpezielleBauweise semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_SpielSportanlagenFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:BP_StrassenVerkehrsFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffdc45\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:BP_StrassenbegrenzungsLinie semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:BP_Strassenkoerper semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_Strassenkoerper semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_TechnischeMassnahmenFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:BP_TextlicheFestsetzungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_UeberbaubareGrundstuecksFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_Strassenkoerper semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_TechnischeMassnahmenFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_TextlicheFestsetzungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_UeberbaubareGrundstuecksFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_UnverbindlicheVormerkung semgis:linestringStyle " \"stroke\":true, \"color\":\"fuchsia\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_UnverbindlicheVormerkung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
+xplan5:BP_UnverbindlicheVormerkung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_VerEntsorgung semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral . 
 xplan5:BP_VerEntsorgung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_Veraenderungssperre semgis:polygonStyle " \"stroke\":true, \"color\":\"#af1ba5\" , \"stroke-width\":\"3\"  "^^semgis:cssLiteral . 
-xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_Veraenderungssperre semgis:polygonStyle " \"stroke\":true, \"color\":\"#af1ba5\" , \"stroke-width\":\"3\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:BP_WaldFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#339966\" , \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:BP_WasserwirtschaftsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:BP_Wegerecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:FP_Abgrabung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:BP_WasserwirtschaftsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:BP_Wegerecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:FP_Abgrabung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_AnpassungKlimawandel semgis:linestringStyle " \"stroke\":true, \"color\":\"#3def45\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:FP_AnpassungKlimawandel semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:FP_Aufschuettung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:FP_AusgleichsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:FP_AnpassungKlimawandel semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:FP_Aufschuettung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:FP_AusgleichsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_BebauungsFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_Bereich semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_Bodenschaetze semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:FP_Bereich semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:FP_Bodenschaetze semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_Gemeinbedarf semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:FP_GenerischesObjekt semgis:linestringStyle " \"stroke\":true, \"color\":\"#610c10\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:FP_GenerischesObjekt semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:FP_GenerischesObjekt semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_Gewaesser semgis:linestringStyle " \"stroke\":true, \"color\":\"#75c7ff\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:FP_Gewaesser semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#75c7ff\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:FP_Gruen semgis:linestringStyle " \"stroke\":true, \"color\":\"#0e4800\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:FP_Gruen semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ffff00\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:FP_KeineZentrAbwasserBeseitigungFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#ffff00\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_Kennzeichnung semgis:linestringStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_Kennzeichnung semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
+xplan5:FP_Kennzeichnung semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_LandwirtschaftsFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_NutzungsbeschraenkungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:FP_Plan semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
+xplan5:FP_NutzungsbeschraenkungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:FP_Plan semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_PrivilegiertesVorhaben semgis:linestringStyle " \"stroke\":true, \"color\":\"#ff0700\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_PrivilegiertesVorhaben semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:FP_PrivilegiertesVorhaben semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_SchutzPflegeEntwicklung semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-xplan5:FP_SchutzPflegeEntwicklung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:FP_SchutzPflegeEntwicklung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_SpielSportanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:FP_Strassenverkehr semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:FP_Strassenverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffdc45\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_TextlicheDarstellungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:FP_TextlicheDarstellungsFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_UnverbindlicheVormerkung semgis:linestringStyle " \"stroke\":true, \"color\":\"fuchsia\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:FP_UnverbindlicheVormerkung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
+xplan5:FP_UnverbindlicheVormerkung semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_VerEntsorgung semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral . 
 xplan5:FP_VerEntsorgung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_VorbehalteFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#646464\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+xplan5:FP_VorbehalteFlaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#646464\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_WaldFlaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#339966\" , \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:FP_Wasserwirtschaft semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:FP_Wasserwirtschaft semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:FP_ZentralerVersorgungsbereich semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"#4430fc\" , \"stroke-width\":\"01\"  "^^semgis:cssLiteral . 
 xplan5:FehlerFlaechenobjektA semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\"  "^^semgis:cssLiteral . 
 xplan5:FehlerFlaechenobjektB semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:FehlerFlaechenobjektB semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:FehlerLinienobjekt semgis:linestringStyle " \"stroke\":true, \"color\":\"red\" , \"stroke-width\":\"5\"  "^^semgis:cssLiteral . 
-xplan5:SO_Bereich semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
+xplan5:SO_Bereich semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:SO_Bodenschutzrecht semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#9f5000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
 xplan5:SO_Denkmalschutzrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#ff3300\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
-xplan5:SO_Denkmalschutzrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:SO_Denkmalschutzrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:SO_Forstrecht semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#339966\" , \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:SO_Gebiet semgis:polygonStyle " \"stroke\":true, \"color\":\"red\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
+xplan5:SO_Gebiet semgis:polygonStyle " \"stroke\":true, \"color\":\"red\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:SO_Grenze semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"3\"  "^^semgis:cssLiteral . 
-xplan5:SO_Luftverkehrsrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
-xplan5:SO_Plan semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
+xplan5:SO_Luftverkehrsrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:SO_Plan semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:SO_Schienenverkehrsrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffb7e7\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-xplan5:SO_Schienenverkehrsrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:SO_SchutzgebietNaturschutzrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:SO_SchutzgebietSonstRecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"3\"  "^^semgis:cssLiteral . 
-xplan5:SO_SchutzgebietWasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:SO_Schienenverkehrsrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:SO_SchutzgebietNaturschutzrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:SO_SchutzgebietSonstRecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"3\"  , \"fill\":true "^^semgis:cssLiteral . 
+xplan5:SO_SchutzgebietWasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:SO_SonstigesRecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#ff8000\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral . 
-xplan5:SO_SonstigesRecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:SO_SonstigesRecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:SO_Strassenverkehrsrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:SO_Strassenverkehrsrecht semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffdc45\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
 xplan5:SO_Wasserrecht semgis:linestringStyle " \"stroke\":true, \"color\":\"#75c7ff\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-xplan5:SO_Wasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+xplan5:SO_Wasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
 xplan5:XP_LPO semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
 xplan5:XP_Rasterdarstellung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#dfdfdf\"  "^^semgis:cssLiteral . 
 
