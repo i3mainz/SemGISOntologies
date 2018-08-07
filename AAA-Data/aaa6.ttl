@@ -1,4 +1,5 @@
 @prefix : <http://semgis.de/AAA6#> .
+@prefix semgis: <http://www.semgis.de/geodata#> .
 @prefix xo: <http://rhizomik.net/redefer/xsl/xsd2owl-functions.xsl> .
 @prefix xs: <file:/home/timo/git/SemGISOntologies/AAA-Data/&xs;> .
 @prefix gml: <http://www.opengis.net/gml/3.2#> .
@@ -68020,6 +68021,59 @@ aaa6:zusatzZurLagebezeichnung skos:definition "'Zusatz zur Lagebezeichnung' ist 
 
 
 aaa6:zwischenmarke skos:definition "'Zwischenmarke' ist eine gebietsweise übliche Bezeichnung für ein Grenzzeichen, das in eine geradlinige Flurstücksgrenze eingebracht ist, um den Grenzverlauf bei fehlender Sichtverbindung oder großer Entfernung zwischen den Grenzzeichen ausreichend erkennbar zu machen." .
+
+semgis:styleProperty rdf:type owl:AnnotationProperty .
+semgis:image rdf:type owl:AnnotationProperty  . 
+semgis:linestringImage rdf:type owl:AnnotationProperty . semgis:linestringImage rdfs:subPropertyOf semgis:image. 
+semgis:linestringStyle rdf:type owl:AnnotationProperty . semgis:linestringStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:polygonStyle rdf:type owl:AnnotationProperty . semgis:polygonStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:pointImageStyle rdf:type owl:AnnotationProperty . semgis:pointImageStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:linestringImageStyle rdf:type owl:AnnotationProperty . semgis:linestringImageStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:polygonImageStyle rdf:type owl:AnnotationProperty . semgis:polygonImageStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
+aaa6:AX_Bahnverkehr rdf:type owl:Class . aaa6:AX_Bahnverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffb7e7\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
+aaa6:AX_Bahnverkehrsanlage rdf:type owl:Class . aaa6:AX_Bahnverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\"  "^^semgis:cssLiteral . 
+aaa6:AX_Bauteil rdf:type owl:Class . aaa6:AX_Bauteil semgis:polygonStyle " \"stroke\":true, \"color\":\"maroon\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
+aaa6:AX_BauwerkImGewaesserbereich rdf:type owl:Class . aaa6:AX_BauwerkImGewaesserbereich semgis:linestringStyle " \"stroke\":true, \"color\":\"#c8c8c8\"  "^^semgis:cssLiteral . 
+aaa6:AX_BauwerkImVerkehrsbereich rdf:type owl:Class . aaa6:AX_BauwerkImVerkehrsbereich semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral . 
+aaa6:AX_BauwerkImVerkehrsbereich rdf:type owl:Class . aaa6:AX_BauwerkImVerkehrsbereich semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe rdf:type owl:Class . aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral . 
+aaa6:AX_BesondereFlurstuecksgrenze rdf:type owl:Class . aaa6:AX_BesondereFlurstuecksgrenze semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\"  "^^semgis:cssLiteral . 
+aaa6:AX_BesondereGebaeudelinie rdf:type owl:Class . aaa6:AX_BesondereGebaeudelinie semgis:linestringStyle " \"stroke\":true, \"color\":\"blue\"  "^^semgis:cssLiteral . 
+aaa6:AX_Boeschungsflaeche rdf:type owl:Class . aaa6:AX_Boeschungsflaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
+aaa6:AX_FlaecheBesondererFunktionalerPraegung rdf:type owl:Class . aaa6:AX_FlaecheBesondererFunktionalerPraegung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_FlaecheGemischterNutzung rdf:type owl:Class . aaa6:AX_FlaecheGemischterNutzung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Fliessgewaesser rdf:type owl:Class . aaa6:AX_Fliessgewaesser semgis:polygonStyle " \"fill\":true, \"fillColor\":\"blue\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Flurstueck rdf:type owl:Class . aaa6:AX_Flurstueck semgis:polygonStyle " \"fill\":true, \"fillColor\":\"green\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Gebaeude rdf:type owl:Class . aaa6:AX_Gebaeude semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Gelaendekante rdf:type owl:Class . aaa6:AX_Gelaendekante semgis:linestringStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Gleis rdf:type owl:Class . aaa6:AX_Gleis semgis:linestringStyle " \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
+aaa6:AX_HistorischesBauwerk rdf:type owl:Class . aaa6:AX_HistorischesBauwerk semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#800000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung rdf:type owl:Class . aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung semgis:linestringStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"#b4e160\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung rdf:type owl:Class . aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_IndustrieUndGewerbeflaeche rdf:type owl:Class . aaa6:AX_IndustrieUndGewerbeflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_KlassifizierungNachWasserrecht rdf:type owl:Class . aaa6:AX_KlassifizierungNachWasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"blue\"  , \"fill\":true "^^semgis:cssLiteral . 
+aaa6:AX_Leitung rdf:type owl:Class . aaa6:AX_Leitung semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+aaa6:AX_Platz rdf:type owl:Class . aaa6:AX_Platz semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#808040\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung rdf:type owl:Class . aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung semgis:linestringStyle " \"stroke\":true, \"color\":\"fuchsia\"  "^^semgis:cssLiteral . 
+aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung rdf:type owl:Class . aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"fuchsia\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
+aaa6:AX_SportFreizeitUndErholungsflaeche rdf:type owl:Class . aaa6:AX_SportFreizeitUndErholungsflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#22b14c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
+aaa6:AX_Strassenverkehr rdf:type owl:Class . aaa6:AX_Strassenverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffdc45\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Strassenverkehrsanlage rdf:type owl:Class . aaa6:AX_Strassenverkehrsanlage semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Strassenverkehrsanlage rdf:type owl:Class . aaa6:AX_Strassenverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"yellow\"  "^^semgis:cssLiteral . 
+aaa6:AX_Vegetationsmerkmal rdf:type owl:Class . aaa6:AX_Vegetationsmerkmal semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0af380\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_Weg rdf:type owl:Class . aaa6:AX_Weg semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#5c5c5c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+aaa6:AX_WegPfadSteig rdf:type owl:Class . aaa6:AX_WegPfadSteig semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
+aaa6:AX_Wohnbauflaeche rdf:type owl:Class . aaa6:AX_Wohnbauflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
+
+
+
+
+
+
+
+ 
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
