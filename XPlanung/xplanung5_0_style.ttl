@@ -373,7 +373,7 @@ xplan5:BP_GruenFlaeche rdf:type owl:Class ;
 xplan5:BP_GruenFlaeche_Parkanlage rdf:type owl:Class ;
                                   rdfs:subClassOf xplan5:BP_GruenFlaeche ;
                                   semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect stroke='true' color='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral ;
+<Rect fill='none' stroke='true' color='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral ;
                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
