@@ -369,6 +369,13 @@ xplan5:BP_GruenFlaeche rdf:type owl:Class ;
                        semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral .
 
 
+###  http://www.xplanung.de/xplangml/5/0#BP_GruenFlaeche_Parkanlage
+xplan5:BP_GruenFlaeche_Parkanlage rdf:type owl:Class ;
+                                  rdfs:subClassOf xplan5:BP_GruenFlaeche ;
+                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect stroke='true' color='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral .
+
+
 ###  http://www.xplanung.de/xplangml/5/0#BP_HoehenMass
 xplan5:BP_HoehenMass rdf:type owl:Class ;
                      semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle  fill='none' color='black' stroke='black'  stroke-width='1' cx='10' cy='10' r='5' /><Path  fill='none' color='black' stroke='black'  stroke-width='1' d='M -5 0 L 5 0' /><Path  fill='none' color='black' stroke='black'  stroke-width='1' d='M 0 -5 L 0 5' /></svg>"^^semgis:svgLiteral ;
