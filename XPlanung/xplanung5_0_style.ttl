@@ -155,72 +155,120 @@ xplan5:BP_BaugebietsTeilFlaeche rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_AllgWohngebiet
 xplan5:BP_BaugebietsTeilFlaeche_AllgWohngebiet rdf:type owl:Class ;
                                                rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WA</text>
+</svg>"""^^semgis:svgLiteral ;
                                                semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Dorfgebiet
 xplan5:BP_BaugebietsTeilFlaeche_Dorfgebiet rdf:type owl:Class ;
                                            rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MD</text>
+</svg>"""^^semgis:svgLiteral ;
                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Gewerbegebiet
 xplan5:BP_BaugebietsTeilFlaeche_Gewerbegebiet rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">GE</text>
+</svg>"""^^semgis:svgLiteral ;
                                               semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_GewerblicheBauflaeche
 xplan5:BP_BaugebietsTeilFlaeche_GewerblicheBauflaeche rdf:type owl:Class ;
                                                       rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WHG</text>
+</svg>"""^^semgis:svgLiteral ;
                                                       semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Industriegebiet
 xplan5:BP_BaugebietsTeilFlaeche_Industriegebiet rdf:type owl:Class ;
                                                 rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">GI</text>
+</svg>"""^^semgis:svgLiteral ;
                                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Kerngebiet
 xplan5:BP_BaugebietsTeilFlaeche_Kerngebiet rdf:type owl:Class ;
                                            rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MK</text>
+</svg>"""^^semgis:svgLiteral ;
                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Kleinsiedlungsgebiet
 xplan5:BP_BaugebietsTeilFlaeche_Kleinsiedlungsgebiet rdf:type owl:Class ;
                                                      rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WS</text>
+</svg>"""^^semgis:svgLiteral ;
                                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Mischgebiet
 xplan5:BP_BaugebietsTeilFlaeche_Mischgebiet rdf:type owl:Class ;
                                             rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                            semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MI</text>
+</svg>"""^^semgis:svgLiteral ;
                                             semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_ReinesWohngebiet
 xplan5:BP_BaugebietsTeilFlaeche_ReinesWohngebiet rdf:type owl:Class ;
                                                  rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WR</text>
+</svg>"""^^semgis:svgLiteral ;
                                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Sondergebiet
 xplan5:BP_BaugebietsTeilFlaeche_Sondergebiet rdf:type owl:Class ;
                                              rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">SO</text>
+</svg>"""^^semgis:svgLiteral ;
                                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_SondergebietBauflaeche
 xplan5:BP_BaugebietsTeilFlaeche_SondergebietBauflaeche rdf:type owl:Class ;
                                                        rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">S</text>
+</svg>"""^^semgis:svgLiteral ;
                                                        semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_SondergebietErholung
 xplan5:BP_BaugebietsTeilFlaeche_SondergebietErholung rdf:type owl:Class ;
                                                      rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">SOE</text>
+</svg>"""^^semgis:svgLiteral ;
                                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
@@ -233,12 +281,20 @@ xplan5:BP_BaugebietsTeilFlaeche_SondergebietSonst rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_UrbanesGebiet
 xplan5:BP_BaugebietsTeilFlaeche_UrbanesGebiet rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MU</text>
+</svg>"""^^semgis:svgLiteral ;
                                               semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_BaugebietsTeilFlaeche_Wochenendhausgebiet
 xplan5:BP_BaugebietsTeilFlaeche_Wochenendhausgebiet rdf:type owl:Class ;
                                                     rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
+                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WHG</text>
+</svg>"""^^semgis:svgLiteral ;
                                                     semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
@@ -558,6 +614,10 @@ xplan5:BP_Landwirtschaft_Obstbau rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Sonstiges
 xplan5:BP_Landwirtschaft_Sonstiges rdf:type owl:Class ;
                                    rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                   semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">SO</text>
+</svg>"""^^semgis:svgLiteral ;
                                    semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
@@ -668,6 +728,23 @@ xplan5:BP_Strassenkoerper rdf:type owl:Class ;
                           semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":30.0, \"pixelSize\":10.0 }"^^semgis:cssLiteral ;
                           semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
                           semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Strassenkoerper_Abgrabung
+xplan5:BP_Strassenkoerper_Abgrabung rdf:type owl:Class ;
+                                    rdfs:subClassOf xplan5:BP_Strassenkoerper .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Strassenkoerper_Aufschuettung
+xplan5:BP_Strassenkoerper_Aufschuettung rdf:type owl:Class ;
+                                        rdfs:subClassOf xplan5:BP_Strassenkoerper .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Strassenkoerper_Stuetzmauer
+xplan5:BP_Strassenkoerper_Stuetzmauer rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:BP_Strassenkoerper ;
+                                      semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Path stroke='black' stroke-width='1' d=\"M -1.0 -2 L -1.0 2\"/><Path stroke='black' stroke-width='1'  d=\"M  1.0 -2 L  1.  2\"/><Path stroke='black' stroke-width='1'  d=\"M -1. -1.5 L 1.0 1.5\"/></svg>"^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_TechnischeMassnahmenFlaeche
@@ -1234,6 +1311,92 @@ xplan5:SO_Luftverkehrsrecht rdf:type owl:Class ;
                             semgis:polygonStyle " \"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral .
 
 
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Ballonstartplatz
+xplan5:SO_Luftverkehrsrecht_Ballonstartplatz rdf:type owl:Class ;
+                                             rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                             semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                          """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">BLS</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Flughafen
+xplan5:SO_Luftverkehrsrecht_Flughafen rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                      semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                   """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Path stroke='black' stroke-width='0.2' d=\"M 0 -3.5 L 0.5 -3 L 0.5 -2 L 1.5 -2 L 1.5 -2.5 L 2 -2.5 L 2 -2 L 3 -2 L 3 -1 L 2.2 -0.68 L 2 0 L 1.8 -0.51 L 0.5 0 L 0.5 2  L 1 2 L 1 2.5 L 0.5 2.5 L 0 3.5 L -0.5 2.5 L -1 2.5 L -1 2 L -0.5 2 L -0.5 0 L -1.8 -0.51 L -2 0 L -2.2 -0.68 L -3 -1 L -3 -2 L -2 -2 L -2 -2.5 L -1.5 -2.5 L -1.5 -2 L -0.5 -2 L -0.5 -3 Z \"/>
+<Circle fill='none' stroke='black' stroke-width='0.2'  cx=\"10\" cy=\"10\" r=\"4\"/>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Gleitsegler
+xplan5:SO_Luftverkehrsrecht_Gleitsegler rdf:type owl:Class ;
+                                        rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                        semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                     """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">GLS</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Haengegleiter
+xplan5:SO_Luftverkehrsrecht_Haengegleiter rdf:type owl:Class ;
+                                          rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                          semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                       """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">HÄG</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Hubschrauberlandeplatz
+xplan5:SO_Luftverkehrsrecht_Hubschrauberlandeplatz rdf:type owl:Class ;
+                                                   rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                                   semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                                """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Path fill='none' stroke='black' stroke-width='0.2' d=\"M 0.25 -0.7 L 0.25 -3.5 L -0.25 -3.5 L -0.25 -0.7 Z\"/><Path fill='none' stroke='black' stroke-width='0.2' d=\"M 0.48 0.57 L 2.9 1.97 L 3.16 1.53 L 0.73 0.13 Z\"/><Path fill='none' stroke='black' stroke-width='0.2' d=\"M -0.48 0.57 L -2.9 1.97 L -3.16 1.53 L -0.73 0.13 Z\"/><Circle fill='none' stroke='black' stroke-width='0.2' cx=\"0\" cy=\"0\" r=\"4\"/><Circle fill='none' stroke='black' stroke-width='0.2' cx=\"0\" cy=\"0\" r=\"0.5\"/></svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Laermschutzbereich
+xplan5:SO_Luftverkehrsrecht_Laermschutzbereich rdf:type owl:Class ;
+                                               rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                               semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                            """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">LSB</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Landeplatz
+xplan5:SO_Luftverkehrsrecht_Landeplatz rdf:type owl:Class ;
+                                       rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                       semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                    """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Path fill='none' stroke='black' stroke-width='0.2'  d=\"M 0 -3 L 0.5 -2 L 3 -2 L 3 -1 L 0.5 0 L 0.5 2 L 1 2 L 1 2.5 L 0.2 2.5 L 0 3 L -0.2 2.5 L -1 2.5 L -1 2 L -0.5 2 L -0.5 0 L -3 -1 L -3 -2 L -0.5 -2 Z\"/><Circle fill='none' stroke='black' stroke-width='0.2' cx=\"0\" cy=\"0\" r=\"4\"/>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Segelfluggelaende
+xplan5:SO_Luftverkehrsrecht_Segelfluggelaende rdf:type owl:Class ;
+                                              rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                              semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                           """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Path fill='none' stroke='black' stroke-width='0.2' d=\"M -3.5 0 A 3 3 0 0 1 0 0 A 3 3 0 0 1 3.5 0\"/><Path fill='none' stroke='black' stroke-width='0.2' d=\"M -3.5 0 A 3.5 3.5 0 0 1 0 1.5 A 3.5 3.5 0 0 1 3.5 0\"/><Circle fill='none' stroke='black' stroke-width='0.2' cx=\"0\" cy=\"0\" r=\"4\"/>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht_Sonstiges
+xplan5:SO_Luftverkehrsrecht_Sonstiges rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:SO_Luftverkehrsrecht ;
+                                      semgis:image "\"stroke\":true, \"color\":\"#cc3399\" , \"stroke-width\":\"4\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                   """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">SO</text>
+</svg>"""^^semgis:svgLiteral .
+
+
 ###  http://www.xplanung.de/xplangml/5/0#SO_Plan
 xplan5:SO_Plan rdf:type owl:Class ;
                semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral .
@@ -1248,6 +1411,132 @@ xplan5:SO_Schienenverkehrsrecht rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht
 xplan5:SO_SchutzgebietNaturschutzrecht rdf:type owl:Class ;
                                        semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Biosphaerenreservat
+xplan5:SO_SchutzgebietNaturschutzrecht_Biosphaerenreservat rdf:type owl:Class ;
+                                                           rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>BRV</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                           semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_EuropaeischesVogelschutzgebiet
+xplan5:SO_SchutzgebietNaturschutzrecht_EuropaeischesVogelschutzgebiet rdf:type owl:Class ;
+                                                                      rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>EVG</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                                      semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_GebietGemeinsamerBedeutung
+xplan5:SO_SchutzgebietNaturschutzrecht_GebietGemeinsamerBedeutung rdf:type owl:Class ;
+                                                                  rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>GGB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                                  semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_GeschuetzterLandschaftsBestandteil
+xplan5:SO_SchutzgebietNaturschutzrecht_GeschuetzterLandschaftsBestandteil rdf:type owl:Class ;
+                                                                          rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                                          semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>LB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                                          semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_GesetzlichGeschuetztesBiotop
+xplan5:SO_SchutzgebietNaturschutzrecht_GesetzlichGeschuetztesBiotop rdf:type owl:Class ;
+                                                                    rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>BT</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                                    semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Landschaftsschutzgebiet
+xplan5:SO_SchutzgebietNaturschutzrecht_Landschaftsschutzgebiet rdf:type owl:Class ;
+                                                               rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>L</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                               semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_NationalesNaturmonument
+xplan5:SO_SchutzgebietNaturschutzrecht_NationalesNaturmonument rdf:type owl:Class ;
+                                                               rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>NNM</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                               semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Nationalpark
+xplan5:SO_SchutzgebietNaturschutzrecht_Nationalpark rdf:type owl:Class ;
+                                                    rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>NLP</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                    semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Natura2000
+xplan5:SO_SchutzgebietNaturschutzrecht_Natura2000 rdf:type owl:Class ;
+                                                  rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>N2</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                  semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Naturdenkmal
+xplan5:SO_SchutzgebietNaturschutzrecht_Naturdenkmal rdf:type owl:Class ;
+                                                    rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>ND</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                    semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Naturpark
+xplan5:SO_SchutzgebietNaturschutzrecht_Naturpark rdf:type owl:Class ;
+                                                 rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>NP</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                 semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Naturschutzgebiet
+xplan5:SO_SchutzgebietNaturschutzrecht_Naturschutzgebiet rdf:type owl:Class ;
+                                                         rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                         semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='0' cy='0' r='4.5'/>
+<Text fill='true' color='black' font-weight='bold' x='0' y='1.5' size='4'>N</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                         semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietNaturschutzrecht_Sonstiges
+xplan5:SO_SchutzgebietNaturschutzrecht_Sonstiges rdf:type owl:Class ;
+                                                 rdfs:subClassOf xplan5:SO_SchutzgebietNaturschutzrecht ;
+                                                 semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#SO_SchutzgebietSonstRecht
