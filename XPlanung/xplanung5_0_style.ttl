@@ -755,11 +755,11 @@ xplan5:BP_VerEntsorgung_Klaeranlage rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Regenwasser
 xplan5:BP_VerEntsorgung_Regenwasser rdf:type owl:Class ;
                                     rdfs:subClassOf xplan5:BP_VerEntsorgung ;
-                                    semgis:image "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral ,
-                                                 """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill='none' stroke='true' color='black' stroke-width='1' cx='10' cy='10' r='10'/>
-<Text fill='true' color='black' font-weight='bold' x='4' y='15' size='4'>NaW</text>
-</svg>"""^^semgis:svgLiteral .
+<Text fill='true' color='black' font-weight='bold' x='4' y='15' size='4'>RW</text>
+</svg>"""^^semgis:svgLiteral ;
+                                    semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Solarkraftwerk
