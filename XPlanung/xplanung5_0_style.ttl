@@ -157,7 +157,7 @@ xplan5:BP_BaugebietsTeilFlaeche_AllgWohngebiet rdf:type owl:Class ;
                                                rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WA</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">WA</text>
 </svg>"""^^semgis:svgLiteral ;
                                                semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -167,7 +167,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Dorfgebiet rdf:type owl:Class ;
                                            rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                            semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MD</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">MD</text>
 </svg>"""^^semgis:svgLiteral ;
                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -177,7 +177,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Gewerbegebiet rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">GE</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">GE</text>
 </svg>"""^^semgis:svgLiteral ;
                                               semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -187,7 +187,7 @@ xplan5:BP_BaugebietsTeilFlaeche_GewerblicheBauflaeche rdf:type owl:Class ;
                                                       rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WHG</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">WHG</text>
 </svg>"""^^semgis:svgLiteral ;
                                                       semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -197,7 +197,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Industriegebiet rdf:type owl:Class ;
                                                 rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">GI</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">GI</text>
 </svg>"""^^semgis:svgLiteral ;
                                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -207,7 +207,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Kerngebiet rdf:type owl:Class ;
                                            rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                            semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MK</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">MK</text>
 </svg>"""^^semgis:svgLiteral ;
                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -217,7 +217,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Kleinsiedlungsgebiet rdf:type owl:Class ;
                                                      rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WS</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">WS</text>
 </svg>"""^^semgis:svgLiteral ;
                                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -227,7 +227,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Mischgebiet rdf:type owl:Class ;
                                             rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MI</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">MI</text>
 </svg>"""^^semgis:svgLiteral ;
                                             semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -237,7 +237,7 @@ xplan5:BP_BaugebietsTeilFlaeche_ReinesWohngebiet rdf:type owl:Class ;
                                                  rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WR</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">WR</text>
 </svg>"""^^semgis:svgLiteral ;
                                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -247,7 +247,7 @@ xplan5:BP_BaugebietsTeilFlaeche_Sondergebiet rdf:type owl:Class ;
                                              rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">SO</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">SO</text>
 </svg>"""^^semgis:svgLiteral ;
                                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -257,7 +257,7 @@ xplan5:BP_BaugebietsTeilFlaeche_SondergebietBauflaeche rdf:type owl:Class ;
                                                        rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                        semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">S</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">S</text>
 </svg>"""^^semgis:svgLiteral ;
                                                        semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -267,7 +267,7 @@ xplan5:BP_BaugebietsTeilFlaeche_SondergebietErholung rdf:type owl:Class ;
                                                      rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
 <Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">SOE</text>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">SOE</text>
 </svg>"""^^semgis:svgLiteral ;
                                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -282,8 +282,8 @@ xplan5:BP_BaugebietsTeilFlaeche_SondergebietSonst rdf:type owl:Class ;
 xplan5:BP_BaugebietsTeilFlaeche_UrbanesGebiet rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">MU</text>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">MU</text>
 </svg>"""^^semgis:svgLiteral ;
                                               semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
@@ -292,8 +292,8 @@ xplan5:BP_BaugebietsTeilFlaeche_UrbanesGebiet rdf:type owl:Class ;
 xplan5:BP_BaugebietsTeilFlaeche_Wochenendhausgebiet rdf:type owl:Class ;
                                                     rdfs:subClassOf xplan5:BP_BaugebietsTeilFlaeche ;
                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
-<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WHG</text>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">WHG</text>
 </svg>"""^^semgis:svgLiteral ;
                                                     semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e45c00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
