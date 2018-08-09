@@ -373,7 +373,7 @@ xplan5:BP_GruenFlaeche rdf:type owl:Class ;
 xplan5:BP_GruenFlaeche_Parkanlage rdf:type owl:Class ;
                                   rdfs:subClassOf xplan5:BP_GruenFlaeche ;
                                   semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill='none' stroke='true' color='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral ;
+<Rect fill='none' stroke='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral ;
                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
@@ -459,7 +459,7 @@ xplan5:BP_KennzeichnungsFlaeche_LaermBelastung rdf:type owl:Class ;
 xplan5:BP_KennzeichnungsFlaeche_Naturgewalten rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Circle fill=\"none\" stroke=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
 <Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"4\">NG</text>
 </svg>"""^^semgis:svgLiteral ;
                                               semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
@@ -830,7 +830,7 @@ xplan5:BP_WaldFlaeche_FlaecheForstwirtschaft rdf:type owl:Class ;
 xplan5:BP_WaldFlaeche_Naturwald rdf:type owl:Class ;
                                 rdfs:subClassOf xplan5:BP_WaldFlaeche ;
                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Circle fill='none' stroke='true' color='black' stroke-width='1' cx='10' cy='10' r='10'/>
+<Circle fill='none' stroke='black' stroke-width='1' cx='10' cy='10' r='10'/>
 <Text fill='true' color='black' font-weight='bold' x='4' y='15' size='4'>NaW</text>
 </svg>"""^^semgis:svgLiteral ;
                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#339966\" , \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\""^^semgis:svgLiteral .
