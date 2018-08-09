@@ -373,7 +373,8 @@ xplan5:BP_GruenFlaeche rdf:type owl:Class ;
 xplan5:BP_GruenFlaeche_Parkanlage rdf:type owl:Class ;
                                   rdfs:subClassOf xplan5:BP_GruenFlaeche ;
                                   semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect stroke='true' color='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral .
+<Rect stroke='true' color='black'  stroke-width='1' width='36' height='24'/><Circle fill='true' fillColor='black' cx='18' cy='6' r='2'/><Circle fill='true' fillColor='black' cx='6' cy='18' r='2'/><Circle fill='true' fillColor='black' cx='30' cy='18' r='2'/></svg>"""^^semgis:svgLiteral ;
+                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_HoehenMass
@@ -398,6 +399,91 @@ xplan5:BP_KennzeichnungsFlaeche rdf:type owl:Class ;
                                 semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true "^^semgis:cssLiteral .
 
 
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_Abbauflaeche
+xplan5:BP_KennzeichnungsFlaeche_Abbauflaeche rdf:type owl:Class ;
+                                             rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">ABF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                             semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_AeussereEinwirkungen
+xplan5:BP_KennzeichnungsFlaeche_AeussereEinwirkungen rdf:type owl:Class ;
+                                                     rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">EVA</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                     semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_AndereGesetzlVorschriften
+xplan5:BP_KennzeichnungsFlaeche_AndereGesetzlVorschriften rdf:type owl:Class ;
+                                                          rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                                          semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_Bergbau
+xplan5:BP_KennzeichnungsFlaeche_Bergbau rdf:type owl:Class ;
+                                        rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                        semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">BB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                        semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_Bodenordnung
+xplan5:BP_KennzeichnungsFlaeche_Bodenordnung rdf:type owl:Class ;
+                                             rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">BDO</text>
+</svg>"""^^semgis:svgLiteral ;
+                                             semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_LaermBelastung
+xplan5:BP_KennzeichnungsFlaeche_LaermBelastung rdf:type owl:Class ;
+                                               rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">LÄ</text>
+</svg>"""^^semgis:svgLiteral ;
+                                               semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_Naturgewalten
+xplan5:BP_KennzeichnungsFlaeche_Naturgewalten rdf:type owl:Class ;
+                                              rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">NG</text>
+</svg>"""^^semgis:svgLiteral ;
+                                              semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_SchadstoffBelastBoden
+xplan5:BP_KennzeichnungsFlaeche_SchadstoffBelastBoden rdf:type owl:Class ;
+                                                      rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle stroke='true' color='black' stroke-width='0.2' cx='10' cy='10' r='10'/><Path stroke='true' color='black' stroke-width='1' path='M -4.5 4.5 L 4.5 -4.5'/><Path stroke='true' color='black' stroke-width='1' d='M  4.5 4.5 L -4.5 -4.5'/>
+</svg>"""^^semgis:svgLiteral ;
+                                                      semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_KennzeichnungsFlaeche_Vorhabensgebiet
+xplan5:BP_KennzeichnungsFlaeche_Vorhabensgebiet rdf:type owl:Class ;
+                                                rdfs:subClassOf xplan5:BP_KennzeichnungsFlaeche ;
+                                                semgis:polygonStyle "\"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"0.5\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                                    """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"0\" cy=\"0\" r=\"4.5\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">VHG</text>
+</svg>"""^^semgis:svgLiteral .
+
+
 ###  http://www.xplanung.de/xplangml/5/0#BP_KleintierhaltungFlaeche
 xplan5:BP_KleintierhaltungFlaeche rdf:type owl:Class ;
                                   semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0e4800\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral .
@@ -407,6 +493,92 @@ xplan5:BP_KleintierhaltungFlaeche rdf:type owl:Class ;
 xplan5:BP_Landwirtschaft rdf:type owl:Class ;
                          semgis:linestringStyle " \"stroke\":true, \"color\":\"green\"  "^^semgis:cssLiteral ;
                          semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Ackerbau
+xplan5:BP_Landwirtschaft_Ackerbau rdf:type owl:Class ;
+                                  rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">AB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Binnenfischerei
+xplan5:BP_Landwirtschaft_Binnenfischerei rdf:type owl:Class ;
+                                         rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                         semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">FI</text>
+</svg>"""^^semgis:svgLiteral ;
+                                         semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_GartenbaulicheErzeugung
+xplan5:BP_Landwirtschaft_GartenbaulicheErzeugung rdf:type owl:Class ;
+                                                 rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">GB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Imkerei
+xplan5:BP_Landwirtschaft_Imkerei rdf:type owl:Class ;
+                                 rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">IMK</text>
+</svg>"""^^semgis:svgLiteral ;
+                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_LandwirtschaftAllgemein
+xplan5:BP_Landwirtschaft_LandwirtschaftAllgemein rdf:type owl:Class ;
+                                                 rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">LA</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Obstbau
+xplan5:BP_Landwirtschaft_Obstbau rdf:type owl:Class ;
+                                 rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">OB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Sonstiges
+xplan5:BP_Landwirtschaft_Sonstiges rdf:type owl:Class ;
+                                   rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_Weinbau
+xplan5:BP_Landwirtschaft_Weinbau rdf:type owl:Class ;
+                                 rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WB</text>
+</svg>"""^^semgis:svgLiteral ;
+                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_Landwirtschaft_WiesenWeidewirtschaft
+xplan5:BP_Landwirtschaft_WiesenWeidewirtschaft rdf:type owl:Class ;
+                                               rdfs:subClassOf xplan5:BP_Landwirtschaft ;
+                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"1\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"0\" y=\"1.5\" size=\"4\">WW</text>
+</svg>"""^^semgis:svgLiteral ;
+                                               semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#99cc00\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenAusschlussFlaeche
@@ -529,6 +701,83 @@ xplan5:BP_VerEntsorgung rdf:type owl:Class ;
                         semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":300.0, \"pixelSize\":5.0 }"^^semgis:cssLiteral ;
                         semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral ;
                         semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Abwasserleitung
+xplan5:BP_VerEntsorgung_Abwasserleitung rdf:type owl:Class ;
+                                        rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                        semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx='10' cy='10' r='18.5'/><Path fill='true' fillColor='black' d='M 16.5 -8 L -16.5 -8 A 18.5 18.5 0 0 1 -11.5 -14 L 11.5 -14 A 18.5 18.5 0 0 1 16.5 -8'/></svg>"^^semgis:svgLiteral ;
+                                        semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Abwasserpumpwerk
+xplan5:BP_VerEntsorgung_Abwasserpumpwerk rdf:type owl:Class ;
+                                         rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                         semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx='10' cy='10' r='18.5'/><Path fill='true' fillColor='black' d='M 16.5 -8 L -16.5 -8 A 18.5 18.5 0 0 1 -11.5 -14 L 11.5 -14 A 18.5 18.5 0 0 1 16.5 -8'/></svg>"^^semgis:svgLiteral ;
+                                         semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Elektrizitaet
+xplan5:BP_VerEntsorgung_Elektrizitaet rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                      semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Elektrizitätswerk
+xplan5:BP_VerEntsorgung_Elektrizitätswerk rdf:type owl:Class ;
+                                          rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                          semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                          semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Geothermiekraftwerk
+xplan5:BP_VerEntsorgung_Geothermiekraftwerk rdf:type owl:Class ;
+                                            rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                            semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Hochspannungsleitung
+xplan5:BP_VerEntsorgung_Hochspannungsleitung rdf:type owl:Class ;
+                                             rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                             semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                             semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Klaeranlage
+xplan5:BP_VerEntsorgung_Klaeranlage rdf:type owl:Class ;
+                                    rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                    semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx='10' cy='10' r='18.5'/><Path fill='true' fillColor='black' d='M 16.5 -8 L -16.5 -8 A 18.5 18.5 0 0 1 -11.5 -14 L 11.5 -14 A 18.5 18.5 0 0 1 16.5 -8'/></svg>"^^semgis:svgLiteral ;
+                                    semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Solarkraftwerk
+xplan5:BP_VerEntsorgung_Solarkraftwerk rdf:type owl:Class ;
+                                       rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                       semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                       semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_TrafostationUmspannwerk
+xplan5:BP_VerEntsorgung_TrafostationUmspannwerk rdf:type owl:Class ;
+                                                rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                                semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                                semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Wasserkraftwerk
+xplan5:BP_VerEntsorgung_Wasserkraftwerk rdf:type owl:Class ;
+                                        rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                        semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                        semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_VerEntsorgung_Windkraftwerk
+xplan5:BP_VerEntsorgung_Windkraftwerk rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:BP_VerEntsorgung ;
+                                      semgis:image "<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><Circle fillColor='white' fill='true' stroke='true' color='black' stroke-width='1' cx=\"10\" cy=\"10\" r=\"18.5\"/><Path fill='true' fillColor='black' d=\"M -1 -18.3 L -4 0.5 L 0 -2.5 L -2 18.5 A 18.5 18.5 0 0 1 -1 -18.3\"/></svg>"^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ffec99\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5"^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_Veraenderungssperre
