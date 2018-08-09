@@ -1,0 +1,19 @@
+@prefix inspire-plu: <http://inspire.ec.europa.eu/schemas/plu/4.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+semgis:styleProperty rdf:type owl:AnnotationProperty .
+semgis:image rdf:type owl:AnnotationProperty  . 
+semgis:linestringImage rdf:type owl:AnnotationProperty . semgis:linestringImage rdfs:subPropertyOf semgis:image. 
+semgis:linestringStyle rdf:type owl:AnnotationProperty . semgis:linestringStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:polygonStyle rdf:type owl:AnnotationProperty . semgis:polygonStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:pointImageStyle rdf:type owl:AnnotationProperty . semgis:pointImageStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:linestringImageStyle rdf:type owl:AnnotationProperty . semgis:linestringImageStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:polygonImageStyle rdf:type owl:AnnotationProperty . semgis:polygonImageStyle rdfs:subPropertyOf semgis:styleProperty . 
+semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
+inspire-plu:SpatialPlan rdf:type owl:Class . inspire-plu:SpatialPlan semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
+inspire-plu:SupplementaryRegulation rdf:type owl:Class . inspire-plu:SupplementaryRegulation semgis:linestringStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral . 
+inspire-plu:SupplementaryRegulation rdf:type owl:Class . inspire-plu:SupplementaryRegulation semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1.0\"  , \"fill\":true "^^semgis:cssLiteral . 
+inspire-plu:ZoningElement rdf:type owl:Class . inspire-plu:ZoningElement semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c8c8ff\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral . 
