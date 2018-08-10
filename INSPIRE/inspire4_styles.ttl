@@ -2,6 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix semgis: <http://www.semgis.de/geodata#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 semgis:styleProperty rdf:type owl:AnnotationProperty .
 semgis:image rdf:type owl:AnnotationProperty  . 
