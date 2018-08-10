@@ -1,21 +1,275 @@
-@prefix inspire-plu: <http://inspire.ec.europa.eu/schemas/plu/4.0#> .
+@prefix : <#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix semgis: <http://www.semgis.de/geodata#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix inspire-plu: <http://inspire.ec.europa.eu/schemas/plu/4.0#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semgis.de/geodata#hatch
+semgis:hatch rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semgis.de/geodata#image
+semgis:image rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semgis.de/geodata#linestringImage
+semgis:linestringImage rdf:type owl:AnnotationProperty ;
+                       rdfs:subPropertyOf semgis:image .
+
+
+###  http://www.semgis.de/geodata#linestringImageStyle
+semgis:linestringImageStyle rdf:type owl:AnnotationProperty ;
+                            rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#linestringStyle
+semgis:linestringStyle rdf:type owl:AnnotationProperty ;
+                       rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#pointImageStyle
+semgis:pointImageStyle rdf:type owl:AnnotationProperty ;
+                       rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#pointStyle
+semgis:pointStyle rdf:type owl:AnnotationProperty ;
+                  rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#polygonImageStyle
+semgis:polygonImageStyle rdf:type owl:AnnotationProperty ;
+                         rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#polygonStyle
+semgis:polygonStyle rdf:type owl:AnnotationProperty ;
+                    rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#style
+semgis:style rdf:type owl:AnnotationProperty ;
+             rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#styleProperty
 semgis:styleProperty rdf:type owl:AnnotationProperty .
-semgis:image rdf:type owl:AnnotationProperty  . 
-semgis:linestringImage rdf:type owl:AnnotationProperty . semgis:linestringImage rdfs:subPropertyOf semgis:image. 
-semgis:linestringStyle rdf:type owl:AnnotationProperty . semgis:linestringStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:polygonStyle rdf:type owl:AnnotationProperty . semgis:polygonStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:pointImageStyle rdf:type owl:AnnotationProperty . semgis:pointImageStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:linestringImageStyle rdf:type owl:AnnotationProperty . semgis:linestringImageStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:polygonImageStyle rdf:type owl:AnnotationProperty . semgis:polygonImageStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
-inspire-plu:SpatialPlan rdf:type owl:Class . inspire-plu:SpatialPlan semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral . 
-inspire-plu:SupplementaryRegulation rdf:type owl:Class . inspire-plu:SupplementaryRegulation semgis:linestringStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral . 
-inspire-plu:SupplementaryRegulation rdf:type owl:Class . inspire-plu:SupplementaryRegulation semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1.0\"  , \"fill\":true "^^semgis:cssLiteral . 
-inspire-plu:ZoningElement rdf:type owl:Class . inspire-plu:ZoningElement semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c8c8ff\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral . 
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.semgis.de/geodata#cssLiteral
+semgis:cssLiteral rdf:type rdfs:Datatype .
+
+
+###  http://www.semgis.de/geodata#svgLiteral
+semgis:svgLiteral rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SpatialPlan
+inspire-plu:SpatialPlan rdf:type owl:Class ;
+                        semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"4\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation
+inspire-plu:SupplementaryRegulation rdf:type owl:Class ;
+                                    semgis:linestringStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral ;
+                                    semgis:polygonStyle " \"stroke\":true, \"color\":\"#000000\" , \"stroke-width\":\"1.0\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_GeneralInterest
+inspire-plu:SupplementaryRegulation_GeneralInterest rdf:type owl:Class ;
+                                                    rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#b478f0\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                    semgis:linestringStyle "\"stroke\":true, \"color\":\"#b478f0\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                    semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#b478f0\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_HeritageProtection
+inspire-plu:SupplementaryRegulation_HeritageProtection rdf:type owl:Class ;
+                                                       rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#969696\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                       semgis:linestringStyle "\"stroke\":true, \"color\":\"#969696\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                       semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#969696\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_ImpactOnEnvironment
+inspire-plu:SupplementaryRegulation_ImpactOnEnvironment rdf:type owl:Class ;
+                                                        rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                        semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#b4e66e\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                        semgis:linestringStyle "\"stroke\":true, \"color\":\"#64e66e\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                        semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#b4e66e\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_LandPropertyRight
+inspire-plu:SupplementaryRegulation_LandPropertyRight rdf:type owl:Class ;
+                                                      rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#f07864\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                      semgis:linestringStyle "\"stroke\":true, \"color\":\"#f07864\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                      semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#f07864\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_LocalRegionalStateDevelopmentPolicies
+inspire-plu:SupplementaryRegulation_LocalRegionalStateDevelopmentPolicies rdf:type owl:Class ;
+                                                                          rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                                          semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#e6e66e\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                                          semgis:linestringStyle "\"stroke\":true, \"color\":\"#e6e66e\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                                          semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#e6e66e\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_OtherSupplementaryRegulation
+inspire-plu:SupplementaryRegulation_OtherSupplementaryRegulation rdf:type owl:Class ;
+                                                                 rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#8cdcf0\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                                 semgis:linestringStyle "\"stroke\":true, \"color\":\"#8cdcf0\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                                 semgis:polygonStyle "\"fill\"=\"none\",\"stroke\":true, \"color\":\"#8cdcf0\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_RegulatingPermittedActivities
+inspire-plu:SupplementaryRegulation_RegulatingPermittedActivities rdf:type owl:Class ;
+                                                                  rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#c8c8ff\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                                  semgis:linestringStyle "\"stroke\":true, \"color\":\"#c8c8ff\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                                  semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#c8c8ff\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_RegulationOnBuildings
+inspire-plu:SupplementaryRegulation_RegulationOnBuildings rdf:type owl:Class ;
+                                                          rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                          semgis:hatch "{\"color\":\"#0000ff\", \"spaceWeight\":\"5\",\"weight\":\"1\"}"^^semgis:cssLiteral ;
+                                                          semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#0000ff\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                          semgis:linestringStyle "\"stroke\":true, \"color\":\"#0000ff\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                          semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#0000ff\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_RiskExposure
+inspire-plu:SupplementaryRegulation_RiskExposure rdf:type owl:Class ;
+                                                 rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                 semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#646464\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                 semgis:linestringStyle "\"stroke\":true, \"color\":\"#646464\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                 semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#f07864\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#SupplementaryRegulation_SocialChoices
+inspire-plu:SupplementaryRegulation_SocialChoices rdf:type owl:Class ;
+                                                  rdfs:subClassOf inspire-plu:SupplementaryRegulation ;
+                                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"true\" fillColor=\"#c8ffc8\" cx=\"10\" cy=\"10\" r=\"1\" />
+</svg>"""^^semgis:svgLiteral ;
+                                                  semgis:linestringStyle "\"stroke\":true, \"color\":\"#c8ffc8\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral ;
+                                                  semgis:polygonStyle "\"fill\":\"none\", \"stroke\":true, \"color\":\"#c8ffc8\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement
+inspire-plu:ZoningElement rdf:type owl:Class ;
+                          semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c8c8ff\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1.0\"  "^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_Agriculture
+inspire-plu:ZoningElement_Agriculture rdf:type owl:Class ;
+                                      rdfs:subClassOf inspire-plu:ZoningElement ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#e6e66e\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_Forestry
+inspire-plu:ZoningElement_Forestry rdf:type owl:Class ;
+                                   rdfs:subClassOf inspire-plu:ZoningElement ;
+                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#6ee66e\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_LandAreasInNaturalUse
+inspire-plu:ZoningElement_LandAreasInNaturalUse rdf:type owl:Class ;
+                                                rdfs:subClassOf inspire-plu:ZoningElement ;
+                                                semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c8ffc8\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_Mischgebiet
+inspire-plu:ZoningElement_Mischgebiet rdf:type owl:Class ;
+                                      rdfs:subClassOf inspire-plu:ZoningElement ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#a87000\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_Network
+inspire-plu:ZoningElement_Network rdf:type owl:Class ;
+                                  rdfs:subClassOf inspire-plu:ZoningElement ;
+                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#b4dcf0\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_OtherUses
+inspire-plu:ZoningElement_OtherUses rdf:type owl:Class ;
+                                    rdfs:subClassOf inspire-plu:ZoningElement ;
+                                    semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#dcdcdc\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_PrimaryProduction
+inspire-plu:ZoningElement_PrimaryProduction rdf:type owl:Class ;
+                                            rdfs:subClassOf inspire-plu:ZoningElement ;
+                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#b4e66e\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_ResidentialArea
+inspire-plu:ZoningElement_ResidentialArea rdf:type owl:Class ;
+                                          rdfs:subClassOf inspire-plu:ZoningElement ;
+                                          semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#f07864\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_SecondaryProduction
+inspire-plu:ZoningElement_SecondaryProduction rdf:type owl:Class ;
+                                              rdfs:subClassOf inspire-plu:ZoningElement ;
+                                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#646464\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_TertiaryProduction
+inspire-plu:ZoningElement_TertiaryProduction rdf:type owl:Class ;
+                                             rdfs:subClassOf inspire-plu:ZoningElement ;
+                                             semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#969696\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":\"1.0\""^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_WaterAreasInNaturalUse
+inspire-plu:ZoningElement_WaterAreasInNaturalUse rdf:type owl:Class ;
+                                                 rdfs:subClassOf inspire-plu:ZoningElement ;
+                                                 semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#c8c8ff\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  http://inspire.ec.europa.eu/schemas/plu/4.0#ZoningElement_WaterTraffic
+inspire-plu:ZoningElement_WaterTraffic rdf:type owl:Class ;
+                                       rdfs:subClassOf inspire-plu:ZoningElement ;
+                                       semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#8cdcf0\", \"stroke\":true, \"color\":\"black\", \"stroke-width\":1.0"^^semgis:cssLiteral .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
