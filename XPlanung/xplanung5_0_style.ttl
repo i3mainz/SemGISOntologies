@@ -399,105 +399,105 @@ xplan5:BP_GemeinbedarfsFlaeche rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Bad
 xplan5:BP_GemeinbedarfsFlaeche_Bad rdf:type owl:Class ;
                                    rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                   semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_BerufsbildendeSchule
 xplan5:BP_GemeinbedarfsFlaeche_BerufsbildendeSchule rdf:type owl:Class ;
                                                     rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                                    semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                                    semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Gesundheit
 xplan5:BP_GemeinbedarfsFlaeche_Gesundheit rdf:type owl:Class ;
                                           rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                          semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                          semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Hochschule
 xplan5:BP_GemeinbedarfsFlaeche_Hochschule rdf:type owl:Class ;
                                           rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                          semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                          semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Kirche
 xplan5:BP_GemeinbedarfsFlaeche_Kirche rdf:type owl:Class ;
                                       rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                      semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Kirchengemeinde
 xplan5:BP_GemeinbedarfsFlaeche_Kirchengemeinde rdf:type owl:Class ;
                                                rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                               semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                                semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                               semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Krankenhaus
 xplan5:BP_GemeinbedarfsFlaeche_Krankenhaus rdf:type owl:Class ;
                                            rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                           semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                            semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                           semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Kultur
 xplan5:BP_GemeinbedarfsFlaeche_Kultur rdf:type owl:Class ;
                                       rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                      semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_MusikTheater
 xplan5:BP_GemeinbedarfsFlaeche_MusikTheater rdf:type owl:Class ;
                                             rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                            semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Sakralgebaeude
 xplan5:BP_GemeinbedarfsFlaeche_Sakralgebaeude rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                              semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_Schule
 xplan5:BP_GemeinbedarfsFlaeche_Schule rdf:type owl:Class ;
                                       rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                      semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_SonstigeKultur
 xplan5:BP_GemeinbedarfsFlaeche_SonstigeKultur rdf:type owl:Class ;
                                               rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                              semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinbedarfsFlaeche_SonstigesGesundheit
 xplan5:BP_GemeinbedarfsFlaeche_SonstigesGesundheit rdf:type owl:Class ;
                                                    rdfs:subClassOf xplan5:BP_GemeinbedarfsFlaeche ;
-                                                   semgis:hatch "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral ;
                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
-<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral .
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_GemeinschaftsanlagenFlaeche
@@ -754,6 +754,51 @@ xplan5:BP_NebenanlagenAusschlussFlaeche rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche
 xplan5:BP_NebenanlagenFlaeche rdf:type owl:Class ;
                               semgis:polygonStyle " \"stroke\":true, \"color\":\"#ff0000\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_AbfallSammelanlagen
+xplan5:BP_NebenanlagenFlaeche_AbfallSammelanlagen rdf:type owl:Class ;
+                                                  rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_AbfallWertstoffbehaelter
+xplan5:BP_NebenanlagenFlaeche_AbfallWertstoffbehaelter rdf:type owl:Class ;
+                                                       rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_Carport
+xplan5:BP_NebenanlagenFlaeche_Carport rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_EnergieVerteilungsanlagen
+xplan5:BP_NebenanlagenFlaeche_EnergieVerteilungsanlagen rdf:type owl:Class ;
+                                                        rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_Nebengebaeude
+xplan5:BP_NebenanlagenFlaeche_Nebengebaeude rdf:type owl:Class ;
+                                            rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_Sonstiges
+xplan5:BP_NebenanlagenFlaeche_Sonstiges rdf:type owl:Class ;
+                                        rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_Spielplatz
+xplan5:BP_NebenanlagenFlaeche_Spielplatz rdf:type owl:Class ;
+                                         rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_Stellplaetze
+xplan5:BP_NebenanlagenFlaeche_Stellplaetze rdf:type owl:Class ;
+                                           rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
+
+
+###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenFlaeche_Tiefgarage
+xplan5:BP_NebenanlagenFlaeche_Tiefgarage rdf:type owl:Class ;
+                                         rdfs:subClassOf xplan5:BP_NebenanlagenFlaeche .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_NutzungsartenGrenze
@@ -1172,6 +1217,110 @@ xplan5:FP_Bodenschaetze rdf:type owl:Class ;
 ###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf
 xplan5:FP_Gemeinbedarf rdf:type owl:Class ;
                        semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Bad
+xplan5:FP_Gemeinbedarf_Bad rdf:type owl:Class ;
+                           rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                           semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_BerufsbildendeSchule
+xplan5:FP_Gemeinbedarf_BerufsbildendeSchule rdf:type owl:Class ;
+                                            rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                            semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                            semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Gesundheit
+xplan5:FP_Gemeinbedarf_Gesundheit rdf:type owl:Class ;
+                                  rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Hochschule
+xplan5:FP_Gemeinbedarf_Hochschule rdf:type owl:Class ;
+                                  rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                  semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Kirche
+xplan5:FP_Gemeinbedarf_Kirche rdf:type owl:Class ;
+                              rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral ;
+                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Kirchengemeinde
+xplan5:FP_Gemeinbedarf_Kirchengemeinde rdf:type owl:Class ;
+                                       rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                       semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                       semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Krankenhaus
+xplan5:FP_Gemeinbedarf_Krankenhaus rdf:type owl:Class ;
+                                   rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                   semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                   semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Kultur
+xplan5:FP_Gemeinbedarf_Kultur rdf:type owl:Class ;
+                              rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_MusikTheater
+xplan5:FP_Gemeinbedarf_MusikTheater rdf:type owl:Class ;
+                                    rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                    semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Sakralgebaeude
+xplan5:FP_Gemeinbedarf_Sakralgebaeude rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7.5 L 12.5 7.5 L 14.5 5.5 L 14.5 2 L 22.5 2 L 22.5 5.5 L 24.5 7.5 L 28 7.5 L 28 15.5 L 24.5 15.5 L 22.5 17.5 L 22.5 21 L 14.5 21 L 14.5 17.5 L 12.5 15.5 L 9 15.5 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_Schule
+xplan5:FP_Gemeinbedarf_Schule rdf:type owl:Class ;
+                              rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 21 L 31 21 L 18.5 2 Z\"/></svg>"""^^semgis:svgLiteral ;
+                              semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_SonstigeKultur
+xplan5:FP_Gemeinbedarf_SonstigeKultur rdf:type owl:Class ;
+                                      rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                      semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 6 2 L 31 2 L 18.5 21 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                      semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_Gemeinbedarf_SonstigesGesundheit
+xplan5:FP_Gemeinbedarf_SonstigesGesundheit rdf:type owl:Class ;
+                                           rdfs:subClassOf xplan5:FP_Gemeinbedarf ;
+                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Rect fill=\"true\" fillColor=\"black\" width=\"36\" height=\"24\"/><Path fill=\"true\" fillColor=\"white\" d=\"M 9 7 L 13.5 7 L 13.5 3 L 23.5 3 L 23.5 7 L 28 7 L 28 16 L 23.5 16 L 23.5 20 L 13.5 20 L 13.5 16 L 9 16 Z\"/></svg>"""^^semgis:svgLiteral ;
+                                           semgis:polygonStyle "\"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\""^^semgis:cssLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_GenerischesObjekt
@@ -1633,6 +1782,204 @@ xplan5:FP_PrivilegiertesVorhaben rdf:type owl:Class ;
                                  semgis:linestringImageStyle "{\"offset\":0 , \"repeat\":50.0, \"pixelSize\":6.0 }"^^semgis:cssLiteral ;
                                  semgis:linestringStyle " \"stroke\":true, \"color\":\"#ff0700\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral ;
                                  semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Abwasser
+xplan5:FP_PrivilegiertesVorhaben_Abwasser rdf:type owl:Class ;
+                                          rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                          semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">ÖFV</text>
+</svg>"""^^semgis:svgLiteral ;
+                                          semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Altenteil
+xplan5:FP_PrivilegiertesVorhaben_Altenteil rdf:type owl:Class ;
+                                           rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">LF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                           semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Aussiedlerhof
+xplan5:FP_PrivilegiertesVorhaben_Aussiedlerhof rdf:type owl:Class ;
+                                               rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">LF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                               semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Baumschule
+xplan5:FP_PrivilegiertesVorhaben_Baumschule rdf:type owl:Class ;
+                                            rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                            semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">LF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                            semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_BebauteFlaecheAussenbereich
+xplan5:FP_PrivilegiertesVorhaben_BebauteFlaecheAussenbereich rdf:type owl:Class ;
+                                                             rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                             semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_BesondereUmgebungsAnforderung
+xplan5:FP_PrivilegiertesVorhaben_BesondereUmgebungsAnforderung rdf:type owl:Class ;
+                                                               rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">BV</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_BesondereZweckbestimmung
+xplan5:FP_PrivilegiertesVorhaben_BesondereZweckbestimmung rdf:type owl:Class ;
+                                                          rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                          semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">BV</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_BesonderesVorhaben
+xplan5:FP_PrivilegiertesVorhaben_BesonderesVorhaben rdf:type owl:Class ;
+                                                    rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                    semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">BV</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                    semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Biomasse
+xplan5:FP_PrivilegiertesVorhaben_Biomasse rdf:type owl:Class ;
+                                          rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                          semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">EE</text>
+</svg>"""^^semgis:svgLiteral ;
+                                          semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Elektrizitaet
+xplan5:FP_PrivilegiertesVorhaben_Elektrizitaet rdf:type owl:Class ;
+                                               rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">ÖFV</text>
+</svg>"""^^semgis:svgLiteral ;
+                                               semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_ErneuerbareEnergien
+xplan5:FP_PrivilegiertesVorhaben_ErneuerbareEnergien rdf:type owl:Class ;
+                                                     rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">EE</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Gartenbaubetrieb
+xplan5:FP_PrivilegiertesVorhaben_Gartenbaubetrieb rdf:type owl:Class ;
+                                                  rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                  semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">LF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                  semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Gas
+xplan5:FP_PrivilegiertesVorhaben_Gas rdf:type owl:Class ;
+                                     rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">ÖFV</text>
+</svg>"""^^semgis:svgLiteral ;
+                                     semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_LandForstwirtschaft
+xplan5:FP_PrivilegiertesVorhaben_LandForstwirtschaft rdf:type owl:Class ;
+                                                     rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                     semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">LF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                     semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_NachteiligeUmgebungsWirkung
+xplan5:FP_PrivilegiertesVorhaben_NachteiligeUmgebungsWirkung rdf:type owl:Class ;
+                                                             rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">BV</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_OeffentlicheVersorgung
+xplan5:FP_PrivilegiertesVorhaben_OeffentlicheVersorgung rdf:type owl:Class ;
+                                                        rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                        semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">ÖFV</text>
+</svg>"""^^semgis:svgLiteral ;
+                                                        semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_OrtsgebundenerGemeindebetrieb
+xplan5:FP_PrivilegiertesVorhaben_OrtsgebundenerGemeindebetrieb rdf:type owl:Class ;
+                                                               rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">OG</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Reiterhof
+xplan5:FP_PrivilegiertesVorhaben_Reiterhof rdf:type owl:Class ;
+                                           rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                           semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">LF</text>
+</svg>"""^^semgis:svgLiteral ;
+                                           semgis:polygonStyle "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Solarenergie
+xplan5:FP_PrivilegiertesVorhaben_Solarenergie rdf:type owl:Class ;
+                                              rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                              semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">EE</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Wasserenergie
+xplan5:FP_PrivilegiertesVorhaben_Wasserenergie rdf:type owl:Class ;
+                                               rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                               semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">EE</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#FP_PrivilegiertesVorhaben_Windenergie
+xplan5:FP_PrivilegiertesVorhaben_Windenergie rdf:type owl:Class ;
+                                             rdfs:subClassOf xplan5:FP_PrivilegiertesVorhaben ;
+                                             semgis:image """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<Circle fill=\"none\" stroke=\"true\" color=\"black\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"10\"/>
+<Text fill=\"true\" color=\"black\" font-weight=\"bold\" x=\"4\" y=\"15\" size=\"3\">EE</text>
+</svg>"""^^semgis:svgLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#FP_SchutzPflegeEntwicklung
@@ -2191,6 +2538,60 @@ xplan5:SO_Bodenschutzrecht rdf:type owl:Class ;
 xplan5:SO_Denkmalschutzrecht rdf:type owl:Class ;
                              semgis:linestringStyle " \"stroke\":true, \"color\":\"#ff3300\" , \"stroke-width\":\"4\"  "^^semgis:cssLiteral ;
                              semgis:polygonStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Denkmalschutzrecht_DenkmalschutzEinzelanlage
+xplan5:SO_Denkmalschutzrecht_DenkmalschutzEinzelanlage rdf:type owl:Class ;
+                                                       rdfs:subClassOf xplan5:SO_Denkmalschutzrecht ;
+                                                       semgis:image "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                                    """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<circle stroke=\"true\" color=\"red\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"1\"/><text stroke=\"true\" fillColor=\"black\" size=\"5\" x=\"0\" y=\"0\">EA</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Denkmalschutzrecht_DenkmalschutzEnsemble
+xplan5:SO_Denkmalschutzrecht_DenkmalschutzEnsemble rdf:type owl:Class ;
+                                                   rdfs:subClassOf xplan5:SO_Denkmalschutzrecht ;
+                                                   semgis:image "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                                """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<circle stroke=\"true\" color=\"red\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"1\"/><text stroke=\"true\" fillColor=\"black\" size=\"5\" x=\"0\" y=\"0\">E</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Denkmalschutzrecht_Grabungsschutzgebiet
+xplan5:SO_Denkmalschutzrecht_Grabungsschutzgebiet rdf:type owl:Class ;
+                                                  rdfs:subClassOf xplan5:SO_Denkmalschutzrecht ;
+                                                  semgis:image "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                               """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<circle stroke=\"true\" color=\"red\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"1\"/><text stroke=\"true\" fillColor=\"black\" size=\"5\" x=\"0\" y=\"0\">G</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Denkmalschutzrecht_PufferzoneWeltkulturerbeEnger
+xplan5:SO_Denkmalschutzrecht_PufferzoneWeltkulturerbeEnger rdf:type owl:Class ;
+                                                           rdfs:subClassOf xplan5:SO_Denkmalschutzrecht ;
+                                                           semgis:image "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                                        """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<circle stroke=\"true\" color=\"red\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"1\"/><text stroke=\"true\" fillColor=\"black\" size=\"5\" x=\"0\" y=\"0\">P_E</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Denkmalschutzrecht_PufferzoneWeltkulturerbeWeiter
+xplan5:SO_Denkmalschutzrecht_PufferzoneWeltkulturerbeWeiter rdf:type owl:Class ;
+                                                            rdfs:subClassOf xplan5:SO_Denkmalschutzrecht ;
+                                                            semgis:image "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                                         """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<circle stroke=\"true\" color=\"red\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"1\"/><text stroke=\"true\" fillColor=\"black\" size=\"5\" x=\"0\" y=\"0\">P_W</text>
+</svg>"""^^semgis:svgLiteral .
+
+
+###  http://www.xplanung.de/xplangml/5/0#SO_Denkmalschutzrecht_Sonstiges
+xplan5:SO_Denkmalschutzrecht_Sonstiges rdf:type owl:Class ;
+                                       rdfs:subClassOf xplan5:SO_Denkmalschutzrecht ;
+                                       semgis:image "\"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  , \"fill\":true"^^semgis:cssLiteral ,
+                                                    """<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<circle stroke=\"true\" color=\"red\" stroke-width=\"0.2\" cx=\"10\" cy=\"10\" r=\"1\"/><text stroke=\"true\" fillColor=\"black\" size=\"5\" x=\"0\" y=\"0\">SO</text>
+</svg>"""^^semgis:svgLiteral .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#SO_Forstrecht
