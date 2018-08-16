@@ -8,6 +8,8 @@ The ontologies are as follows:
 - [XPlanung](http://www.xplanungwiki.de/index.php?title=Xplanung_Wiki) Version 2,3,4,5 Ontology
 - [INSPIRE](http://inspire.ec.europa.eu) Version 4 Ontology
 - [AAA-Data](http://www.adv-online.de/Products/Real-Estate-Cadastre/ALKIS/) Version 6 Ontology
+- [XErleben](http://www.xerleben.de) Version 2 Ontology
+- [XKatastrophenhilfe](https://www.bbk.bund.de/DE/AufgabenundAusstattung/Krisenmanagement/xkatastrophenhilfe/xkatastrophenhilfe_node.html) Version 1.1 Ontology
 - Interlinks between AAA-Data and [LinkedGeodata](http://linkedgeodata.org/About)/[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 - Interlinks between INSPIRE Planned Landuse and XPlanung Version 4
 
