@@ -2240,6 +2240,14 @@ Beispiel: Handelt es sich um ein Hilfeleistungspotenzial eines Kreises, kann die
                      rdfs:label "Stadt/Gemeinde"@de .
 
 
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Luftfahrzeugart_H
+:Code.Luftfahrzeugart_H rdf:type owl:Class ;
+                        owl:equivalentClass <https://www.wikidata.org/wiki/Q34486> ;
+                        rdfs:subClassOf <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Luftfahrzeugart> ;
+                        rdfs:comment "Luftfahrzeug ist ein Hubschrauber"@de ;
+                        rdfs:label "Hubschrauber"@de .
+
+
 ###  http://www.opengis.net/ont/geosparql#Feature
 geosparql:Feature rdf:type owl:Class ;
                   rdfs:subClassOf geosparql:SpatialObject ;
@@ -2283,6 +2291,10 @@ owl:unionOf rdf:type owl:Class .
 
 ###  https://www.wikidata.org/wiki/Q336473
 <https://www.wikidata.org/wiki/Q336473> rdf:type owl:Class .
+
+
+###  https://www.wikidata.org/wiki/Q34486
+<https://www.wikidata.org/wiki/Q34486> rdf:type owl:Class .
 
 
 ###  https://www.wikidata.org/wiki/Q7275
@@ -2827,6 +2839,102 @@ owl:unionOf rdf:type owl:Class .
                            rdfs:comment "Transport von Trinkwasser"@de .
 
 
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.BT.01
+:Code.Faehigkeit_PSNV.BT.01 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Betreuung von Betroffenen (Überlebende, Angehörige, Hinterbliebene, Zeugen und/oder Vermissende)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.BT.02
+:Code.Faehigkeit_PSNV.BT.02 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Betreuung von Einsatzkräften des Rettungsdienstes, der Feuerwehren, der Polizei, des Katastrophenschutzes, des THW und der Bundeswehr"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.BT.03
+:Code.Faehigkeit_PSNV.BT.03 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Betroffenenbegleitung- und nachsorge"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.BT.04
+:Code.Faehigkeit_PSNV.BT.04 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Einsatzbegleitung- und nachsorge"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.BT.05
+:Code.Faehigkeit_PSNV.BT.05 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Unterstützung des KatS-Betreuungsdienstes beim Betreiben von Betreuungseinrichtungen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.BT.06
+:Code.Faehigkeit_PSNV.BT.06 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Vorbereitung primärpräventiver Maßnahmen im Einsatzwesen (Schulungen, Beratung, Konzeptentwicklung usw.)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.01
+:Code.Faehigkeit_PSNV.FB.01 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Bildung und Leitung der Organisationseinheiten der psychosozialen Prävention im Einsatzwesen (z.B. Einsatznachsorgeteams)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.02
+:Code.Faehigkeit_PSNV.FB.02 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Fachberatung bei der Integration der PSNV in Einsatzstrukturen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.03
+:Code.Faehigkeit_PSNV.FB.03 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Fachberatung bei der PSNV-Bedarfsermittlung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.04
+:Code.Faehigkeit_PSNV.FB.04 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Fachberatung beim Aufbau einer längerfristigen PSNV-Koordinierungsstelle"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.05
+:Code.Faehigkeit_PSNV.FB.05 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Fachberatung beim Aufbau/der Umsetzung von PSNV-Strukturen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.06
+:Code.Faehigkeit_PSNV.FB.06 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Fachberatung zu Fragen der Betreuung von Betroffenen (Überlebende, Angehörige, Hinterbliebene, Zeugen und/oder Vermissende)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.07
+:Code.Faehigkeit_PSNV.FB.07 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "Fachberatung zu Fragen der Betreuung von Einsatzkräften des Rettungsdienstes, der Feuerwehren, der Polizei, des Katastrophenschutzes, des THW und der Bundeswehr"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.08
+:Code.Faehigkeit_PSNV.FB.08 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "PSNV-Bedürfnis- und Bedarfserhebung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.09
+:Code.Faehigkeit_PSNV.FB.09 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "PSNV-Fachberatung im operativ-taktischen Führungsstab der Gefahrenabwehr"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_PSNV.FB.10
+:Code.Faehigkeit_PSNV.FB.10 rdf:type owl:NamedIndividual ,
+                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                            rdfs:comment "PSNV-Fachberatung im politisch-administrativen Führungsstab der Gefahrenabwehr"@de .
+
+
 ###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_med.BE.01
 :Code.Faehigkeit_med.BE.01 rdf:type owl:NamedIndividual ,
                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
@@ -2928,6 +3036,126 @@ owl:unionOf rdf:type owl:Class .
                            rdfs:comment "Vorhaltung und Bereitstellung von Sanitätsmaterial"@de .
 
 
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_med.TP.02
+:Code.Faehigkeit_med.TP.02 rdf:type owl:NamedIndividual ,
+                                    <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                           rdfs:comment "Lufttransport von medizinischem Personal und Gerät"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_med.TP.03
+:Code.Faehigkeit_med.TP.03 rdf:type owl:NamedIndividual ,
+                                    <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                           rdfs:comment "Lufttransport von Verletzten und Erkrankten durch medizinisch ausgestattete Spezialhubschrauber und andere Lufttransportmittel in MEDEVAC - Konfiguration"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_med.TP.04
+:Code.Faehigkeit_med.TP.04 rdf:type owl:NamedIndividual ,
+                                    <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                           rdfs:comment "Spezialtransporte von medizinischen Produkten (z.B. Impfstoffe, Blutprodukte, Organe, etc.)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_med.TP.05
+:Code.Faehigkeit_med.TP.05 rdf:type owl:NamedIndividual ,
+                                    <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                           rdfs:comment "Transport verletzter und erkrankter Personen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_med.TP.06
+:Code.Faehigkeit_med.TP.06 rdf:type owl:NamedIndividual ,
+                                    <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                           rdfs:comment "Transport von stark Übergewichtigen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.01
+:Code.Faehigkeit_sonst.01 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung bei der Gestaltung einer Bürger-/Krisenhotline"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.02
+:Code.Faehigkeit_sonst.02 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung Standsicherheit"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.03
+:Code.Faehigkeit_sonst.03 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zu Fragen der Ernährungssicherstellung und -vorsorge"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.04
+:Code.Faehigkeit_sonst.04 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zu Fragen der Geologie"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.05
+:Code.Faehigkeit_sonst.05 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zu Fragen des Extremismus"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.06
+:Code.Faehigkeit_sonst.06 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zu Sprengungen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.07
+:Code.Faehigkeit_sonst.07 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zu Stauanlagen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.08
+:Code.Faehigkeit_sonst.08 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zu Wetter- und Klimafragen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.09
+:Code.Faehigkeit_sonst.09 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zur Sicherung von beweglichem Kulturgut"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_sonst.10
+:Code.Faehigkeit_sonst.10 rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                          rdfs:comment "Fachberatung zum Veterinärwesen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.BG.01
+:Code.Faehigkeit_techn.BG.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bergung und Schleppen von Fahrzeugen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.BG.02
+:Code.Faehigkeit_techn.BG.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bergung von Kadavern"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.BG.03
+:Code.Faehigkeit_techn.BG.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bergung von Sachwerten"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.BG.04
+:Code.Faehigkeit_techn.BG.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bergung von toten Personen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkiet_med.TP.01
+:Code.Faehigkiet_med.TP.01 rdf:type owl:NamedIndividual ,
+                                    <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                           rdfs:label "Inkubatortransport"@de .
+
+
 ###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Gefahrnummer_2
 :Code.Gefahrnummer_2 rdf:type owl:NamedIndividual ,
                               <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Gefahrnummer> ;
@@ -2944,6 +3172,56 @@ owl:unionOf rdf:type owl:Class .
 :Code.Geschlecht_M rdf:type owl:NamedIndividual ,
                             <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Geschlecht> ;
                    rdfs:label "männlich"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Luftffahrzeugart_F
+:Code.Luftffahrzeugart_F rdf:type owl:NamedIndividual ,
+                                  <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Luftfahrzeugart> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_Energie
+:Code.Sektor_Energie rdf:type owl:NamedIndividual ,
+                              <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_Ernaehrung
+:Code.Sektor_Ernaehrung rdf:type owl:NamedIndividual ,
+                                 <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_Finanz-undVersicherungswesen
+:Code.Sektor_Finanz-undVersicherungswesen rdf:type owl:NamedIndividual ,
+                                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_InformationTelekommunikation
+:Code.Sektor_InformationTelekommunikation rdf:type owl:NamedIndividual ,
+                                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_MedienKultur
+:Code.Sektor_MedienKultur rdf:type owl:NamedIndividual ,
+                                   <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_Staat
+:Code.Sektor_Staat rdf:type owl:NamedIndividual ,
+                            <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_TransportVerkehr
+:Code.Sektor_TransportVerkehr rdf:type owl:NamedIndividual ,
+                                       <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Sektor_Wasser
+:Code.Sektor_Wasser rdf:type owl:NamedIndividual ,
+                             <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Setkor_Gesundheit
+:Code.Setkor_Gesundheit rdf:type owl:NamedIndividual ,
+                                 <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Sektor> .
 
 
 ###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#D
