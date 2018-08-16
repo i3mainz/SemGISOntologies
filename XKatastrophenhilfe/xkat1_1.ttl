@@ -3150,6 +3150,270 @@ owl:unionOf rdf:type owl:Class .
                              rdfs:comment "Bergung von toten Personen"@de .
 
 
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.01
+:Code.Faehigkeit_techn.RE.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Eindringen in Gross-Verkehrsmittel bzw. deren Trümmer"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.02
+:Code.Faehigkeit_techn.RE.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Eindringen in nicht zugängliche Gebäude, Gebäudeteile, Räume oder deren Trümmer"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.03
+:Code.Faehigkeit_techn.RE.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Höhenrettung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.04
+:Code.Faehigkeit_techn.RE.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Rettung und Bergung aus Wassergefahren einschließlich technischer Hilfeleistung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.05
+:Code.Faehigkeit_techn.RE.05 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Rettung von eingeschlossenen Personen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.06
+:Code.Faehigkeit_techn.RE.06 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Rettung von Verletzten"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RE.07
+:Code.Faehigkeit_techn.RE.07 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Tiefenrettung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RG.01
+:Code.Faehigkeit_techn.RG.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Beseitigung von Schneebruch, Windbruch und angeschlagenen Bäumen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RG.02
+:Code.Faehigkeit_techn.RG.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Beseitigung von Treibgut"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RG.03
+:Code.Faehigkeit_techn.RG.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Niederlegung von einsturzgefährdeten Bauwerksteilen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RG.04
+:Code.Faehigkeit_techn.RG.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Räumen, Heben, Bewegen und Transport von Trümmern und Lasten"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RG.05
+:Code.Faehigkeit_techn.RG.05 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Räumung von Schienenverkehrs-Anlagen und -flächen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.RG.06
+:Code.Faehigkeit_techn.RG.06 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Räumung, Anlegung und Planierung von Aufstell-, Arbeitsflächen, Zu- und Abfahrtswegen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.01
+:Code.Faehigkeit_techn.SI.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Abstützung und Aussteifung von Bauwerksteilen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.02
+:Code.Faehigkeit_techn.SI.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Aufbau und Betrieb von Großpumpen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.03
+:Code.Faehigkeit_techn.SI.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Aufbau von temporären Schneefang-/Sicherungsanlagen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.04
+:Code.Faehigkeit_techn.SI.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Auspumpen von Gebäuden"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.05
+:Code.Faehigkeit_techn.SI.05 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bau von Notdämmen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.06
+:Code.Faehigkeit_techn.SI.06 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Be- und Entlüftung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.07
+:Code.Faehigkeit_techn.SI.07 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bewässerung von Flächen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.08
+:Code.Faehigkeit_techn.SI.08 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Entwässerung von überfluteten Flächen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.09
+:Code.Faehigkeit_techn.SI.09 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sicherung von Dämmen und Deichen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.10
+:Code.Faehigkeit_techn.SI.10 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sicherung von Havaristen durch Pump- bzw. Lenzarbeiten"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SI.11
+:Code.Faehigkeit_techn.SI.11 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Vorhaltung und Breitstellung von Materialien und temporären Anlagen zum Hochwasserschutz"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SO.01
+:Code.Faehigkeit_techn.SO.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Ortung von eingeschlossenen, verschütteten und vermissten Personen und Tieren"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SO.02
+:Code.Faehigkeit_techn.SO.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Ortung von Leckagen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SO.03
+:Code.Faehigkeit_techn.SO.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Suche von Vermissten am, auf und unter Wasser"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SO.04
+:Code.Faehigkeit_techn.SO.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Suchen von eingeschlossenen und verschütteten Personen (Trümmersuche)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SO.05
+:Code.Faehigkeit_techn.SO.05 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Suchen von vermissten Personen (Flächensuche)"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.01
+:Code.Faehigkeit_techn.SP.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sprengung unter Wasser"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.02
+:Code.Faehigkeit_techn.SP.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sprengung von Bauwerken und Bauwerksteilen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.03
+:Code.Faehigkeit_techn.SP.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "prengung von Deichen zur Entlastung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.04
+:Code.Faehigkeit_techn.SP.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sprengung von Eis und Treibgut-Stauungen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.05
+:Code.Faehigkeit_techn.SP.05 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sprengung von Holzbauteilen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.06
+:Code.Faehigkeit_techn.SP.06 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Sprengung von Metallbauteilen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.SP.07
+:Code.Faehigkeit_techn.SP.07 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "prengung von Schneefeldern"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.UL.01
+:Code.Faehigkeit_techn.UL.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Einrichtung und Betrieb von Beleuchtungssystemen für große Flächen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.UL.02
+:Code.Faehigkeit_techn.UL.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Enteisung mechanischer Anlagen"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.UL.03
+:Code.Faehigkeit_techn.UL.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Erkundung von Schadenslagen aus der Luft"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.UL.04
+:Code.Faehigkeit_techn.UL.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Warnung und Information der Bevölkerung"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.US.01
+:Code.Faehigkeit_techn.US.01 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Aushub von kontaminiertem Erdreich"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.US.02
+:Code.Faehigkeit_techn.US.02 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bekämpfung von Ölschäden auf dem Land"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.US.03
+:Code.Faehigkeit_techn.US.03 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Bekämpfung von Ölschäden auf dem Wasser"@de .
+
+
+###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkeit_techn.US.04
+:Code.Faehigkeit_techn.US.04 rdf:type owl:NamedIndividual ,
+                                      <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
+                             rdfs:comment "Belüftung von Gewässern"@de .
+
+
 ###  http://bbk.bund.de/xkatastrophenhilfe/XKatastrophenhilfe#Code.Faehigkiet_med.TP.01
 :Code.Faehigkiet_med.TP.01 rdf:type owl:NamedIndividual ,
                                     <http://bbk.bund.de/xkatastrophenhilfe/1.1#Code.Faehigkeit> ;
