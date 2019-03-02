@@ -12,7 +12,7 @@ pages:
   - mkdir html
   - mkdir config
   - mkdir html/xerleben
-  - java -jar widoco.jar -ontFile XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -getOntologyMetadata -rewriteAll -lang en-us -webVowl
+  - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -getOntologyMetadata -rewriteAll -webVowl -confFile config/config.properties
   - mv html ../public 
   artifacts:
     paths:
