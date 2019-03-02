@@ -16,8 +16,8 @@ pages:
   - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -confFile config/xplanung.properties
   - mkdir html/xkat
   - java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -confFile config/xkat.properties
-  - mkdir html/aaa
-  - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -rewriteAll -webVowl -confFile config/aaa.properties
+ # - mkdir html/aaa
+ # - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -rewriteAll -webVowl -confFile config/aaa.properties
   - mv index.html html/index.html
   - mv html ../public 
   artifacts:
