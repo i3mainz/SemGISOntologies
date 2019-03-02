@@ -9,7 +9,7 @@ pages:
   stage: deploy
   script:
   - cd docs
-  - java -jar widoco.jar -ontFile XErleben/xerleben -outFolder html/xerleben/ -getOntologyMetadata -rewriteAll -crossRef -en -webVowl
+  - java -jar widoco.jar -ontFile XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -getOntologyMetadata -rewriteAll -crossRef -en -webVowl
   - mv html ../public 
   artifacts:
     paths:
