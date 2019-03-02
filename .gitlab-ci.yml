@@ -1,0 +1,18 @@
+image: maven:3-jdk-8
+# These are the default stages.
+# You don't need to explicitly define them.
+# But you could define any stages you want.
+stages:
+  - deploy
+    
+pages:
+  stage: deploy
+  script:
+  - cd docs
+  - java -jar widoco.jar XErleben/xerleben -outFolder html/xerleben/ -getOntologyMetadata -rewriteAll -crossRef -en -webVowl
+  - mv html ../public 
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
