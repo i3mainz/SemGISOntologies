@@ -10,6 +10,7 @@ pages:
   script:
   - cd docs
   - mkdir html
+  - mkdir config
   - mkdir html/xerleben
   - java -jar widoco.jar -ontFile XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -getOntologyMetadata -rewriteAll -lang en-us -webVowl
   - mv html ../public 
