@@ -18,6 +18,12 @@ pages:
   - java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -confFile config/xkat.properties
   - mkdir html/citygml
   - java -jar widoco.jar -ontFile ../CityGML/citygml2.ttl -outFolder html/citygml/ -rewriteAll -webVowl -confFile config/citygml.properties
+  - mkdir html/lgdinspire
+  - java -jar widoco.jar -ontFile ../EquivalenceRelations/linkedgeodata_inspire.ttl -outFolder html/lgdinspire/ -rewriteAll -webVowl -confFile config/lgdinspire.properties
+  - mkdir html/xerlebengov
+  - java -jar widoco.jar -ontFile ../EquivalenceRelations/xerleben2_us_equiv.ttl -outFolder html/xerlebengov/ -rewriteAll -webVowl -confFile config/xerlebengov.properties
+  - mkdir html/xplanplu
+  - java -jar widoco.jar -ontFile ../EquivalenceRelations/xplan5_plu_equiv.ttl -outFolder html/xplanplu/ -rewriteAll -webVowl -confFile config/xplanplu.properties
   - mkdir html/aaa
   - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -rewriteAll -webVowl -confFile config/aaa.properties
   - mv index.html html/index.html
