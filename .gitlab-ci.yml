@@ -26,8 +26,8 @@ pages:
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/xplan5_plu_equiv.ttl -outFolder html/xplanplu/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xplanplu.properties
   - mkdir html/aaa
   - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
-  - mkdir html/inspire
-  - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
+  #- mkdir html/inspire
+  #- java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
   - mv index.html html/index.html
   - mv html ../public 
   artifacts:
