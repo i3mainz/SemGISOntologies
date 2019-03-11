@@ -22,11 +22,11 @@ pages:
   - rm html/xplanung/*.ttl
   - mkdir html/xkat
   - java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xkat.properties
-  - mkdir html/citygml
-  - java -jar widoco.jar -ontFile ../CityGML/citygml2.ttl -outFolder html/citygml/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/citygml.properties
-  - rm html/citygml/*.nt
-  - rm html/citygml/*.xml
-  - rm html/citygml/*.ttl
+  #- mkdir html/citygml
+  #- java -jar widoco.jar -ontFile ../CityGML/citygml2.ttl -outFolder html/citygml/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/citygml.properties
+ # - rm html/citygml/*.nt
+  #- rm html/citygml/*.xml
+  #- rm html/citygml/*.ttl
   - mkdir html/lgdinspire
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/linkedgeodata_inspire.ttl -outFolder html/lgdinspire/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/lgdinspire.properties
   - mkdir html/xerlebengov
