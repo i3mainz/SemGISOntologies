@@ -37,7 +37,7 @@ pages:
   - rm html/aaa/*.nt
   - rm html/aaa/*.xml
   - mkdir html/inspire
-  - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
+  - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
   - rm html/inspire/*.ttl
   - rm html/inspire/*.nt
   - rm html/inspire/*.xml
