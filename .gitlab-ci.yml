@@ -15,6 +15,7 @@ pages:
   - rm html/xerleben/*.nt
   - rm html/xerleben/*.xml
   - rm html/xerleben/*.ttl
+  - rm html/xerleben/*.json
   - mkdir html/xplanung
   - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xplanung.properties
   - rm html/xplanung/*.nt
