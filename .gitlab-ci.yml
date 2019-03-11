@@ -14,16 +14,19 @@ pages:
   - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerleben.properties
   - rm html/xerleben/*.nt
   - rm html/xerleben/*.xml
+  - rm html/xerleben/*.ttl
   - mkdir html/xplanung
   - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xplanung.properties
   - rm html/xplanung/*.nt
   - rm html/xplanung/*.xml
+  - rm html/xplanung/*.ttl
   - mkdir html/xkat
   - java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xkat.properties
   - mkdir html/citygml
   - java -jar widoco.jar -ontFile ../CityGML/citygml2.ttl -outFolder html/citygml/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/citygml.properties
   - rm html/citygml/*.nt
   - rm html/citygml/*.xml
+  - rm html/citygml/*.ttl
   - mkdir html/lgdinspire
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/linkedgeodata_inspire.ttl -outFolder html/lgdinspire/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/lgdinspire.properties
   - mkdir html/xerlebengov
@@ -32,10 +35,12 @@ pages:
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/xplan5_plu_equiv.ttl -outFolder html/xplanplu/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xplanplu.properties
   - rm html/xplanplu/*.nt
   - rm html/xplanplu/*.xml
+  - rm html/xplanplu/*.ttl
   - mkdir html/aaa
   - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
   - rm html/aaa/*.nt
   - rm html/aaa/*.xml
+  - rm html/aaa/*.ttl
   - mkdir html/inspire
   - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
   - rm html/inspire/*.ttl
