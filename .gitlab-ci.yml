@@ -12,16 +12,16 @@ pages:
   - mkdir html
   - mkdir html/xerleben
   - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerleben.properties
-  - ls html/xerleben
-  - rm html/xerleben/*.nt
-  - rm html/xerleben/*.xml
-  - rm html/xerleben/*.ttl
-  - rm html/xerleben/*.json
+  - ls html/xerleben/doc
+  - rm html/xerleben/doc/*.nt
+  - rm html/xerleben/doc/*.xml
+  - rm html/xerleben/doc/*.ttl
+  - rm html/xerleben/doc/*.json
   - mkdir html/xplanung
   - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xplanung.properties
-  - rm html/xplanung/*.nt
-  - rm html/xplanung/*.xml
-  - rm html/xplanung/*.ttl
+  - rm html/xplanung/doc/*.nt
+  - rm html/xplanung/doc/*.xml
+  - rm html/xplanung/doc/*.ttl
   - mkdir html/xkat
   - java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xkat.properties
   #- mkdir html/citygml
@@ -35,19 +35,19 @@ pages:
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/xerleben2_us_equiv.ttl -outFolder html/xerlebengov/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerlebengov.properties
   - mkdir html/xplanplu
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/xplan5_plu_equiv.ttl -outFolder html/xplanplu/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xplanplu.properties
-  - rm html/xplanplu/*.nt
-  - rm html/xplanplu/*.xml
-  - rm html/xplanplu/*.ttl
+  - rm html/xplanplu/doc/*.nt
+  - rm html/xplanplu/doc/*.xml
+  - rm html/xplanplu/doc/*.ttl
   - mkdir html/aaa
   - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
-  - rm html/aaa/*.nt
-  - rm html/aaa/*.xml
-  - rm html/aaa/*.ttl
+  - rm html/aaa/doc/*.nt
+  - rm html/aaa/doc/*.xml
+  - rm html/aaa/doc/*.ttl
   - mkdir html/inspire
   - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
-  - rm html/inspire/*.ttl
-  - rm html/inspire/*.nt
-  - rm html/inspire/*.xml
+  - rm html/inspire/doc/*.ttl
+  - rm html/inspire/doc/*.nt
+  - rm html/inspire/doc/*.xml
   - mv index.html html/index.html
   - mv html ../public 
   artifacts:
