@@ -45,9 +45,9 @@ pages:
   - rm html/aaa/doc/*.ttl
   - mkdir html/inspire
   - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
-  - rm html/inspire/doc/*.ttl
-  - rm html/inspire/doc/*.nt
-  - rm html/inspire/doc/*.xml
+  - rm html/inspire/*.ttl
+  - rm html/inspire/*.nt
+  - rm html/inspire/*.xml
   - mv index.html html/index.html
   - mv html ../public 
   artifacts:
