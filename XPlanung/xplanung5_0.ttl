@@ -4358,142 +4358,170 @@ xsd:string rdf:type owl:Class .
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_AbstraktesPraesentationsobjekt
 <http://www.xplanung.de/xplangml/4/1#XP_AbstraktesPraesentationsobjekt> rdf:type owl:Class ;
-                                                                        semgis:propOrder "stylesheetId;darstellungsprioritaet;art;index;gehoertZuBereich;dientZurDarstellungVon" .
+                                                                        semgis:propOrder "stylesheetId;darstellungsprioritaet;art;index;gehoertZuBereich;dientZurDarstellungVon" ;
+                                                                        rdfs:label "XP_AbstraktesPraesentationsobjekt"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_BegruendungAbschnitt
 <http://www.xplanung.de/xplangml/4/1#XP_BegruendungAbschnitt> rdf:type owl:Class ;
-                                                              semgis:propOrder "schluessel;text;refText" .
+                                                              semgis:propOrder "schluessel;text;refText" ;
+                                                              rdfs:label "XP_BegruendungAbschnitt"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Bereich
 <http://www.xplanung.de/xplangml/4/1#XP_Bereich> rdf:type owl:Class ;
-                                                 semgis:propOrder "nummer;name;bedeutung;detaillierteBedeutung;erstellungsMasstab;geltungsbereich;nachrichtlich;praesentationsobjekt;rasterBasis" .
+                                                 semgis:propOrder "nummer;name;bedeutung;detaillierteBedeutung;erstellungsMasstab;geltungsbereich;nachrichtlich;praesentationsobjekt;rasterBasis" ;
+                                                 rdfs:label "XP_Bereich"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_DatumAttribut
 <http://www.xplanung.de/xplangml/4/1#XP_DatumAttribut> rdf:type owl:Class ;
-                                                       semgis:propOrder "wert" .
+                                                       semgis:propOrder "wert" ;
+                                                       rdfs:label "XP_DatumAttribut"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_DoubleAttribut
 <http://www.xplanung.de/xplangml/4/1#XP_DoubleAttribut> rdf:type owl:Class ;
-                                                        semgis:propOrder "wert" .
+                                                        semgis:propOrder "wert" ;
+                                                        rdfs:label "XP_DoubleAttribut"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_ExterneReferenz
 <http://www.xplanung.de/xplangml/4/1#XP_ExterneReferenz> rdf:type owl:Class ;
-                                                         semgis:propOrder "georefURL;georefMimeType;art;informationssystemURL;referenzName;referenzURL;referenzMimeType;beschreibung;datum" .
+                                                         semgis:propOrder "georefURL;georefMimeType;art;informationssystemURL;referenzName;referenzURL;referenzMimeType;beschreibung;datum" ;
+                                                         rdfs:label "XP_ExterneReferenz"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_FPO
 <http://www.xplanung.de/xplangml/4/1#XP_FPO> rdf:type owl:Class ;
-                                             semgis:propOrder "position" .
+                                             semgis:propOrder "position" ;
+                                             rdfs:label "XP_FPO"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Gemeinde
 <http://www.xplanung.de/xplangml/4/1#XP_Gemeinde> rdf:type owl:Class ;
-                                                  semgis:propOrder "ags;rs;gemeindeName;ortsteilName" .
+                                                  semgis:propOrder "ags;rs;gemeindeName;ortsteilName" ;
+                                                  rdfs:label "XP_Gemeinde"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_GenerAttribut
 <http://www.xplanung.de/xplangml/4/1#XP_GenerAttribut> rdf:type owl:Class ;
-                                                       semgis:propOrder "name" .
+                                                       semgis:propOrder "name" ;
+                                                       rdfs:label "XP_GenerAttribut"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Hoehenangabe
 <http://www.xplanung.de/xplangml/4/1#XP_Hoehenangabe> rdf:type owl:Class ;
-                                                      semgis:propOrder "abweichenderHoehenbezug;hoehenbezug;bezugspunkt;hMin;hMax;hZwingend;h" .
+                                                      semgis:propOrder "abweichenderHoehenbezug;hoehenbezug;bezugspunkt;hMin;hMax;hZwingend;h" ;
+                                                      rdfs:label "XP_Hoehenangabe"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_IntegerAttribut
 <http://www.xplanung.de/xplangml/4/1#XP_IntegerAttribut> rdf:type owl:Class ;
-                                                         semgis:propOrder "wert" .
+                                                         semgis:propOrder "wert" ;
+                                                         rdfs:label "XP_IntegerAttribut"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_LPO
 <http://www.xplanung.de/xplangml/4/1#XP_LPO> rdf:type owl:Class ;
-                                             semgis:propOrder "position" .
+                                             semgis:propOrder "position" ;
+                                             rdfs:label "XP_LPO"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_LTO
 <http://www.xplanung.de/xplangml/4/1#XP_LTO> rdf:type owl:Class ;
-                                             semgis:propOrder "position" .
+                                             semgis:propOrder "position" ;
+                                             rdfs:label "XP_LTO"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Nutzungsschablone
 <http://www.xplanung.de/xplangml/4/1#XP_Nutzungsschablone> rdf:type owl:Class ;
-                                                           semgis:propOrder "spaltenAnz;zeilenAnz" .
+                                                           semgis:propOrder "spaltenAnz;zeilenAnz" ;
+                                                           rdfs:label "XP_Nutzungsschablone"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Objekt
 <http://www.xplanung.de/xplangml/4/1#XP_Objekt> rdf:type owl:Class ;
-                                                semgis:propOrder "uuid;text;rechtsstand;gesetzlicheGrundlage;textSchluessel;textSchluesselBegruendung;gliederung1;gliederung2;ebene;rechtsverbindlich;informell;hatGenerAttribut;hoehenangabe;gehoertNachrichtlichZuBereich;wirdDargestelltDurch;refTextInhalt;refBegruendungInhalt" .
+                                                semgis:propOrder "uuid;text;rechtsstand;gesetzlicheGrundlage;textSchluessel;textSchluesselBegruendung;gliederung1;gliederung2;ebene;rechtsverbindlich;informell;hatGenerAttribut;hoehenangabe;gehoertNachrichtlichZuBereich;wirdDargestelltDurch;refTextInhalt;refBegruendungInhalt" ;
+                                                rdfs:label "XP_Objekt"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_PPO
 <http://www.xplanung.de/xplangml/4/1#XP_PPO> rdf:type owl:Class ;
-                                             semgis:propOrder "position;drehwinkel;skalierung" .
+                                             semgis:propOrder "position;drehwinkel;skalierung" ;
+                                             rdfs:label "XP_PPO"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_PTO
 <http://www.xplanung.de/xplangml/4/1#XP_PTO> rdf:type owl:Class ;
-                                             semgis:propOrder "position;drehwinkel" .
+                                             semgis:propOrder "position;drehwinkel" ;
+                                             rdfs:label "XP_PTO"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Plan
 <http://www.xplanung.de/xplangml/4/1#XP_Plan> rdf:type owl:Class ;
-                                              semgis:propOrder "name;nummer;internalId;beschreibung;kommentar;technHerstellDatum;genehmigungsDatum;untergangsDatum;aendert;wurdeGeaendertVon;erstellungsMassstab;xPlanGMLVersion;bezugshoehe;raeumlicherGeltungsbereich;verfahrensMerkmale;rechtsverbindlich;informell;hatGenerAttribut;refBeschreibung;refBegruendung;refExternalCodeList;refLegende;refRechtsplan;refPlangrundlage;texte;begruendungsTexte" .
+                                              semgis:propOrder "name;nummer;internalId;beschreibung;kommentar;technHerstellDatum;genehmigungsDatum;untergangsDatum;aendert;wurdeGeaendertVon;erstellungsMassstab;xPlanGMLVersion;bezugshoehe;raeumlicherGeltungsbereich;verfahrensMerkmale;rechtsverbindlich;informell;hatGenerAttribut;refBeschreibung;refBegruendung;refExternalCodeList;refLegende;refRechtsplan;refPlangrundlage;texte;begruendungsTexte" ;
+                                              rdfs:label "XP_Plan"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_Plangeber
 <http://www.xplanung.de/xplangml/4/1#XP_Plangeber> rdf:type owl:Class ;
-                                                   semgis:propOrder "name;kennziffer" .
+                                                   semgis:propOrder "name;kennziffer" ;
+                                                   rdfs:label "XP_Plangeber"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_RasterplanAenderung
 <http://www.xplanung.de/xplangml/4/1#XP_RasterplanAenderung> rdf:type owl:Class ;
-                                                             semgis:propOrder "nameAenderung;nummerAenderung;beschreibung;refBeschreibung;refBegruendung;refScan;refText;refLegende;geltungsbereichAenderung;besonderheiten" .
+                                                             semgis:propOrder "nameAenderung;nummerAenderung;beschreibung;refBeschreibung;refBegruendung;refScan;refText;refLegende;geltungsbereichAenderung;besonderheiten" ;
+                                                             rdfs:label "XP_RasterplanAenderung"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_RasterplanBasis
 <http://www.xplanung.de/xplangml/4/1#XP_RasterplanBasis> rdf:type owl:Class ;
-                                                         semgis:propOrder "refScan;refText;refLegende" .
+                                                         semgis:propOrder "refScan;refText;refLegende" ;
+                                                         rdfs:label "XP_RasterplanBasis"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_SPEMassnahmenDaten
 <http://www.xplanung.de/xplangml/4/1#XP_SPEMassnahmenDaten> rdf:type owl:Class ;
-                                                            semgis:propOrder "klassifizMassnahme;massnahmeText;massnahmeKuerzel" .
+                                                            semgis:propOrder "klassifizMassnahme;massnahmeText;massnahmeKuerzel" ;
+                                                            rdfs:label "XP_SPEMassnahmenDaten"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_StringAttribut
 <http://www.xplanung.de/xplangml/4/1#XP_StringAttribut> rdf:type owl:Class ;
-                                                        semgis:propOrder "wert" .
+                                                        semgis:propOrder "wert" ;
+                                                        rdfs:label "XP_StringAttribut"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_TPO
 <http://www.xplanung.de/xplangml/4/1#XP_TPO> rdf:type owl:Class ;
-                                             semgis:propOrder "schriftinhalt;fontSperrung;skalierung;horizontaleAusrichtung;vertikaleAusrichtung;hat" .
+                                             semgis:propOrder "schriftinhalt;fontSperrung;skalierung;horizontaleAusrichtung;vertikaleAusrichtung;hat" ;
+                                             rdfs:label "XP_TPO"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_TextAbschnitt
 <http://www.xplanung.de/xplangml/4/1#XP_TextAbschnitt> rdf:type owl:Class ;
-                                                       semgis:propOrder "schluessel;gesetzlicheGrundlage;text;refText" .
+                                                       semgis:propOrder "schluessel;gesetzlicheGrundlage;text;refText" ;
+                                                       rdfs:label "XP_TextAbschnitt"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_URLAttribut
 <http://www.xplanung.de/xplangml/4/1#XP_URLAttribut> rdf:type owl:Class ;
-                                                     semgis:propOrder "wert" .
+                                                     semgis:propOrder "wert" ;
+                                                     rdfs:label "XP_URLAttribut"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_VerbundenerPlan
 <http://www.xplanung.de/xplangml/4/1#XP_VerbundenerPlan> rdf:type owl:Class ;
-                                                         semgis:propOrder "planName;rechtscharakter;nummer" .
+                                                         semgis:propOrder "planName;rechtscharakter;nummer" ;
+                                                         rdfs:label "XP_VerbundenerPlan"@en .
 
 
 ###  http://www.xplanung.de/xplangml/4/1#XP_VerfahrensMerkmal
 <http://www.xplanung.de/xplangml/4/1#XP_VerfahrensMerkmal> rdf:type owl:Class ;
-                                                           semgis:propOrder "vermerk;datum;signatur;signiert" .
+                                                           semgis:propOrder "vermerk;datum;signatur;signiert" ;
+                                                           rdfs:label "XP_VerfahrensMerkmal"@en .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_AbgrabungsFlaeche
@@ -23246,16 +23274,16 @@ xplan5:MaxZahlWohnungen rdfs:label "MaxZahlWohnungen"@de .
 
 xplan5:RP_Freiraum semgis:propOrder "istAusgleichsgebiet;imVerbund" ;
                    rdfs:label "RP_Freiraum"@de ;
-                   <http://semgis.de/geodata#standard> "xplanung"@en ;
                    rdfs:comment """Allgemeines Freiraumobjekt.
-Freiräume sind naturnahem Zustand, oder beinhalten Nutzungsformen, die mit seinen ökologischen Grundfunktionen überwiegend verträglich sind (z.B. Land- oder Forstwirtschaft). Freiraum ist somit ein Gegenbegriff zur Siedlungsstruktur."""@de .
+Freiräume sind naturnahem Zustand, oder beinhalten Nutzungsformen, die mit seinen ökologischen Grundfunktionen überwiegend verträglich sind (z.B. Land- oder Forstwirtschaft). Freiraum ist somit ein Gegenbegriff zur Siedlungsstruktur."""@de ;
+                   <http://semgis.de/geodata#standard> "xplanung"@en .
 
 
 xplan5:RP_Geometrieobjekt <http://semgis.de/geodata#standard> "xplanung"@en ;
-                          <http://semgis.de/geodata#abstractClass> "true"^^xsd:boolean ;
-                          semgis:propOrder "position;flaechenschluss;flussrichtung" ;
                           rdfs:label "RP_Geometrieobjekt"@de ;
-                          rdfs:comment "Basisklasse für alle Objekte eines Raumordnungsplans mit variablem Raumbezug. Ein konkretes Objekt muss entweder punktförmigen, linienförmigen oder flächenhaften Raumbezug haben, gemischte Geometrie ist nicht zugelassen. RP_Geometrieobjekt selbst ist abstrakt."@de .
+                          semgis:propOrder "position;flaechenschluss;flussrichtung" ;
+                          rdfs:comment "Basisklasse für alle Objekte eines Raumordnungsplans mit variablem Raumbezug. Ein konkretes Objekt muss entweder punktförmigen, linienförmigen oder flächenhaften Raumbezug haben, gemischte Geometrie ist nicht zugelassen. RP_Geometrieobjekt selbst ist abstrakt."@de ;
+                          <http://semgis.de/geodata#abstractClass> "true"^^xsd:boolean .
 
 
 xplan5:RP_Legendenobjekt rdfs:comment "Die Klasse RP_Legendenobjekt enthält Daten zur Legende und Darstellung im Ursprungsplan."@de ;
@@ -23313,9 +23341,9 @@ xplan5:XP_Plangeber rdfs:comment "Spezifikation der Institution, die für den Pl
 
 
 xplan5:XP_SPEMassnahmenDaten rdfs:label "XP_SPEMassnahmenDaten"@de ;
-                             <http://semgis.de/geodata#standard> "xplanung"@en ;
                              rdfs:comment """Spezifikation der Attribute für einer Schutz-, Pflege- oder Entwicklungsmaßnahme.
-"""@de .
+"""@de ;
+                             <http://semgis.de/geodata#standard> "xplanung"@en .
 
 
 xplan5:XP_SpezExterneReferenz <http://semgis.de/geodata#standard> "xplanung"@en ;
@@ -23323,16 +23351,16 @@ xplan5:XP_SpezExterneReferenz <http://semgis.de/geodata#standard> "xplanung"@en 
                               rdfs:comment "Ergänzung des Datentyps XP_ExterneReferenz um ein Attribut zur semantischen Beschreibung des referierten Dokuments."@de .
 
 
-xplan5:XP_StringAttribut rdfs:comment """Generisches Attribut vom Datentyp \"CharacterString\"
+xplan5:XP_StringAttribut <http://semgis.de/geodata#standard> "xplanung"@en ;
+                         rdfs:comment """Generisches Attribut vom Datentyp \"CharacterString\"
 """@de ;
-                         <http://semgis.de/geodata#standard> "xplanung"@en ;
                          rdfs:label "XP_StringAttribut"@de .
 
 
 xplan5:XP_URLAttribut <http://semgis.de/geodata#standard> "xplanung"@en ;
-                      rdfs:label "XP_URLAttribut"@de ;
                       rdfs:comment """Generische Attribute vom Datentyp \"URL\"
-"""@de .
+"""@de ;
+                      rdfs:label "XP_URLAttribut"@de .
 
 
 xplan5:XP_VerbundenerPlan <http://semgis.de/geodata#standard> "xplanung"@en ;
@@ -23352,13 +23380,14 @@ xplan5:XP_WirksamkeitBedingung <http://semgis.de/geodata#standard> "xplanung"@en
                                rdfs:comment "Spezifikation von Bedingungen für die Wirksamkeit oder Unwirksamkeit einer Festsetzung."@de .
 
 
-xplan5:XPlanAuszug rdfs:label "XPlanAuszug"@de ;
-                   <http://semgis.de/geodata#standard> "xplanung"@en ;
-                   rdfs:comment """Container für XPlanGML-Objekte
-"""@de .
+xplan5:XPlanAuszug rdfs:comment """Container für XPlanGML-Objekte
+"""@de ;
+                   rdfs:label "XPlanAuszug"@de ;
+                   <http://semgis.de/geodata#standard> "xplanung"@en .
 
 
-xplan5:XPlanung5 <http://semgis.de/geodata#standard> "xplanung"@en ;
+xplan5:XPlanung5 rdfs:label "XPlanung5"@en ;
+                 <http://semgis.de/geodata#standard> "xplanung"@en ;
                  <http://semgis.de/geodata#abstractClass> "true"^^xsd:boolean .
 
 
