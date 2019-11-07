@@ -550,7 +550,11 @@ dbo:Atoll rdf:type owl:Class ;
 ###  http://dbpedia.org/ontology/Bank
 dbo:Bank rdf:type owl:Class ;
          owl:equivalentClass lgd:Bank ,
-                             <http://schema.org/BankOrCreditUnion> .
+                             <http://schema.org/BankOrCreditUnion> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                               owl:hasValue <http://www.geonames.org/ontology#S.BANK>
+                             ] .
 
 
 ###  http://dbpedia.org/ontology/Bay
@@ -1223,7 +1227,11 @@ dbo:Synagogue rdf:type owl:Class ;
 
 ###  http://dbpedia.org/ontology/Temple
 dbo:Temple rdf:type owl:Class ;
-           owl:equivalentClass wd:Q44539 .
+           owl:equivalentClass wd:Q44539 ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.TMPL>
+                               ] .
 
 
 ###  http://dbpedia.org/ontology/Theatre
@@ -2371,6 +2379,10 @@ lgd:Brewery rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                  owl:hasValue <http://www.geonames.org/ontology#S.MFGB>
                                 ] .
 
 
@@ -3005,6 +3017,10 @@ lgd:CommunityCenter rdf:type owl:Class ;
                                                                ]
                                                              ) ;
                                           rdf:type owl:Class
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                          owl:hasValue <http://www.geonames.org/ontology#S.CTRCM>
                                         ] .
 
 
@@ -3403,6 +3419,10 @@ lgd:Embassy rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                  owl:hasValue <http://www.geonames.org/ontology#S.DIP>
                                 ] .
 
 
@@ -3435,6 +3455,10 @@ lgd:Factory rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                  owl:hasValue <http://www.geonames.org/ontology#S.MFG>
                                 ] .
 
 
@@ -3580,7 +3604,11 @@ lgd:Forester rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Fort
 lgd:Fort rdf:type owl:Class ;
-         owl:equivalentClass wd:Q1785071 .
+         owl:equivalentClass wd:Q1785071 ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                               owl:hasValue <http://www.geonames.org/ontology#S.FT>
+                             ] .
 
 
 ###  http://linkedgeodata.org/ontology/Fuel
@@ -4558,6 +4586,10 @@ lgd:Kindergarten rdf:type owl:Class ;
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                       owl:hasValue <http://www.geonames.org/ontology#S.CTRR>
                                      ] ;
                  rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                         [ rdf:type owl:Restriction ;
@@ -6650,6 +6682,10 @@ lgd:ShoppingCenter rdf:type owl:Class ;
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                         owl:hasValue <http://www.geonames.org/ontology#S.MALL>
                                        ] .
 
 
@@ -6737,6 +6773,10 @@ lgd:Sluice rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.SLCE>
                                ] .
 
 
@@ -7618,6 +7658,10 @@ lgd:WaterWorks rdf:type owl:Class ;
                                                           ]
                                                         ) ;
                                      rdf:type owl:Class
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.WTRW>
                                    ] ;
                rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                       [ rdf:type owl:Restriction ;
@@ -7725,6 +7769,10 @@ lgd:Watermill rdf:type owl:Class ;
                                                          ]
                                                        ) ;
                                     rdf:type owl:Class
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#S.MLWTR>
                                   ] .
 
 
@@ -8619,7 +8667,12 @@ aaa6:AX_Dienststelle rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Duene
 aaa6:AX_Duene rdf:type owl:Class ;
-              owl:equivalentClass wd:Q25391 .
+              owl:equivalentClass wd:Q25391 ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#T.DUNE>
+                                  ] ;
+              rdfs:subClassOf <http://www.geonames.org/ontology#Feature> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinrichtungInOeffentlichenBereichen
@@ -8773,7 +8826,12 @@ aaa6:AX_Halde rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Heide
 aaa6:AX_Heide rdf:type owl:Class ;
-              owl:equivalentClass wd:Q27590 .
+              owl:equivalentClass wd:Q27590 ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#V.HTH>
+                                  ] ;
+              rdfs:subClassOf <http://www.geonames.org/ontology#Feature> .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HistorischesBauwerkOderHistorischeEinrichtung
@@ -8957,7 +9015,11 @@ aaa6:AX_Transportanlage rdf:type owl:Class .
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm
 aaa6:AX_Turm rdf:type owl:Class ;
-             owl:equivalentClass wd:Q12518 ;
+             owl:equivalentClass wd:Q12518 ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                   owl:hasValue <http://www.geonames.org/ontology#S.TOWR>
+                                 ] ;
              rdfs:subClassOf aaa6:Hausumringe ,
                              [ owl:intersectionOf ( inspire-bubase:AbstractBuilding
                                                     [ rdf:type owl:Restriction ;
@@ -10089,6 +10151,10 @@ wd:Q1362225 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                  owl:hasValue <http://www.geonames.org/ontology#S.SHSE>
                                 ] ;
             rdfs:label "Warehouse"@en .
 
@@ -11927,6 +11993,10 @@ wd:Q17485533 rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                   owl:hasValue <http://www.geonames.org/ontology#S.BCN>
                                  ] ;
              rdfs:label "Beacon"@en ,
                         "Leuchtfeuer"@de .
@@ -14272,6 +14342,10 @@ wd:Q34627 rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                owl:hasValue <http://www.geonames.org/ontology#S.SYG>
                               ] ;
           rdfs:subClassOf lgd:PlaceOfWorship ,
                           [ owl:intersectionOf ( inspire-bubase:AbstractBuilding
@@ -14826,6 +14900,10 @@ wd:Q46124 rdf:type owl:Class ;
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                owl:hasValue <http://www.geonames.org/ontology#S.SNTR>
                               ] ;
           rdfs:label "sanatorium"@en .
 
@@ -15018,6 +15096,10 @@ wd:Q505213 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.MLSW>
                                ] ;
            rdfs:label "Sawmill"@en .
 
@@ -15854,6 +15936,10 @@ wd:Q721207 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.MAR>
                                ] ;
            rdfs:label "marina"@en .
 
@@ -19391,6 +19477,14 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.AIRP> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.BANK
+<http://www.geonames.org/ontology#S.BANK> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.BCN
+<http://www.geonames.org/ontology#S.BCN> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.BDG
 <http://www.geonames.org/ontology#S.BDG> rdf:type owl:NamedIndividual .
 
@@ -19439,12 +19533,24 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.CTRCM> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.CTRR
+<http://www.geonames.org/ontology#S.CTRR> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.DAM
 <http://www.geonames.org/ontology#S.DAM> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.DIP
+<http://www.geonames.org/ontology#S.DIP> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.FRM
 <http://www.geonames.org/ontology#S.FRM> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.FT
+<http://www.geonames.org/ontology#S.FT> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.GDN
@@ -19479,12 +19585,32 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.MALL> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.MAR
+<http://www.geonames.org/ontology#S.MAR> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MFG
+<http://www.geonames.org/ontology#S.MFG> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MFGB
+<http://www.geonames.org/ontology#S.MFGB> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.ML
 <http://www.geonames.org/ontology#S.ML> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.MLSW
+<http://www.geonames.org/ontology#S.MLSW> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.MLWND
 <http://www.geonames.org/ontology#S.MLWND> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MLWTR
+<http://www.geonames.org/ontology#S.MLWTR> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.MN
@@ -19579,6 +19705,18 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.SCH> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.SHSE
+<http://www.geonames.org/ontology#S.SHSE> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.SLCE
+<http://www.geonames.org/ontology#S.SLCE> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.SNTR
+<http://www.geonames.org/ontology#S.SNTR> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.STDM
 <http://www.geonames.org/ontology#S.STDM> rdf:type owl:NamedIndividual .
 
@@ -19587,8 +19725,20 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.STNR> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.SYG
+<http://www.geonames.org/ontology#S.SYG> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.THTR
 <http://www.geonames.org/ontology#S.THTR> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.TMPL
+<http://www.geonames.org/ontology#S.TMPL> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.TOWR
+<http://www.geonames.org/ontology#S.TOWR> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.UNIV
@@ -19597,6 +19747,10 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 
 ###  http://www.geonames.org/ontology#S.WEIR
 <http://www.geonames.org/ontology#S.WEIR> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.WTRW
+<http://www.geonames.org/ontology#S.WTRW> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.ZOO
@@ -19613,6 +19767,10 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 
 ###  http://www.geonames.org/ontology#T.CAPE
 <http://www.geonames.org/ontology#T.CAPE> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#T.DUNE
+<http://www.geonames.org/ontology#T.DUNE> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#T.HLL
@@ -19669,6 +19827,10 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 
 ###  http://www.geonames.org/ontology#U.RFU
 <http://www.geonames.org/ontology#U.RFU> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#V.HTH
+<http://www.geonames.org/ontology#V.HTH> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#V.MDW
