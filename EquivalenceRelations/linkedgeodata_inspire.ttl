@@ -2973,7 +2973,11 @@ lgd:CityGate rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Clinic
 lgd:Clinic rdf:type owl:Class ;
            owl:equivalentClass <http://schema.org/MedicalClinic> ,
-                               wd:Q1774898 ;
+                               wd:Q1774898 ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.HSPC>
+                               ] ;
            rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty inspire-elu:hilucsLandUse ;
@@ -7039,7 +7043,11 @@ lgd:Telescope rdf:type owl:Class ;
 
 ###  http://linkedgeodata.org/ontology/Terminal
 lgd:Terminal rdf:type owl:Class ;
-             owl:equivalentClass wd:Q849706 ;
+             owl:equivalentClass wd:Q849706 ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                   owl:hasValue <http://www.geonames.org/ontology#S.AIRT>
+                                 ] ;
              rdfs:subClassOf [ owl:intersectionOf ( inspire-elu:ExistingLandUseObject
                                                     [ rdf:type owl:Restriction ;
                                                       owl:onProperty inspire-elu:hilucsLandUse ;
@@ -8924,7 +8932,11 @@ aaa6:AX_Platz rdf:type owl:Class ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Polder
 aaa6:AX_Polder rdf:type owl:Class ;
-               owl:equivalentClass wd:Q106259 .
+               owl:equivalentClass wd:Q106259 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.PLDR>
+                                   ] .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Regierungsbezirk
@@ -10649,6 +10661,10 @@ wd:Q1478783 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                  owl:hasValue <http://www.geonames.org/ontology#S.FYT>
                                 ] ;
             rdfs:label "ferry port"@en .
 
@@ -10857,6 +10873,10 @@ wd:Q153562 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.OPRA>
                                ] ;
            rdfs:label "opera house"@en .
 
@@ -11441,6 +11461,10 @@ wd:Q166118 rdf:type owl:Class ;
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                 owl:hasValue <http://www.geonames.org/ontology#S.ARCHV>
                                ] ;
            rdfs:subClassOf lgd:School ;
            rdfs:label "archive"@en .
@@ -12133,6 +12157,10 @@ wd:Q1777138 rdf:type owl:Class ;
                                                        ]
                                                      ) ;
                                   rdf:type owl:Class
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                  owl:hasValue <http://www.geonames.org/ontology#S.RECR>
                                 ] ;
             rdfs:label "race track"@en .
 
@@ -12545,6 +12573,10 @@ wd:Q19279682 rdf:type owl:Class ;
                                                         ]
                                                       ) ;
                                    rdf:type owl:Class
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                   owl:hasValue <http://www.geonames.org/ontology#S.CMPRF>
                                  ] ;
              rdfs:label "refugee accommodation"@de .
 
@@ -19477,6 +19509,14 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.AIRP> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.AIRT
+<http://www.geonames.org/ontology#S.AIRT> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.ARCHV
+<http://www.geonames.org/ontology#S.ARCHV> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.BANK
 <http://www.geonames.org/ontology#S.BANK> rdf:type owl:NamedIndividual .
 
@@ -19511,6 +19551,10 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 
 ###  http://www.geonames.org/ontology#S.CH
 <http://www.geonames.org/ontology#S.CH> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.CMPRF
+<http://www.geonames.org/ontology#S.CMPRF> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.CMTY
@@ -19553,12 +19597,20 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.FT> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.FYT
+<http://www.geonames.org/ontology#S.FYT> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.GDN
 <http://www.geonames.org/ontology#S.GDN> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.HSP
 <http://www.geonames.org/ontology#S.HSP> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.HSPC
+<http://www.geonames.org/ontology#S.HSPC> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.HSTS
@@ -19649,12 +19701,20 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 <http://www.geonames.org/ontology#S.OILW> rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#S.OPRA
+<http://www.geonames.org/ontology#S.OPRA> rdf:type owl:NamedIndividual .
+
+
 ###  http://www.geonames.org/ontology#S.PAL
 <http://www.geonames.org/ontology#S.PAL> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.PIER
 <http://www.geonames.org/ontology#S.PIER> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.PLDR
+<http://www.geonames.org/ontology#S.PLDR> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.PO
@@ -19675,6 +19735,10 @@ aaa6:AX_Widmung_Strasse_1307 rdf:type owl:NamedIndividual .
 
 ###  http://www.geonames.org/ontology#S.RECG
 <http://www.geonames.org/ontology#S.RECG> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.RECR
+<http://www.geonames.org/ontology#S.RECR> rdf:type owl:NamedIndividual .
 
 
 ###  http://www.geonames.org/ontology#S.REST
