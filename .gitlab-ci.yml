@@ -30,8 +30,8 @@ pages:
   #- rm html/citygml/*.ttl
   - mkdir html/lgdinspire
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/linkedgeodata_inspire.ttl -outFolder html/lgdinspire/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/lgdinspire.properties
-  - mkdir html/xerlebengov
-  - java -jar widoco.jar -ontFile ../EquivalenceRelations/xerleben2_us_equiv.ttl -outFolder html/xerlebengov/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerlebengov.properties
+  #- mkdir html/xerlebengov
+  #- java -jar widoco.jar -ontFile ../EquivalenceRelations/xerleben2_us_equiv.ttl -outFolder html/xerlebengov/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerlebengov.properties
   - mkdir html/xplanplu
   - java -jar widoco.jar -ontFile ../EquivalenceRelations/xplan5_plu_equiv.ttl -outFolder html/xplanplu/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xplanplu.properties
   - rm html/xplanplu/doc/*.nt
