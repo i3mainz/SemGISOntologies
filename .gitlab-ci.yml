@@ -37,17 +37,17 @@ pages:
   #- rm html/xplanplu/doc/*.nt
   #- rm html/xplanplu/doc/*.xml
   #- rm html/xplanplu/doc/*.json
-  #- mkdir html/aaa
-  #- java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
-  #- rm html/aaa/doc/*.nt
-  #- rm html/aaa/doc/*.xml
-  #- rm html/aaa/doc/*.json
-  #- mkdir html/inspire
-  #- java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -rewriteAll -confFile config/inspire.properties
-  #- rm html/inspire/*.ttl
-  #- rm html/inspire/*.nt
-  #- rm html/inspire/*.xml
-  #- rm html/inspire/*.json
+  - mkdir html/aaa
+  - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -uniteSections -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
+  - rm html/aaa/doc/*.nt
+  - rm html/aaa/doc/*.xml
+  - rm html/aaa/doc/*.json
+  - mkdir html/inspire
+  - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -uniteSections -rewriteAll -confFile config/inspire.properties
+  - rm html/inspire/*.ttl
+  - rm html/inspire/*.nt
+  - rm html/inspire/*.xml
+  - rm html/inspire/*.json
   - mv index.html html/index.html
   - mv ../classtree.js html/classtree.js
   - mv ../ontviewer.html html/ontviewer.html
