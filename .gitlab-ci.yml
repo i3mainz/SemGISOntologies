@@ -49,6 +49,8 @@ pages:
   - rm html/inspire/*.xml
   - rm html/inspire/*.json
   - mv index.html html/index.html
+  - mv classtree.js html/classtree.js
+  - mv ontviewer.html html/ontviewer.html
   - mv html ../public 
   artifacts:
     paths:
