@@ -3,7 +3,10 @@ function generateClassTree(){
 	classTree["core"]["data"].push({ "id" : "http://www.opengis.net/ont/geosparql#Feature", "parent":"#", "text" : "Feature" })
 	classTree["core"]["data"].push({ "id" : "Enumeration", "parent":"http://www.opengis.net/ont/geosparql#Feature", "text" : "Enumeration" })
 	var counter=0;
-	$('h3 > sup[title="class"]').each(function() {
+    var iframe = document.getElementById('ontview');
+    console.log(iframe.contentWindow.document.querySelector('h3 > sup[title="class"]'));
+    console.log($('#ontview').contents().find("html > body"))
+	$('#ontview').contents().find('html > body > div > h3 > sup[title="class"]').each(function() {
 		if(counter>0){
 		var id=$(this).parent().parent().attr("id");
 		console.log(id)
