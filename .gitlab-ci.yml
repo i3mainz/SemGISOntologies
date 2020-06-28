@@ -11,13 +11,13 @@ pages:
   - cd docs
   - mkdir html
   - mkdir html/xerleben
-  - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerleben.properties
+  - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -webVowl -uniteSections -rewriteAll -doNotDisplaySerializations -confFile config/xerleben.properties
   - ls html/xerleben/doc
   - rm html/xerleben/doc/*.nt
   - rm html/xerleben/doc/*.xml
   - rm html/xerleben/doc/*.json
   - mkdir html/xplanung
-  - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xplanung.properties
+  - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -uniteSections -doNotDisplaySerializations -confFile config/xplanung.properties
   - rm html/xplanung/doc/*.nt
   - rm html/xplanung/doc/*.xml
   - rm html/xplanung/doc/*.json
