@@ -1,5 +1,4 @@
 @prefix : <http://semgis.de/AAA6#> .
-@prefix semgis: <http://www.semgis.de/geodata#> .
 @prefix xo: <http://rhizomik.net/redefer/xsl/xsd2owl-functions.xsl> .
 @prefix xs: <file:/home/timo/git/SemGISOntologies/AAA-Data/&xs;> .
 @prefix gml: <http://www.opengis.net/gml/3.2#> .
@@ -13,6 +12,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix semgis: <http://www.semgis.de/geodata#> .
 @prefix wfsext: <file:/home/timo/git/SemGISOntologies/AAA-Data/&wfsext;> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @base <http://semgis.de/AAA6> .
@@ -566,6 +566,54 @@ aaa6:zusatzOrtsname rdf:type owl:AnnotationProperty ;
                     rdfs:range xsd:string .
 
 
+###  http://www.semgis.de/geodata#image
+semgis:image rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semgis.de/geodata#linestringImage
+semgis:linestringImage rdf:type owl:AnnotationProperty ;
+                       rdfs:subPropertyOf semgis:image .
+
+
+###  http://www.semgis.de/geodata#linestringImageStyle
+semgis:linestringImageStyle rdf:type owl:AnnotationProperty ;
+                            rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#linestringStyle
+semgis:linestringStyle rdf:type owl:AnnotationProperty ;
+                       rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#pointImageStyle
+semgis:pointImageStyle rdf:type owl:AnnotationProperty ;
+                       rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#pointStyle
+semgis:pointStyle rdf:type owl:AnnotationProperty ;
+                  rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#polygonImageStyle
+semgis:polygonImageStyle rdf:type owl:AnnotationProperty ;
+                         rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#polygonStyle
+semgis:polygonStyle rdf:type owl:AnnotationProperty ;
+                    rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#style
+semgis:style rdf:type owl:AnnotationProperty ;
+             rdfs:subPropertyOf semgis:styleProperty .
+
+
+###  http://www.semgis.de/geodata#styleProperty
+semgis:styleProperty rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2000/01/rdf-schema#subClassOf
 rdfs:subClassOf rdf:type owl:AnnotationProperty .
 
@@ -592,6 +640,10 @@ aaa6:duration rdf:type rdfs:Datatype .
 
 ###  http://www.opengis.net/gml/3.2#Code
 gml:Code rdf:type rdfs:Datatype .
+
+
+###  http://www.semgis.de/geodata#cssLiteral
+semgis:cssLiteral rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -23337,6 +23389,11 @@ aaa6:AX_HeilquelleGasquelle rdf:type owl:Class ;
                                               owl:onProperty aaa6:art ;
                                               owl:cardinality "1"^^xsd:nonNegativeInteger
                                             ] .
+
+
+###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HistorischesBauwerk
+aaa6:AX_HistorischesBauwerk rdf:type owl:Class ;
+                            semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#800000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HistorischesBauwerkOderHistorischeEinrichtung
@@ -66590,10 +66647,12 @@ aaa6: rdfs:label "Weingarten 7"@de ,
                  "Weingarten 4" .
 
 
-aaa6:AA_Aktivitaet skos:definition "Die Aktivität ist Teil eines Vorgangs. Ein in Projektsteuerungskatalog vorzugebender Workflow legt die Reihenfolge und Abhängigkeiten der Aktivitäten und deren Arbeitsschritte fest. Die Aktivitäten werden in einer bestimmten Reihenfolge nacheinander bzw. nebeneinander bearbeitet. Die Entscheidung über den Abschluss der einzelnen Aktivitäten wird im Status (Meilenstein) dokumentiert."@de .
+aaa6:AA_Aktivitaet rdfs:label "AA_Aktivitaet"@de ;
+                   skos:definition "Die Aktivität ist Teil eines Vorgangs. Ein in Projektsteuerungskatalog vorzugebender Workflow legt die Reihenfolge und Abhängigkeiten der Aktivitäten und deren Arbeitsschritte fest. Die Aktivitäten werden in einer bestimmten Reihenfolge nacheinander bzw. nebeneinander bearbeitet. Die Entscheidung über den Abschluss der einzelnen Aktivitäten wird im Status (Meilenstein) dokumentiert."@de .
 
 
-aaa6:AA_Antrag skos:definition """Diese Objektart realisiert eine \"Mini-Antragsverwaltung\", d.h. eine Schnittstelle zur externen Antragsverwaltung. Dadurch wird es möglich, bei einem Eintrag in der externen Antragsverwaltung (Geschäftsbuch) direkt einen Bezug zu diesem Antrag in ALKIS (mit Raumbezug) zu generieren.
+aaa6:AA_Antrag rdfs:label "AA_Antrag"@de ;
+               skos:definition """Diese Objektart realisiert eine \"Mini-Antragsverwaltung\", d.h. eine Schnittstelle zur externen Antragsverwaltung. Dadurch wird es möglich, bei einem Eintrag in der externen Antragsverwaltung (Geschäftsbuch) direkt einen Bezug zu diesem Antrag in ALKIS (mit Raumbezug) zu generieren.
 
 Das Antragsobjekt verwaltet außerdem die Wiedervorlage des Antrags und unterstützt die Überwachung der Projektsteuerungs-Objekte. Mit dem Raumbezug kann nach bestehenden ALKIS- Prozessen gesucht werden, um konkurrierende Anträge zu ermitteln oder um andere benachbarte Anträge bei der Bearbeitung zu berücksichtigen. Die fachliche Reihenfolge konkurrierender Anträge ist durch den Sachbearbeiter festzulegen.
 
@@ -66602,17 +66661,20 @@ Hinweis: Die Beziehung von einem Fachobjekt zu AA_Antrag kann über eine Fachdat
 
 aaa6:AA_Auftrag skos:definition """Der 'Auftrag' ist die abstrakte Oberklasse aller Aufträge.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                rdfs:label "AA_Auftrag"@de .
 
 
-aaa6:AA_Benutzer skos:definition """In den aus der abstrakten Objektart 'Benutzer' abgeleiteten Objektarten werden Benutzer verwaltet. Diese Objektart bündelt die fachsystemspezifischen Ausprägungen von Benutzern.
+aaa6:AA_Benutzer rdfs:label "AA_Benutzer"@de ;
+                 skos:definition """In den aus der abstrakten Objektart 'Benutzer' abgeleiteten Objektarten werden Benutzer verwaltet. Diese Objektart bündelt die fachsystemspezifischen Ausprägungen von Benutzern.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
 aaa6:AA_Benutzergruppe skos:definition """In den aus der abstrakten Objektart 'Benutzergruppe' abgeleiteten Objektarten werden Benutzergruppen verwaltet. Diese Objektart bündelt die fachsystemspezifischen Ausprägungen von Benutzergruppen.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                       rdfs:label "AA_Benutzergruppe"@de .
 
 
 aaa6:AA_Benutzungsauftrag skos:definition "Durch einen AA_Benutzungsauftrag werden allgemeine Informationen für eine Ausgabe bereitgestellt. Der AA_Benutzungsauftrag unterstützt standardmäßig die Ausgabe von Bestandsdatenauszügen. Fachinformationssystemspezifische Ausgaben und Auftragsinformationen können in abgeleiteten Auftragstypen definiert werden"@de .
@@ -66631,7 +66693,8 @@ aaa6:AA_Empfaenger skos:definition """'Empfänger' beschreibt, wie das Ergebnis 
 
 3. Bei \"http\" wird das Ergebnis durch Aufruf des beschriebenen Webservices an den genannten Empfänger übermittelt. Das Ergebnis wird im Payload des HTTP PUT Requests übertragen (MIME-Format text/xml).
 
-4. Bei \"manuell\" muss der angegebene Empfänger manuell von einem Bearbeiter gesichtet werden. Dieser leitet dann das Ergebnis an den Empfänger weiter."""@de .
+4. Bei \"manuell\" muss der angegebene Empfänger manuell von einem Bearbeiter gesichtet werden. Dieser leitet dann das Ergebnis an den Empfänger weiter."""@de ;
+                   rdfs:label "AA_Empfaenger"@de .
 
 
 aaa6:AA_Ergebnis skos:definition """Das 'Ergebnis' ist die abstrakte Oberklasse aller erfolgreichen Ergebnisse.
@@ -66641,10 +66704,12 @@ Sofern ein Fehler auftriff, wird stattdessen ein 'ExceptionReport' erzeugt.
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AA_Fachdatenobjekt skos:definition "Der Verweis auf das Fachdatenobjekt kann entweder aus einer Namens- bzw. ID-Angabe oder aus einem URI bestehen."@de .
+aaa6:AA_Fachdatenobjekt skos:definition "Der Verweis auf das Fachdatenobjekt kann entweder aus einer Namens- bzw. ID-Angabe oder aus einem URI bestehen."@de ;
+                        rdfs:label "AA_Fachdatenobjekt"@de .
 
 
-aaa6:AA_Fachdatenverbindung skos:definition "Sollen Objekte einer Objektart auf Fachdaten zeigen, die in einem externen Fachinformationssystem geführt werden, so kann das optional durch das Attribut \"zeigtAufExternes\" beschrieben werden."@de .
+aaa6:AA_Fachdatenverbindung rdfs:label "AA_Fachdatenverbindung"@de ;
+                            skos:definition "Sollen Objekte einer Objektart auf Fachdaten zeigen, die in einem externen Fachinformationssystem geführt werden, so kann das optional durch das Attribut \"zeigtAufExternes\" beschrieben werden."@de .
 
 
 aaa6:AA_Fortfuehrungsauftrag skos:definition """Die Objektart AA_Fortfuehrungsauftrag aktualisiert Bestandsdaten. Fachinformationssystemspezifische Fortführungsaufträge können zusätzliche Vorgaben realisieren.
@@ -66687,10 +66752,18 @@ aaa6:AA_Fortfuehrungsergebnis skos:definition """Das Ergebnis eines Fortführung
 Bei Fehlersituationen ist eine ExceptionFortfuehrung zu erzeugen."""@de .
 
 
-aaa6:AA_Lebenszeitintervall skos:definition "Das Lebenszeitintervall wird (gemäß der Definitionen der Lebenszeitintervallbeschreibung für jede Objektart des OK) als Anfang und Ende der Lebenszeit festgelegt. Ziel ist es, bei Bedarf aus fachlicher Sicht Angaben über die Lebenszeit von Objekten abzulegen und ein Mittel zur Unterscheidung von Objektversionen zur Verfügung zu stellen. Die Angaben zum Lebenszeitintervall stehen in engem Zusammenhang mit den Bildungsregeln einer Objektart und den Regeln zur Objektversionierung."@de .
+aaa6:AA_Gebuehrenangaben rdfs:label "AA_Gebuehrenangaben"@de .
 
 
-aaa6:AA_Meilenstein skos:definition "Datentyp, der zu einem Vorgang usw. den aktuellen Zustand und die Verantwortlichkeiten vermerkt."@de .
+aaa6:AA_Koordinatenreferenzsystemangaben rdfs:label "AA_Koordinatenreferenzsystemangaben"@de .
+
+
+aaa6:AA_Lebenszeitintervall skos:definition "Das Lebenszeitintervall wird (gemäß der Definitionen der Lebenszeitintervallbeschreibung für jede Objektart des OK) als Anfang und Ende der Lebenszeit festgelegt. Ziel ist es, bei Bedarf aus fachlicher Sicht Angaben über die Lebenszeit von Objekten abzulegen und ein Mittel zur Unterscheidung von Objektversionen zur Verfügung zu stellen. Die Angaben zum Lebenszeitintervall stehen in engem Zusammenhang mit den Bildungsregeln einer Objektart und den Regeln zur Objektversionierung."@de ;
+                            rdfs:label "AA_Lebenszeitintervall"@de .
+
+
+aaa6:AA_Meilenstein rdfs:label "AA_Meilenstein"@de ;
+                    skos:definition "Datentyp, der zu einem Vorgang usw. den aktuellen Zustand und die Verantwortlichkeiten vermerkt."@de .
 
 
 aaa6:AA_Modellart skos:definition """Die \"Union\" AA_Modellart klammert die möglichen Arten von Modellartenkennungen und
@@ -66699,7 +66772,8 @@ unterscheidet nach Standardprodukten der AdV und sonstigen Produkten. Unter die
 
 sonstigen Produkte falllen auch die länderspezifisch nur in einigen Bundesländern
 
-geführten Produkte."""@de .
+geführten Produkte."""@de ;
+                  rdfs:label "AA_Modellart"@de .
 
 
 aaa6:AA_NREO skos:definition """Ein nicht raumbezogenes Elementarobjekt (AA_NREO) hat alle Eigenschaften eines Objektes, aber es besitzt im Unterschied zu den raumbezogenen Elementarobjekten keine geometrische oder topologische Beschreibung.
@@ -66707,11 +66781,15 @@ aaa6:AA_NREO skos:definition """Ein nicht raumbezogenes Elementarobjekt (AA_NREO
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
+aaa6:AA_Objekt rdfs:label "AA_Objekt"@de .
+
+
 aaa6:AA_Projektsteuerung skos:definition """Das Antrags-Objekt wird mit dem Projektsteuerungs-Objekt (AA_Projektsteuerung) verbunden, um die Zuordnung des Antrags zu einem oder mehreren Projektsteuerungs-Objekten festzulegen und um die nicht zulässigen Kombinationen zu überwachen. Weiterhin steuert und überwacht das Projektsteuerungs-Objekt die korrekte Abwicklung der Vorgänge im Teilprozess \"fachtechnische Qualifizierung\". Die Fortführungsanlässe werden beim Projektsteuerungs-Objekt geführt.
 
 Der AA_Projektsteuerung regelt und überwacht die Zeichnungsbefugnis.
 
-Zu klären sind zukünftig Aspekte zur Rechtssicherheit, Authentifizierung, usw."""@de .
+Zu klären sind zukünftig Aspekte zur Rechtssicherheit, Authentifizierung, usw."""@de ;
+                         rdfs:label "AA_Projektsteuerung"@de .
 
 
 aaa6:AA_REO skos:definition """Ein raumbezogenes Elementarobjekt (AA_REO) ist ein Objekt, das seinen Raumbezug, seine geometrische und topologische Beschreibung durch eine oder mehrere Raumbezugsgrundformen erhält. Raumbezogene Elementarobjekte können auch Präsentationsobjekte oder Kartengeometrieobjekte sein. Präsentationsobjekte sind Texte und Kartensignaturen, die nicht vollautomatisch aus den entsprechenden Fachobjekten für einen bestimmten Zielmaßstab erzeugt und platziert werden können. Die Präsentationsobjekte sind wie andere Objekte im Objektartenkatalog in Verbindung mit dem jeweiligen Signaturenkatalog zu definieren.
@@ -66725,12 +66803,14 @@ Für raumbezogene Elementarobjekte stellt das Modell weitere Subklassen mit konk
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AA_Themendefinition skos:definition """Die in einer Anwendung vorkommenden Themen sind in einer XML-Datei explizit zu deklarieren. AX_Themendefinition dient dazu als Muster Die Deklarationen müssen mit den Angaben im Objektartenkatalog übereinstimmen.
+aaa6:AA_Themendefinition rdfs:label "AA_Themendefinition"@de ;
+                         skos:definition """Die in einer Anwendung vorkommenden Themen sind in einer XML-Datei explizit zu deklarieren. AX_Themendefinition dient dazu als Muster Die Deklarationen müssen mit den Angaben im Objektartenkatalog übereinstimmen.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AA_Vorgang skos:definition "Der Vorgang ist Teil einer Projektsteuerung und setzt sich aus einzelnen Aktivitäten zusammen. Die Vorgänge stellen in sich abgeschlossene Arbeitsschritte dar. Ein vorzugebender Workflow legt die Reihenfolge und Abhängigkeiten der Vorgänge und deren Arbeitsschritte fest. Die Vorgänge werden in Gruppen zusammengefasst und in einer bestimmten Reihenfolge nacheinander bzw. nebeneinander bearbeitet. Die Entscheidung über den Abschluss des einzelnen Vorganges wird im Status (Meilenstein) dokumentiert."@de .
+aaa6:AA_Vorgang skos:definition "Der Vorgang ist Teil einer Projektsteuerung und setzt sich aus einzelnen Aktivitäten zusammen. Die Vorgänge stellen in sich abgeschlossene Arbeitsschritte dar. Ein vorzugebender Workflow legt die Reihenfolge und Abhängigkeiten der Vorgänge und deren Arbeitsschritte fest. Die Vorgänge werden in Gruppen zusammengefasst und in einer bestimmten Reihenfolge nacheinander bzw. nebeneinander bearbeitet. Die Entscheidung über den Abschluss des einzelnen Vorganges wird im Status (Meilenstein) dokumentiert."@de ;
+                rdfs:label "AA_Vorgang"@de .
 
 
 aaa6:AA_ZUSO skos:definition """Neben den Elementarobjekten kennt das gemeinsame Datenmodell auch ein zusammengesetztes Objekt (AA_ZUSO). Es kann aus einer beliebigen Zahl und Mischung semantisch zusammengehörender raumbezogener Elementarobjekte, nicht raumbezogener Elementarobjekte oder zusammengesetzter Objekte bestehen. Ein zusammengesetztes Objekt muss aber mindestens aus einem Objekt bestehen.
@@ -66738,27 +66818,32 @@ aaa6:AA_ZUSO skos:definition """Neben den Elementarobjekten kennt das gemeinsame
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AD_GitterCoverage skos:definition """Die abstrakte Klasse AD_GitterCoverage dient zur Ableitung von Fachobjekten, die aus einer großen Anzahl von gitterförmig angeordneten Punkten bestehen, für die jeweils 1..n Attributwerte zu den für alle Punkte identischen Attributarten gespeichert werden sollen. Sie implementiert CV_DiscretGridPointCoverage aus ISO 19123.
+aaa6:AD_GitterCoverage rdfs:label "AD_GitterCoverage"@de ;
+                       skos:definition """Die abstrakte Klasse AD_GitterCoverage dient zur Ableitung von Fachobjekten, die aus einer großen Anzahl von gitterförmig angeordneten Punkten bestehen, für die jeweils 1..n Attributwerte zu den für alle Punkte identischen Attributarten gespeichert werden sollen. Sie implementiert CV_DiscretGridPointCoverage aus ISO 19123.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AD_PunktCoverage skos:definition """Die abstrakte Klasse AD_PunktCoverage dient zur Ableitung von Fachobjekten, die aus einer großen Anzahl beliebig verteilter Punkte bestehen, für die jeweils 1..n Attributwerte zu den für alle Punkte identischen Attributarten gespeichert werden sollen. Sie implementiert CV_DiscretPointCoverage aus ISO 19123.
+aaa6:AD_PunktCoverage rdfs:label "AD_PunktCoverage"@de ;
+                      skos:definition """Die abstrakte Klasse AD_PunktCoverage dient zur Ableitung von Fachobjekten, die aus einer großen Anzahl beliebig verteilter Punkte bestehen, für die jeweils 1..n Attributwerte zu den für alle Punkte identischen Attributarten gespeichert werden sollen. Sie implementiert CV_DiscretPointCoverage aus ISO 19123.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AG_Flaechenobjekt skos:definition """Dies ist die Basisklasse für raumbezogene Fachobjekte, die geometrisch durch eine Fläche repräsentiert werden und sich mit anderen raumbezogenen Fachobjekten des gleichen AA_PunktLinienThemas Linien- und Punktgeometrie teilen.
+aaa6:AG_Flaechenobjekt rdfs:label "AG_Flaechenobjekt"@de ;
+                       skos:definition """Dies ist die Basisklasse für raumbezogene Fachobjekte, die geometrisch durch eine Fläche repräsentiert werden und sich mit anderen raumbezogenen Fachobjekten des gleichen AA_PunktLinienThemas Linien- und Punktgeometrie teilen.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AG_Linienobjekt skos:definition """Dies ist die Basisklasse für raumbezogene Fachobjekte, die geometrisch durch eine zusammengesetzte Linie repräsentiert werden und sich mit anderen raumbezogenen Fachobjekten des gleichen AA_PunktLinienThemas Linien- und Punktgeometrie teilen.
+aaa6:AG_Linienobjekt rdfs:label "AG_Linienobjekt"@de ;
+                     skos:definition """Dies ist die Basisklasse für raumbezogene Fachobjekte, die geometrisch durch eine zusammengesetzte Linie repräsentiert werden und sich mit anderen raumbezogenen Fachobjekten des gleichen AA_PunktLinienThemas Linien- und Punktgeometrie teilen.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
-aaa6:AG_Objekt skos:definition """Der Auswahldatentyp \"AG_Objekt\" erlaubt es, Subklassen zu bilden, bei denen die konkrete Art des Geometrietyps (punkt,-linien oder flächenförmig) erst auf Instanzenebene festgelegt wird.
+aaa6:AG_Objekt rdfs:label "AG_Objekt"@de ;
+               skos:definition """Der Auswahldatentyp \"AG_Objekt\" erlaubt es, Subklassen zu bilden, bei denen die konkrete Art des Geometrietyps (punkt,-linien oder flächenförmig) erst auf Instanzenebene festgelegt wird.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
@@ -66774,10 +66859,12 @@ Es handelt sich um eine abstrakte Objektart."""@de .
 
 aaa6:AG_Punktobjekt skos:definition """Dies ist die Basisklasse für raumbezogene Fachobjekte, die geometrisch durch einen Punkt repräsentiert werden und sich mit anderen raumbezogenen Fachobjekten des gleichen AA_PunktLinienThemas Punktgeometrie teilen.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                    rdfs:label "AG_Punktobjekt"@de .
 
 
-aaa6:AP_Darstellung skos:definition "'AP_Darstellung' ist ein Präsentationsobjekt ohne eigene Geometrie mit Angaben zur Steuerung und Darstellung von Signaturen. Angaben der Signaturenkataloge zur Darstellung der Fachobjekte können vollständig übernommen oder geändert werden, wenn der Signaturenkatalog es zulässt. Durch den Verweis dientZurDarstellungVon gibt das Präsentationsobjekt an, zu wessen Präsentation es dient. Das Ziel der Relation darf nicht wiederum ein Präsentationsobjekt oder ein AA_Objekt vom Typ AP_GPO sein."@de .
+aaa6:AP_Darstellung rdfs:label "AP_Darstellung"@de ;
+                    skos:definition "'AP_Darstellung' ist ein Präsentationsobjekt ohne eigene Geometrie mit Angaben zur Steuerung und Darstellung von Signaturen. Angaben der Signaturenkataloge zur Darstellung der Fachobjekte können vollständig übernommen oder geändert werden, wenn der Signaturenkatalog es zulässt. Durch den Verweis dientZurDarstellungVon gibt das Präsentationsobjekt an, zu wessen Präsentation es dient. Das Ziel der Relation darf nicht wiederum ein Präsentationsobjekt oder ein AA_Objekt vom Typ AP_GPO sein."@de .
 
 
 aaa6:AP_FPO skos:definition """'AP_FPO' ist ein flächenförmiges Präsentationsobjekt mit Angaben zur Steuerung der Signaturierung durch Flächensymbole. Sie werden gebildet, wenn
@@ -66836,7 +66923,8 @@ Durch den Verweis dientZurDarstellungVon gibt das Präsentationsobjekt in der Re
 Das Objekt wird geometrisch durch einen Punkt beschrieben, der auch Bezugspunkt zur Ausrichtung des Textes ist."""@de .
 
 
-aaa6:AP_TransformationsMatrix_3D skos:definition "Matrix mit den Transformationsparametern für die Überführung des 3D Symbol in den Raumbezug des Präsentationsobjekts."@de .
+aaa6:AP_TransformationsMatrix_3D rdfs:label "AP_TransformationsMatrix_3D"@de ;
+                                 skos:definition "Matrix mit den Transformationsparametern für die Überführung des 3D Symbol in den Raumbezug des Präsentationsobjekts."@de .
 
 
 aaa6:AU_GeometrieObjekt_3D skos:definition """Das 3D Fachobjekt 'AU_ GeometrieObjekt_3D' erlaubt es, Subklassen zu bilden, bei denen die konkrete Art des 3D Geometrietyps erst auf Instanzenebene z.B. in Abhängigkeit von der Detaillierungsstufe (Level of Detail) festgelegt wird (z.B. Mauern die durch 3D Flächen oder detaillierter durch 3D Körper repräsentiert werden können.
@@ -66892,7 +66980,8 @@ aaa6:AX_AndereFestlegungNachStrassenrecht skos:definition "'Andere Festlegung na
 aaa6:AX_AndereFestlegungNachWasserrecht skos:definition "'Andere Festlegung nach Wasserrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, wasserrechtlichen Vorschriften."@de .
 
 
-aaa6:AX_Anschrift skos:definition """'Anschrift' ist die postalische Adresse, verbunden mit weiteren Adressen aus dem Bereich
+aaa6:AX_Anschrift rdfs:label "AX_Anschrift"@de ;
+                  skos:definition """'Anschrift' ist die postalische Adresse, verbunden mit weiteren Adressen aus dem Bereich
 elektronischer Kommunikationsmedien."""@de .
 
 
@@ -66905,13 +66994,19 @@ Das Aufnahmepunktfeld ist eine Verdichtungsstufe des Lagefestpunktfeldes - Trigo
 aaa6:AX_Auszug aaa6:kennung "15005"@de .
 
 
-aaa6:AX_Bahnverkehr aaa6:kennung 42010 ;
+aaa6:AX_Bahnstrecke rdfs:label "AX_Bahnstrecke"@de .
+
+
+aaa6:AX_Bahnverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffb7e7\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral ;
+                    rdfs:label "AX_Bahnverkehr"@de ;
+                    aaa6:kennung 42010 ;
                     skos:definition "'Bahnverkehr' umfasst alle für den Schienenverkehr erforderlichen Flächen und die dem Schienenverkehr dienenden bebauten und unbebauten Flächen."@de .
 
 
 aaa6:AX_Bahnverkehrsanlage skos:definition """'Bahnverkehrsanlage' ist eine Fläche mit Einrichtungen zur Abwicklung des Personen- und/oder Güterverkehrs bei Schienenbahnen oder Schwebebahnen. Dazu gehören das Empfangsgebäude, sonstige räumlich angegliederte Verwaltungs- und Lagergebäude, bahntechnische Einrichtungen, Freiflächen und Gleisanlagen.
 
-Die 'Bahnverkehrsanlage' der Eisenbahnen beginnt oder endet im Allgemeinen am Einfahrtssignal oder an der Einfahrtsweiche."""@de .
+Die 'Bahnverkehrsanlage' der Eisenbahnen beginnt oder endet im Allgemeinen am Einfahrtssignal oder an der Einfahrtsweiche."""@de ;
+                           semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_BauRaumOderBodenordnungsrecht skos:definition "'Bau-, Raum- oder Bodenordnungsrecht' ist ein fachlich übergeordnetes Gebiet von Flächen mit bodenbezogenen Beschränkungen, Belastungen oder anderen Eigenschaften nach öffentlichen Vorschriften."@de .
@@ -66920,41 +67015,59 @@ aaa6:AX_BauRaumOderBodenordnungsrecht skos:definition "'Bau-, Raum- oder Bodenor
 aaa6:AX_Baublock skos:definition "'Baublock' ist ein Teil der Erdoberfläche, der von einer festgelegten Grenzlinie umschlossen ist und Teile einer Gemeinde definiert."@de .
 
 
-aaa6:AX_BauwerkImGewaesserbereich skos:definition "'Bauwerk im Gewässerbereich' ist ein Bauwerk, mit dem ein Wasserlauf unter einem Verkehrsweg, einem anderen Wasserlauf oder durch einen Berg hindurch geführt wird. Ein 'Bauwerk im Gewässerbereich' dient dem Abfluss oder der Rückhaltung von Gewässern oder als Messeinrichtung zur Feststellung des Wasserstandes oder als Uferbefestigung."@de .
+aaa6:AX_Bauteil rdfs:label "AX_Bauteil"@de ;
+                semgis:polygonStyle " \"stroke\":true, \"color\":\"maroon\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral .
 
 
-aaa6:AX_BauwerkImVerkehrsbereich skos:definition "'Bauwerk im Verkehrsbereich' ist ein Bauwerk, das dem Verkehr dient."@de .
+aaa6:AX_BauwerkImGewaesserbereich skos:definition "'Bauwerk im Gewässerbereich' ist ein Bauwerk, mit dem ein Wasserlauf unter einem Verkehrsweg, einem anderen Wasserlauf oder durch einen Berg hindurch geführt wird. Ein 'Bauwerk im Gewässerbereich' dient dem Abfluss oder der Rückhaltung von Gewässern oder als Messeinrichtung zur Feststellung des Wasserstandes oder als Uferbefestigung."@de ;
+                                  semgis:linestringStyle " \"stroke\":true, \"color\":\"#c8c8c8\"  "^^semgis:cssLiteral .
 
 
-aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe skos:definition "'Bauwerk oder Anlage für Industrie und Gewerbe' ist ein Bauwerk oder eine Anlage, die überwiegend industriellen und gewerblichen Zwecken dient oder Einrichtung an Ver- und Entsorgungsleitungen ist."@de .
+aaa6:AX_BauwerkImVerkehrsbereich semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                                 skos:definition "'Bauwerk im Verkehrsbereich' ist ein Bauwerk, das dem Verkehr dient."@de ;
+                                 semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral .
+
+
+aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe skos:definition "'Bauwerk oder Anlage für Industrie und Gewerbe' ist ein Bauwerk oder eine Anlage, die überwiegend industriellen und gewerblichen Zwecken dient oder Einrichtung an Ver- und Entsorgungsleitungen ist."@de ;
+                                                 semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_BauwerkOderAnlageFuerSportFreizeitUndErholung skos:definition "'Bauwerk oder Anlage für Sport, Freizeit und Erholung' ist ein Bauwerk oder eine Anlage zur Ausübung von Sport-, Freizeit- und Erholungsaktivitäten."@de .
 
 
-aaa6:AX_Benutzer skos:definition "In der Objektart 'Benutzer' werden allgemeine Informationen über den Benutzer verwaltet."@de .
+aaa6:AX_Benutzer rdfs:label "AX_Benutzer"@de ;
+                 skos:definition "In der Objektart 'Benutzer' werden allgemeine Informationen über den Benutzer verwaltet."@de .
 
 
 aaa6:AX_Benutzergruppe aaa6:kennung 81002 ;
                        skos:definition """In der 'Benutzergruppe' werden Informationen über die Benutzer der Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken sowie Standardparameter für die Benutzergruppe vermerken.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                       rdfs:label "AX_Benutzergruppe"@de .
 
 
-aaa6:AX_BenutzergruppeMitZugriffskontrolle skos:definition "In der Objektart 'Benutzergruppe mit Zugriffskontrolle' werden Informationen über die Benutzer der ALKIS-Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken."@de .
+aaa6:AX_BenutzergruppeMitZugriffskontrolle rdfs:label "AX_BenutzergruppeMitZugriffskontrolle"@de ;
+                                           skos:definition "In der Objektart 'Benutzergruppe mit Zugriffskontrolle' werden Informationen über die Benutzer der ALKIS-Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken."@de .
 
 
-aaa6:AX_BenutzergruppeNBA skos:definition "In der Objektart 'Benutzergruppe (NBA)' werden relevante Informationen für die Durchführung der NBA-Versorgung, z.B. die anzuwendenden Selektionskriterien, gespeichert. Eine gesonderte Prüfung der Zugriffsrechte erfolgt in diesem Fall nicht, deren Berücksichtigung ist von dem Administrator bei der Erzeugung und Pflege der NBA-Benutzergruppen sicherzustellen."@de .
+aaa6:AX_BenutzergruppeNBA skos:definition "In der Objektart 'Benutzergruppe (NBA)' werden relevante Informationen für die Durchführung der NBA-Versorgung, z.B. die anzuwendenden Selektionskriterien, gespeichert. Eine gesonderte Prüfung der Zugriffsrechte erfolgt in diesem Fall nicht, deren Berücksichtigung ist von dem Administrator bei der Erzeugung und Pflege der NBA-Benutzergruppen sicherzustellen."@de ;
+                          rdfs:label "AX_BenutzergruppeNBA"@de .
 
 
 aaa6:AX_BereichZeitlich skos:definition "'Bereich - zeitlich' bezeichnet den Zeitraum für die Abgabe von Änderungsinformationen und Bestandsdaten."@de .
 
 
-aaa6:AX_Bergbaubetrieb skos:definition "'Bergbaubetrieb' ist eine Fläche, die für die Förderung des Abbaugutes unter Tage genutzt wird."@de ;
+aaa6:AX_Bergbaubetrieb rdfs:label "AX_Bergbaubetrieb"@de ;
+                       skos:definition "'Bergbaubetrieb' ist eine Fläche, die für die Förderung des Abbaugutes unter Tage genutzt wird."@de ;
                        aaa6:kennung 41004 .
 
 
-aaa6:AX_BesondereFlurstuecksgrenze skos:definition "'Besondere Flurstücksgrenze' ist ein Teil der Grenzlinie eines Flurstücks, der von genau zwei benachbarten Grenzpunkten begrenzt wird und für den besondere Informationen vorliegen."@de .
+aaa6:AX_BesondereFlurstuecksgrenze skos:definition "'Besondere Flurstücksgrenze' ist ein Teil der Grenzlinie eines Flurstücks, der von genau zwei benachbarten Grenzpunkten begrenzt wird und für den besondere Informationen vorliegen."@de ;
+                                   semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\"  "^^semgis:cssLiteral .
+
+
+aaa6:AX_BesondereGebaeudelinie semgis:linestringStyle " \"stroke\":true, \"color\":\"blue\"  "^^semgis:cssLiteral ;
+                               rdfs:label "AX_BesondereGebaeudelinie"@de .
 
 
 aaa6:AX_BesondererBauwerkspunkt skos:definition "'Besonderer Bauwerkspunkt' ist ein Punkt eines 'Bauwerks' oder einer 'Einrichtung'."@de .
@@ -66963,15 +67076,21 @@ aaa6:AX_BesondererBauwerkspunkt skos:definition "'Besonderer Bauwerkspunkt' ist 
 aaa6:AX_BesondererTopographischerPunkt skos:definition "'Besonderer Topographischer Punkt' ist ein im Liegenschaftskataster geführter Topographischer Punkt."@de .
 
 
-aaa6:AX_Bewertung skos:definition "'Bewertung' ist die Klassifizierung einer Fläche nach dem Bewertungsgesetz (Bewertungsfläche)."@de .
+aaa6:AX_Bewertung skos:definition "'Bewertung' ist die Klassifizierung einer Fläche nach dem Bewertungsgesetz (Bewertungsfläche)."@de ;
+                  rdfs:label "AX_Bewertung"@de .
 
 
-aaa6:AX_Bodenschaetzung skos:definition "Bodenschätzung ist die kleinste Einheit einer bodengeschätzten Fläche nach dem BodSchätzG, für die eine Ertragsfähigkeit im Liegenschaftskataster nachzuweisen ist (Bodenschätzungsfläche)."@de .
+aaa6:AX_Bodenschaetzung skos:definition "Bodenschätzung ist die kleinste Einheit einer bodengeschätzten Fläche nach dem BodSchätzG, für die eine Ertragsfähigkeit im Liegenschaftskataster nachzuweisen ist (Bodenschätzungsfläche)."@de ;
+                        rdfs:label "AX_Bodenschaetzung"@de .
 
 
 aaa6:AX_BoeschungKliff skos:definition """'Böschung' ist die zwischen zwei verschieden hoch gelegenen Ebenen geneigte Geländeoberfläche künstlichen oder natürlichen Ursprungs.
 
 'Kliff' ist eine aus Lockermaterial oder Festgestein aufgebaute Steilküste."""@de .
+
+
+aaa6:AX_Boeschungsflaeche rdfs:label "AX_Boeschungsflaeche"@de ;
+                          semgis:polygonStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral .
 
 
 aaa6:AX_Buchung_HistorischesFlurstueck aaa6:kennung 17004 ;
@@ -66981,22 +67100,29 @@ aaa6:AX_Buchung_HistorischesFlurstueck aaa6:kennung 17004 ;
 aaa6:AX_Buchungsblatt skos:definition """'Buchungsblatt' enthält die Buchungen (Buchungsstellen und Namensnummern) des Grundbuchs
 und des Liegenschhaftskatasters (bei buchungsfreien Grundstücken).
 Das Buchungsblatt für Buchungen im Liegenschaftskataster kann entweder ein Kataster-, Erwerber-,
-Pseudo- oder ein Fiktives Blatt sein."""@de .
+Pseudo- oder ein Fiktives Blatt sein."""@de ;
+                      rdfs:label "AX_Buchungsblatt"@de .
 
 
-aaa6:AX_Buchungsblattbezirk skos:definition "\"Buchungsblattbezirk\" enthält die Verschlüsselung von Buchungsbezirken mit der entsprechenden Bezeichnung."@de .
+aaa6:AX_Buchungsblattbezirk skos:definition "\"Buchungsblattbezirk\" enthält die Verschlüsselung von Buchungsbezirken mit der entsprechenden Bezeichnung."@de ;
+                            rdfs:label "AX_Buchungsblattbezirk"@de .
 
 
 aaa6:AX_Buchungsblattbezirk_Schluessel skos:definition "Amtliche Verschlüsselung des Buchungsblattbezirks."@de .
 
 
-aaa6:AX_Buchungsstelle skos:definition "'Buchungsstelle' ist die unter einer laufenden Nummer im Verzeichnis des Buchungsblattes eingetragene Buchung."@de .
+aaa6:AX_Buchungsstelle skos:definition "'Buchungsstelle' ist die unter einer laufenden Nummer im Verzeichnis des Buchungsblattes eingetragene Buchung."@de ;
+                       rdfs:label "AX_Buchungsstelle"@de .
 
 
-aaa6:AX_Bundesland skos:definition "'Bundesland' umfasst das Gebiet des jeweiligen Bundeslandes innerhalb der Bundesrepublik Deutschland."@de .
+aaa6:AX_Bundesland skos:definition "'Bundesland' umfasst das Gebiet des jeweiligen Bundeslandes innerhalb der Bundesrepublik Deutschland."@de ;
+                   rdfs:label "AX_Bundesland"@de .
 
 
 aaa6:AX_Bundesland_Schluessel skos:definition "Amtliche Verschlüsselung des Bundeslands."@de .
+
+
+aaa6:AX_DGMGitter rdfs:label "AX_DGMGitter"@de .
 
 
 aaa6:AX_DQMitDatenerhebung skos:definition "Angaben zur Herkunft der Informationen (Erhebungsstelle). Die Information ist konform zu den Vorgaben aus ISO 19115 zu repräsentieren."@de .
@@ -67009,13 +67135,16 @@ aaa6:AX_DQPunktort skos:definition "'DQPunktort' enthält Angaben zur Herkunft, 
 aaa6:AX_DQSchwere skos:definition "Qualitätselemente zu AX_Schwere."@de .
 
 
-aaa6:AX_DammWallDeich skos:definition "'Damm, Wall, Deich' ist eine aus Erde oder anderen Baustoffen bestehende langgestreckte Aufschüttung, die Vegetation tragen kann."@de .
+aaa6:AX_DammWallDeich rdfs:label "AX_DammWallDeich"@de ;
+                      skos:definition "'Damm, Wall, Deich' ist eine aus Erde oder anderen Baustoffen bestehende langgestreckte Aufschüttung, die Vegetation tragen kann."@de .
 
 
-aaa6:AX_Denkmalschutzrecht skos:definition "'Denkmalschutzrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche oder Gegenstand nach öffentlichen, denkmalschutzrechtlichen Vorschriften."@de .
+aaa6:AX_Denkmalschutzrecht skos:definition "'Denkmalschutzrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche oder Gegenstand nach öffentlichen, denkmalschutzrechtlichen Vorschriften."@de ;
+                           rdfs:label "AX_Denkmalschutzrecht"@de .
 
 
-aaa6:AX_Dienststelle skos:definition "'Dienststelle' enthält die Verschlüsselung von Dienststellen und ÖbVi/ÖbV, die Aufgaben der öffentlichen Verwaltung wahrnehmen, mit der entsprechenden Bezeichnung."@de .
+aaa6:AX_Dienststelle rdfs:label "AX_Dienststelle"@de ;
+                     skos:definition "'Dienststelle' enthält die Verschlüsselung von Dienststellen und ÖbVi/ÖbV, die Aufgaben der öffentlichen Verwaltung wahrnehmen, mit der entsprechenden Bezeichnung."@de .
 
 
 aaa6:AX_Dienststelle_Schluessel skos:definition "Amtliche Verschlüsselung der Dienststelle."@de .
@@ -67045,18 +67174,30 @@ aaa6:AX_FGraphik aaa6:kennung "EFG"@de ;
 aaa6:AX_FOLGEVA skos:definition "Der komplexe Datentyp 'FOLGEVA' enthält Parameter, die für die Folgeverarbeitung von (Standard-) Ausgaben benötigt werden."@de .
 
 
+aaa6:AX_Fahrbahnachse rdfs:label "AX_Fahrbahnachse"@de .
+
+
+aaa6:AX_Fahrwegachse rdfs:label "AX_Fahrwegachse"@de .
+
+
 aaa6:AX_FelsenFelsblockFelsnadel skos:definition "'Felsen, Felsblock, Felsnadel' ist eine aufragende Gesteinsmasse oder ein einzelner großer Stein."@de .
 
 
+aaa6:AX_Firstlinie rdfs:label "AX_Firstlinie"@de .
+
+
 aaa6:AX_FlaecheBesondererFunktionalerPraegung skos:definition "'Fläche besonderer funktionaler Prägung' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche, auf denen vorwiegend Gebäude und/oder Anlagen zur Erfüllung öffentlicher Zwecke oder historische Anlagen vorhanden sind."@de ;
-                                              aaa6:kennung 41007 .
+                                              aaa6:kennung 41007 ;
+                                              semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_FlaecheGemischterNutzung aaa6:kennung 41006 ;
-                                 skos:definition "'Fläche gemischter Nutzung' ist eine bebaute Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), auf der keine Art der baulichen Nutzung vorherrscht. Solche Flächen sind insbesondere ländlich-dörflich geprägte Flächen mit land- und forstwirtschaftlichen Betrieben, Wohngebäuden u.a. sowie städtisch geprägte Kerngebiete mit Handelsbetrieben und zentralen Einrichtungen für die Wirtschaft und die Verwaltung."@de .
+                                 skos:definition "'Fläche gemischter Nutzung' ist eine bebaute Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), auf der keine Art der baulichen Nutzung vorherrscht. Solche Flächen sind insbesondere ländlich-dörflich geprägte Flächen mit land- und forstwirtschaftlichen Betrieben, Wohngebäuden u.a. sowie städtisch geprägte Kerngebiete mit Handelsbetrieben und zentralen Einrichtungen für die Wirtschaft und die Verwaltung."@de ;
+                                 semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral .
 
 
-aaa6:AX_Fliessgewaesser aaa6:kennung 44001 ;
+aaa6:AX_Fliessgewaesser semgis:polygonStyle " \"fill\":true, \"fillColor\":\"blue\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                        aaa6:kennung 44001 ;
                         skos:definition """'Fließgewässer' ist ein geometrisch begrenztes, auf dem Festland fließendes Gewässer, das die Wassermengen sammelt, die als Niederschläge auf die Erdoberfläche fallen oder in Quellen austreten, und in ein anderes Gewässer, ein Meer oder in einen See transportiert oder
 ein in einem System von natürlichen oder künstlichen Bodenvertiefungen verlaufendes Wasser, das zur Be- und Entwässerung an- oder abgeleitet wird
 oder
@@ -67070,17 +67211,21 @@ aaa6:AX_Flugverkehr skos:definition "'Flugverkehr' umfasst die baulich geprägte
 aaa6:AX_Flugverkehrsanlage skos:definition "'Flugverkehrsanlage' ist eine Fläche, auf der Luftfahrzeuge bewegt oder abgestellt werden."@de .
 
 
-aaa6:AX_Flurstueck skos:definition "'Flurstück' ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters"@de .
+aaa6:AX_Flurstueck semgis:polygonStyle " \"fill\":true, \"fillColor\":\"green\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                   rdfs:label "AX_Flurstueck"@de ;
+                   skos:definition "'Flurstück' ist ein Teil der Erdoberfläche, der von einer im Liegenschaftskataster festgelegten Grenzlinie umschlossen und mit einer Nummer bezeichnet ist. Es ist die Buchungseinheit des Liegenschaftskatasters"@de .
 
 
 aaa6:AX_Flurstuecksnummer skos:definition "'AX_Flurstücksnummer' ist ein Datentyp, der alle Eigenschaften für den Aufbau der Attributart 'Flurstücksnummer' enthält."@de .
 
 
-aaa6:AX_Forstrecht skos:definition "'Forstrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, forstrechtlichen Vorschriften."@de .
+aaa6:AX_Forstrecht rdfs:label "AX_Forstrecht"@de ;
+                   skos:definition "'Forstrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, forstrechtlichen Vorschriften."@de .
 
 
 aaa6:AX_Fortfuehrungsfall skos:definition "'Fortführungsfall' beschreibt die notwendigen Angaben zum Aufbau eines Fortführungsnachweises. Er legt die Reihenfolge der zu verändernden Flurstücke innerhalb eines Fortführungsnachweises fest (Aufbau des Fortführungsnachweises)."@de ;
-                          aaa6:kennung "15002"@de .
+                          aaa6:kennung "15002"@de ;
+                          rdfs:label "AX_Fortfuehrungsfall"@de .
 
 
 aaa6:AX_FortfuehrungsnachweisDeckblatt aaa6:kennung "15001"@de ;
@@ -67094,40 +67239,64 @@ aaa6:AX_Friedhof skos:definition "'Friedhof' ist eine Landfläche, die zur Besta
                  aaa6:kennung 41009 .
 
 
+aaa6:AX_Gebaeude semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                 rdfs:label "AX_Gebaeude"@de .
+
+
 aaa6:AX_Gebaeudeausgestaltung skos:definition "'Gebäudeausgestaltung' dient zur Speicherung von Gebäudeausgestaltungslinien, wenn eine Objektbildung im Zuge der Migration nicht möglich ist."@de .
 
 
 aaa6:AX_Gebiet skos:definition """'Gebiet' ist ein Teil der Erdoberfläche, der von einer festgelegten Grenzlinie umschlossen ist und den politischen Einflussbereich einer Verwaltungseinheit repräsentiert.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+               rdfs:label "AX_Gebiet"@de .
 
 
-aaa6:AX_Gebiet_Kreis skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+aaa6:AX_Gebiet_Bundesland rdfs:label "AX_Gebiet_Bundesland"@de .
 
 
-aaa6:AX_Gebiet_Regierungsbezirk skos:definition "'Regierungsbezirk' enthält alle zur Regierungsbezirksebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+aaa6:AX_Gebiet_Kreis rdfs:label "AX_Gebiet_Kreis"@de ;
+                     skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
 
 
-aaa6:AX_Gebiet_Verwaltungsgemeinschaft skos:definition "'Verwaltungsgemeinschaft' umfasst das Gebiet der zur Verwaltungsgemeinschaft gehörenden Verwaltungseinheiten."@de .
+aaa6:AX_Gebiet_Nationalstaat rdfs:label "AX_Gebiet_Nationalstaat"@de .
+
+
+aaa6:AX_Gebiet_Regierungsbezirk skos:definition "'Regierungsbezirk' enthält alle zur Regierungsbezirksebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ;
+                                rdfs:label "AX_Gebiet_Regierungsbezirk"@de .
+
+
+aaa6:AX_Gebiet_Verwaltungsgemeinschaft skos:definition "'Verwaltungsgemeinschaft' umfasst das Gebiet der zur Verwaltungsgemeinschaft gehörenden Verwaltungseinheiten."@de ;
+                                       rdfs:label "AX_Gebiet_Verwaltungsgemeinschaft"@de .
+
+
+aaa6:AX_Gebietsgrenze rdfs:label "AX_Gebietsgrenze"@de .
 
 
 aaa6:AX_Gehoelz skos:definition "'Gehölz' ist eine Fläche, die mit einzelnen Bäumen, Baumgruppen, Büschen, Hecken und Sträuchern bestockt ist."@de ;
                 aaa6:kennung 43003 .
 
 
-aaa6:AX_Gemarkung skos:definition "\"Gemarkung\" ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden."@de .
+aaa6:AX_Gelaendekante semgis:linestringStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                      rdfs:label "AX_Gelaendekante"@de .
+
+
+aaa6:AX_Gemarkung skos:definition "\"Gemarkung\" ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden."@de ;
+                  rdfs:label "AX_Gemarkung"@de .
 
 
 aaa6:AX_Gemarkung_Schluessel skos:definition "Amtliche Verschlüsselung der Gemarkung."@de .
 
 
-aaa6:AX_GemarkungsteilFlur skos:definition "\"Gemarkungsteil/Flur\" enthält die Gemarkungsteile und Fluren. Gemarkungsteile kommen nur in Bayern vor und entsprechen den Fluren in anderen Bundesländern."@de .
+aaa6:AX_GemarkungsteilFlur rdfs:label "AX_GemarkungsteilFlur"@de ;
+                           skos:definition "\"Gemarkungsteil/Flur\" enthält die Gemarkungsteile und Fluren. Gemarkungsteile kommen nur in Bayern vor und entsprechen den Fluren in anderen Bundesländern."@de .
 
 
 aaa6:AX_GemarkungsteilFlur_Schluessel skos:definition "Amtliche Verschlüsselung des Gemarkungsteils bzw. der Flur."@de .
 
 
-aaa6:AX_Gemeinde skos:definition "'Gemeinde' enthält alle zur Gemeindeebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+aaa6:AX_Gemeinde skos:definition "'Gemeinde' enthält alle zur Gemeindeebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ;
+                 rdfs:label "AX_Gemeinde"@de .
 
 
 aaa6:AX_Gemeindekennzeichen skos:definition """'Gemeindekennzeichen' ist die vom Statistischen Bundesamt veröffentlichte Schlüsselnummer des kommunalen Gebietes (Stadt-, Landgemeinde, gemeindefreies Gebiet).
@@ -67147,11 +67316,15 @@ und optional (siehe Katalog der Gemeindeteile) dem
 5. Spalte: Gemeindeteil"""@de .
 
 
-aaa6:AX_Gemeindeteil skos:definition "'Gemeindeteil' enthält alle zur Gemeindeteilebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+aaa6:AX_Gemeindeteil skos:definition "'Gemeindeteil' enthält alle zur Gemeindeteilebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ;
+                     rdfs:label "AX_Gemeindeteil"@de .
 
 
 aaa6:AX_GeoreferenzierteGebaeudeadresse aaa6:kennung "12006"@de ;
                                         skos:definition "'Georeferenzierte Gebäudeadresse' enthält alle Informationen für die Ausgabe der amtlichen Hauskoordinate. Die Abgabe erfolgt über Bestandsdatenauszug bzw. NBA-Verfahren. Das bisherige Verfahren zur Abgabe der Hauskoordinaten kann durch eine XSLT-Transformation erzeugt werden."@de .
+
+
+aaa6:AX_Gewaesserachse rdfs:label "AX_Gewaesserachse"@de .
 
 
 aaa6:AX_Gewaessermerkmal skos:definition "'Gewässermerkmal' sind besondere Eigenschaften eines Gewässers."@de .
@@ -67160,7 +67333,8 @@ aaa6:AX_Gewaessermerkmal skos:definition "'Gewässermerkmal' sind besondere Eige
 aaa6:AX_Gewaesserstationierungsachse skos:definition "'Gewässerstationierungsachse' ist eine von einer Wasserfachstelle festgelegte Linie in Gewässern."@de .
 
 
-aaa6:AX_Gleis skos:definition "'Gleis' ist ein zur Führung von Schienenfahrzeugen verlegtes Schienenpaar."@de .
+aaa6:AX_Gleis semgis:linestringStyle " \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral ;
+              skos:definition "'Gleis' ist ein zur Führung von Schienenfahrzeugen verlegtes Schienenpaar."@de .
 
 
 aaa6:AX_GrablochDerBodenschaetzung skos:definition "'Grabloch der Bodenschätzung' ist der Lagepunkt der Profilbeschreibung von Grablöchern."@de .
@@ -67187,7 +67361,10 @@ aaa6:AX_Heide aaa6:kennung 43004 ;
 aaa6:AX_HeilquelleGasquelle skos:definition "'Heilquelle, Gasquelle' ist eine natürliche, örtlich begrenzte Austrittsstelle von Heilwasser oder Gas."@de .
 
 
-aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung skos:definition "'Historisches Bauwerk oder historische Einrichtung' ist ein Bauwerk oder eine Einrichtung von geschichtlicher Bedeutung."@de .
+aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung rdfs:label "AX_HistorischesBauwerkOderHistorischeEinrichtung"@de ;
+                                                      semgis:linestringStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"#b4e160\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                                                      skos:definition "'Historisches Bauwerk oder historische Einrichtung' ist ein Bauwerk oder eine Einrichtung von geschichtlicher Bedeutung."@de ;
+                                                      semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_HistorischesFlurstueck skos:definition "'Historisches Flurstück' ist ein fachlich nicht mehr aktuelles Flurstück, das im Rahmen der Historisierung in ALKIS entsteht (ALKIS-Standardhistorie)."@de ;
@@ -67212,7 +67389,8 @@ aaa6:AX_Hoehenlinie skos:definition "'Höhenlinie' ist die Schnittlinie einer Ob
 aaa6:AX_Hoehleneingang skos:definition "'Höhleneingang' ist die Öffnung eines unterirdischen Hohlraumes an der Erdoberfläche."@de .
 
 
-aaa6:AX_IndustrieUndGewerbeflaeche skos:definition "'Industrie- und Gewerbefläche' ist eine Fläche, auf der sich Industrie-, Gewerbe-, Handels- und Dienstleistungsunternehmen sowie deren Betriebsflächen befinden."@de ;
+aaa6:AX_IndustrieUndGewerbeflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                                   skos:definition "'Industrie- und Gewerbefläche' ist eine Fläche, auf der sich Industrie-, Gewerbe-, Handels- und Dienstleistungsunternehmen sowie deren Betriebsflächen befinden."@de ;
                                    aaa6:kennung 41002 .
 
 
@@ -67232,23 +67410,28 @@ aaa6:AX_KennzifferGrabloch skos:definition "'AX_KennzifferGrabloch' ist ein Date
 aaa6:AX_KlassifizierungNachStrassenrecht skos:definition "'Klassifizierung nach Straßenrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, straßenrechtlichen Vorschriften."@de .
 
 
-aaa6:AX_KlassifizierungNachWasserrecht skos:definition "'Klassifizierung nach Wasserrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, wasserrechtlichen Vorschriften."@de .
+aaa6:AX_KlassifizierungNachWasserrecht skos:definition "'Klassifizierung nach Wasserrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen, wasserrechtlichen Vorschriften."@de ;
+                                       rdfs:label "AX_KlassifizierungNachWasserrecht"@de ;
+                                       semgis:polygonStyle " \"stroke\":true, \"color\":\"blue\"  , \"fill\":true "^^semgis:cssLiteral .
 
 
 aaa6:AX_KleinraeumigerLandschaftsteil skos:definition "'Kleinräumiger Landschaftsteil' ist ein kleinerer Teil der Erdoberfläche, der hinsichtlich des äußeren Erscheinungsbildes (Bodenformen, Bewuchs, Besiedlung, Bewirtschaftung) in bestimmter Weise geprägt ist."@de .
 
 
-aaa6:AX_KommunalesGebiet skos:definition "'Kommunales Gebiet' ist ein Teil der Erdoberfläche, der von einer festgelegten Grenzlinie umschlossen ist und den politischen Einflussbereich einer Kommune repräsentiert (z.B. Stadt-, Landgemeinde, gemeindefreies Gebiet)."@de .
+aaa6:AX_KommunalesGebiet skos:definition "'Kommunales Gebiet' ist ein Teil der Erdoberfläche, der von einer festgelegten Grenzlinie umschlossen ist und den politischen Einflussbereich einer Kommune repräsentiert (z.B. Stadt-, Landgemeinde, gemeindefreies Gebiet)."@de ;
+                         rdfs:label "AX_KommunalesGebiet"@de .
 
 
 aaa6:AX_KreisRegion skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ;
+                    rdfs:label "AX_KreisRegion"@de ;
                     aaa6:kennung 73004 .
 
 
 aaa6:AX_Kreis_Schluessel skos:definition "Amtliche Verschlüsselung des Kreises."@de .
 
 
-aaa6:AX_Lage aaa6:kennung "12005"@de ;
+aaa6:AX_Lage rdfs:label "AX_Lage"@de ;
+             aaa6:kennung "12005"@de ;
              skos:definition """'Lage' ist eine Klasse mit Eigenschaften, die für alle Objektarten dieser Objektartengruppe gelten und an diese vererbt werden.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
@@ -67291,7 +67474,8 @@ aaa6:AX_Landwirtschaft aaa6:kennung 43001 ;
                        skos:definition "'Landwirtschaft' ist eine Fläche für den Anbau von Feldfrüchten sowie eine Fläche, die beweidet und gemäht werden kann, einschließlich der mit besonderen Pflanzen angebauten Fläche (einschließlich landwirtschaftlichen Brachlands)."@de .
 
 
-aaa6:AX_Leitung skos:definition "'Leitung' ist eine aus Drähten oder Fasern hergestellte Leitung zum Transport von elektrischer Energie und zur Übertragung von elektrischen Signalen."@de .
+aaa6:AX_Leitung skos:definition "'Leitung' ist eine aus Drähten oder Fasern hergestellte Leitung zum Transport von elektrischer Energie und zur Übertragung von elektrischen Signalen."@de ;
+                semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_Meer aaa6:kennung 44007 ;
@@ -67308,7 +67492,11 @@ aaa6:AX_MusterLandesmusterUndVergleichsstueck skos:definition "'Muster-und Vergl
 
 aaa6:AX_Namensnummer skos:definition """'Namensnummer' ist die laufende Nummer der Eintragung, unter welcher der Eigentümer
 oder Erbbauberechtigte im Buchungsblatt geführt wird. Rechtsgemeinschaften werden auch
-unter AX_Namensnummer geführt."""@de .
+unter AX_Namensnummer geführt."""@de ;
+                     rdfs:label "AX_Namensnummer"@de .
+
+
+aaa6:AX_Nationalstaat rdfs:label "AX_Nationalstaat"@de .
 
 
 aaa6:AX_NaturUmweltOderBodenschutzrecht skos:definition "'Natur-, Umwelt- oder Bodenschutzrecht' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche oder eines Gegenstandes nach öffentlichen, natur-, umwelt- oder bodenschutzrechtlichen Vorschriften."@de .
@@ -67320,6 +67508,9 @@ Es handelt sich um eine abstrakte Objektart."""@de ;
                   aaa6:kennung "13004"@de .
 
 
+aaa6:AX_NichtGelaendepunkte rdfs:label "AX_NichtGelaendepunkte"@de .
+
+
 aaa6:AX_Ortslage skos:definition """'Ortslage' ist eine im Zusammenhang bebaute Fläche. Die Ortslage enthält neben 'Wohnbaufläche', 'Industrie- und Gewerbefläche', 'Fläche gemischter Nutzung', 'Fläche besonderer funktionaler Prägung' auch die dazu in einem engen räumlichen und funktionalen Zusammenhang stehenden Flächen des Verkehrs, von Gewässern, von Flächen, die von 'Bauwerke und sonstige Einrichtungen' für Erholung, Sport und Freizeit belegt sind, sowie von 'Vegetationsflächen'.
 
 Die Grenze der Ortslage zur Feldlage oder zu Waldflächen wird in der Regel durch die Grenzen der bebauten Grundstücke unter Einbeziehung der Hofraumflächen und Hausgärten gebildet. Der Umring bildet einen geschlossenen Linienzug. Die Ortslage kann Objekte des Objektbereichs Vegetation als Inseln umschließen.
@@ -67328,29 +67519,35 @@ Bei Vergabe des Namens (NAM) ist streng nach einer Hierarchie zu verfahren. Es w
 
 
 aaa6:AX_Person skos:definition "'Person' ist eine natürliche oder juristische Person und kann z.B. in den Rollen Eigentümer, Erwerber, Verwalter oder Vertreter in Katasterangelegenheiten geführt werden."@de ;
+               rdfs:label "AX_Person"@de ;
                aaa6:kennung 21001 .
 
 
-aaa6:AX_Personengruppe skos:definition "'Personengruppe' ist die Zusammenfassung von Personen unter einem Ordnungsbegriff."@de .
+aaa6:AX_Personengruppe skos:definition "'Personengruppe' ist die Zusammenfassung von Personen unter einem Ordnungsbegriff."@de ;
+                       rdfs:label "AX_Personengruppe"@de .
 
 
 aaa6:AX_Platz aaa6:kennung 42009 ;
+              semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#808040\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
               skos:definition "'Platz' ist eine Verkehrsfläche in Ortschaften oder eine ebene, befestigte oder unbefestigte Fläche, die bestimmten Zwecken dient (z. B. für Verkehr, Parkplätze, Märkte, Festveranstaltungen)."@de .
 
 
 aaa6:AX_Post aaa6:kennung "12007"@de .
 
 
-aaa6:AX_PunktkennungUntergegangen skos:definition "'Punktkennung untergegangen' enthält Punktkennungen, die untergegangen sind."@de ;
+aaa6:AX_PunktkennungUntergegangen rdfs:label "AX_PunktkennungUntergegangen"@de ;
+                                  skos:definition "'Punktkennung untergegangen' enthält Punktkennungen, die untergegangen sind."@de ;
                                   aaa6:kennung "16002"@de .
 
 
 aaa6:AX_PunktkennungVergleichend skos:definition "'Punktkennung vergleichend' enthält vorläufige Punktkennungen."@de ;
-                                 aaa6:kennung "16003"@de .
+                                 aaa6:kennung "16003"@de ;
+                                 rdfs:label "AX_PunktkennungVergleichend"@de .
 
 
 aaa6:AX_PunktortAG skos:definition "'PunktortAG' ist ein Punktort mit redundanzfreier Geometrie (Besonderer Gebäudepunkt, Besonderer Bauwerkspunkt) innerhalb eines Geometriethemas."@de ;
-                   aaa6:kennung "14002"@de .
+                   aaa6:kennung "14002"@de ;
+                   rdfs:label "AX_PunktortAG"@de .
 
 
 aaa6:AX_PunktortAU aaa6:kennung "14003"@de ;
@@ -67358,6 +67555,7 @@ aaa6:AX_PunktortAU aaa6:kennung "14003"@de ;
 
 
 aaa6:AX_PunktortTA aaa6:kennung "14004"@de ;
+                   rdfs:label "AX_PunktortTA"@de ;
                    skos:definition "'PunktortTA' ist ein Punktort, der in der Flurstücksgrenze liegt und einen Grenzpunkt verortet."@de .
 
 
@@ -67365,14 +67563,16 @@ aaa6:AX_Referenzstationspunkt aaa6:kennung "19004"@de ;
                               skos:definition "'Referenzstationspunkt' (RSP) ist ein 3D-Festpunkt, der zur Punktgruppe einer SAPOS-Referenzstation gehört."@de .
 
 
-aaa6:AX_Regierungsbezirk skos:definition "'Regierungsbezirk' enthält alle zur Regierungsbezirksebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+aaa6:AX_Regierungsbezirk skos:definition "'Regierungsbezirk' enthält alle zur Regierungsbezirksebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de ;
+                         rdfs:label "AX_Regierungsbezirk"@de .
 
 
 aaa6:AX_Regierungsbezirk_Schluessel skos:definition "Amtliche Verschlüsselung des Regierungsbezirks."@de .
 
 
 aaa6:AX_Reservierung skos:definition "'Reservierung' enthält Ordnungsnummern des Liegenschaftskatasters, die für eine durchzuführende Vermessungssache reserviert sind."@de ;
-                     aaa6:kennung "16001"@de .
+                     aaa6:kennung "16001"@de ;
+                     rdfs:label "AX_Reservierung"@de .
 
 
 aaa6:AX_Reservierungsauftrag_Gebietskennung aaa6:kennung "16004"@de .
@@ -67395,10 +67595,12 @@ aaa6:AX_SchutzgebietNachWasserrecht skos:definition "'Schutzgebiet nach Wasserre
                                     aaa6:kennung 71005 .
 
 
-aaa6:AX_Schutzzone skos:definition "'Schutzzone' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen oder wasserrechtlichen Vorschriften."@de .
+aaa6:AX_Schutzzone skos:definition "'Schutzzone' ist die auf den Grund und Boden bezogene Beschränkung, Belastung oder andere Eigenschaft einer Fläche nach öffentlichen oder wasserrechtlichen Vorschriften."@de ;
+                   rdfs:label "AX_Schutzzone"@de .
 
 
 aaa6:AX_Schwere skos:definition "Ein Objekt 'Schwere' definiert einen Schwerewert und das zugehörige Schwerebezugssystem sowie ggf. Schwereanomalien eines Objektes der Objektarten 'Lagefestpunkt', 'Höhenfestpunkt', 'Schwerefestpunkt' oder 'Referenzstationspunkt."@de ;
+                rdfs:label "AX_Schwere"@de ;
                 aaa6:kennung "14005"@de .
 
 
@@ -67417,10 +67619,12 @@ aaa6:AX_Sicherungspunkt skos:definition "'Sicherungspunkt' ist ein Punkt des Auf
                         aaa6:kennung "13002"@de .
 
 
-aaa6:AX_Sickerstrecke skos:definition "'Sickerstrecke' bedeutet, dass ein Gewässer unter der Erdoberfläche durch Lockergestein verläuft."@de .
+aaa6:AX_Sickerstrecke rdfs:label "AX_Sickerstrecke"@de ;
+                      skos:definition "'Sickerstrecke' bedeutet, dass ein Gewässer unter der Erdoberfläche durch Lockergestein verläuft."@de .
 
 
-aaa6:AX_Skizze skos:definition "Ein Objekt der Objektart 'Skizze' ergänzt ein Objekt 'Lagefestpunkt', 'Höhenfestpunkt', 'Schwerefestpunkt' oder 'Referenzstationspunkt'. Es beinhaltet die URI einer Datei, welche eine Einmessungsskizze, ein Foto oder eine ähnliche grafische oder sonstige Information zu dem jeweiligen Festpunkt enthält."@de .
+aaa6:AX_Skizze rdfs:label "AX_Skizze"@de ;
+               skos:definition "Ein Objekt der Objektart 'Skizze' ergänzt ein Objekt 'Lagefestpunkt', 'Höhenfestpunkt', 'Schwerefestpunkt' oder 'Referenzstationspunkt'. Es beinhaltet die URI einer Datei, welche eine Einmessungsskizze, ein Foto oder eine ähnliche grafische oder sonstige Information zu dem jeweiligen Festpunkt enthält."@de .
 
 
 aaa6:AX_Soll skos:definition "'Soll' ist eine runde, oft steilwandige Vertiefung in den norddeutschen Grundmoränenlandschaften; kann durch Abschmelzen von überschütteten Toteisblöcken (Toteisloch) oder durch Schmelzen periglazialer Eislinsen entstanden sein."@de .
@@ -67433,25 +67637,35 @@ aaa6:AX_SonstigerVermessungspunkt aaa6:kennung "13003"@de ;
                                   skos:definition "'Sonstiger Vermessungspunkt' ist ein Punkt des Aufnahmepunktfeldes, der weder Aufnahmepunkt noch Sicherungspunkt ist (z. B. Polygonpunkt, Liniennetzpunkt)."@de .
 
 
-aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung skos:definition "'Sonstiges Bauwerk oder sonstige Einrichtung' ist ein Bauwerk oder eine Einrichtung, das/die nicht zu den anderen Objektarten der Objektartengruppe Bauwerke und Einrichtungen gehört."@de .
+aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung skos:definition "'Sonstiges Bauwerk oder sonstige Einrichtung' ist ein Bauwerk oder eine Einrichtung, das/die nicht zu den anderen Objektarten der Objektartengruppe Bauwerke und Einrichtungen gehört."@de ;
+                                                semgis:linestringStyle " \"stroke\":true, \"color\":\"fuchsia\"  "^^semgis:cssLiteral ;
+                                                semgis:polygonStyle " \"fill\":true, \"fillColor\":\"fuchsia\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral .
 
 
-aaa6:AX_SonstigesRecht skos:definition "'Sonstiges Recht' sind die auf den Grund und Boden bezogenen Beschränkungen, Belastungen oder anderen Eigenschaften einer Fläche nach weiteren, nicht unter die Objektarten 71001 bis 71010 zu subsumierenden öffentlich - rechtlichen Vorschriften."@de .
+aaa6:AX_SonstigesRecht rdfs:label "AX_SonstigesRecht"@de ;
+                       skos:definition "'Sonstiges Recht' sind die auf den Grund und Boden bezogenen Beschränkungen, Belastungen oder anderen Eigenschaften einer Fläche nach weiteren, nicht unter die Objektarten 71001 bis 71010 zu subsumierenden öffentlich - rechtlichen Vorschriften."@de .
 
 
 aaa6:AX_SportFreizeitUndErholungsflaeche skos:definition "'Sport-, Freizeit- und Erholungsfläche' ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient."@de ;
-                                         aaa6:kennung 41008 .
+                                         aaa6:kennung 41008 ;
+                                         semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#22b14c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_StehendesGewaesser skos:definition "'Stehendes Gewässer' ist eine natürliche oder künstliche mit Wasser gefüllte, allseitig umschlossene Hohlform der Landoberfläche ohne unmittelbaren Zusammenhang mit 'Meer'."@de ;
                            aaa6:kennung 44006 .
 
 
+aaa6:AX_Strassenachse rdfs:label "AX_Strassenachse"@de .
+
+
 aaa6:AX_Strassenverkehr skos:definition "'Straßenverkehr' umfasst alle für die bauliche Anlage Straße erforderlichen Flächen und die dem Straßenverkehr dienenden bebauten und unbebauten Flächen."@de ;
+                        semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffdc45\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
                         aaa6:kennung 42001 .
 
 
-aaa6:AX_Strassenverkehrsanlage skos:definition "'Straßenverkehrsanlage' ist eine besondere Anlage für den Straßenverkehr."@de .
+aaa6:AX_Strassenverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"yellow\"  "^^semgis:cssLiteral ;
+                               skos:definition "'Straßenverkehrsanlage' ist eine besondere Anlage für den Straßenverkehr."@de ;
+                               semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral .
 
 
 aaa6:AX_Sumpf aaa6:kennung 43006 ;
@@ -67463,10 +67677,12 @@ aaa6:AX_TagebauGrubeSteinbruch skos:definition "'Tagebau, Grube, Steinbruch' ist
                                aaa6:kennung 41005 .
 
 
-aaa6:AX_Tagesabschnitt skos:definition "'Tagesabschnitt' ist ein Ordnungskriterium der Schätzungsarbeiten für die geschätzte Fläche. Tagesabschnitt bezieht sich auf ein Ordnungsmerkmal, dem die Grablöcher eindeutig zugeordnet sind."@de .
+aaa6:AX_Tagesabschnitt rdfs:label "AX_Tagesabschnitt"@de ;
+                       skos:definition "'Tagesabschnitt' ist ein Ordnungskriterium der Schätzungsarbeiten für die geschätzte Fläche. Tagesabschnitt bezieht sich auf ein Ordnungsmerkmal, dem die Grablöcher eindeutig zugeordnet sind."@de .
 
 
-aaa6:AX_TatsaechlicheNutzung aaa6:kennung 40001 ;
+aaa6:AX_TatsaechlicheNutzung rdfs:label "AX_TatsaechlicheNutzung"@de ;
+                             aaa6:kennung 40001 ;
                              skos:definition """Die abstrakte Oberklasse für alle tatsächlichen Nutzungen.
 
 Objekte in der Grundfläche besitzen alle dasselbe Thema (TS_Theme 'Tatsächliche Nutzung (Grundfläche)'). Alle anderen AX_TatsaechlicheNutzung-Objekte liegen in einem anderen Thema. I.d.R. wird hierbei jedem überlagernden Objekt ein eigenes Thema zugeordnet.
@@ -67483,20 +67699,26 @@ aaa6:AX_TopographischeLinie skos:definition "'Topographische Linie' ist eine top
 aaa6:AX_Transportanlage skos:definition "'Transportanlage' ist eine Anlage zur Förderung oder zum Transport von Flüssigkeiten, Gasen und Gütern."@de .
 
 
-aaa6:AX_Turm skos:definition "'Turm' ist ein hoch aufragendes, auf einer verhältnismäßig kleinen Fläche stehendes Bauwerk."@de .
+aaa6:AX_Turm rdfs:label "AX_Turm"@de ;
+             skos:definition "'Turm' ist ein hoch aufragendes, auf einer verhältnismäßig kleinen Fläche stehendes Bauwerk."@de .
 
 
 aaa6:AX_UnlandVegetationsloseFlaeche skos:definition "'Unland/Vegetationslose Fläche' ist eine Fläche, die nicht dauerhaft landwirtschaftlich genutzt wird, wie z. B. Fels-, Sand- oder Eisflächen, Uferstreifen längs von Gewässern und Sukzessionsflächen."@de ;
                                      aaa6:kennung 43007 .
 
 
+aaa6:AX_UnregelmaessigVerteilteGelaendepunkte rdfs:label "AX_UnregelmaessigVerteilteGelaendepunkte"@de .
+
+
 aaa6:AX_UntergeordnetesGewaesser skos:definition "'UntergeordnetesGewaesser' ist ein stehendes oder fließendes Gewässer mit untergeordneter Bedeutung."@de .
 
 
-aaa6:AX_Vegetationsmerkmal skos:definition "'Vegetationsmerkmal' beschreibt den zusätzlichen Bewuchs oder besonderen Zustand einer Grundfläche."@de .
+aaa6:AX_Vegetationsmerkmal semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0af380\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                           skos:definition "'Vegetationsmerkmal' beschreibt den zusätzlichen Bewuchs oder besonderen Zustand einer Grundfläche."@de .
 
 
-aaa6:AX_Verband skos:definition "'Verband' umfasst die Verbände, denen Gemeinden angehören (z.B. Planungsverbände) mit den entsprechenden Bezeichnungen."@de .
+aaa6:AX_Verband skos:definition "'Verband' umfasst die Verbände, denen Gemeinden angehören (z.B. Planungsverbände) mit den entsprechenden Bezeichnungen."@de ;
+                rdfs:label "AX_Verband"@de .
 
 
 aaa6:AX_VerschluesselteLagebezeichnung skos:definition """'Verschlüsselte Lagebezeichnung' ist ein eindeutiges Fachkennzeichen (siehe Katalog der verschlüsselten Lagebezeichnungen).
@@ -67514,6 +67736,12 @@ Die Attributart setzt sich zusammen aus dem Gemeindekennzeichen mit den Verschl�
 5. Spalte: Lage."""@de .
 
 
+aaa6:AX_Vertretung rdfs:label "AX_Vertretung"@de .
+
+
+aaa6:AX_Verwaltung rdfs:label "AX_Verwaltung"@de .
+
+
 aaa6:AX_Verwaltungsgemeinschaft skos:definition "'Verwaltungsgemeinschaft' bezeichnet einen Zusammenschluss von Gemeinden zur gemeinsamen Erfüllung von hoheitlichen Aufgaben."@de .
 
 
@@ -67528,16 +67756,19 @@ aaa6:AX_Wasserspiegelhoehe skos:definition "'Wasserspiegelhöhe' ist bei Stausee
 
 
 aaa6:AX_Weg aaa6:kennung 42006 ;
+            semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#5c5c5c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
             skos:definition "'Weg' umfasst alle Flächen, die zum Befahren und/oder Begehen vorgesehen sind. Zur Wegfläche gehören auch Seitenstreifen und Gräben zur Wegentwässerung."@de .
 
 
-aaa6:AX_WegPfadSteig skos:definition "'Weg, Pfad, Steig' ist ein befestigter oder unbefestigter Geländestreifen, der zum Befahren und/oder Begehen vorgesehen ist."@de .
+aaa6:AX_WegPfadSteig semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral ;
+                     skos:definition "'Weg, Pfad, Steig' ist ein befestigter oder unbefestigter Geländestreifen, der zum Befahren und/oder Begehen vorgesehen ist."@de .
 
 
 aaa6:AX_WirtschaftlicheEinheit skos:definition "'Wirtschaftliche Einheit' ist eine in der Örtlichkeit vorhandene wirtschaftliche Einheit mehrerer Flurstücke, die nicht mit der rechtlichen Einheit (Grundstück im rechtlichen Sinn) identisch sein muss (Beispiel: Wirtschaftliche Einheit zweier Flurstücke/Grundstücke, wobei nur ein Flurstück ein Erbbaugrundstück ist)."@de .
 
 
-aaa6:AX_Wohnbauflaeche aaa6:kennung 41001 ;
+aaa6:AX_Wohnbauflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral ;
+                       aaa6:kennung 41001 ;
                        skos:definition "'Wohnbaufläche' ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freiflächen (z.B. Vorgärten, Ziergärten, Zufahrten, Stellplätze und Hofraumflächen), die ausschließlich oder vorwiegend dem Wohnen dient."@de .
 
 
@@ -67546,22 +67777,26 @@ aaa6:AX_Wohnplatz skos:definition "'Wohnplatz' ist ein bewohntes Gebiet, das ein
 
 aaa6:TA_CurveComponent skos:definition """TA_CurveComponent ist eine Klasse von linienförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende zusammengesetzte Linien realisieren. Insofern sind diese Fachobjekte mit den im Modul \"Simple Topology\" von ISO 19107 definierten TS_CurveComponent identisch. Jede referenzierte Kante (TS_Edge) realisiert gleichzeitig die Eigenschaften einer GM_OrientableCurve. Topologie und Geometrie fallen also zusammen. Die von einer TA_CurveComponent referenzierten Kanten / Linien sind überschneidungsfrei in einem topologischen Thema organisiert. Sie schließen geometrisch aneinander an. Zusätzlich zu diesen topologisch - geometrischen Eigenschaften gehören die Kanten / Linien einem Punkt-Linienthema an, das es ermöglicht, dass die Linien auch von anderen Objekten genutzt werden können, die zum gleichen Punkt-Linienthema gehören.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                       rdfs:label "TA_CurveComponent"@de .
 
 
 aaa6:TA_MultiSurfaceComponent skos:definition """TA_MultiSurfaceComponent ist eine Klasse von flächenförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende zusammengesetzte Flächen realisieren. Insofern sind diese Fachobjekte mit den im Modul \"Simple Topology\" von ISO 19107 definierten Fachobjekt TS_SurfaceComponent identisch. Jede referenzierte Masche (TS_Face) realisiert gleichzeitig die Eigenschaften einer GM_OrientableSurface. Topologie und Geometrie fallen also zusammen. Die von einer TA_MultiSurfaceComponent referenzierten Maschen / Flächen sind überschneidungsfrei in einem topologischen Thema organisiert. Die Maschen schließen geometrisch aneinander an, können Enklaven (Löcher) bilden, dürfen im Gegensatz zu TA_SurfaceComponent aber auch getrennt liegen (Exklaven). Zusätzlich zu diesen topologisch - geometrischen Eigenschaften gehören die Maschen / Flächen einem Punkt-Linienthema an, das es ermöglicht, dass die Flächen sich Linien- und Punktgeometrie mit anderen Objekten teilen, die zum gleichen Punkt-Linienthema gehören.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                              rdfs:label "TA_MultiSurfaceComponent"@de .
 
 
-aaa6:TA_PointComponent skos:definition """TA_PointComponent ist eine Klasse von punktförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende Punktgeometrie realisieren. Insofern sind diese Fachobjekte mit den im Modul \"Simple Topology\" von ISO 19107 definierten TS_PointComponent identisch. Jeder referenzierte Knoten (TS_Node) realisiert gleichzeitig die Eigenschaften eines GM_Point. Topologie und Geometrie fallen also zusammen. Die von einer TA_PointComponent referenzierten Knoten / Punkte sind überschneidungsfrei in einem topologischen Thema organisiert. Zusätzlich zu diesen topologisch - geometrischen Eigenschaften gehören die Knoten / Punkte einem Punkt-Linienthema an, das es ermöglicht, dass die Linienendpunkte auch von anderen Objekten genutzt werden können, die zum gleichen Punkt-Linienthema gehören.
+aaa6:TA_PointComponent rdfs:label "TA_PointComponent"@de ;
+                       skos:definition """TA_PointComponent ist eine Klasse von punktförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende Punktgeometrie realisieren. Insofern sind diese Fachobjekte mit den im Modul \"Simple Topology\" von ISO 19107 definierten TS_PointComponent identisch. Jeder referenzierte Knoten (TS_Node) realisiert gleichzeitig die Eigenschaften eines GM_Point. Topologie und Geometrie fallen also zusammen. Die von einer TA_PointComponent referenzierten Knoten / Punkte sind überschneidungsfrei in einem topologischen Thema organisiert. Zusätzlich zu diesen topologisch - geometrischen Eigenschaften gehören die Knoten / Punkte einem Punkt-Linienthema an, das es ermöglicht, dass die Linienendpunkte auch von anderen Objekten genutzt werden können, die zum gleichen Punkt-Linienthema gehören.
 
 Es handelt sich um eine abstrakte Objektart."""@de .
 
 
 aaa6:TA_SurfaceComponent skos:definition """TA_SurfaceComponent ist eine Klasse von flächenförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende zusammengesetzte Flächen realisieren. Insofern sind diese Fachobjekte mit den im Modul \"Simple Topology\" von ISO 19107 definierten Fachobjekt TS_SurfaceComponent identisch. Jede referenzierte Masche (TS_Face) realisiert gleichzeitig die Eigenschaften einer GM_OrientableSurface. Topologie und Geometrie fallen also zusammen. Die von einer TA_SurfaceComponent referenzierten Maschen / Flächen sind überschneidungsfrei in einem topologischen Thema organisiert. Sie schließen geometrisch aneinander an, können Enklaven (Löcher) bilden, dürfen jedoch nicht getrennt liegen (Exklaven). Zusätzlich zu diesen topologisch - geometrischen Eigenschaften gehören die Maschen / Flächen einem Punkt-Linienthema an, das es ermöglicht, dass die Flächen sich Linien- und Punktgeometrie mit anderen Objekten teilen, die zum gleichen Punkt-Linienthema gehören.
 
-Es handelt sich um eine abstrakte Objektart."""@de .
+Es handelt sich um eine abstrakte Objektart."""@de ;
+                         rdfs:label "TA_SurfaceComponent"@de .
 
 
 aaa6:ablaufDerReservierung aaa6:kennung "ADR"@de ;
@@ -68021,59 +68256,6 @@ aaa6:zusatzZurLagebezeichnung skos:definition "'Zusatz zur Lagebezeichnung' ist 
 
 
 aaa6:zwischenmarke skos:definition "'Zwischenmarke' ist eine gebietsweise übliche Bezeichnung für ein Grenzzeichen, das in eine geradlinige Flurstücksgrenze eingebracht ist, um den Grenzverlauf bei fehlender Sichtverbindung oder großer Entfernung zwischen den Grenzzeichen ausreichend erkennbar zu machen." .
-
-semgis:styleProperty rdf:type owl:AnnotationProperty .
-semgis:image rdf:type owl:AnnotationProperty  . 
-semgis:linestringImage rdf:type owl:AnnotationProperty . semgis:linestringImage rdfs:subPropertyOf semgis:image. 
-semgis:linestringStyle rdf:type owl:AnnotationProperty . semgis:linestringStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:polygonStyle rdf:type owl:AnnotationProperty . semgis:polygonStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:pointStyle rdf:type owl:AnnotationProperty . semgis:pointStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:pointImageStyle rdf:type owl:AnnotationProperty . semgis:pointImageStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:linestringImageStyle rdf:type owl:AnnotationProperty . semgis:linestringImageStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:polygonImageStyle rdf:type owl:AnnotationProperty . semgis:polygonImageStyle rdfs:subPropertyOf semgis:styleProperty . 
-semgis:style rdf:type owl:AnnotationProperty . semgis:style rdfs:subPropertyOf semgis:styleProperty . 
-aaa6:AX_Bahnverkehr rdf:type owl:Class . aaa6:AX_Bahnverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffb7e7\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
-aaa6:AX_Bahnverkehrsanlage rdf:type owl:Class . aaa6:AX_Bahnverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"white\"  "^^semgis:cssLiteral . 
-aaa6:AX_Bauteil rdf:type owl:Class . aaa6:AX_Bauteil semgis:polygonStyle " \"stroke\":true, \"color\":\"maroon\" , \"stroke-width\":\"2\"  , \"fill\":true "^^semgis:cssLiteral . 
-aaa6:AX_BauwerkImGewaesserbereich rdf:type owl:Class . aaa6:AX_BauwerkImGewaesserbereich semgis:linestringStyle " \"stroke\":true, \"color\":\"#c8c8c8\"  "^^semgis:cssLiteral . 
-aaa6:AX_BauwerkImVerkehrsbereich rdf:type owl:Class . aaa6:AX_BauwerkImVerkehrsbereich semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral . 
-aaa6:AX_BauwerkImVerkehrsbereich rdf:type owl:Class . aaa6:AX_BauwerkImVerkehrsbereich semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe rdf:type owl:Class . aaa6:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe semgis:linestringStyle " \"stroke\":true, \"color\":\"#ffffff\"  "^^semgis:cssLiteral . 
-aaa6:AX_BesondereFlurstuecksgrenze rdf:type owl:Class . aaa6:AX_BesondereFlurstuecksgrenze semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\"  "^^semgis:cssLiteral . 
-aaa6:AX_BesondereGebaeudelinie rdf:type owl:Class . aaa6:AX_BesondereGebaeudelinie semgis:linestringStyle " \"stroke\":true, \"color\":\"blue\"  "^^semgis:cssLiteral . 
-aaa6:AX_Boeschungsflaeche rdf:type owl:Class . aaa6:AX_Boeschungsflaeche semgis:polygonStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  , \"fill\":true "^^semgis:cssLiteral . 
-aaa6:AX_FlaecheBesondererFunktionalerPraegung rdf:type owl:Class . aaa6:AX_FlaecheBesondererFunktionalerPraegung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff0700\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_FlaecheGemischterNutzung rdf:type owl:Class . aaa6:AX_FlaecheGemischterNutzung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#a87000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Fliessgewaesser rdf:type owl:Class . aaa6:AX_Fliessgewaesser semgis:polygonStyle " \"fill\":true, \"fillColor\":\"blue\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Flurstueck rdf:type owl:Class . aaa6:AX_Flurstueck semgis:polygonStyle " \"fill\":true, \"fillColor\":\"green\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Gebaeude rdf:type owl:Class . aaa6:AX_Gebaeude semgis:polygonStyle " \"fill\":true, \"fillColor\":\"red\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Gelaendekante rdf:type owl:Class . aaa6:AX_Gelaendekante semgis:linestringStyle " \"stroke\":true, \"color\":\"#808080\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Gleis rdf:type owl:Class . aaa6:AX_Gleis semgis:linestringStyle " \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
-aaa6:AX_HistorischesBauwerk rdf:type owl:Class . aaa6:AX_HistorischesBauwerk semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#800000\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung rdf:type owl:Class . aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung semgis:linestringStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"#b4e160\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung rdf:type owl:Class . aaa6:AX_HistorischesBauwerkOderHistorischeEinrichtung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#b4e160\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_IndustrieUndGewerbeflaeche rdf:type owl:Class . aaa6:AX_IndustrieUndGewerbeflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#c0c0c0\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_KlassifizierungNachWasserrecht rdf:type owl:Class . aaa6:AX_KlassifizierungNachWasserrecht semgis:polygonStyle " \"stroke\":true, \"color\":\"blue\"  , \"fill\":true "^^semgis:cssLiteral . 
-aaa6:AX_Leitung rdf:type owl:Class . aaa6:AX_Leitung semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-aaa6:AX_Platz rdf:type owl:Class . aaa6:AX_Platz semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#808040\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung rdf:type owl:Class . aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung semgis:linestringStyle " \"stroke\":true, \"color\":\"fuchsia\"  "^^semgis:cssLiteral . 
-aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung rdf:type owl:Class . aaa6:AX_SonstigesBauwerkOderSonstigeEinrichtung semgis:polygonStyle " \"fill\":true, \"fillColor\":\"fuchsia\" , \"stroke\":true, \"color\":\"black\"  "^^semgis:cssLiteral . 
-aaa6:AX_SportFreizeitUndErholungsflaeche rdf:type owl:Class . aaa6:AX_SportFreizeitUndErholungsflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#22b14c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^semgis:cssLiteral . 
-aaa6:AX_Strassenverkehr rdf:type owl:Class . aaa6:AX_Strassenverkehr semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ffdc45\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Strassenverkehrsanlage rdf:type owl:Class . aaa6:AX_Strassenverkehrsanlage semgis:linestringStyle " \"stroke\":true, \"color\":\"yellow\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Strassenverkehrsanlage rdf:type owl:Class . aaa6:AX_Strassenverkehrsanlage semgis:polygonStyle " \"fill\":true, \"fillColor\":\"yellow\"  "^^semgis:cssLiteral . 
-aaa6:AX_Vegetationsmerkmal rdf:type owl:Class . aaa6:AX_Vegetationsmerkmal semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#0af380\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_Weg rdf:type owl:Class . aaa6:AX_Weg semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#5c5c5c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-aaa6:AX_WegPfadSteig rdf:type owl:Class . aaa6:AX_WegPfadSteig semgis:linestringStyle " \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"2\"  "^^semgis:cssLiteral . 
-aaa6:AX_Wohnbauflaeche rdf:type owl:Class . aaa6:AX_Wohnbauflaeche semgis:polygonStyle " \"fill\":true, \"fillColor\":\"#ff8a6f\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"1\"  "^^semgis:cssLiteral . 
-
-
-
-
-
-
-
- 
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

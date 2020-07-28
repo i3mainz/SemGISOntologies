@@ -11,16 +11,46 @@ pages:
   - cd docs
   - mkdir html
   - mkdir html/xerleben
-  - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -rewriteAll -webVowl -confFile config/xerleben.properties
+  - java -jar widoco.jar -ontFile ../XErleben/xerleben2_1.ttl_mod.ttl -outFolder html/xerleben/ -webVowl -uniteSections -rewriteAll -doNotDisplaySerializations -confFile config/xerleben.properties
+  - ls html/xerleben/doc
+  - rm html/xerleben/doc/*.nt
+  - rm html/xerleben/doc/*.xml
+  - rm html/xerleben/doc/*.json
   - mkdir html/xplanung
-  - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -confFile config/xplanung.properties
-  - mkdir html/xkat
-  - java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -confFile config/xkat.properties
-  - mkdir html/citygml
-  - java -jar widoco.jar -ontFile ../CityGML/citygml2.ttl -outFolder html/citygml/ -rewriteAll -webVowl -confFile config/citygml.properties
+  - java -jar widoco.jar -ontFile ../XPlanung/xplanung5_0.ttl -outFolder html/xplanung/ -rewriteAll -webVowl -uniteSections -doNotDisplaySerializations -confFile config/xplanung.properties
+  - rm html/xplanung/doc/*.nt
+  - rm html/xplanung/doc/*.xml
+  - rm html/xplanung/doc/*.json
+  # - mkdir html/xkat
+  #- java -jar widoco.jar -ontFile ../XKatastrophenhilfe/xkat1_1.ttl -outFolder html/xkat/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/xkat.properties
+  #- mkdir html/citygml
+  #- java -jar widoco.jar -ontFile ../CityGML/citygml2.ttl -outFolder html/citygml/ -rewriteAll -webVowl -doNotDisplaySerializations -confFile config/citygml.properties
+ # - rm html/citygml/*.nt
+  #- rm html/citygml/*.xml
+  #- rm html/citygml/*.ttl
+  #- mkdir html/lgdinspire
+  #- java -jar widoco.jar -ontFile ../EquivalenceRelations/linkedgeodata_inspire.ttl -outFolder html/lgdinspire/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/lgdinspire.properties
+  #- mkdir html/xerlebengov
+  #- java -jar widoco.jar -ontFile ../EquivalenceRelations/xerleben2_us_equiv.ttl -outFolder html/xerlebengov/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xerlebengov.properties
+  #- mkdir html/xplanplu
+  #- java -jar widoco.jar -ontFile ../EquivalenceRelations/xplan5_plu_equiv.ttl -outFolder html/xplanplu/ -webVowl -rewriteAll -doNotDisplaySerializations -confFile config/xplanplu.properties
+  #- rm html/xplanplu/doc/*.nt
+  #- rm html/xplanplu/doc/*.xml
+  #- rm html/xplanplu/doc/*.json
   - mkdir html/aaa
-  - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -rewriteAll -webVowl -confFile config/aaa.properties
+  - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -uniteSections -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
+  - rm html/aaa/doc/*.nt
+  - rm html/aaa/doc/*.xml
+  - rm html/aaa/doc/*.json
+  - mkdir html/inspire
+  - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -uniteSections -rewriteAll -confFile config/inspire.properties
+  - rm html/inspire/*.ttl
+  - rm html/inspire/*.nt
+  - rm html/inspire/*.xml
+  - rm html/inspire/*.json
   - mv index.html html/index.html
+  - mv ../classtree.js html/classtree.js
+  - mv ../ontviewer.html html/ontviewer.html
   - mv html ../public 
   artifacts:
     paths:

@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Widoco Classtree</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+</head>
+<body>
+<h1>OntologyView</h1>
+<iframe width="90%" height="50%" id="ontview" src="https://i3mainz.pages.gitlab.rlp.net/forschung/semanticgis/SemGISOntologies/xplanung/doc/index-en.html">
+</iframe>
+<button onClick="generateClassTree()">
+Generate Class Tree</button>
+</body>
+<script src="classtree.js"></script>
+<script>
+$( document ).ready(function() {
+    generateClassTree()
+});
+
+</script>
+</html>
