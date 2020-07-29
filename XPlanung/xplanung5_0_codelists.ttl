@@ -47,10 +47,6 @@ xsd:boolean rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
-###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdf:type owl:Class .
-
-
 ###  http://www.xplanung.de/xplangml/5/0#BP_AbgrenzungenTypen
 xplan5:BP_AbgrenzungenTypen rdf:type owl:Class ;
                             owl:equivalentClass [ rdf:type owl:Class ;
@@ -199,7 +195,13 @@ xplan5:BP_Laerrmpegelbereich rdf:type owl:Class ;
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenAusschlussTyp
-xplan5:BP_NebenanlagenAusschlussTyp rdf:type owl:Class .
+xplan5:BP_NebenanlagenAusschlussTyp rdf:type owl:Class ;
+                                    owl:equivalentClass [ rdf:type owl:Class ;
+                                                          owl:oneOf ( xplan5:BP_NebenanlagenAusschlussTyp_1000
+                                                                      xplan5:BP_NebenanlagenAusschlussTyp_2000
+                                                                    )
+                                                        ] ;
+                                    rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_PlanArt
@@ -295,7 +297,14 @@ xplan5:BP_StrassenkoerperHerstellung rdf:type owl:Class ;
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_Verfahren
-xplan5:BP_Verfahren rdf:type owl:Class .
+xplan5:BP_Verfahren rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Class ;
+                                          owl:oneOf ( xplan5:BP_Verfahren_1000
+                                                      xplan5:BP_Verfahren_2000
+                                                      xplan5:BP_Verfahren_3000
+                                                    )
+                                        ] ;
+                    rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BP_WegerechtTypen
@@ -2424,7 +2433,13 @@ xplan5:XP_Bundeslaender rdf:type owl:Class ;
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_ExterneReferenzArt
-xplan5:XP_ExterneReferenzArt rdf:type owl:Class .
+xplan5:XP_ExterneReferenzArt rdf:type owl:Class ;
+                             owl:equivalentClass [ rdf:type owl:Class ;
+                                                   owl:oneOf ( xplan5:XP_ExterneReferenzArt_Dokument
+                                                               xplan5:XP_ExterneReferenzArt_PlanMitGeoreferenz
+                                                             )
+                                                 ] ;
+                             rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_ExterneReferenzTyp
@@ -2481,7 +2496,14 @@ xplan5:XP_GrenzeTypen rdf:type owl:Class ;
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_HorizontaleAusrichtung
-xplan5:XP_HorizontaleAusrichtung rdf:type owl:Class .
+xplan5:XP_HorizontaleAusrichtung rdf:type owl:Class ;
+                                 owl:equivalentClass [ rdf:type owl:Class ;
+                                                       owl:oneOf ( xplan5:XP_HorizontaleAusrichtung_linksbündig
+                                                                   xplan5:XP_HorizontaleAusrichtung_rechtsbündig
+                                                                   xplan5:XP_HorizontaleAusrichtung_zentrisch
+                                                                 )
+                                                     ] ;
+                                 rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_KlassifizSchutzgebietNaturschutzrecht
@@ -2509,15 +2531,35 @@ xplan5:XP_KlassifizSchutzgebietNaturschutzrecht rdf:type owl:Class ;
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_Nutzungsform
-xplan5:XP_Nutzungsform rdf:type owl:Class .
+xplan5:XP_Nutzungsform rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xplan5:XP_Nutzungsform_1000
+                                                         xplan5:XP_Nutzungsform_2000
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_RechtscharakterPlanaenderung
-xplan5:XP_RechtscharakterPlanaenderung rdf:type owl:Class .
+xplan5:XP_RechtscharakterPlanaenderung rdf:type owl:Class ;
+                                       owl:equivalentClass [ rdf:type owl:Class ;
+                                                             owl:oneOf ( xplan5:XP_RechtscharakterPlanaenderung_1000
+                                                                         xplan5:XP_RechtscharakterPlanaenderung_1100
+                                                                         xplan5:XP_RechtscharakterPlanaenderung_2000
+                                                                       )
+                                                           ] ;
+                                       rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_Rechtsstand
-xplan5:XP_Rechtsstand rdf:type owl:Class .
+xplan5:XP_Rechtsstand rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Class ;
+                                            owl:oneOf ( xplan5:XP_Rechtsstand_1000
+                                                        xplan5:XP_Rechtsstand_2000
+                                                        xplan5:XP_Rechtsstand_3000
+                                                      )
+                                          ] ;
+                      rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_SPEMassnahmenTypen
@@ -2614,7 +2656,14 @@ xplan5:XP_VerlaengerungVeraenderungssperre rdf:type owl:Class ;
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_VertikaleAusrichtung
-xplan5:XP_VertikaleAusrichtung rdf:type owl:Class .
+xplan5:XP_VertikaleAusrichtung rdf:type owl:Class ;
+                               owl:equivalentClass [ rdf:type owl:Class ;
+                                                     owl:oneOf ( xplan5:XP_VertikaleAusrichtung_Basis
+                                                                 xplan5:XP_VertikaleAusrichtung_Mitte
+                                                                 xplan5:XP_VertikaleAusrichtung_Oben
+                                                               )
+                                                   ] ;
+                               rdfs:subClassOf xplan5:Codelists .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_ZweckbestimmungGemeinbedarf
@@ -12463,66 +12512,6 @@ xplan5:XP_ZweckbestimmungWasserwirtschaft_9999 rdf:type owl:NamedIndividual ,
                                                semgis:value "9999" ;
                                                rdfs:label "Sonstige Wasserwirtschaftsfläche, sofern keiner der anderen Codes zutreffend ist."@de .
 
-
-[ rdf:type rdfs:label
-] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
-
-[ rdf:type rdfs:label
- ] .
 
 #################################################################
 #    Annotations
