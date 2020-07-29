@@ -40,7 +40,7 @@ Search Properties: <input id="search-input2" class="search-input" />
 <div id="jstree_demo_div4" class="overflow-auto" style="height:43%;display:none">Loading tree...</div>
 </div>
 <div class="col-sm-8" style="min-height:100%;height:100%">
-<iframe width="100%" height="100%" id="ontview" src="index-en.html">
+<iframe width="100%" height="100%" id="ontview" src="xplanung/doc/index-en.html">
 </iframe>
 Choose Ontology: <select id="ontologies">
 </select>
@@ -55,7 +55,7 @@ Generate Class Tree</button>-->
 <script>
 var ontologies=""
 for(key in onts){
-    ontologies="<option value=\""+onts[key]+"\">"+key+"</option>"
+    ontologies+="<option value=\""+onts[key]+"\">"+key+"</option>"
 }
 $('#ontologies').html(ontologies)
 $("#ontologies").change(function(){
