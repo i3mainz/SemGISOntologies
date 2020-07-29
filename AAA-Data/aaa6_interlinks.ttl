@@ -3645,7 +3645,7 @@ lgd:PlaceOfWorship rdf:type owl:Class ;
 ###  http://linkedgeodata.org/ontology/Police
 lgd:Police rdf:type owl:Class ;
            owl:equivalentClass <http://schema.org/PoliceStation> ,
-                               wd:Q86195 ,
+                               wd:Q861951 ,
                                [ owl:intersectionOf ( inspire-us-govserv:GovernmentalService
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty inspire-us-govserv:serviceType ;
@@ -5865,10 +5865,6 @@ aaa6:AX_SchifffahrtslinieFaehrverkehr rdf:type owl:Class .
 aaa6:AX_Schiffsverkehr rdf:type owl:Class .
 
 
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schleuse
-aaa6:AX_Schleuse rdf:type owl:Class .
-
-
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_SchutzgebietNachNaturUmweltOderBodenschutzrecht
 aaa6:AX_SchutzgebietNachNaturUmweltOderBodenschutzrecht rdf:type owl:Class .
 
@@ -6586,11 +6582,13 @@ wd:Q1330871 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q133215
-wd:Q133215 rdf:type owl:Class .
+wd:Q133215 rdf:type owl:Class ;
+           rdfs:label "casino"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1339195
-wd:Q1339195 rdf:type owl:Class .
+wd:Q1339195 rdf:type owl:Class ;
+            rdfs:label "station building"@en .
 
 
 ###  http://www.wikidata.org/entity/Q134447
@@ -6618,7 +6616,8 @@ wd:Q134447 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1348006
-wd:Q1348006 rdf:type owl:Class .
+wd:Q1348006 rdf:type owl:Class ;
+            rdfs:label "city block"@en .
 
 
 ###  http://www.wikidata.org/entity/Q13499616
@@ -6698,10 +6697,6 @@ wd:Q1363360 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "circular rampart"@en .
-
-
-###  http://www.wikidata.org/entity/Q1364150
-wd:Q1364150 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q1365704
@@ -6839,11 +6834,13 @@ wd:Q1408777 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q14092
-wd:Q14092 rdf:type owl:Class .
+wd:Q14092 rdf:type owl:Class ;
+          rdfs:label "gymnasium"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1414773
-wd:Q1414773 rdf:type owl:Class .
+wd:Q1414773 rdf:type owl:Class ;
+            rdfs:label "harbor basin"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1420027
@@ -6879,7 +6876,8 @@ wd:Q1424016 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1425352
-wd:Q1425352 rdf:type owl:Class .
+wd:Q1425352 rdf:type owl:Class ;
+            rdfs:label "forester's lodge"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1425971
@@ -6915,7 +6913,8 @@ wd:Q1427694 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1440300
-wd:Q1440300 rdf:type owl:Class .
+wd:Q1440300 rdf:type owl:Class ;
+            rdfs:label "observation tower"@en .
 
 
 ###  http://www.wikidata.org/entity/Q14524070
@@ -7062,7 +7061,8 @@ wd:Q1479818 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q148571
-wd:Q148571 rdf:type owl:Class .
+wd:Q148571 rdf:type owl:Class ;
+           rdfs:label "fence"@en .
 
 
 ###  http://www.wikidata.org/entity/Q148993
@@ -7098,7 +7098,8 @@ wd:Q1495738 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1499928
-wd:Q1499928 rdf:type owl:Class .
+wd:Q1499928 rdf:type owl:Class ;
+            rdfs:label "Gemarkung"@en .
 
 
 ###  http://www.wikidata.org/entity/Q15003
@@ -7118,7 +7119,8 @@ wd:Q15003 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1501
-wd:Q1501 rdf:type owl:Class .
+wd:Q1501 rdf:type owl:Class ;
+         rdfs:label "swimming pool"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1520009
@@ -7138,7 +7140,8 @@ wd:Q1520009 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q152810
-wd:Q152810 rdf:type owl:Class .
+wd:Q152810 rdf:type owl:Class ;
+           rdfs:label "landfill"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1541226
@@ -7232,7 +7235,8 @@ wd:Q15621933 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q157570
-wd:Q157570 rdf:type owl:Class .
+wd:Q157570 rdf:type owl:Class ;
+           rdfs:label "crematorium"@en .
 
 
 ###  http://www.wikidata.org/entity/Q15843493
@@ -7343,7 +7347,8 @@ wd:Q15859700 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1587716
-wd:Q1587716 rdf:type owl:Class .
+wd:Q1587716 rdf:type owl:Class ;
+            rdfs:label "tourism office"@en .
 
 
 ###  http://www.wikidata.org/entity/Q158790
@@ -7374,7 +7379,8 @@ wd:Q158790 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1589077
-wd:Q1589077 rdf:type owl:Class .
+wd:Q1589077 rdf:type owl:Class ;
+            rdfs:label "youth hostel"@en .
 
 
 ###  http://www.wikidata.org/entity/Q15911738
@@ -7402,11 +7408,13 @@ wd:Q15911738 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q159334
-wd:Q159334 rdf:type owl:Class .
+wd:Q159334 rdf:type owl:Class ;
+           rdfs:label "secondary school"@en .
 
 
 ###  http://www.wikidata.org/entity/Q159719
-wd:Q159719 rdf:type owl:Class .
+wd:Q159719 rdf:type owl:Class ;
+           rdfs:label "power station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q160047
@@ -7426,7 +7434,8 @@ wd:Q160047 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1613929
-wd:Q1613929 rdf:type owl:Class .
+wd:Q1613929 rdf:type owl:Class ;
+            rdfs:label "emergency telephone"@en .
 
 
 ###  http://www.wikidata.org/entity/Q16237489
@@ -7446,7 +7455,8 @@ wd:Q16237489 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q165
-wd:Q165 rdf:type owl:Class .
+wd:Q165 rdf:type owl:Class ;
+        rdfs:label "sea"@en .
 
 
 ###  http://www.wikidata.org/entity/Q165044
@@ -7466,11 +7476,13 @@ wd:Q165044 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q16560
-wd:Q16560 rdf:type owl:Class .
+wd:Q16560 rdf:type owl:Class ;
+          rdfs:label "palace"@en .
 
 
 ###  http://www.wikidata.org/entity/Q166735
-wd:Q166735 rdf:type owl:Class .
+wd:Q166735 rdf:type owl:Class ;
+           rdfs:label "swamp"@en .
 
 
 ###  http://www.wikidata.org/entity/Q167346
@@ -7540,19 +7552,23 @@ wd:Q16748868 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1678289
-wd:Q1678289 rdf:type owl:Class .
+wd:Q1678289 rdf:type owl:Class ;
+            rdfs:label "hunting cabin"@en .
 
 
 ###  http://www.wikidata.org/entity/Q16917
-wd:Q16917 rdf:type owl:Class .
+wd:Q16917 rdf:type owl:Class ;
+          rdfs:label "hospital"@en .
 
 
 ###  http://www.wikidata.org/entity/Q16970
-wd:Q16970 rdf:type owl:Class .
+wd:Q16970 rdf:type owl:Class ;
+          rdfs:label "church building"@en .
 
 
 ###  http://www.wikidata.org/entity/Q170477
-wd:Q170477 rdf:type owl:Class .
+wd:Q170477 rdf:type owl:Class ;
+           rdfs:label "chimney"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1714375
@@ -7595,7 +7611,8 @@ wd:Q1714375 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q171448
-wd:Q171448 rdf:type owl:Class .
+wd:Q171448 rdf:type owl:Class ;
+           rdfs:label "level crossing"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1722438
@@ -7612,10 +7629,6 @@ wd:Q1722438 rdf:type owl:Class ;
                                   rdf:type owl:Class
                                 ] ;
             rdfs:label "Obdachlosenheim"@de .
-
-
-###  http://www.wikidata.org/entity/Q1730505
-wd:Q1730505 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q1739809
@@ -7651,11 +7664,13 @@ wd:Q1742059 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q174782
-wd:Q174782 rdf:type owl:Class .
+wd:Q174782 rdf:type owl:Class ;
+           rdfs:label "square"@en .
 
 
 ###  http://www.wikidata.org/entity/Q174814
-wd:Q174814 rdf:type owl:Class .
+wd:Q174814 rdf:type owl:Class ;
+           rdfs:label "electrical substation"@en .
 
 
 ###  http://www.wikidata.org/entity/Q17485533
@@ -7796,7 +7811,8 @@ wd:Q1777951 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q178692
-wd:Q178692 rdf:type owl:Class .
+wd:Q178692 rdf:type owl:Class ;
+           rdfs:label "crane"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1787825
@@ -7886,7 +7902,8 @@ wd:Q18018837 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1802748
-wd:Q1802748 rdf:type owl:Class .
+wd:Q1802748 rdf:type owl:Class ;
+            rdfs:label "territorial coat of arms"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1806366
@@ -7926,19 +7943,23 @@ wd:Q18152526 rdf:type owl:Class .
 
 
 ###  http://www.wikidata.org/entity/Q182676
-wd:Q182676 rdf:type owl:Class .
+wd:Q182676 rdf:type owl:Class ;
+           rdfs:label "mountain hut"@en .
 
 
 ###  http://www.wikidata.org/entity/Q184356
-wd:Q184356 rdf:type owl:Class .
+wd:Q184356 rdf:type owl:Class ;
+           rdfs:label "radio telescope"@en .
 
 
 ###  http://www.wikidata.org/entity/Q184590
-wd:Q184590 rdf:type owl:Class .
+wd:Q184590 rdf:type owl:Class ;
+           rdfs:label "runway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q185187
-wd:Q185187 rdf:type owl:Class .
+wd:Q185187 rdf:type owl:Class ;
+           rdfs:label "watermill"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1898246
@@ -8100,7 +8121,8 @@ wd:Q193071 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q19310826
-wd:Q19310826 rdf:type owl:Class .
+wd:Q19310826 rdf:type owl:Class ;
+             rdfs:label "intercommunality"@en .
 
 
 ###  http://www.wikidata.org/entity/Q1936980
@@ -8147,7 +8169,8 @@ wd:Q193886 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1939150
-wd:Q1939150 rdf:type owl:Class .
+wd:Q1939150 rdf:type owl:Class ;
+            rdfs:label "power cable"@en .
 
 
 ###  http://www.wikidata.org/entity/Q194195
@@ -8178,7 +8201,8 @@ wd:Q194195 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q1971570
-wd:Q1971570 rdf:type owl:Class .
+wd:Q1971570 rdf:type owl:Class ;
+            rdfs:label "flagpole"@en .
 
 
 ###  http://www.wikidata.org/entity/Q19833158
@@ -8214,19 +8238,23 @@ wd:Q2027640 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2048319
-wd:Q2048319 rdf:type owl:Class .
+wd:Q2048319 rdf:type owl:Class ;
+            rdfs:label "ditch"@en .
 
 
 ###  http://www.wikidata.org/entity/Q205495
-wd:Q205495 rdf:type owl:Class .
+wd:Q205495 rdf:type owl:Class ;
+           rdfs:label "gas station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q207326
-wd:Q207326 rdf:type owl:Class .
+wd:Q207326 rdf:type owl:Class ;
+           rdfs:label "summit"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2080521
-wd:Q2080521 rdf:type owl:Class .
+wd:Q2080521 rdf:type owl:Class ;
+            rdfs:label "market hall"@en .
 
 
 ###  http://www.wikidata.org/entity/Q209333
@@ -8273,11 +8301,13 @@ wd:Q2104072 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q213441
-wd:Q213441 rdf:type owl:Class .
+wd:Q213441 rdf:type owl:Class ;
+           rdfs:label "shop"@en .
 
 
 ###  http://www.wikidata.org/entity/Q213643
-wd:Q213643 rdf:type owl:Class .
+wd:Q213643 rdf:type owl:Class ;
+           rdfs:label "silo"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2138424
@@ -8336,11 +8366,13 @@ wd:Q2140646 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2142845
-wd:Q2142845 rdf:type owl:Class .
+wd:Q2142845 rdf:type owl:Class ;
+            rdfs:label "open field system"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2143354
-wd:Q2143354 rdf:type owl:Class .
+wd:Q2143354 rdf:type owl:Class ;
+            rdfs:label "insurance company"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2144320
@@ -8360,11 +8392,13 @@ wd:Q2144320 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q216107
-wd:Q216107 rdf:type owl:Class .
+wd:Q216107 rdf:type owl:Class ;
+           rdfs:label "department store"@en .
 
 
 ###  http://www.wikidata.org/entity/Q216212
-wd:Q216212 rdf:type owl:Class .
+wd:Q216212 rdf:type owl:Class ;
+           rdfs:label "motel"@en .
 
 
 ###  http://www.wikidata.org/entity/Q218550
@@ -8418,11 +8452,13 @@ wd:Q218550 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q221275
-wd:Q221275 rdf:type owl:Class .
+wd:Q221275 rdf:type owl:Class ;
+           rdfs:label "sewage treatment"@en .
 
 
 ###  http://www.wikidata.org/entity/Q221722
-wd:Q221722 rdf:type owl:Class .
+wd:Q221722 rdf:type owl:Class ;
+           rdfs:label "bike path"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2240172
@@ -8482,11 +8518,13 @@ wd:Q2265915 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q22687
-wd:Q22687 rdf:type owl:Class .
+wd:Q22687 rdf:type owl:Class ;
+          rdfs:label "bank"@en .
 
 
 ###  http://www.wikidata.org/entity/Q22698
-wd:Q22698 rdf:type owl:Class .
+wd:Q22698 rdf:type owl:Class ;
+          rdfs:label "park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2271117
@@ -8506,15 +8544,18 @@ wd:Q2271117 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q22715
-wd:Q22715 rdf:type owl:Class .
+wd:Q22715 rdf:type owl:Class ;
+          rdfs:label "vineyard"@en .
 
 
 ###  http://www.wikidata.org/entity/Q22721
-wd:Q22721 rdf:type owl:Class .
+wd:Q22721 rdf:type owl:Class ;
+          rdfs:label "Regierungsbezirk"@en .
 
 
 ###  http://www.wikidata.org/entity/Q22733
-wd:Q22733 rdf:type owl:Class .
+wd:Q22733 rdf:type owl:Class ;
+          rdfs:label "garage"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2281315
@@ -8534,7 +8575,8 @@ wd:Q2281315 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2281788
-wd:Q2281788 rdf:type owl:Class .
+wd:Q2281788 rdf:type owl:Class ;
+            rdfs:label "public aquarium"@en .
 
 
 ###  http://www.wikidata.org/entity/Q22865
@@ -8640,7 +8682,8 @@ wd:Q23041045 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2309609
-wd:Q2309609 rdf:type owl:Class .
+wd:Q2309609 rdf:type owl:Class ;
+            rdfs:label "wayside cross"@en .
 
 
 ###  http://www.wikidata.org/entity/Q23383
@@ -8710,11 +8753,13 @@ wd:Q23397 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q23413
-wd:Q23413 rdf:type owl:Class .
+wd:Q23413 rdf:type owl:Class ;
+          rdfs:label "castle"@en .
 
 
 ###  http://www.wikidata.org/entity/Q23541247
-wd:Q23541247 rdf:type owl:Class .
+wd:Q23541247 rdf:type owl:Class ;
+             rdfs:label "waste disposal organization"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2354897
@@ -8768,7 +8813,8 @@ wd:Q2354897 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q235779
-wd:Q235779 rdf:type owl:Class .
+wd:Q235779 rdf:type owl:Class ;
+           rdfs:label "hedge"@en .
 
 
 ###  http://www.wikidata.org/entity/Q236371
@@ -8831,7 +8877,8 @@ wd:Q23787429 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2379791
-wd:Q2379791 rdf:type owl:Class .
+wd:Q2379791 rdf:type owl:Class ;
+            rdfs:label "Soll"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2385804
@@ -8867,15 +8914,18 @@ wd:Q241570 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q24238356
-wd:Q24238356 rdf:type owl:Class .
+wd:Q24238356 rdf:type owl:Class ;
+             rdfs:label "unknown"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2431970
-wd:Q2431970 rdf:type owl:Class .
+wd:Q2431970 rdf:type owl:Class ;
+            rdfs:label "basement garage"@en .
 
 
 ###  http://www.wikidata.org/entity/Q24354
-wd:Q24354 rdf:type owl:Class .
+wd:Q24354 rdf:type owl:Class ;
+          rdfs:label "theatre"@en .
 
 
 ###  http://www.wikidata.org/entity/Q244326
@@ -8943,7 +8993,8 @@ wd:Q253019 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q25391
-wd:Q25391 rdf:type owl:Class .
+wd:Q25391 rdf:type owl:Class ;
+          rdfs:label "dune"@en .
 
 
 ###  http://www.wikidata.org/entity/Q261604
@@ -8971,7 +9022,8 @@ wd:Q261604 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q262166
-wd:Q262166 rdf:type owl:Class .
+wd:Q262166 rdf:type owl:Class ;
+           rdfs:label "municipality of Germany"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2649726
@@ -8991,7 +9043,8 @@ wd:Q2649726 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q2710737
-wd:Q2710737 rdf:type owl:Class .
+wd:Q2710737 rdf:type owl:Class ;
+            rdfs:label "slag heap"@en .
 
 
 ###  http://www.wikidata.org/entity/Q27250
@@ -9011,15 +9064,18 @@ wd:Q27250 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q274153
-wd:Q274153 rdf:type owl:Class .
+wd:Q274153 rdf:type owl:Class ;
+           rdfs:label "water tower"@en .
 
 
 ###  http://www.wikidata.org/entity/Q27590
-wd:Q27590 rdf:type owl:Class .
+wd:Q27590 rdf:type owl:Class ;
+          rdfs:label "heath"@en .
 
 
 ###  http://www.wikidata.org/entity/Q27686
-wd:Q27686 rdf:type owl:Class .
+wd:Q27686 rdf:type owl:Class ;
+          rdfs:label "hotel"@en .
 
 
 ###  http://www.wikidata.org/entity/Q2780955
@@ -9039,19 +9095,23 @@ wd:Q2780955 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q283202
-wd:Q283202 rdf:type owl:Class .
+wd:Q283202 rdf:type owl:Class ;
+           rdfs:label "harbor"@en .
 
 
 ###  http://www.wikidata.org/entity/Q28337
-wd:Q28337 rdf:type owl:Class .
+wd:Q28337 rdf:type owl:Class ;
+          rdfs:label "shoal"@en .
 
 
 ###  http://www.wikidata.org/entity/Q294422
-wd:Q294422 rdf:type owl:Class .
+wd:Q294422 rdf:type owl:Class ;
+           rdfs:label "public building"@en .
 
 
 ###  http://www.wikidata.org/entity/Q294953
-wd:Q294953 rdf:type owl:Class .
+wd:Q294953 rdf:type owl:Class ;
+           rdfs:label "garden"@en .
 
 
 ###  http://www.wikidata.org/entity/Q29925
@@ -9087,7 +9147,8 @@ wd:Q3079086 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q3177899
-wd:Q3177899 rdf:type owl:Class .
+wd:Q3177899 rdf:type owl:Class ;
+            rdfs:label "bowling"@en .
 
 
 ###  http://www.wikidata.org/entity/Q31796
@@ -9123,7 +9184,8 @@ wd:Q31838271 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q319608
-wd:Q319608 rdf:type owl:Class .
+wd:Q319608 rdf:type owl:Class ;
+           rdfs:label "postal address"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3253281
@@ -9142,12 +9204,9 @@ wd:Q3253281 rdf:type owl:Class ;
             rdfs:label "Pond"@en .
 
 
-###  http://www.wikidata.org/entity/Q325358
-wd:Q325358 rdf:type owl:Class .
-
-
 ###  http://www.wikidata.org/entity/Q327333
-wd:Q327333 rdf:type owl:Class .
+wd:Q327333 rdf:type owl:Class ;
+           rdfs:label "government agency"@en .
 
 
 ###  http://www.wikidata.org/entity/Q32815
@@ -9190,7 +9249,8 @@ wd:Q32815 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q330284
-wd:Q330284 rdf:type owl:Class .
+wd:Q330284 rdf:type owl:Class ;
+           rdfs:label "marketplace"@en .
 
 
 ###  http://www.wikidata.org/entity/Q331211
@@ -9210,7 +9270,8 @@ wd:Q331211 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q33506
-wd:Q33506 rdf:type owl:Class .
+wd:Q33506 rdf:type owl:Class ;
+          rdfs:label "museum"@en .
 
 
 ###  http://www.wikidata.org/entity/Q33565
@@ -9230,27 +9291,33 @@ wd:Q33565 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q337567
-wd:Q337567 rdf:type owl:Class .
+wd:Q337567 rdf:type owl:Class ;
+           rdfs:label "still waters"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3395121
-wd:Q3395121 rdf:type owl:Class .
+wd:Q3395121 rdf:type owl:Class ;
+            rdfs:label "wayside shrine"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3395383
-wd:Q3395383 rdf:type owl:Class .
+wd:Q3395383 rdf:type owl:Class ;
+            rdfs:label "agricultural land"@en .
 
 
 ###  http://www.wikidata.org/entity/Q34023
-wd:Q34023 rdf:type owl:Class .
+wd:Q34023 rdf:type owl:Class ;
+          rdfs:label "tumulus"@en .
 
 
 ###  http://www.wikidata.org/entity/Q34038
-wd:Q34038 rdf:type owl:Class .
+wd:Q34038 rdf:type owl:Class ;
+          rdfs:label "waterfall"@en .
 
 
 ###  http://www.wikidata.org/entity/Q34442
-wd:Q34442 rdf:type owl:Class .
+wd:Q34442 rdf:type owl:Class ;
+          rdfs:label "road"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3456796
@@ -9324,15 +9391,18 @@ wd:Q34627 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q3503155
-wd:Q3503155 rdf:type owl:Class .
+wd:Q3503155 rdf:type owl:Class ;
+            rdfs:label "riding hall"@en .
 
 
 ###  http://www.wikidata.org/entity/Q35054
-wd:Q35054 rdf:type owl:Class .
+wd:Q35054 rdf:type owl:Class ;
+          rdfs:label "post office"@en .
 
 
 ###  http://www.wikidata.org/entity/Q355304
-wd:Q355304 rdf:type owl:Class .
+wd:Q355304 rdf:type owl:Class ;
+           rdfs:label "watercourse"@en .
 
 
 ###  http://www.wikidata.org/entity/Q358
@@ -9411,7 +9481,8 @@ wd:Q3661265 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q369730
-wd:Q369730 rdf:type owl:Class .
+wd:Q369730 rdf:type owl:Class ;
+           rdfs:label "pedestrian zone"@en .
 
 
 ###  http://www.wikidata.org/entity/Q37176024
@@ -9496,47 +9567,58 @@ wd:Q381704 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q38720
-wd:Q38720 rdf:type owl:Class .
+wd:Q38720 rdf:type owl:Class ;
+          rdfs:label "windmill"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3914
-wd:Q3914 rdf:type owl:Class .
+wd:Q3914 rdf:type owl:Class ;
+         rdfs:label "school"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3917681
-wd:Q3917681 rdf:type owl:Class .
+wd:Q3917681 rdf:type owl:Class ;
+            rdfs:label "embassy"@en .
 
 
 ###  http://www.wikidata.org/entity/Q3918
-wd:Q3918 rdf:type owl:Class .
+wd:Q3918 rdf:type owl:Class ;
+         rdfs:label "university"@en .
 
 
 ###  http://www.wikidata.org/entity/Q39614
-wd:Q39614 rdf:type owl:Class .
+wd:Q39614 rdf:type owl:Class ;
+          rdfs:label "cemetery"@en .
 
 
 ###  http://www.wikidata.org/entity/Q39715
-wd:Q39715 rdf:type owl:Class .
+wd:Q39715 rdf:type owl:Class ;
+          rdfs:label "lighthouse"@en .
 
 
 ###  http://www.wikidata.org/entity/Q39816
-wd:Q39816 rdf:type owl:Class .
+wd:Q39816 rdf:type owl:Class ;
+          rdfs:label "valley"@en .
 
 
 ###  http://www.wikidata.org/entity/Q4022
-wd:Q4022 rdf:type owl:Class .
+wd:Q4022 rdf:type owl:Class ;
+         rdfs:label "river"@en .
 
 
 ###  http://www.wikidata.org/entity/Q40357
-wd:Q40357 rdf:type owl:Class .
+wd:Q40357 rdf:type owl:Class ;
+          rdfs:label "prison"@en .
 
 
 ###  http://www.wikidata.org/entity/Q41176
-wd:Q41176 rdf:type owl:Class .
+wd:Q41176 rdf:type owl:Class ;
+          rdfs:label "building"@en .
 
 
 ###  http://www.wikidata.org/entity/Q41253
-wd:Q41253 rdf:type owl:Class .
+wd:Q41253 rdf:type owl:Class ;
+          rdfs:label "movie theater"@en .
 
 
 ###  http://www.wikidata.org/entity/Q420962
@@ -9572,7 +9654,8 @@ wd:Q42295 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q42948
-wd:Q42948 rdf:type owl:Class .
+wd:Q42948 rdf:type owl:Class ;
+          rdfs:label "wall"@en .
 
 
 ###  http://www.wikidata.org/entity/Q43483
@@ -9603,19 +9686,23 @@ wd:Q43483 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q43501
-wd:Q43501 rdf:type owl:Class .
+wd:Q43501 rdf:type owl:Class ;
+          rdfs:label "zoo"@en .
 
 
 ###  http://www.wikidata.org/entity/Q4421
-wd:Q4421 rdf:type owl:Class .
+wd:Q4421 rdf:type owl:Class ;
+         rdfs:label "forest"@en .
 
 
 ###  http://www.wikidata.org/entity/Q44377
-wd:Q44377 rdf:type owl:Class .
+wd:Q44377 rdf:type owl:Class ;
+          rdfs:label "tunnel"@en .
 
 
 ###  http://www.wikidata.org/entity/Q44494
-wd:Q44494 rdf:type owl:Class .
+wd:Q44494 rdf:type owl:Class ;
+          rdfs:label "mill"@en .
 
 
 ###  http://www.wikidata.org/entity/Q44539
@@ -9647,7 +9734,8 @@ wd:Q44539 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q44613
-wd:Q44613 rdf:type owl:Class .
+wd:Q44613 rdf:type owl:Class ;
+          rdfs:label "monastery"@en .
 
 
 ###  http://www.wikidata.org/entity/Q447523
@@ -9699,7 +9787,8 @@ wd:Q448801 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q45701
-wd:Q45701 rdf:type owl:Class .
+wd:Q45701 rdf:type owl:Class ;
+          rdfs:label "waste"@en .
 
 
 ###  http://www.wikidata.org/entity/Q46124
@@ -9723,11 +9812,13 @@ wd:Q46124 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q46169
-wd:Q46169 rdf:type owl:Class .
+wd:Q46169 rdf:type owl:Class ;
+          rdfs:label "national park"@en .
 
 
 ###  http://www.wikidata.org/entity/Q46622
-wd:Q46622 rdf:type owl:Class .
+wd:Q46622 rdf:type owl:Class ;
+          rdfs:label "controlled-access highway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q46831
@@ -9747,11 +9838,13 @@ wd:Q46831 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q474
-wd:Q474 rdf:type owl:Class .
+wd:Q474 rdf:type owl:Class ;
+        rdfs:label "aqueduct"@en .
 
 
 ###  http://www.wikidata.org/entity/Q47521
-wd:Q47521 rdf:type owl:Class .
+wd:Q47521 rdf:type owl:Class ;
+          rdfs:label "stream"@en .
 
 
 ###  http://www.wikidata.org/entity/Q475354
@@ -9771,7 +9864,8 @@ wd:Q475354 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q47848
-wd:Q47848 rdf:type owl:Class .
+wd:Q47848 rdf:type owl:Class ;
+          rdfs:label "sacred architecture"@en .
 
 
 ###  http://www.wikidata.org/entity/Q478847
@@ -9807,7 +9901,8 @@ wd:Q478986 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q483110
-wd:Q483110 rdf:type owl:Class .
+wd:Q483110 rdf:type owl:Class ;
+           rdfs:label "stadium"@en .
 
 
 ###  http://www.wikidata.org/entity/Q487843
@@ -9827,19 +9922,23 @@ wd:Q487843 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q489357
-wd:Q489357 rdf:type owl:Class .
+wd:Q489357 rdf:type owl:Class ;
+           rdfs:label "farmhouse"@en .
 
 
 ###  http://www.wikidata.org/entity/Q49844
-wd:Q49844 rdf:type owl:Class .
+wd:Q49844 rdf:type owl:Class ;
+          rdfs:label "post box"@en .
 
 
 ###  http://www.wikidata.org/entity/Q5
-wd:Q5 rdf:type owl:Class .
+wd:Q5 rdf:type owl:Class ;
+      rdfs:label "human"@en .
 
 
 ###  http://www.wikidata.org/entity/Q502074
-wd:Q502074 rdf:type owl:Class .
+wd:Q502074 rdf:type owl:Class ;
+           rdfs:label "heliport"@en .
 
 
 ###  http://www.wikidata.org/entity/Q505213
@@ -9890,7 +9989,8 @@ wd:Q505774 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q5078274
-wd:Q5078274 rdf:type owl:Class .
+wd:Q5078274 rdf:type owl:Class ;
+            rdfs:label "sketch"@en .
 
 
 ###  http://www.wikidata.org/entity/Q510255
@@ -9910,11 +10010,13 @@ wd:Q510255 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q515
-wd:Q515 rdf:type owl:Class .
+wd:Q515 rdf:type owl:Class ;
+        rdfs:label "city"@en .
 
 
 ###  http://www.wikidata.org/entity/Q516739
-wd:Q516739 rdf:type owl:Class .
+wd:Q516739 rdf:type owl:Class ;
+           rdfs:label "road transport"@en .
 
 
 ###  http://www.wikidata.org/entity/Q521839
@@ -9961,15 +10063,18 @@ wd:Q525800 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q5307561
-wd:Q5307561 rdf:type owl:Class .
+wd:Q5307561 rdf:type owl:Class ;
+            rdfs:label "drill tower"@en .
 
 
 ###  http://www.wikidata.org/entity/Q543654
-wd:Q543654 rdf:type owl:Class .
+wd:Q543654 rdf:type owl:Class ;
+           rdfs:label "city hall"@en .
 
 
 ###  http://www.wikidata.org/entity/Q55488
-wd:Q55488 rdf:type owl:Class .
+wd:Q55488 rdf:type owl:Class ;
+          rdfs:label "railway station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q555853
@@ -10123,15 +10228,18 @@ wd:Q620424 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q6256
-wd:Q6256 rdf:type owl:Class .
+wd:Q6256 rdf:type owl:Class ;
+         rdfs:label "country"@en .
 
 
 ###  http://www.wikidata.org/entity/Q634299
-wd:Q634299 rdf:type owl:Class .
+wd:Q634299 rdf:type owl:Class ;
+           rdfs:label "fire hydrant"@en .
 
 
 ###  http://www.wikidata.org/entity/Q641406
-wd:Q641406 rdf:type owl:Class .
+wd:Q641406 rdf:type owl:Class ;
+           rdfs:label "terrace"@en .
 
 
 ###  http://www.wikidata.org/entity/Q642682
@@ -10221,7 +10329,8 @@ wd:Q6452175 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q655686
-wd:Q655686 rdf:type owl:Class .
+wd:Q655686 rdf:type owl:Class ;
+           rdfs:label "commercial building"@en .
 
 
 ###  http://www.wikidata.org/entity/Q656720
@@ -10273,7 +10382,8 @@ wd:Q680197 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q683595
-wd:Q683595 rdf:type owl:Class .
+wd:Q683595 rdf:type owl:Class ;
+           rdfs:label "land lot"@en .
 
 
 ###  http://www.wikidata.org/entity/Q692680
@@ -10293,19 +10403,23 @@ wd:Q692680 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q693369
-wd:Q693369 rdf:type owl:Class .
+wd:Q693369 rdf:type owl:Class ;
+           rdfs:label "kiosk"@en .
 
 
 ###  http://www.wikidata.org/entity/Q695416
-wd:Q695416 rdf:type owl:Class .
+wd:Q695416 rdf:type owl:Class ;
+           rdfs:label "policlinic"@en .
 
 
 ###  http://www.wikidata.org/entity/Q695793
-wd:Q695793 rdf:type owl:Class .
+wd:Q695793 rdf:type owl:Class ;
+           rdfs:label "rapids"@en .
 
 
 ###  http://www.wikidata.org/entity/Q7075
-wd:Q7075 rdf:type owl:Class .
+wd:Q7075 rdf:type owl:Class ;
+         rdfs:label "library"@en .
 
 
 ###  http://www.wikidata.org/entity/Q707813
@@ -10341,15 +10455,18 @@ wd:Q7138926 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q718966
-wd:Q718966 rdf:type owl:Class .
+wd:Q718966 rdf:type owl:Class ;
+           rdfs:label "doctor's office"@en .
 
 
 ###  http://www.wikidata.org/entity/Q721931
-wd:Q721931 rdf:type owl:Class .
+wd:Q721931 rdf:type owl:Class ;
+           rdfs:label "shed"@en .
 
 
 ###  http://www.wikidata.org/entity/Q734818
-wd:Q734818 rdf:type owl:Class .
+wd:Q734818 rdf:type owl:Class ;
+           rdfs:label "condominium"@en .
 
 
 ###  http://www.wikidata.org/entity/Q75520
@@ -10396,7 +10513,8 @@ wd:Q756102 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q757163
-wd:Q757163 rdf:type owl:Class .
+wd:Q757163 rdf:type owl:Class ;
+           rdfs:label "woody plant"@en .
 
 
 ###  http://www.wikidata.org/entity/Q770135
@@ -10416,11 +10534,13 @@ wd:Q770135 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q77115
-wd:Q77115 rdf:type owl:Class .
+wd:Q77115 rdf:type owl:Class ;
+          rdfs:label "community center"@en .
 
 
 ###  http://www.wikidata.org/entity/Q7813355
-wd:Q7813355 rdf:type owl:Class .
+wd:Q7813355 rdf:type owl:Class ;
+            rdfs:label "toilet"@en .
 
 
 ###  http://www.wikidata.org/entity/Q785486
@@ -10535,7 +10655,8 @@ wd:Q7883691 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q8004
-wd:Q8004 rdf:type owl:Class .
+wd:Q8004 rdf:type owl:Class ;
+         rdfs:label "traffic light"@en .
 
 
 ###  http://www.wikidata.org/entity/Q804292
@@ -10555,7 +10676,8 @@ wd:Q804292 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q8054653
-wd:Q8054653 rdf:type owl:Class .
+wd:Q8054653 rdf:type owl:Class ;
+            rdfs:label "allotment"@en .
 
 
 ###  http://www.wikidata.org/entity/Q811165
@@ -10591,15 +10713,18 @@ wd:Q811440 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q820477
-wd:Q820477 rdf:type owl:Class .
+wd:Q820477 rdf:type owl:Class ;
+           rdfs:label "mine"@en .
 
 
 ###  http://www.wikidata.org/entity/Q832778
-wd:Q832778 rdf:type owl:Class .
+wd:Q832778 rdf:type owl:Class ;
+           rdfs:label "campsite"@en .
 
 
 ###  http://www.wikidata.org/entity/Q83405
-wd:Q83405 rdf:type owl:Class .
+wd:Q83405 rdf:type owl:Class ;
+          rdfs:label "factory"@en .
 
 
 ###  http://www.wikidata.org/entity/Q836915
@@ -10667,7 +10792,8 @@ wd:Q8463304 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q847950
-wd:Q847950 rdf:type owl:Class .
+wd:Q847950 rdf:type owl:Class ;
+           rdfs:label "dormitory"@en .
 
 
 ###  http://www.wikidata.org/entity/Q8502
@@ -10718,12 +10844,14 @@ wd:Q856548 rdf:type owl:Class ;
            rdfs:label "Gas Lightning"@en .
 
 
-###  http://www.wikidata.org/entity/Q86195
-wd:Q86195 rdf:type owl:Class .
+###  http://www.wikidata.org/entity/Q861951
+wd:Q861951 rdf:type owl:Class ;
+           rdfs:label "police station"@en .
 
 
 ###  http://www.wikidata.org/entity/Q863454
-wd:Q863454 rdf:type owl:Class .
+wd:Q863454 rdf:type owl:Class ;
+           rdfs:label "pier"@en .
 
 
 ###  http://www.wikidata.org/entity/Q896009
@@ -10754,11 +10882,13 @@ wd:Q896009 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q909906
-wd:Q909906 rdf:type owl:Class .
+wd:Q909906 rdf:type owl:Class ;
+           rdfs:label "skatepark"@en .
 
 
 ###  http://www.wikidata.org/entity/Q910386
-wd:Q910386 rdf:type owl:Class .
+wd:Q910386 rdf:type owl:Class ;
+           rdfs:label "taxiway"@en .
 
 
 ###  http://www.wikidata.org/entity/Q910597
@@ -10778,7 +10908,8 @@ wd:Q910597 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q91122
-wd:Q91122 rdf:type owl:Class .
+wd:Q91122 rdf:type owl:Class ;
+          rdfs:label "bunker"@en .
 
 
 ###  http://www.wikidata.org/entity/Q91203
@@ -10798,7 +10929,8 @@ wd:Q91203 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q914711
-wd:Q914711 rdf:type owl:Class .
+wd:Q914711 rdf:type owl:Class ;
+           rdfs:label "transmission tower"@en .
 
 
 ###  http://www.wikidata.org/entity/Q91487
@@ -10829,7 +10961,8 @@ wd:Q91487 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q9158768
-wd:Q9158768 rdf:type owl:Class .
+wd:Q9158768 rdf:type owl:Class ;
+            rdfs:label "storage"@en .
 
 
 ###  http://www.wikidata.org/entity/Q918457
@@ -10865,7 +10998,8 @@ wd:Q921099 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q921543
-wd:Q921543 rdf:type owl:Class .
+wd:Q921543 rdf:type owl:Class ;
+           rdfs:label "water protection area"@en .
 
 
 ###  http://www.wikidata.org/entity/Q947103
@@ -10935,7 +11069,8 @@ wd:Q950431 rdf:type owl:Class ;
 
 
 ###  http://www.wikidata.org/entity/Q953806
-wd:Q953806 rdf:type owl:Class .
+wd:Q953806 rdf:type owl:Class ;
+           rdfs:label "bus stop"@en .
 
 
 ###  http://www.wikidata.org/entity/Q962715
