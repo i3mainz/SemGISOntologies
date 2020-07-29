@@ -1,0 +1,2706 @@
+@prefix : <http://www.xerleben.de/schema/2.0_1/XErleben2#> .
+@prefix wd: <http://www.wikidata.org/entity/Property:> .
+@prefix xo: <http://rhizomik.net/redefer/xsl/xsd2owl-functions.xsl> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xerl: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@base <http://www.xerleben.de/schema/2.0_1/XErleben2> .
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE
+xerl:XE_ADMINEBENE rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:oneOf ( xerl:XE_ADMINEBENE_Bundesland
+                                                     xerl:XE_ADMINEBENE_EU
+                                                     xerl:XE_ADMINEBENE_Gemeinde
+                                                     xerl:XE_ADMINEBENE_Kreis
+                                                     xerl:XE_ADMINEBENE_Regierungsbezirk
+                                                     xerl:XE_ADMINEBENE_Staat
+                                                     xerl:XE_ADMINEBENE_Verwaltungsgemeinschaft
+                                                     xerl:XE_ADMINEBENE_Welt
+                                                   )
+                                       ] ;
+                   rdfs:subClassOf xerl:Enumeration ;
+                   rdfs:label "EN_ADMINEBENE"@de ;
+                   skos:definition "Verwaltungsebene einer Behörde oder eines Verbandes."@de .
+                   
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL
+xerl:XE_ADMINHIERARCHYLEVEL rdf:type owl:Class ;
+                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                  owl:oneOf ( xerl:XE_ADMINHIERARCHYLEVEL_1stOrder
+                                                              xerl:XE_ADMINHIERARCHYLEVEL_2ndOrder
+                                                              xerl:XE_ADMINHIERARCHYLEVEL_3rdOrder
+                                                              xerl:XE_ADMINHIERARCHYLEVEL_4thOrder
+                                                              xerl:XE_ADMINHIERARCHYLEVEL_5thOrder
+                                                              xerl:XE_ADMINHIERARCHYLEVEL_6thOrder
+                                                            )
+                                                ] ;
+                            rdfs:subClassOf xerl:Enumeration ;
+                            rdfs:label "EN_ADMINHIERARCHYLEVEL"@de ;
+                            skos:definition "Verwaltungsebene einer Behörde oder eines Verbandes in Inspire-Syntax"@de .
+                            
+###  http://www.xerleben.de/schema/2.0_1/EN_AMBULANTSTATIONAER
+xerl:XE_AMBULANTSTATIONAER rdf:type owl:Class ;
+                           owl:equivalentClass [ rdf:type owl:Class ;
+                                                 owl:oneOf ( xerl:XE_AMBULANTSTATIONAER_Ambulant
+                                                             xerl:XE_AMBULANTSTATIONAER_AmbulantStationaer
+                                                             xerl:XE_AMBULANTSTATIONAER_Stationaer
+                                                           )
+                                               ] ;
+                           rdfs:subClassOf xerl:Enumeration ;
+                           rdfs:label "EN_AMBULANTSTATIONAER"@de ;
+                           skos:definition "Art der Patientenbetreuung in einer Arztpraxis oder Klinik."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG
+xerl:XE_ART_BESCHILDERUNG rdf:type owl:Class ;
+                          owl:equivalentClass [ rdf:type owl:Class ;
+                                                owl:oneOf ( xerl:XE_ART_BESCHILDERUNG_BeschilderungSonstiges
+                                                            xerl:XE_ART_BESCHILDERUNG_Informationstafel
+                                                            xerl:XE_ART_BESCHILDERUNG_Knotenpunktwegweiser
+                                                            xerl:XE_ART_BESCHILDERUNG_Markierung
+                                                            xerl:XE_ART_BESCHILDERUNG_Wegweiser
+                                                            xerl:XE_ART_BESCHILDERUNG_WegweiserSTVO
+                                                          )
+                                              ] ;
+                          rdfs:subClassOf xerl:Enumeration ;
+                          rdfs:label "EN_ART_BESCHILDERUNG"@de ;
+                          skos:definition "Art einer Beschilderung."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ASP_ROLLE
+xerl:XE_ASP_ROLLE rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:oneOf ( xerl:XE_ASP_ROLLE_Hausmeister
+                                                    xerl:XE_ASP_ROLLE_Leitung
+                                                    xerl:XE_ASP_ROLLE_Sekretariat
+                                                    xerl:XE_ASP_ROLLE_Sonstiges
+                                                  )
+                                      ] ;
+                  rdfs:subClassOf xerl:Enumeration ;
+                  rdfs:label "EN_ASP_ROLLE"@de .
+                  
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE
+xerl:XE_BARRIEREGRUPPE rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xerl:XE_BARRIEREGRUPPE_BlindeMenschen
+                                                         xerl:XE_BARRIEREGRUPPE_Familien
+                                                         xerl:XE_BARRIEREGRUPPE_GehbehinderteMenschen
+                                                         xerl:XE_BARRIEREGRUPPE_GehoerloseMenschen
+                                                         xerl:XE_BARRIEREGRUPPE_Kinderwagen
+                                                         xerl:XE_BARRIEREGRUPPE_MenschenMitHoerbehinderung
+                                                         xerl:XE_BARRIEREGRUPPE_MenschenMitLernschwierigkeiten
+                                                         xerl:XE_BARRIEREGRUPPE_Rollator
+                                                         xerl:XE_BARRIEREGRUPPE_Rollstuhlfahrer
+                                                         xerl:XE_BARRIEREGRUPPE_SehbehinderteMenschen
+                                                         xerl:XE_BARRIEREGRUPPE_Senioren
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xerl:Enumeration ;
+                       rdfs:label "EN_BARRIEREGRUPPE"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTATUS
+xerl:XE_BETRIEBSSTATUS rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xerl:XE_BETRIEBSSTATUS_Geplant
+                                                         xerl:XE_BETRIEBSSTATUS_ImBau
+                                                         xerl:XE_BETRIEBSSTATUS_InBetrieb
+                                                         xerl:XE_BETRIEBSSTATUS_Stillgelegt
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xerl:Enumeration ;
+                       rdfs:label "EN_BETRIEBSSTATUS"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTOFF
+xerl:XE_BETRIEBSSTOFF rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Class ;
+                                            owl:oneOf ( xerl:XE_BETRIEBSSTOFF_Autogas
+                                                        xerl:XE_BETRIEBSSTOFF_BenzinDiesel
+                                                        xerl:XE_BETRIEBSSTOFF_ErdGas
+                                                        xerl:XE_BETRIEBSSTOFF_Strom
+                                                      )
+                                          ] ;
+                      rdfs:subClassOf xerl:Enumeration ;
+                      rdfs:label "EN_BETRIEBSSTOFF"@de ;
+                      skos:definition "Betriebsmittel für Kraftfahrzeuge, das an einer Tankstelle abgegeben wird."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG
+xerl:XE_BLICKRICHTUNG rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Class ;
+                                            owl:oneOf ( xerl:XE_BLICKRICHTUNG_Nord
+                                                        xerl:XE_BLICKRICHTUNG_Nordost
+                                                        xerl:XE_BLICKRICHTUNG_Nordwest
+                                                        xerl:XE_BLICKRICHTUNG_Ost
+                                                        xerl:XE_BLICKRICHTUNG_Sued
+                                                        xerl:XE_BLICKRICHTUNG_Suedost
+                                                        xerl:XE_BLICKRICHTUNG_Suedwest
+                                                        xerl:XE_BLICKRICHTUNG_West
+                                                      )
+                                          ] ;
+                      rdfs:subClassOf xerl:Enumeration ;
+                      rdfs:label "EN_BLICKRICHTUNG"@de ;
+                      skos:definition "Hauptblickrichtung des Aussichtspunkts"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKWINKEL
+xerl:XE_BLICKWINKEL rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Class ;
+                                          owl:oneOf ( xerl:XE_BLICKWINKEL_Dreiviertelkreis
+                                                      xerl:XE_BLICKWINKEL_Halbkreis
+                                                      xerl:XE_BLICKWINKEL_Viertelkreis
+                                                      xerl:XE_BLICKWINKEL_Vollkreis
+                                                    )
+                                        ] ;
+                    rdfs:subClassOf xerl:Enumeration ;
+                    rdfs:label "EN_BLICKWINKEL"@de ;
+                    skos:definition "Größe des Blickwinkels des Aussichtspunkts"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT
+xerl:XE_BSM_WEGABSCHNITT rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:oneOf ( xerl:XE_BSM_WEGABSCHNITT_LandschaftlichReizvoll
+                                                           xerl:XE_BSM_WEGABSCHNITT_Rollstuhlgerecht
+                                                           xerl:XE_BSM_WEGABSCHNITT_SteigungBedeutend
+                                                           xerl:XE_BSM_WEGABSCHNITT_VerkehrsbelastungStark
+                                                           xerl:XE_BSM_WEGABSCHNITT_WegstreckeGefaehrlich
+                                                           xerl:XE_BSM_WEGABSCHNITT_WegstreckeSchwierig
+                                                         )
+                                             ] ;
+                         rdfs:subClassOf xerl:Enumeration ;
+                         rdfs:label "EN_BSM_WEGABSCHNITT"@de ;
+                         skos:definition "Charakteristische Besonderheit eines Wegabschnitts. TFIS-Attribut."@de .
+                         
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT
+xerl:XE_ENTSORG_SAMMELGUT rdf:type owl:Class ;
+                          owl:equivalentClass [ rdf:type owl:Class ;
+                                                owl:oneOf ( xerl:XE_ENTSORG_SAMMELGUT_Altkleider
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Elektrogeraete
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Elektronik
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Glas
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Gruenabfall
+                                                            xerl:XE_ENTSORG_SAMMELGUT_MetallSchrott
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Papier
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Restmuell
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Sondermuell
+                                                            xerl:XE_ENTSORG_SAMMELGUT_Sperrmuell
+                                                          )
+                                              ] ;
+                          rdfs:subClassOf xerl:Enumeration ;
+                          rdfs:label "EN_ENTSORG_SAMMELGUT"@de ;
+                          skos:definition "Art des an einer Sammelstelle entgegengenommenen Abfalls."@de .
+                          
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT
+xerl:XE_FOERDERSCHWERPUNKT rdf:type owl:Class ;
+                           owl:equivalentClass [ rdf:type owl:Class ;
+                                                 owl:oneOf ( xerl:XE_FOERDERSCHWERPUNKT_FoederschwerpunktGehoerlose
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoederschwerpunktSprache
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktBlinde
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktEmotionaleSozialeEntwicklung
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktGeistigeEntwicklung
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktLernen
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktMotorik
+                                                             xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktSonstiges
+                                                           )
+                                               ] ;
+                           rdfs:subClassOf xerl:Enumeration ;
+                           rdfs:label "EN_FOERDERSCHWERPUNKT"@de ;
+                           skos:definition "Förderschwerpunkt einer Förderschule."@de .
+                           
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE
+xerl:XE_GASTRONOMIE_KUECHE rdf:type owl:Class ;
+                           owl:equivalentClass [ rdf:type owl:Class ;
+                                                 owl:oneOf ( xerl:XE_GASTRONOMIE_KUECHE_Afghanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Afrikanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Amerikanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Asiatisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Australisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Balkanspezialitäten
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Biergaststätte
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Biokost
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Brasilianisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Chinesisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Deutsch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Fischspezialitäten
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Französisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Gourmetrestaurant
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Griechisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Hähnchenbraterei
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Indisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Indonesisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_International
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Iranisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Italienisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Japanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Jugoslawisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Koreanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Kreolisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Kroatisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Libanesisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Mediterran
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Meeresfrüchte
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Mexikanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Mittelalterlich
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Mongolisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Norwegisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Persisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_RegionaleSpezialitäten
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Rumänisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Schweizerisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Spanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Steakhaus
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Sushi
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Südamerikanisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Thailändisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Türkisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Ungarisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Vegetarisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Vietnamesisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Ägyptisch
+                                                             xerl:XE_GASTRONOMIE_KUECHE_Österreichisch
+                                                           )
+                                               ] ;
+                           rdfs:subClassOf xerl:Enumeration ;
+                           rdfs:label "EN_GASTRONOMIE_KUECHE"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE
+xerl:XE_GEFAHRENGRUPPE rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xerl:XE_GEFAHRENGRUPPE_Autofahrer
+                                                         xerl:XE_GEFAHRENGRUPPE_BlindeMenschen
+                                                         xerl:XE_GEFAHRENGRUPPE_Fußgänger
+                                                         xerl:XE_GEFAHRENGRUPPE_GehbehinderteMenschen
+                                                         xerl:XE_GEFAHRENGRUPPE_Inlinerfahrer
+                                                         xerl:XE_GEFAHRENGRUPPE_Kanuten
+                                                         xerl:XE_GEFAHRENGRUPPE_Kinder
+                                                         xerl:XE_GEFAHRENGRUPPE_Motorradfahrer
+                                                         xerl:XE_GEFAHRENGRUPPE_Mountainbiker
+                                                         xerl:XE_GEFAHRENGRUPPE_Radfahrer
+                                                         xerl:XE_GEFAHRENGRUPPE_Reiter
+                                                         xerl:XE_GEFAHRENGRUPPE_Rollstuhlfahrer
+                                                         xerl:XE_GEFAHRENGRUPPE_Senioren
+                                                         xerl:XE_GEFAHRENGRUPPE_Wassersportler
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xerl:Enumeration ;
+                       rdfs:label "EN_GEFAHRENGRUPPE"@de ;
+                       skos:definition "Gruppe von Personen mit ähnlichen Gefährdungen."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH
+xerl:XE_GESUND_FACH rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Class ;
+                                          owl:oneOf ( xerl:XE_GESUND_FACH_Allgemeinmedizin
+                                                      xerl:XE_GESUND_FACH_Anaestesie
+                                                      xerl:XE_GESUND_FACH_Augen
+                                                      xerl:XE_GESUND_FACH_Chirurgie
+                                                      xerl:XE_GESUND_FACH_Dermatologie
+                                                      xerl:XE_GESUND_FACH_Geriatrie
+                                                      xerl:XE_GESUND_FACH_Gynaekologie
+                                                      xerl:XE_GESUND_FACH_HalsNasenOhren
+                                                      xerl:XE_GESUND_FACH_InnereMedizin
+                                                      xerl:XE_GESUND_FACH_Kardiologie
+                                                      xerl:XE_GESUND_FACH_Kinder
+                                                      xerl:XE_GESUND_FACH_Neurologie
+                                                      xerl:XE_GESUND_FACH_Orthopaedie
+                                                      xerl:XE_GESUND_FACH_Palliativmedizin
+                                                      xerl:XE_GESUND_FACH_PsychiatrieSucht
+                                                      xerl:XE_GESUND_FACH_Radiologie
+                                                      xerl:XE_GESUND_FACH_SonstigesFachgebiet
+                                                      xerl:XE_GESUND_FACH_Sportmedizin
+                                                      xerl:XE_GESUND_FACH_Urologie
+                                                      xerl:XE_GESUND_FACH_Zahnheilkunde
+                                                    )
+                                        ] ;
+                    rdfs:subClassOf xerl:Enumeration ;
+                    rdfs:label "EN_GESUND_FACH"@de ;
+                    skos:definition "Medizinisches Fach, das durch eine Arztpraxis oder Klinik abgedeckt wird."@de .
+                    
+                    
+###  http://www.xerleben.de/schema/2.0_1/EN_INDOOR_OUTDOOR
+xerl:XE_INDOOR_OUTDOOR rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xerl:XE_INDOOR_OUTDOOR_InOutdoor
+                                                         xerl:XE_INDOOR_OUTDOOR_Indoor
+                                                         xerl:XE_INDOOR_OUTDOOR_Outdoor
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xerl:Enumeration ;
+                       rdfs:label "EN_INDOOR_OUTDOOR"@de ;
+                       skos:definition "Charakterisierung einer Sportanlage oder eines Spielplatzes als Hallenanlage (indoor), Freigelände (outdoor) oder Kombination aus beidem (inOutdoor)."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART
+xerl:XE_INFOART rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Class ;
+                                      owl:oneOf ( xerl:XE_INFOART_Audio
+                                                  xerl:XE_INFOART_Bild
+                                                  xerl:XE_INFOART_Buchung
+                                                  xerl:XE_INFOART_Datenbankobjekt
+                                                  xerl:XE_INFOART_Dokument
+                                                  xerl:XE_INFOART_Geometrie
+                                                  xerl:XE_INFOART_Sonstiges
+                                                  xerl:XE_INFOART_Video
+                                                  xerl:XE_INFOART_Website
+                                                )
+                                    ] ;
+                rdfs:subClassOf xerl:Enumeration ;
+                rdfs:label "EN_INFOART"@de .
+                
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_BEDEUTUNG
+xerl:XE_KLASS_BEDEUTUNG rdf:type owl:Class ;
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:oneOf ( xerl:XE_KLASS_BEDEUTUNG_Lokal
+                                                          xerl:XE_KLASS_BEDEUTUNG_Regional
+                                                          xerl:XE_KLASS_BEDEUTUNG_Ueberregional
+                                                        )
+                                            ] ;
+                        rdfs:subClassOf xerl:Enumeration ;
+                        rdfs:label "EN_KLASS_BEDEUTUNG"@de ;
+                        skos:definition "Fachliche Bedeutung des Ortes von Interesse, "@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_TOURISMUS
+xerl:XE_KLASS_TOURISMUS rdf:type owl:Class ;
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:oneOf ( xerl:XE_KLASS_TOURISMUS_Lokalsehenswert
+                                                          xerl:XE_KLASS_TOURISMUS_Regionalsehenswert
+                                                          xerl:XE_KLASS_TOURISMUS_Ueberregionalsehenswert
+                                                        )
+                                            ] ;
+                        rdfs:subClassOf xerl:Enumeration ;
+                        rdfs:label "EN_KLASS_TOURISMUS"@de ;
+                        skos:definition "Touristische Klassifizierung des Ortes von Interesse"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KNOTENTYP
+xerl:XE_KNOTENTYP rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:oneOf ( xerl:XE_KNOTENTYP_Endpunkt
+                                                    xerl:XE_KNOTENTYP_Haltepunkt
+                                                    xerl:XE_KNOTENTYP_Kreuzung
+                                                  )
+                                      ] ;
+                  rdfs:subClassOf xerl:Enumeration ;
+                  rdfs:label "EN_KNOTENTYP"@de ;
+                  skos:definition "Knotenfunktion im topologischen Netz."@de .
+                  
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT
+xerl:XE_LWG_WEGABSCHNITT rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:oneOf ( xerl:XE_LWG_WEGABSCHNITT_AufEigenstaendigemPfad
+                                                           xerl:XE_LWG_WEGABSCHNITT_AufForstLandwirtschaftsweg
+                                                           xerl:XE_LWG_WEGABSCHNITT_AufFusswegFussgaengerzone
+                                                           xerl:XE_LWG_WEGABSCHNITT_AufOeffStrasseMarkiert
+                                                           xerl:XE_LWG_WEGABSCHNITT_AufOeffStrasseOhneBegleitweg
+                                                           xerl:XE_LWG_WEGABSCHNITT_NebenOeffStrasseAufBegleitweg
+                                                           xerl:XE_LWG_WEGABSCHNITT_Unbekannt
+                                                           xerl:XE_LWG_WEGABSCHNITT_VerkehrsberuhigterBereich
+                                                         )
+                                             ] ;
+                         rdfs:subClassOf xerl:Enumeration ;
+                         rdfs:label "EN_LWG_WEGABSCHNITT"@de ;
+                         skos:definition "Lage des Wegabschnitts in Bezug auf den Autoverkehr. Teilweise redundant mit EN_WGF_WEGABSCHNITT, aber TFIS-kompatibel."@de .
+                         
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS
+xerl:XE_NATURSCHUTZSTATUS rdf:type owl:Class ;
+                          owl:equivalentClass [ rdf:type owl:Class ;
+                                                owl:oneOf ( xerl:XE_NATURSCHUTZSTATUS_Biosphaerenreservat
+                                                            xerl:XE_NATURSCHUTZSTATUS_FFHGebiet
+                                                            xerl:XE_NATURSCHUTZSTATUS_GeschuetzterLandschaftsbestandteil
+                                                            xerl:XE_NATURSCHUTZSTATUS_GeschuetztesBiotop
+                                                            xerl:XE_NATURSCHUTZSTATUS_Landschaftsschutzgebiet
+                                                            xerl:XE_NATURSCHUTZSTATUS_Nationalpark
+                                                            xerl:XE_NATURSCHUTZSTATUS_Naturdenkmal
+                                                            xerl:XE_NATURSCHUTZSTATUS_Naturpark
+                                                            xerl:XE_NATURSCHUTZSTATUS_Naturschutzgebiet
+                                                            xerl:XE_NATURSCHUTZSTATUS_Naturwaldzelle
+                                                            xerl:XE_NATURSCHUTZSTATUS_Vogelschutzgebiet
+                                                            xerl:Naturmonument
+                                                          )
+                                              ] ;
+                          rdfs:subClassOf xerl:Enumeration ;
+                          rdfs:label "EN_NATURSCHUTZSTATUS"@de ;
+                          skos:definition "Formaler Naturschutzstatus eines OrtesVonInteresse."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE
+xerl:XE_NUTSEBENE rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:oneOf ( xerl:XE_NUTSEBENE_EUR
+                                                    xerl:XE_NUTSEBENE_GLB
+                                                    xerl:XE_NUTSEBENE_LAU1
+                                                    xerl:XE_NUTSEBENE_LAU2
+                                                    xerl:XE_NUTSEBENE_NUTS0
+                                                    xerl:XE_NUTSEBENE_NUTS1
+                                                    xerl:XE_NUTSEBENE_NUTS2
+                                                    xerl:XE_NUTSEBENE_NUTS3
+                                                  )
+                                      ] ;
+                  rdfs:subClassOf xerl:Enumeration ;
+                  rdfs:label "EN_NUTSEBENE"@de ;
+                  skos:definition "Verwaltungsebene nach der Verwaltungssystematik der Europäischen Union"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTZUNGSSTATUS
+xerl:XE_NUTZUNGSSTATUS rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xerl:XE_NUTZUNGSSTATUS_AndersGenutzt
+                                                         xerl:XE_NUTZUNGSSTATUS_NichtGenutzt
+                                                         xerl:XE_NUTZUNGSSTATUS_UrspruenglichGenutzt
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xerl:Enumeration ;
+                       rdfs:label "EN_NUTZUNGSSTATUS"@de ;
+                       skos:definition "Der Nutzungsstatus soll ehemalige, umgenutzte und nicht mehr in ihrer ursprünglichen Nutzung unterscheiden, zB. ehemalige Kirche, ehemaliges Kloster, Windmühle etc."@de .
+                       
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG
+xerl:XE_OVIBEZIEHUNG rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Class ;
+                                           owl:oneOf ( xerl:XE_OVIBEZIEHUNG_IstAehnlichWie
+                                                       xerl:XE_OVIBEZIEHUNG_IstBestandteilVon
+                                                       xerl:XE_OVIBEZIEHUNG_IstFilialeVon
+                                                       xerl:XE_OVIBEZIEHUNG_IstInDerNaeheVon
+                                                       xerl:XE_OVIBEZIEHUNG_IstNachbarVon
+                                                       xerl:XE_OVIBEZIEHUNG_hatVeranstaltungsort
+                                                     )
+                                         ] ;
+                     rdfs:subClassOf xerl:Enumeration ;
+                     rdfs:label "EN_OVIBEZIEHUNG"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_PAEDAGOGIK
+xerl:XE_PAEDAGOGIK rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:oneOf ( xerl:XE_PAEDAGOGIK_Montessori
+                                                     xerl:XE_PAEDAGOGIK_Waldorf
+                                                   )
+                                       ] ;
+                   rdfs:subClassOf xerl:Enumeration ;
+                   rdfs:label "EN_PAEDAGOGIK"@de ;
+                   skos:definition "Pädagogisches Konzept besonderer allgemeiner Schulen."@de .
+                   
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT
+xerl:XE_SOZIALANGEBOT rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Class ;
+                                            owl:oneOf ( xerl:XE_SOZIALANGEBOT_Arbeit
+                                                        xerl:XE_SOZIALANGEBOT_Beratung
+                                                        xerl:XE_SOZIALANGEBOT_Betreuung
+                                                        xerl:XE_SOZIALANGEBOT_Bildung
+                                                        xerl:XE_SOZIALANGEBOT_Essen
+                                                        xerl:XE_SOZIALANGEBOT_Notruf
+                                                        xerl:XE_SOZIALANGEBOT_Pflege
+                                                        xerl:XE_SOZIALANGEBOT_Selbsthilfe
+                                                        xerl:XE_SOZIALANGEBOT_Therapie
+                                                        xerl:XE_SOZIALANGEBOT_Transport
+                                                        xerl:XE_SOZIALANGEBOT_Treffpunkt
+                                                        xerl:XE_SOZIALANGEBOT_Unterstuetzung
+                                                        xerl:XE_SOZIALANGEBOT_Wohnen
+                                                      )
+                                          ] ;
+                      rdfs:subClassOf xerl:Enumeration ;
+                      rdfs:label "EN_SOZIALANGEBOT"@de ;
+                      skos:definition "Art des Angebotes einer sozialen Beratungs- oder Betreuungseinrichtung."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_STRECKENVARIANTE
+xerl:XE_STRECKENVARIANTE rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:oneOf ( xerl:XE_STRECKENVARIANTE_Alternativstrecke
+                                                           xerl:XE_STRECKENVARIANTE_Hauptstrecke
+                                                           xerl:XE_STRECKENVARIANTE_Stichweg
+                                                         )
+                                             ] ;
+                         rdfs:subClassOf xerl:Enumeration ;
+                         rdfs:label "EN_STRECKENVARIANTE"@de ;
+                         skos:definition "Kennzeichung einer Route als Hauptroute, Nebenstrecke oder an einem Ende nicht verbundene Stichstrecke."@de .
+                         
+###  http://www.xerleben.de/schema/2.0_1/EN_TAGESZEIT
+xerl:XE_TAGESZEIT rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:oneOf ( xerl:XE_TAGESZEIT_Abends
+                                                    xerl:XE_TAGESZEIT_Ganztags
+                                                    xerl:XE_TAGESZEIT_Halbtags
+                                                    xerl:XE_TAGESZEIT_Mehrtaegig
+                                                  )
+                                      ] ;
+                  rdfs:subClassOf xerl:Enumeration ;
+                  rdfs:label "EN_TAGESZEIT"@de ;
+                  skos:definition "Zeitraum, in dem die Schüler einer Schule garantiert betreut werden."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART
+xerl:XE_TRAEGERART rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:oneOf ( xerl:XE_TRAEGERART_Bund
+                                                     xerl:XE_TRAEGERART_Gewerblich
+                                                     xerl:XE_TRAEGERART_Kirchlich
+                                                     xerl:XE_TRAEGERART_Kommunal
+                                                     xerl:XE_TRAEGERART_Land
+                                                     xerl:XE_TRAEGERART_Privat
+                                                     xerl:XE_TRAEGERART_Stiftung
+                                                     xerl:XE_TRAEGERART_VereinVerband
+                                                   )
+                                       ] ;
+                   rdfs:subClassOf xerl:Enumeration ;
+                   rdfs:label "EN_TRAEGERART"@de ;
+                   skos:definition "Art des Trägers"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUS
+xerl:XE_TURNUS rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Class ;
+                                     owl:oneOf ( xerl:XE_TURNUS_Jaehrlich
+                                                 xerl:XE_TURNUS_Monatlich
+                                                 xerl:XE_TURNUS_Taeglich
+                                                 xerl:XE_TURNUS_Woechentlich
+                                               )
+                                   ] ;
+               rdfs:subClassOf xerl:Enumeration ;
+               rdfs:label "EN_TURNUS"@de ;
+               skos:definition "Turnus, in dem eine regelmäßig stattfindende Veranstaltung stattfindet."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG
+xerl:XE_TURNUSTAG rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Class ;
+                                        owl:oneOf ( xerl:XE_TURNUSTAG_Dienstag
+                                                    xerl:XE_TURNUSTAG_Donnerstag
+                                                    xerl:XE_TURNUSTAG_Freitag
+                                                    xerl:XE_TURNUSTAG_Mittwoch
+                                                    xerl:XE_TURNUSTAG_Montag
+                                                    xerl:XE_TURNUSTAG_Samstag
+                                                    xerl:XE_TURNUSTAG_Sonntag
+                                                  )
+                                      ] ;
+                  rdfs:subClassOf xerl:Enumeration ;
+                  rdfs:label "EN_TURNUSTAG"@de ;
+                  skos:definition "Wochentag, an dem eine regelmäßig stattfindende Veranstaltung stattfindet."@de .
+                  
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH
+xerl:XE_VERENTSORG_FACH rdf:type owl:Class ;
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:oneOf ( xerl:XE_VERENTSORG_FACH_Abfall
+                                                          xerl:XE_VERENTSORG_FACH_Abwasser
+                                                          xerl:XE_VERENTSORG_FACH_Gas
+                                                          xerl:XE_VERENTSORG_FACH_Strom
+                                                          xerl:XE_VERENTSORG_FACH_Telekommunikation
+                                                          xerl:XE_VERENTSORG_FACH_Waerme
+                                                          xerl:XE_VERENTSORG_FACH_Wasser
+                                                        )
+                                            ] ;
+                        rdfs:subClassOf xerl:Enumeration ;
+                        rdfs:label "EN_VERENTSORG_FACH"@de ;
+                        skos:definition "Sparte eines Ver- oder Entsorgungsunternehmens.<"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERFUEGBARKEIT
+xerl:XE_VERFUEGBARKEIT rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:oneOf ( xerl:XE_VERFUEGBARKEIT_NichtSofortVerfuegbar
+                                                         xerl:XE_VERFUEGBARKEIT_NichtVerfuegbar
+                                                         xerl:XE_VERFUEGBARKEIT_SofortVerfuegbar
+                                                       )
+                                           ] ;
+                       rdfs:subClassOf xerl:Enumeration ;
+                       rdfs:label "EN_VERFUEGBARKEIT"@de ;
+                       skos:definition "Kategorisierung der Verfügbarkeit einer publizierten oder zum Verkauf oder zur Vermietung anstehenden Gewerbeimmobilie"@de .
+                       
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT
+xerl:XE_WGF_WEGABSCHNITT rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:oneOf ( xerl:XE_WGF_WEGABSCHNITT_Anliegerstrasse
+                                                           xerl:XE_WGF_WEGABSCHNITT_BusspurRadfahrerFrei
+                                                           xerl:XE_WGF_WEGABSCHNITT_EigenerWeg
+                                                           xerl:XE_WGF_WEGABSCHNITT_Fahrradstrasse
+                                                           xerl:XE_WGF_WEGABSCHNITT_FussRadwegGemeinsam
+                                                           xerl:XE_WGF_WEGABSCHNITT_FussRadwegGetrennt
+                                                           xerl:XE_WGF_WEGABSCHNITT_Fussgaengerbereich
+                                                           xerl:XE_WGF_WEGABSCHNITT_FussgaengerzoneRadfahrerFrei
+                                                           xerl:XE_WGF_WEGABSCHNITT_FussgaengerzoneZeitlichBegrenzteOeffnung
+                                                           xerl:XE_WGF_WEGABSCHNITT_GehwegRadfahrerFrei
+                                                           xerl:XE_WGF_WEGABSCHNITT_Mehrzweckstreifen
+                                                           xerl:XE_WGF_WEGABSCHNITT_Radfahrstreifen
+                                                           xerl:XE_WGF_WEGABSCHNITT_Radweg
+                                                           xerl:XE_WGF_WEGABSCHNITT_Sonstige
+                                                           xerl:XE_WGF_WEGABSCHNITT_Strasse
+                                                           xerl:XE_WGF_WEGABSCHNITT_VerkehrsberuhigterBereich
+                                                           xerl:XE_WGF_WEGABSCHNITT_Zone30
+                                                           xerl:
+                                                           xerl:
+                                                         )
+                                             ] ;
+                         rdfs:subClassOf xerl:Enumeration ;
+                         rdfs:label "EN_WGF_WEGABSCHNITT"@de ;
+                         skos:definition "Wegeführung des Wegabschnitts im Hinblick auf andere Verkehrsteilnehmer."@de .
+                         
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE
+xerl:XE_ZIELGRUPPE rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:oneOf ( xerl:XE_ZIELGRUPPE_AktiveBestager
+                                                     xerl:XE_ZIELGRUPPE_Arbeitslose
+                                                     xerl:XE_ZIELGRUPPE_AuslaendischeMitbuerger
+                                                     xerl:XE_ZIELGRUPPE_Autofahrer
+                                                     xerl:XE_ZIELGRUPPE_Behinderte
+                                                     xerl:XE_ZIELGRUPPE_ErwachseneSingles
+                                                     xerl:XE_ZIELGRUPPE_Familien
+                                                     xerl:XE_ZIELGRUPPE_Frauen
+                                                     xerl:XE_ZIELGRUPPE_Geschaeftsreisende
+                                                     xerl:XE_ZIELGRUPPE_Inlinefahrer
+                                                     xerl:XE_ZIELGRUPPE_Jeder
+                                                     xerl:XE_ZIELGRUPPE_JederTourist
+                                                     xerl:XE_ZIELGRUPPE_Jugendliche
+                                                     xerl:XE_ZIELGRUPPE_JungeSinglesPaare
+                                                     xerl:XE_ZIELGRUPPE_Kinder
+                                                     xerl:XE_ZIELGRUPPE_Landwirte
+                                                     xerl:XE_ZIELGRUPPE_Maenner
+                                                     xerl:XE_ZIELGRUPPE_Motorradfahrer
+                                                     xerl:XE_ZIELGRUPPE_Mountainbiker
+                                                     xerl:XE_ZIELGRUPPE_Obdachlose
+                                                     xerl:XE_ZIELGRUPPE_Pflegebeduerftige
+                                                     xerl:XE_ZIELGRUPPE_Radfahrer
+                                                     xerl:XE_ZIELGRUPPE_Reiter
+                                                     xerl:XE_ZIELGRUPPE_Senioren
+                                                     xerl:XE_ZIELGRUPPE_Skifahrer
+                                                     xerl:XE_ZIELGRUPPE_Sonstige
+                                                     xerl:XE_ZIELGRUPPE_SozialSchwache
+                                                     xerl:XE_ZIELGRUPPE_Suechtige
+                                                     xerl:XE_ZIELGRUPPE_Touristen
+                                                     xerl:XE_ZIELGRUPPE_TraditionelleBestager
+                                                     xerl:XE_ZIELGRUPPE_Verbraucher
+                                                     xerl:XE_ZIELGRUPPE_Wanderer
+                                                   )
+                                       ] ;
+                   rdfs:subClassOf xerl:Enumeration ;
+                   rdfs:label "EN_ZIELGRUPPE"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZST_WEGABSCHNITT
+xerl:XE_ZST_WEGABSCHNITT rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:oneOf ( xerl:XE_ZST_WEGABSCHNITT_GlattBefestigt
+                                                           xerl:XE_ZST_WEGABSCHNITT_GrobBefestigt
+                                                           xerl:XE_ZST_WEGABSCHNITT_Unbefestigt
+                                                           xerl:XE_ZST_WEGABSCHNITT_Unbekannt
+                                                         )
+                                             ] ;
+                         rdfs:subClassOf xerl:Enumeration ;
+                         rdfs:label "EN_ZST_WEGABSCHNITT"@de ;
+                         skos:definition "Befestigungszustand eines Wegabschnitts. TFIS-Attribut."@de .
+                         
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Bundesland
+xerl:XE_ADMINEBENE_Bundesland rdf:type owl:NamedIndividual ,
+                                       xerl:XE_ADMINEBENE ;
+                              rdfs:label "Bundesland" ;
+                              skos:definition "Behörde/Institution eines Bundeslandes"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_EU
+xerl:XE_ADMINEBENE_EU rdf:type owl:NamedIndividual ,
+                               xerl:XE_ADMINEBENE ;
+                      rdfs:label "EU" ;
+                      skos:definition "Behörde/Institution der Europäischen Union"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Gemeinde
+xerl:XE_ADMINEBENE_Gemeinde rdf:type owl:NamedIndividual ,
+                                     xerl:XE_ADMINEBENE ;
+                            rdfs:label "Gemeinde" ;
+                            skos:definition "Behörde/Institution einer Gemeinde"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Kreis
+xerl:XE_ADMINEBENE_Kreis rdf:type owl:NamedIndividual ,
+                                  xerl:XE_ADMINEBENE ;
+                         rdfs:label "Kreis" ;
+                         skos:definition "Behörde/Institution eines Kreises oder einer kreisfreien Stadt"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Regierungsbezirk
+xerl:XE_ADMINEBENE_Regierungsbezirk rdf:type owl:NamedIndividual ,
+                                             xerl:XE_ADMINEBENE ;
+                                    rdfs:label "Regierungsbezirk" ;
+                                    skos:definition "Behörde/Institution eines Regierungsbezirks"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Staat
+xerl:XE_ADMINEBENE_Staat rdf:type owl:NamedIndividual ,
+                                  xerl:XE_ADMINEBENE ;
+                         rdfs:label "Staat" ;
+                         skos:definition "Behörde/Institution eines Staates, z.B. Deutschlands"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Verwaltungsgemeinschaft
+xerl:XE_ADMINEBENE_Verwaltungsgemeinschaft rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_ADMINEBENE ;
+                                           rdfs:label "Verwaltungsgemeinschaft" ;
+                                           skos:definition "Behörde/Institution einer Verwaltungsgemeinschaft"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINEBENE_Welt
+xerl:XE_ADMINEBENE_Welt rdf:type owl:NamedIndividual ,
+                                 xerl:XE_ADMINEBENE ;
+                        rdfs:label "Welt" ;
+                        skos:definition "Behörde/Institution mit weltweitem Handlungsraum, z.B. UN-Behörde"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL_1stOrder
+xerl:XE_ADMINHIERARCHYLEVEL_1stOrder rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ADMINHIERARCHYLEVEL ;
+                                     rdfs:label "1stOrder" ;
+                                     skos:definition "Behörde/Institution eines Staates, z.B. Deutschlands"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL_2ndOrder
+xerl:XE_ADMINHIERARCHYLEVEL_2ndOrder rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ADMINHIERARCHYLEVEL ;
+                                     rdfs:label "2ndOrder" ;
+                                     skos:definition "Behörde/Institution eines Bundeslandes"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL_3rdOrder
+xerl:XE_ADMINHIERARCHYLEVEL_3rdOrder rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ADMINHIERARCHYLEVEL ;
+                                     rdfs:label "3rdOrder" ;
+                                     skos:definition "Behörde/Institution eines Regierungsbezirks"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL_4thOrder
+xerl:XE_ADMINHIERARCHYLEVEL_4thOrder rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ADMINHIERARCHYLEVEL ;
+                                     rdfs:label "4thOrder" ;
+                                     skos:definition "Behörde/Institution eines Kreises oder einer kreisfreien Stadt"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL_5thOrder
+xerl:XE_ADMINHIERARCHYLEVEL_5thOrder rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ADMINHIERARCHYLEVEL ;
+                                     rdfs:label "5thOrder" ;
+                                     skos:definition "Behörde/Institution einer Verwaltungsgemeinschaft"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ADMINHIERARCHYLEVEL_6thOrder
+xerl:XE_ADMINHIERARCHYLEVEL_6thOrder rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ADMINHIERARCHYLEVEL ;
+                                     rdfs:label "6thOrder" ;
+                                     skos:definition "Behörde/Institution einer Gemeinde"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_AMBULANTSTATIONAER_Ambulant
+xerl:XE_AMBULANTSTATIONAER_Ambulant rdf:type owl:NamedIndividual ,
+                                             xerl:XE_AMBULANTSTATIONAER ;
+                                    rdfs:label "Ambulant" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_AMBULANTSTATIONAER_AmbulantStationaer
+xerl:XE_AMBULANTSTATIONAER_AmbulantStationaer rdf:type owl:NamedIndividual ,
+                                                       xerl:XE_AMBULANTSTATIONAER ;
+                                              rdfs:label "AmbulantStationaer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_AMBULANTSTATIONAER_Stationaer
+xerl:XE_AMBULANTSTATIONAER_Stationaer rdf:type owl:NamedIndividual ,
+                                               xerl:XE_AMBULANTSTATIONAER ;
+                                      rdfs:label "Stationaer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG_BeschilderungSonstiges
+xerl:XE_ART_BESCHILDERUNG_BeschilderungSonstiges rdf:type owl:NamedIndividual ,
+                                                          xerl:XE_ART_BESCHILDERUNG ;
+                                                 rdfs:label "BeschilderungSonstiges" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG_Informationstafel
+xerl:XE_ART_BESCHILDERUNG_Informationstafel rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_ART_BESCHILDERUNG ;
+                                            rdfs:label "Informationstafel" ;
+                                            skos:definition "Informationstafel mit örtlichen Wegeinformationen"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG_Knotenpunktwegweiser
+xerl:XE_ART_BESCHILDERUNG_Knotenpunktwegweiser rdf:type owl:NamedIndividual ,
+                                                        xerl:XE_ART_BESCHILDERUNG ;
+                                               rdfs:label "Knotenpunktwegweiser" ;
+                                               skos:definition "Genormter Wegweiser für Radverkehrsnetz"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG_Markierung
+xerl:XE_ART_BESCHILDERUNG_Markierung rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ART_BESCHILDERUNG ;
+                                     rdfs:label "Markierung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG_Wegweiser
+xerl:XE_ART_BESCHILDERUNG_Wegweiser rdf:type owl:NamedIndividual ,
+                                             xerl:XE_ART_BESCHILDERUNG ;
+                                    rdfs:label "Wegweiser" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ART_BESCHILDERUNG_WegweiserSTVO
+xerl:XE_ART_BESCHILDERUNG_WegweiserSTVO rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_ART_BESCHILDERUNG ;
+                                        rdfs:label "WegweiserSTVO" ;
+                                        skos:definition "genormter Wegweiser für Radverkehrsnetz"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ASP_ROLLE_Hausmeister
+xerl:XE_ASP_ROLLE_Hausmeister rdf:type owl:NamedIndividual ,
+                                       xerl:XE_ASP_ROLLE ;
+                              rdfs:label "Hausmeister" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ASP_ROLLE_Leitung
+xerl:XE_ASP_ROLLE_Leitung rdf:type owl:NamedIndividual ,
+                                   xerl:XE_ASP_ROLLE ;
+                          rdfs:label "Leitung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ASP_ROLLE_Sekretariat
+xerl:XE_ASP_ROLLE_Sekretariat rdf:type owl:NamedIndividual ,
+                                       xerl:XE_ASP_ROLLE ;
+                              rdfs:label "Sekretariat" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ASP_ROLLE_Sonstiges
+xerl:XE_ASP_ROLLE_Sonstiges rdf:type owl:NamedIndividual ,
+                                     xerl:XE_ASP_ROLLE ;
+                            rdfs:label "Sonstiges" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_BlindeMenschen
+xerl:XE_BARRIEREGRUPPE_BlindeMenschen rdf:type owl:NamedIndividual ,
+                                               xerl:XE_BARRIEREGRUPPE ;
+                                      rdfs:label "BlindeMenschen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_Familien
+xerl:XE_BARRIEREGRUPPE_Familien rdf:type owl:NamedIndividual ,
+                                         xerl:XE_BARRIEREGRUPPE ;
+                                rdfs:label "Familien" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_GehbehinderteMenschen
+xerl:XE_BARRIEREGRUPPE_GehbehinderteMenschen rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_BARRIEREGRUPPE ;
+                                             rdfs:label "GehbehinderteMenschen" ;
+                                             skos:definition "Kategorien gemäß Natko.de icons.anatom5.de"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_GehoerloseMenschen
+xerl:XE_BARRIEREGRUPPE_GehoerloseMenschen rdf:type owl:NamedIndividual ,
+                                                   xerl:XE_BARRIEREGRUPPE ;
+                                          rdfs:label "GehoerloseMenschen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_Kinderwagen
+xerl:XE_BARRIEREGRUPPE_Kinderwagen rdf:type owl:NamedIndividual ,
+                                            xerl:XE_BARRIEREGRUPPE ;
+                                   rdfs:label "Kinderwagen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_MenschenMitHoerbehinderung
+xerl:XE_BARRIEREGRUPPE_MenschenMitHoerbehinderung rdf:type owl:NamedIndividual ,
+                                                           xerl:XE_BARRIEREGRUPPE ;
+                                                  rdfs:label "MenschenMitHoerbehinderung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_MenschenMitLernschwierigkeiten
+xerl:XE_BARRIEREGRUPPE_MenschenMitLernschwierigkeiten rdf:type owl:NamedIndividual ,
+                                                               xerl:XE_BARRIEREGRUPPE ;
+                                                      rdfs:label "MenschenMitLernschwierigkeiten" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_Rollator
+xerl:XE_BARRIEREGRUPPE_Rollator rdf:type owl:NamedIndividual ,
+                                         xerl:XE_BARRIEREGRUPPE ;
+                                rdfs:label "Rollator" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_Rollstuhlfahrer
+xerl:XE_BARRIEREGRUPPE_Rollstuhlfahrer rdf:type owl:NamedIndividual ,
+                                                xerl:XE_BARRIEREGRUPPE ;
+                                       rdfs:label "Rollstuhlfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_SehbehinderteMenschen
+xerl:XE_BARRIEREGRUPPE_SehbehinderteMenschen rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_BARRIEREGRUPPE ;
+                                             rdfs:label "SehbehinderteMenschen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BARRIEREGRUPPE_Senioren
+xerl:XE_BARRIEREGRUPPE_Senioren rdf:type owl:NamedIndividual ,
+                                         xerl:XE_BARRIEREGRUPPE ;
+                                rdfs:label "Senioren" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTATUS_Geplant
+xerl:XE_BETRIEBSSTATUS_Geplant rdf:type owl:NamedIndividual ,
+                                        xerl:XE_BETRIEBSSTATUS ;
+                               rdfs:label "Geplant" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTATUS_ImBau
+xerl:XE_BETRIEBSSTATUS_ImBau rdf:type owl:NamedIndividual ,
+                                      xerl:XE_BETRIEBSSTATUS ;
+                             rdfs:label "ImBau" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTATUS_InBetrieb
+xerl:XE_BETRIEBSSTATUS_InBetrieb rdf:type owl:NamedIndividual ,
+                                          xerl:XE_BETRIEBSSTATUS ;
+                                 rdfs:label "InBetrieb" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTATUS_Stillgelegt
+xerl:XE_BETRIEBSSTATUS_Stillgelegt rdf:type owl:NamedIndividual ,
+                                            xerl:XE_BETRIEBSSTATUS ;
+                                   rdfs:label "Stillgelegt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTOFF_Autogas
+xerl:XE_BETRIEBSSTOFF_Autogas rdf:type owl:NamedIndividual ,
+                                       xerl:XE_BETRIEBSSTOFF ;
+                              rdfs:label "Autogas" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTOFF_BenzinDiesel
+xerl:XE_BETRIEBSSTOFF_BenzinDiesel rdf:type owl:NamedIndividual ,
+                                            xerl:XE_BETRIEBSSTOFF ;
+                                   rdfs:label "BenzinDiesel" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTOFF_ErdGas
+xerl:XE_BETRIEBSSTOFF_ErdGas rdf:type owl:NamedIndividual ,
+                                      xerl:XE_BETRIEBSSTOFF ;
+                             rdfs:label "ErdGas" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BETRIEBSSTOFF_Strom
+xerl:XE_BETRIEBSSTOFF_Strom rdf:type owl:NamedIndividual ,
+                                     xerl:XE_BETRIEBSSTOFF ;
+                            rdfs:label "Strom" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Nord
+xerl:XE_BLICKRICHTUNG_Nord rdf:type owl:NamedIndividual ,
+                                    xerl:XE_BLICKRICHTUNG ;
+                           rdfs:label "Nord" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Nordost
+xerl:XE_BLICKRICHTUNG_Nordost rdf:type owl:NamedIndividual ,
+                                       xerl:XE_BLICKRICHTUNG ;
+                              rdfs:label "Nordost" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Nordwest
+xerl:XE_BLICKRICHTUNG_Nordwest rdf:type owl:NamedIndividual ,
+                                        xerl:XE_BLICKRICHTUNG ;
+                               rdfs:label "Nordwest" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Ost
+xerl:XE_BLICKRICHTUNG_Ost rdf:type owl:NamedIndividual ,
+                                   xerl:XE_BLICKRICHTUNG ;
+                          rdfs:label "Ost" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Sued
+xerl:XE_BLICKRICHTUNG_Sued rdf:type owl:NamedIndividual ,
+                                    xerl:XE_BLICKRICHTUNG ;
+                           rdfs:label "Sued" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Suedost
+xerl:XE_BLICKRICHTUNG_Suedost rdf:type owl:NamedIndividual ,
+                                       xerl:XE_BLICKRICHTUNG ;
+                              rdfs:label "Suedost" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_Suedwest
+xerl:XE_BLICKRICHTUNG_Suedwest rdf:type owl:NamedIndividual ,
+                                        xerl:XE_BLICKRICHTUNG ;
+                               rdfs:label "Suedwest" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKRICHTUNG_West
+xerl:XE_BLICKRICHTUNG_West rdf:type owl:NamedIndividual ,
+                                    xerl:XE_BLICKRICHTUNG ;
+                           rdfs:label "West" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKWINKEL_Dreiviertelkreis
+xerl:XE_BLICKWINKEL_Dreiviertelkreis rdf:type owl:NamedIndividual ,
+                                              xerl:XE_BLICKWINKEL ;
+                                     rdfs:label "Dreiviertelkreis" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKWINKEL_Halbkreis
+xerl:XE_BLICKWINKEL_Halbkreis rdf:type owl:NamedIndividual ,
+                                       xerl:XE_BLICKWINKEL ;
+                              rdfs:label "Halbkreis" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKWINKEL_Viertelkreis
+xerl:XE_BLICKWINKEL_Viertelkreis rdf:type owl:NamedIndividual ,
+                                          xerl:XE_BLICKWINKEL ;
+                                 rdfs:label "Viertelkreis" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BLICKWINKEL_Vollkreis
+xerl:XE_BLICKWINKEL_Vollkreis rdf:type owl:NamedIndividual ,
+                                       xerl:XE_BLICKWINKEL ;
+                              rdfs:label "Vollkreis" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT_LandschaftlichReizvoll
+xerl:XE_BSM_WEGABSCHNITT_LandschaftlichReizvoll rdf:type owl:NamedIndividual ,
+                                                         xerl:XE_BSM_WEGABSCHNITT ;
+                                                rdfs:label "LandschaftlichReizvoll" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT_Rollstuhlgerecht
+xerl:XE_BSM_WEGABSCHNITT_Rollstuhlgerecht rdf:type owl:NamedIndividual ,
+                                                   xerl:XE_BSM_WEGABSCHNITT ;
+                                          rdfs:label "Rollstuhlgerecht" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT_SteigungBedeutend
+xerl:XE_BSM_WEGABSCHNITT_SteigungBedeutend rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_BSM_WEGABSCHNITT ;
+                                           rdfs:label "SteigungBedeutend" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT_VerkehrsbelastungStark
+xerl:XE_BSM_WEGABSCHNITT_VerkehrsbelastungStark rdf:type owl:NamedIndividual ,
+                                                         xerl:XE_BSM_WEGABSCHNITT ;
+                                                rdfs:label "VerkehrsbelastungStark" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT_WegstreckeGefaehrlich
+xerl:XE_BSM_WEGABSCHNITT_WegstreckeGefaehrlich rdf:type owl:NamedIndividual ,
+                                                        xerl:XE_BSM_WEGABSCHNITT ;
+                                               rdfs:label "WegstreckeGefaehrlich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_BSM_WEGABSCHNITT_WegstreckeSchwierig
+xerl:XE_BSM_WEGABSCHNITT_WegstreckeSchwierig rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_BSM_WEGABSCHNITT ;
+                                             rdfs:label "WegstreckeSchwierig" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Altkleider
+xerl:XE_ENTSORG_SAMMELGUT_Altkleider rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ENTSORG_SAMMELGUT ;
+                                     rdfs:label "Altkleider" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Elektrogeraete
+xerl:XE_ENTSORG_SAMMELGUT_Elektrogeraete rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_ENTSORG_SAMMELGUT ;
+                                         rdfs:label "Elektrogeraete" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Elektronik
+xerl:XE_ENTSORG_SAMMELGUT_Elektronik rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ENTSORG_SAMMELGUT ;
+                                     rdfs:label "Elektronik" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Glas
+xerl:XE_ENTSORG_SAMMELGUT_Glas rdf:type owl:NamedIndividual ,
+                                        xerl:XE_ENTSORG_SAMMELGUT ;
+                               rdfs:label "Glas" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Gruenabfall
+xerl:XE_ENTSORG_SAMMELGUT_Gruenabfall rdf:type owl:NamedIndividual ,
+                                               xerl:XE_ENTSORG_SAMMELGUT ;
+                                      rdfs:label "Gruenabfall" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_MetallSchrott
+xerl:XE_ENTSORG_SAMMELGUT_MetallSchrott rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_ENTSORG_SAMMELGUT ;
+                                        rdfs:label "MetallSchrott" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Papier
+xerl:XE_ENTSORG_SAMMELGUT_Papier rdf:type owl:NamedIndividual ,
+                                          xerl:XE_ENTSORG_SAMMELGUT ;
+                                 rdfs:label "Papier" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Restmuell
+xerl:XE_ENTSORG_SAMMELGUT_Restmuell rdf:type owl:NamedIndividual ,
+                                             xerl:XE_ENTSORG_SAMMELGUT ;
+                                    rdfs:label "Restmuell" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Sondermuell
+xerl:XE_ENTSORG_SAMMELGUT_Sondermuell rdf:type owl:NamedIndividual ,
+                                               xerl:XE_ENTSORG_SAMMELGUT ;
+                                      rdfs:label "Sondermuell" ;
+                                      skos:definition "Schadstoffe"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ENTSORG_SAMMELGUT_Sperrmuell
+xerl:XE_ENTSORG_SAMMELGUT_Sperrmuell rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ENTSORG_SAMMELGUT ;
+                                     rdfs:label "Sperrmuell" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoederschwerpunktGehoerlose
+xerl:XE_FOERDERSCHWERPUNKT_FoederschwerpunktGehoerlose rdf:type owl:NamedIndividual ,
+                                                                xerl:XE_FOERDERSCHWERPUNKT ;
+                                                       rdfs:label "FoederschwerpunktGehoerlose" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoederschwerpunktSprache
+xerl:XE_FOERDERSCHWERPUNKT_FoederschwerpunktSprache rdf:type owl:NamedIndividual ,
+                                                             xerl:XE_FOERDERSCHWERPUNKT ;
+                                                    rdfs:label "FoederschwerpunktSprache" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoerderschwerpunktBlinde
+xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktBlinde rdf:type owl:NamedIndividual ,
+                                                             xerl:XE_FOERDERSCHWERPUNKT ;
+                                                    rdfs:label "FoerderschwerpunktBlinde" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoerderschwerpunktEmotionaleSozialeEntwicklung
+xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktEmotionaleSozialeEntwicklung rdf:type owl:NamedIndividual ,
+                                                                                   xerl:XE_FOERDERSCHWERPUNKT ;
+                                                                          rdfs:label "FoerderschwerpunktEmotionaleSozialeEntwicklung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoerderschwerpunktGeistigeEntwicklung
+xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktGeistigeEntwicklung rdf:type owl:NamedIndividual ,
+                                                                          xerl:XE_FOERDERSCHWERPUNKT ;
+                                                                 rdfs:label "FoerderschwerpunktGeistigeEntwicklung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoerderschwerpunktLernen
+xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktLernen rdf:type owl:NamedIndividual ,
+                                                             xerl:XE_FOERDERSCHWERPUNKT ;
+                                                    rdfs:label "FoerderschwerpunktLernen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoerderschwerpunktMotorik
+xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktMotorik rdf:type owl:NamedIndividual ,
+                                                              xerl:XE_FOERDERSCHWERPUNKT ;
+                                                     rdfs:label "FoerderschwerpunktMotorik" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_FOERDERSCHWERPUNKT_FoerderschwerpunktSonstiges
+xerl:XE_FOERDERSCHWERPUNKT_FoerderschwerpunktSonstiges rdf:type owl:NamedIndividual ,
+                                                                xerl:XE_FOERDERSCHWERPUNKT ;
+                                                       rdfs:label "FoerderschwerpunktSonstiges" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Afghanisch
+xerl:XE_GASTRONOMIE_KUECHE_Afghanisch rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Afghanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Afrikanisch
+xerl:XE_GASTRONOMIE_KUECHE_Afrikanisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Afrikanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Amerikanisch
+xerl:XE_GASTRONOMIE_KUECHE_Amerikanisch rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_GASTRONOMIE_KUECHE ;
+                                        rdfs:label "Amerikanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Asiatisch
+xerl:XE_GASTRONOMIE_KUECHE_Asiatisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Asiatisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Australisch
+xerl:XE_GASTRONOMIE_KUECHE_Australisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Australisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Balkanspezialitäten
+xerl:XE_GASTRONOMIE_KUECHE_Balkanspezialitäten rdf:type owl:NamedIndividual ,
+                                                        xerl:XE_GASTRONOMIE_KUECHE ;
+                                               rdfs:label "Balkanspezialitäten" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Biergaststätte
+xerl:XE_GASTRONOMIE_KUECHE_Biergaststätte rdf:type owl:NamedIndividual ,
+                                                   xerl:XE_GASTRONOMIE_KUECHE ;
+                                          rdfs:label "Biergaststätte" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Biokost
+xerl:XE_GASTRONOMIE_KUECHE_Biokost rdf:type owl:NamedIndividual ,
+                                            xerl:XE_GASTRONOMIE_KUECHE ;
+                                   rdfs:label "Biokost" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Brasilianisch
+xerl:XE_GASTRONOMIE_KUECHE_Brasilianisch rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_GASTRONOMIE_KUECHE ;
+                                         rdfs:label "Brasilianisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Chinesisch
+xerl:XE_GASTRONOMIE_KUECHE_Chinesisch rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Chinesisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Deutsch
+xerl:XE_GASTRONOMIE_KUECHE_Deutsch rdf:type owl:NamedIndividual ,
+                                            xerl:XE_GASTRONOMIE_KUECHE ;
+                                   rdfs:label "Deutsch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Fischspezialitäten
+xerl:XE_GASTRONOMIE_KUECHE_Fischspezialitäten rdf:type owl:NamedIndividual ,
+                                                       xerl:XE_GASTRONOMIE_KUECHE ;
+                                              rdfs:label "Fischspezialitäten" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Französisch
+xerl:XE_GASTRONOMIE_KUECHE_Französisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Französisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Gourmetrestaurant
+xerl:XE_GASTRONOMIE_KUECHE_Gourmetrestaurant rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_GASTRONOMIE_KUECHE ;
+                                             rdfs:label "Gourmetrestaurant" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Griechisch
+xerl:XE_GASTRONOMIE_KUECHE_Griechisch rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Griechisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Hähnchenbraterei
+xerl:XE_GASTRONOMIE_KUECHE_Hähnchenbraterei rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_GASTRONOMIE_KUECHE ;
+                                            rdfs:label "Hähnchenbraterei" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Indisch
+xerl:XE_GASTRONOMIE_KUECHE_Indisch rdf:type owl:NamedIndividual ,
+                                            xerl:XE_GASTRONOMIE_KUECHE ;
+                                   rdfs:label "Indisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Indonesisch
+xerl:XE_GASTRONOMIE_KUECHE_Indonesisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Indonesisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_International
+xerl:XE_GASTRONOMIE_KUECHE_International rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_GASTRONOMIE_KUECHE ;
+                                         rdfs:label "International" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Iranisch
+xerl:XE_GASTRONOMIE_KUECHE_Iranisch rdf:type owl:NamedIndividual ,
+                                             xerl:XE_GASTRONOMIE_KUECHE ;
+                                    rdfs:label "Iranisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Italienisch
+xerl:XE_GASTRONOMIE_KUECHE_Italienisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Italienisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Japanisch
+xerl:XE_GASTRONOMIE_KUECHE_Japanisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Japanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Jugoslawisch
+xerl:XE_GASTRONOMIE_KUECHE_Jugoslawisch rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_GASTRONOMIE_KUECHE ;
+                                        rdfs:label "Jugoslawisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Koreanisch
+xerl:XE_GASTRONOMIE_KUECHE_Koreanisch rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Koreanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Kreolisch
+xerl:XE_GASTRONOMIE_KUECHE_Kreolisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Kreolisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Kroatisch
+xerl:XE_GASTRONOMIE_KUECHE_Kroatisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Kroatisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Libanesisch
+xerl:XE_GASTRONOMIE_KUECHE_Libanesisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Libanesisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Mediterran
+xerl:XE_GASTRONOMIE_KUECHE_Mediterran rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Mediterran" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Meeresfrüchte
+xerl:XE_GASTRONOMIE_KUECHE_Meeresfrüchte rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_GASTRONOMIE_KUECHE ;
+                                         rdfs:label "Meeresfrüchte" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Mexikanisch
+xerl:XE_GASTRONOMIE_KUECHE_Mexikanisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Mexikanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Mittelalterlich
+xerl:XE_GASTRONOMIE_KUECHE_Mittelalterlich rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_GASTRONOMIE_KUECHE ;
+                                           rdfs:label "Mittelalterlich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Mongolisch
+xerl:XE_GASTRONOMIE_KUECHE_Mongolisch rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Mongolisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Norwegisch
+xerl:XE_GASTRONOMIE_KUECHE_Norwegisch rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GASTRONOMIE_KUECHE ;
+                                      rdfs:label "Norwegisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Persisch
+xerl:XE_GASTRONOMIE_KUECHE_Persisch rdf:type owl:NamedIndividual ,
+                                             xerl:XE_GASTRONOMIE_KUECHE ;
+                                    rdfs:label "Persisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_RegionaleSpezialitäten
+xerl:XE_GASTRONOMIE_KUECHE_RegionaleSpezialitäten rdf:type owl:NamedIndividual ,
+                                                           xerl:XE_GASTRONOMIE_KUECHE ;
+                                                  rdfs:label "RegionaleSpezialitäten" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Rumänisch
+xerl:XE_GASTRONOMIE_KUECHE_Rumänisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Rumänisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Schweizerisch
+xerl:XE_GASTRONOMIE_KUECHE_Schweizerisch rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_GASTRONOMIE_KUECHE ;
+                                         rdfs:label "Schweizerisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Spanisch
+xerl:XE_GASTRONOMIE_KUECHE_Spanisch rdf:type owl:NamedIndividual ,
+                                             xerl:XE_GASTRONOMIE_KUECHE ;
+                                    rdfs:label "Spanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Steakhaus
+xerl:XE_GASTRONOMIE_KUECHE_Steakhaus rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Steakhaus" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Sushi
+xerl:XE_GASTRONOMIE_KUECHE_Sushi rdf:type owl:NamedIndividual ,
+                                          xerl:XE_GASTRONOMIE_KUECHE ;
+                                 rdfs:label "Sushi" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Südamerikanisch
+xerl:XE_GASTRONOMIE_KUECHE_Südamerikanisch rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_GASTRONOMIE_KUECHE ;
+                                           rdfs:label "Südamerikanisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Thailändisch
+xerl:XE_GASTRONOMIE_KUECHE_Thailändisch rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_GASTRONOMIE_KUECHE ;
+                                        rdfs:label "Thailändisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Türkisch
+xerl:XE_GASTRONOMIE_KUECHE_Türkisch rdf:type owl:NamedIndividual ,
+                                             xerl:XE_GASTRONOMIE_KUECHE ;
+                                    rdfs:label "Türkisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Ungarisch
+xerl:XE_GASTRONOMIE_KUECHE_Ungarisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Ungarisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Vegetarisch
+xerl:XE_GASTRONOMIE_KUECHE_Vegetarisch rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GASTRONOMIE_KUECHE ;
+                                       rdfs:label "Vegetarisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Vietnamesisch
+xerl:XE_GASTRONOMIE_KUECHE_Vietnamesisch rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_GASTRONOMIE_KUECHE ;
+                                         rdfs:label "Vietnamesisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Ägyptisch
+xerl:XE_GASTRONOMIE_KUECHE_Ägyptisch rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GASTRONOMIE_KUECHE ;
+                                     rdfs:label "Ägyptisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GASTRONOMIE_KUECHE_Österreichisch
+xerl:XE_GASTRONOMIE_KUECHE_Österreichisch rdf:type owl:NamedIndividual ,
+                                                   xerl:XE_GASTRONOMIE_KUECHE ;
+                                          rdfs:label "Österreichisch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Autofahrer
+xerl:XE_GEFAHRENGRUPPE_Autofahrer rdf:type owl:NamedIndividual ,
+                                           xerl:XE_GEFAHRENGRUPPE ;
+                                  rdfs:label "Autofahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_BlindeMenschen
+xerl:XE_GEFAHRENGRUPPE_BlindeMenschen rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GEFAHRENGRUPPE ;
+                                      rdfs:label "BlindeMenschen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Fußgänger
+xerl:XE_GEFAHRENGRUPPE_Fußgänger rdf:type owl:NamedIndividual ,
+                                          xerl:XE_GEFAHRENGRUPPE ;
+                                 rdfs:label "Fußgänger" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_GehbehinderteMenschen
+xerl:XE_GEFAHRENGRUPPE_GehbehinderteMenschen rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_GEFAHRENGRUPPE ;
+                                             rdfs:label "GehbehinderteMenschen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Inlinerfahrer
+xerl:XE_GEFAHRENGRUPPE_Inlinerfahrer rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GEFAHRENGRUPPE ;
+                                     rdfs:label "Inlinerfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Kanuten
+xerl:XE_GEFAHRENGRUPPE_Kanuten rdf:type owl:NamedIndividual ,
+                                        xerl:XE_GEFAHRENGRUPPE ;
+                               rdfs:label "Kanuten" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Kinder
+xerl:XE_GEFAHRENGRUPPE_Kinder rdf:type owl:NamedIndividual ,
+                                       xerl:XE_GEFAHRENGRUPPE ;
+                              rdfs:label "Kinder" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Motorradfahrer
+xerl:XE_GEFAHRENGRUPPE_Motorradfahrer rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GEFAHRENGRUPPE ;
+                                      rdfs:label "Motorradfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Mountainbiker
+xerl:XE_GEFAHRENGRUPPE_Mountainbiker rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GEFAHRENGRUPPE ;
+                                     rdfs:label "Mountainbiker" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Radfahrer
+xerl:XE_GEFAHRENGRUPPE_Radfahrer rdf:type owl:NamedIndividual ,
+                                          xerl:XE_GEFAHRENGRUPPE ;
+                                 rdfs:label "Radfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Reiter
+xerl:XE_GEFAHRENGRUPPE_Reiter rdf:type owl:NamedIndividual ,
+                                       xerl:XE_GEFAHRENGRUPPE ;
+                              rdfs:label "Reiter" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Rollstuhlfahrer
+xerl:XE_GEFAHRENGRUPPE_Rollstuhlfahrer rdf:type owl:NamedIndividual ,
+                                                xerl:XE_GEFAHRENGRUPPE ;
+                                       rdfs:label "Rollstuhlfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Senioren
+xerl:XE_GEFAHRENGRUPPE_Senioren rdf:type owl:NamedIndividual ,
+                                         xerl:XE_GEFAHRENGRUPPE ;
+                                rdfs:label "Senioren" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GEFAHRENGRUPPE_Wassersportler
+xerl:XE_GEFAHRENGRUPPE_Wassersportler rdf:type owl:NamedIndividual ,
+                                               xerl:XE_GEFAHRENGRUPPE ;
+                                      rdfs:label "Wassersportler" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Allgemeinmedizin
+xerl:XE_GESUND_FACH_Allgemeinmedizin rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GESUND_FACH ;
+                                     rdfs:label "Allgemeinmedizin" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Anaestesie
+xerl:XE_GESUND_FACH_Anaestesie rdf:type owl:NamedIndividual ,
+                                        xerl:XE_GESUND_FACH ;
+                               rdfs:label "Anaestesie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Augen
+xerl:XE_GESUND_FACH_Augen rdf:type owl:NamedIndividual ,
+                                   xerl:XE_GESUND_FACH ;
+                          rdfs:label "Augen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Chirurgie
+xerl:XE_GESUND_FACH_Chirurgie rdf:type owl:NamedIndividual ,
+                                       xerl:XE_GESUND_FACH ;
+                              rdfs:label "Chirurgie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Dermatologie
+xerl:XE_GESUND_FACH_Dermatologie rdf:type owl:NamedIndividual ,
+                                          xerl:XE_GESUND_FACH ;
+                                 rdfs:label "Dermatologie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Geriatrie
+xerl:XE_GESUND_FACH_Geriatrie rdf:type owl:NamedIndividual ,
+                                       xerl:XE_GESUND_FACH ;
+                              rdfs:label "Geriatrie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Gynaekologie
+xerl:XE_GESUND_FACH_Gynaekologie rdf:type owl:NamedIndividual ,
+                                          xerl:XE_GESUND_FACH ;
+                                 rdfs:label "Gynaekologie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_HalsNasenOhren
+xerl:XE_GESUND_FACH_HalsNasenOhren rdf:type owl:NamedIndividual ,
+                                            xerl:XE_GESUND_FACH ;
+                                   rdfs:label "HalsNasenOhren" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_InnereMedizin
+xerl:XE_GESUND_FACH_InnereMedizin rdf:type owl:NamedIndividual ,
+                                           xerl:XE_GESUND_FACH ;
+                                  rdfs:label "InnereMedizin" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Kardiologie
+xerl:XE_GESUND_FACH_Kardiologie rdf:type owl:NamedIndividual ,
+                                         xerl:XE_GESUND_FACH ;
+                                rdfs:label "Kardiologie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Kinder
+xerl:XE_GESUND_FACH_Kinder rdf:type owl:NamedIndividual ,
+                                    xerl:XE_GESUND_FACH ;
+                           rdfs:label "Kinder" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Neurologie
+xerl:XE_GESUND_FACH_Neurologie rdf:type owl:NamedIndividual ,
+                                        xerl:XE_GESUND_FACH ;
+                               rdfs:label "Neurologie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Orthopaedie
+xerl:XE_GESUND_FACH_Orthopaedie rdf:type owl:NamedIndividual ,
+                                         xerl:XE_GESUND_FACH ;
+                                rdfs:label "Orthopaedie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Palliativmedizin
+xerl:XE_GESUND_FACH_Palliativmedizin rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GESUND_FACH ;
+                                     rdfs:label "Palliativmedizin" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_PsychiatrieSucht
+xerl:XE_GESUND_FACH_PsychiatrieSucht rdf:type owl:NamedIndividual ,
+                                              xerl:XE_GESUND_FACH ;
+                                     rdfs:label "PsychiatrieSucht" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Radiologie
+xerl:XE_GESUND_FACH_Radiologie rdf:type owl:NamedIndividual ,
+                                        xerl:XE_GESUND_FACH ;
+                               rdfs:label "Radiologie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_SonstigesFachgebiet
+xerl:XE_GESUND_FACH_SonstigesFachgebiet rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_GESUND_FACH ;
+                                        rdfs:label "SonstigesFachgebiet" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Sportmedizin
+xerl:XE_GESUND_FACH_Sportmedizin rdf:type owl:NamedIndividual ,
+                                          xerl:XE_GESUND_FACH ;
+                                 rdfs:label "Sportmedizin" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Urologie
+xerl:XE_GESUND_FACH_Urologie rdf:type owl:NamedIndividual ,
+                                      xerl:XE_GESUND_FACH ;
+                             rdfs:label "Urologie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_GESUND_FACH_Zahnheilkunde
+xerl:XE_GESUND_FACH_Zahnheilkunde rdf:type owl:NamedIndividual ,
+                                           xerl:XE_GESUND_FACH ;
+                                  rdfs:label "Zahnheilkunde" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INDOOR_OUTDOOR_InOutdoor
+xerl:XE_INDOOR_OUTDOOR_InOutdoor rdf:type owl:NamedIndividual ,
+                                          xerl:XE_INDOOR_OUTDOOR ;
+                                 rdfs:label "InOutdoor" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INDOOR_OUTDOOR_Indoor
+xerl:XE_INDOOR_OUTDOOR_Indoor rdf:type owl:NamedIndividual ,
+                                       xerl:XE_INDOOR_OUTDOOR ;
+                              rdfs:label "Indoor" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INDOOR_OUTDOOR_Outdoor
+xerl:XE_INDOOR_OUTDOOR_Outdoor rdf:type owl:NamedIndividual ,
+                                        xerl:XE_INDOOR_OUTDOOR ;
+                               rdfs:label "Outdoor" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Audio
+xerl:XE_INFOART_Audio rdf:type owl:NamedIndividual ,
+                               xerl:XE_INFOART ;
+                      rdfs:label "Audio" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Bild
+xerl:XE_INFOART_Bild rdf:type owl:NamedIndividual ,
+                              xerl:XE_INFOART ;
+                     rdfs:label "Bild" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Buchung
+xerl:XE_INFOART_Buchung rdf:type owl:NamedIndividual ,
+                                 xerl:XE_INFOART ;
+                        rdfs:label "Buchung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Datenbankobjekt
+xerl:XE_INFOART_Datenbankobjekt rdf:type owl:NamedIndividual ,
+                                         xerl:XE_INFOART ;
+                                rdfs:label "Datenbankobjekt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Dokument
+xerl:XE_INFOART_Dokument rdf:type owl:NamedIndividual ,
+                                  xerl:XE_INFOART ;
+                         rdfs:label "Dokument" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Geometrie
+xerl:XE_INFOART_Geometrie rdf:type owl:NamedIndividual ,
+                                   xerl:XE_INFOART ;
+                          rdfs:label "Geometrie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Sonstiges
+xerl:XE_INFOART_Sonstiges rdf:type owl:NamedIndividual ,
+                                   xerl:XE_INFOART ;
+                          rdfs:label "Sonstiges" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Video
+xerl:XE_INFOART_Video rdf:type owl:NamedIndividual ,
+                               xerl:XE_INFOART ;
+                      rdfs:label "Video" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_INFOART_Website
+xerl:XE_INFOART_Website rdf:type owl:NamedIndividual ,
+                                 xerl:XE_INFOART ;
+                        rdfs:label "Website" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_BEDEUTUNG_Lokal
+xerl:XE_KLASS_BEDEUTUNG_Lokal rdf:type owl:NamedIndividual ,
+                                       xerl:XE_KLASS_BEDEUTUNG ;
+                              rdfs:label "Lokal" ;
+                              skos:definition "Fachlich von örtlichem Interesse (Gemeindegebiet)"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_BEDEUTUNG_Regional
+xerl:XE_KLASS_BEDEUTUNG_Regional rdf:type owl:NamedIndividual ,
+                                          xerl:XE_KLASS_BEDEUTUNG ;
+                                 rdfs:label "Regional" ;
+                                 skos:definition "Fachlich von regionalem Interesse (Region und Nachbarregionen)"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_BEDEUTUNG_Ueberregional
+xerl:XE_KLASS_BEDEUTUNG_Ueberregional rdf:type owl:NamedIndividual ,
+                                               xerl:XE_KLASS_BEDEUTUNG ;
+                                      rdfs:label "Ueberregional" ;
+                                      skos:definition "Fachlich von überregionalem Interesse (landesweit und aus anderen Ländern)"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_TOURISMUS_Lokalsehenswert
+xerl:XE_KLASS_TOURISMUS_Lokalsehenswert rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_KLASS_TOURISMUS ;
+                                        rdfs:label "Lokalsehenswert" ;
+                                        skos:definition "Touristisch von örtlichem Interesse"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_TOURISMUS_Regionalsehenswert
+xerl:XE_KLASS_TOURISMUS_Regionalsehenswert rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_KLASS_TOURISMUS ;
+                                           rdfs:label "Regionalsehenswert" ;
+                                           skos:definition "Touristisch von regionalem Interesse (Besucher aus Region und Nachbarregionen)"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KLASS_TOURISMUS_Ueberregionalsehenswert
+xerl:XE_KLASS_TOURISMUS_Ueberregionalsehenswert rdf:type owl:NamedIndividual ,
+                                                         xerl:XE_KLASS_TOURISMUS ;
+                                                rdfs:label "Ueberregionalsehenswert" ;
+                                                skos:definition "Touristisch von überregionalem Interesse (landesweit und aus anderen Ländern)"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KNOTENTYP_Endpunkt
+xerl:XE_KNOTENTYP_Endpunkt rdf:type owl:NamedIndividual ,
+                                    xerl:XE_KNOTENTYP ;
+                           rdfs:label "Endpunkt" ;
+                           skos:definition "Endpunkt im topologischen Wegenetz."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KNOTENTYP_Haltepunkt
+xerl:XE_KNOTENTYP_Haltepunkt rdf:type owl:NamedIndividual ,
+                                      xerl:XE_KNOTENTYP ;
+                             rdfs:label "Haltepunkt" ;
+                             skos:definition "Haltepunkte sitzen zwischen maximal zwei aufeinanderfolgenden Abschnitten. "@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_KNOTENTYP_Kreuzung
+xerl:XE_KNOTENTYP_Kreuzung rdf:type owl:NamedIndividual ,
+                                    xerl:XE_KNOTENTYP ;
+                           rdfs:label "Kreuzung" ;
+                           skos:definition "Kreuzungspunkte verbinden mindestens drei Wegabschnitte miteinander. In der Realwelt können dies auch Kreisverkehre sein."@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_AufEigenstaendigemPfad
+xerl:XE_LWG_WEGABSCHNITT_AufEigenstaendigemPfad rdf:type owl:NamedIndividual ,
+                                                         xerl:XE_LWG_WEGABSCHNITT ;
+                                                rdfs:label "AufEigenstaendigemPfad" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_AufForstLandwirtschaftsweg
+xerl:XE_LWG_WEGABSCHNITT_AufForstLandwirtschaftsweg rdf:type owl:NamedIndividual ,
+                                                             xerl:XE_LWG_WEGABSCHNITT ;
+                                                    rdfs:label "AufForstLandwirtschaftsweg" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_AufFusswegFussgaengerzone
+xerl:XE_LWG_WEGABSCHNITT_AufFusswegFussgaengerzone rdf:type owl:NamedIndividual ,
+                                                            xerl:XE_LWG_WEGABSCHNITT ;
+                                                   rdfs:label "AufFusswegFussgaengerzone" ;
+                                                   skos:definition "Privilegierung der Fußgänger"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_AufOeffStrasseMarkiert
+xerl:XE_LWG_WEGABSCHNITT_AufOeffStrasseMarkiert rdf:type owl:NamedIndividual ,
+                                                         xerl:XE_LWG_WEGABSCHNITT ;
+                                                rdfs:label "AufOeffStrasseMarkiert" ;
+                                                skos:definition "Auf der Straße ab mit Markierung abgetrennt, Mehrzweck- oder Schutzstreifen "@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_AufOeffStrasseOhneBegleitweg
+xerl:XE_LWG_WEGABSCHNITT_AufOeffStrasseOhneBegleitweg rdf:type owl:NamedIndividual ,
+                                                               xerl:XE_LWG_WEGABSCHNITT ;
+                                                      rdfs:label "AufOeffStrasseOhneBegleitweg" ;
+                                                      skos:definition "ggf. mit Mehrzweck- oder Schutzstreifen "@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_NebenOeffStrasseAufBegleitweg
+xerl:XE_LWG_WEGABSCHNITT_NebenOeffStrasseAufBegleitweg rdf:type owl:NamedIndividual ,
+                                                                xerl:XE_LWG_WEGABSCHNITT ;
+                                                       rdfs:label "NebenOeffStrasseAufBegleitweg" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_Unbekannt
+xerl:XE_LWG_WEGABSCHNITT_Unbekannt rdf:type owl:NamedIndividual ,
+                                            xerl:XE_LWG_WEGABSCHNITT ;
+                                   rdfs:label "Unbekannt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_LWG_WEGABSCHNITT_VerkehrsberuhigterBereich
+xerl:XE_LWG_WEGABSCHNITT_VerkehrsberuhigterBereich rdf:type owl:NamedIndividual ,
+                                                            xerl:XE_LWG_WEGABSCHNITT ;
+                                                   rdfs:label "VerkehrsberuhigterBereich" ;
+                                                   skos:definition "max. Tempo 30"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Biosphaerenreservat
+xerl:XE_NATURSCHUTZSTATUS_Biosphaerenreservat rdf:type owl:NamedIndividual ,
+                                                       xerl:XE_NATURSCHUTZSTATUS ;
+                                              rdfs:label "Biosphaerenreservat" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_FFHGebiet
+xerl:XE_NATURSCHUTZSTATUS_FFHGebiet rdf:type owl:NamedIndividual ,
+                                             xerl:XE_NATURSCHUTZSTATUS ;
+                                    rdfs:label "FFHGebiet" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_GeschuetzterLandschaftsbestandteil
+xerl:XE_NATURSCHUTZSTATUS_GeschuetzterLandschaftsbestandteil rdf:type owl:NamedIndividual ,
+                                                                      xerl:XE_NATURSCHUTZSTATUS ;
+                                                             rdfs:label "GeschuetzterLandschaftsbestandteil" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_GeschuetztesBiotop
+xerl:XE_NATURSCHUTZSTATUS_GeschuetztesBiotop rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_NATURSCHUTZSTATUS ;
+                                             rdfs:label "GeschuetztesBiotop" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Landschaftsschutzgebiet
+xerl:XE_NATURSCHUTZSTATUS_Landschaftsschutzgebiet rdf:type owl:NamedIndividual ,
+                                                           xerl:XE_NATURSCHUTZSTATUS ;
+                                                  rdfs:label "Landschaftsschutzgebiet" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Nationalpark
+xerl:XE_NATURSCHUTZSTATUS_Nationalpark rdf:type owl:NamedIndividual ,
+                                                xerl:XE_NATURSCHUTZSTATUS ;
+                                       rdfs:label "Nationalpark" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Naturdenkmal
+xerl:XE_NATURSCHUTZSTATUS_Naturdenkmal rdf:type owl:NamedIndividual ,
+                                                xerl:XE_NATURSCHUTZSTATUS ;
+                                       rdfs:label "Naturdenkmal" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Naturpark
+xerl:XE_NATURSCHUTZSTATUS_Naturpark rdf:type owl:NamedIndividual ,
+                                             xerl:XE_NATURSCHUTZSTATUS ;
+                                    rdfs:label "Naturpark" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Naturschutzgebiet
+xerl:XE_NATURSCHUTZSTATUS_Naturschutzgebiet rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_NATURSCHUTZSTATUS ;
+                                            rdfs:label "Naturschutzgebiet" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Naturwaldzelle
+xerl:XE_NATURSCHUTZSTATUS_Naturwaldzelle rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_NATURSCHUTZSTATUS ;
+                                         rdfs:label "Naturwaldzelle" ;
+                                         skos:definition "Eine Einstufung aus dem Forstrecht"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NATURSCHUTZSTATUS_Vogelschutzgebiet
+xerl:XE_NATURSCHUTZSTATUS_Vogelschutzgebiet rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_NATURSCHUTZSTATUS ;
+                                            rdfs:label "Vogelschutzgebiet" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_EUR
+xerl:XE_NUTSEBENE_EUR rdf:type owl:NamedIndividual ,
+                               xerl:XE_NUTSEBENE ;
+                      rdfs:label "EUR" ;
+                      skos:definition "Europa"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_GLB
+xerl:XE_NUTSEBENE_GLB rdf:type owl:NamedIndividual ,
+                               xerl:XE_NUTSEBENE ;
+                      rdfs:label "GLB" ;
+                      skos:definition "Global, Welt-"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_LAU1
+xerl:XE_NUTSEBENE_LAU1 rdf:type owl:NamedIndividual ,
+                                xerl:XE_NUTSEBENE ;
+                       rdfs:label "LAU1" ;
+                       skos:definition "Behörde/Institution einer Verwaltungsgemeinschaft"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_LAU2
+xerl:XE_NUTSEBENE_LAU2 rdf:type owl:NamedIndividual ,
+                                xerl:XE_NUTSEBENE ;
+                       rdfs:label "LAU2" ;
+                       skos:definition "Behörde/Institution einer Gemeinde"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_NUTS0
+xerl:XE_NUTSEBENE_NUTS0 rdf:type owl:NamedIndividual ,
+                                 xerl:XE_NUTSEBENE ;
+                        rdfs:label "NUTS0" ;
+                        skos:definition "Behörde/Institution eines Staats, z.B. Deutschlands"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_NUTS1
+xerl:XE_NUTSEBENE_NUTS1 rdf:type owl:NamedIndividual ,
+                                 xerl:XE_NUTSEBENE ;
+                        rdfs:label "NUTS1" ;
+                        skos:definition "Behörde/Institution eines Bundeslands"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_NUTS2
+xerl:XE_NUTSEBENE_NUTS2 rdf:type owl:NamedIndividual ,
+                                 xerl:XE_NUTSEBENE ;
+                        rdfs:label "NUTS2" ;
+                        skos:definition "Behörde/Institution eines Regierungsbezirks"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTSEBENE_NUTS3
+xerl:XE_NUTSEBENE_NUTS3 rdf:type owl:NamedIndividual ,
+                                 xerl:XE_NUTSEBENE ;
+                        rdfs:label "NUTS3" ;
+                        skos:definition "Behörde/Institution auf Kreisebene oder einer kreisfreien Stadt"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTZUNGSSTATUS_AndersGenutzt
+xerl:XE_NUTZUNGSSTATUS_AndersGenutzt rdf:type owl:NamedIndividual ,
+                                              xerl:XE_NUTZUNGSSTATUS ;
+                                     rdfs:label "AndersGenutzt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTZUNGSSTATUS_NichtGenutzt
+xerl:XE_NUTZUNGSSTATUS_NichtGenutzt rdf:type owl:NamedIndividual ,
+                                             xerl:XE_NUTZUNGSSTATUS ;
+                                    rdfs:label "NichtGenutzt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_NUTZUNGSSTATUS_UrspruenglichGenutzt
+xerl:XE_NUTZUNGSSTATUS_UrspruenglichGenutzt rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_NUTZUNGSSTATUS ;
+                                            rdfs:label "UrspruenglichGenutzt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG_IstAehnlichWie
+xerl:XE_OVIBEZIEHUNG_IstAehnlichWie rdf:type owl:NamedIndividual ,
+                                             xerl:XE_OVIBEZIEHUNG ;
+                                    rdfs:label "IstAehnlichWie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG_IstBestandteilVon
+xerl:XE_OVIBEZIEHUNG_IstBestandteilVon rdf:type owl:NamedIndividual ,
+                                                xerl:XE_OVIBEZIEHUNG ;
+                                       rdfs:label "IstBestandteilVon" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG_IstFilialeVon
+xerl:XE_OVIBEZIEHUNG_IstFilialeVon rdf:type owl:NamedIndividual ,
+                                            xerl:XE_OVIBEZIEHUNG ;
+                                   rdfs:label "IstFilialeVon" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG_IstInDerNaeheVon
+xerl:XE_OVIBEZIEHUNG_IstInDerNaeheVon rdf:type owl:NamedIndividual ,
+                                               xerl:XE_OVIBEZIEHUNG ;
+                                      rdfs:label "IstInDerNaeheVon" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG_IstNachbarVon
+xerl:XE_OVIBEZIEHUNG_IstNachbarVon rdf:type owl:NamedIndividual ,
+                                            xerl:XE_OVIBEZIEHUNG ;
+                                   rdfs:label "IstNachbarVon" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_OVIBEZIEHUNG_hatVeranstaltungsort
+xerl:XE_OVIBEZIEHUNG_hatVeranstaltungsort rdf:type owl:NamedIndividual ,
+                                                   xerl:XE_OVIBEZIEHUNG ;
+                                          rdfs:label "hatVeranstaltungsort" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_PAEDAGOGIK_Montessori
+xerl:XE_PAEDAGOGIK_Montessori rdf:type owl:NamedIndividual ,
+                                       xerl:XE_PAEDAGOGIK ;
+                              rdfs:label "Montessori" ;
+                              skos:definition "Montessoripädagogik"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_PAEDAGOGIK_Waldorf
+xerl:XE_PAEDAGOGIK_Waldorf rdf:type owl:NamedIndividual ,
+                                    xerl:XE_PAEDAGOGIK ;
+                           rdfs:label "Waldorf" ;
+                           skos:definition "Waldorfpädagogik"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Arbeit
+xerl:XE_SOZIALANGEBOT_Arbeit rdf:type owl:NamedIndividual ,
+                                      xerl:XE_SOZIALANGEBOT ;
+                             rdfs:label "Arbeit" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Beratung
+xerl:XE_SOZIALANGEBOT_Beratung rdf:type owl:NamedIndividual ,
+                                        xerl:XE_SOZIALANGEBOT ;
+                               rdfs:label "Beratung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Betreuung
+xerl:XE_SOZIALANGEBOT_Betreuung rdf:type owl:NamedIndividual ,
+                                         xerl:XE_SOZIALANGEBOT ;
+                                rdfs:label "Betreuung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Bildung
+xerl:XE_SOZIALANGEBOT_Bildung rdf:type owl:NamedIndividual ,
+                                       xerl:XE_SOZIALANGEBOT ;
+                              rdfs:label "Bildung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Essen
+xerl:XE_SOZIALANGEBOT_Essen rdf:type owl:NamedIndividual ,
+                                     xerl:XE_SOZIALANGEBOT ;
+                            rdfs:label "Essen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Notruf
+xerl:XE_SOZIALANGEBOT_Notruf rdf:type owl:NamedIndividual ,
+                                      xerl:XE_SOZIALANGEBOT ;
+                             rdfs:label "Notruf" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Pflege
+xerl:XE_SOZIALANGEBOT_Pflege rdf:type owl:NamedIndividual ,
+                                      xerl:XE_SOZIALANGEBOT ;
+                             rdfs:label "Pflege" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Selbsthilfe
+xerl:XE_SOZIALANGEBOT_Selbsthilfe rdf:type owl:NamedIndividual ,
+                                           xerl:XE_SOZIALANGEBOT ;
+                                  rdfs:label "Selbsthilfe" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Therapie
+xerl:XE_SOZIALANGEBOT_Therapie rdf:type owl:NamedIndividual ,
+                                        xerl:XE_SOZIALANGEBOT ;
+                               rdfs:label "Therapie" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Transport
+xerl:XE_SOZIALANGEBOT_Transport rdf:type owl:NamedIndividual ,
+                                         xerl:XE_SOZIALANGEBOT ;
+                                rdfs:label "Transport" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Treffpunkt
+xerl:XE_SOZIALANGEBOT_Treffpunkt rdf:type owl:NamedIndividual ,
+                                          xerl:XE_SOZIALANGEBOT ;
+                                 rdfs:label "Treffpunkt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Unterstuetzung
+xerl:XE_SOZIALANGEBOT_Unterstuetzung rdf:type owl:NamedIndividual ,
+                                              xerl:XE_SOZIALANGEBOT ;
+                                     rdfs:label "Unterstuetzung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_SOZIALANGEBOT_Wohnen
+xerl:XE_SOZIALANGEBOT_Wohnen rdf:type owl:NamedIndividual ,
+                                      xerl:XE_SOZIALANGEBOT ;
+                             rdfs:label "Wohnen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_STRECKENVARIANTE_Alternativstrecke
+xerl:XE_STRECKENVARIANTE_Alternativstrecke rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_STRECKENVARIANTE ;
+                                           rdfs:label "Alternativstrecke" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_STRECKENVARIANTE_Hauptstrecke
+xerl:XE_STRECKENVARIANTE_Hauptstrecke rdf:type owl:NamedIndividual ,
+                                               xerl:XE_STRECKENVARIANTE ;
+                                      rdfs:label "Hauptstrecke" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_STRECKENVARIANTE_Stichweg
+xerl:XE_STRECKENVARIANTE_Stichweg rdf:type owl:NamedIndividual ,
+                                           xerl:XE_STRECKENVARIANTE ;
+                                  rdfs:label "Stichweg" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TAGESZEIT_Abends
+xerl:XE_TAGESZEIT_Abends rdf:type owl:NamedIndividual ,
+                                  xerl:XE_TAGESZEIT ;
+                         rdfs:label "Abends" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TAGESZEIT_Ganztags
+xerl:XE_TAGESZEIT_Ganztags rdf:type owl:NamedIndividual ,
+                                    xerl:XE_TAGESZEIT ;
+                           rdfs:label "Ganztags" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TAGESZEIT_Halbtags
+xerl:XE_TAGESZEIT_Halbtags rdf:type owl:NamedIndividual ,
+                                    xerl:XE_TAGESZEIT ;
+                           rdfs:label "Halbtags" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TAGESZEIT_Mehrtaegig
+xerl:XE_TAGESZEIT_Mehrtaegig rdf:type owl:NamedIndividual ,
+                                      xerl:XE_TAGESZEIT ;
+                             rdfs:label "Mehrtaegig" ;
+                             skos:definition "Internatsschulen"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Bund
+xerl:XE_TRAEGERART_Bund rdf:type owl:NamedIndividual ,
+                                 xerl:XE_TRAEGERART ;
+                        rdfs:label "Bund" ;
+                        skos:definition "Bund"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Gewerblich
+xerl:XE_TRAEGERART_Gewerblich rdf:type owl:NamedIndividual ,
+                                       xerl:XE_TRAEGERART ;
+                              rdfs:label "Gewerblich" ;
+                              skos:definition "Unternehmen, Gesellschaften"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Kirchlich
+xerl:XE_TRAEGERART_Kirchlich rdf:type owl:NamedIndividual ,
+                                      xerl:XE_TRAEGERART ;
+                             rdfs:label "Kirchlich" ;
+                             skos:definition "Kirche oder Kirchliche Organisation"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Kommunal
+xerl:XE_TRAEGERART_Kommunal rdf:type owl:NamedIndividual ,
+                                     xerl:XE_TRAEGERART ;
+                            rdfs:label "Kommunal" ;
+                            skos:definition "Gemeinde Stadt Kreis"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Land
+xerl:XE_TRAEGERART_Land rdf:type owl:NamedIndividual ,
+                                 xerl:XE_TRAEGERART ;
+                        rdfs:label "Land" ;
+                        skos:definition "Land"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Privat
+xerl:XE_TRAEGERART_Privat rdf:type owl:NamedIndividual ,
+                                   xerl:XE_TRAEGERART ;
+                          rdfs:label "Privat" ;
+                          skos:definition "Privatperson"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_Stiftung
+xerl:XE_TRAEGERART_Stiftung rdf:type owl:NamedIndividual ,
+                                     xerl:XE_TRAEGERART ;
+                            rdfs:label "Stiftung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TRAEGERART_VereinVerband
+xerl:XE_TRAEGERART_VereinVerband rdf:type owl:NamedIndividual ,
+                                          xerl:XE_TRAEGERART ;
+                                 rdfs:label "VereinVerband" ;
+                                 skos:definition "Vereine oder Verbände"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Dienstag
+xerl:XE_TURNUSTAG_Dienstag rdf:type owl:NamedIndividual ,
+                                    xerl:XE_TURNUSTAG ;
+                           rdfs:label "Dienstag" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Donnerstag
+xerl:XE_TURNUSTAG_Donnerstag rdf:type owl:NamedIndividual ,
+                                      xerl:XE_TURNUSTAG ;
+                             rdfs:label "Donnerstag" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Freitag
+xerl:XE_TURNUSTAG_Freitag rdf:type owl:NamedIndividual ,
+                                   xerl:XE_TURNUSTAG ;
+                          rdfs:label "Freitag" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Mittwoch
+xerl:XE_TURNUSTAG_Mittwoch rdf:type owl:NamedIndividual ,
+                                    xerl:XE_TURNUSTAG ;
+                           rdfs:label "Mittwoch" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Montag
+xerl:XE_TURNUSTAG_Montag rdf:type owl:NamedIndividual ,
+                                  xerl:XE_TURNUSTAG ;
+                         rdfs:label "Montag" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Samstag
+xerl:XE_TURNUSTAG_Samstag rdf:type owl:NamedIndividual ,
+                                   xerl:XE_TURNUSTAG ;
+                          rdfs:label "Samstag" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUSTAG_Sonntag
+xerl:XE_TURNUSTAG_Sonntag rdf:type owl:NamedIndividual ,
+                                   xerl:XE_TURNUSTAG ;
+                          rdfs:label "Sonntag" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUS_Jaehrlich
+xerl:XE_TURNUS_Jaehrlich rdf:type owl:NamedIndividual ,
+                                  xerl:XE_TURNUS ;
+                         rdfs:label "Jaehrlich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUS_Monatlich
+xerl:XE_TURNUS_Monatlich rdf:type owl:NamedIndividual ,
+                                  xerl:XE_TURNUS ;
+                         rdfs:label "Monatlich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUS_Taeglich
+xerl:XE_TURNUS_Taeglich rdf:type owl:NamedIndividual ,
+                                 xerl:XE_TURNUS ;
+                        rdfs:label "Taeglich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_TURNUS_Woechentlich
+xerl:XE_TURNUS_Woechentlich rdf:type owl:NamedIndividual ,
+                                     xerl:XE_TURNUS ;
+                            rdfs:label "Woechentlich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Abfall
+xerl:XE_VERENTSORG_FACH_Abfall rdf:type owl:NamedIndividual ,
+                                        xerl:XE_VERENTSORG_FACH ;
+                               rdfs:label "Abfall" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Abwasser
+xerl:XE_VERENTSORG_FACH_Abwasser rdf:type owl:NamedIndividual ,
+                                          xerl:XE_VERENTSORG_FACH ;
+                                 rdfs:label "Abwasser" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Gas
+xerl:XE_VERENTSORG_FACH_Gas rdf:type owl:NamedIndividual ,
+                                     xerl:XE_VERENTSORG_FACH ;
+                            rdfs:label "Gas" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Strom
+xerl:XE_VERENTSORG_FACH_Strom rdf:type owl:NamedIndividual ,
+                                       xerl:XE_VERENTSORG_FACH ;
+                              rdfs:label "Strom" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Telekommunikation
+xerl:XE_VERENTSORG_FACH_Telekommunikation rdf:type owl:NamedIndividual ,
+                                                   xerl:XE_VERENTSORG_FACH ;
+                                          rdfs:label "Telekommunikation" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Waerme
+xerl:XE_VERENTSORG_FACH_Waerme rdf:type owl:NamedIndividual ,
+                                        xerl:XE_VERENTSORG_FACH ;
+                               rdfs:label "Waerme" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERENTSORG_FACH_Wasser
+xerl:XE_VERENTSORG_FACH_Wasser rdf:type owl:NamedIndividual ,
+                                        xerl:XE_VERENTSORG_FACH ;
+                               rdfs:label "Wasser" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERFUEGBARKEIT_NichtSofortVerfuegbar
+xerl:XE_VERFUEGBARKEIT_NichtSofortVerfuegbar rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_VERFUEGBARKEIT ;
+                                             rdfs:label "NichtSofortVerfuegbar" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERFUEGBARKEIT_NichtVerfuegbar
+xerl:XE_VERFUEGBARKEIT_NichtVerfuegbar rdf:type owl:NamedIndividual ,
+                                                xerl:XE_VERFUEGBARKEIT ;
+                                       rdfs:label "NichtVerfuegbar" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_VERFUEGBARKEIT_SofortVerfuegbar
+xerl:XE_VERFUEGBARKEIT_SofortVerfuegbar rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_VERFUEGBARKEIT ;
+                                        rdfs:label "SofortVerfuegbar" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Anliegerstrasse
+xerl:XE_WGF_WEGABSCHNITT_Anliegerstrasse rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_WGF_WEGABSCHNITT ;
+                                         rdfs:label "Anliegerstrasse" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_BusspurRadfahrerFrei
+xerl:XE_WGF_WEGABSCHNITT_BusspurRadfahrerFrei rdf:type owl:NamedIndividual ,
+                                                       xerl:XE_WGF_WEGABSCHNITT ;
+                                              rdfs:label "BusspurRadfahrerFrei" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_EigenerWeg
+xerl:XE_WGF_WEGABSCHNITT_EigenerWeg rdf:type owl:NamedIndividual ,
+                                             xerl:XE_WGF_WEGABSCHNITT ;
+                                    rdfs:label "EigenerWeg" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Fahrradstrasse
+xerl:XE_WGF_WEGABSCHNITT_Fahrradstrasse rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_WGF_WEGABSCHNITT ;
+                                        rdfs:label "Fahrradstrasse" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_FussRadwegGemeinsam
+xerl:XE_WGF_WEGABSCHNITT_FussRadwegGemeinsam rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_WGF_WEGABSCHNITT ;
+                                             rdfs:label "FussRadwegGemeinsam" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_FussRadwegGetrennt
+xerl:XE_WGF_WEGABSCHNITT_FussRadwegGetrennt rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_WGF_WEGABSCHNITT ;
+                                            rdfs:label "FussRadwegGetrennt" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Fussgaengerbereich
+xerl:XE_WGF_WEGABSCHNITT_Fussgaengerbereich rdf:type owl:NamedIndividual ,
+                                                     xerl:XE_WGF_WEGABSCHNITT ;
+                                            rdfs:label "Fussgaengerbereich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_FussgaengerzoneRadfahrerFrei
+xerl:XE_WGF_WEGABSCHNITT_FussgaengerzoneRadfahrerFrei rdf:type owl:NamedIndividual ,
+                                                               xerl:XE_WGF_WEGABSCHNITT ;
+                                                      rdfs:label "FussgaengerzoneRadfahrerFrei" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_FussgaengerzoneZeitlichBegrenzteOeffnung
+xerl:XE_WGF_WEGABSCHNITT_FussgaengerzoneZeitlichBegrenzteOeffnung rdf:type owl:NamedIndividual ,
+                                                                           xerl:XE_WGF_WEGABSCHNITT ;
+                                                                  rdfs:label "FussgaengerzoneZeitlichBegrenzteOeffnung" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_GehwegRadfahrerFrei
+xerl:XE_WGF_WEGABSCHNITT_GehwegRadfahrerFrei rdf:type owl:NamedIndividual ,
+                                                      xerl:XE_WGF_WEGABSCHNITT ;
+                                             rdfs:label "GehwegRadfahrerFrei" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Mehrzweckstreifen
+xerl:XE_WGF_WEGABSCHNITT_Mehrzweckstreifen rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_WGF_WEGABSCHNITT ;
+                                           rdfs:label "Mehrzweckstreifen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Radfahrstreifen
+xerl:XE_WGF_WEGABSCHNITT_Radfahrstreifen rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_WGF_WEGABSCHNITT ;
+                                         rdfs:label "Radfahrstreifen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Radweg
+xerl:XE_WGF_WEGABSCHNITT_Radweg rdf:type owl:NamedIndividual ,
+                                         xerl:XE_WGF_WEGABSCHNITT ;
+                                rdfs:label "Radweg" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Sonstige
+xerl:XE_WGF_WEGABSCHNITT_Sonstige rdf:type owl:NamedIndividual ,
+                                           xerl:XE_WGF_WEGABSCHNITT ;
+                                  rdfs:label "Sonstige" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Strasse
+xerl:XE_WGF_WEGABSCHNITT_Strasse rdf:type owl:NamedIndividual ,
+                                          xerl:XE_WGF_WEGABSCHNITT ;
+                                 rdfs:label "Strasse" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_VerkehrsberuhigterBereich
+xerl:XE_WGF_WEGABSCHNITT_VerkehrsberuhigterBereich rdf:type owl:NamedIndividual ,
+                                                            xerl:XE_WGF_WEGABSCHNITT ;
+                                                   rdfs:label "VerkehrsberuhigterBereich" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_WGF_WEGABSCHNITT_Zone30
+xerl:XE_WGF_WEGABSCHNITT_Zone30 rdf:type owl:NamedIndividual ,
+                                         xerl:XE_WGF_WEGABSCHNITT ;
+                                rdfs:label "Zone30" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_AktiveBestager
+xerl:XE_ZIELGRUPPE_AktiveBestager rdf:type owl:NamedIndividual ,
+                                           xerl:XE_ZIELGRUPPE ;
+                                  rdfs:label "AktiveBestager" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Arbeitslose
+xerl:XE_ZIELGRUPPE_Arbeitslose rdf:type owl:NamedIndividual ,
+                                        xerl:XE_ZIELGRUPPE ;
+                               rdfs:label "Arbeitslose" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_AuslaendischeMitbuerger
+xerl:XE_ZIELGRUPPE_AuslaendischeMitbuerger rdf:type owl:NamedIndividual ,
+                                                    xerl:XE_ZIELGRUPPE ;
+                                           rdfs:label "AuslaendischeMitbuerger" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Autofahrer
+xerl:XE_ZIELGRUPPE_Autofahrer rdf:type owl:NamedIndividual ,
+                                       xerl:XE_ZIELGRUPPE ;
+                              rdfs:label "Autofahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Behinderte
+xerl:XE_ZIELGRUPPE_Behinderte rdf:type owl:NamedIndividual ,
+                                       xerl:XE_ZIELGRUPPE ;
+                              rdfs:label "Behinderte" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_ErwachseneSingles
+xerl:XE_ZIELGRUPPE_ErwachseneSingles rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ZIELGRUPPE ;
+                                     rdfs:label "ErwachseneSingles" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Familien
+xerl:XE_ZIELGRUPPE_Familien rdf:type owl:NamedIndividual ,
+                                     xerl:XE_ZIELGRUPPE ;
+                            rdfs:label "Familien" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Frauen
+xerl:XE_ZIELGRUPPE_Frauen rdf:type owl:NamedIndividual ,
+                                   xerl:XE_ZIELGRUPPE ;
+                          rdfs:label "Frauen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Geschaeftsreisende
+xerl:XE_ZIELGRUPPE_Geschaeftsreisende rdf:type owl:NamedIndividual ,
+                                               xerl:XE_ZIELGRUPPE ;
+                                      rdfs:label "Geschaeftsreisende" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Inlinefahrer
+xerl:XE_ZIELGRUPPE_Inlinefahrer rdf:type owl:NamedIndividual ,
+                                         xerl:XE_ZIELGRUPPE ;
+                                rdfs:label "Inlinefahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Jeder
+xerl:XE_ZIELGRUPPE_Jeder rdf:type owl:NamedIndividual ,
+                                  xerl:XE_ZIELGRUPPE ;
+                         rdfs:label "Jeder" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_JederTourist
+xerl:XE_ZIELGRUPPE_JederTourist rdf:type owl:NamedIndividual ,
+                                         xerl:XE_ZIELGRUPPE ;
+                                rdfs:label "JederTourist" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Jugendliche
+xerl:XE_ZIELGRUPPE_Jugendliche rdf:type owl:NamedIndividual ,
+                                        xerl:XE_ZIELGRUPPE ;
+                               rdfs:label "Jugendliche" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_JungeSinglesPaare
+xerl:XE_ZIELGRUPPE_JungeSinglesPaare rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ZIELGRUPPE ;
+                                     rdfs:label "JungeSinglesPaare" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Kinder
+xerl:XE_ZIELGRUPPE_Kinder rdf:type owl:NamedIndividual ,
+                                   xerl:XE_ZIELGRUPPE ;
+                          rdfs:label "Kinder" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Landwirte
+xerl:XE_ZIELGRUPPE_Landwirte rdf:type owl:NamedIndividual ,
+                                      xerl:XE_ZIELGRUPPE ;
+                             rdfs:label "Landwirte" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Maenner
+xerl:XE_ZIELGRUPPE_Maenner rdf:type owl:NamedIndividual ,
+                                    xerl:XE_ZIELGRUPPE ;
+                           rdfs:label "Maenner" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Motorradfahrer
+xerl:XE_ZIELGRUPPE_Motorradfahrer rdf:type owl:NamedIndividual ,
+                                           xerl:XE_ZIELGRUPPE ;
+                                  rdfs:label "Motorradfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Mountainbiker
+xerl:XE_ZIELGRUPPE_Mountainbiker rdf:type owl:NamedIndividual ,
+                                          xerl:XE_ZIELGRUPPE ;
+                                 rdfs:label "Mountainbiker" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Obdachlose
+xerl:XE_ZIELGRUPPE_Obdachlose rdf:type owl:NamedIndividual ,
+                                       xerl:XE_ZIELGRUPPE ;
+                              rdfs:label "Obdachlose" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Pflegebeduerftige
+xerl:XE_ZIELGRUPPE_Pflegebeduerftige rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ZIELGRUPPE ;
+                                     rdfs:label "Pflegebeduerftige" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Radfahrer
+xerl:XE_ZIELGRUPPE_Radfahrer rdf:type owl:NamedIndividual ,
+                                      xerl:XE_ZIELGRUPPE ;
+                             rdfs:label "Radfahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Reiter
+xerl:XE_ZIELGRUPPE_Reiter rdf:type owl:NamedIndividual ,
+                                   xerl:XE_ZIELGRUPPE ;
+                          rdfs:label "Reiter" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Senioren
+xerl:XE_ZIELGRUPPE_Senioren rdf:type owl:NamedIndividual ,
+                                     xerl:XE_ZIELGRUPPE ;
+                            rdfs:label "Senioren" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Skifahrer
+xerl:XE_ZIELGRUPPE_Skifahrer rdf:type owl:NamedIndividual ,
+                                      xerl:XE_ZIELGRUPPE ;
+                             rdfs:label "Skifahrer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Sonstige
+xerl:XE_ZIELGRUPPE_Sonstige rdf:type owl:NamedIndividual ,
+                                     xerl:XE_ZIELGRUPPE ;
+                            rdfs:label "Sonstige" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_SozialSchwache
+xerl:XE_ZIELGRUPPE_SozialSchwache rdf:type owl:NamedIndividual ,
+                                           xerl:XE_ZIELGRUPPE ;
+                                  rdfs:label "SozialSchwache" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Suechtige
+xerl:XE_ZIELGRUPPE_Suechtige rdf:type owl:NamedIndividual ,
+                                      xerl:XE_ZIELGRUPPE ;
+                             rdfs:label "Suechtige" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Touristen
+xerl:XE_ZIELGRUPPE_Touristen rdf:type owl:NamedIndividual ,
+                                      xerl:XE_ZIELGRUPPE ;
+                             rdfs:label "Touristen" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_TraditionelleBestager
+xerl:XE_ZIELGRUPPE_TraditionelleBestager rdf:type owl:NamedIndividual ,
+                                                  xerl:XE_ZIELGRUPPE ;
+                                         rdfs:label "TraditionelleBestager" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Verbraucher
+xerl:XE_ZIELGRUPPE_Verbraucher rdf:type owl:NamedIndividual ,
+                                        xerl:XE_ZIELGRUPPE ;
+                               rdfs:label "Verbraucher" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZIELGRUPPE_Wanderer
+xerl:XE_ZIELGRUPPE_Wanderer rdf:type owl:NamedIndividual ,
+                                     xerl:XE_ZIELGRUPPE ;
+                            rdfs:label "Wanderer" .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZST_WEGABSCHNITT_GlattBefestigt
+xerl:XE_ZST_WEGABSCHNITT_GlattBefestigt rdf:type owl:NamedIndividual ,
+                                                 xerl:XE_ZST_WEGABSCHNITT ;
+                                        rdfs:label "GlattBefestigt" ;
+                                        skos:definition "Wegabschnitt mit glattem Hartbelag (Bitumen, Asphalt, Beton oder Verbundpflaster). "@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZST_WEGABSCHNITT_GrobBefestigt
+xerl:XE_ZST_WEGABSCHNITT_GrobBefestigt rdf:type owl:NamedIndividual ,
+                                                xerl:XE_ZST_WEGABSCHNITT ;
+                                       rdfs:label "GrobBefestigt" ;
+                                       skos:definition "Schotter, Splitt, Wassergebundene Decke, Kopfsteinpflaster"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZST_WEGABSCHNITT_Unbefestigt
+xerl:XE_ZST_WEGABSCHNITT_Unbefestigt rdf:type owl:NamedIndividual ,
+                                              xerl:XE_ZST_WEGABSCHNITT ;
+                                     rdfs:label "Unbefestigt" ;
+                                     skos:definition "Naturboden"@de .
+
+
+###  http://www.xerleben.de/schema/2.0_1/EN_ZST_WEGABSCHNITT_Unbekannt
+xerl:XE_ZST_WEGABSCHNITT_Unbekannt rdf:type owl:NamedIndividual ,
+                                            xerl:XE_ZST_WEGABSCHNITT ;
+                                   rdfs:label "Unbekannt" .
+
