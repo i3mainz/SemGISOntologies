@@ -54,8 +54,9 @@ Generate Class Tree</button>-->
 <script src="classtree.js"></script>
 <script>
 var ontologies=""
-for key in onts:
+for(key in onts){
     ontologies="<option value=\""+onts[key]+"\">"+key+"</option>"
+}
 $('#ontologies').html(ontologies)
 $("#ontologies").change(function(){
     var newSrc = $('#ontologies').val()
