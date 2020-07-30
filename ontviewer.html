@@ -61,7 +61,6 @@ $('#ontologies').html(ontologies)
 $("#ontologies").change(function(){
     var newSrc = $('#ontologies').val()
       document.getElementById("ontview").src=newSrc;
-  alert("The text has been changed.");
 });
 function goToId(id) {
     var iframe = document.getElementById("ontview").contentWindow.location.hash=id;
