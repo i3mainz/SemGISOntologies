@@ -27,59 +27,59 @@ aaa6:AAA6Ontology rdf:type owl:Ontology ;
 #################################################################
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abbaudatum
-aaa6:abbaudatum rdf:type owl:AnnotationProperty ;
+aaa6:abbaudatum rdf:type owl:DatatypeProperty ;
                 rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abstand
-aaa6:abstand rdf:type owl:AnnotationProperty ;
+aaa6:abstand rdf:type owl:ObjectProperty ;
              rdfs:range gml:Length .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#adressat
-aaa6:adressat rdf:type owl:AnnotationProperty ;
+aaa6:adressat rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittBemerkung
-aaa6:angabenZumAbschnittBemerkung rdf:type owl:AnnotationProperty ;
+aaa6:angabenZumAbschnittBemerkung rdf:type owl:DatatypeProperty ;
                                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittFlurstueck
-aaa6:angabenZumAbschnittFlurstueck rdf:type owl:AnnotationProperty ;
+aaa6:angabenZumAbschnittFlurstueck rdf:type owl:DatatypeProperty ;
                                    rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittNummerAktenzeichen
-aaa6:angabenZumAbschnittNummerAktenzeichen rdf:type owl:AnnotationProperty ;
+aaa6:angabenZumAbschnittNummerAktenzeichen rdf:type owl:DatatypeProperty ;
                                            rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittStelle
-aaa6:angabenZumAbschnittStelle rdf:type owl:AnnotationProperty ;
+aaa6:angabenZumAbschnittStelle rdf:type owl:DatatypeProperty ;
                                rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anschriftDienststelle
-aaa6:anschriftDienststelle rdf:type owl:AnnotationProperty ;
+aaa6:anschriftDienststelle rdf:type owl:ObjectProperty ;
                            rdfs:range aaa6:AX_K_ANSCHRIFT ,
                                       aaa6:AX_K_ANSCHRIFTProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#antennenhoehe
-aaa6:antennenhoehe rdf:type owl:AnnotationProperty ;
+aaa6:antennenhoehe rdf:type owl:ObjectProperty ;
                    rdfs:range gml:Length ,
                               xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#antennenreferenzpunkt
-aaa6:antennenreferenzpunkt rdf:type owl:AnnotationProperty ;
+aaa6:antennenreferenzpunkt rdf:type owl:DatatypeProperty ;
                            rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#art
-aaa6:art rdf:type owl:AnnotationProperty ;
+aaa6:art rdf:type owl:ObjectProperty ;
          rdfs:range aaa6:AA_Art_Themendefinition ,
                     aaa6:AX_Art_Adressat_Auszug ,
                     aaa6:AX_Art_Baublock ,
@@ -106,110 +106,110 @@ aaa6:art rdf:type owl:AnnotationProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerAusgabe
-aaa6:artDerAusgabe rdf:type owl:AnnotationProperty ;
+aaa6:artDerAusgabe rdf:type owl:DatatypeProperty ;
                    rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#aufbaudatum
-aaa6:aufbaudatum rdf:type owl:AnnotationProperty ;
+aaa6:aufbaudatum rdf:type owl:DatatypeProperty ;
                  rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ausgabekopf
-aaa6:ausgabekopf rdf:type owl:AnnotationProperty ;
+aaa6:ausgabekopf rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_K_AUSGKOPF_Standard ,
                             aaa6:AX_K_AUSGKOPF_StandardProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ausgabemasstab
-aaa6:ausgabemasstab rdf:type owl:AnnotationProperty ;
+aaa6:ausgabemasstab rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:double .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ausgabemedium
-aaa6:ausgabemedium rdf:type owl:AnnotationProperty ;
+aaa6:ausgabemedium rdf:type owl:ObjectProperty ;
                    rdfs:range aaa6:AX_Ausgabemedium_Benutzer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#azimutaleAbweichung
-aaa6:azimutaleAbweichung rdf:type owl:AnnotationProperty ;
+aaa6:azimutaleAbweichung rdf:type owl:ObjectProperty ;
                          rdfs:range gml:Angle .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#befund
-aaa6:befund rdf:type owl:AnnotationProperty ;
+aaa6:befund rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bestimmungsdatum
-aaa6:bestimmungsdatum rdf:type owl:AnnotationProperty ;
+aaa6:bestimmungsdatum rdf:type owl:DatatypeProperty ;
                       rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bezirk
-aaa6:bezirk rdf:type owl:AnnotationProperty ;
+aaa6:bezirk rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#blattart
-aaa6:blattart rdf:type owl:AnnotationProperty ;
+aaa6:blattart rdf:type owl:ObjectProperty ;
               rdfs:range aaa6:AX_Blattart_Buchungsblatt ,
                          aaa6:AX_Blattart_HistorischesFlurstueck ,
                          xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchungsart
-aaa6:buchungsart rdf:type owl:AnnotationProperty ;
+aaa6:buchungsart rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_Buchungsart_Buchungsstelle ,
                             xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchungsblattbezirk
-aaa6:buchungsblattbezirk rdf:type owl:AnnotationProperty ;
+aaa6:buchungsblattbezirk rdf:type owl:ObjectProperty ;
                          rdfs:range aaa6:AX_Buchungsblattbezirk_Schluessel ,
                                     aaa6:AX_Buchungsblattbezirk_SchluesselProperty ,
                                     xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchungsblattkennzeichen
-aaa6:buchungsblattkennzeichen rdf:type owl:AnnotationProperty ;
+aaa6:buchungsblattkennzeichen rdf:type owl:DatatypeProperty ;
                               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchungsblattnummerMitBuchstabenerweiterung
-aaa6:buchungsblattnummerMitBuchstabenerweiterung rdf:type owl:AnnotationProperty ;
+aaa6:buchungsblattnummerMitBuchstabenerweiterung rdf:type owl:DatatypeProperty ;
                                                  rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dateTime
-xsd:dateTime rdf:type owl:AnnotationProperty ;
+xsd:dateTime rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datenerhebung
-xsd:datenerhebung rdf:type owl:AnnotationProperty ;
+xsd:datenerhebung rdf:type owl:ObjectProperty ;
                    rdfs:range aaa6:AX_Datenerhebung_Schwere .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datenformat
-xsd:datenformat rdf:type owl:AnnotationProperty ;
+xsd:datenformat rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_Datenformat_Benutzer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datum
-aaa6:datum rdf:type owl:AnnotationProperty ;
+aaa6:datum rdf:type owl:DatatypeProperty ;
            rdfs:range xsd:date ,
                       xsd:dateTime ,
                       xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datumDerAusgabe
-aaa6:datumDerAusgabe rdf:type owl:AnnotationProperty ;
+aaa6:datumDerAusgabe rdf:type owl:DatatypeProperty ;
                      rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#description
-aaa6:description rdf:type owl:AnnotationProperty ;
+aaa6:description rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_DQErfassungsmethode ,
                             aaa6:AX_DQErfassungsmethodeBesondererHoehenpunkt ,
                             aaa6:AX_DQErfassungsmethodeBesondererHoehenpunkt_Property ,
@@ -225,283 +225,283 @@ aaa6:description rdf:type owl:AnnotationProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dienststelle
-aaa6:dienststelle rdf:type owl:AnnotationProperty ;
+aaa6:dienststelle rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dienststellenlogo
-aaa6:dienststellenlogo rdf:type owl:AnnotationProperty ;
+aaa6:dienststellenlogo rdf:type owl:ObjectProperty ;
                        rdfs:range aaa6:AX_Dienststellenlogo ,
                                   aaa6:AX_DienststellenlogoProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#east
-aaa6:east rdf:type owl:AnnotationProperty ;
+aaa6:east rdf:type owl:ObjectProperty ;
           rdfs:range gml:Length .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#enthaeltEWP
-aaa6:enthaeltEWP rdf:type owl:AnnotationProperty ;
+aaa6:enthaeltEWP rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_Landeswappen ,
                             aaa6:AX_LandeswappenProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ersterStichtag
-aaa6:ersterStichtag rdf:type owl:AnnotationProperty ;
+aaa6:ersterStichtag rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#firmwareversion
-aaa6:firmwareversion rdf:type owl:AnnotationProperty ;
+aaa6:firmwareversion rdf:type owl:DatatypeProperty ;
                      rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flaecheDesAbschnitts
-aaa6:flaecheDesAbschnitts rdf:type owl:AnnotationProperty ;
+aaa6:flaecheDesAbschnitts rdf:type owl:ObjectProperty ;
                           rdfs:range gml:Area .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flur
-aaa6:flur rdf:type owl:AnnotationProperty ;
+aaa6:flur rdf:type owl:ObjectProperty ;
           rdfs:range aaa6:AX_GemarkungsteilFlur_Schluessel ,
                      aaa6:AX_GemarkungsteilFlur_SchluesselProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#formatangabe
-aaa6:formatangabe rdf:type owl:AnnotationProperty ;
+aaa6:formatangabe rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsnummer
-aaa6:gemarkungsnummer rdf:type owl:AnnotationProperty ;
+aaa6:gemarkungsnummer rdf:type owl:DatatypeProperty ;
                       rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsteilFlur
-aaa6:gemarkungsteilFlur rdf:type owl:AnnotationProperty ;
+aaa6:gemarkungsteilFlur rdf:type owl:DatatypeProperty ;
                         rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemeindeteil
-aaa6:gemeindeteil rdf:type owl:AnnotationProperty ;
+aaa6:gemeindeteil rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#genauigkeitsstufe
-aaa6:genauigkeitsstufe rdf:type owl:AnnotationProperty ;
+aaa6:genauigkeitsstufe rdf:type owl:ObjectProperty ;
                        rdfs:range aaa6:AX_Genauigkeitsstufe_Punktort ,
                                   aaa6:AX_Genauigkeitsstufe_Schwere ,
                                   xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#geologischeStabilitaet
-aaa6:geologischeStabilitaet rdf:type owl:AnnotationProperty ;
+aaa6:geologischeStabilitaet rdf:type owl:ObjectProperty ;
                             rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_GeologischeStabilitaet .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gnssAntennenUndRadomeTyp
-aaa6:gnssAntennenUndRadomeTyp rdf:type owl:AnnotationProperty ;
+aaa6:gnssAntennenUndRadomeTyp rdf:type owl:DatatypeProperty ;
                               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gnssEmpfaengertyp
-aaa6:gnssEmpfaengertyp rdf:type owl:AnnotationProperty ;
+aaa6:gnssEmpfaengertyp rdf:type owl:DatatypeProperty ;
                        rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gnssTauglichkeit
-aaa6:gnssTauglichkeit rdf:type owl:AnnotationProperty ;
+aaa6:gnssTauglichkeit rdf:type owl:ObjectProperty ;
                       rdfs:range aaa6:AX_GNSSTauglichkeit .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#grundwasserschwankung
-aaa6:grundwasserschwankung rdf:type owl:AnnotationProperty ;
+aaa6:grundwasserschwankung rdf:type owl:ObjectProperty ;
                            rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_Grundwasserschwankung .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#grundwasserstand
-aaa6:grundwasserstand rdf:type owl:AnnotationProperty ;
+aaa6:grundwasserstand rdf:type owl:ObjectProperty ;
                       rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_Grundwasserstand .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gueteDesBaugrundes
-aaa6:gueteDesBaugrundes rdf:type owl:AnnotationProperty ;
+aaa6:gueteDesBaugrundes rdf:type owl:ObjectProperty ;
                         rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_GueteDesBaugrundes .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gueteDesVermarkungstraegers
-aaa6:gueteDesVermarkungstraegers rdf:type owl:AnnotationProperty ;
+aaa6:gueteDesVermarkungstraegers rdf:type owl:ObjectProperty ;
                                  rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_GueteDesVermarkungstraegers .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#height
-aaa6:height rdf:type owl:AnnotationProperty ;
+aaa6:height rdf:type owl:ObjectProperty ;
             rdfs:range gml:Length .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#herkunft
-aaa6:herkunft rdf:type owl:AnnotationProperty ;
+aaa6:herkunft rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hierarchiestufe3D
-aaa6:hierarchiestufe3D rdf:type owl:AnnotationProperty ;
+aaa6:hierarchiestufe3D rdf:type owl:ObjectProperty ;
                        rdfs:range aaa6:AX_Klassifikation_Hierarchiestufe3D_Lagefestpunkt .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hoehenoffsetL1
-aaa6:hoehenoffsetL1 rdf:type owl:AnnotationProperty ;
+aaa6:hoehenoffsetL1 rdf:type owl:ObjectProperty ;
                     rdfs:range gml:Length .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hoehenoffsetL2
-aaa6:hoehenoffsetL2 rdf:type owl:AnnotationProperty ;
+aaa6:hoehenoffsetL2 rdf:type owl:ObjectProperty ;
                     rdfs:range gml:Length .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hoehenstabilitaetAusWiederholungsmessungen
-aaa6:hoehenstabilitaetAusWiederholungsmessungen rdf:type owl:AnnotationProperty ;
+aaa6:hoehenstabilitaetAusWiederholungsmessungen rdf:type owl:ObjectProperty ;
                                                 rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_HoehenstabilitaetAusWiederholungsmessungen .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#identifikation
-aaa6:identifikation rdf:type owl:AnnotationProperty ;
+aaa6:identifikation rdf:type owl:ObjectProperty ;
                     rdfs:range aaa6:AX_Identifikation .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#intervall
-aaa6:intervall rdf:type owl:AnnotationProperty ;
+aaa6:intervall rdf:type owl:ObjectProperty ;
                rdfs:range aaa6:duration .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#kennung
-aaa6:kennung rdf:type owl:AnnotationProperty ;
+aaa6:kennung rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#kennungSchluessel
-aaa6:kennungSchluessel rdf:type owl:AnnotationProperty ;
+aaa6:kennungSchluessel rdf:type owl:DatatypeProperty ;
                        rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#lage
-aaa6:lage rdf:type owl:AnnotationProperty ;
+aaa6:lage rdf:type owl:ObjectProperty ;
           rdfs:range aaa6:AX_K_Lagesystem ,
                      xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#lagezuverlaessigkeit
-aaa6:lagezuverlaessigkeit rdf:type owl:AnnotationProperty ;
+aaa6:lagezuverlaessigkeit rdf:type owl:DatatypeProperty ;
                           rdfs:range xsd:boolean ,
                                      xsd:boolean .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummer
-aaa6:laufendeNummer rdf:type owl:AnnotationProperty ;
+aaa6:laufendeNummer rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummerDerBuchungsstelle
-aaa6:laufendeNummerDerBuchungsstelle rdf:type owl:AnnotationProperty ;
+aaa6:laufendeNummerDerBuchungsstelle rdf:type owl:DatatypeProperty ;
                                      rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#messmethode
-aaa6:messmethode rdf:type owl:AnnotationProperty ;
+aaa6:messmethode rdf:type owl:ObjectProperty ;
                  rdfs:range aaa6:AX_Messmethode_Schwere .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#messung
-aaa6:messung rdf:type owl:AnnotationProperty ;
+aaa6:messung rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nenner
-aaa6:nenner rdf:type owl:AnnotationProperty ;
+aaa6:nenner rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:double ,
                        xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#north
-aaa6:north rdf:type owl:AnnotationProperty ;
+aaa6:north rdf:type owl:ObjectProperty ;
            rdfs:range gml:Length .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummerDesGrablochs
-aaa6:nummerDesGrablochs rdf:type owl:AnnotationProperty ;
+aaa6:nummerDesGrablochs rdf:type owl:DatatypeProperty ;
                         rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummerierungsbezirk
-aaa6:nummerierungsbezirk rdf:type owl:AnnotationProperty ;
+aaa6:nummerierungsbezirk rdf:type owl:DatatypeProperty ;
                          rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ordnung
-aaa6:ordnung rdf:type owl:AnnotationProperty ;
+aaa6:ordnung rdf:type owl:ObjectProperty ;
              rdfs:range aaa6:AX_Klassifikation_Ordnung_Lagefestpunkt ,
                         aaa6:AX_Ordnung_Hoehenfestpunkt ,
                         aaa6:AX_Ordnung_Schwerefestpunkt .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ortsnamePost
-aaa6:ortsnamePost rdf:type owl:AnnotationProperty ;
+aaa6:ortsnamePost rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#plzOrt
-aaa6:plzOrt rdf:type owl:AnnotationProperty ;
+aaa6:plzOrt rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#postleitzahl
-aaa6:postleitzahl rdf:type owl:AnnotationProperty ;
+aaa6:postleitzahl rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#seitenlaenge
-aaa6:seitenlaenge rdf:type owl:AnnotationProperty ;
-                  rdfs:range aaa6:integer .
+aaa6:seitenlaenge rdf:type owl:DatatypeProperty ;
+                  rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#seriennummer
-aaa6:seriennummer rdf:type owl:AnnotationProperty ;
+aaa6:seriennummer rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#stelle
-aaa6:stelle rdf:type owl:AnnotationProperty ;
+aaa6:stelle rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#strasseHausnummer
-aaa6:strasseHausnummer rdf:type owl:AnnotationProperty ;
+aaa6:strasseHausnummer rdf:type owl:DatatypeProperty ;
                        rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#strassenname
-aaa6:strassenname rdf:type owl:AnnotationProperty ;
+aaa6:strassenname rdf:type owl:DatatypeProperty ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#telefon
-aaa6:telefon rdf:type owl:AnnotationProperty ;
+aaa6:telefon rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#topographieUndUmwelt
-aaa6:topographieUndUmwelt rdf:type owl:AnnotationProperty ;
+aaa6:topographieUndUmwelt rdf:type owl:ObjectProperty ;
                           rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_TopographieUndUmwelt .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ueberwachungsdatum
-aaa6:ueberwachungsdatum rdf:type owl:AnnotationProperty ;
+aaa6:ueberwachungsdatum rdf:type owl:DatatypeProperty ;
                         rdfs:range xsd:date ,
                                    xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#unverschluesselt
-aaa6:unverschluesselt rdf:type owl:AnnotationProperty ;
+aaa6:unverschluesselt rdf:type owl:DatatypeProperty ;
                       rdfs:range xsd:string .
 
 
@@ -511,60 +511,52 @@ aaa6:uri rdf:type owl:AnnotationProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vermuteteHoehenstabilitaet
-aaa6:vermuteteHoehenstabilitaet rdf:type owl:AnnotationProperty ;
+aaa6:vermuteteHoehenstabilitaet rdf:type owl:ObjectProperty ;
                                 rdfs:range aaa6:AX_Punktstabilitaet_Hoehenfestpunkt_VermuteteHoehenstabilitaet .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#verschluesselt
-aaa6:verschluesselt rdf:type owl:AnnotationProperty ;
+aaa6:verschluesselt rdf:type owl:ObjectProperty ;
                     rdfs:range aaa6:AX_VerschluesselteLagebezeichnung ,
                                aaa6:AX_VerschluesselteLagebezeichnungProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vertrauenswuerdigkeit
-aaa6:vertrauenswuerdigkeit rdf:type owl:AnnotationProperty ;
+aaa6:vertrauenswuerdigkeit rdf:type owl:ObjectProperty ;
                            rdfs:range aaa6:AX_Vertrauenswuerdigkeit_Punktort ,
                                       aaa6:AX_Vertrauenswuerdigkeit_Schwere .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#wert
-aaa6:wert rdf:type owl:AnnotationProperty ;
+aaa6:wert rdf:type owl:ObjectProperty ;
           rdfs:range gml:Measure .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#wertigkeit
-aaa6:wertigkeit rdf:type owl:AnnotationProperty ;
+aaa6:wertigkeit rdf:type owl:ObjectProperty ;
                 rdfs:range aaa6:AX_Klassifikation_Wertigkeit_Lagefestpunkt .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zaehler
-aaa6:zaehler rdf:type owl:AnnotationProperty ;
+aaa6:zaehler rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:double ,
                         xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeile
-aaa6:zeile rdf:type owl:AnnotationProperty ;
+aaa6:zeile rdf:type owl:ObjectProperty ;
            rdfs:range aaa6:AX_K_ZEILE ,
                       gml:doubleList .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zusaetzlicheInformationen
-aaa6:zusaetzlicheInformationen rdf:type owl:AnnotationProperty ;
+aaa6:zusaetzlicheInformationen rdf:type owl:DatatypeProperty ;
                                rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zusatzOrtsname
-aaa6:zusatzOrtsname rdf:type owl:AnnotationProperty ;
+aaa6:zusatzOrtsname rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:string .
-
-###  http://www.w3.org/2000/01/rdf-schema#subClassOf
-rdfs:subClassOf rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2002/07/owl#Class
-owl:Class rdf:type owl:AnnotationProperty .
-
 
 ###  http://www.w3.org/2004/02/skos/core#definition
 skos:definition rdf:type owl:AnnotationProperty .
@@ -686,51 +678,6 @@ aaa6:PropertyIsOf rdf:type owl:ObjectProperty ;
 aaa6:ServiceMetadata rdf:type owl:ObjectProperty .
 
 
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_Component_3D
-aaa6:TA_Component_3D rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AA_REO_3D .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_CompositeSolidComponent_3D
-aaa6:TA_CompositeSolidComponent_3D rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf aaa6:TA_Component_3D .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_CurveComponent
-aaa6:TA_CurveComponent rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AG_ObjektMitGemeinsamerGeometrie .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_CurveComponent_3D
-aaa6:TA_CurveComponent_3D rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:TA_Component_3D .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_MultiSurfaceComponent
-aaa6:TA_MultiSurfaceComponent rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf aaa6:AG_ObjektMitGemeinsamerGeometrie .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_PointComponent
-aaa6:TA_PointComponent rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AG_ObjektMitGemeinsamerGeometrie .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_PointComponent_3D
-aaa6:TA_PointComponent_3D rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:TA_Component_3D .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_SurfaceComponent
-aaa6:TA_SurfaceComponent rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AG_ObjektMitGemeinsamerGeometrie .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#TA_SurfaceComponent_3D
-aaa6:TA_SurfaceComponent_3D rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:TA_Component_3D .
-
-
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#XlinkPropertyName
 aaa6:XlinkPropertyName rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf aaa6:AAA6ObjProp ,
@@ -746,8 +693,8 @@ aaa6:XlinkPropertyPath rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abbaudatum
-aaa6:abbaudatum rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:abbaudatum rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AX_GNSSAntenne ,
                             aaa6:AX_GNSSEmpfaenger .
 
@@ -770,7 +717,7 @@ aaa6:abgeschlossen rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abhaengigVon
 aaa6:abhaengigVon rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_Benutzungsauftrag ,
                               aaa6:AX_Einrichtungsauftrag ,
                               aaa6:AX_Entsperrauftrag ,
@@ -858,24 +805,24 @@ aaa6:abschnitteORF rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abschnittsflaecheOBG
-aaa6:abschnittsflaecheOBG rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:abschnittsflaecheOBG rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_AbschnittOBG ;
                           rdfs:range xsd:string ;
                           rdfs:label "abschnittsflaecheOBG"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abschnittsflaecheOBS
-aaa6:abschnittsflaecheOBS rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:abschnittsflaecheOBS rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_AbschnittOBS ;
                           rdfs:range xsd:string ;
                           rdfs:label "abschnittsflaecheOBS"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abschnittsflaecheTN
-aaa6:abschnittsflaecheTN rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:abschnittsflaecheTN rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_AbschnittTN ,
                                      aaa6:AX_AbschnittWIA ;
                          rdfs:range xsd:string ;
@@ -889,8 +836,8 @@ aaa6:abstand rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#abweichenderRechtszustand
-aaa6:abweichenderRechtszustand rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:abweichenderRechtszustand rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                rdfs:domain aaa6:AX_Flurstueck ,
                                            aaa6:AX_HistorischesFlurstueck ,
                                            aaa6:AX_HistorischesFlurstueckOhneRaumbezug ,
@@ -899,8 +846,8 @@ aaa6:abweichenderRechtszustand rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ackerzahlOderGruenlandzahl
-aaa6:ackerzahlOderGruenlandzahl rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ackerzahlOderGruenlandzahl rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                 rdfs:domain aaa6:AX_Bodenschaetzung ,
                                             aaa6:AX_MusterLandesmusterUndVergleichsstueck ;
                                 rdfs:range xsd:string .
@@ -949,8 +896,8 @@ aaa6:advStandardModell rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#akademischerGrad
-aaa6:akademischerGrad rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:akademischerGrad rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_K_PERS1 ,
                                   aaa6:AX_Person ;
                       rdfs:range xsd:string .
@@ -1024,25 +971,25 @@ aaa6:anforderungsmerkmale rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittBemerkung
 aaa6:angabenZumAbschnittBemerkung rdf:type owl:DatatypeProperty ;
-                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+                                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                   rdfs:domain aaa6:AX_SonstigeEigenschaften_Flurstueck .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittFlurstueck
 aaa6:angabenZumAbschnittFlurstueck rdf:type owl:DatatypeProperty ;
-                                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+                                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                    rdfs:domain aaa6:AX_SonstigeEigenschaften_Flurstueck .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittNummerAktenzeichen
-aaa6:angabenZumAbschnittNummerAktenzeichen rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:angabenZumAbschnittNummerAktenzeichen rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                            rdfs:domain aaa6:AX_SonstigeEigenschaften_Flurstueck .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#angabenZumAbschnittStelle
-aaa6:angabenZumAbschnittStelle rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:angabenZumAbschnittStelle rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                rdfs:domain aaa6:AX_SonstigeEigenschaften_Flurstueck .
 
 
@@ -1091,8 +1038,8 @@ Es handelt sich um eine abgeleitete Eigenschaft."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anmerkungFuerDenNotar
-aaa6:anmerkungFuerDenNotar rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:anmerkungFuerDenNotar rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_Fortfuehrungsfall ,
                                        aaa6:AX_K_Fortfuehrungsfall_Ausgabe ,
                                        aaa6:AX_K_Fortfuehrungsfall_FM ;
@@ -1108,8 +1055,8 @@ aaa6:anrede rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anschriftDienststelle
-aaa6:anschriftDienststelle rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:anschriftDienststelle rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_K_AUSGKOPF_Standard .
 
 
@@ -1125,33 +1072,33 @@ aaa6:anteil rdf:type owl:ObjectProperty ;
                         aaa6:AX_Nutzung_Gebaeude ,
                         aaa6:AX_Recht ;
             rdfs:range aaa6:AX_Anteil ,
-                       aaa6:integer ;
+                       xsd:integer ;
             rdfs:label "anteil"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#antennenhoehe
-aaa6:antennenhoehe rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:antennenhoehe rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_EinzelnachweisReferenzstationspunkt ,
                                aaa6:AX_GNSSAntenne .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#antennenreferenzpunkt
-aaa6:antennenreferenzpunkt rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:antennenreferenzpunkt rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_GNSSAntenne .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#antragUnterbrochen
-aaa6:antragUnterbrochen rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:antragUnterbrochen rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AA_Antrag ;
                         rdfs:range xsd:boolean .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#antragsnummer
-aaa6:antragsnummer rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:antragsnummer rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_Benutzungsauftrag ,
                                aaa6:AX_Benutzungsergebnis ,
                                aaa6:AX_Einrichtungsauftrag ,
@@ -1192,7 +1139,7 @@ aaa6:anzahlDerFahrstreifen rdf:type owl:DatatypeProperty ;
                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_Fahrbahnachse ,
                                        aaa6:AX_Strassenachse ;
-                           rdfs:range aaa6:integer .
+                           rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anzahlDerFortfuehrungsmitteilungen
@@ -1200,14 +1147,14 @@ aaa6:anzahlDerFortfuehrungsmitteilungen rdf:type owl:ObjectProperty ;
                                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                                         rdfs:domain aaa6:AX_Fortfuehrungsfall ,
                                                     aaa6:AX_K_Fortfuehrungsfall_Ausgabe ;
-                                        rdfs:range aaa6:integer .
+                                        rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anzahlDerNachkommastellen
 aaa6:anzahlDerNachkommastellen rdf:type owl:DatatypeProperty ;
                                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                rdfs:domain aaa6:AA_Koordinatenreferenzsystemangaben ;
-                               rdfs:range aaa6:integer .
+                               rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anzahlDerOberirdischenGeschosse
@@ -1216,7 +1163,7 @@ aaa6:anzahlDerOberirdischenGeschosse rdf:type owl:DatatypeProperty ;
                                      rdfs:domain aaa6:AX_Bauteil ,
                                                  aaa6:AX_Gebaeude ,
                                                  aaa6:AX_Gebaeudenachweis ;
-                                     rdfs:range aaa6:integer .
+                                     rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anzahlDerStreckengleise
@@ -1232,7 +1179,7 @@ aaa6:anzahlDerUnterirdischenGeschosse rdf:type owl:DatatypeProperty ;
                                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_Gebaeude ,
                                                   aaa6:AX_Gebaeudenachweis ;
-                                      rdfs:range aaa6:integer .
+                                      rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#anzahlFlurstuecke
@@ -1306,8 +1253,8 @@ aaa6:art rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerAusgabe
-aaa6:artDerAusgabe rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:artDerAusgabe rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_K_AUSGKOPF_Standard .
 
 
@@ -1448,8 +1395,8 @@ aaa6:artDerVerbandsgemeinde rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#artDerVertretung
-aaa6:artDerVertretung rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+aaa6:artDerVertretung rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_Vertretung ;
                       rdfs:range xsd:string .
 
@@ -1480,7 +1427,7 @@ aaa6:artDesPolders rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#aufbaudatum
 aaa6:aufbaudatum rdf:type owl:ObjectProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_GNSSAntenne ,
                              aaa6:AX_GNSSEmpfaenger .
 
@@ -1507,7 +1454,7 @@ aaa6:aufstellhoehe rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#auftragsnummer
 aaa6:auftragsnummer rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_Benutzungsauftrag ,
                                 aaa6:AX_Einrichtungsauftrag ,
                                 aaa6:AX_Entsperrauftrag ,
@@ -1609,7 +1556,7 @@ aaa6:auszugFuer rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#azimutaleAbweichung
 aaa6:azimutaleAbweichung rdf:type owl:DatatypeProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_GNSSAntenne .
 
 
@@ -1646,7 +1593,7 @@ aaa6:bauart rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#baublockbezeichnung
 aaa6:baublockbezeichnung rdf:type owl:DatatypeProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Baublock ,
                                      aaa6:AX_K_LBH ;
                          rdfs:range xsd:string .
@@ -1654,11 +1601,11 @@ aaa6:baublockbezeichnung rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#baujahr
 aaa6:baujahr rdf:type owl:DatatypeProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AX_Bauteil ,
                          aaa6:AX_Gebaeude ,
                          aaa6:AX_Gebaeudenachweis ;
-             rdfs:range aaa6:integer .
+             rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bauweise
@@ -1733,14 +1680,14 @@ aaa6:befestigung rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#befund
 aaa6:befund rdf:type owl:DatatypeProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
             rdfs:domain aaa6:AX_DQFestpunkt ,
                         aaa6:AX_DQHoehenfestpunkt .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginn
-aaa6:beginn rdf:type owl:ObjectProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:beginn rdf:type owl:DatatypeProperty ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
             rdfs:domain aaa6:AX_EinzelnachweisReferenzstationspunkt ,
                         aaa6:AX_Referenzstationspunkt ;
             rdfs:range xsd:dateTime ,
@@ -1748,43 +1695,43 @@ aaa6:beginn rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginnDerBestellung
-aaa6:beginnDerBestellung rdf:type owl:ObjectProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:beginnDerBestellung rdf:type owl:DatatypeProperty ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Verwaltung ;
                          rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginnDerHistorie
-aaa6:beginnDerHistorie rdf:type owl:ObjectProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:beginnDerHistorie rdf:type owl:DatatypeProperty ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:DataContents ;
                        rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginnDerVertretung
-aaa6:beginnDerVertretung rdf:type owl:ObjectProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:beginnDerVertretung rdf:type owl:DatatypeProperty ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Vertretung ;
                          rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beginnt
-aaa6:beginnt rdf:type owl:ObjectProperty ;
- rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:beginnt rdf:type owl:DatatypeProperty ;
+ rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AA_Lebenszeitintervall ;
              rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#begonnen
-aaa6:begonnen rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:begonnen rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AA_Meilenstein ;
               rdfs:range xsd:boolean .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bekanntgabeAnBeteiligteAm
 aaa6:bekanntgabeAnBeteiligteAm rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                            aaa6:AX_K_FN_Deckblatt ;
                                rdfs:range xsd:date .
@@ -1792,7 +1739,7 @@ aaa6:bekanntgabeAnBeteiligteAm rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bemerkung
 aaa6:bemerkung rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                rdfs:domain aaa6:AA_Meilenstein ,
                            aaa6:AX_Fortfuehrungsfall ,
                            aaa6:AX_FortfuehrungsnachweisDeckblatt ,
@@ -1803,8 +1750,8 @@ aaa6:bemerkung rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bemerkungZurAbmarkung
-aaa6:bemerkungZurAbmarkung rdf:type owl:ObjectProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:bemerkungZurAbmarkung rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_Grenzpunkt ,
                                        aaa6:AX_K_GRENZPUNKT ;
                            rdfs:range aaa6:AX_BemerkungZurAbmarkung_Grenzpunkt ,
@@ -1814,7 +1761,7 @@ aaa6:bemerkungZurAbmarkung rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bemerkungen
 aaa6:bemerkungen rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                              aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                              aaa6:AX_EinzelnachweisLagefestpunkt ,
@@ -1841,7 +1788,7 @@ aaa6:benennt rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#benutzungsparameter
 aaa6:benutzungsparameter rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_K_Benutzungsergebnis ;
                          rdfs:range xsd:string ;
                          rdfs:label "benutzungsparameter"@de .
@@ -1849,7 +1796,7 @@ aaa6:benutzungsparameter rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#berechnungsdatum
 aaa6:berechnungsdatum rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_AbgeleiteteHoehenlinie ;
                       rdfs:range xsd:date .
 
@@ -1881,7 +1828,7 @@ aaa6:bereichZeitlich rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bereitsGesperrteObjekte
 aaa6:bereitsGesperrteObjekte rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:ExceptionAAAFortfuehrungOderSperrung ,
                                          aaa6:ExceptionFortfuehrung ;
                              rdfs:range aaa6:anyURI .
@@ -1889,7 +1836,7 @@ aaa6:bereitsGesperrteObjekte rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beruf
 aaa6:beruf rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
            rdfs:domain aaa6:AX_Person ;
            rdfs:range xsd:string .
 
@@ -1913,7 +1860,7 @@ aaa6:beschreibt rdf:type owl:ObjectProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beschreibung
 aaa6:beschreibung rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AD_GitterCoverage ,
                               aaa6:AD_PunktCoverage ;
                   rdfs:range xsd:string .
@@ -1921,7 +1868,7 @@ aaa6:beschreibung rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beschreibungDesSondereigentums
 aaa6:beschreibungDesSondereigentums rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                     rdfs:domain aaa6:AX_Buchungsstelle ,
                                                 aaa6:AX_Grundstueck_Bestandsnachweis ,
                                                 aaa6:AX_K_Eigentum ;
@@ -1930,14 +1877,14 @@ aaa6:beschreibungDesSondereigentums rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beschreibungDesUmfangsDerBuchung
 aaa6:beschreibungDesUmfangsDerBuchung rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_Buchungsstelle ;
                                       rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beschrieb
 aaa6:beschrieb rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                rdfs:domain aaa6:AX_AbschnittOBS ;
                rdfs:range xsd:string ;
                rdfs:label "beschrieb"@de .
@@ -1945,7 +1892,7 @@ aaa6:beschrieb rdf:type owl:DatatypeProperty ;
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#beschriebDerRechtsgemeinschaft
 aaa6:beschriebDerRechtsgemeinschaft rdf:type owl:DatatypeProperty ;
-    rdfs:subPropertyOf aaa6:AAA6ObjPropDataProp ;
+    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                     rdfs:domain aaa6:AX_K_PERS1 ,
                                                 aaa6:AX_Namensnummer ;
                                     rdfs:range xsd:string .
@@ -1996,16 +1943,16 @@ aaa6:besondereFunktion rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#besondereFunktionForst
-aaa6:besondereFunktionForst rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:besondereFunktionForst rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_FestlegungSonstigeORF ;
                             rdfs:range xsd:string ;
                             rdfs:label "besondereFunktionForst"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#besonderePunktnummer
-aaa6:besonderePunktnummer rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:besonderePunktnummer rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_Grenzpunkt ,
                                       aaa6:AX_K_GRENZPUNKT ;
                           rdfs:range xsd:string .
@@ -2034,8 +1981,8 @@ aaa6:bestehtAusRechtsverhaeltnissenZu rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bestellungsbeschluss
-aaa6:bestellungsbeschluss rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:bestellungsbeschluss rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_Verwaltung ;
                           rdfs:range xsd:string .
 
@@ -2047,8 +1994,8 @@ aaa6:bestimmungsdatum rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bestimmungsland
-aaa6:bestimmungsland rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:bestimmungsland rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_Anschrift ,
                                  aaa6:AX_K_PERS1 ;
                      rdfs:range xsd:string .
@@ -2209,8 +2156,8 @@ Diese Attributart ist objektbildend."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#bodenzahlOderGruenlandgrundzahl
-aaa6:bodenzahlOderGruenlandgrundzahl rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:bodenzahlOderGruenlandgrundzahl rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                      rdfs:domain aaa6:AX_Bodenschaetzung ,
                                                  aaa6:AX_GrablochDerBodenschaetzung ,
                                                  aaa6:AX_MusterLandesmusterUndVergleichsstueck ;
@@ -2230,7 +2177,7 @@ aaa6:breiteDerFahrbahn rdf:type owl:ObjectProperty ;
 aaa6:breiteDesGewaessers rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                          rdfs:domain aaa6:AX_Gewaesserachse ;
-                         rdfs:range aaa6:integer .
+                         rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#breiteDesObjekts
@@ -2250,7 +2197,7 @@ aaa6:breiteDesVerkehrsweges rdf:type owl:ObjectProperty ;
                             rdfs:domain aaa6:AX_Fahrwegachse ,
                                         aaa6:AX_Strassenachse ,
                                         aaa6:AX_WegPfadSteig ;
-                            rdfs:range aaa6:integer .
+                            rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchung
@@ -2312,8 +2259,8 @@ aaa6:buchungsblattkennzeichen rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchungsblattnummer
-aaa6:buchungsblattnummer rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:buchungsblattnummer rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Buchung ;
                          rdfs:range xsd:string ;
                          rdfs:label "buchungsblattnummer"@de .
@@ -2327,8 +2274,8 @@ aaa6:buchungsblattnummerMitBuchstabenerweiterung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#buchungstext
-aaa6:buchungstext rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:buchungstext rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_Buchungsstelle ;
                   rdfs:range xsd:string .
 
@@ -2352,8 +2299,8 @@ aaa6:crs rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dachart
-aaa6:dachart rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:dachart rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AX_Gebaeude ,
                          aaa6:AX_Gebaeudenachweis ;
              rdfs:range xsd:string .
@@ -2393,8 +2340,8 @@ Diese Attributart ist objektbildend."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#darstellungshinweis
-aaa6:darstellungshinweis rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:darstellungshinweis rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Festpunkt ;
                          rdfs:range xsd:boolean .
 
@@ -2409,7 +2356,7 @@ aaa6:darstellungsprioritaet rdf:type owl:ObjectProperty ;
                                         aaa6:AP_LTO ,
                                         aaa6:AP_PPO ,
                                         aaa6:AP_PTO ;
-                            rdfs:range aaa6:integer .
+                            rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#dateTime
@@ -2444,8 +2391,8 @@ xsd:datenformat rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datensatznummer
-xsd:datensatznummer rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+xsd:datensatznummer rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_GeoreferenzierteGebaeudeadresse ;
                      rdfs:range xsd:string .
 
@@ -2458,22 +2405,22 @@ aaa6:datum rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datumAbgabe
-aaa6:datumAbgabe rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:datumAbgabe rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_BauRaumOderBodenordnungsrecht ;
                  rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datumAnordnung
-aaa6:datumAnordnung rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:datumAnordnung rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_BauRaumOderBodenordnungsrecht ;
                     rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datumBesitzeinweisung
-aaa6:datumBesitzeinweisung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:datumBesitzeinweisung rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_BauRaumOderBodenordnungsrecht ;
                            rdfs:range xsd:date .
 
@@ -2485,15 +2432,15 @@ aaa6:datumDerAusgabe rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datumDerLetztenUeberpruefung
-aaa6:datumDerLetztenUeberpruefung rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:datumDerLetztenUeberpruefung rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                   rdfs:domain aaa6:AX_TatsaechlicheNutzung ;
                                   rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#datumrechtskraeftig
-aaa6:datumrechtskraeftig rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:datumrechtskraeftig rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_BauRaumOderBodenordnungsrecht ;
                          rdfs:range xsd:date .
 
@@ -2575,8 +2522,8 @@ aaa6:dimension rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#direkt
-aaa6:direkt rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:direkt rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf aaa6:AAA6DataProp ;
             rdfs:domain aaa6:AA_Empfaenger ;
             rdfs:range xsd:boolean .
 
@@ -2615,8 +2562,8 @@ aaa6:east rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#eastOderXWert
-aaa6:eastOderXWert rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:eastOderXWert rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_K_Positionssystem ,
                                aaa6:AX_PunktlisteGrundnetzpunkt_Eintrag ,
                                aaa6:AX_PunktlisteReferenzstationspunkte_Eintrag ;
@@ -2653,24 +2600,24 @@ aaa6:eigentum rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#eignungspruefungAm
-aaa6:eignungspruefungAm rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:eignungspruefungAm rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                     aaa6:AX_K_FN_Deckblatt ;
                         rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#eignungspruefungVon
-aaa6:eignungspruefungVon rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:eignungspruefungVon rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                      aaa6:AX_K_FN_Deckblatt ;
                          rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#einwohnerzahl
-aaa6:einwohnerzahl rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:einwohnerzahl rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_Wohnplatz ;
                    rdfs:range xsd:string .
 
@@ -2704,8 +2651,8 @@ aaa6:empfaenger rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ende
-aaa6:ende rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ende rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf aaa6:AAA6DataProp ;
           rdfs:domain aaa6:AX_EinzelnachweisReferenzstationspunkt ,
                       aaa6:AX_Referenzstationspunkt ;
           rdfs:range xsd:dateTime ,
@@ -2713,29 +2660,29 @@ aaa6:ende rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#endeDerBestellung
-aaa6:endeDerBestellung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:endeDerBestellung rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_Verwaltung ;
                        rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#endeDerVertretung
-aaa6:endeDerVertretung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:endeDerVertretung rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_Vertretung ;
                        rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#endet
-aaa6:endet rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:endet rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf aaa6:AAA6DataProp ;
            rdfs:domain aaa6:AA_Lebenszeitintervall ;
            rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#endgueltigePunktkennung
-aaa6:endgueltigePunktkennung rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:endgueltigePunktkennung rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:AX_K_ZEILE ,
                                          aaa6:AX_PunktkennungVergleichend ;
                              rdfs:range xsd:string .
@@ -2761,8 +2708,8 @@ aaa6:enthaeltEWP rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#entstehung
-aaa6:entstehung rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:entstehung rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AX_K_ZEILE ;
                 rdfs:range xsd:date ;
                 rdfs:label "entstehung"@de .
@@ -2830,8 +2777,8 @@ aaa6:erfassungStrukturierteGelaendepunkte rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#erfolgreich
-aaa6:erfolgreich rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:erfolgreich rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AA_Ergebnis ,
                              aaa6:AA_Meilenstein ,
                              aaa6:AX_Portion_Erfolgreich ;
@@ -2839,8 +2786,8 @@ aaa6:erfolgreich rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#erlaeuterung
-aaa6:erlaeuterung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:erlaeuterung rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AA_Aktivitaet ,
                               aaa6:AA_Ergebnis ,
                               aaa6:AA_Vorgang ;
@@ -2848,23 +2795,23 @@ aaa6:erlaeuterung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#erlaeuterungZumStatus
-aaa6:erlaeuterungZumStatus rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:erlaeuterungZumStatus rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AA_Antrag ;
                            rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#erstelltAm
-aaa6:erstelltAm rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:erstelltAm rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                             aaa6:AX_K_FN_Deckblatt ;
                 rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#erstelltVon
-aaa6:erstelltVon rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:erstelltVon rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                              aaa6:AX_K_FN_Deckblatt ;
                  rdfs:range xsd:string .
@@ -2880,7 +2827,7 @@ aaa6:ersterStichtag rdf:type owl:ObjectProperty ;
 aaa6:ertragsmesszahl rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                      rdfs:domain aaa6:AX_AbschnittOBS ;
-                     rdfs:range aaa6:integer ;
+                     rdfs:range xsd:integer ;
                      rdfs:label "ertragsmesszahl"@de .
 
 
@@ -2920,8 +2867,8 @@ aaa6:fahrbahntrennung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fax
-aaa6:fax rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fax rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf aaa6:AAA6DataProp ;
          rdfs:domain aaa6:AX_Anschrift ;
          rdfs:range xsd:string .
 
@@ -2935,8 +2882,8 @@ aaa6:featureCatalogue rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#festgestellterGrenzpunkt
-aaa6:festgestellterGrenzpunkt rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:festgestellterGrenzpunkt rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf aaa6:AAA6DataProp ;
                               rdfs:domain aaa6:AX_Grenzpunkt ;
                               rdfs:range xsd:boolean .
 
@@ -2977,8 +2924,8 @@ aaa6:firmwareversion rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flaeche
-aaa6:flaeche rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:flaeche rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AX_K_BEWFL ,
                          aaa6:AX_K_BEWGR ,
                          aaa6:AX_K_TNFL ,
@@ -3021,8 +2968,8 @@ aaa6:flaecheKlassKreis rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flaecheKlassLand
-aaa6:flaecheKlassLand rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:flaecheKlassLand rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_StatistikDerFlaechenNachDemBewertungsgesetz ;
                       rdfs:range xsd:double ;
                       rdfs:label "flaecheKlassLand"@de .
@@ -3117,16 +3064,16 @@ aaa6:flaecheTNRBez rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flaechendifferenz
-aaa6:flaechendifferenz rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:flaechendifferenz rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_K_FANALYSE ;
                        rdfs:range xsd:string ;
                        rdfs:label "flaechendifferenz"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flaechensumme
-aaa6:flaechensumme rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:flaechensumme rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_K_FLASU ;
                    rdfs:range xsd:string ;
                    rdfs:label "flaechensumme"@de .
@@ -3227,8 +3174,8 @@ aaa6:flaechensummeOARBez rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fliessrichtung
-aaa6:fliessrichtung rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fliessrichtung rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_Gewaesserachse ,
                                 aaa6:AX_Gewaesserstationierungsachse ;
                     rdfs:range xsd:boolean .
@@ -3253,7 +3200,7 @@ aaa6:flurnummer rdf:type owl:ObjectProperty ;
                             aaa6:AX_K_FLURSTUECK2 ,
                             aaa6:AX_K_FLURSTUECK4 ,
                             aaa6:AX_Kopf_Flurstueck ;
-                rdfs:range aaa6:integer ,
+                rdfs:range xsd:integer ,
                            xsd:string .
 
 
@@ -3297,7 +3244,7 @@ aaa6:flurstueck_neu rdf:type owl:ObjectProperty ;
 aaa6:flurstueckeNachher rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                         rdfs:domain aaa6:AX_K_FANALYSE ;
-                        rdfs:range aaa6:integer ;
+                        rdfs:range xsd:integer ;
                         rdfs:label "flurstueckeNachher"@de .
 
 
@@ -3305,13 +3252,13 @@ aaa6:flurstueckeNachher rdf:type owl:ObjectProperty ;
 aaa6:flurstueckeVorher rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                        rdfs:domain aaa6:AX_K_FANALYSE ;
-                       rdfs:range aaa6:integer ;
+                       rdfs:range xsd:integer ;
                        rdfs:label "flurstueckeVorher"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flurstuecksfolge
-aaa6:flurstuecksfolge rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:flurstuecksfolge rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_Flurstueck ,
                                   aaa6:AX_HistorischesFlurstueck ,
                                   aaa6:AX_HistorischesFlurstueckALB ,
@@ -3320,8 +3267,8 @@ aaa6:flurstuecksfolge rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#flurstueckskennzeichen
-aaa6:flurstueckskennzeichen rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:flurstueckskennzeichen rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Flurstueck ,
                                         aaa6:AX_HistorischesFlurstueck ,
                                         aaa6:AX_HistorischesFlurstueckALB ,
@@ -3368,8 +3315,8 @@ aaa6:foerdergut rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#folgenummer
-aaa6:folgenummer rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:folgenummer rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_Ordnungsnummer ;
                  rdfs:range xsd:string ;
                  rdfs:label "folgenummer"@de .
@@ -3387,8 +3334,8 @@ aaa6:folgeverarbeitung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fontSperrung
-aaa6:fontSperrung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fontSperrung rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AP_LTO ,
                               aaa6:AP_PTO ;
                   rdfs:range xsd:double .
@@ -3401,23 +3348,23 @@ aaa6:formatangabe rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsart
-aaa6:fortfuehrungsart rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fortfuehrungsart rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_HistorischesFlurstueckALB ;
                       rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsentscheidungAm
-aaa6:fortfuehrungsentscheidungAm rdf:type owl:ObjectProperty ;
-                                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fortfuehrungsentscheidungAm rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                  rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                              aaa6:AX_K_FN_Deckblatt ;
                                  rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsentscheidungVon
-aaa6:fortfuehrungsentscheidungVon rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fortfuehrungsentscheidungVon rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                   rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                               aaa6:AX_K_FN_Deckblatt ;
                                   rdfs:range xsd:string .
@@ -3437,8 +3384,8 @@ aaa6:fortfuehrungsfall rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsfallNummernbereich
-aaa6:fortfuehrungsfallNummernbereich rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fortfuehrungsfallNummernbereich rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                      rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                                  aaa6:AX_K_FN_Deckblatt ;
                                      rdfs:range xsd:string .
@@ -3451,20 +3398,20 @@ aaa6:fortfuehrungsfallnummer rdf:type owl:ObjectProperty ;
                                          aaa6:AX_K_Fortfuehrungsfall_Ausgabe ,
                                          aaa6:AX_K_Fortfuehrungsfall_FM ,
                                          aaa6:AX_K_Fortfuehrungsfall_FMJ ;
-                             rdfs:range aaa6:integer .
+                             rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsmitteilungAnEigentuemerAntragsteller
-aaa6:fortfuehrungsmitteilungAnEigentuemerAntragsteller rdf:type owl:ObjectProperty ;
-                                                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fortfuehrungsmitteilungAnEigentuemerAntragsteller rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                                        rdfs:domain aaa6:AX_Fortfuehrungsfall ,
                                                                    aaa6:AX_K_Fortfuehrungsfall_Ausgabe ;
                                                        rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsmitteilungenErzeugt
-aaa6:fortfuehrungsmitteilungenErzeugt rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:fortfuehrungsmitteilungenErzeugt rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                                   aaa6:AX_K_FN_Deckblatt ;
                                       rdfs:range xsd:date .
@@ -3475,15 +3422,15 @@ aaa6:fortfuehrungsnachweis rdf:type owl:ObjectProperty .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#frueherePunktnummer
-aaa6:frueherePunktnummer rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:frueherePunktnummer rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Festpunkt ;
                          rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#funkfrequenz
-aaa6:funkfrequenz rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:funkfrequenz rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_Referenzstationspunkt ;
                   rdfs:range xsd:double .
 
@@ -3605,15 +3552,15 @@ aaa6:gebaeudefunktion rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudekennzeichen
-aaa6:gebaeudekennzeichen rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gebaeudekennzeichen rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Gebaeude ;
                          rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gebaeudename
-aaa6:gebaeudename rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gebaeudename rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_K_GEBAEUDE ;
                   rdfs:range xsd:string ;
                   rdfs:label "gebaeudename"@de .
@@ -3640,8 +3587,8 @@ aaa6:gebiet rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gebietsangabe
-aaa6:gebietsangabe rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gebietsangabe rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_VergleichendesPunktnummernverzeichnis ;
                    rdfs:range xsd:string ;
                    rdfs:label "gebietsangabe"@de .
@@ -3667,15 +3614,15 @@ aaa6:gebuehren rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#geburtsdatum
-aaa6:geburtsdatum rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:geburtsdatum rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_Person ;
                   rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#geburtsname
-aaa6:geburtsname rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:geburtsname rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_K_PERS1 ,
                              aaa6:AX_Person ;
                  rdfs:range xsd:string .
@@ -4087,16 +4034,16 @@ aaa6:gemarkung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsflaeche
-aaa6:gemarkungsflaeche rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gemarkungsflaeche rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_K_GKG ;
                        rdfs:range xsd:string ;
                        rdfs:label "gemarkungsflaeche"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gemarkungsname
-aaa6:gemarkungsname rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gemarkungsname rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_K_Anlieger ,
                                 aaa6:AX_K_Anliegervermerk ,
                                 aaa6:AX_K_Buchungsangaben_HD ,
@@ -4201,7 +4148,7 @@ aaa6:genauigkeitswert rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                       rdfs:domain aaa6:AX_DQPunktort ,
                                   aaa6:AX_DQSchwere ;
-                      rdfs:range aaa6:integer .
+                      rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#generalisiert
@@ -4219,16 +4166,16 @@ aaa6:geologischeStabilitaet rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#geometriebehandlung
-aaa6:geometriebehandlung rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:geometriebehandlung rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Fortfuehrungsauftrag ;
                          rdfs:range xsd:boolean ;
                          rdfs:label "geometriebehandlung"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gesamtNBAErfolgreich
-aaa6:gesamtNBAErfolgreich rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gesamtNBAErfolgreich rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_NBAQuittierung ;
                           rdfs:range xsd:boolean ;
                           rdfs:label "gesamtNBAErfolgreich"@de .
@@ -4238,7 +4185,7 @@ aaa6:gesamtNBAErfolgreich rdf:type owl:ObjectProperty ;
 aaa6:gesamtertragsmesszahl rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                            rdfs:domain aaa6:AX_K_BOWERT ;
-                           rdfs:range aaa6:integer ;
+                           rdfs:range xsd:integer ;
                            rdfs:label "gesamtertragsmesszahl"@de .
 
 
@@ -4263,8 +4210,8 @@ aaa6:gesamtflaecheKreis rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gesamtflaecheLand
-aaa6:gesamtflaecheLand rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gesamtflaecheLand rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_StatistikDerFlaechenDerTatsaechlichenNutzung_all ,
                                    aaa6:AX_StatistikDerFlaechenNachDemBewertungsgesetz ;
                        rdfs:range xsd:string ;
@@ -4272,8 +4219,8 @@ aaa6:gesamtflaecheLand rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gesamtflaecheNachher
-aaa6:gesamtflaecheNachher rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gesamtflaecheNachher rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_K_FANALYSE ;
                           rdfs:range xsd:string ;
                           rdfs:label "gesamtflaecheNachher"@de .
@@ -4289,8 +4236,8 @@ aaa6:gesamtflaecheRBez rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gesamtflaecheVorher
-aaa6:gesamtflaecheVorher rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gesamtflaecheVorher rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_K_FANALYSE ;
                          rdfs:range xsd:string ;
                          rdfs:label "gesamtflaecheVorher"@de .
@@ -4302,7 +4249,7 @@ aaa6:gesamtzahl rdf:type owl:ObjectProperty ;
                 rdfs:domain aaa6:AX_Einrichtungsauftrag ,
                             aaa6:AX_Einrichtungsergebnis ,
                             aaa6:AX_Portionskennung ;
-                rdfs:range aaa6:integer ;
+                rdfs:range xsd:integer ;
                 rdfs:label "gesamtzahl"@de .
 
 
@@ -4317,8 +4264,8 @@ aaa6:geschossflaeche rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gewaesserkennzahl
-aaa6:gewaesserkennzahl rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gewaesserkennzahl rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_Gewaesserstationierungsachse ,
                                    aaa6:AX_Kanal ,
                                    aaa6:AX_Sickerstrecke ,
@@ -4327,8 +4274,8 @@ aaa6:gewaesserkennzahl rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#gewaesserkennziffer
-aaa6:gewaesserkennziffer rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:gewaesserkennziffer rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_StehendesGewaesser ;
                          rdfs:range xsd:string .
 
@@ -4387,15 +4334,15 @@ aaa6:gruendeDerAusgesetztenAbmarkung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#grundakt
-aaa6:grundakt rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:grundakt rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Verwaltung ;
               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#grundbuchmitteilungFuerFinanzamt
-aaa6:grundbuchmitteilungFuerFinanzamt rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:grundbuchmitteilungFuerFinanzamt rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                                   aaa6:AX_K_FN_Deckblatt ;
                                       rdfs:range xsd:string .
@@ -4429,8 +4376,8 @@ aaa6:grundstueckBestehtAus rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#grundstuecksflaeche
-aaa6:grundstuecksflaeche rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:grundstuecksflaeche rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Grundstueck_Bestandsnachweis ,
                                      aaa6:AX_Grundstuecksnachweis ;
                          rdfs:range xsd:string ;
@@ -4564,15 +4511,15 @@ aaa6:hatVorgaenger rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#haushaltsstelleLandesgrundbesitz
-aaa6:haushaltsstelleLandesgrundbesitz rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:haushaltsstelleLandesgrundbesitz rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_Person ;
                                       rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hausnummer
-aaa6:hausnummer rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:hausnummer rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AX_Anschrift ,
                             aaa6:AX_GeoreferenzierteGebaeudeadresse ,
                             aaa6:AX_K_LBEZ_Lagebezeichnung ,
@@ -4609,8 +4556,8 @@ aaa6:hierarchiestufe3D rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hinweise
-aaa6:hinweise rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:hinweise rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_PunktortAG ,
                           aaa6:AX_PunktortAU ,
                           aaa6:AX_PunktortTA ,
@@ -4619,8 +4566,8 @@ aaa6:hinweise rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hochhaus
-aaa6:hochhaus rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:hochhaus rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Gebaeude ,
                           aaa6:AX_Gebaeudenachweis ;
               rdfs:range xsd:boolean ,
@@ -4628,8 +4575,8 @@ aaa6:hochhaus rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hochwert
-aaa6:hochwert rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:hochwert rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Position ,
                           aaa6:AX_PunktlisteSchwerefestpunkte_Eintrag ;
               rdfs:range xsd:string ;
@@ -4637,8 +4584,8 @@ aaa6:hochwert rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hochwertOderNorth
-aaa6:hochwertOderNorth rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:hochwertOderNorth rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_K_Lagesystem ,
                                    aaa6:AX_PunktlisteHoehenfestpunkte_Eintrag ,
                                    aaa6:AX_PunktlisteLagefestpunkte_Eintrag ;
@@ -4674,8 +4621,8 @@ aaa6:hoeheDesWasserspiegels rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#hoeheOderZWert
-aaa6:hoeheOderZWert rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:hoeheOderZWert rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_K_Positionssystem ,
                                 aaa6:AX_PunktlisteGrundnetzpunkt_Eintrag ,
                                 aaa6:AX_PunktlisteReferenzstationspunkte_Eintrag ;
@@ -4777,8 +4724,8 @@ aaa6:identifikation rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#identnummer
-aaa6:identnummer rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:identnummer rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_Gewaesserstationierungsachse ,
                              aaa6:AX_Kanal ,
                              aaa6:AX_Wasserlauf ;
@@ -4816,8 +4763,8 @@ aaa6:internationaleBedeutung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#interneBemerkungen
-aaa6:interneBemerkungen rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:interneBemerkungen rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_Festpunkt ;
                         rdfs:range xsd:string .
 
@@ -5135,8 +5082,8 @@ aaa6:inversZu_zu rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#isdnNummer
-aaa6:isdnNummer rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:isdnNummer rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AX_Referenzstationspunkt ;
                 rdfs:range xsd:string .
 
@@ -5315,12 +5262,12 @@ aaa6:istZentrumZu rdf:type owl:ObjectProperty ;
 aaa6:jahreszahl rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                 rdfs:domain aaa6:AX_Bodenschaetzung ;
-                rdfs:range aaa6:integer .
+                rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#kartendarstellung
-aaa6:kartendarstellung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:kartendarstellung rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_PunktortAG ,
                                    aaa6:AX_PunktortAU ,
                                    aaa6:AX_PunktortTA ;
@@ -5357,8 +5304,8 @@ aaa6:kennungSchluessel rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#kennzeichen
-aaa6:kennzeichen rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:kennzeichen rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AA_Antrag ;
                  rdfs:range xsd:string .
 
@@ -5392,8 +5339,8 @@ aaa6:klassifikation rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#klassifikationHierarchiestufe
-aaa6:klassifikationHierarchiestufe rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:klassifikationHierarchiestufe rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                    rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                                                aaa6:AX_EinzelnachweisLagefestpunkt ;
                                    rdfs:range xsd:string ;
@@ -5401,8 +5348,8 @@ aaa6:klassifikationHierarchiestufe rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#klassifikationOrdnung
-aaa6:klassifikationOrdnung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:klassifikationOrdnung rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                                        aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                                        aaa6:AX_EinzelnachweisLagefestpunkt ,
@@ -5412,8 +5359,8 @@ aaa6:klassifikationOrdnung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#klassifikationWertigkeit
-aaa6:klassifikationWertigkeit rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:klassifikationWertigkeit rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf aaa6:AAA6DataProp ;
                               rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                                           aaa6:AX_EinzelnachweisLagefestpunkt ;
                               rdfs:range xsd:string ;
@@ -5584,8 +5531,8 @@ aaa6:lageZurOberflaeche rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#lagebeschreibung
-aaa6:lagebeschreibung rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:lagebeschreibung rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                                   aaa6:AX_EinzelnachweisSchwerefestpunkt ;
                       rdfs:range xsd:string ;
@@ -5693,15 +5640,15 @@ aaa6:laufendeNummerDerBuchungsstelle rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummerDerFortfuehrung
-aaa6:laufendeNummerDerFortfuehrung rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:laufendeNummerDerFortfuehrung rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                    rdfs:domain aaa6:AX_HistorischesFlurstueckALB ;
                                    rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#laufendeNummerNachDIN1421
-aaa6:laufendeNummerNachDIN1421 rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:laufendeNummerNachDIN1421 rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                rdfs:domain aaa6:AX_Namensnummer ;
                                rdfs:range xsd:string .
 
@@ -5710,7 +5657,7 @@ aaa6:laufendeNummerNachDIN1421 rdf:type owl:ObjectProperty ;
 aaa6:laufendeNummerVonGesamtzahl rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                                  rdfs:domain aaa6:AX_Portionskennung ;
-                                 rdfs:range aaa6:integer ;
+                                 rdfs:range xsd:integer ;
                                  rdfs:label "laufendeNummerVonGesamtzahl"@de .
 
 
@@ -5719,7 +5666,7 @@ aaa6:laufendeNummervonGesamtzahl rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                                  rdfs:domain aaa6:AX_Einrichtungsauftrag ,
                                              aaa6:AX_Einrichtungsergebnis ;
-                                 rdfs:range aaa6:integer ;
+                                 rdfs:range xsd:integer ;
                                  rdfs:label "laufendeNummervonGesamtzahl"@de .
 
 
@@ -5749,8 +5696,8 @@ aaa6:letzteAbgabeArt rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#letzteAbgabeZugriff
-aaa6:letzteAbgabeZugriff rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:letzteAbgabeZugriff rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Benutzer ;
                          rdfs:range xsd:dateTime .
 
@@ -5773,8 +5720,8 @@ aaa6:liniendarstellung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#manuell
-aaa6:manuell rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:manuell rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AA_Empfaenger ,
                          aaa6:DCP ;
              rdfs:range xsd:string .
@@ -5799,8 +5746,8 @@ aaa6:merkmal rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#messjahr
-aaa6:messjahr rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:messjahr rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_K_Hoehensystem ,
                           aaa6:AX_K_Lagesystem ,
                           aaa6:AX_K_Positionssystem ,
@@ -5830,32 +5777,32 @@ aaa6:metadaten rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#mitFortfuehrungsnachweis
-aaa6:mitFortfuehrungsnachweis rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:mitFortfuehrungsnachweis rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf aaa6:AAA6DataProp ;
                               rdfs:domain aaa6:AX_Fortfuehrungsauftrag ;
                               rdfs:range xsd:boolean ;
                               rdfs:label "mitFortfuehrungsnachweis"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#mitMetadaten
-aaa6:mitMetadaten rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:mitMetadaten rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_Benutzungsauftrag ;
                   rdfs:range xsd:boolean ;
                   rdfs:label "mitMetadaten"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#mitObjektenImFortfuehrungsgebiet
-aaa6:mitObjektenImFortfuehrungsgebiet rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:mitObjektenImFortfuehrungsgebiet rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_Fortfuehrungsauftrag ;
                                       rdfs:range xsd:boolean ;
                                       rdfs:label "mitObjektenImFortfuehrungsgebiet"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#mitTemporaeremArbeitsbereich
-aaa6:mitTemporaeremArbeitsbereich rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:mitTemporaeremArbeitsbereich rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                   rdfs:domain aaa6:AX_Fortfuehrungsauftrag ;
                                   rdfs:range xsd:boolean ;
                                   rdfs:label "mitTemporaeremArbeitsbereich"@de .
@@ -5874,22 +5821,22 @@ aaa6:modellart rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nBAQuittierungErhalten
-aaa6:nBAQuittierungErhalten rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nBAQuittierungErhalten rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Benutzer ;
                             rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nBAUebernahmeErfolgreich
-aaa6:nBAUebernahmeErfolgreich rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nBAUebernahmeErfolgreich rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf aaa6:AAA6DataProp ;
                               rdfs:domain aaa6:AX_Benutzer ;
                               rdfs:range xsd:boolean .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nachfolgerFlurstueckskennzeichen
-aaa6:nachfolgerFlurstueckskennzeichen rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nachfolgerFlurstueckskennzeichen rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_HistorischesFlurstueck ,
                                                   aaa6:AX_HistorischesFlurstueckALB ,
                                                   aaa6:AX_HistorischesFlurstueckOhneRaumbezug ;
@@ -5897,8 +5844,8 @@ aaa6:nachfolgerFlurstueckskennzeichen rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nachnameOderFirma
-aaa6:nachnameOderFirma rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nachnameOderFirma rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_K_PERS1 ,
                                    aaa6:AX_Person ;
                        rdfs:range xsd:string .
@@ -6001,38 +5948,38 @@ aaa6:name rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nameDerPersonengruppe
-aaa6:nameDerPersonengruppe rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nameDerPersonengruppe rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_Personengruppe ;
                            rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nameLagebeschreibung
-aaa6:nameLagebeschreibung rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nameLagebeschreibung rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_Festpunkt ;
                           rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#namensbestandteil
-aaa6:namensbestandteil rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:namensbestandteil rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AX_K_PERS1 ,
                                    aaa6:AX_Person ;
                        rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#namensnummer
-aaa6:namensnummer rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:namensnummer rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_K_PERS1 ;
                   rdfs:range aaa6:AX_Namensnummer_K_PERS1 ;
                   rdfs:label "namensnummer"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nationalstaat
-aaa6:nationalstaat rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nationalstaat rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_Gebiet_Nationalstaat ;
                    rdfs:range xsd:string .
 
@@ -6057,15 +6004,15 @@ aaa6:nichtMehrAktuelleObjekte rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nivlinie
-aaa6:nivlinie rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nivlinie rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Hoehenfestpunkt ;
               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#normalhoehe
-aaa6:normalhoehe rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:normalhoehe rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_PunktlisteGrundnetzpunkt_Eintrag ;
                  rdfs:range xsd:string ;
                  rdfs:label "normalhoehe"@de .
@@ -6078,8 +6025,8 @@ aaa6:north rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#northOderYWert
-aaa6:northOderYWert rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:northOderYWert rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_K_Positionssystem ,
                                 aaa6:AX_PunktlisteGrundnetzpunkt_Eintrag ,
                                 aaa6:AX_PunktlisteReferenzstationspunkte_Eintrag ;
@@ -6088,15 +6035,15 @@ aaa6:northOderYWert rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#notariat
-aaa6:notariat rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:notariat rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Verwaltung ;
               rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummer
-aaa6:nummer rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nummer rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf aaa6:AAA6DataProp ;
             rdfs:domain aaa6:AX_AndereFestlegungNachStrassenrecht ,
                         aaa6:AX_AndereFestlegungNachWasserrecht ,
                         aaa6:AX_Lagebezeichnung_K_GEBAEUDE ,
@@ -6109,16 +6056,16 @@ aaa6:nummer rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummerDerBahnstrecke
-aaa6:nummerDerBahnstrecke rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nummerDerBahnstrecke rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_Bahnstrecke ,
                                       aaa6:AX_Bahnverkehr ;
                           rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummerDerSchutzzone
-aaa6:nummerDerSchutzzone rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nummerDerSchutzzone rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_Schutzzone ;
                          rdfs:range xsd:string .
 
@@ -6130,16 +6077,16 @@ aaa6:nummerDesGrablochs rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummerDesSchutzgebietes
-aaa6:nummerDesSchutzgebietes rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nummerDesSchutzgebietes rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:AX_SchutzgebietNachNaturUmweltOderBodenschutzrecht ,
                                          aaa6:AX_SchutzgebietNachWasserrecht ;
                              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nummerImAufteilungsplan
-aaa6:nummerImAufteilungsplan rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nummerImAufteilungsplan rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:AX_Buchungsstelle ,
                                          aaa6:AX_Grundstueck_Bestandsnachweis ,
                                          aaa6:AX_K_Eigentum ;
@@ -6156,8 +6103,8 @@ aaa6:nummerierungsbezirk rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#nutzerspezifischeBemerkungen
-aaa6:nutzerspezifischeBemerkungen rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:nutzerspezifischeBemerkungen rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                   rdfs:domain aaa6:AX_Festpunkt ;
                                   rdfs:range xsd:string .
 
@@ -6195,8 +6142,8 @@ aaa6:oberflaechenmaterial rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#objektart
-aaa6:objektart rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:objektart rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf aaa6:AAA6DataProp ;
                rdfs:domain aaa6:AA_Themendefinition ;
                rdfs:range xsd:string .
 
@@ -6278,8 +6225,8 @@ aaa6:ordnung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ordnungsnummer
-aaa6:ordnungsnummer rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ordnungsnummer rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_K_RESERVIERT ;
                     rdfs:range xsd:string ;
                     rdfs:label "ordnungsnummer"@de .
@@ -6302,15 +6249,15 @@ aaa6:ordnungsnummer2 rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ort_AmtlichesOrtsnamensverzeichnis
-aaa6:ort_AmtlichesOrtsnamensverzeichnis rdf:type owl:ObjectProperty ;
-                                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ort_AmtlichesOrtsnamensverzeichnis rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                         rdfs:domain aaa6:AX_Anschrift ;
                                         rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ort_Post
-aaa6:ort_Post rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ort_Post rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Anschrift ,
                           aaa6:AX_K_PERS1 ;
               rdfs:range xsd:string .
@@ -6323,8 +6270,8 @@ aaa6:ortsnamePost rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ortsteil
-aaa6:ortsteil rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ortsteil rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Anschrift ,
                           aaa6:AX_GeoreferenzierteGebaeudeadresse ,
                           aaa6:AX_K_LBEZ_Lagebezeichnung ,
@@ -6344,8 +6291,8 @@ aaa6:otherSRS rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#parameter
-aaa6:parameter rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:parameter rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf aaa6:AAA6DataProp ;
                rdfs:domain aaa6:AP_TransformationsMatrix_3D ;
                rdfs:range xsd:double .
 
@@ -6358,8 +6305,8 @@ aaa6:parameterArt rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#parameterWert
-aaa6:parameterWert rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:parameterWert rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AA_Gebuehrenangaben ;
                    rdfs:range xsd:string .
 
@@ -6378,8 +6325,8 @@ aaa6:pfeilerhoehe rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#pfeilerhoeheMessdatum
-aaa6:pfeilerhoeheMessdatum rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:pfeilerhoeheMessdatum rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                                        aaa6:AX_EinzelnachweisLagefestpunkt ;
                            rdfs:range xsd:string ;
@@ -6387,8 +6334,8 @@ aaa6:pfeilerhoeheMessdatum rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#pfeilerhoeheWert
-aaa6:pfeilerhoeheWert rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:pfeilerhoeheWert rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                                   aaa6:AX_EinzelnachweisLagefestpunkt ;
                       rdfs:range xsd:string ;
@@ -6494,8 +6441,8 @@ aaa6:position rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#positionierungsregel
-aaa6:positionierungsregel rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:positionierungsregel rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AP_Darstellung ;
                           rdfs:range xsd:string .
 
@@ -6514,8 +6461,8 @@ enthalten."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#postfach
-aaa6:postfach rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:postfach rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AX_Anschrift ;
               rdfs:range xsd:string .
 
@@ -6527,15 +6474,15 @@ aaa6:postleitzahl rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#postleitzahlPostfach
-aaa6:postleitzahlPostfach rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:postleitzahlPostfach rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf aaa6:AAA6DataProp ;
                           rdfs:domain aaa6:AX_Anschrift ;
                           rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#postleitzahlPostzustellung
-aaa6:postleitzahlPostzustellung rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:postleitzahlPostzustellung rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                 rdfs:domain aaa6:AX_Anschrift ,
                                             aaa6:AX_K_PERS1 ;
                                 rdfs:range xsd:string .
@@ -6558,8 +6505,8 @@ aaa6:produkt rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#profilkennung
-aaa6:profilkennung rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:profilkennung rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_Benutzer ,
                                aaa6:AX_Benutzungsauftrag ,
                                aaa6:AX_Einrichtungsauftrag ,
@@ -6574,8 +6521,8 @@ aaa6:profilkennung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#pseudonummer
-aaa6:pseudonummer rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:pseudonummer rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_LagebezeichnungMitPseudonummer ;
                   rdfs:range xsd:string .
 
@@ -6619,8 +6566,8 @@ aaa6:punkte rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktkennung
-aaa6:punktkennung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktkennung rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                   rdfs:domain aaa6:AX_BesondererBauwerkspunkt ,
                               aaa6:AX_BesondererGebaeudepunkt ,
                               aaa6:AX_BesondererTopographischerPunkt ,
@@ -6642,8 +6589,8 @@ aaa6:punktkennung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktkennungAlsHFP
-aaa6:punktkennungAlsHFP rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktkennungAlsHFP rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_EinzelnachweisLagefestpunkt ,
                                     aaa6:AX_EinzelnachweisReferenzstationspunkt ,
                                     aaa6:AX_EinzelnachweisSchwerefestpunkt ;
@@ -6652,8 +6599,8 @@ aaa6:punktkennungAlsHFP rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktkennungAlsLFP
-aaa6:punktkennungAlsLFP rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktkennungAlsLFP rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                                     aaa6:AX_EinzelnachweisReferenzstationspunkt ,
                                     aaa6:AX_EinzelnachweisSchwerefestpunkt ;
@@ -6662,8 +6609,8 @@ aaa6:punktkennungAlsLFP rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktkennungAlsRSP
-aaa6:punktkennungAlsRSP rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktkennungAlsRSP rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                                     aaa6:AX_EinzelnachweisLagefestpunkt ;
                         rdfs:range xsd:string ;
@@ -6671,8 +6618,8 @@ aaa6:punktkennungAlsRSP rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktkennungAlsSFP
-aaa6:punktkennungAlsSFP rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktkennungAlsSFP rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                                     aaa6:AX_EinzelnachweisLagefestpunkt ;
                         rdfs:range xsd:string ;
@@ -6680,8 +6627,8 @@ aaa6:punktkennungAlsSFP rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktnummer
-aaa6:punktnummer rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktnummer rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_K_GRENZPUNKT ,
                              aaa6:AX_K_PUNKTE ;
                  rdfs:range xsd:string ;
@@ -6689,8 +6636,8 @@ aaa6:punktnummer rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktstabilitaet
-aaa6:punktstabilitaet rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktstabilitaet rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_DQFestpunkt ,
                                   aaa6:AX_DQHoehenfestpunkt ;
                       rdfs:range aaa6:AX_Punktstabilitaet ,
@@ -6699,8 +6646,8 @@ aaa6:punktstabilitaet rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#punktvermarkung
-aaa6:punktvermarkung rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:punktvermarkung rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_EinzelnachweisGrundnetzpunkt ,
                                  aaa6:AX_EinzelnachweisHoehenfestpunkt ,
                                  aaa6:AX_EinzelnachweisLagefestpunkt ,
@@ -6793,15 +6740,15 @@ aaa6:qualitaetsangaben rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#quittierung
-aaa6:quittierung rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:quittierung rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_BenutzergruppeNBA ;
                  rdfs:range xsd:boolean .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#rechtsbehelfsverfahren
-aaa6:rechtsbehelfsverfahren rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:rechtsbehelfsverfahren rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Flurstueck ,
                                         aaa6:AX_HistorischesFlurstueck ,
                                         aaa6:AX_HistorischesFlurstueckOhneRaumbezug ;
@@ -6817,8 +6764,8 @@ aaa6:rechtsinhaber rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#rechtswert
-aaa6:rechtswert rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:rechtswert rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AX_Position ,
                             aaa6:AX_PunktlisteSchwerefestpunkte_Eintrag ;
                 rdfs:range xsd:string ;
@@ -6826,8 +6773,8 @@ aaa6:rechtswert rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#rechtswertOderEast
-aaa6:rechtswertOderEast rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:rechtswertOderEast rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_K_Lagesystem ,
                                     aaa6:AX_PunktlisteHoehenfestpunkte_Eintrag ,
                                     aaa6:AX_PunktlisteLagefestpunkte_Eintrag ;
@@ -6898,8 +6845,8 @@ aaa6:reserviert rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#reservierteNummern
-aaa6:reservierteNummern rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:reservierteNummern rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_Reservierungsergebnis ;
                         rdfs:range xsd:string ;
                         rdfs:label "reservierteNummern"@de .
@@ -6959,8 +6906,8 @@ aaa6:schluessel rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#schluesselGesamt
-aaa6:schluesselGesamt rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:schluesselGesamt rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_Buchungsblattbezirk ,
                                   aaa6:AX_Bundesland ,
                                   aaa6:AX_Dienststelle ,
@@ -6979,8 +6926,8 @@ aaa6:schluesselGesamt rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#schriftinhalt
-aaa6:schriftinhalt rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:schriftinhalt rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AP_LTO ,
                                aaa6:AP_PTO ;
                    rdfs:range xsd:string .
@@ -7030,8 +6977,8 @@ aaa6:schweresystem rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#schwerewert
-aaa6:schwerewert rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:schwerewert rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_Schwere ;
                  rdfs:range xsd:double .
 
@@ -7064,15 +7011,15 @@ aaa6:seriennummer rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#service
-aaa6:service rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:service rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:GetCapabilities ;
              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#signaturnummer
-aaa6:signaturnummer rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:signaturnummer rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AP_Darstellung ,
                                 aaa6:AP_FPO ,
                                 aaa6:AP_KPO_3D ,
@@ -7084,8 +7031,8 @@ aaa6:signaturnummer rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#skalierung
-aaa6:skalierung rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:skalierung rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                 rdfs:domain aaa6:AP_LTO ,
                             aaa6:AP_PPO ,
                             aaa6:AP_PTO ;
@@ -7130,8 +7077,8 @@ aaa6:sonstigeAngaben rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#sonstigeEigenschaft
-aaa6:sonstigeEigenschaft rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:sonstigeEigenschaft rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_BesondererBauwerkspunkt ,
                                      aaa6:AX_BesondererGebaeudepunkt ,
                                      aaa6:AX_BesondererTopographischerPunkt ,
@@ -7185,7 +7132,7 @@ aaa6:sonstigesModell rdf:type owl:ObjectProperty ;
 aaa6:spannungsebene rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                     rdfs:domain aaa6:AX_Leitung ;
-                    rdfs:range aaa6:integer .
+                    rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#speicherinhalt
@@ -7213,8 +7160,8 @@ aaa6:spurweite rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#standard
-aaa6:standard rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:standard rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf aaa6:AAA6DataProp ;
               rdfs:domain aaa6:AA_Koordinatenreferenzsystemangaben ;
               rdfs:range xsd:boolean .
 
@@ -7249,8 +7196,8 @@ aaa6:stellenart rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#strasse
-aaa6:strasse rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:strasse rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AX_Anschrift ,
                          aaa6:AX_K_PERS1 ;
              rdfs:range xsd:string .
@@ -7269,8 +7216,8 @@ aaa6:strassenname rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#strassenschluessel
-aaa6:strassenschluessel rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:strassenschluessel rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf aaa6:AAA6DataProp ;
                         rdfs:domain aaa6:AX_Fahrwegachse ,
                                     aaa6:AX_GeoreferenzierteGebaeudeadresse ,
                                     aaa6:AX_Platz ,
@@ -7284,12 +7231,12 @@ aaa6:strassenschluessel rdf:type owl:ObjectProperty ;
 aaa6:strichblattnummer rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf aaa6:AAA6ObjProp ;
                        rdfs:domain aaa6:AX_Namensnummer ;
-                       rdfs:range aaa6:integer .
+                       rdfs:range xsd:integer .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#strittigeGrenze
-aaa6:strittigeGrenze rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:strittigeGrenze rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_K_FLURSTUECK1 ,
                                  aaa6:AX_K_FLURSTUECK2 ,
                                  aaa6:AX_K_Fortfuehrungsfall_FMJ ;
@@ -7316,8 +7263,8 @@ aaa6:synchronisiertMit rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#system
-aaa6:system rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:system rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf aaa6:AAA6DataProp ;
             rdfs:domain aaa6:AX_K_Hoehensystem ,
                         aaa6:AX_K_Lagesystem ,
                         aaa6:AX_K_Positionssystem ,
@@ -7331,8 +7278,8 @@ aaa6:system rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#tagesabschnittsnummer
-aaa6:tagesabschnittsnummer rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:tagesabschnittsnummer rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_Tagesabschnitt ;
                            rdfs:range xsd:string .
 
@@ -7349,8 +7296,8 @@ aaa6:tatsaechlicheNutzung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#tcpipNummer
-aaa6:tcpipNummer rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:tcpipNummer rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf aaa6:AAA6DataProp ;
                  rdfs:domain aaa6:AX_Referenzstationspunkt ;
                  rdfs:range xsd:string .
 
@@ -7423,8 +7370,8 @@ aaa6:traverseXlinkDepth rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#uebernahmeprotokoll
-aaa6:uebernahmeprotokoll rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:uebernahmeprotokoll rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_NBAQuittierung ,
                                      aaa6:AX_Portion_Erfolgreich ;
                          rdfs:range xsd:string ;
@@ -7432,8 +7379,8 @@ aaa6:uebernahmeprotokoll rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#ueberpruefungsdatum
-aaa6:ueberpruefungsdatum rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:ueberpruefungsdatum rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf aaa6:AAA6DataProp ;
                          rdfs:domain aaa6:AX_PunktortAG ,
                                      aaa6:AX_PunktortAU ,
                                      aaa6:AX_PunktortTA ,
@@ -7633,8 +7580,8 @@ aaa6:vendorId rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#veraenderungOhneRuecksprache
-aaa6:veraenderungOhneRuecksprache rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:veraenderungOhneRuecksprache rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                   rdfs:domain aaa6:AX_BauRaumOderBodenordnungsrecht ;
                                   rdfs:range xsd:boolean .
 
@@ -7660,8 +7607,8 @@ aaa6:verarbeitungsart rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#verarbeitungszeitpunkt
-aaa6:verarbeitungszeitpunkt rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:verarbeitungszeitpunkt rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Benutzungsauftrag ;
                             rdfs:range xsd:dateTime ;
                             rdfs:label "verarbeitungszeitpunkt"@de .
@@ -7706,8 +7653,8 @@ im Boden und an baulichen Anlagen."""@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vermarkungsart
-aaa6:vermarkungsart rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:vermarkungsart rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf aaa6:AAA6DataProp ;
                     rdfs:domain aaa6:AX_PunktlisteGrundnetzpunkt_Eintrag ,
                                 aaa6:AX_PunktlisteHoehenfestpunkte_Eintrag ,
                                 aaa6:AX_PunktlisteLagefestpunkte_Eintrag ,
@@ -7766,8 +7713,8 @@ aaa6:vertritt rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#verwaltungsaktJN
-aaa6:verwaltungsaktJN rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:verwaltungsaktJN rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                       rdfs:domain aaa6:AX_FortfuehrungsnachweisDeckblatt ,
                                   aaa6:AX_K_FN_Deckblatt ;
                       rdfs:range xsd:string .
@@ -7850,39 +7797,39 @@ aaa6:vonVorgang rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vorgaengerFlurstueckskennzeichen
-aaa6:vorgaengerFlurstueckskennzeichen rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:vorgaengerFlurstueckskennzeichen rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_HistorischesFlurstueckALB ,
                                                   aaa6:AX_HistorischesFlurstueckOhneRaumbezug ;
                                       rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vorlaeufigePunktkennung
-aaa6:vorlaeufigePunktkennung rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:vorlaeufigePunktkennung rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:AX_K_ZEILE ,
                                          aaa6:AX_PunktkennungVergleichend ;
                              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vorletzteAbgabeZugriff
-aaa6:vorletzteAbgabeZugriff rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:vorletzteAbgabeZugriff rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Benutzer ;
                             rdfs:range xsd:dateTime .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#vorname
-aaa6:vorname rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:vorname rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf aaa6:AAA6DataProp ;
              rdfs:domain aaa6:AX_K_PERS1 ,
                          aaa6:AX_Person ;
              rdfs:range xsd:string .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#wannAbgeschlossen
-aaa6:wannAbgeschlossen rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:wannAbgeschlossen rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf aaa6:AAA6DataProp ;
                        rdfs:domain aaa6:AA_Meilenstein ;
                        rdfs:range xsd:dateTime .
 
@@ -7909,8 +7856,8 @@ aaa6:weistZum rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#weitereAdressen
-aaa6:weitereAdressen rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:weitereAdressen rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_Anschrift ;
                      rdfs:range xsd:string .
 
@@ -7926,8 +7873,8 @@ aaa6:weitereGebaeudefunktion rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#weitereNutzungsangaben
-aaa6:weitereNutzungsangaben rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:weitereNutzungsangaben rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_AbschnittTN ;
                             rdfs:range xsd:string ;
                             rdfs:label "weitereNutzungsangaben"@de .
@@ -7996,8 +7943,8 @@ aaa6:wirtschaftsart rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#wohnortOderSitz
-aaa6:wohnortOderSitz rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:wohnortOderSitz rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_Person ;
                      rdfs:range xsd:string .
 
@@ -8013,13 +7960,13 @@ aaa6:zaehler rdf:type owl:ObjectProperty ;
 aaa6:zahl rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
           rdfs:domain aaa6:AX_Reservierungsauftrag ;
-          rdfs:range aaa6:integer ;
+          rdfs:range xsd:integer ;
           rdfs:label "zahl"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zahlungsweise
-aaa6:zahlungsweise rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zahlungsweise rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_Benutzer ;
                    rdfs:range xsd:string .
 
@@ -8041,8 +7988,8 @@ aaa6:zeigtAuf rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeigtAufAltesFlurstueck
-aaa6:zeigtAufAltesFlurstueck rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeigtAufAltesFlurstueck rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:AX_Fortfuehrungsfall ;
                              rdfs:range xsd:string .
 
@@ -8059,8 +8006,8 @@ aaa6:zeigtAufExternes rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeigtAufNeuesFlurstueck
-aaa6:zeigtAufNeuesFlurstueck rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeigtAufNeuesFlurstueck rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf aaa6:AAA6DataProp ;
                              rdfs:domain aaa6:AX_Fortfuehrungsfall ;
                              rdfs:range xsd:string .
 
@@ -8073,22 +8020,22 @@ aaa6:zeile rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeitlicheBerechtigung
-aaa6:zeitlicheBerechtigung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeitlicheBerechtigung rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf aaa6:AAA6DataProp ;
                            rdfs:domain aaa6:AX_Benutzer ;
                            rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeitpunktDerEintragung
-aaa6:zeitpunktDerEintragung rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeitpunktDerEintragung rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Buchungsstelle ;
                             rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeitpunktDerEntstehung
-aaa6:zeitpunktDerEntstehung rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeitpunktDerEntstehung rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf aaa6:AAA6DataProp ;
                             rdfs:domain aaa6:AX_Flurstueck ,
                                         aaa6:AX_Grenzpunkt ,
                                         aaa6:AX_HistorischesFlurstueck ,
@@ -8098,15 +8045,15 @@ aaa6:zeitpunktDerEntstehung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeitpunktDerEntstehungDesBezugsflurstuecks
-aaa6:zeitpunktDerEntstehungDesBezugsflurstuecks rdf:type owl:ObjectProperty ;
-                                                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeitpunktDerEntstehungDesBezugsflurstuecks rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                                 rdfs:domain aaa6:AX_HistorischesFlurstueckALB ;
                                                 rdfs:range xsd:date .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zeitpunktDerHistorisierung
-aaa6:zeitpunktDerHistorisierung rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zeitpunktDerHistorisierung rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                 rdfs:domain aaa6:AX_HistorischesFlurstueck ;
                                 rdfs:range xsd:date .
 
@@ -8134,8 +8081,8 @@ aaa6:zu rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zugriffHistorie
-aaa6:zugriffHistorie rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zugriffHistorie rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf aaa6:AAA6DataProp ;
                      rdfs:domain aaa6:AX_BenutzergruppeMitZugriffskontrolle ;
                      rdfs:range xsd:boolean .
 
@@ -8178,8 +8125,8 @@ aaa6:zusatzOrtsname rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zusatzZurLagebezeichnung
-aaa6:zusatzZurLagebezeichnung rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zusatzZurLagebezeichnung rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf aaa6:AAA6DataProp ;
                               rdfs:domain aaa6:AX_LagebezeichnungOhneHausnummer ;
                               rdfs:range xsd:string .
 
@@ -8278,8 +8225,8 @@ aaa6:zustandsstufeOderBodenstufe rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zweifelhafterFlurstuecksnachweis
-aaa6:zweifelhafterFlurstuecksnachweis rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zweifelhafterFlurstuecksnachweis rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf aaa6:AAA6DataProp ;
                                       rdfs:domain aaa6:AX_Flurstueck ,
                                                   aaa6:AX_HistorischesFlurstueck ,
                                                   aaa6:AX_HistorischesFlurstueckOhneRaumbezug ;
@@ -8287,8 +8234,8 @@ aaa6:zweifelhafterFlurstuecksnachweis rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zweitname
-aaa6:zweitname rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zweitname rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf aaa6:AAA6DataProp ;
                rdfs:domain aaa6:AX_AbschnittTN ,
                            aaa6:AX_Bahnstrecke ,
                            aaa6:AX_Bahnverkehr ,
@@ -8310,8 +8257,8 @@ aaa6:zweitname rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#zwischenmarke
-aaa6:zwischenmarke rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf aaa6:AAA6ObjProp ;
+aaa6:zwischenmarke rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf aaa6:AAA6DataProp ;
                    rdfs:domain aaa6:AX_Grenzpunkt ,
                                aaa6:AX_K_GRENZPUNKT ;
                    rdfs:range xsd:boolean ,
@@ -10482,7 +10429,7 @@ aaa6:AP_Darstellung rdf:type owl:Class ;
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:darstellungsprioritaet ;
-                                      owl:allValuesFrom aaa6:integer
+                                      owl:allValuesFrom xsd:integer
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:dientZurDarstellungVon ;
@@ -10527,7 +10474,7 @@ aaa6:AP_FPO rdf:type owl:Class ;
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:darstellungsprioritaet ;
-                              owl:allValuesFrom aaa6:integer
+                              owl:allValuesFrom xsd:integer
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:dientZurDarstellungVon ;
@@ -10564,7 +10511,7 @@ aaa6:AP_KPO_3D rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty aaa6:darstellungsprioritaet ;
-                                 owl:allValuesFrom aaa6:integer
+                                 owl:allValuesFrom xsd:integer
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xsd:dateiTyp ;
@@ -10625,7 +10572,7 @@ aaa6:AP_LPO rdf:type owl:Class ;
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:darstellungsprioritaet ;
-                              owl:allValuesFrom aaa6:integer
+                              owl:allValuesFrom xsd:integer
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:dientZurDarstellungVon ;
@@ -10678,7 +10625,7 @@ aaa6:AP_LTO rdf:type owl:Class ;
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:darstellungsprioritaet ;
-                              owl:allValuesFrom aaa6:integer
+                              owl:allValuesFrom xsd:integer
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:dientZurDarstellungVon ;
@@ -10763,7 +10710,7 @@ aaa6:AP_PPO rdf:type owl:Class ;
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:darstellungsprioritaet ;
-                              owl:allValuesFrom aaa6:integer
+                              owl:allValuesFrom xsd:integer
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:dientZurDarstellungVon ;
@@ -10816,7 +10763,7 @@ aaa6:AP_PTO rdf:type owl:Class ;
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:darstellungsprioritaet ;
-                              owl:allValuesFrom aaa6:integer
+                              owl:allValuesFrom xsd:integer
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:dientZurDarstellungVon ;
@@ -11884,7 +11831,7 @@ aaa6:AX_Bauteil rdf:type owl:Class ;
                 rdfs:subClassOf aaa6:AG_Flaechenobjekt ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty aaa6:anzahlDerOberirdischenGeschosse ;
-                                  owl:allValuesFrom aaa6:integer
+                                  owl:allValuesFrom xsd:integer
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty aaa6:bauart ;
@@ -11892,7 +11839,7 @@ aaa6:AX_Bauteil rdf:type owl:Class ;
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty aaa6:baujahr ;
-                                  owl:allValuesFrom aaa6:integer
+                                  owl:allValuesFrom xsd:integer
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty aaa6:dachform ;
@@ -12772,7 +12719,7 @@ aaa6:AX_Bodenschaetzung rdf:type owl:Class ;
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty aaa6:jahreszahl ;
-                                          owl:allValuesFrom aaa6:integer
+                                          owl:allValuesFrom xsd:integer
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty aaa6:kulturart ;
@@ -13998,7 +13945,7 @@ aaa6:AX_Einrichtungsauftrag rdf:type owl:Class ;
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty aaa6:gesamtzahl ;
-                                              owl:allValuesFrom aaa6:integer
+                                              owl:allValuesFrom xsd:integer
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty aaa6:impliziteLoeschungDerReservierung ;
@@ -14010,7 +13957,7 @@ aaa6:AX_Einrichtungsauftrag rdf:type owl:Class ;
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty aaa6:laufendeNummervonGesamtzahl ;
-                                              owl:allValuesFrom aaa6:integer
+                                              owl:allValuesFrom xsd:integer
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty aaa6:neueObjekte ;
@@ -14044,11 +13991,11 @@ aaa6:AX_Einrichtungsergebnis rdf:type owl:Class ;
                                              ] ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:gesamtzahl ;
-                                               owl:allValuesFrom aaa6:integer
+                                               owl:allValuesFrom xsd:integer
                                              ] ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:laufendeNummervonGesamtzahl ;
-                                               owl:allValuesFrom aaa6:integer
+                                               owl:allValuesFrom xsd:integer
                                              ] ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:temporaererArbeitsbereich ;
@@ -14691,7 +14638,7 @@ aaa6:AX_Fahrbahnachse rdf:type owl:Class ;
                                       aaa6:TA_CurveComponent ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty aaa6:anzahlDerFahrstreifen ;
-                                        owl:allValuesFrom aaa6:integer
+                                        owl:allValuesFrom xsd:integer
                                       ] ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty aaa6:besondereFahrstreifen ;
@@ -14749,7 +14696,7 @@ aaa6:AX_Fahrwegachse rdf:type owl:Class ;
                                      ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:breiteDesVerkehrsweges ;
-                                       owl:allValuesFrom aaa6:integer
+                                       owl:allValuesFrom xsd:integer
                                      ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:funktion ;
@@ -15229,7 +15176,7 @@ aaa6:AX_Flurstueck rdf:type owl:Class ;
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty aaa6:flurnummer ;
-                                     owl:allValuesFrom aaa6:integer
+                                     owl:allValuesFrom xsd:integer
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty aaa6:flurstuecksfolge ;
@@ -15618,7 +15565,7 @@ aaa6:AX_Fortfuehrungsfall rdf:type owl:Class ;
                                           ] ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty aaa6:anzahlDerFortfuehrungsmitteilungen ;
-                                            owl:allValuesFrom aaa6:integer
+                                            owl:allValuesFrom xsd:integer
                                           ] ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty aaa6:bemerkung ;
@@ -15626,7 +15573,7 @@ aaa6:AX_Fortfuehrungsfall rdf:type owl:Class ;
                                           ] ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty aaa6:fortfuehrungsfallnummer ;
-                                            owl:allValuesFrom aaa6:integer
+                                            owl:allValuesFrom xsd:integer
                                           ] ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty aaa6:fortfuehrungsmitteilungAnEigentuemerAntragsteller ;
@@ -16071,15 +16018,15 @@ aaa6:AX_Gebaeude rdf:type owl:Class ;
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty aaa6:anzahlDerOberirdischenGeschosse ;
-                                   owl:allValuesFrom aaa6:integer
+                                   owl:allValuesFrom xsd:integer
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty aaa6:anzahlDerUnterirdischenGeschosse ;
-                                   owl:allValuesFrom aaa6:integer
+                                   owl:allValuesFrom xsd:integer
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty aaa6:baujahr ;
-                                   owl:allValuesFrom aaa6:integer
+                                   owl:allValuesFrom xsd:integer
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty aaa6:bauweise ;
@@ -16314,11 +16261,11 @@ aaa6:AX_Gebaeudenachweis rdf:type owl:Class ;
                          rdfs:subClassOf aaa6:AX_Benutzungsergebnis ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty aaa6:anzahlDerOberirdischenGeschosse ;
-                                           owl:allValuesFrom aaa6:integer
+                                           owl:allValuesFrom xsd:integer
                                          ] ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty aaa6:anzahlDerUnterirdischenGeschosse ;
-                                           owl:allValuesFrom aaa6:integer
+                                           owl:allValuesFrom xsd:integer
                                          ] ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty aaa6:ausgabekopf ;
@@ -16326,7 +16273,7 @@ aaa6:AX_Gebaeudenachweis rdf:type owl:Class ;
                                          ] ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty aaa6:baujahr ;
-                                           owl:allValuesFrom aaa6:integer
+                                           owl:allValuesFrom xsd:integer
                                          ] ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty aaa6:bauweise ;
@@ -16977,7 +16924,7 @@ aaa6:AX_Gewaesserachse rdf:type owl:Class ;
                        rdfs:subClassOf aaa6:TA_CurveComponent ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:breiteDesGewaessers ;
-                                         owl:allValuesFrom aaa6:integer
+                                         owl:allValuesFrom xsd:integer
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:fliessrichtung ;
@@ -17764,7 +17711,7 @@ aaa6:AX_HistorischesFlurstueck rdf:type owl:Class ;
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty aaa6:flurnummer ;
-                                                 owl:allValuesFrom aaa6:integer
+                                                 owl:allValuesFrom xsd:integer
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty aaa6:flurstuecksfolge ;
@@ -17893,7 +17840,7 @@ aaa6:AX_HistorischesFlurstueckALB rdf:type owl:Class ;
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty aaa6:flurnummer ;
-                                                    owl:allValuesFrom aaa6:integer
+                                                    owl:allValuesFrom xsd:integer
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty aaa6:flurstuecksfolge ;
@@ -18002,7 +17949,7 @@ aaa6:AX_HistorischesFlurstueckOhneRaumbezug rdf:type owl:Class ;
                                                             ] ,
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty aaa6:flurnummer ;
-                                                              owl:allValuesFrom aaa6:integer
+                                                              owl:allValuesFrom xsd:integer
                                                             ] ,
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty aaa6:flurstuecksfolge ;
@@ -19558,7 +19505,7 @@ aaa6:AX_Leitung rdf:type owl:Class ;
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty aaa6:spannungsebene ;
-                                  owl:allValuesFrom aaa6:integer
+                                  owl:allValuesFrom xsd:integer
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty aaa6:inversZu_gehoertZuBauwerk ;
@@ -19938,7 +19885,7 @@ aaa6:AX_Namensnummer rdf:type owl:Class ;
                                      ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:strichblattnummer ;
-                                       owl:allValuesFrom aaa6:integer
+                                       owl:allValuesFrom xsd:integer
                                      ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:anteil ;
@@ -21548,7 +21495,7 @@ aaa6:AX_Reservierungsauftrag rdf:type owl:Class ;
                                              ] ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:zahl ;
-                                               owl:allValuesFrom aaa6:integer
+                                               owl:allValuesFrom xsd:integer
                                              ] ;
                              rdfs:label "AX_Reservierungsauftrag"@de .
 
@@ -23215,7 +23162,7 @@ aaa6:AX_Strassenachse rdf:type owl:Class ;
                       rdfs:subClassOf aaa6:TA_CurveComponent ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty aaa6:anzahlDerFahrstreifen ;
-                                        owl:allValuesFrom aaa6:integer
+                                        owl:allValuesFrom xsd:integer
                                       ] ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty aaa6:besondereFahrstreifen ;
@@ -23227,7 +23174,7 @@ aaa6:AX_Strassenachse rdf:type owl:Class ;
                                       ] ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty aaa6:breiteDesVerkehrsweges ;
-                                        owl:allValuesFrom aaa6:integer
+                                        owl:allValuesFrom xsd:integer
                                       ] ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty aaa6:funktion ;
@@ -24440,7 +24387,7 @@ aaa6:AX_WegPfadSteig rdf:type owl:Class ;
                                      ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:breiteDesVerkehrsweges ;
-                                       owl:allValuesFrom aaa6:integer
+                                       owl:allValuesFrom xsd:integer
                                      ] ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:inversZu_gehoertZuBauwerk ;
@@ -24987,7 +24934,7 @@ aaa6:hoehengenauigkeit rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#integer
-aaa6:integer rdf:type owl:Class .
+xsd:integer rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#inversZu_enthaelt
