@@ -51,14 +51,20 @@ xerl:sinceVersion rdf:type owl:AnnotationProperty .
 ###  http://www.w3.org/2001/XMLSchemadate
 xsd:date rdf:type rdfs:Datatype .
 
-
 ###  http://www.w3.org/2001/XMLSchemanonNegativeInteger
 xsd:nonNegativeInteger rdf:type rdfs:Datatype .
-
 
 ###  http://www.w3.org/2001/XMLSchemastring
 xsd:string rdf:type rdfs:Datatype .
 
+###  http://www.w3.org/2001/XMLSchemastring
+xsd:boolean rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2001/XMLSchemastring
+xsd:dateTime rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2001/XMLSchemastring
+xsd:double rdf:type rdfs:Datatype .
 
 ###  http://www.w3.org/2001/XMLSchematime
 xsd:time rdf:type rdfs:Datatype .
@@ -1522,10 +1528,6 @@ xerl:abschnittVonHNrRechts rdf:type owl:DatatypeProperty ;
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittVonKnoten
 xerl:abschnittVonKnoten rdf:type owl:DatatypeProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/ambulantStationaer
-xerl:ambulantStationaer rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/anrede
