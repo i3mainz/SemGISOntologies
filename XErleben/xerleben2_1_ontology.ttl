@@ -1,10 +1,10 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix gml: <http://www.opengis.net/gml/3.2/> .
 @prefix xerl: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 
@@ -81,7 +81,7 @@ xerl:BisKnoten rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xe
 
 
 ###  http://www.xerleben.de/schema/2.0_1/RessourcenEinheit
-xerl:RessourcenEinheit rdf:type owl:ObjectProperty ;                       rdfs:subPropertyOf xerl:X ;
+xerl:RessourcenEinheit rdf:type owl:ObjectProperty ;                       rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                        rdfs:domain xerl:XE_Ressource .
 
 
@@ -109,12 +109,8 @@ xerl:VonKnoten rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xe
                rdfs:label "VonKnoten"@de .
 
 
-###  http://www.xerleben.de/schema/2.0_1/XErleben2Data
-xerl:XErleben2Data rdf:type owl:DatatypeProperty .
-
 ###  http://www.xerleben.de/schema/2.0_1/XErleben2ObjProperty
 xerl:XErleben2ObjProperty rdf:type owl:ObjectProperty .
-
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBesMerkmal
 xerl:abschnittBesMerkmal rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
@@ -2329,31 +2325,6 @@ geosparql:Geometry rdf:type owl:Class ;
 ###  http://www.opengis.net/ont/geosparql#SpatialObject
 geosparql:SpatialObject rdf:type owl:Class ;
                         rdfs:label "SpatialObject" .
-
-
-###  http://www.w3.org/2001/XMLSchemaanyURI
-xsd:anyURI rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchemaboolean
-xsd:boolean rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchemadateTime
-xsd:dateTime rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchemadouble
-xsd:double rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchemainteger
-xsd:integer rdf:type owl:Class .
-
-
-###  http://www.w3.org/2002/07/owl#DataProperty
-owl:DataProperty rdf:type owl:Class .
-
 
 ###  http://www.xerleben.de/schema/2.0_1/AddressDetails
 xerl:AddressDetails rdf:type owl:Class ;
