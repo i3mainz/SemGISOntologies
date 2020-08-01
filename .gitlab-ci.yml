@@ -43,11 +43,11 @@ pages:
   - rm html/aaa/doc/*.xml
   - rm html/aaa/doc/*.json
   - mkdir html/inspire
-  - java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -uniteSections -rewriteAll -confFile config/inspire.properties
-  - rm html/inspire/*.ttl
-  - rm html/inspire/*.nt
-  - rm html/inspire/*.xml
-  - rm html/inspire/*.json
+  #- java -jar widoco.jar -ontFile ../INSPIRE/inspire4_withCodeLists_mod.ttl -outFolder html/inspire/ -doNotDisplaySerializations -uniteSections -rewriteAll -confFile config/inspire.properties
+  #- rm html/inspire/*.ttl
+  #- rm html/inspire/*.nt
+  #- rm html/inspire/*.xml
+  #- rm html/inspire/*.json
   - mv index.html html/index.html
   - mv ../classtree.js html/classtree.js
   - mv ../pages.js html/pages.js
