@@ -250,7 +250,7 @@ xerl:adresse rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:X
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ambulantStationaer
-xerl:ambulantStationaer rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
+xerl:ambulantStationaer rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                         rdfs:domain xerl:XE_SozialEinrichtung_Info ;
                         rdfs:range xerl:XE_AMBULANTSTATIONAER .
 
@@ -1075,7 +1075,7 @@ xerl:nutzungsstatus rdf:type owl:ObjectProperty ;                    rdfs:subPro
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektAdresse
-xerl:objektAdresse rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data .
+xerl:objektAdresse rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektCode
@@ -1106,7 +1106,7 @@ xerl:objektKategorie rdf:type owl:DatatypeProperty ;                       rdfs:
 ###  http://www.xerleben.de/schema/2.0_1/objektName
 xerl:objektName rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_OrtVonInteresse ;
-                rdfs:range <http://xoev.de/latinchars/1_1/datatypes#String.Latin> .
+                rdfs:range xsd:string .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektNamenszusatz
@@ -1375,15 +1375,6 @@ xerl:verweis rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:X
 xerl:verzeichnisversion rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Unternehmen_Info .
 
-
-###  http://www.xerleben.de/schema/2.0_1/vonDatum
-xerl:vonDatum rdf:type owl:ObjectProperty ;              rdfs:subPropertyOf xerl:XErleben2Data .
-
-
-###  http://www.xerleben.de/schema/2.0_1/vonZeit
-xerl:vonZeit rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:XErleben2Data .
-
-
 ###  http://www.xerleben.de/schema/2.0_1/von_datum
 xerl:von_datum rdf:type owl:DatatypeProperty ;                 rdfs:subPropertyOf xerl:XErleben2Data ;
                rdfs:domain xerl:XE_Oeffnungszeiten .
@@ -1470,7 +1461,8 @@ xerl:RessourcenZahlTats rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/XErleben2Data
-xerl:XErleben2Data rdf:type owl:DatatypeProperty .
+xerl:XErleben2Data rdf:type owl:DatatypeProperty ;
+	rdfs:label "XErleben2Data"@en .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBisHNrLinks
@@ -2030,11 +2022,6 @@ xerl:name rdf:type owl:DatatypeProperty ;
 xerl:namensraum rdf:type owl:DatatypeProperty ;
                 rdfs:range xsd:string .
 
-
-###  http://www.xerleben.de/schema/2.0_1/objektAdresse
-xerl:objektAdresse rdf:type owl:DatatypeProperty .
-
-
 ###  http://www.xerleben.de/schema/2.0_1/objektCode
 xerl:objektCode rdf:type owl:DatatypeProperty .
 
@@ -2042,11 +2029,6 @@ xerl:objektCode rdf:type owl:DatatypeProperty .
 ###  http://www.xerleben.de/schema/2.0_1/objektEmail
 xerl:objektEmail rdf:type owl:DatatypeProperty ;
                  rdfs:range xsd:string .
-
-
-###  http://www.xerleben.de/schema/2.0_1/objektFax
-xerl:objektFax rdf:type owl:DatatypeProperty .
-
 
 ###  http://www.xerleben.de/schema/2.0_1/objektFunktion
 xerl:objektFunktion rdf:type owl:DatatypeProperty ;
@@ -2056,12 +2038,6 @@ xerl:objektFunktion rdf:type owl:DatatypeProperty ;
 ###  http://www.xerleben.de/schema/2.0_1/objektKategorie
 xerl:objektKategorie rdf:type owl:DatatypeProperty ;
                      rdfs:range xsd:string .
-
-
-###  http://www.xerleben.de/schema/2.0_1/objektName
-xerl:objektName rdf:type owl:DatatypeProperty ;
-                rdfs:range xsd:string .
-
 
 ###  http://www.xerleben.de/schema/2.0_1/objektNamenszusatz
 xerl:objektNamenszusatz rdf:type owl:DatatypeProperty ;
