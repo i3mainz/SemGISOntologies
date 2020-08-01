@@ -72,167 +72,126 @@ xsd:time rdf:type rdfs:Datatype .
 #################################################################
 
 ###  http://www.xerleben.de/schema/2.0_1/AddressDetails
-xerl:AddressDetails rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:AddressDetails rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                     rdfs:range xerl:AddressDetails .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/BisKnoten
-xerl:BisKnoten rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:BisKnoten rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_Wegabschnitt ;
                rdfs:range xerl:XE_Wegknoten ;
                rdfs:label "BisKnoten"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/RessourcenEinheit
-xerl:RessourcenEinheit rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:RessourcenEinheit rdf:type owl:ObjectProperty ;                       rdfs:subPropertyOf xerl:X ;
                        rdfs:domain xerl:XE_Ressource .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/RessourcenTyp
-xerl:RessourcenTyp rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:RessourcenTyp rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Ressource .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/RessourcenZahlMax
-xerl:RessourcenZahlMax rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:RessourcenZahlMax rdf:type owl:DatatypeProperty ;                         rdfs:subPropertyOf xerl:XErleben2Data ;
                        rdfs:domain xerl:XE_Ressource ;
                        rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/RessourcenZahlTats
-xerl:RessourcenZahlTats rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:RessourcenZahlTats rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Ressource ;
                         rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/VonKnoten
-xerl:VonKnoten rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:VonKnoten rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_Wegabschnitt ;
                rdfs:range xerl:XE_Wegknoten ;
                rdfs:label "VonKnoten"@de .
 
 
-###  http://www.xerleben.de/schema/2.0_1/XE_Adresse
-xerl:XE_Adresse rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XE_Oeffnungszeiten
-xerl:XE_Oeffnungszeiten rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XE_Postfachadresse
-xerl:XE_Postfachadresse rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XE_Ressource
-xerl:XE_Ressource rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XE_Telefon
-xerl:XE_Telefon rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XE_Wegknoten
-xerl:XE_Wegknoten rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XErleben2
-<http://www.xerleben.de/schema/2.0_1/XErleben2> rdf:type owl:ObjectProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/XErleben2DataProp
-xerl:XErleben2DataProp rdf:type owl:ObjectProperty .
-
+###  http://www.xerleben.de/schema/2.0_1/XErleben2Data
+xerl:XErleben2Data rdf:type owl:DatatypeProperty .
 
 ###  http://www.xerleben.de/schema/2.0_1/XErleben2ObjProperty
 xerl:XErleben2ObjProperty rdf:type owl:ObjectProperty .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBesMerkmal
-xerl:abschnittBesMerkmal rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:abschnittBesMerkmal rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                          rdfs:domain xerl:XE_Wegabschnitt ;
                          rdfs:range xerl:XE_BSM_WEGABSCHNITT ;
                          rdfs:label "abschnittBesMerkmal"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBisHNrLinks
-xerl:abschnittBisHNrLinks rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittBisHNrLinks rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBisHNrRechts
-xerl:abschnittBisHNrRechts rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittBisHNrRechts rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf xerl:XErleben2Data ;
                            rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBreiteM
-xerl:abschnittBreiteM rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittBreiteM rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_Wegabschnitt ;
                       rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBreiteMMax
-xerl:abschnittBreiteMMax rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittBreiteMMax rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_Wegabschnitt ;
                          rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittBreiteMMin
-xerl:abschnittBreiteMMin rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittBreiteMMin rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_Wegabschnitt ;
                          rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittInfo
-xerl:abschnittInfo rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittInfo rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittLage
-xerl:abschnittLage rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:abschnittLage rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                    rdfs:domain xerl:XE_Wegabschnitt ;
                    rdfs:range xerl:XE_LWG_WEGABSCHNITT ;
                    rdfs:label "abschnittLage"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittName
-xerl:abschnittName rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittName rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittStrasse
-xerl:abschnittStrasse rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittStrasse rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittUntergrund
-xerl:abschnittUntergrund rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:abschnittUntergrund rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                          rdfs:domain xerl:XE_Wegabschnitt ;
                          rdfs:range xerl:XE_UGR_WEGABSCHNITT ;
                          rdfs:label "abschnittUntergrund"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittVerlauf
-xerl:abschnittVerlauf rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:abschnittVerlauf rdf:type owl:ObjectProperty ;                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                       rdfs:domain xerl:XE_Wegabschnitt ;
                       rdfs:range <http://www.opengis.net/gml/3.2#Curve> ;
                       rdfs:label "abschnittVerlauf"@de ;
@@ -240,36 +199,33 @@ xerl:abschnittVerlauf rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittVonHNrLinks
-xerl:abschnittVonHNrLinks rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittVonHNrLinks rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittVonHNrRechts
-xerl:abschnittVonHNrRechts rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:abschnittVonHNrRechts rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf xerl:XErleben2Data ;
                            rdfs:domain xerl:XE_Wegabschnitt .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittWegefuehrung
-xerl:abschnittWegefuehrung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:abschnittWegefuehrung rdf:type owl:ObjectProperty ;                           rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                            rdfs:domain xerl:XE_Wegabschnitt ;
                            rdfs:range xerl:XE_WGF_WEGABSCHNITT ;
                            rdfs:label "abschnittWegefuehrung"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittZustand
-xerl:abschnittZustand rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:abschnittZustand rdf:type owl:ObjectProperty ;                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                       rdfs:domain xerl:XE_Wegabschnitt ;
                       rdfs:range xerl:XE_ZST_WEGABSCHNITT ;
                       rdfs:label "abschnittZustand"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/adminebene
-xerl:adminebene rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:adminebene rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xerl:XE_Behoerde_Info
                                             xerl:XE_Verband_Info
@@ -280,8 +236,7 @@ xerl:adminebene rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/adminhierachylevel
-xerl:adminhierachylevel rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:adminhierachylevel rdf:type owl:ObjectProperty ;                        rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                         rdfs:domain xerl:XE_Verband_Info ;
                         rdfs:range xerl:XE_ADMINHIERARCHYLEVEL ;
                         rdfs:label "adminhierachylevel"@de ;
@@ -289,69 +244,64 @@ xerl:adminhierachylevel rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/adminhierarchylevel
-xerl:adminhierarchylevel rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:adminhierarchylevel rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                          rdfs:domain xerl:XE_Behoerde_Info ;
                          rdfs:range xerl:XE_ADMINHIERARCHYLEVEL ;
                          rdfs:label "adminhierarchylevel"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/adresse
-xerl:adresse rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:adresse rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
              rdfs:domain xerl:XE_Person ;
              rdfs:range xerl:XE_Adresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ambulantStationaer
-xerl:ambulantStationaer rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:ambulantStationaer rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_SozialEinrichtung_Info ;
                         rdfs:range xerl:XE_AMBULANTSTATIONAER .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/anrede
-xerl:anrede rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:anrede rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf xerl:XErleben2Data ;
             rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/any
-xerl:any rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:any rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/anzPersonenMax
-xerl:anzPersonenMax rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:anzPersonenMax rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_Veranstaltungsort_Info ;
                     rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/anzRaeume
-xerl:anzRaeume rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:anzRaeume rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf xerl:XErleben2Data ;
                rdfs:domain xerl:XE_Veranstaltungsort_Info ;
                rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/aufTrasse
-xerl:aufTrasse rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:aufTrasse rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_OEVLinie ;
                rdfs:range xerl:XE_OEVTrasse ;
                rdfs:label "aufTrasse"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/barriereText
-xerl:barriereText rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:barriereText rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Barrierefreiheit_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/barrierefreiFuer
-xerl:barrierefreiFuer rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:barrierefreiFuer rdf:type owl:ObjectProperty ;                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                       rdfs:domain xerl:XE_OrtVonInteresse ;
                       rdfs:range xerl:XE_Barrierefreiheit_Info ;
                       rdfs:label "barrierefreiFuer"@de ;
@@ -359,85 +309,79 @@ xerl:barrierefreiFuer rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/beschreibung
-xerl:beschreibung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:beschreibung rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Externe_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchAngebot
-xerl:besuchAngebot rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchAngebot rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchHatWC
-xerl:besuchHatWC rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchHatWC rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Autoverkehr_Info ;
                  rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchImbiss
-xerl:besuchImbiss rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchImbiss rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchIstKostenpflichtig
-xerl:besuchIstKostenpflichtig rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchIstKostenpflichtig rdf:type owl:DatatypeProperty ;                                rdfs:subPropertyOf xerl:XErleben2Data ;
                               rdfs:domain xerl:XE_OrtVonInteresse ;
                               rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchIstOeffentlich
-xerl:besuchIstOeffentlich rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchIstOeffentlich rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_OrtVonInteresse ;
                           rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchKosten
-xerl:besuchKosten rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchKosten rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/besuchOeffnungText
-xerl:besuchOeffnungText rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:besuchOeffnungText rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/betriebsstoff
-xerl:betriebsstoff rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:betriebsstoff rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                    rdfs:domain xerl:XE_Tankstelle_Info ;
                    rdfs:range xerl:XE_BETRIEBSSTOFF ;
                    rdfs:label "betriebsstoff"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bewertungEinheit
-xerl:bewertungEinheit rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bewertungEinheit rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_Praedikat .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bewertungNumerisch
-xerl:bewertungNumerisch rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bewertungNumerisch rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Praedikat .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bewertungText
-xerl:bewertungText rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bewertungText rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Praedikat .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bez
-xerl:bez rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:bez rdf:type owl:ObjectProperty ;         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
          rdfs:domain [ rdf:type owl:Class ;
                        owl:unionOf ( xerl:XE_OrtVonInteresse
                                      xerl:XE_OviBeziehung
@@ -452,140 +396,118 @@ xerl:bez rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bezeichnung
-xerl:bezeichnung rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bezeichnung rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Praedikat .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/beziehungsart
-xerl:beziehungsart rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:beziehungsart rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                    rdfs:domain xerl:XE_OviBeziehung ;
                    rdfs:range xerl:XE_OVIBEZIEHUNG ;
                    rdfs:label "beziehungsart"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bisDatum
-xerl:bisDatum rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bisDatum rdf:type owl:DatatypeProperty ;                rdfs:subPropertyOf xerl:XErleben2Data ;
               rdfs:domain xerl:XE_Veranstaltung_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bisZeit
-xerl:bisZeit rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bisZeit rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xerl:XErleben2Data ;
              rdfs:domain xerl:XE_Veranstaltung_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/bis_datum
-xerl:bis_datum rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:bis_datum rdf:type owl:DatatypeProperty ;                 rdfs:subPropertyOf xerl:XErleben2Data ;
                rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/blickrichtung
-xerl:blickrichtung rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:blickrichtung rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                    rdfs:domain xerl:XE_Aussichtspunkt_Info ;
                    rdfs:range xerl:XE_BLICKRICHTUNG ;
                    rdfs:label "blickrichtung"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/blickwinkel
-xerl:blickwinkel rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:blickwinkel rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                  rdfs:domain xerl:XE_Aussichtspunkt_Info ;
                  rdfs:range xerl:XE_BLICKWINKEL ;
                  rdfs:label "blickwinkel"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/branchenschluessel
-xerl:branchenschluessel rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:branchenschluessel rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Unternehmen_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/branchentext
-xerl:branchentext rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:branchentext rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Unternehmen_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/branchenverzeichnis
-xerl:branchenverzeichnis rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:branchenverzeichnis rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_Unternehmen_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/dienstag1_bis
-xerl:dienstag1_bis rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:dienstag1_bis rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/dienstag1_von
-xerl:dienstag1_von rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:dienstag1_von rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/dienstag2_bis
-xerl:dienstag2_bis rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:dienstag2_bis rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/dienstag2_von
-xerl:dienstag2_von rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:dienstag2_von rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/donnerstag1_bis
-xerl:donnerstag1_bis rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:donnerstag1_bis rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/donnerstag1_von
-xerl:donnerstag1_von rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:donnerstag1_von rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/donnerstag2_bis
-xerl:donnerstag2_bis rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:donnerstag2_bis rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/donnerstag2_von
-xerl:donnerstag2_von rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:donnerstag2_von rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/email
-xerl:email rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:email rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xerl:XErleben2Data ;
            rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/endHaltestelle
-xerl:endHaltestelle rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:endHaltestelle rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OEVLinie_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/externeInfo
-xerl:externeInfo rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:externeInfo rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Externe_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/fachgebiet
-xerl:fachgebiet rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:fachgebiet rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xerl:XE_Gesundheit_Info
                                             xerl:XE_VerEntsorgungsbetrieb_Info
@@ -600,179 +522,153 @@ xerl:fachgebiet rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/fax
-xerl:fax rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:fax rdf:type owl:ObjectProperty ;         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
          rdfs:domain xerl:XE_Person ;
          rdfs:range xerl:XE_Telefon .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/firma
-xerl:firma rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:firma rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xerl:XErleben2Data ;
            rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/foerderung
-xerl:foerderung rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:foerderung rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain xerl:XE_SchuleAllgemein_Info ;
                 rdfs:range xerl:XE_FOERDERSCHWERPUNKT ;
                 rdfs:label "foerderung"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/freitag1_bis
-xerl:freitag1_bis rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:freitag1_bis rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/freitag1_von
-xerl:freitag1_von rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:freitag1_von rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/freitag2_bis
-xerl:freitag2_bis rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:freitag2_bis rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/freitag2_von
-xerl:freitag2_von rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:freitag2_von rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/gefahrengruppe
-xerl:gefahrengruppe rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:gefahrengruppe rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                     rdfs:domain xerl:XE_Gefahrenstelle_Info ;
                     rdfs:range xerl:XE_GEFAHRENGRUPPE ;
                     rdfs:label "gefahrengruppe"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/gehoertZuOVI
-xerl:gehoertZuOVI rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:gehoertZuOVI rdf:type owl:ObjectProperty ;                  rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                   rdfs:domain xerl:XE_Wegknoten ;
                   rdfs:range xerl:XE_OrtVonInteresse ;
                   rdfs:label "gehoertZuOVI"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/gruppenart
-xerl:gruppenart rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:gruppenart rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain xerl:XE_Barrierefreiheit_Info ;
                 rdfs:range xerl:XE_BARRIEREGRUPPE ;
                 rdfs:label "gruppenart"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/gueltigBis
-xerl:gueltigBis rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:gueltigBis rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Praedikat .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/gueltigkeitszeitraum
-xerl:gueltigkeitszeitraum rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:gueltigkeitszeitraum rdf:type owl:DatatypeProperty ;                            rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/hatFahrradmitnahme
-xerl:hatFahrradmitnahme rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:hatFahrradmitnahme rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_OEVLinie_Info ;
                         rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/hatKochgelegenheit
-xerl:hatKochgelegenheit rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:hatKochgelegenheit rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Veranstaltungsort_Info ;
                         rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/hatTraeger
-xerl:hatTraeger rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:hatTraeger rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain xerl:XE_Traegerabschnitt ;
                 rdfs:range xerl:XE_OrtVonInteresse ;
                 rdfs:label "hatTraeger"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/hausnr
-xerl:hausnr rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:hausnr rdf:type owl:DatatypeProperty ;              rdfs:subPropertyOf xerl:XErleben2Data ;
             rdfs:domain xerl:XE_Adresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/indoorOutdoor
-xerl:indoorOutdoor rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:indoorOutdoor rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                    rdfs:domain xerl:XE_Sport_Info ;
                    rdfs:range xerl:XE_INDOOR_OUTDOOR ;
                    rdfs:label "indoorOutdoor"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoAnyXML
-xerl:infoAnyXML rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoAnyXML rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoArt
-xerl:infoArt rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:infoArt rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
              rdfs:domain xerl:XE_Externe_Info ;
              rdfs:range xerl:XE_INFOART ;
              rdfs:label "infoArt"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoBeschreibung
-xerl:infoBeschreibung rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoBeschreibung rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoBreiteM
-xerl:infoBreiteM rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoBreiteM rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_OrtVonInteresse ;
                  rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoExterneInfo
-xerl:infoExterneInfo rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoExterneInfo rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_OrtVonInteresse ;
                      rdfs:range xsd:anyURI .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoFlaecheM2
-xerl:infoFlaecheM2 rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoFlaecheM2 rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_OrtVonInteresse ;
                    rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoInspireXML
-xerl:infoInspireXML rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoInspireXML rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoLaengeM
-xerl:infoLaengeM rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoLaengeM rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_OrtVonInteresse ;
                  rdfs:range xsd:double .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoStatus
-xerl:infoStatus rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:infoStatus rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain xerl:XE_OrtVonInteresse ;
                 rdfs:range xerl:XE_BETRIEBSSTATUS ;
                 rdfs:label "infoStatus"@de ;
@@ -780,8 +676,7 @@ xerl:infoStatus rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoTraegerart
-xerl:infoTraegerart rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:infoTraegerart rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                     rdfs:domain xerl:XE_OrtVonInteresse ;
                     rdfs:range xerl:XE_TRAEGERART ;
                     rdfs:label "infoTraegerart"@de ;
@@ -789,48 +684,41 @@ xerl:infoTraegerart rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoVeranstaltung
-xerl:infoVeranstaltung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoVeranstaltung rdf:type owl:DatatypeProperty ;                         rdfs:subPropertyOf xerl:XErleben2Data ;
                        rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoVerweis
-xerl:infoVerweis rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:infoVerweis rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                  rdfs:domain xerl:XE_OrtVonInteresse ;
                  rdfs:range xerl:XE_Externe_Info ;
                  rdfs:label "infoVerweis"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/infoZusatzinfo
-xerl:infoZusatzinfo rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:infoZusatzinfo rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/institution
-xerl:institution rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:institution rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Praedikat .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istAmBahnhof
-xerl:istAmBahnhof rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istAmBahnhof rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Radverkehr_Info ;
                   rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istBedeutendeArchitektur
-xerl:istBedeutendeArchitektur rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istBedeutendeArchitektur rdf:type owl:DatatypeProperty ;                                rdfs:subPropertyOf xerl:XErleben2Data ;
                               rdfs:domain xerl:XE_Bauwerk_Info ;
                               rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istBewacht
-xerl:istBewacht rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istBewacht rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xerl:XE_Autoverkehr_Info
                                             xerl:XE_Radverkehr_Info
@@ -840,85 +728,73 @@ xerl:istBewacht rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istDenkmal
-xerl:istDenkmal rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istDenkmal rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Bauwerk_Info ;
                 rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istFreilichtmuseum
-xerl:istFreilichtmuseum rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istFreilichtmuseum rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Museum_Info ;
                         rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istIndustriedenkmal
-xerl:istIndustriedenkmal rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istIndustriedenkmal rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_Bauwerk_Info ;
                          rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istKauf
-xerl:istKauf rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istKauf rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xerl:XErleben2Data ;
              rdfs:domain xerl:XE_Gewerbeimmobilie_Info ;
              rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istMiete
-xerl:istMiete rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istMiete rdf:type owl:DatatypeProperty ;                rdfs:subPropertyOf xerl:XErleben2Data ;
               rdfs:domain xerl:XE_Gewerbeimmobilie_Info ;
               rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istRuine
-xerl:istRuine rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istRuine rdf:type owl:DatatypeProperty ;                rdfs:subPropertyOf xerl:XErleben2Data ;
               rdfs:domain xerl:XE_Bauwerk_Info ;
               rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istStillgelegt
-xerl:istStillgelegt rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istStillgelegt rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OEVTrasse_Info ;
                     rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istTagungsort
-xerl:istTagungsort rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istTagungsort rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Veranstaltungsort_Info ;
                    rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istTouristisch
-xerl:istTouristisch rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istTouristisch rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OEVTrasse_Info ;
                     rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istUnterirdisch
-xerl:istUnterirdisch rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istUnterirdisch rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_OEVTrasse_Info ;
                      rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/istWallfahrtsstaette
-xerl:istWallfahrtsstaette rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:istWallfahrtsstaette rdf:type owl:DatatypeProperty ;                            rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_Religioeses_Info ;
                           rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/klassifizierungBedeutung
-xerl:klassifizierungBedeutung rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:klassifizierungBedeutung rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                               rdfs:domain xerl:XE_OrtVonInteresse ;
                               rdfs:range xerl:XE_KLASS_BEDEUTUNG ;
                               rdfs:label "klassifizierungBedeutung"@de ;
@@ -926,8 +802,7 @@ xerl:klassifizierungBedeutung rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/klassifizierungTourismus
-xerl:klassifizierungTourismus rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:klassifizierungTourismus rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                               rdfs:domain xerl:XE_OrtVonInteresse ;
                               rdfs:range xerl:XE_KLASS_TOURISMUS ;
                               rdfs:label "klassifizierungTourismus"@de ;
@@ -935,66 +810,56 @@ xerl:klassifizierungTourismus rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/knotenInfo
-xerl:knotenInfo rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:knotenInfo rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Wegknoten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/knotenName
-xerl:knotenName rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:knotenName rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Wegknoten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/knotenschluessel
-xerl:knotenschluessel rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:knotenschluessel rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_Wegknoten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/knotensystem
-xerl:knotensystem rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:knotensystem rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Wegknoten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/knotentyp
-xerl:knotentyp rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:knotentyp rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_Wegknoten ;
                rdfs:range xerl:XE_KNOTENTYP ;
                rdfs:label "knotentyp"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/kontaktAnweisung
-xerl:kontaktAnweisung rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:kontaktAnweisung rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/kueche
-xerl:kueche rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:kueche rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
             rdfs:domain xerl:XE_Gastronomie_Info ;
             rdfs:range xerl:XE_GASTRONOMIE_KUECHE ;
             rdfs:label "kueche"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageBeschreibung
-xerl:lageBeschreibung rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lageBeschreibung rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_Adresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageBezirkRolle
-xerl:lageBezirkRolle rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lageBezirkRolle rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageFlaeche
-xerl:lageFlaeche rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:lageFlaeche rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                  rdfs:domain xerl:XE_OrtVonInteresse ;
                  rdfs:range <http://www.opengis.net/gml/3.2#Surface> ;
                  rdfs:label "lageFlaeche"@de ;
@@ -1002,26 +867,22 @@ xerl:lageFlaeche rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageFlaecheRolle
-xerl:lageFlaecheRolle rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lageFlaecheRolle rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageHoeheNHN
-xerl:lageHoeheNHN rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lageHoeheNHN rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageHoeheUeberGrund
-xerl:lageHoeheUeberGrund rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lageHoeheUeberGrund rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lagePunktmenge
-xerl:lagePunktmenge rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:lagePunktmenge rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                     rdfs:domain xerl:XE_OrtVonInteresse ;
                     rdfs:range <http://www.opengis.net/gml/3.2#MultiPoint> ;
                     rdfs:label "lagePunktmenge"@de ;
@@ -1029,14 +890,12 @@ xerl:lagePunktmenge rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lagePunktmengeRolle
-xerl:lagePunktmengeRolle rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lagePunktmengeRolle rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageVerlauf
-xerl:lageVerlauf rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:lageVerlauf rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                  rdfs:domain xerl:XE_OrtVonInteresse ;
                  rdfs:range <http://www.opengis.net/gml/3.2#Curve> ;
                  rdfs:label "lageVerlauf"@de ;
@@ -1044,14 +903,14 @@ xerl:lageVerlauf rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/lageVerlaufRolle
-xerl:lageVerlaufRolle rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:lageVerlaufRolle rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/land
-xerl:land rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:land rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf xerl:XErleben2Data ;
           rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xerl:XE_Adresse
                                       xerl:XE_Postfachadresse
@@ -1060,173 +919,152 @@ xerl:land rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/liniennummer
-xerl:liniennummer rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:liniennummer rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_OEVLinie_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaFreigabe
-xerl:metaFreigabe rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaFreigabe rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_OrtVonInteresse ;
                   rdfs:range xsd:boolean .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaGueltigEnde
-xerl:metaGueltigEnde rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaGueltigEnde rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_OrtVonInteresse ;
                      rdfs:range xsd:dateTime .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaGueltigStart
-xerl:metaGueltigStart rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaGueltigStart rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_OrtVonInteresse ;
                       rdfs:range xsd:dateTime .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaInfodatum
-xerl:metaInfodatum rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaInfodatum rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_OrtVonInteresse ;
                    rdfs:range xsd:dateTime .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaInfoquelle
-xerl:metaInfoquelle rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaInfoquelle rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaLebenszeitEnde
-xerl:metaLebenszeitEnde rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaLebenszeitEnde rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_OrtVonInteresse ;
                         rdfs:range xsd:dateTime .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaLebenszeitStart
-xerl:metaLebenszeitStart rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaLebenszeitStart rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_OrtVonInteresse ;
                          rdfs:range xsd:dateTime .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaLizenzText
-xerl:metaLizenzText rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaLizenzText rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaLizenzURL
-xerl:metaLizenzURL rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaLizenzURL rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaPflegendeStelle
-xerl:metaPflegendeStelle rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaPflegendeStelle rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaSchluesselworte
-xerl:metaSchluesselworte rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaSchluesselworte rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data ;
                          rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/metaZuletztBearbeitetAm
-xerl:metaZuletztBearbeitetAm rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:metaZuletztBearbeitetAm rdf:type owl:DatatypeProperty ;                               rdfs:subPropertyOf xerl:XErleben2Data ;
                              rdfs:domain xerl:XE_OrtVonInteresse ;
                              rdfs:range xsd:dateTime .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/mimetype
-xerl:mimetype rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:mimetype rdf:type owl:DatatypeProperty ;                rdfs:subPropertyOf xerl:XErleben2Data ;
               rdfs:domain xerl:XE_Externe_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/mittwoch1_bis
-xerl:mittwoch1_bis rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:mittwoch1_bis rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/mittwoch1_von
-xerl:mittwoch1_von rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:mittwoch1_von rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/mittwoch2_bis
-xerl:mittwoch2_bis rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:mittwoch2_bis rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/mittwoch2_von
-xerl:mittwoch2_von rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:mittwoch2_von rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/mobil
-xerl:mobil rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:mobil rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xerl:XErleben2Data ;
            rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/montag1_bis
-xerl:montag1_bis rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:montag1_bis rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/montag1_von
-xerl:montag1_von rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:montag1_von rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/montag2_bis
-xerl:montag2_bis rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:montag2_bis rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/montag2_von
-xerl:montag2_von rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:montag2_von rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/name
-xerl:name rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:name rdf:type owl:DatatypeProperty ;            rdfs:subPropertyOf xerl:XErleben2Data ;
           rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/namensraum
-xerl:namensraum rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:namensraum rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Externe_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/naturschutzstatus
-xerl:naturschutzstatus rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:naturschutzstatus rdf:type owl:ObjectProperty ;                       rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                        rdfs:domain xerl:XE_NaturLandschaft_Info ;
                        rdfs:range xerl:XE_NATURSCHUTZSTATUS ;
                        rdfs:label "naturschutzstatus"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/nutsebene
-xerl:nutsebene rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:nutsebene rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xerl:XE_Behoerde_Info
                                            xerl:XE_Verband_Info
@@ -1237,105 +1075,88 @@ xerl:nutsebene rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/nutzungsstatus
-xerl:nutzungsstatus rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:nutzungsstatus rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                     rdfs:domain xerl:XE_Bauwerk_Info ;
                     rdfs:range xerl:XE_NUTZUNGSSTATUS ;
                     rdfs:label "nutzungsstatus"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektAdresse
-xerl:objektAdresse rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:objektAdresse rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektCode
-xerl:objektCode rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektCode rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_OrtVonInteresse ;
                 rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektEmail
-xerl:objektEmail rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektEmail rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data ;
                  rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektFax
-xerl:objektFax rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:objektFax rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektFunktion
-xerl:objektFunktion rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektFunktion rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektKategorie
-xerl:objektKategorie rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektKategorie rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektName
-xerl:objektName rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektName rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_OrtVonInteresse ;
                 rdfs:range <http://xoev.de/latinchars/1_1/datatypes#String.Latin> .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektNamenszusatz
-xerl:objektNamenszusatz rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektNamenszusatz rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektPostfachadresse
-xerl:objektPostfachadresse rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:objektPostfachadresse rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektSynonym
-xerl:objektSynonym rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektSynonym rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektTelefon
-xerl:objektTelefon rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:objektTelefon rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektThesaurusVersion
-xerl:objektThesaurusVersion rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektThesaurusVersion rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xerl:XErleben2Data ;
                             rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektUUID
-xerl:objektUUID rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektUUID rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektWeitereFunktion
-xerl:objektWeitereFunktion rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektWeitereFunktion rdf:type owl:DatatypeProperty ;                             rdfs:subPropertyOf xerl:XErleben2Data ;
                            rdfs:domain xerl:XE_OrtVonInteresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektWeitererCode
-xerl:objektWeitererCode rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:objektWeitererCode rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_OrtVonInteresse ;
                         rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/objektXalAddress
-xerl:objektXalAddress rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:objektXalAddress rdf:type owl:ObjectProperty ;                      rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                       rdfs:domain xerl:XE_OrtVonInteresse ;
                       rdfs:range <urn:oasis:names:tc:ciq:xsdschema:xAL:2.0#AddressDetails> ;
                       rdfs:label "objektXalAddress"@de ;
@@ -1343,8 +1164,7 @@ xerl:objektXalAddress rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ort
-xerl:ort rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:ort rdf:type owl:DatatypeProperty ;           rdfs:subPropertyOf xerl:XErleben2Data ;
          rdfs:domain [ rdf:type owl:Class ;
                        owl:unionOf ( xerl:XE_Adresse
                                      xerl:XE_Postfachadresse
@@ -1353,34 +1173,29 @@ xerl:ort rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ortsanschluss
-xerl:ortsanschluss rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:ortsanschluss rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Telefon ;
                    rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ortsteil
-xerl:ortsteil rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:ortsteil rdf:type owl:DatatypeProperty ;                rdfs:subPropertyOf xerl:XErleben2Data ;
               rdfs:domain xerl:XE_Adresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ortszusatz
-xerl:ortszusatz rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:ortszusatz rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Adresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/paedagogik
-xerl:paedagogik rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:paedagogik rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain xerl:XE_SchuleAllgemein_Info ;
                 rdfs:range xerl:XE_PAEDAGOGIK .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/plz
-xerl:plz rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:plz rdf:type owl:DatatypeProperty ;           rdfs:subPropertyOf xerl:XErleben2Data ;
          rdfs:domain xerl:XE_Adresse ,
                      [ rdf:type owl:Class ;
                        owl:unionOf ( xerl:XE_Adresse
@@ -1391,20 +1206,17 @@ xerl:plz rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/postfach
-xerl:postfach rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:postfach rdf:type owl:DatatypeProperty ;                rdfs:subPropertyOf xerl:XErleben2Data ;
               rdfs:domain xerl:XE_Postfachadresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/postfachadresse
-xerl:postfachadresse rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:postfachadresse rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xerl:XErleben2Data ;
                      rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/praedikat
-xerl:praedikat rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:praedikat rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_OrtVonInteresse ;
                rdfs:range xerl:XE_Praedikat ;
                rdfs:label "praedikat"@de ;
@@ -1412,126 +1224,107 @@ xerl:praedikat rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/rolle
-xerl:rolle rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:rolle rdf:type owl:ObjectProperty ;           rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
            rdfs:domain xerl:XE_Ansprechpartner ;
            rdfs:range xerl:XE_ASP_ROLLE ;
            rdfs:label "rolle"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/sammelgut
-xerl:sammelgut rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:sammelgut rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_Sammelstelle_Info ;
                rdfs:range xerl:XE_ENTSORG_SAMMELGUT ;
                rdfs:label "sammelgut"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/samstag1_bis
-xerl:samstag1_bis rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:samstag1_bis rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/samstag1_von
-xerl:samstag1_von rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:samstag1_von rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/samstag2_bis
-xerl:samstag2_bis rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:samstag2_bis rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/samstag2_von
-xerl:samstag2_von rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:samstag2_von rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/schilderart
-xerl:schilderart rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:schilderart rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                  rdfs:domain xerl:XE_Wegweisung_Info ;
                  rdfs:range xerl:XE_ART_BESCHILDERUNG ;
                  rdfs:label "schilderart"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/schilderkatasterName
-xerl:schilderkatasterName rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:schilderkatasterName rdf:type owl:DatatypeProperty ;                            rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_Wegweisung_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/schildernummer
-xerl:schildernummer rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:schildernummer rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_Wegweisung_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/sonntag1_bis
-xerl:sonntag1_bis rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:sonntag1_bis rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/sonntag1_von
-xerl:sonntag1_von rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:sonntag1_von rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/sonntag2_bis
-xerl:sonntag2_bis rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:sonntag2_bis rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/sonntag2_von
-xerl:sonntag2_von rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:sonntag2_von rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/sozialangebot
-xerl:sozialangebot rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:sozialangebot rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                    rdfs:domain xerl:XE_SozialEinrichtung_Info ;
                    rdfs:range xerl:XE_SOZIALANGEBOT ;
                    rdfs:label "sozialangebot"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/startHaltestelle
-xerl:startHaltestelle rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:startHaltestelle rdf:type owl:DatatypeProperty ;                        rdfs:subPropertyOf xerl:XErleben2Data ;
                       rdfs:domain xerl:XE_OEVLinie_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/strasse
-xerl:strasse rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:strasse rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xerl:XErleben2Data ;
              rdfs:domain xerl:XE_Adresse .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/tageszeit
-xerl:tageszeit rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:tageszeit rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_SchuleAllgemein_Info ;
                rdfs:range xerl:XE_TAGESZEIT ;
                rdfs:label "tageszeit"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/telefon
-xerl:telefon rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:telefon rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xerl:XErleben2Data ;
              rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/titel
-xerl:titel rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:titel rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xerl:XErleben2Data ;
            rdfs:domain [ rdf:type owl:Class ;
                          owl:unionOf ( xerl:XE_Externe_Info
                                        xerl:XE_Person
@@ -1540,8 +1333,7 @@ xerl:titel rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/turnus
-xerl:turnus rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:turnus rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
             rdfs:domain xerl:XE_Veranstaltung_Info ;
             rdfs:range xerl:XE_TURNUS ;
             rdfs:label "turnus"@de ;
@@ -1549,8 +1341,7 @@ xerl:turnus rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/turnustag
-xerl:turnustag rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:turnustag rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                rdfs:domain xerl:XE_Veranstaltung_Info ;
                rdfs:range xerl:XE_TURNUSTAG ;
                rdfs:label "turnustag"@de ;
@@ -1558,20 +1349,17 @@ xerl:turnustag rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/turnustext
-xerl:turnustext rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:turnustext rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Veranstaltung_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/url
-xerl:url rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:url rdf:type owl:DatatypeProperty ;           rdfs:subPropertyOf xerl:XErleben2Data ;
          rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/verfuegbarkeit
-xerl:verfuegbarkeit rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:verfuegbarkeit rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                     rdfs:domain xerl:XE_Gewerbeimmobilie_Info ;
                     rdfs:range xerl:XE_VERFUEGBARKEIT ;
                     rdfs:label "verfuegbarkeit"@de ;
@@ -1579,106 +1367,90 @@ xerl:verfuegbarkeit rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.xerleben.de/schema/2.0_1/verkehrstext
-xerl:verkehrstext rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:verkehrstext rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xerl:XErleben2Data ;
                   rdfs:domain xerl:XE_Veranstaltung_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/verweis
-xerl:verweis rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:verweis rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
              rdfs:domain xerl:XE_Wegabschnitt ;
              rdfs:range xerl:XE_Externe_Info ;
              rdfs:label "verweis"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/verzeichnisversion
-xerl:verzeichnisversion rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:verzeichnisversion rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xerl:XErleben2Data ;
                         rdfs:domain xerl:XE_Unternehmen_Info .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/vonDatum
-xerl:vonDatum rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:vonDatum rdf:type owl:ObjectProperty ;              rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/vonZeit
-xerl:vonZeit rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp .
+xerl:vonZeit rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xerl:XErleben2Data .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/von_datum
-xerl:von_datum rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:von_datum rdf:type owl:DatatypeProperty ;                 rdfs:subPropertyOf xerl:XErleben2Data ;
                rdfs:domain xerl:XE_Oeffnungszeiten .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/vorname
-xerl:vorname rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:vorname rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xerl:XErleben2Data ;
              rdfs:domain xerl:XE_Person .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/vorwahl
-xerl:vorwahl rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:vorwahl rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xerl:XErleben2Data ;
              rdfs:domain xerl:XE_Telefon ;
              rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/vorwahlInternational
-xerl:vorwahlInternational rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:vorwahlInternational rdf:type owl:DatatypeProperty ;                            rdfs:subPropertyOf xerl:XErleben2Data ;
                           rdfs:domain xerl:XE_Telefon ;
                           rdfs:range xsd:integer .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/wegBezeichnung
-xerl:wegBezeichnung rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:wegBezeichnung rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_Freizeitweg .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/wegSchluessel
-xerl:wegSchluessel rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:wegSchluessel rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xerl:XErleben2Data ;
                    rdfs:domain xerl:XE_Freizeitweg .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/wegStreckenvariante
-xerl:wegStreckenvariante rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:wegStreckenvariante rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                          rdfs:domain xerl:XE_Streckenvariante ;
                          rdfs:range xerl:XE_STRECKENVARIANTE ;
                          rdfs:label "wegStreckenvariante"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/wegVariante
-xerl:wegVariante rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:wegVariante rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                  rdfs:domain xerl:XE_Freizeitweg ;
                  rdfs:range xerl:XE_STRECKENVARIANTE ;
                  rdfs:label "wegVariante"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/wegVerlauf
-xerl:wegVerlauf rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:wegVerlauf rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xerl:XErleben2Data ;
                 rdfs:domain xerl:XE_Freizeitweg .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/zielgruppe
-xerl:zielgruppe rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
+xerl:zielgruppe rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf xerl:XErleben2ObjProperty ;
                 rdfs:domain xerl:XE_Zielgruppe ;
                 rdfs:range xerl:XE_ZIELGRUPPE ;
                 rdfs:label "zielgruppe"@de .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/zielgruppeText
-xerl:zielgruppeText rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xerl:XErleben2DataProp ;
+xerl:zielgruppeText rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xerl:XErleben2Data ;
                     rdfs:domain xerl:XE_Zielgruppe .
 
 
@@ -1765,10 +1537,6 @@ xerl:abschnittVonHNrRechts rdf:type owl:DatatypeProperty ;
 
 ###  http://www.xerleben.de/schema/2.0_1/abschnittVonKnoten
 xerl:abschnittVonKnoten rdf:type owl:DatatypeProperty .
-
-
-###  http://www.xerleben.de/schema/2.0_1/adresse
-xerl:adresse rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.xerleben.de/schema/2.0_1/ambulantStationaer
