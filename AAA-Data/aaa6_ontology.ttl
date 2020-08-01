@@ -10359,7 +10359,7 @@ aaa6:AD_PunktCoverage rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Flaechenobjekt
-aaa6:AG_Flaechenobjekt rdf:type owl:Class ;
+aaa6:AG_Flaechenobjekt rdf:type owl:Class ; rdfs:label "AG_Flaechenobjekt"@de ;
                        rdfs:subClassOf aaa6:AG_ObjektMitGemeinsamerGeometrie ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:position ;
@@ -10372,7 +10372,7 @@ aaa6:AG_Flaechenobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Linienobjekt
-aaa6:AG_Linienobjekt rdf:type owl:Class ;
+aaa6:AG_Linienobjekt rdf:type owl:Class ; rdfs:label "AG_Linienobjekt"@de ;
                      rdfs:subClassOf aaa6:AG_ObjektMitGemeinsamerGeometrie ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:position ;
@@ -10385,7 +10385,7 @@ aaa6:AG_Linienobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Objekt
-aaa6:AG_Objekt rdf:type owl:Class ;
+aaa6:AG_Objekt rdf:type owl:Class ; rdfs:label "AG_Objekt"@de ;
                rdfs:subClassOf aaa6:AG_ObjektMitGemeinsamerGeometrie ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty aaa6:position ;
@@ -10398,12 +10398,12 @@ aaa6:AG_Objekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AG_ObjektMitGemeinsamerGeometrie
-aaa6:AG_ObjektMitGemeinsamerGeometrie rdf:type owl:Class ;
+aaa6:AG_ObjektMitGemeinsamerGeometrie rdf:type owl:Class ; rdfs:label "AG_ObjektMitGemeinsamerGeometrie"@de ;
                                       rdfs:subClassOf aaa6:AA_REO .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Punktobjekt
-aaa6:AG_Punktobjekt rdf:type owl:Class ;
+aaa6:AG_Punktobjekt rdf:type owl:Class ; rdfs:label "AG_Punktobjekt"@de ;
                     rdfs:subClassOf aaa6:AG_ObjektMitGemeinsamerGeometrie ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:position ;
@@ -10416,7 +10416,7 @@ aaa6:AG_Punktobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_Darstellung
-aaa6:AP_Darstellung rdf:type owl:Class ;
+aaa6:AP_Darstellung rdf:type owl:Class ; rdfs:label "AP_Darstellung"@de ;
                     rdfs:subClassOf aaa6:AA_NREO ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:art ;
@@ -10461,7 +10461,7 @@ aaa6:AP_Darstellung rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_FPO
-aaa6:AP_FPO rdf:type owl:Class ;
+aaa6:AP_FPO rdf:type owl:Class ; rdfs:label "AP_FPO"@de ;
             rdfs:subClassOf aaa6:AU_Flaechenobjekt ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:art ;
@@ -10498,7 +10498,7 @@ aaa6:AP_FPO rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_KPO_3D
-aaa6:AP_KPO_3D rdf:type owl:Class ;
+aaa6:AP_KPO_3D rdf:type owl:Class ; rdfs:label "AP_KPO_3D"@de ;
                rdfs:subClassOf aaa6:AU_Punktobjekt_3D ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty aaa6:art ;
@@ -10559,7 +10559,7 @@ aaa6:AP_KPO_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_LPO
-aaa6:AP_LPO rdf:type owl:Class ;
+aaa6:AP_LPO rdf:type owl:Class ; rdfs:label "AP_LPO"@de ;
             rdfs:subClassOf aaa6:AU_Linienobjekt ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:art ;
@@ -10612,7 +10612,7 @@ aaa6:AP_LPO rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_LTO
-aaa6:AP_LTO rdf:type owl:Class ;
+aaa6:AP_LTO rdf:type owl:Class ; rdfs:label "AP_LTO"@de ;
             rdfs:subClassOf aaa6:AU_KontinuierlichesLinienobjekt ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:art ;
@@ -10697,7 +10697,7 @@ aaa6:AP_LTO rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_PPO
-aaa6:AP_PPO rdf:type owl:Class ;
+aaa6:AP_PPO rdf:type owl:Class ; rdfs:label "AP_PPO"@de ;
             rdfs:subClassOf aaa6:AU_Punkthaufenobjekt ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:art ;
@@ -10750,7 +10750,7 @@ aaa6:AP_PPO rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_PTO
-aaa6:AP_PTO rdf:type owl:Class ;
+aaa6:AP_PTO rdf:type owl:Class ; rdfs:label "AP_PTO"@de ;
             rdfs:subClassOf aaa6:AU_Punktobjekt ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty aaa6:art ;
@@ -10843,7 +10843,7 @@ aaa6:AP_PTO rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_TransformationsMatrix_3D
-aaa6:AP_TransformationsMatrix_3D rdf:type owl:Class ;
+aaa6:AP_TransformationsMatrix_3D rdf:type owl:Class ; rdfs:label "AP_TransformationsMatrix_3D"@de ;
                                  rdfs:subClassOf aaa6:AAA6Root ,
                                                  gml:AbstractObject ,
                                                  [ rdf:type owl:Restriction ;
@@ -10853,7 +10853,7 @@ aaa6:AP_TransformationsMatrix_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AP_TransformationsMatrix_3DProperty
-aaa6:AP_TransformationsMatrix_3DProperty rdf:type owl:Class ;
+aaa6:AP_TransformationsMatrix_3DProperty rdf:type owl:Class ; rdfs:label "AP_TransformationsMatrix_3DProperty"@de ;
                                          rdfs:subClassOf aaa6:AAA6Root ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty aaa6:AP_TransformationsMatrix_3D ;
@@ -10864,7 +10864,7 @@ aaa6:AP_TransformationsMatrix_3DProperty rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Flaechenobjekt
-aaa6:AU_Flaechenobjekt rdf:type owl:Class ;
+aaa6:AU_Flaechenobjekt rdf:type owl:Class ; rdfs:label "AU_Flaechenobjekt"@de ;
                        rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:position ;
@@ -10877,7 +10877,7 @@ aaa6:AU_Flaechenobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_GeometrieObjekt_3D
-aaa6:AU_GeometrieObjekt_3D rdf:type owl:Class ;
+aaa6:AU_GeometrieObjekt_3D rdf:type owl:Class ; rdfs:label "AU_GeometrieObjekt_3D"@de ;
                            rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty aaa6:position ;
@@ -10890,7 +10890,7 @@ aaa6:AU_GeometrieObjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_KoerperObjekt_3D
-aaa6:AU_KoerperObjekt_3D rdf:type owl:Class ;
+aaa6:AU_KoerperObjekt_3D rdf:type owl:Class ; rdfs:label "AU_KoerperObjekt_3D"@de ;
                          rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty aaa6:position ;
@@ -10903,7 +10903,7 @@ aaa6:AU_KoerperObjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_KontinuierlichesLinienobjekt
-aaa6:AU_KontinuierlichesLinienobjekt rdf:type owl:Class ;
+aaa6:AU_KontinuierlichesLinienobjekt rdf:type owl:Class ; rdfs:label "AU_KontinuierlichesLinienobjekt"@de ;
                                      rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie ,
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty aaa6:position ;
@@ -10916,7 +10916,7 @@ aaa6:AU_KontinuierlichesLinienobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Linienobjekt
-aaa6:AU_Linienobjekt rdf:type owl:Class ;
+aaa6:AU_Linienobjekt rdf:type owl:Class ; rdfs:label "AU_Linienobjekt"@de ;
                      rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie ,
                                      [ rdf:type owl:Restriction ;
                                        owl:onProperty aaa6:position ;
@@ -10929,7 +10929,7 @@ aaa6:AU_Linienobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_MehrfachFlaechenObjekt_3D
-aaa6:AU_MehrfachFlaechenObjekt_3D rdf:type owl:Class ;
+aaa6:AU_MehrfachFlaechenObjekt_3D rdf:type owl:Class ; rdfs:label "AU_MehrfachFlaechenObjekt_3D"@de ;
                                   rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty aaa6:position ;
@@ -10942,7 +10942,7 @@ aaa6:AU_MehrfachFlaechenObjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_MehrfachLinienObjekt_3D
-aaa6:AU_MehrfachLinienObjekt_3D rdf:type owl:Class ;
+aaa6:AU_MehrfachLinienObjekt_3D rdf:type owl:Class ; rdfs:label "AU_MehrfachLinienObjekt_3D"@de ;
                                 rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty aaa6:position ;
@@ -10955,7 +10955,7 @@ aaa6:AU_MehrfachLinienObjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Objekt
-aaa6:AU_Objekt rdf:type owl:Class ;
+aaa6:AU_Objekt rdf:type owl:Class ; rdfs:label "AU_Objekt"@de ;
                rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty aaa6:position ;
@@ -10968,17 +10968,17 @@ aaa6:AU_Objekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_ObjektMitUnabhaengigerGeometrie
-aaa6:AU_ObjektMitUnabhaengigerGeometrie rdf:type owl:Class ;
+aaa6:AU_ObjektMitUnabhaengigerGeometrie rdf:type owl:Class ; rdfs:label "AU_ObjektMitUnabhaengigerGeometrie"@de ;
                                         rdfs:subClassOf aaa6:AA_REO .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_ObjektMitUnabhaengigerGeometrie_3D
-aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D rdf:type owl:Class ;
+aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D rdf:type owl:Class ; rdfs:label "AU_ObjektMitUnabhaengigerGeometrie_3D"@de ;
                                            rdfs:subClassOf aaa6:AA_REO_3D .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_PunkthaufenObjekt_3D
-aaa6:AU_PunkthaufenObjekt_3D rdf:type owl:Class ;
+aaa6:AU_PunkthaufenObjekt_3D rdf:type owl:Class ; rdfs:label "AU_PunkthaufenObjekt_3D"@de ;
                              rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty aaa6:position ;
@@ -10991,7 +10991,7 @@ aaa6:AU_PunkthaufenObjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punkthaufenobjekt
-aaa6:AU_Punkthaufenobjekt rdf:type owl:Class ;
+aaa6:AU_Punkthaufenobjekt rdf:type owl:Class ; rdfs:label "AU_Punkthaufenobjekt"@de ;
                           rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty aaa6:position ;
@@ -11004,7 +11004,7 @@ aaa6:AU_Punkthaufenobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt
-aaa6:AU_Punktobjekt rdf:type owl:Class ;
+aaa6:AU_Punktobjekt rdf:type owl:Class ; rdfs:label "AU_Punktobjekt"@de ;
                     rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty aaa6:position ;
@@ -11017,7 +11017,7 @@ aaa6:AU_Punktobjekt rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt_3D
-aaa6:AU_Punktobjekt_3D rdf:type owl:Class ;
+aaa6:AU_Punktobjekt_3D rdf:type owl:Class ; rdfs:label "AU_Punktobjekt_3D"@de ;
                        rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty aaa6:position ;
@@ -11030,7 +11030,7 @@ aaa6:AU_Punktobjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt_3DProperty
-aaa6:AU_Punktobjekt_3DProperty rdf:type owl:Class ;
+aaa6:AU_Punktobjekt_3DProperty rdf:type owl:Class ; rdfs:label "AU_Punktobjekt_3DProperty"@de ;
                                rdfs:subClassOf aaa6:AAA6Root ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty aaa6:AU_Punktobjekt_3D ;
@@ -11041,7 +11041,7 @@ aaa6:AU_Punktobjekt_3DProperty rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_TrianguliertesOberflaechenObjekt_3D
-aaa6:AU_TrianguliertesOberflaechenObjekt_3D rdf:type owl:Class ;
+aaa6:AU_TrianguliertesOberflaechenObjekt_3D rdf:type owl:Class ; rdfs:label "AU_TrianguliertesOberflaechenObjekt_3D"@de ;
                                             rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty aaa6:position ;
@@ -11054,7 +11054,7 @@ aaa6:AU_TrianguliertesOberflaechenObjekt_3D rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AU_UmringObjekt_3D
-aaa6:AU_UmringObjekt_3D rdf:type owl:Class ;
+aaa6:AU_UmringObjekt_3D rdf:type owl:Class ; rdfs:label "AU_UmringObjekt_3D"@de ;
                         rdfs:subClassOf aaa6:AU_ObjektMitUnabhaengigerGeometrie_3D ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty aaa6:position ;
