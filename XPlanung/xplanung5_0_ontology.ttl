@@ -93,7 +93,7 @@ xplan5:zweckbestimmung rdf:type owl:AnnotationProperty .
 #################################################################
 
 ###  http://www.xplanung.de/xplangml/5/0#date
-xplan5:date rdf:type rdfs:Datatype .
+xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#double
@@ -912,7 +912,7 @@ xplan5:aendert rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xp
 
 
 ###  http://www.xplanung.de/xplangml/5/0#aenderungenBisDatum
-xplan5:aenderungenBisDatum rdf:type owl:ObjectProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:range xplan5:date .
+xplan5:aenderungenBisDatum rdf:type owl:ObjectProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ags
@@ -991,19 +991,19 @@ xplan5:artDerFestlegung rdf:type owl:ObjectProperty ;                        rdf
 
 
 ###  http://www.xplanung.de/xplangml/5/0#aufstellungsbeschhlussDatum
-xplan5:aufstellungsbeschhlussDatum rdf:type owl:ObjectProperty ;                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:range xplan5:date .
+xplan5:aufstellungsbeschhlussDatum rdf:type owl:ObjectProperty ;                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#aufstellungsbeschlussDatum
-xplan5:aufstellungsbeschlussDatum rdf:type owl:ObjectProperty ;                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                                  rdfs:range xplan5:date .
+xplan5:aufstellungsbeschlussDatum rdf:type owl:ObjectProperty ;                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                                  rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ausfertigungsDatum
-xplan5:ausfertigungsDatum rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
+xplan5:ausfertigungsDatum rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungEndDatum
-xplan5:auslegungEndDatum rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xplan5:date .
+xplan5:auslegungEndDatum rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungStartDatum
@@ -1015,11 +1015,11 @@ xplan5:auslegungsDatum rdf:type owl:ObjectProperty ;                       rdfs:
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungsEndDatum
-xplan5:auslegungsEndDatum rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
+xplan5:auslegungsEndDatum rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungsStartDatum
-xplan5:auslegungsStartDatum rdf:type owl:ObjectProperty ;                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:range xplan5:date .
+xplan5:auslegungsStartDatum rdf:type owl:ObjectProperty ;                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auspraegung
@@ -1276,15 +1276,15 @@ xplan5:darstellungsprioritaet rdf:type owl:DatatypeProperty ;                   
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datum
-xplan5:datum rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:range xplan5:date .
+xplan5:datum rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xplan5:XPlanungData5Property ;             rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datumAbsolut
-xplan5:datumAbsolut rdf:type owl:ObjectProperty ;                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:range xplan5:date .
+xplan5:datumAbsolut rdf:type owl:DatatypeProperty ;                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                    rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datumDesInkrafttretens
-xplan5:datumDesInkrafttretens rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
+xplan5:datumDesInkrafttretens rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                              rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datumRelativ
@@ -1403,7 +1403,7 @@ xplan5:drehwinkel rdf:type owl:ObjectProperty ;                  rdfs:subPropert
 
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungEndDatum
-xplan5:durchfuehrungEndDatum rdf:type owl:ObjectProperty ;                             rdfs:subPropertyOf xplan5:XPlanung5Property ;                             rdfs:range xplan5:date .
+xplan5:durchfuehrungEndDatum rdf:type owl:DatatypeProperty ;                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                             rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungStartDatum
@@ -1442,7 +1442,7 @@ xplan5:endeBedingung rdf:type owl:ObjectProperty ;                     rdfs:subP
 
 
 ###  http://www.xplanung.de/xplangml/5/0#entwurfsbeschlussDatum
-xplan5:entwurfsbeschlussDatum rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
+xplan5:entwurfsbeschlussDatum rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                              rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#erfordernisRegelung
@@ -1594,7 +1594,7 @@ xplan5:gemeindeName rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan5:XP
 
 
 ###  http://www.xplanung.de/xplangml/5/0#genehmigungsDatum
-xplan5:genehmigungsDatum rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xplan5:date .
+xplan5:genehmigungsDatum rdf:type owl:DatatypeProperty ;                         rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                         rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#georefMime
@@ -1668,7 +1668,7 @@ xplan5:grund rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gueltigkeitsDatum
-xplan5:gueltigkeitsDatum rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xplan5:date .
+xplan5:gueltigkeitsDatum rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#h
@@ -1753,7 +1753,7 @@ xplan5:inkrafttretenDatum rdf:type owl:ObjectProperty ;                         
 
 
 ###  http://www.xplanung.de/xplangml/5/0#inkrafttretensDatum
-xplan5:inkrafttretensDatum rdf:type owl:ObjectProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:range xplan5:date .
+xplan5:inkrafttretensDatum rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                           rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#internalId
@@ -1940,7 +1940,7 @@ xplan5:nutzungsform rdf:type owl:ObjectProperty ;                    rdfs:subPro
 
 
 ###  http://www.xplanung.de/xplangml/5/0#oeffentlichkeitsbeteiligungDatum
-xplan5:oeffentlichkeitsbeteiligungDatum rdf:type owl:ObjectProperty ;                                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                                        rdfs:range xplan5:date .
+xplan5:oeffentlichkeitsbeteiligungDatum rdf:type owl:DatatypeProperty ;                                        rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                                        rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ortsteilName
@@ -2137,7 +2137,7 @@ xplan5:rechtsstandGebiet rdf:type owl:ObjectProperty ;                         r
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rechtsverordnungsDatum
-xplan5:rechtsverordnungsDatum rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
+xplan5:rechtsverordnungsDatum rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                              rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#refBegruendungInhalt
@@ -2278,7 +2278,7 @@ xplan5:sachgebiet rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan5:XPla
 
 
 ###  http://www.xplanung.de/xplangml/5/0#satzungsbeschlussDatum
-xplan5:satzungsbeschlussDatum rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
+xplan5:satzungsbeschlussDatum rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                              rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#schluessel
@@ -2356,7 +2356,7 @@ xplan5:sonstTyp rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf 
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstVerfahrensDatum
-xplan5:sonstVerfahrensDatum rdf:type owl:ObjectProperty ;                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:range xplan5:date .
+xplan5:sonstVerfahrensDatum rdf:type owl:DatatypeProperty ;                            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                            rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstZiel
@@ -2431,11 +2431,11 @@ xplan5:stylesheetId rdf:type owl:ObjectProperty ;                    rdfs:subPro
 
 
 ###  http://www.xplanung.de/xplangml/5/0#tOeBbeteiligungsDatum
-xplan5:tOeBbeteiligungsDatum rdf:type owl:ObjectProperty ;                             rdfs:subPropertyOf xplan5:XPlanung5Property ;                             rdfs:range xplan5:date .
+xplan5:tOeBbeteiligungsDatum rdf:type owl:DatatypeProperty ;                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                             rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#technHerstellDatum
-xplan5:technHerstellDatum rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
+xplan5:technHerstellDatum rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                          rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#technischeMassnahme
@@ -2484,11 +2484,11 @@ xplan5:traegerMassnahme rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan
 
 
 ###  http://www.xplanung.de/xplangml/5/0#traegerbeteiligungsEndDatum
-xplan5:traegerbeteiligungsEndDatum rdf:type owl:ObjectProperty ;                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:range xplan5:date .
+xplan5:traegerbeteiligungsEndDatum rdf:type owl:DatatypeProperty ;                                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                                   rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#traegerbeteiligungsStartDatum
-xplan5:traegerbeteiligungsStartDatum rdf:type owl:ObjectProperty ;                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                                     rdfs:range xplan5:date .
+xplan5:traegerbeteiligungsStartDatum rdf:type owl:DatatypeProperty ;                                     rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                                     rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#typ
@@ -2623,7 +2623,7 @@ xplan5:typTourismus rdf:type owl:ObjectProperty ;                    rdfs:subPro
 
 
 ###  http://www.xplanung.de/xplangml/5/0#untergangsDatum
-xplan5:untergangsDatum rdf:type owl:ObjectProperty ;                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:range xplan5:date .
+xplan5:untergangsDatum rdf:type owl:DatatypeProperty ;                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                       rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#uuid
@@ -2635,7 +2635,7 @@ xplan5:veraenderungssperre rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xp
 
 
 ###  http://www.xplanung.de/xplangml/5/0#veraenderungssperreDatum
-xplan5:veraenderungssperreDatum rdf:type owl:ObjectProperty ;                                rdfs:subPropertyOf xplan5:XPlanung5Property ;                                rdfs:range xplan5:date .
+xplan5:veraenderungssperreDatum rdf:type owl:DatatypeProperty ;                                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                                rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#verbundenerPlan
@@ -2677,7 +2677,7 @@ xplan5:vermerk rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan5:XPlanun
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBROG
-xplan5:versionBROG rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:range xplan5:date .
+xplan5:versionBROG rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                   rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBROGText
@@ -2693,7 +2693,7 @@ xplan5:versionBauGBText rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauNVODatum
-xplan5:versionBauNVODatum rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
+xplan5:versionBauNVODatum rdf:type owl:DatatypeProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                          rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauNVOText
@@ -2752,7 +2752,7 @@ xplan5:wert rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:X
                          owl:unionOf ( <http://www.opengis.net/gml/3.2#Length>
                                        xsd:anyURI
                                        xsd:string
-                                       xplan5:date
+                                       xsd:date
                                        xplan5:double
                                        xsd:int
                                      )
@@ -3082,12 +3082,12 @@ xplan5:auslegungEndDatum rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungStartDatum
 xplan5:auslegungStartDatum rdf:type owl:DatatypeProperty ;
-                           rdfs:range xplan5:date .
+                           rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungsDatum
 xplan5:auslegungsDatum rdf:type owl:DatatypeProperty ;
-                       rdfs:range xplan5:date .
+                       rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungsEndDatum
@@ -3169,7 +3169,7 @@ xplan5:durchfuehrungEndDatum rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungStartDatum
 xplan5:durchfuehrungStartDatum rdf:type owl:DatatypeProperty ;
-                               rdfs:range xplan5:date .
+                               rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungsVertrag
@@ -3293,7 +3293,7 @@ xplan5:informationssystemURL rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#inkrafttretenDatum
 xplan5:inkrafttretenDatum rdf:type owl:DatatypeProperty ;
-                          rdfs:range xplan5:date .
+                          rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#inkrafttretensDatum
@@ -3398,7 +3398,7 @@ xplan5:planName rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#planbeschlussDatum
 xplan5:planbeschlussDatum rdf:type owl:DatatypeProperty ;
-                          rdfs:range xplan5:date .
+                          rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungsraumBeschreibung
@@ -3551,7 +3551,7 @@ xplan5:versionBROGText rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauGBDatum
 xplan5:versionBauGBDatum rdf:type owl:DatatypeProperty ;
-                         rdfs:range xplan5:date .
+                         rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauGBText
@@ -3568,7 +3568,7 @@ xplan5:versionBauNVOText rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#versionLPLG
 xplan5:versionLPLG rdf:type owl:DatatypeProperty ;
-                   rdfs:range xplan5:date .
+                   rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionLPLGText
@@ -3577,7 +3577,7 @@ xplan5:versionLPLGText rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#versionSonstRechtsgrundlageDatum
 xplan5:versionSonstRechtsgrundlageDatum rdf:type owl:DatatypeProperty ;
-                                        rdfs:range xplan5:date .
+                                        rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionSonstRechtsgrundlageText
@@ -3614,7 +3614,7 @@ xplan5:wert rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#wirksamkeitsDatum
 xplan5:wirksamkeitsDatum rdf:type owl:DatatypeProperty ;
-                         rdfs:range xplan5:date .
+                         rdfs:range xsd:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zeilenAnz
@@ -4215,7 +4215,7 @@ xplan5:BP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauGBDatum ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauGBText ;
@@ -4223,7 +4223,7 @@ xplan5:BP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauNVODatum ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauNVOText ;
@@ -4231,7 +4231,7 @@ xplan5:BP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionSonstRechtsgrundlageDatum ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionSonstRechtsgrundlageText ;
@@ -5350,23 +5350,23 @@ xplan5:BP_Plan rdf:type owl:Class ;
                rdfs:subClassOf xplan5:XP_Plan ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aenderungenBisDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aufstellungsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:ausfertigungsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungsEndDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungsStartDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:bereich ;
@@ -5394,7 +5394,7 @@ xplan5:BP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:inkrafttretensDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planArt ;
@@ -5410,11 +5410,11 @@ xplan5:BP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:rechtsverordnungsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:satzungsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:sonstPlanArt ;
@@ -5430,11 +5430,11 @@ xplan5:BP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsEndDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsStartDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:veraenderungssperre ;
@@ -5442,7 +5442,7 @@ xplan5:BP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:veraenderungssperreDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:verfahren ;
@@ -6568,7 +6568,7 @@ xplan5:BP_Veraenderungssperre rdf:type owl:Class ;
                               rdfs:subClassOf xplan5:BP_Ueberlagerungsobjekt ,
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty xplan5:gueltigkeitsDatum ;
-                                                owl:allValuesFrom xplan5:date
+                                                owl:allValuesFrom xsd:date
                                               ] ,
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty xplan5:refBeschluss ;
@@ -7074,7 +7074,7 @@ xplan5:FP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauGBDatum ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauGBText ;
@@ -7082,7 +7082,7 @@ xplan5:FP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauNVODatum ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBauNVOText ;
@@ -7090,7 +7090,7 @@ xplan5:FP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionSonstRechtsgrundlageDatum ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionSonstRechtsgrundlageText ;
@@ -7335,19 +7335,19 @@ xplan5:FP_Plan rdf:type owl:Class ;
                rdfs:subClassOf xplan5:XP_Plan ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aenderungenBisDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aufstellungsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungsEndDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungsStartDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:bereich ;
@@ -7355,7 +7355,7 @@ xplan5:FP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:entwurfsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:gemeinde ;
@@ -7367,7 +7367,7 @@ xplan5:FP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:plangeber ;
@@ -7391,11 +7391,11 @@ xplan5:FP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsEndDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsStartDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:verfahren ;
@@ -7403,7 +7403,7 @@ xplan5:FP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:wirksamkeitsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ;
                <http://www.semgis.de/geodata#standard> "xplanung"@en ;
                semgis:propOrder "gemeinde;plangeber;planArt;sonstPlanArt;sachgebiet;verfahren;rechtsstand;status;aufstellungsbeschlussDatum;auslegungsStartDatum;auslegungsEndDatum;traegerbeteiligungsStartDatum;traegerbeteiligungsEndDatum;aenderungenBisDatum;entwurfsbeschlussDatum;planbeschlussDatum;wirksamkeitsDatum;bereich" ;
@@ -8167,15 +8167,15 @@ xplan5:LP_Plan rdf:type owl:Class ;
                rdfs:subClassOf xplan5:XP_Plan ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aenderungenBisDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aufstellungsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:bereich ;
@@ -8187,15 +8187,15 @@ xplan5:LP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:entwurfsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:inkrafttretenDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:oeffentlichkeitsbeteiligungDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planArt ;
@@ -8203,7 +8203,7 @@ xplan5:LP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planungstraeger ;
@@ -8227,11 +8227,11 @@ xplan5:LP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:sonstVerfahrensDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:tOeBbeteiligungsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ;
                <http://www.semgis.de/geodata#standard> "xplanung"@en ;
                semgis:propOrder "bundesland;rechtlicheAussenwirkung;planArt;sonstPlanArt;planungstraegerGKZ;planungstraeger;rechtsstand;aufstellungsbeschlussDatum;auslegungsDatum;tOeBbeteiligungsDatum;oeffentlichkeitsbeteiligungDatum;aenderungenBisDatum;entwurfsbeschlussDatum;planbeschlussDatum;inkrafttretenDatum;sonstVerfahrensDatum;bereich" ;
@@ -8720,7 +8720,7 @@ xplan5:RP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBROG ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBROGText ;
@@ -8728,7 +8728,7 @@ xplan5:RP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionLPLG ;
-                                    owl:allValuesFrom xplan5:date
+                                    owl:allValuesFrom xsd:date
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionLPLGText ;
@@ -9659,7 +9659,7 @@ xplan5:RP_Plan rdf:type owl:Class ;
                rdfs:subClassOf xplan5:XP_Plan ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aenderungenBisDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:amtlicherSchluessel ;
@@ -9667,15 +9667,15 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aufstellungsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungEndDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:auslegungStartDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:bereich ;
@@ -9687,11 +9687,11 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:datumDesInkrafttretens ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:entwurfsbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planArt ;
@@ -9699,7 +9699,7 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planbeschlussDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planungsregion ;
@@ -9723,11 +9723,11 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsEndDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsStartDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:verfahren ;
@@ -10792,15 +10792,15 @@ xplan5:SO_Gebiet rdf:type owl:Class ;
                  rdfs:subClassOf xplan5:SO_Flaechenobjekt ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty xplan5:aufstellungsbeschhlussDatum ;
-                                   owl:allValuesFrom xplan5:date
+                                   owl:allValuesFrom xsd:date
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty xplan5:durchfuehrungEndDatum ;
-                                   owl:allValuesFrom xplan5:date
+                                   owl:allValuesFrom xsd:date
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty xplan5:durchfuehrungStartDatum ;
-                                   owl:allValuesFrom xplan5:date
+                                   owl:allValuesFrom xsd:date
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty xplan5:gebietsArt ;
@@ -11768,7 +11768,7 @@ xplan5:XP_DatumAttribut rdf:type owl:Class ;
                         rdfs:subClassOf xplan5:XP_GenerAttribut ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:wert ;
-                                          owl:allValuesFrom xplan5:date
+                                          owl:allValuesFrom xsd:date
                                         ] .
 
 
@@ -12140,7 +12140,7 @@ xplan5:XP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:genehmigungsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:hatGenerAttribut ;
@@ -12168,7 +12168,7 @@ xplan5:XP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:technHerstellDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:texte ;
@@ -12176,7 +12176,7 @@ xplan5:XP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:untergangsDatum ;
-                                 owl:allValuesFrom xplan5:date
+                                 owl:allValuesFrom xsd:date
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:verfahrensMerkmale ;
