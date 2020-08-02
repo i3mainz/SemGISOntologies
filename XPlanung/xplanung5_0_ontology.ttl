@@ -105,7 +105,7 @@ xplan5:duration rdf:type rdfs:Datatype .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#int
-xplan5:int rdf:type rdfs:Datatype .
+xsd:int rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -654,7 +654,7 @@ xplan5:XPlanung5Property rdf:type owl:ObjectProperty ;                         r
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z
-xplan5:Z rdf:type owl:ObjectProperty ;         rdfs:subPropertyOf xplan5:XPlanung5Property ;         rdfs:domain [ rdf:type owl:Class ;
+xplan5:Z rdf:type owl:DatatypeProperty ;         rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;         rdfs:domain [ rdf:type owl:Class ;
                        owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                      xplan5:BP_BesondererNutzungszweckFlaeche
                                      xplan5:BP_GemeinbedarfsFlaeche
@@ -666,7 +666,7 @@ xplan5:Z rdf:type owl:ObjectProperty ;         rdfs:subPropertyOf xplan5:XPlanun
                                      xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                    )
                      ] ;
-         rdfs:range xplan5:int .
+         rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZU
@@ -685,7 +685,7 @@ xplan5:ZU rdf:type owl:ObjectProperty ;          rdfs:subPropertyOf xplan5:XPlan
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZU_Ausn
-xplan5:ZU_Ausn rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
+xplan5:ZU_Ausn rdf:type owl:DatatypeProperty ;               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                            xplan5:BP_BesondererNutzungszweckFlaeche
                                            xplan5:BP_GemeinbedarfsFlaeche
@@ -697,11 +697,11 @@ xplan5:ZU_Ausn rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xp
                                            xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                          )
                            ] ;
-               rdfs:range xplan5:int .
+               rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZUmax
-xplan5:ZUmax rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
+xplan5:ZUmax rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -713,11 +713,11 @@ xplan5:ZUmax rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5
                                          xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                        )
                          ] ;
-             rdfs:range xplan5:int .
+             rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZUmin
-xplan5:ZUmin rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
+xplan5:ZUmin rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -729,11 +729,11 @@ xplan5:ZUmin rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5
                                          xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                        )
                          ] ;
-             rdfs:range xplan5:int .
+             rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZUzwingend
-xplan5:ZUzwingend rdf:type owl:ObjectProperty ;                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
+xplan5:ZUzwingend rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                               xplan5:BP_BesondererNutzungszweckFlaeche
                                               xplan5:BP_GemeinbedarfsFlaeche
@@ -745,16 +745,16 @@ xplan5:ZUzwingend rdf:type owl:ObjectProperty ;                  rdfs:subPropert
                                               xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                             )
                               ] ;
-                  rdfs:range xplan5:int .
+                  rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZWohn
-xplan5:ZWohn rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
+xplan5:ZWohn rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                        )
                          ] ;
-             rdfs:range xplan5:int .
+             rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Ausn
@@ -773,7 +773,7 @@ xplan5:Z_Ausn rdf:type owl:ObjectProperty ;              rdfs:subPropertyOf xpla
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Dach
-xplan5:Z_Dach rdf:type owl:ObjectProperty ;              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:domain [ rdf:type owl:Class ;
+xplan5:Z_Dach rdf:type owl:DatatypeProperty ;              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;              rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                           xplan5:BP_BesondererNutzungszweckFlaeche
                                           xplan5:BP_GemeinbedarfsFlaeche
@@ -785,11 +785,11 @@ xplan5:Z_Dach rdf:type owl:ObjectProperty ;              rdfs:subPropertyOf xpla
                                           xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                         )
                           ] ;
-              rdfs:range xplan5:int .
+              rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Staffel
-xplan5:Z_Staffel rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
+xplan5:Z_Staffel rdf:type owl:DatatypeProperty ;                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                              xplan5:BP_BesondererNutzungszweckFlaeche
                                              xplan5:BP_GemeinbedarfsFlaeche
@@ -801,11 +801,11 @@ xplan5:Z_Staffel rdf:type owl:ObjectProperty ;                 rdfs:subPropertyO
                                              xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                            )
                              ] ;
-                 rdfs:range xplan5:int .
+                 rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Zmax
-xplan5:Zmax rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
+xplan5:Zmax rdf:type owl:DatatypeProperty ;            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -819,11 +819,11 @@ xplan5:Zmax rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:X
                                         xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                       )
                         ] ;
-            rdfs:range xplan5:int .
+            rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Zmin
-xplan5:Zmin rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
+xplan5:Zmin rdf:type owl:DatatypeProperty ;            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -835,11 +835,11 @@ xplan5:Zmin rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:X
                                         xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                       )
                         ] ;
-            rdfs:range xplan5:int .
+            rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Zzwingend
-xplan5:Zzwingend rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
+xplan5:Zzwingend rdf:type owl:DatatypeProperty ;                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                              xplan5:BP_BesondererNutzungszweckFlaeche
                                              xplan5:BP_GemeinbedarfsFlaeche
@@ -851,7 +851,7 @@ xplan5:Zzwingend rdf:type owl:ObjectProperty ;                 rdfs:subPropertyO
                                              xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                            )
                              ] ;
-                 rdfs:range xplan5:int .
+                 rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#abbaugut
@@ -936,8 +936,8 @@ xplan5:allgemeinerTyp rdf:type owl:ObjectProperty ;                      rdfs:su
 
 
 ###  http://www.xplanung.de/xplangml/5/0#amtlicherSchluessel
-xplan5:amtlicherSchluessel rdf:type owl:ObjectProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:domain xplan5:RP_Plan ;
-                           rdfs:range xplan5:int .
+xplan5:amtlicherSchluessel rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                           rdfs:domain xplan5:RP_Plan ;
+                           rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#any
@@ -1043,8 +1043,8 @@ xplan5:baugrenze rdf:type owl:ObjectProperty ;                 rdfs:subPropertyO
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bauhoehenbeschraenkung
-xplan5:bauhoehenbeschraenkung rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain xplan5:RP_Siedlung ;
-                              rdfs:range xplan5:int .
+xplan5:bauhoehenbeschraenkung rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                              rdfs:domain xplan5:RP_Siedlung ;
+                              rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#baulinie
@@ -1271,8 +1271,8 @@ xplan5:dachform rdf:type owl:ObjectProperty ;                rdfs:subPropertyOf 
 
 
 ###  http://www.xplanung.de/xplangml/5/0#darstellungsprioritaet
-xplan5:darstellungsprioritaet rdf:type owl:ObjectProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
-                              rdfs:range xplan5:int .
+xplan5:darstellungsprioritaet rdf:type owl:DatatypeProperty ;                              rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                              rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
+                              rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datum
@@ -1415,8 +1415,8 @@ xplan5:durchfuehrungsVertrag rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf 
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ebene
-xplan5:ebene rdf:type owl:ObjectProperty ;             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:XP_Objekt ;
-             rdfs:range xplan5:int .
+xplan5:ebene rdf:type owl:DatatypeProperty ;             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;             rdfs:domain xplan5:XP_Objekt ;
+             rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#eigenname
@@ -1458,12 +1458,12 @@ xplan5:erschliessungsVertrag rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf 
 
 
 ###  http://www.xplanung.de/xplangml/5/0#erstellungsMassstab
-xplan5:erstellungsMassstab rdf:type owl:ObjectProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:domain [ rdf:type owl:Class ;
+xplan5:erstellungsMassstab rdf:type owl:DatatypeProperty ;                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                           rdfs:domain [ rdf:type owl:Class ;
                                          owl:unionOf ( xplan5:XP_Bereich
                                                        xplan5:XP_Plan
                                                      )
                                        ] ;
-                           rdfs:range xplan5:int .
+                           rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#externeReferenz
@@ -1608,23 +1608,23 @@ xplan5:georefURL rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan5:XPlan
 
 
 ###  http://www.xplanung.de/xplangml/5/0#geschossMax
-xplan5:geschossMax rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
+xplan5:geschossMax rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_BauGrenze
                                                xplan5:BP_BauLinie
                                                xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                              )
                                ] ;
-                   rdfs:range xplan5:int .
+                   rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#geschossMin
-xplan5:geschossMin rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
+xplan5:geschossMin rdf:type owl:DatatypeProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_BauGrenze
                                                xplan5:BP_BauLinie
                                                xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                              )
                                ] ;
-                   rdfs:range xplan5:int .
+                   rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gesetzlicheGrundlage
@@ -1757,7 +1757,7 @@ xplan5:inkrafttretensDatum rdf:type owl:ObjectProperty ;                        
 
 
 ###  http://www.xplanung.de/xplangml/5/0#internalId
-xplan5:internalId rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
+xsd:internalId rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istAufschuettungAblagerung
@@ -1913,7 +1913,7 @@ xplan5:nummer rdf:type owl:ObjectProperty ;              rdfs:subPropertyOf xpla
                           ] ;
               rdfs:range [ rdf:type owl:Class ;
                            owl:unionOf ( xsd:string
-                                         xplan5:int
+                                         xsd:int
                                        )
                          ] .
 
@@ -2013,8 +2013,8 @@ xplan5:planungsraumBeschreibung rdf:type owl:DatatypeProperty ; rdfs:subProperty
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungsregion
-xplan5:planungsregion rdf:type owl:ObjectProperty ;                      rdfs:subPropertyOf xplan5:XPlanung5Property ;                      rdfs:domain xplan5:RP_Plan ;
-                      rdfs:range xplan5:int .
+xplan5:planungsregion rdf:type owl:DatatypeProperty ;                      rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                      rdfs:domain xplan5:RP_Plan ;
+                      rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungstraeger
@@ -2370,8 +2370,8 @@ xplan5:sonstigerTyp rdf:type owl:ObjectProperty ;                    rdfs:subPro
 
 
 ###  http://www.xplanung.de/xplangml/5/0#spaltenAnz
-xplan5:spaltenAnz rdf:type owl:ObjectProperty ;                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:XP_Nutzungsschablone ;
-                  rdfs:range xplan5:int .
+xplan5:spaltenAnz rdf:type owl:DatatypeProperty ;                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                  rdfs:domain xplan5:XP_Nutzungsschablone ;
+                  rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#spannung
@@ -2443,8 +2443,8 @@ xplan5:technischeMassnahme rdf:type owl:DatatypeProperty ; rdfs:subPropertyOf xp
 
 
 ###  http://www.xplanung.de/xplangml/5/0#teilabschnitt
-xplan5:teilabschnitt rdf:type owl:ObjectProperty ;                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:RP_Plan ;
-                     rdfs:range xplan5:int .
+xplan5:teilabschnitt rdf:type owl:DatatypeProperty ;                     rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                     rdfs:domain xplan5:RP_Plan ;
+                     rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#text
@@ -2754,7 +2754,7 @@ xplan5:wert rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:X
                                        xsd:string
                                        xplan5:date
                                        xplan5:double
-                                       xplan5:int
+                                       xsd:int
                                      )
                        ] .
 
@@ -2830,8 +2830,8 @@ xplan5:wurdeGeaendertVon rdf:type owl:ObjectProperty ;                         r
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zeilenAnz
-xplan5:zeilenAnz rdf:type owl:ObjectProperty ;                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:XP_Nutzungsschablone ;
-                 rdfs:range xplan5:int .
+xplan5:zeilenAnz rdf:type owl:DatatypeProperty ;                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ;                 rdfs:domain xplan5:XP_Nutzungsschablone ;
+                 rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zeitstufe
@@ -2983,7 +2983,7 @@ xplan5:GRZmin rdf:type owl:DatatypeProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#MaxZahlWohnungen
 xplan5:MaxZahlWohnungen rdf:type owl:DatatypeProperty ;
-                        rdfs:range xplan5:int .
+                        rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z
@@ -2992,7 +2992,7 @@ xplan5:Z rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#ZU
 xplan5:ZU rdf:type owl:DatatypeProperty ;
-          rdfs:range xplan5:int .
+          rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ZU_Ausn
@@ -3017,7 +3017,7 @@ xplan5:ZWohn rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Ausn
 xplan5:Z_Ausn rdf:type owl:DatatypeProperty ;
-              rdfs:range xplan5:int .
+              rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Dach
@@ -3226,7 +3226,7 @@ xplan5:gaertnerischanzulegen rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#geltungsmassstab
 xplan5:geltungsmassstab rdf:type owl:DatatypeProperty ;
-                        rdfs:range xplan5:int .
+                        rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gemeindeName
@@ -3284,7 +3284,7 @@ xplan5:imVerbund rdf:type owl:DatatypeProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#index
 xplan5:index rdf:type owl:DatatypeProperty ;
-             rdfs:range xplan5:int .
+             rdfs:range xsd:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#informationssystemURL
@@ -3301,7 +3301,7 @@ xplan5:inkrafttretensDatum rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#internalId
-xplan5:internalId rdf:type owl:DatatypeProperty .
+xsd:internalId rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istAufschuettungAblagerung
@@ -3856,11 +3856,11 @@ xplan5:BP_BauGrenze rdf:type owl:Class ;
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty xplan5:geschossMax ;
-                                      owl:allValuesFrom xplan5:int
+                                      owl:allValuesFrom xsd:int
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty xplan5:geschossMin ;
-                                      owl:allValuesFrom xplan5:int
+                                      owl:allValuesFrom xsd:int
                                     ] ;
                     <http://www.semgis.de/geodata#standard> "xplanung"@en ;
                     semgis:propOrder "bautiefe;geschossMin;geschossMax" ;
@@ -3878,11 +3878,11 @@ xplan5:BP_BauLinie rdf:type owl:Class ;
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty xplan5:geschossMax ;
-                                     owl:allValuesFrom xplan5:int
+                                     owl:allValuesFrom xsd:int
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty xplan5:geschossMin ;
-                                     owl:allValuesFrom xplan5:int
+                                     owl:allValuesFrom xsd:int
                                    ] ;
                    <http://www.semgis.de/geodata#standard> "xplanung"@en ;
                    semgis:propOrder "bautiefe;geschossMin;geschossMax" ;
@@ -4028,7 +4028,7 @@ xplan5:BP_BaugebietsTeilFlaeche rdf:type owl:Class ;
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Tmax ;
@@ -4040,55 +4040,55 @@ xplan5:BP_BaugebietsTeilFlaeche rdf:type owl:Class ;
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Z ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:ZU ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:ZU_Ausn ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:ZUmax ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:ZUmin ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:ZUzwingend ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:ZWohn ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Z_Ausn ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Z_Dach ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Z_Staffel ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Zmax ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Zmin ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:Zzwingend ;
-                                                  owl:allValuesFrom xplan5:int
+                                                  owl:allValuesFrom xsd:int
                                                 ] ,
                                                 [ rdf:type owl:Restriction ;
                                                   owl:onProperty xplan5:abweichendeBauweise ;
@@ -4393,7 +4393,7 @@ xplan5:BP_BesondererNutzungszweckFlaeche rdf:type owl:Class ;
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Tmax ;
@@ -4405,51 +4405,51 @@ xplan5:BP_BesondererNutzungszweckFlaeche rdf:type owl:Class ;
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Z ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:ZU ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:ZU_Ausn ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:ZUmax ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:ZUmin ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:ZUzwingend ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Z_Ausn ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Z_Dach ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Z_Staffel ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Zmax ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Zmin ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:Zzwingend ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:dachform ;
@@ -4773,7 +4773,7 @@ xplan5:BP_GemeinbedarfsFlaeche rdf:type owl:Class ;
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Tmax ;
@@ -4785,51 +4785,51 @@ xplan5:BP_GemeinbedarfsFlaeche rdf:type owl:Class ;
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Z ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:ZU ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:ZU_Ausn ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:ZUmax ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:ZUmin ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:ZUzwingend ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Z_Ausn ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Z_Dach ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Z_Staffel ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Zmax ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Zmin ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:Zzwingend ;
-                                                 owl:allValuesFrom xplan5:int
+                                                 owl:allValuesFrom xsd:int
                                                ] ,
                                                [ rdf:type owl:Restriction ;
                                                  owl:onProperty xplan5:detaillierteZweckbestimmung ;
@@ -4854,7 +4854,7 @@ xplan5:BP_GemeinschaftsanlagenFlaeche rdf:type owl:Class ;
                                       rdfs:subClassOf xplan5:BP_Ueberlagerungsobjekt ,
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xplan5:Zmax ;
-                                                        owl:allValuesFrom xplan5:int
+                                                        owl:allValuesFrom xsd:int
                                                       ] ,
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty xplan5:detaillierteZweckbestimmung ;
@@ -5056,7 +5056,7 @@ xplan5:BP_GruenFlaeche rdf:type owl:Class ;
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:MaxZahlWohnungen ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Tmax ;
@@ -5068,51 +5068,51 @@ xplan5:BP_GruenFlaeche rdf:type owl:Class ;
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Z ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:ZU ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:ZU_Ausn ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:ZUmax ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:ZUmin ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:ZUzwingend ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Z_Ausn ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Z_Dach ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Z_Staffel ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Zmax ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Zmin ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:Zzwingend ;
-                                         owl:allValuesFrom xplan5:int
+                                         owl:allValuesFrom xsd:int
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty xplan5:detaillierteZweckbestimmung ;
@@ -5265,7 +5265,7 @@ xplan5:BP_NebenanlagenFlaeche rdf:type owl:Class ;
                               rdfs:subClassOf xplan5:BP_Ueberlagerungsobjekt ,
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty xplan5:Zmax ;
-                                                owl:allValuesFrom xplan5:int
+                                                owl:allValuesFrom xsd:int
                                               ] ,
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty xplan5:detaillierteZweckbestimmung ;
@@ -5772,7 +5772,7 @@ xplan5:BP_SpielSportanlagenFlaeche rdf:type owl:Class ;
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Tmax ;
@@ -5784,51 +5784,51 @@ xplan5:BP_SpielSportanlagenFlaeche rdf:type owl:Class ;
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Z ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:ZU ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:ZU_Ausn ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:ZUmax ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:ZUmin ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:ZUzwingend ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Z_Ausn ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Z_Dach ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Z_Staffel ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Zmax ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Zmin ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:Zzwingend ;
-                                                     owl:allValuesFrom xplan5:int
+                                                     owl:allValuesFrom xsd:int
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty xplan5:detaillierteZweckbestimmung ;
@@ -5949,7 +5949,7 @@ xplan5:BP_StrassenVerkehrsFlaeche rdf:type owl:Class ;
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Tmax ;
@@ -5961,51 +5961,51 @@ xplan5:BP_StrassenVerkehrsFlaeche rdf:type owl:Class ;
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Z ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:ZU ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:ZU_Ausn ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:ZUmax ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:ZUmin ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:ZUzwingend ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Z_Ausn ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Z_Dach ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Z_Staffel ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Zmax ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Zmin ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:Zzwingend ;
-                                                    owl:allValuesFrom xplan5:int
+                                                    owl:allValuesFrom xsd:int
                                                   ] ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty xplan5:begrenzungslinie ;
@@ -6235,7 +6235,7 @@ xplan5:BP_UeberbaubareGrundstuecksFlaeche rdf:type owl:Class ;
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Tmax ;
@@ -6247,55 +6247,55 @@ xplan5:BP_UeberbaubareGrundstuecksFlaeche rdf:type owl:Class ;
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Z ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:ZU ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:ZU_Ausn ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:ZUmax ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:ZUmin ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:ZUzwingend ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:ZWohn ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Z_Ausn ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Z_Dach ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Z_Staffel ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Zmax ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Zmin ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:Zzwingend ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:abweichendeBauweise ;
@@ -6339,11 +6339,11 @@ xplan5:BP_UeberbaubareGrundstuecksFlaeche rdf:type owl:Class ;
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:geschossMax ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:geschossMin ;
-                                                            owl:allValuesFrom xplan5:int
+                                                            owl:allValuesFrom xsd:int
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty xplan5:refGebaeudequerschnitt ;
@@ -6483,7 +6483,7 @@ xplan5:BP_VerEntsorgung rdf:type owl:Class ;
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:MaxZahlWohnungen ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Tmax ;
@@ -6495,51 +6495,51 @@ xplan5:BP_VerEntsorgung rdf:type owl:Class ;
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Z ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:ZU ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:ZU_Ausn ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:ZUmax ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:ZUmin ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:ZUzwingend ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Z_Ausn ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Z_Dach ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Z_Staffel ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Zmax ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Zmin ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:Zzwingend ;
-                                          owl:allValuesFrom xplan5:int
+                                          owl:allValuesFrom xsd:int
                                         ] ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty xplan5:detaillierteZweckbestimmung ;
@@ -6698,7 +6698,7 @@ xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung rdf:type owl:Class ;
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:MaxZahlWohnungen ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Tmax ;
@@ -6710,51 +6710,51 @@ xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung rdf:type owl:Class ;
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Z ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:ZU ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:ZU_Ausn ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:ZUmax ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:ZUmin ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:ZUzwingend ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Z_Ausn ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Z_Dach ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Z_Staffel ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Zmax ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Zmin ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:Zzwingend ;
-                                                                     owl:allValuesFrom xplan5:int
+                                                                     owl:allValuesFrom xsd:int
                                                                    ] ,
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty xplan5:begrenzungslinie ;
@@ -8716,7 +8716,7 @@ xplan5:RP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:geltungsmassstab ;
-                                    owl:allValuesFrom xplan5:int
+                                    owl:allValuesFrom xsd:int
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:versionBROG ;
@@ -9663,7 +9663,7 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:amtlicherSchluessel ;
-                                 owl:allValuesFrom xplan5:int
+                                 owl:allValuesFrom xsd:int
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:aufstellungsbeschlussDatum ;
@@ -9703,7 +9703,7 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:planungsregion ;
-                                 owl:allValuesFrom xplan5:int
+                                 owl:allValuesFrom xsd:int
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:rechtsstand ;
@@ -9719,7 +9719,7 @@ xplan5:RP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:teilabschnitt ;
-                                 owl:allValuesFrom xplan5:int
+                                 owl:allValuesFrom xsd:int
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:traegerbeteiligungsEndDatum ;
@@ -10067,7 +10067,7 @@ xplan5:RP_Siedlung rdf:type owl:Class ;
                    rdfs:subClassOf xplan5:RP_Geometrieobjekt ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty xplan5:bauhoehenbeschraenkung ;
-                                     owl:allValuesFrom xplan5:int
+                                     owl:allValuesFrom xsd:int
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty xplan5:istSiedlungsbeschraenkung ;
@@ -11511,7 +11511,7 @@ xplan5:XP_AbstraktesPraesentationsobjekt rdf:type owl:Class ;
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:darstellungsprioritaet ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:dientZurDarstellungVon ;
@@ -11523,7 +11523,7 @@ xplan5:XP_AbstraktesPraesentationsobjekt rdf:type owl:Class ;
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:index ;
-                                                           owl:allValuesFrom xplan5:int
+                                                           owl:allValuesFrom xsd:int
                                                          ] ,
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty xplan5:stylesheetId ;
@@ -11677,7 +11677,7 @@ xplan5:XP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:erstellungsMassstab ;
-                                    owl:allValuesFrom xplan5:int
+                                    owl:allValuesFrom xsd:int
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:geltungsbereich ;
@@ -11689,7 +11689,7 @@ xplan5:XP_Bereich rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:nummer ;
-                                    owl:allValuesFrom xplan5:int
+                                    owl:allValuesFrom xsd:int
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty xplan5:planinhalt ;
@@ -11902,7 +11902,7 @@ xplan5:XP_IntegerAttribut rdf:type owl:Class ;
                           rdfs:subClassOf xplan5:XP_GenerAttribut ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty xplan5:wert ;
-                                            owl:allValuesFrom xplan5:int
+                                            owl:allValuesFrom xsd:int
                                           ] .
 
 
@@ -11979,11 +11979,11 @@ xplan5:XP_Nutzungsschablone rdf:type owl:Class ;
                             rdfs:subClassOf xplan5:XP_PTO ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty xplan5:spaltenAnz ;
-                                              owl:allValuesFrom xplan5:int
+                                              owl:allValuesFrom xsd:int
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty xplan5:zeilenAnz ;
-                                              owl:allValuesFrom xplan5:int
+                                              owl:allValuesFrom xsd:int
                                             ] ;
                             <http://www.semgis.de/geodata#standard> "xplanung"@en ;
                             semgis:propOrder "spaltenAnz;zeilenAnz" ;
@@ -11999,7 +11999,7 @@ xplan5:XP_Objekt rdf:type owl:Class ;
                                  xplan5:XPlanung5 ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty xplan5:ebene ;
-                                   owl:allValuesFrom xplan5:int
+                                   owl:allValuesFrom xsd:int
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty xplan5:endeBedingung ;
@@ -12132,7 +12132,7 @@ xplan5:XP_Plan rdf:type owl:Class ;
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:erstellungsMassstab ;
-                                 owl:allValuesFrom xplan5:int
+                                 owl:allValuesFrom xsd:int
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty xplan5:externeReferenz ;
@@ -12147,7 +12147,7 @@ xplan5:XP_Plan rdf:type owl:Class ;
                                  owl:allValuesFrom xplan5:XP_GenerAttribut
                                ] ,
                                [ rdf:type owl:Restriction ;
-                                 owl:onProperty xplan5:internalId ;
+                                 owl:onProperty xsd:internalId ;
                                  owl:allValuesFrom xsd:string
                                ] ,
                                [ rdf:type owl:Restriction ;
@@ -22843,7 +22843,7 @@ xplan5:inkrafttretenDatum rdfs:label "inkrafttretenDatum"@de .
 xplan5:inkrafttretensDatum rdfs:label "inkrafttretensDatum"@de .
 
 
-xplan5:internalId rdfs:label "internalId"@de .
+xsd:internalId rdfs:label "internalId"@de .
 
 
 xplan5:istAufschuettungAblagerung rdfs:label "istAufschuettungAblagerung"@de .
