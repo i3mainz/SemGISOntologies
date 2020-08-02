@@ -122,8 +122,7 @@ xplan5:int rdf:type rdfs:Datatype .
 
 ###  http://www.xplanung.de/xplangml/5/0#BM
 xplan5:BM rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:subPropertyOf xplan5:XPlanung5Property ;          rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                       xplan5:BP_BesondererNutzungszweckFlaeche
                                       xplan5:BP_GemeinbedarfsFlaeche
@@ -141,20 +140,17 @@ xplan5:BM rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#BMZ
 xplan5:BMZ rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-           rdfs:range xplan5:double .
+           rdfs:subPropertyOf xplan5:XPlanung5Property ;           rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BMZ_Ausn
 xplan5:BMZ_Ausn rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xplan5:double .
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#BM_Ausn
 xplan5:BM_Ausn rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                            xplan5:BP_BesondererNutzungszweckFlaeche
                                            xplan5:BP_GemeinbedarfsFlaeche
@@ -192,8 +188,7 @@ xplan5:BP_Ueberlagerungsobjekt rdf:type owl:ObjectProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#Bmax
 xplan5:Bmax rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -212,8 +207,7 @@ xplan5:Bmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Bmin
 xplan5:Bmin rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -232,8 +226,7 @@ xplan5:Bmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#DN
 xplan5:DN rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:subPropertyOf xplan5:XPlanung5Property ;          rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                       xplan5:BP_BesondererNutzungszweckFlaeche
                                       xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -245,8 +238,7 @@ xplan5:DN rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#DNZwingend
 xplan5:DNZwingend rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain [ rdf:type owl:Class ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                               xplan5:BP_BesondererNutzungszweckFlaeche
                                               xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -258,8 +250,7 @@ xplan5:DNZwingend rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#DNmax
 xplan5:DNmax rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -271,8 +262,7 @@ xplan5:DNmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#DNmin
 xplan5:DNmin rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -284,8 +274,7 @@ xplan5:DNmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#FR
 xplan5:FR rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:subPropertyOf xplan5:XPlanung5Property ;          rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                       xplan5:BP_BesondererNutzungszweckFlaeche
                                       xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -297,8 +286,7 @@ xplan5:FR rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Fmax
 xplan5:Fmax rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -316,8 +304,7 @@ xplan5:Fmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Fmin
 xplan5:Fmin rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -335,8 +322,7 @@ xplan5:Fmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GF
 xplan5:GF rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:subPropertyOf xplan5:XPlanung5Property ;          rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                       xplan5:BP_BesondererNutzungszweckFlaeche
                                       xplan5:BP_GemeinbedarfsFlaeche
@@ -354,8 +340,7 @@ xplan5:GF rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFAntGewerbe
 xplan5:GFAntGewerbe rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain [ rdf:type owl:Class ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain [ rdf:type owl:Class ;
                                   owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                 xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                               )
@@ -366,8 +351,7 @@ xplan5:GFAntGewerbe rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFAntWohnen
 xplan5:GFAntWohnen rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain [ rdf:type owl:Class ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                              )
@@ -378,8 +362,7 @@ xplan5:GFAntWohnen rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFGewerbe
 xplan5:GFGewerbe rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                              xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                            )
@@ -390,8 +373,7 @@ xplan5:GFGewerbe rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFWohnen
 xplan5:GFWohnen rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                             xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                           )
@@ -407,14 +389,12 @@ xplan5:GFZ rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFZ_Ausn
 xplan5:GFZ_Ausn rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xplan5:double .
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#GFZmax
 xplan5:GFZmax rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-              rdfs:range xplan5:double .
+              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#GFZmin
@@ -424,8 +404,7 @@ xplan5:GFZmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GF_Ausn
 xplan5:GF_Ausn rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                            xplan5:BP_BesondererNutzungszweckFlaeche
                                            xplan5:BP_GemeinbedarfsFlaeche
@@ -443,8 +422,7 @@ xplan5:GF_Ausn rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFmax
 xplan5:GFmax rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -462,8 +440,7 @@ xplan5:GFmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GFmin
 xplan5:GFmin rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -481,8 +458,7 @@ xplan5:GFmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GR
 xplan5:GR rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:subPropertyOf xplan5:XPlanung5Property ;          rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                       xplan5:BP_BesondererNutzungszweckFlaeche
                                       xplan5:BP_GemeinbedarfsFlaeche
@@ -500,14 +476,12 @@ xplan5:GR rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GRZ
 xplan5:GRZ rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-           rdfs:range xplan5:double .
+           rdfs:subPropertyOf xplan5:XPlanung5Property ;           rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#GRZ_Ausn
 xplan5:GRZ_Ausn rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xplan5:double .
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#GRZmax
@@ -522,8 +496,7 @@ xplan5:GRZmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GR_Ausn
 xplan5:GR_Ausn rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                            xplan5:BP_BesondererNutzungszweckFlaeche
                                            xplan5:BP_GemeinbedarfsFlaeche
@@ -541,8 +514,7 @@ xplan5:GR_Ausn rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GRmax
 xplan5:GRmax rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -560,8 +532,7 @@ xplan5:GRmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#GRmin
 xplan5:GRmin rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -579,8 +550,7 @@ xplan5:GRmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#MaxZahlWohnungen
 xplan5:MaxZahlWohnungen rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:domain [ rdf:type owl:Class ;
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        rdfs:domain [ rdf:type owl:Class ;
                                       owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                     xplan5:BP_BesondererNutzungszweckFlaeche
                                                     xplan5:BP_GemeinbedarfsFlaeche
@@ -612,8 +582,7 @@ xplan5:RP_Legendenobjekt rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Tmax
 xplan5:Tmax rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -632,8 +601,7 @@ xplan5:Tmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Tmin
 xplan5:Tmin rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -744,8 +712,7 @@ xplan5:XPlanung5Property rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Z
 xplan5:Z rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-         rdfs:domain [ rdf:type owl:Class ;
+         rdfs:subPropertyOf xplan5:XPlanung5Property ;         rdfs:domain [ rdf:type owl:Class ;
                        owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                      xplan5:BP_BesondererNutzungszweckFlaeche
                                      xplan5:BP_GemeinbedarfsFlaeche
@@ -762,8 +729,7 @@ xplan5:Z rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#ZU
 xplan5:ZU rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:subPropertyOf xplan5:XPlanung5Property ;          rdfs:domain [ rdf:type owl:Class ;
                         owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                       xplan5:BP_BesondererNutzungszweckFlaeche
                                       xplan5:BP_GemeinbedarfsFlaeche
@@ -779,8 +745,7 @@ xplan5:ZU rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#ZU_Ausn
 xplan5:ZU_Ausn rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                            xplan5:BP_BesondererNutzungszweckFlaeche
                                            xplan5:BP_GemeinbedarfsFlaeche
@@ -797,8 +762,7 @@ xplan5:ZU_Ausn rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#ZUmax
 xplan5:ZUmax rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -815,8 +779,7 @@ xplan5:ZUmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#ZUmin
 xplan5:ZUmin rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_BesondererNutzungszweckFlaeche
                                          xplan5:BP_GemeinbedarfsFlaeche
@@ -833,8 +796,7 @@ xplan5:ZUmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#ZUzwingend
 xplan5:ZUzwingend rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain [ rdf:type owl:Class ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                               xplan5:BP_BesondererNutzungszweckFlaeche
                                               xplan5:BP_GemeinbedarfsFlaeche
@@ -851,8 +813,7 @@ xplan5:ZUzwingend rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#ZWohn
 xplan5:ZWohn rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                          xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                        )
@@ -862,8 +823,7 @@ xplan5:ZWohn rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Ausn
 xplan5:Z_Ausn rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-              rdfs:domain [ rdf:type owl:Class ;
+              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                           xplan5:BP_BesondererNutzungszweckFlaeche
                                           xplan5:BP_GemeinbedarfsFlaeche
@@ -879,8 +839,7 @@ xplan5:Z_Ausn rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Dach
 xplan5:Z_Dach rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-              rdfs:domain [ rdf:type owl:Class ;
+              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                           xplan5:BP_BesondererNutzungszweckFlaeche
                                           xplan5:BP_GemeinbedarfsFlaeche
@@ -897,8 +856,7 @@ xplan5:Z_Dach rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Z_Staffel
 xplan5:Z_Staffel rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                              xplan5:BP_BesondererNutzungszweckFlaeche
                                              xplan5:BP_GemeinbedarfsFlaeche
@@ -915,8 +873,7 @@ xplan5:Z_Staffel rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Zmax
 xplan5:Zmax rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -935,8 +892,7 @@ xplan5:Zmax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Zmin
 xplan5:Zmin rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                         xplan5:BP_GemeinbedarfsFlaeche
@@ -953,8 +909,7 @@ xplan5:Zmin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#Zzwingend
 xplan5:Zzwingend rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                              xplan5:BP_BesondererNutzungszweckFlaeche
                                              xplan5:BP_GemeinbedarfsFlaeche
@@ -971,22 +926,22 @@ xplan5:Zzwingend rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#abbaugut
 xplan5:abbaugut rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xsd:string .
+                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
+xplan5:XPlanung5DataProperty rdf:type owl:DatatypeProperty .
+
+xplan5:XPlanung5DataProperty rdfs:subPropertyOf owl:topDataProperty .
 
 ###  http://www.xplanung.de/xplangml/5/0#abfallTyp
 xplan5:abfallTyp rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:RP_Entsorgung ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:RP_Entsorgung ;
                  rdfs:range xplan5:RP_AbfallTypen ;
                  rdfs:label "abfallTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#abweichendeBauweise
 xplan5:abweichendeBauweise rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:domain [ rdf:type owl:Class ;
+                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:domain [ rdf:type owl:Class ;
                                          owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                        xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                                      )
@@ -997,28 +952,24 @@ xplan5:abweichendeBauweise rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#abweichenderBezugspunkt
 xplan5:abweichenderBezugspunkt rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                               rdfs:range xsd:string .
+                               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#abweichenderHoehenbezug
 xplan5:abweichenderHoehenbezug rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                               rdfs:range xsd:string .
+                               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#abweichungBauNVO
 xplan5:abweichungBauNVO rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:domain xplan5:BP_BaugebietsTeilFlaeche ;
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        rdfs:domain xplan5:BP_BaugebietsTeilFlaeche ;
                         rdfs:range xplan5:XP_AbweichungBauNVOTypen ;
                         rdfs:label "abweichungBauNVO"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#abweichungText
 xplan5:abweichungText rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                      rdfs:domain [ rdf:type owl:Class ;
+                      rdfs:subPropertyOf xplan5:XPlanung5Property ;                      rdfs:domain [ rdf:type owl:Class ;
                                     owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                   xplan5:BP_NebenanlagenAusschlussFlaeche
                                                 )
@@ -1033,28 +984,24 @@ xplan5:abweichungText rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#aendert
 xplan5:aendert rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain xplan5:XP_Plan ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain xplan5:XP_Plan ;
                rdfs:range xplan5:XP_VerbundenerPlan ;
                rdfs:label "aendert"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#aenderungenBisDatum
 xplan5:aenderungenBisDatum rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xplan5:date .
+                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ags
 xplan5:ags rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-           rdfs:range xsd:string .
+           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#allgArtDerBaulNutzung
 xplan5:allgArtDerBaulNutzung rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:domain [ rdf:type owl:Class ;
+                             rdfs:subPropertyOf xplan5:XPlanung5Property ;                             rdfs:domain [ rdf:type owl:Class ;
                                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                          xplan5:FP_BebauungsFlaeche
                                                        )
@@ -1065,16 +1012,14 @@ xplan5:allgArtDerBaulNutzung rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#allgemeinerTyp
 xplan5:allgemeinerTyp rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                      rdfs:domain xplan5:RP_Verkehr ;
+                      rdfs:subPropertyOf xplan5:XPlanung5Property ;                      rdfs:domain xplan5:RP_Verkehr ;
                       rdfs:range xplan5:RP_VerkehrTypen ;
                       rdfs:label "allgemeinerTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#amtlicherSchluessel
 xplan5:amtlicherSchluessel rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:domain xplan5:RP_Plan ;
+                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:domain xplan5:RP_Plan ;
                            rdfs:range xplan5:int .
 
 
@@ -1085,8 +1030,7 @@ xplan5:any rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#art
 xplan5:art rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-           rdfs:domain [ rdf:type owl:Class ;
+           rdfs:subPropertyOf xplan5:XPlanung5Property ;           rdfs:domain [ rdf:type owl:Class ;
                          owl:unionOf ( xplan5:XP_AbstraktesPraesentationsobjekt
                                        xplan5:XP_ExterneReferenz
                                      )
@@ -1101,8 +1045,7 @@ xplan5:art rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#artDerFestlegung
 xplan5:artDerFestlegung rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:domain [ rdf:type owl:Class ;
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        rdfs:domain [ rdf:type owl:Class ;
                                       owl:unionOf ( xplan5:SO_Bodenschutzrecht
                                                     xplan5:SO_Denkmalschutzrecht
                                                     xplan5:SO_Forstrecht
@@ -1135,26 +1078,22 @@ xplan5:artDerFestlegung rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#aufstellungsbeschhlussDatum
 xplan5:aufstellungsbeschhlussDatum rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                   rdfs:range xplan5:date .
+                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#aufstellungsbeschlussDatum
 xplan5:aufstellungsbeschlussDatum rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                  rdfs:range xplan5:date .
+                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                                  rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ausfertigungsDatum
 xplan5:ausfertigungsDatum rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:range xplan5:date .
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungEndDatum
 xplan5:auslegungEndDatum rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:range xplan5:date .
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungStartDatum
@@ -1169,71 +1108,61 @@ xplan5:auslegungsDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungsEndDatum
 xplan5:auslegungsEndDatum rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:range xplan5:date .
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auslegungsStartDatum
 xplan5:auslegungsStartDatum rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:range xplan5:date .
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auspraegung
 xplan5:auspraegung rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:FP_ZentralerVersorgungsbereich ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:FP_ZentralerVersorgungsbereich ;
                    rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                    rdfs:label "auspraegung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auszuschliessendeNutzungen
 xplan5:auszuschliessendeNutzungen rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                  rdfs:range xsd:string .
+                                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#auszuschliessendeNutzungenKuerzel
 xplan5:auszuschliessendeNutzungenKuerzel rdf:type owl:ObjectProperty ;
-                                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                         rdfs:range xsd:string .
+                                         rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#baugrenze
 xplan5:baugrenze rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:BP_UeberbaubareGrundstuecksFlaeche ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:BP_UeberbaubareGrundstuecksFlaeche ;
                  rdfs:range xplan5:BP_BauGrenze ;
                  rdfs:label "baugrenze"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bauhoehenbeschraenkung
 xplan5:bauhoehenbeschraenkung rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:domain xplan5:RP_Siedlung ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain xplan5:RP_Siedlung ;
                               rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#baulinie
 xplan5:baulinie rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain xplan5:BP_UeberbaubareGrundstuecksFlaeche ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain xplan5:BP_UeberbaubareGrundstuecksFlaeche ;
                 rdfs:range xplan5:BP_BauLinie ;
                 rdfs:label "baulinie"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#baumArt
 xplan5:baumArt rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain xplan5:BP_AnpflanzungBindungErhaltung ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain xplan5:BP_AnpflanzungBindungErhaltung ;
                rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                rdfs:label "baumArt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bautiefe
 xplan5:bautiefe rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_BauGrenze
                                             xplan5:BP_BauLinie
                                             xplan5:BP_StrassenbegrenzungsLinie
@@ -1245,8 +1174,7 @@ xplan5:bautiefe rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bauweise
 xplan5:bauweise rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                             xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                           )
@@ -1257,8 +1185,7 @@ xplan5:bauweise rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bebauungRueckwaertigeGrenze
 xplan5:bebauungRueckwaertigeGrenze rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                   rdfs:domain [ rdf:type owl:Class ;
+                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:domain [ rdf:type owl:Class ;
                                                  owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                                xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                                              )
@@ -1269,8 +1196,7 @@ xplan5:bebauungRueckwaertigeGrenze rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bebauungSeitlicheGrenze
 xplan5:bebauungSeitlicheGrenze rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                               rdfs:domain [ rdf:type owl:Class ;
+                               rdfs:subPropertyOf xplan5:XPlanung5Property ;                               rdfs:domain [ rdf:type owl:Class ;
                                              owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                            xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                                          )
@@ -1281,8 +1207,7 @@ xplan5:bebauungSeitlicheGrenze rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bebauungVordereGrenze
 xplan5:bebauungVordereGrenze rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:domain [ rdf:type owl:Class ;
+                             rdfs:subPropertyOf xplan5:XPlanung5Property ;                             rdfs:domain [ rdf:type owl:Class ;
                                            owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                          xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                                        )
@@ -1293,8 +1218,7 @@ xplan5:bebauungVordereGrenze rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bebauungsArt
 xplan5:bebauungsArt rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain [ rdf:type owl:Class ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain [ rdf:type owl:Class ;
                                   owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                 xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                               )
@@ -1305,30 +1229,26 @@ xplan5:bebauungsArt rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bedeutsamkeit
 xplan5:bedeutsamkeit rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:RP_Objekt ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:RP_Objekt ;
                      rdfs:range xplan5:RP_Bedeutsamkeit ;
                      rdfs:label "bedeutsamkeit"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bedeutung
 xplan5:bedeutung rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:XP_Bereich ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:XP_Bereich ;
                  rdfs:range xplan5:XP_BedeutungenBereich ;
                  rdfs:label "bedeutung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bedingung
 xplan5:bedingung rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:string .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#begrenzungslinie
 xplan5:begrenzungslinie rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:domain [ rdf:type owl:Class ;
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        rdfs:domain [ rdf:type owl:Class ;
                                       owl:unionOf ( xplan5:BP_StrassenVerkehrsFlaeche
                                                     xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
                                                   )
@@ -1339,28 +1259,24 @@ xplan5:begrenzungslinie rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#begruendung
 xplan5:begruendung rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:string .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#begruendungKuerzel
 xplan5:begruendungKuerzel rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:range xsd:string .
+                          rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#begruendungsTexte
 xplan5:begruendungsTexte rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain xplan5:XP_Plan ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain xplan5:XP_Plan ;
                          rdfs:range xplan5:XP_BegruendungAbschnitt ;
                          rdfs:label "begruendungsTexte"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bereich
 xplan5:bereich rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               owl:inverseOf xplan5:gehoertZuPlan ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               owl:inverseOf xplan5:gehoertZuPlan ;
                rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_Plan
                                            xplan5:FP_Plan
@@ -1382,22 +1298,19 @@ xplan5:bereich rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bergbauplanungTyp
 xplan5:bergbauplanungTyp rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain xplan5:RP_Rohstoff ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain xplan5:RP_Rohstoff ;
                          rdfs:range xplan5:RP_BergbauplanungTypen ;
                          rdfs:label "bergbauplanungTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#beschreibung
 xplan5:beschreibung rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:string .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#besondereArtDerBaulNutzung
 xplan5:besondereArtDerBaulNutzung rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                  rdfs:domain [ rdf:type owl:Class ;
+                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                                  rdfs:domain [ rdf:type owl:Class ;
                                                 owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                               xplan5:FP_BebauungsFlaeche
                                                             )
@@ -1408,8 +1321,7 @@ xplan5:besondereArtDerBaulNutzung rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#besondererTyp
 xplan5:besondererTyp rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain [ rdf:type owl:Class ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain [ rdf:type owl:Class ;
                                    owl:unionOf ( xplan5:RP_Erholung
                                                  xplan5:RP_Raumkategorie
                                                  xplan5:RP_Schienenverkehr
@@ -1428,50 +1340,43 @@ xplan5:besondererTyp rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#bezeichnung
 xplan5:bezeichnung rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:string .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bezugshoehe
 xplan5:bezugshoehe rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:XP_Plan ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:XP_Plan ;
                    rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
                    rdfs:label "bezugshoehe"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bezugspunkt
 xplan5:bezugspunkt rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:XP_Hoehenangabe ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:XP_Hoehenangabe ;
                    rdfs:range xplan5:XP_ArtHoehenbezugspunkt ;
                    rdfs:label "bezugspunkt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bindung
 xplan5:bindung rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:range xsd:string .
+               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bindungKuerzel
 xplan5:bindungKuerzel rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                      rdfs:range xsd:string .
+                      rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#breite
 xplan5:breite rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-              rdfs:domain xplan5:BP_Wegerecht ;
+              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:domain xplan5:BP_Wegerecht ;
               rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
               rdfs:label "breite"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#bundesland
 xplan5:bundesland rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain [ rdf:type owl:Class ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:LP_Plan
                                               xplan5:RP_Plan
                                             )
@@ -1482,8 +1387,7 @@ xplan5:bundesland rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#dachform
 xplan5:dachform rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                             xplan5:BP_BesondererNutzungszweckFlaeche
                                             xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -1495,39 +1399,33 @@ xplan5:dachform rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#darstellungsprioritaet
 xplan5:darstellungsprioritaet rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
                               rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datum
 xplan5:datum rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:range xplan5:date .
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datumAbsolut
 xplan5:datumAbsolut rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xplan5:date .
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datumDesInkrafttretens
 xplan5:datumDesInkrafttretens rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:range xplan5:date .
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#datumRelativ
 xplan5:datumRelativ rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:XP_WirksamkeitBedingung .
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:XP_WirksamkeitBedingung .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#detailArtDerFestlegung
 xplan5:detailArtDerFestlegung rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:domain [ rdf:type owl:Class ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain [ rdf:type owl:Class ;
                                             owl:unionOf ( xplan5:SO_Bodenschutzrecht
                                                           xplan5:SO_Denkmalschutzrecht
                                                           xplan5:SO_Forstrecht
@@ -1547,8 +1445,7 @@ xplan5:detailArtDerFestlegung rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#detailTyp
 xplan5:detailTyp rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_NutzungsartenGrenze
                                              xplan5:LP_Bodenschutzrecht
                                              xplan5:LP_Forstrecht
@@ -1565,8 +1462,7 @@ xplan5:detailTyp rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#detaillierteArtDerBaulNutzung
 xplan5:detaillierteArtDerBaulNutzung rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                     rdfs:domain [ rdf:type owl:Class ;
+                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                                     rdfs:domain [ rdf:type owl:Class ;
                                                    owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                                  xplan5:FP_BebauungsFlaeche
                                                                )
@@ -1577,14 +1473,12 @@ xplan5:detaillierteArtDerBaulNutzung rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#detaillierteBedeutung
 xplan5:detaillierteBedeutung rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xsd:string .
+                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#detaillierteDachform
 xplan5:detaillierteDachform rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain [ rdf:type owl:Class ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain [ rdf:type owl:Class ;
                                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                         xplan5:BP_BesondererNutzungszweckFlaeche
                                                         xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -1596,16 +1490,14 @@ xplan5:detaillierteDachform rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#detaillierteFunktion
 xplan5:detaillierteFunktion rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain xplan5:LP_ErholungFreizeit ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain xplan5:LP_ErholungFreizeit ;
                             rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                             rdfs:label "detaillierteFunktion"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#detaillierteZweckbestimmung
 xplan5:detaillierteZweckbestimmung rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                   rdfs:domain [ rdf:type owl:Class ;
+                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:domain [ rdf:type owl:Class ;
                                                  owl:unionOf ( xplan5:BP_GemeinbedarfsFlaeche
                                                                xplan5:BP_GemeinschaftsanlagenFlaeche
                                                                xplan5:BP_GewaesserFlaeche
@@ -1634,8 +1526,7 @@ xplan5:detaillierteZweckbestimmung rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#dientZurDarstellungVon
 xplan5:dientZurDarstellungVon rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              owl:inverseOf xplan5:wirdDargestelltDurch ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              owl:inverseOf xplan5:wirdDargestelltDurch ;
                               rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
                               rdfs:range xplan5:XP_Objekt ;
                               rdfs:label "dientZurDarstellungVon"@de .
@@ -1643,8 +1534,7 @@ xplan5:dientZurDarstellungVon rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#drehwinkel
 xplan5:drehwinkel rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain [ rdf:type owl:Class ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:XP_PPO
                                               xplan5:XP_PTO
                                             )
@@ -1655,8 +1545,7 @@ xplan5:drehwinkel rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungEndDatum
 xplan5:durchfuehrungEndDatum rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xplan5:date .
+                             rdfs:subPropertyOf xplan5:XPlanung5Property ;                             rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungStartDatum
@@ -1666,75 +1555,64 @@ xplan5:durchfuehrungStartDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#durchfuehrungsVertrag
 xplan5:durchfuehrungsVertrag rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xsd:boolean .
+                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ebene
 xplan5:ebene rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain xplan5:XP_Objekt ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:XP_Objekt ;
              rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#eigenname
 xplan5:eigenname rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:string .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#eigentuemer
 xplan5:eigentuemer rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:BP_GemeinschaftsanlagenFlaeche ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:BP_GemeinschaftsanlagenFlaeche ;
                    rdfs:range xplan5:BP_BaugebietsTeilFlaeche ;
                    rdfs:label "eigentuemer"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#endWinkel
 xplan5:endWinkel rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:BP_AbstandsMass ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:BP_AbstandsMass ;
                  rdfs:range <http://www.opengis.net/gml/3.2#Angle> ;
                  rdfs:label "endWinkel"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#endeBedingung
 xplan5:endeBedingung rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:XP_Objekt ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:XP_Objekt ;
                      rdfs:range xplan5:XP_WirksamkeitBedingung ;
                      rdfs:label "endeBedingung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#entwurfsbeschlussDatum
 xplan5:entwurfsbeschlussDatum rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:range xplan5:date .
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#erfordernisRegelung
 xplan5:erfordernisRegelung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:string .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#erfordernisRegelungKuerzel
 xplan5:erfordernisRegelungKuerzel rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                  rdfs:range xsd:string .
+                                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#erschliessungsVertrag
 xplan5:erschliessungsVertrag rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xsd:boolean .
+                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#erstellungsMassstab
 xplan5:erstellungsMassstab rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:domain [ rdf:type owl:Class ;
+                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:domain [ rdf:type owl:Class ;
                                          owl:unionOf ( xplan5:XP_Bereich
                                                        xplan5:XP_Plan
                                                      )
@@ -1744,8 +1622,7 @@ xplan5:erstellungsMassstab rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#externeReferenz
 xplan5:externeReferenz rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain [ rdf:type owl:Class ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain [ rdf:type owl:Class ;
                                      owl:unionOf ( xplan5:XP_Objekt
                                                    xplan5:XP_Plan
                                                  )
@@ -1756,70 +1633,60 @@ xplan5:externeReferenz rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#flaechenschluss
 xplan5:flaechenschluss rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xsd:boolean .
+                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#flussrichtung
 xplan5:flussrichtung rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:range xsd:boolean .
+                     rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#folgenutzung
 xplan5:folgenutzung rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:RP_Rohstoff ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:RP_Rohstoff ;
                     rdfs:range xplan5:RP_BergbauFolgenutzung ;
                     rdfs:label "folgenutzung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#folgenutzungText
 xplan5:folgenutzungText rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:range xsd:string .
+                        rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#fontSperrung
 xplan5:fontSperrung rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xplan5:double .
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#funktion
 xplan5:funktion rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain xplan5:LP_ErholungFreizeit ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain xplan5:LP_ErholungFreizeit ;
                 rdfs:range xplan5:LP_ErholungFreizeitFunktionen ;
                 rdfs:label "funktion"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gaertnerischanzulegen
 xplan5:gaertnerischanzulegen rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xsd:boolean .
+                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gebietsArt
 xplan5:gebietsArt rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain xplan5:SO_Gebiet ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:SO_Gebiet ;
                   rdfs:range xplan5:SO_GebietsArt ;
                   rdfs:label "gebietsArt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gebietsTyp
 xplan5:gebietsTyp rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain xplan5:RP_Objekt ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:RP_Objekt ;
                   rdfs:range xplan5:RP_GebietsTyp ;
                   rdfs:label "gebietsTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gegenstand
 xplan5:gegenstand rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain [ rdf:type owl:Class ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:BP_AnpflanzungBindungErhaltung
                                               xplan5:LP_AnpflanzungBindungErhaltung
                                             )
@@ -1830,8 +1697,7 @@ xplan5:gegenstand rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gehoertZuBereich
 xplan5:gehoertZuBereich rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        owl:inverseOf xplan5:planinhalt ,
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        owl:inverseOf xplan5:planinhalt ,
                                       xplan5:praesentationsobjekt ;
                         rdfs:domain [ rdf:type owl:Class ;
                                       owl:unionOf ( xplan5:XP_AbstraktesPraesentationsobjekt
@@ -1844,8 +1710,7 @@ xplan5:gehoertZuBereich rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gehoertZuPlan
 xplan5:gehoertZuPlan rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain [ rdf:type owl:Class ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain [ rdf:type owl:Class ;
                                    owl:unionOf ( xplan5:BP_Bereich
                                                  xplan5:FP_Bereich
                                                  xplan5:LP_Bereich
@@ -1866,30 +1731,26 @@ xplan5:gehoertZuPlan rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gehoertZuPraesentationsobjekt
 xplan5:gehoertZuPraesentationsobjekt rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                     rdfs:domain xplan5:RP_Legendenobjekt ;
+                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                                     rdfs:domain xplan5:RP_Legendenobjekt ;
                                      rdfs:range xplan5:XP_AbstraktesPraesentationsobjekt ;
                                      rdfs:label "gehoertZuPraesentationsobjekt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#geltungsbereich
 xplan5:geltungsbereich rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain xplan5:XP_Bereich ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain xplan5:XP_Bereich ;
                        rdfs:range <http://www.opengis.net/gml/3.2#Geometry> ;
                        rdfs:label "geltungsbereich"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#geltungsmassstab
 xplan5:geltungsmassstab rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:domain xplan5:RP_Bereich .
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        rdfs:domain xplan5:RP_Bereich .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gemeinde
 xplan5:gemeinde rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_Plan
                                             xplan5:FP_Plan
                                             xplan5:SO_Gebiet
@@ -1901,34 +1762,29 @@ xplan5:gemeinde rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gemeindeName
 xplan5:gemeindeName rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:string .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#genehmigungsDatum
 xplan5:genehmigungsDatum rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:range xplan5:date .
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#georefMime
 xplan5:georefMime rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain xplan5:XP_ExterneReferenz ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:XP_ExterneReferenz ;
                   rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                   rdfs:label "georefMimeType"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#georefURL
 xplan5:georefURL rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:anyURI .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:anyURI .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#geschossMax
 xplan5:geschossMax rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain [ rdf:type owl:Class ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_BauGrenze
                                                xplan5:BP_BauLinie
                                                xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -1939,8 +1795,7 @@ xplan5:geschossMax rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#geschossMin
 xplan5:geschossMin rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain [ rdf:type owl:Class ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_BauGrenze
                                                xplan5:BP_BauLinie
                                                xplan5:BP_UeberbaubareGrundstuecksFlaeche
@@ -1951,8 +1806,7 @@ xplan5:geschossMin rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gesetzlicheGrundlage
 xplan5:gesetzlicheGrundlage rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain [ rdf:type owl:Class ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain [ rdf:type owl:Class ;
                                           owl:unionOf ( xplan5:XP_Objekt
                                                         xplan5:XP_TextAbschnitt
                                                       )
@@ -1967,20 +1821,17 @@ xplan5:gesetzlicheGrundlage rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gewaesserTyp
 xplan5:gewaesserTyp rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:string .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gliederung1
 xplan5:gliederung1 rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:string .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gliederung2
 xplan5:gliederung2 rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:string .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gruenflaechenFaktor
@@ -1990,60 +1841,52 @@ xplan5:gruenflaechenFaktor rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#gruenordnungsplan
 xplan5:gruenordnungsplan rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:range xsd:boolean .
+                         rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#grund
 xplan5:grund rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain xplan5:BP_ErhaltungsBereichFlaeche ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:BP_ErhaltungsBereichFlaeche ;
              rdfs:range xplan5:BP_ErhaltungsGrund ;
              rdfs:label "grund"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#gueltigkeitsDatum
 xplan5:gueltigkeitsDatum rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:range xplan5:date .
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#h
 xplan5:h rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-         rdfs:domain xplan5:XP_Hoehenangabe ;
+         rdfs:subPropertyOf xplan5:XPlanung5Property ;         rdfs:domain xplan5:XP_Hoehenangabe ;
          rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
          rdfs:label "h"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#hMax
 xplan5:hMax rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain xplan5:XP_Hoehenangabe ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain xplan5:XP_Hoehenangabe ;
             rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
             rdfs:label "hMax"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#hMin
 xplan5:hMin rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain xplan5:XP_Hoehenangabe ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain xplan5:XP_Hoehenangabe ;
             rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
             rdfs:label "hMin"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#hZwingend
 xplan5:hZwingend rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:XP_Hoehenangabe ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:XP_Hoehenangabe ;
                  rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
                  rdfs:label "hZwingend"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#hat
 xplan5:hat rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-           rdfs:domain [ rdf:type owl:Class ;
+           rdfs:subPropertyOf xplan5:XPlanung5Property ;           rdfs:domain [ rdf:type owl:Class ;
                          owl:unionOf ( xplan5:XP_PPO
                                        xplan5:XP_TPO
                                      )
@@ -2054,8 +1897,7 @@ xplan5:hat rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#hatGenerAttribut
 xplan5:hatGenerAttribut rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:domain [ rdf:type owl:Class ;
+                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                        rdfs:domain [ rdf:type owl:Class ;
                                       owl:unionOf ( xplan5:XP_Objekt
                                                     xplan5:XP_Plan
                                                   )
@@ -2066,16 +1908,14 @@ xplan5:hatGenerAttribut rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#hoehenangabe
 xplan5:hoehenangabe rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:XP_Objekt ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:XP_Objekt ;
                     rdfs:range xplan5:XP_Hoehenangabe ;
                     rdfs:label "hoehenangabe"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#hoehenbezug
 xplan5:hoehenbezug rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:XP_Hoehenangabe ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:XP_Hoehenangabe ;
                    rdfs:range [ rdf:type owl:Class ;
                                 owl:unionOf ( xsd:string
                                               xplan5:XP_ArtHoehenbezug
@@ -2085,28 +1925,24 @@ xplan5:hoehenbezug rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#horizontaleAusrichtung
 xplan5:horizontaleAusrichtung rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:domain xplan5:XP_TPO ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain xplan5:XP_TPO ;
                               rdfs:range xplan5:XP_HorizontaleAusrichtung ;
                               rdfs:label "horizontaleAusrichtung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#imVerbund
 xplan5:imVerbund rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:boolean .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#index
 xplan5:index rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt .
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#informationssystemURL
 xplan5:informationssystemURL rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xsd:anyURI .
+                             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:anyURI .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#inkrafttretenDatum
@@ -2116,94 +1952,79 @@ xplan5:inkrafttretenDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#inkrafttretensDatum
 xplan5:inkrafttretensDatum rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xplan5:date .
+                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#internalId
 xplan5:internalId rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xsd:string .
+                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istAufschuettungAblagerung
 xplan5:istAufschuettungAblagerung rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                  rdfs:range xsd:boolean .
+                                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istAusgleich
 xplan5:istAusgleich rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:boolean .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istAusgleichsgebiet
 xplan5:istAusgleichsgebiet rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:boolean .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istKernzone
 xplan5:istKernzone rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:boolean .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istNatuerlichesUberschwemmungsgebiet
 xplan5:istNatuerlichesUberschwemmungsgebiet rdf:type owl:ObjectProperty ;
-                                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                            rdfs:range xsd:boolean .
+                                            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istSiedlungsbeschraenkung
 xplan5:istSiedlungsbeschraenkung rdf:type owl:ObjectProperty ;
-                                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                 rdfs:range xsd:boolean .
+                                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istVerdachtsflaeche
 xplan5:istVerdachtsflaeche rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:boolean .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#istZweckbindung
 xplan5:istZweckbindung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xsd:boolean .
+                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#kennziffer
 xplan5:kennziffer rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xsd:string .
+                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#klassifizMassnahme
 xplan5:klassifizMassnahme rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:domain xplan5:XP_SPEMassnahmenDaten ;
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:domain xplan5:XP_SPEMassnahmenDaten ;
                           rdfs:range xplan5:XP_SPEMassnahmenTypen ;
                           rdfs:label "klassifizMassnahme"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#kommentar
 xplan5:kommentar rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:string .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#konkretisierung
 xplan5:konkretisierung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xsd:string .
+                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#kronendurchmesser
 xplan5:kronendurchmesser rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain [ rdf:type owl:Class ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain [ rdf:type owl:Class ;
                                        owl:unionOf ( xplan5:BP_AnpflanzungBindungErhaltung
                                                      xplan5:LP_AnpflanzungBindungErhaltung
                                                    )
@@ -2214,42 +2035,36 @@ xplan5:kronendurchmesser rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#kuestenmeer
 xplan5:kuestenmeer rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:boolean .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#kurzbeschreibung
 xplan5:kurzbeschreibung rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:range xsd:string .
+                        rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#laermpegelbereich
 xplan5:laermpegelbereich rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain xplan5:BP_Immissionsschutz ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain xplan5:BP_Immissionsschutz ;
                          rdfs:range xplan5:BP_Laerrmpegelbereich ;
                          rdfs:label "laermpegelbereich"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#laermschutzzone
 xplan5:laermschutzzone rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain xplan5:SO_Luftverkehrsrecht ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain xplan5:SO_Luftverkehrsrecht ;
                        rdfs:range xplan5:SO_LaermschutzzoneTypen ;
                        rdfs:label "laermschutzzone"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#legendenBezeichnung
 xplan5:legendenBezeichnung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:string .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#massnahme
 xplan5:massnahme rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_AnpflanzungBindungErhaltung
                                              xplan5:BP_AusgleichsFlaeche
                                              xplan5:BP_AusgleichsMassnahme
@@ -2276,34 +2091,29 @@ xplan5:massnahme rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#massnahmeKuerzel
 xplan5:massnahmeKuerzel rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:range xsd:string .
+                        rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#massnahmeText
 xplan5:massnahmeText rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:range xsd:string .
+                     rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#mindesthoehe
 xplan5:mindesthoehe rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:LP_AnpflanzungBindungErhaltung ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:LP_AnpflanzungBindungErhaltung ;
                     rdfs:range <http://www.opengis.net/gml/3.2#Length> ;
                     rdfs:label "mindesthoehe"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#name
 xplan5:name rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:range xsd:string .
+            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#nordwinkel
 xplan5:nordwinkel rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain [ rdf:type owl:Class ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( xplan5:BP_Geometrieobjekt
                                               xplan5:BP_Punktobjekt
                                               xplan5:FP_Geometrieobjekt
@@ -2320,8 +2130,7 @@ xplan5:nordwinkel rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#nummer
 xplan5:nummer rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-              rdfs:domain [ rdf:type owl:Class ;
+              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( xplan5:XP_Bereich
                                           xplan5:XP_Plan
                                           xplan5:XP_VerbundenerPlan
@@ -2336,20 +2145,17 @@ xplan5:nummer rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#nutzung
 xplan5:nutzung rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:range xsd:string .
+               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#nutzungText
 xplan5:nutzungText rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:string .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#nutzungsform
 xplan5:nutzungsform rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain [ rdf:type owl:Class ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain [ rdf:type owl:Class ;
                                   owl:unionOf ( xplan5:BP_GruenFlaeche
                                                 xplan5:BP_StrassenVerkehrsFlaeche
                                                 xplan5:BP_VerkehrsflaecheBesondererZweckbestimmung
@@ -2363,28 +2169,24 @@ xplan5:nutzungsform rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#oeffentlichkeitsbeteiligungDatum
 xplan5:oeffentlichkeitsbeteiligungDatum rdf:type owl:ObjectProperty ;
-                                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                        rdfs:range xplan5:date .
+                                        rdfs:subPropertyOf xplan5:XPlanung5Property ;                                        rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ortsteilName
 xplan5:ortsteilName rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:string .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#pflanzart
 xplan5:pflanzart rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:LP_AnpflanzungBindungErhaltung ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:LP_AnpflanzungBindungErhaltung ;
                  rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                  rdfs:label "pflanzart"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#pflanztiefe
 xplan5:pflanztiefe rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain [ rdf:type owl:Class ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_AnpflanzungBindungErhaltung
                                                xplan5:LP_AnpflanzungBindungErhaltung
                                              )
@@ -2395,8 +2197,7 @@ xplan5:pflanztiefe rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#planArt
 xplan5:planArt rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:BP_Plan
                                            xplan5:FP_Plan
                                            xplan5:LP_Plan
@@ -2417,8 +2218,7 @@ xplan5:planArt rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#planName
 xplan5:planName rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xsd:string .
+                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planbeschlussDatum
@@ -2428,8 +2228,7 @@ xplan5:planbeschlussDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#plangeber
 xplan5:plangeber rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_Plan
                                              xplan5:FP_Plan
                                              xplan5:SO_Plan
@@ -2441,41 +2240,35 @@ xplan5:plangeber rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#planinhalt
 xplan5:planinhalt rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain xplan5:XP_Bereich ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:XP_Bereich ;
                   rdfs:range xplan5:XP_Objekt ;
                   rdfs:label "planinhalt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungsraumBeschreibung
 xplan5:planungsraumBeschreibung rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                rdfs:range xsd:string .
+                                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungsregion
 xplan5:planungsregion rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                      rdfs:domain xplan5:RP_Plan ;
+                      rdfs:subPropertyOf xplan5:XPlanung5Property ;                      rdfs:domain xplan5:RP_Plan ;
                       rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungstraeger
 xplan5:planungstraeger rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xsd:string .
+                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#planungstraegerGKZ
 xplan5:planungstraegerGKZ rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:range xsd:string .
+                          rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#position
 xplan5:position rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_Flaechenobjekt
                                             xplan5:BP_Geometrieobjekt
                                             xplan5:BP_Linienobjekt
@@ -2506,46 +2299,40 @@ xplan5:position rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#praesentationsobjekt
 xplan5:praesentationsobjekt rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain xplan5:XP_Bereich ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain xplan5:XP_Bereich ;
                             rdfs:range xplan5:XP_AbstraktesPraesentationsobjekt ;
                             rdfs:label "praesentationsobjekt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#primaerenergieTyp
 xplan5:primaerenergieTyp rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain xplan5:RP_Energieversorgung ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain xplan5:RP_Energieversorgung ;
                          rdfs:range xplan5:RP_PrimaerenergieTypen ;
                          rdfs:label "primaerenergieTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#raeumlicherGeltungsbereich
 xplan5:raeumlicherGeltungsbereich rdf:type owl:ObjectProperty ;
-                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                  rdfs:domain xplan5:XP_Plan ;
+                                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                                  rdfs:domain xplan5:XP_Plan ;
                                   rdfs:range <http://www.opengis.net/gml/3.2#Geometry> ;
                                   rdfs:label "raeumlicherGeltungsbereich"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rasterBasis
 xplan5:rasterBasis rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:XP_Bereich ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:XP_Bereich ;
                    rdfs:range xplan5:XP_Rasterdarstellung ;
                    rdfs:label "rasterBasis"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rechtlicheAussenwirkung
 xplan5:rechtlicheAussenwirkung rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                               rdfs:range xsd:boolean .
+                               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rechtscharakter
 xplan5:rechtscharakter rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain [ rdf:type owl:Class ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain [ rdf:type owl:Class ;
                                      owl:unionOf ( xplan5:BP_Objekt
                                                    xplan5:BP_TextAbschnitt
                                                    xplan5:FP_Objekt
@@ -2573,8 +2360,7 @@ xplan5:rechtscharakter rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#rechtsstand
 xplan5:rechtsstand rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain [ rdf:type owl:Class ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( xplan5:BP_Plan
                                                xplan5:FP_Plan
                                                xplan5:LP_Plan
@@ -2595,38 +2381,33 @@ xplan5:rechtsstand rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#rechtsstandGebiet
 xplan5:rechtsstandGebiet rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain xplan5:SO_Gebiet ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain xplan5:SO_Gebiet ;
                          rdfs:range xplan5:SO_RechtsstandGebietTyp ;
                          rdfs:label "rechtsstandGebiet"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rechtsverordnungsDatum
 xplan5:rechtsverordnungsDatum rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:range xplan5:date .
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#refBegruendungInhalt
 xplan5:refBegruendungInhalt rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain xplan5:XP_Objekt ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain xplan5:XP_Objekt ;
                             rdfs:range xplan5:XP_BegruendungAbschnitt ;
                             rdfs:label "refBegruendungInhalt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#refBeschluss
 xplan5:refBeschluss rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:BP_Veraenderungssperre ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:BP_Veraenderungssperre ;
                     rdfs:range xplan5:XP_ExterneReferenz ;
                     rdfs:label "refBeschluss"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#refGebaeudequerschnitt
 xplan5:refGebaeudequerschnitt rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:domain [ rdf:type owl:Class ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain [ rdf:type owl:Class ;
                                             owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                           xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                                         )
@@ -2637,8 +2418,7 @@ xplan5:refGebaeudequerschnitt rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#refLandschaftsplan
 xplan5:refLandschaftsplan rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:domain [ rdf:type owl:Class ;
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:domain [ rdf:type owl:Class ;
                                         owl:unionOf ( xplan5:BP_AusgleichsFlaeche
                                                       xplan5:BP_AusgleichsMassnahme
                                                       xplan5:BP_SchutzPflegeEntwicklungsFlaeche
@@ -2652,16 +2432,14 @@ xplan5:refLandschaftsplan rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#refLegende
 xplan5:refLegende rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain xplan5:XP_Rasterdarstellung ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:XP_Rasterdarstellung ;
                   rdfs:range xplan5:XP_ExterneReferenz ;
                   rdfs:label "refLegende"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#refMassnahmenText
 xplan5:refMassnahmenText rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain [ rdf:type owl:Class ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain [ rdf:type owl:Class ;
                                        owl:unionOf ( xplan5:BP_AusgleichsFlaeche
                                                      xplan5:BP_AusgleichsMassnahme
                                                      xplan5:BP_SchutzPflegeEntwicklungsFlaeche
@@ -2675,16 +2453,14 @@ xplan5:refMassnahmenText rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#refScan
 xplan5:refScan rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain xplan5:XP_Rasterdarstellung ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain xplan5:XP_Rasterdarstellung ;
                rdfs:range xplan5:XP_ExterneReferenz ;
                rdfs:label "refScan"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#refText
 xplan5:refText rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:subPropertyOf xplan5:XPlanung5Property ;               rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( xplan5:XP_BegruendungAbschnitt
                                            xplan5:XP_Rasterdarstellung
                                            xplan5:XP_TextAbschnitt
@@ -2696,8 +2472,7 @@ xplan5:refText rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#refTextInhalt
 xplan5:refTextInhalt rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain [ rdf:type owl:Class ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain [ rdf:type owl:Class ;
                                    owl:unionOf ( xplan5:BP_Objekt
                                                  xplan5:FP_Objekt
                                                  xplan5:LP_Objekt
@@ -2718,132 +2493,113 @@ xplan5:refTextInhalt rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#referenzMime
 xplan5:referenzMime rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:XP_ExterneReferenz ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:XP_ExterneReferenz ;
                     rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                     rdfs:label "referenzMimeType"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#referenzName
 xplan5:referenzName rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:string .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#referenzURL
 xplan5:referenzURL rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xsd:anyURI .
+                   rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:anyURI .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#reflegendenBild
 xplan5:reflegendenBild rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain xplan5:RP_Legendenobjekt ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain xplan5:RP_Legendenobjekt ;
                        rdfs:range xplan5:XP_ExterneReferenz ;
                        rdfs:label "reflegendenBild"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#regelung
 xplan5:regelung rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain xplan5:LP_NutzungserfordernisRegelung ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain xplan5:LP_NutzungserfordernisRegelung ;
                 rdfs:range xplan5:LP_Regelungen ;
                 rdfs:label "regelung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#richtung
 xplan5:richtung rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain xplan5:BP_EinfahrtPunkt ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain xplan5:BP_EinfahrtPunkt ;
                 rdfs:range <http://www.opengis.net/gml/3.2#Angle> ;
                 rdfs:label "richtung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rohstoffTyp
 xplan5:rohstoffTyp rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:RP_Rohstoff ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:RP_Rohstoff ;
                    rdfs:range xplan5:RP_RohstoffTypen ;
                    rdfs:label "rohstoffTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#rs
 xplan5:rs rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-          rdfs:range xsd:string .
+          rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sachgebiet
 xplan5:sachgebiet rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xsd:string .
+                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#satzungsbeschlussDatum
 xplan5:satzungsbeschlussDatum rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:range xplan5:date .
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#schluessel
 xplan5:schluessel rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xsd:string .
+                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#schriftinhalt
 xplan5:schriftinhalt rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:range xsd:string .
+                     rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#signatur
 xplan5:signatur rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xsd:string .
+                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#signiert
 xplan5:signiert rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xsd:boolean .
+                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#skalierung
 xplan5:skalierung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xplan5:double .
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:range xplan5:double .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonderNutzung
 xplan5:sonderNutzung rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:FP_BebauungsFlaeche ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:FP_BebauungsFlaeche ;
                      rdfs:range xplan5:XP_Sondernutzungen ;
                      rdfs:label "sonderNutzung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sondernutzung
 xplan5:sondernutzung rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:BP_BaugebietsTeilFlaeche ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:BP_BaugebietsTeilFlaeche ;
                      rdfs:range xplan5:XP_Sondernutzungen ;
                      rdfs:label "sondernutzung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstGebietsArt
 xplan5:sonstGebietsArt rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain xplan5:SO_Gebiet ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain xplan5:SO_Gebiet ;
                        rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                        rdfs:label "sonstGebietsArt"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstPlanArt
 xplan5:sonstPlanArt rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain [ rdf:type owl:Class ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain [ rdf:type owl:Class ;
                                   owl:unionOf ( xplan5:BP_Plan
                                                 xplan5:FP_Plan
                                                 xplan5:LP_Plan
@@ -2856,24 +2612,21 @@ xplan5:sonstPlanArt rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstRechtscharakter
 xplan5:sonstRechtscharakter rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain xplan5:SO_Objekt ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain xplan5:SO_Objekt ;
                             rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                             rdfs:label "sonstRechtscharakter"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstRechtsstandGebiet
 xplan5:sonstRechtsstandGebiet rdf:type owl:ObjectProperty ;
-                              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                              rdfs:domain xplan5:SO_Gebiet ;
+                              rdfs:subPropertyOf xplan5:XPlanung5Property ;                              rdfs:domain xplan5:SO_Gebiet ;
                               rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                               rdfs:label "sonstRechtsstandGebiet"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstTyp
 xplan5:sonstTyp rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain [ rdf:type owl:Class ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( xplan5:BP_SpezielleBauweise
                                             xplan5:LP_SchutzobjektInternatRecht
                                             xplan5:RP_Grenze
@@ -2886,81 +2639,70 @@ xplan5:sonstTyp rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstVerfahrensDatum
 xplan5:sonstVerfahrensDatum rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:range xplan5:date .
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstZiel
 xplan5:sonstZiel rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:string .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#sonstigerTyp
 xplan5:sonstigerTyp rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:RP_ZentralerOrt ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:RP_ZentralerOrt ;
                     rdfs:range xplan5:RP_ZentralerOrtSonstigeTypen ;
                     rdfs:label "sonstigerTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#spaltenAnz
 xplan5:spaltenAnz rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:domain xplan5:XP_Nutzungsschablone ;
+                  rdfs:subPropertyOf xplan5:XPlanung5Property ;                  rdfs:domain xplan5:XP_Nutzungsschablone ;
                   rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#spannung
 xplan5:spannung rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:domain xplan5:RP_Energieversorgung ;
+                rdfs:subPropertyOf xplan5:XPlanung5Property ;                rdfs:domain xplan5:RP_Energieversorgung ;
                 rdfs:range xplan5:RP_SpannungTypen ;
                 rdfs:label "spannung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#spezifischePraegung
 xplan5:spezifischePraegung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:domain xplan5:FP_Objekt ;
+                           rdfs:subPropertyOf xplan5:XPlanung5Property ;                           rdfs:domain xplan5:FP_Objekt ;
                            rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                            rdfs:label "spezifischePraegung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#spezifischerTyp
 xplan5:spezifischerTyp rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain xplan5:RP_Grenze ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain xplan5:RP_Grenze ;
                        rdfs:range xplan5:RP_SpezifischeGrenzeTypen ;
                        rdfs:label "spezifischerTyp"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#staedtebaulicherVertrag
 xplan5:staedtebaulicherVertrag rdf:type owl:ObjectProperty ;
-                               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                               rdfs:range xsd:boolean .
+                               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#startBedingung
 xplan5:startBedingung rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                      rdfs:domain xplan5:XP_Objekt ;
+                      rdfs:subPropertyOf xplan5:XPlanung5Property ;                      rdfs:domain xplan5:XP_Objekt ;
                       rdfs:range xplan5:XP_WirksamkeitBedingung ;
                       rdfs:label "startBedingung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#startWinkel
 xplan5:startWinkel rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:BP_AbstandsMass ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:BP_AbstandsMass ;
                    rdfs:range <http://www.opengis.net/gml/3.2#Angle> ;
                    rdfs:label "startWinkel"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#status
 xplan5:status rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf xplan5:XPlanung5Property ;
-              rdfs:domain [ rdf:type owl:Class ;
+              rdfs:subPropertyOf xplan5:XPlanung5Property ;              rdfs:domain [ rdf:type owl:Class ;
                             owl:unionOf ( xplan5:BP_Plan
                                           xplan5:FP_Plan
                                           xplan5:RP_Plan
@@ -2977,67 +2719,57 @@ xplan5:status rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#stylesheetId
 xplan5:stylesheetId rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:XP_AbstraktesPraesentationsobjekt ;
                     rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
                     rdfs:label "stylesheetId"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#tOeBbeteiligungsDatum
 xplan5:tOeBbeteiligungsDatum rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                             rdfs:range xplan5:date .
+                             rdfs:subPropertyOf xplan5:XPlanung5Property ;                             rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#technHerstellDatum
 xplan5:technHerstellDatum rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:range xplan5:date .
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#technischeMassnahme
 xplan5:technischeMassnahme rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:string .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#teilabschnitt
 xplan5:teilabschnitt rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:RP_Plan ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:RP_Plan ;
                      rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#text
 xplan5:text rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:range xsd:string .
+            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#texte
 xplan5:texte rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain xplan5:XP_Plan ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:XP_Plan ;
              rdfs:range xplan5:XP_TextAbschnitt ;
              rdfs:label "texte"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#textlicheErgaenzung
 xplan5:textlicheErgaenzung rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:string .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#thema
 xplan5:thema rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:range xsd:string .
+             rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#tiefe
 xplan5:tiefe rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain [ rdf:type owl:Class ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( xplan5:BP_AbstandsFlaeche
                                          xplan5:RP_Rohstoff
                                        )
@@ -3052,26 +2784,22 @@ xplan5:tiefe rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#traegerMassnahme
 xplan5:traegerMassnahme rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:range xsd:string .
+                        rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#traegerbeteiligungsEndDatum
 xplan5:traegerbeteiligungsEndDatum rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                   rdfs:range xplan5:date .
+                                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                                   rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#traegerbeteiligungsStartDatum
 xplan5:traegerbeteiligungsStartDatum rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                     rdfs:range xplan5:date .
+                                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                                     rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#typ
 xplan5:typ rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-           rdfs:domain [ rdf:type owl:Class ;
+           rdfs:subPropertyOf xplan5:XPlanung5Property ;           rdfs:domain [ rdf:type owl:Class ;
                          owl:unionOf ( xplan5:BP_BereichOhneEinAusfahrtLinie
                                        xplan5:BP_EinfahrtPunkt
                                        xplan5:BP_EinfahrtsbereichLinie
@@ -3179,72 +2907,62 @@ xplan5:typ rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#typAE
 xplan5:typAE rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain xplan5:RP_Entsorgung ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:RP_Entsorgung ;
              rdfs:range xplan5:RP_AbfallentsorgungTypen ;
              rdfs:label "typAE"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#typAW
 xplan5:typAW rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf xplan5:XPlanung5Property ;
-             rdfs:domain xplan5:RP_Entsorgung ;
+             rdfs:subPropertyOf xplan5:XPlanung5Property ;             rdfs:domain xplan5:RP_Entsorgung ;
              rdfs:range xplan5:RP_AbwasserTypen ;
              rdfs:label "typAW"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#typErholung
 xplan5:typErholung rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:domain xplan5:RP_Erholung ;
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:domain xplan5:RP_Erholung ;
                    rdfs:range xplan5:RP_ErholungTypen ;
                    rdfs:label "typErholung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#typTourismus
 xplan5:typTourismus rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:domain xplan5:RP_Erholung ;
+                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                    rdfs:domain xplan5:RP_Erholung ;
                     rdfs:range xplan5:RP_TourismusTypen ;
                     rdfs:label "typTourismus"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#untergangsDatum
 xplan5:untergangsDatum rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xplan5:date .
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#uuid
 xplan5:uuid rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:range xsd:string .
+            rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#veraenderungssperre
 xplan5:veraenderungssperre rdf:type owl:ObjectProperty ;
-                           rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                           rdfs:range xsd:boolean .
+                           rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#veraenderungssperreDatum
 xplan5:veraenderungssperreDatum rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                rdfs:range xplan5:date .
+                                rdfs:subPropertyOf xplan5:XPlanung5Property ;                                rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#verbundenerPlan
 xplan5:verbundenerPlan rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain xplan5:XP_VerbundenerPlan ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain xplan5:XP_VerbundenerPlan ;
                        rdfs:range xplan5:XP_Plan ;
                        rdfs:label "verbundenerPlan"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#verfahren
 xplan5:verfahren rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain [ rdf:type owl:Class ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain [ rdf:type owl:Class ;
                                owl:unionOf ( xplan5:BP_Plan
                                              xplan5:FP_Plan
                                              xplan5:RP_Plan
@@ -3261,36 +2979,31 @@ xplan5:verfahren rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#verfahrensMerkmale
 xplan5:verfahrensMerkmale rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:domain xplan5:XP_Plan ;
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:domain xplan5:XP_Plan ;
                           rdfs:range xplan5:XP_VerfahrensMerkmal ;
                           rdfs:label "verfahrensMerkmale"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#verlaengerung
 xplan5:verlaengerung rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:BP_Veraenderungssperre ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:BP_Veraenderungssperre ;
                      rdfs:range xplan5:XP_VerlaengerungVeraenderungssperre ;
                      rdfs:label "verlaengerung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vermerk
 xplan5:vermerk rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf xplan5:XPlanung5Property ;
-               rdfs:range xsd:string .
+               rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBROG
 xplan5:versionBROG rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                   rdfs:range xplan5:date .
+                   rdfs:subPropertyOf xplan5:XPlanung5Property ;                   rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBROGText
 xplan5:versionBROGText rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xsd:string .
+                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauGBDatum
@@ -3300,20 +3013,17 @@ xplan5:versionBauGBDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauGBText
 xplan5:versionBauGBText rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                        rdfs:range xsd:string .
+                        rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauNVODatum
 xplan5:versionBauNVODatum rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                          rdfs:range xplan5:date .
+                          rdfs:subPropertyOf xplan5:XPlanung5Property ;                          rdfs:range xplan5:date .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionBauNVOText
 xplan5:versionBauNVOText rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:range xsd:string .
+                         rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionLPLG
@@ -3323,8 +3033,7 @@ xplan5:versionLPLG rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#versionLPLGText
 xplan5:versionLPLGText rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:range xsd:string .
+                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#versionSonstRechtsgrundlageDatum
@@ -3334,58 +3043,49 @@ xplan5:versionSonstRechtsgrundlageDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#versionSonstRechtsgrundlageText
 xplan5:versionSonstRechtsgrundlageText rdf:type owl:ObjectProperty ;
-                                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                       rdfs:range xsd:string .
+                                       rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vertiefung
 xplan5:vertiefung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xsd:string .
+                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vertikaleAusrichtung
 xplan5:vertikaleAusrichtung rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain xplan5:XP_TPO ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain xplan5:XP_TPO ;
                             rdfs:range xplan5:XP_VertikaleAusrichtung ;
                             rdfs:label "vertikaleAusrichtung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vertikaleDifferenzierung
 xplan5:vertikaleDifferenzierung rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                rdfs:range xsd:boolean .
+                                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vorbehalt
 xplan5:vorbehalt rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:range xsd:string .
+                 rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vorhaben
 xplan5:vorhaben rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                rdfs:range xsd:string .
+                rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#vormerkung
 xplan5:vormerkung rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                  rdfs:range xsd:string .
+                  rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#weltkulturerbe
 xplan5:weltkulturerbe rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                      rdfs:range xsd:boolean .
+                      rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:boolean .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#wert
 xplan5:wert rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain xplan5:BP_AbstandsMass ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain xplan5:BP_AbstandsMass ;
             rdfs:range [ rdf:type owl:Class ;
                          owl:unionOf ( <http://www.opengis.net/gml/3.2#Length>
                                        xsd:anyURI
@@ -3399,16 +3099,14 @@ xplan5:wert rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdAusgeglichenDurchABE
 xplan5:wirdAusgeglichenDurchABE rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                rdfs:domain xplan5:BP_Objekt ;
+                                rdfs:subPropertyOf xplan5:XPlanung5Property ;                                rdfs:domain xplan5:BP_Objekt ;
                                 rdfs:range xplan5:BP_AnpflanzungBindungErhaltung ;
                                 rdfs:label "wirdAusgeglichenDurchABE"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdAusgeglichenDurchFlaeche
 xplan5:wirdAusgeglichenDurchFlaeche rdf:type owl:ObjectProperty ;
-                                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                    rdfs:domain [ rdf:type owl:Class ;
+                                    rdfs:subPropertyOf xplan5:XPlanung5Property ;                                    rdfs:domain [ rdf:type owl:Class ;
                                                   owl:unionOf ( xplan5:BP_Objekt
                                                                 xplan5:FP_Objekt
                                                               )
@@ -3423,40 +3121,35 @@ xplan5:wirdAusgeglichenDurchFlaeche rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdAusgeglichenDurchMassnahme
 xplan5:wirdAusgeglichenDurchMassnahme rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                      rdfs:domain xplan5:BP_Objekt ;
+                                      rdfs:subPropertyOf xplan5:XPlanung5Property ;                                      rdfs:domain xplan5:BP_Objekt ;
                                       rdfs:range xplan5:BP_AusgleichsMassnahme ;
                                       rdfs:label "wirdAusgeglichenDurchMassnahme"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdAusgeglichenDurchSPE
 xplan5:wirdAusgeglichenDurchSPE rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                rdfs:domain xplan5:FP_Objekt ;
+                                rdfs:subPropertyOf xplan5:XPlanung5Property ;                                rdfs:domain xplan5:FP_Objekt ;
                                 rdfs:range xplan5:FP_SchutzPflegeEntwicklung ;
                                 rdfs:label "wirdAusgeglichenDurchSPE"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdAusgeglichenDurchSPEFlaeche
 xplan5:wirdAusgeglichenDurchSPEFlaeche rdf:type owl:ObjectProperty ;
-                                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                       rdfs:domain xplan5:BP_Objekt ;
+                                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                                       rdfs:domain xplan5:BP_Objekt ;
                                        rdfs:range xplan5:BP_SchutzPflegeEntwicklungsFlaeche ;
                                        rdfs:label "wirdAusgeglichenDurchSPEFlaeche"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdAusgeglichenDurchSPEMassnahme
 xplan5:wirdAusgeglichenDurchSPEMassnahme rdf:type owl:ObjectProperty ;
-                                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                                         rdfs:domain xplan5:BP_Objekt ;
+                                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                                         rdfs:domain xplan5:BP_Objekt ;
                                          rdfs:range xplan5:BP_SchutzPflegeEntwicklungsMassnahme ;
                                          rdfs:label "wirdAusgeglichenDurchSPEMassnahme"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#wirdDargestelltDurch
 xplan5:wirdDargestelltDurch rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain xplan5:XP_Objekt ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain xplan5:XP_Objekt ;
                             rdfs:range xplan5:XP_AbstraktesPraesentationsobjekt ;
                             rdfs:label "wirdDargestelltDurch"@de .
 
@@ -3468,8 +3161,7 @@ xplan5:wirksamkeitsDatum rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#wohnnutzungEGStrasse
 xplan5:wohnnutzungEGStrasse rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                            rdfs:domain [ rdf:type owl:Class ;
+                            rdfs:subPropertyOf xplan5:XPlanung5Property ;                            rdfs:domain [ rdf:type owl:Class ;
                                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
                                                         xplan5:BP_UeberbaubareGrundstuecksFlaeche
                                                       )
@@ -3480,37 +3172,32 @@ xplan5:wohnnutzungEGStrasse rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#wurdeGeaendertVon
 xplan5:wurdeGeaendertVon rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                         rdfs:domain xplan5:XP_Plan ;
+                         rdfs:subPropertyOf xplan5:XPlanung5Property ;                         rdfs:domain xplan5:XP_Plan ;
                          rdfs:range xplan5:XP_VerbundenerPlan ;
                          rdfs:label "wurdeGeaendertVon"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zeilenAnz
 xplan5:zeilenAnz rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:XP_Nutzungsschablone ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:XP_Nutzungsschablone ;
                  rdfs:range xplan5:int .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zeitstufe
 xplan5:zeitstufe rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:RP_Rohstoff ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:RP_Rohstoff ;
                  rdfs:range xplan5:RP_Zeitstufen ;
                  rdfs:label "zeitstufe"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zeitstufeText
 xplan5:zeitstufeText rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:range xsd:string .
+                     rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#ziel
 xplan5:ziel rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_AusgleichsFlaeche
                                         xplan5:BP_AusgleichsMassnahme
                                         xplan5:BP_SchutzPflegeEntwicklungsFlaeche
@@ -3529,8 +3216,7 @@ xplan5:ziel rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#zone
 xplan5:zone rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf xplan5:XPlanung5Property ;
-            rdfs:domain [ rdf:type owl:Class ;
+            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:RP_Wasserschutz
                                         xplan5:SO_SchutzgebietNaturschutzrecht
                                         xplan5:SO_SchutzgebietWasserrecht
@@ -3547,30 +3233,26 @@ xplan5:zone rdf:type owl:ObjectProperty ;
 
 ###  http://www.xplanung.de/xplangml/5/0#zugunstenVon
 xplan5:zugunstenVon rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                    rdfs:range xsd:string .
+                    rdfs:subPropertyOf xplan5:XPlanung5DataProperty ; rdfs:range xsd:string .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zulaessigkeit
 xplan5:zulaessigkeit rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                     rdfs:domain xplan5:BP_RegelungVergnuegungsstaetten ;
+                     rdfs:subPropertyOf xplan5:XPlanung5Property ;                     rdfs:domain xplan5:BP_RegelungVergnuegungsstaetten ;
                      rdfs:range xplan5:BP_Zulaessigkeit ;
                      rdfs:label "zulaessigkeit"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zuordnung
 xplan5:zuordnung rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                 rdfs:domain xplan5:BP_GemeinschaftsanlagenZuordnung ;
+                 rdfs:subPropertyOf xplan5:XPlanung5Property ;                 rdfs:domain xplan5:BP_GemeinschaftsanlagenZuordnung ;
                  rdfs:range xplan5:BP_GemeinschaftsanlagenFlaeche ;
                  rdfs:label "zuordnung"@de .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#zweckbestimmung
 xplan5:zweckbestimmung rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf xplan5:XPlanung5Property ;
-                       rdfs:domain [ rdf:type owl:Class ;
+                       rdfs:subPropertyOf xplan5:XPlanung5Property ;                       rdfs:domain [ rdf:type owl:Class ;
                                      owl:unionOf ( xplan5:FP_Gemeinbedarf
                                                    xplan5:FP_GenerischesObjekt
                                                    xplan5:FP_Gewaesser
@@ -3659,10 +3341,6 @@ xplan5:GRZmin rdf:type owl:DatatypeProperty ;
 ###  http://www.xplanung.de/xplangml/5/0#MaxZahlWohnungen
 xplan5:MaxZahlWohnungen rdf:type owl:DatatypeProperty ;
                         rdfs:range xplan5:int .
-
-
-###  http://www.xplanung.de/xplangml/5/0#XPlanung5
-xplan5:XPlanung5 rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#Z
