@@ -95,11 +95,6 @@ xplan5:zweckbestimmung rdf:type owl:AnnotationProperty .
 ###  http://www.xplanung.de/xplangml/5/0#date
 xsd:date rdf:type rdfs:Datatype .
 
-
-###  http://www.xplanung.de/xplangml/5/0#double
-xplan5:double rdf:type rdfs:Datatype .
-
-
 ###  http://www.xplanung.de/xplangml/5/0#duration
 xplan5:duration rdf:type rdfs:Datatype .
 
@@ -160,25 +155,6 @@ xplan5:BM_Ausn rdf:type owl:ObjectProperty ;               rdfs:subPropertyOf xp
                            ] ;
                rdfs:range <http://www.opengis.net/gml/3.2#Volume> ;
                rdfs:label "BM_Ausn"@de .
-
-
-###  http://www.xplanung.de/xplangml/5/0#BP_FestsetzungNachLandesrecht
-xplan5:BP_FestsetzungNachLandesrecht rdf:type owl:ObjectProperty ;                                     rdfs:subPropertyOf xplan5:BP_Geometrieobjekt ,
-                                                        xplan5:XPlanung5Property .
-
-
-###  http://www.xplanung.de/xplangml/5/0#BP_Geometrieobjekt
-xplan5:BP_Geometrieobjekt rdf:type owl:ObjectProperty .
-
-
-###  http://www.xplanung.de/xplangml/5/0#BP_TechnischeMassnahmenFlaeche
-xplan5:BP_TechnischeMassnahmenFlaeche rdf:type owl:ObjectProperty ;                                      rdfs:subPropertyOf xplan5:BP_Ueberlagerungsobjekt ,
-                                                         xplan5:XPlanung5Property .
-
-
-###  http://www.xplanung.de/xplangml/5/0#BP_Ueberlagerungsobjekt
-xplan5:BP_Ueberlagerungsobjekt rdf:type owl:ObjectProperty .
-
 
 ###  http://www.xplanung.de/xplangml/5/0#Bmax
 xplan5:Bmax rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
@@ -527,21 +503,6 @@ xplan5:MaxZahlWohnungen rdf:type owl:ObjectProperty ;                        rdf
                                                   )
                                     ] .
 
-
-###  http://www.xplanung.de/xplangml/5/0#RP_Freiraum
-xplan5:RP_Freiraum rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xplan5:RP_Geometrieobjekt ,
-                                      xplan5:XPlanung5Property .
-
-
-###  http://www.xplanung.de/xplangml/5/0#RP_Geometrieobjekt
-xplan5:RP_Geometrieobjekt rdf:type owl:ObjectProperty .
-
-
-###  http://www.xplanung.de/xplangml/5/0#RP_Legendenobjekt
-xplan5:RP_Legendenobjekt rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf <http://www.opengis.net/gml/3.2#AbstractFeature> ,
-                                            xplan5:XPlanung5Property .
-
-
 ###  http://www.xplanung.de/xplangml/5/0#Tmax
 xplan5:Tmax rdf:type owl:ObjectProperty ;            rdfs:subPropertyOf xplan5:XPlanung5Property ;            rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( xplan5:BP_BaugebietsTeilFlaeche
@@ -586,14 +547,6 @@ xplan5:XP_DatumAttribut rdf:type owl:ObjectProperty ;                        rdf
 ###  http://www.xplanung.de/xplangml/5/0#XP_DoubleAttribut
 xplan5:XP_DoubleAttribut rdf:type owl:ObjectProperty ;                         rdfs:subPropertyOf xplan5:XP_GenerAttribut ,
                                             xplan5:XPlanung5Property .
-
-
-###  http://www.xplanung.de/xplangml/5/0#XP_ExterneReferenz
-xplan5:XP_ExterneReferenz rdf:type owl:ObjectProperty ;                          rdfs:subPropertyOf xplan5:XPlanung5Property .
-
-
-###  http://www.xplanung.de/xplangml/5/0#XP_Gemeinde
-xplan5:XP_Gemeinde rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf xplan5:XPlanung5Property .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_GenerAttribut
@@ -642,11 +595,6 @@ xplan5:XP_VerfahrensMerkmal rdf:type owl:ObjectProperty ;                       
 
 ###  http://www.xplanung.de/xplangml/5/0#XP_WirksamkeitBedingung
 xplan5:XP_WirksamkeitBedingung rdf:type owl:ObjectProperty ;                               rdfs:subPropertyOf xplan5:XPlanung5Property .
-
-
-###  http://www.xplanung.de/xplangml/5/0#XPlanAuszug
-xplan5:XPlanAuszug rdf:type owl:ObjectProperty ;                   rdfs:subPropertyOf <http://www.opengis.net/gml/3.2#AbstractFeatureCollection> ,
-                                      xplan5:XPlanung5Property .
 
 
 ###  http://www.xplanung.de/xplangml/5/0#XPlanung5Property
