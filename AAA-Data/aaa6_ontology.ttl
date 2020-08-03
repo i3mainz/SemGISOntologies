@@ -10249,7 +10249,7 @@ aaa6:AA_ZUSO rdf:type owl:Class ; rdfs:label "AA_ZUSO"@de ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AD_GitterCoverage
-aaa6:AD_GitterCoverage rdf:type owl:Class ;
+aaa6:AD_GitterCoverage rdf:type owl:Class ; rdfs:label "AD_GitterCoverage"@de ;
                        rdfs:subClassOf aaa6:AAA6Root ,
                                        gml:AbstractDiscreteCoverage ,
                                        gml:DiscreteCoverage ,
@@ -10304,7 +10304,7 @@ aaa6:AD_GitterCoverage rdf:type owl:Class ;
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AD_PunktCoverage
-aaa6:AD_PunktCoverage rdf:type owl:Class ;
+aaa6:AD_PunktCoverage rdf:type owl:Class ; rdfs:label "AD_PunktCoverage"@de ;
                       rdfs:subClassOf aaa6:AAA6Root ,
                                       gml:AbstractDiscreteCoverage ,
                                       gml:DiscreteCoverage ,
@@ -17645,7 +17645,7 @@ aaa6:AX_HeilquelleGasquelle rdf:type owl:Class ; rdfs:label "AX_HeilquelleGasque
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HistorischesBauwerk
-aaa6:AX_HistorischesBauwerk rdf:type owl:Class .
+aaa6:AX_HistorischesBauwerk rdf:type owl:Class ; rdfs:label "AX_HistorischesBauwerk"@de .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HistorischesBauwerkOderHistorischeEinrichtung
@@ -25208,26 +25208,6 @@ geosparql:Union rdf:type owl:Class ;
 
 ###  http://www.opengis.net/ows#Identification
 <http://www.opengis.net/ows#Identification> rdf:type owl:Class .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#subClassOf
-rdfs:subClassOf rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchema#double
-xsd:double rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchema#string
-xsd:string rdf:type owl:Class .
-
-
-###  http://www.w3.org/2002/07/owl#unionOf
-owl:unionOf rdf:type owl:Class .
-
-
-###  http://www.w3.org/2004/02/skos/core#definition
-skos:definition rdf:type owl:Class .
 
 
 

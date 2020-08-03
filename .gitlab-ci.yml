@@ -38,7 +38,7 @@ pages:
   #- rm html/xplanplu/doc/*.xml
   #- rm html/xplanplu/doc/*.json
   - mkdir html/aaa
-  - java -jar widoco.jar -ontFile ../AAA-Data/aaa6.ttl -outFolder html/aaa/ -webVowl -uniteSections -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
+  - java -jar widoco.jar -ontFile ../AAA-Data/aaa6_ontology.ttl -outFolder html/aaa/ -webVowl -uniteSections -doNotDisplaySerializations -rewriteAll -confFile config/aaa.properties
   - rm html/aaa/doc/*.nt
   - rm html/aaa/doc/*.xml
   - rm html/aaa/doc/*.json
