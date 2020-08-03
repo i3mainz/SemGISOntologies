@@ -24869,23 +24869,6 @@ aaa6:anforderungsmerkmale rdf:type owl:Class ;
                           rdfs:subClassOf aaa6:AAA6Root ,
                                           gml:AbstractMember .
 
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#anyURI
-aaa6:anyURI rdf:type owl:Class .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#boolean
-xsd:boolean rdf:type owl:Class .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#date
-xsd:date rdf:type owl:Class .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#dateTime
-xsd:dateTime rdf:type owl:Class .
-
-
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#enthaelt
 aaa6:enthaelt rdf:type owl:Class ;
               rdfs:subClassOf aaa6:AAA6Root ,
@@ -24926,10 +24909,6 @@ aaa6:herkunft rdf:type owl:Class ;
 aaa6:hoehengenauigkeit rdf:type owl:Class ;
                        rdfs:subClassOf aaa6:AAA6Root ,
                                        gml:AbstractMetadataProperty .
-
-
-###  http://www.adv-online.de/namespaces/adv/gid/6.0#integer
-xsd:integer rdf:type owl:Class .
 
 
 ###  http://www.adv-online.de/namespaces/adv/gid/6.0#inversZu_enthaelt
