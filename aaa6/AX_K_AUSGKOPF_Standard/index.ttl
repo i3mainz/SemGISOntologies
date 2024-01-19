@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:AX_K_AUSGKOPF_Standard a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_K_AUSGKOPF_Standard"@de ;
+    ns1:kennung "AKS"@de ;
+    rdfs:range ns1:AX_K_AUSGKOPF_Standard ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AAA6,
+        <http://www.opengis.net/gml/3.2#AbstractObject> ;
+    rdfs:subPropertyOf ns1:AAA6,
+        <http://www.opengis.net/gml/3.2#AbstractObject> ;
+    skos:definition "Der komplexe Datentyp 'AX_K_AUSGKOPF_Standard' enthält Angaben, die in den Kopfzeilen von Standardausgaben benötigt werden."@de .
+

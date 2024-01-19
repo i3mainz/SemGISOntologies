@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#inversZu_dientZurDarstellungVon_AP_FPO> a owl:ObjectProperty ;
+    rdfs:label "inversZu_dientZurDarstellungVon_AP_FPO"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt> ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Reference> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

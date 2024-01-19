@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#gemeindekennzeichen> a owl:ObjectProperty ;
+    rdfs:label "gemeindekennzeichen"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemeinde>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_KommunalesGebiet> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemeindekennzeichen>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_GemeindekennzeichenProperty> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

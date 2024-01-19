@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_ArtDerFestlegung_KlassifizierungNachWasserrecht> a owl:Class ;
+    rdfs:label "AX_ArtDerFestlegung_KlassifizierungNachWasserrecht"@de ;
+    rdfs:subClassOf <http://www.adv-online.de/namespaces/adv/gid/6.0#Enumeration> ;
+    owl:equivalentClass [ ] .
+

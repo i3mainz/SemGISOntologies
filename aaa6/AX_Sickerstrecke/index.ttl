@@ -1,0 +1,22 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Sickerstrecke> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_Sickerstrecke"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Linienobjekt> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Linienobjekt> ;
+    skos:definition "'Sickerstrecke' bedeutet, dass ein Gewässer unter der Erdoberfläche durch Lockergestein verläuft."@de .
+

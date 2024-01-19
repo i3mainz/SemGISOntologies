@@ -1,0 +1,11 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix ns2: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:AX_Gebaeudefunktion_2040 a ns1:AX_Gebaeudefunktion,
+        owl:NamedIndividual ;
+    rdfs:label "Versicherung"@de ;
+    ns1:uri "https://www.wikidata.org/wiki/Q18152526" ;
+    ns2:value "2040" .
+

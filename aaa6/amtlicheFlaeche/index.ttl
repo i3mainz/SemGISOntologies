@@ -1,0 +1,24 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:amtlicheFlaeche a owl:ObjectProperty ;
+    rdfs:label "amtlicheFlaeche"@de ;
+    ns1:kennung "AFL"^^xsd:string ;
+    rdfs:domain ns1:AX_Flurstueck,
+        ns1:AX_HistorischesFlurstueck,
+        ns1:AX_HistorischesFlurstueckALB,
+        ns1:AX_HistorischesFlurstueckOhneRaumbezug,
+        ns1:AX_K_FLURSTUECK1,
+        ns1:AX_K_FLURSTUECK2,
+        ns1:AX_K_FLURSTUECK4,
+        ns1:AX_K_FLURST_F,
+        ns1:AX_K_FLURST_F_alt,
+        ns1:AX_K_FLURST_F_neu ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Area>,
+        xsd:string ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Amtliche Fläche' ist der im Liegenschaftskataster festgelegte Flächeninhalt des historischen Flurstücks in [qm]. Flurstücksflächen kleiner 0,5 qm können mit bis zu zwei Nachkommastellen geführt werden, ansonsten ohne Nachkommastellen."@de .
+

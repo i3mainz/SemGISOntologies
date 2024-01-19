@@ -1,0 +1,24 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:objekthoehe a owl:ObjectProperty ;
+    rdfs:label "objekthoehe"@de ;
+    ns1:kennung "HHO"^^xsd:string ;
+    rdfs:domain ns1:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe,
+        ns1:AX_BoeschungKliff,
+        ns1:AX_DammWallDeich,
+        ns1:AX_FelsenFelsblockFelsnadel,
+        ns1:AX_Gebaeude,
+        ns1:AX_Gebaeudenachweis,
+        ns1:AX_Gewaessermerkmal,
+        ns1:AX_SonstigesBauwerkOderSonstigeEinrichtung,
+        ns1:AX_Turm,
+        ns1:AX_VorratsbehaelterSpeicherbauwerk ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Length>,
+        xsd:string ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Objekthöhe' ist die Höhendifferenz in [m] zwischen dem höchsten Punkt von 'Felsen, Felsblock, Felsnadel' und der Geländeoberfläche."@de .
+

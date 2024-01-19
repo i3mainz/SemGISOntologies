@@ -1,0 +1,9 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Berechnungsmethode_5300> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Berechnungsmethode>,
+        owl:NamedIndividual ;
+    rdfs:label "Einfache Mittelbildung"@de ;
+    ns1:value "5300" .
+

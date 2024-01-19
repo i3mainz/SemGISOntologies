@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:unterschiedlicherBezugspunktMitAP a owl:ObjectProperty ;
+    rdfs:label "unterschiedlicherBezugspunktMitAP"@de ;
+    ns1:kennung "19001-13001.2"^^xsd:string ;
+    rdfs:domain ns1:AX_Hoehenfestpunkt,
+        ns1:AX_Lagefestpunkt ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Reference> ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Lagefestpunkt 19001' hat eine gemeinsame Punktvermarkung mit 'Aufnahmepunkt 13001', jedoch einen unterschiedlichen Koordinaten-, Höhen- und Schwerebezugspunkt"@de .
+

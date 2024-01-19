@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:objektkoordinaten a owl:ObjectProperty ;
+    rdfs:label "objektkoordinaten"@de ;
+    ns1:kennung "OBK"^^xsd:string ;
+    rdfs:domain ns1:AX_Flurstueck,
+        ns1:AX_HistorischesFlurstueck,
+        ns1:AX_HistorischesFlurstueckALB,
+        ns1:AX_HistorischesFlurstueckOhneRaumbezug ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Point>,
+        <http://www.opengis.net/gml/3.2#PointProperty> ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Objektkoordinaten' sind die Koordinaten [mm] eines das Objekt 'Historisches Flurstück ALB' repräsentierenden Punktes in einem amtlichen Lagebezugssystem."@de .
+

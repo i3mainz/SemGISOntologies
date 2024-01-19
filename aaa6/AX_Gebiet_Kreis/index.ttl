@@ -1,0 +1,13 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebiet_Kreis> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_Gebiet_Kreis"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebiet> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gebiet> ;
+    skos:definition "'Kreis/Region' enthält alle zur Kreisebene zählenden Verwaltungseinheiten innerhalb eines Bundeslandes."@de .
+

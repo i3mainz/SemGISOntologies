@@ -1,0 +1,12 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#schwereanomalie> a owl:ObjectProperty ;
+    rdfs:label "schwereanomalie"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schwere> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schwereanomalie_Schwere>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schwereanomalie_SchwereProperty> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> ;
+    skos:definition "'Schwereanomalie' definiert Schwereanomalien (Differenz eines mittels einer Schwerereduktion auf das Geoid reduzierten Schwerewertes minus dem entsprechenden Normalschwerewert auf einem bestimmten Niveauellipsoid) und Schwerereduktionen in 1*10^-8m*s^-2 (entspricht µGal)."@de .
+

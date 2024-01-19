@@ -1,0 +1,13 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#modellart> a owl:ObjectProperty ;
+    rdfs:label "modellart"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Themendefinition>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AD_GitterCoverage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AD_PunktCoverage> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Modellart>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_ModellartProperty> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

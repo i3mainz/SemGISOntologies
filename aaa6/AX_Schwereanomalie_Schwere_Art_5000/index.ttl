@@ -1,0 +1,9 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schwereanomalie_Schwere_Art_5000> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schwereanomalie_Schwere_Art>,
+        owl:NamedIndividual ;
+    rdfs:label "Bougueranomalie im System DHSN 82 mit Freiluft- und Plattenreduktion - Normalschwere im GRS 80"@de ;
+    ns1:value "5000" .
+

@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_WirtschaftlicheEinheit> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_WirtschaftlicheEinheit"@de ;
+    rdfs:subClassOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_ZUSO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_ZUSO> ;
+    skos:definition "'Wirtschaftliche Einheit' ist eine in der Örtlichkeit vorhandene wirtschaftliche Einheit mehrerer Flurstücke, die nicht mit der rechtlichen Einheit (Grundstück im rechtlichen Sinn) identisch sein muss (Beispiel: Wirtschaftliche Einheit zweier Flurstücke/Grundstücke, wobei nur ein Flurstück ein Erbbaugrundstück ist)."@de .
+

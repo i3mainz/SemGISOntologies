@@ -1,0 +1,14 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#empfaenger> a owl:ObjectProperty ;
+    rdfs:label "empfaenger"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Auftrag>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Benutzer>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_Benutzungsergebnis> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Empfaenger>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_EmpfaengerProperty> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> ;
+    skos:definition "Empfänger' enthält die Bezeichnung des Empfängers (Prozess, Netzwerkadresse, o.ä.) der Ergebnisse des Auftrages. Die Informationen aus der Objektart 'Benutzer' können hierzu berücksichtigt werden"@de .
+

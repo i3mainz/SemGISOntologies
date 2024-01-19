@@ -1,0 +1,29 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Antrag> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AA_Antrag"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    skos:definition """Diese Objektart realisiert eine "Mini-Antragsverwaltung", d.h. eine Schnittstelle zur externen Antragsverwaltung. Dadurch wird es möglich, bei einem Eintrag in der externen Antragsverwaltung (Geschäftsbuch) direkt einen Bezug zu diesem Antrag in ALKIS (mit Raumbezug) zu generieren.
+
+Das Antragsobjekt verwaltet außerdem die Wiedervorlage des Antrags und unterstützt die Überwachung der Projektsteuerungs-Objekte. Mit dem Raumbezug kann nach bestehenden ALKIS- Prozessen gesucht werden, um konkurrierende Anträge zu ermitteln oder um andere benachbarte Anträge bei der Bearbeitung zu berücksichtigen. Die fachliche Reihenfolge konkurrierender Anträge ist durch den Sachbearbeiter festzulegen.
+
+Hinweis: Die Beziehung von einem Fachobjekt zu AA_Antrag kann über eine Fachdatenverbindung der Art "urn:adv:fachdatenverbindung:AA_Antrag" realisiert werden. Das Antragsobjekt wird über die URN des Antragsobjekts identifiziert."""@de .
+
