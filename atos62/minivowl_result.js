@@ -3503,1561 +3503,7 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 45,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 531,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 125,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 40,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 252,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 54,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 408,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 561,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 244,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 31,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 19,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 207,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 140,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 367,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 316,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 692,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 590,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 347,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 342,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 12,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 202,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 216,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 514,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 279,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 377,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 2,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 366,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 108,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 312,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 564,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 519,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 46,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 233,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 0,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 214,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 109,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 677,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 296,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 229,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 473,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 151,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 116,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 457,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 577,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 580,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 571,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 648,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 442,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 501,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 84,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 260,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 22,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 440,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 502,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 223,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 355,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 239,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 566,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 441,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 652,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 88,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 285,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 75,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 95,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 544,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 645,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 503,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 123,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 112,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 386,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 468,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 344,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 183,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 664,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 400,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 41,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 111,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 504,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 604,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 5,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 141,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 287,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 289,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 68,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 609,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 436,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 107,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 412,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 538,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 491,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 3,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 656,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 92,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 66,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 354,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 89,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 309,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 200,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 545,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 177,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 25,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 102,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 651,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 190,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 286,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 210,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 675,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 663,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 565,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 530,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 460,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 416,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 218,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 172,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 351,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 509,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 204,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 263,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 583,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 6,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 254,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 1,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 103,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 607,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 631,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 69,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 420,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 291,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 633,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 365,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 170,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 186,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 10,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 463,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 181,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 406,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 326,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 529,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 655,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 185,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 619,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 598,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 235,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 343,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 484,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 196,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 82,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 689,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 126,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 409,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 601,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 231,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 71,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 77,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 121,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 411,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 192,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 265,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 199,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 310,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 63,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 449,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 591,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 634,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 439,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 49,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
    "source": 224,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 294,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 685,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 397,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 438,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 413,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 681,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 512,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 238,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 276,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 321,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 462,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 368,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 187,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 522,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 642,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 507,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 410,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 447,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 353,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 99,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 574,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 173,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 37,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 611,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 87,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 599,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 345,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 432,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 488,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 138,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 378,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 146,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 483,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 673,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 50,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 452,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 333,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 182,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 657,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 225,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 475,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 576,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 91,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 523,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 136,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 690,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 451,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 608,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 100,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 567,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 205,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 615,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 315,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 161,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 665,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 43,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -5071,1288 +3517,7 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 569,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 660,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 586,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 435,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 217,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 61,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 534,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 133,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 521,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 314,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 234,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 166,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 610,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 437,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 149,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 401,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 500,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 34,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 428,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 346,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 139,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 644,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 551,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 492,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 42,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 669,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 459,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 557,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 330,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 338,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 375,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 362,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 290,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 672,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 638,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 385,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 623,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 372,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 691,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 495,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 145,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 306,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 164,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 206,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 423,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 528,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 629,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 434,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 143,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 308,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 585,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 380,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 90,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 594,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 51,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 17,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 283,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 228,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 28,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 422,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 152,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 508,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 595,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 369,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 612,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 695,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 617,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 247,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 456,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 668,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 698,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 148,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 547,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 684,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 317,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 175,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 443,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 506,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 511,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 407,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 646,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 266,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 670,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 562,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 517,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 29,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 117,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 510,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 113,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 81,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 7,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 281,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 23,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 197,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 636,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 236,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 379,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 237,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 97,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 618,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 388,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 527,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 497,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 461,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 630,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 395,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 683,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 445,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 678,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 596,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 292,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 592,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 360,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 490,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 257,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 11,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 662,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 269,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 674,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 44,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 222,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 597,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 323,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 35,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 147,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 36,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 548,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 382,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 533,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 9,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 626,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 399,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 18,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 96,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 358,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 80,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 174,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 477,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 129,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 47,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 48,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 427,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 415,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 339,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 524,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 299,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 21,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 430,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 613,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 219,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 350,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 494,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 275,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 86,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 426,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 110,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 329,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 160,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 62,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 243,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 579,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 298,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 622,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 450,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 417,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 374,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 311,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 370,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 513,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 515,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 76,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 255,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 418,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 454,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 560,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 537,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 184,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 543,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 448,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 171,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 137,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 337,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 637,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 335,
+   "source": 70,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -6366,602 +3531,14 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 431,
+   "source": 317,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 635,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 322,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 433,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 542,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 363,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 647,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 324,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 85,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 518,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 249,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 267,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 687,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 541,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 535,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 696,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 130,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 288,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 602,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 4,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 280,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 621,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 396,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 627,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 555,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 584,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 104,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 680,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 589,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 558,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 156,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 620,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 667,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 295,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 268,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 57,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 493,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 297,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 301,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 581,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 79,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 246,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 318,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 153,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 24,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 245,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 661,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 376,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 70,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 26,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 625,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 394,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 573,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 361,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 270,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 278,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 481,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 131,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 307,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 489,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 230,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 328,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 392,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 632,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 694,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 264,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 470,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 552,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 554,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 105,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 169,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 469,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 300,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 578,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 467,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 124,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 118,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 496,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 458,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 98,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 686,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 505,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 603,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 250,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 313,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 58,
+   "source": 685,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -6975,1301 +3552,6 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 559,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 348,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 209,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 384,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 302,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 127,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 465,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 189,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 258,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 693,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 193,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 391,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 464,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 331,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 479,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 425,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 532,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 654,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 373,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 688,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 195,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 188,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 144,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 474,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 341,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 65,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 273,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 364,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 539,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 39,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 176,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 389,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 332,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 676,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 203,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 390,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 697,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 60,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 398,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 653,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 381,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 414,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 277,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 614,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 349,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 549,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 168,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 480,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 336,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 570,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 327,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 165,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 304,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 93,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 155,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 55,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 215,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 67,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 83,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 56,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 159,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 476,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 128,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 274,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 352,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 240,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 14,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 383,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 20,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 568,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 38,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 180,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 16,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 593,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 639,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 546,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 536,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 472,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 640,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 553,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 191,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 78,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 120,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 194,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 356,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 605,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 606,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 455,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 241,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 256,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 163,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 259,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 284,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 588,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 550,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 572,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 33,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 253,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 74,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 134,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 682,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 320,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 393,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 325,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 142,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 135,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 150,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 478,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 498,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 666,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 404,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 575,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 262,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 198,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 15,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 303,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 487,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 242,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 466,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 226,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 201,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 213,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 167,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 232,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 132,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 444,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 158,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 178,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 641,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 27,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 271,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 157,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 624,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 64,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 305,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 556,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 671,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 563,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 359,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 371,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 272,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 208,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 154,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 649,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 616,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 387,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 453,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 119,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 403,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 282,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 429,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 540,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 658,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 30,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 251,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 485,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 421,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 643,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 101,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 162,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 402,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 419,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 482,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 516,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 659,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 73,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 499,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 600,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 211,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 220,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 587,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 114,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 319,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 106,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 115,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 357,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 486,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 424,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 52,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 471,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 221,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 248,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 59,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 340,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 53,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
    "source": 525,
    "target": 8,
    "valueTo": "type",
@@ -8277,63 +3559,14 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 334,
+   "source": 197,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 179,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 94,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 212,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 13,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 405,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 227,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 32,
-   "target": 8,
-   "valueTo": "type",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  {
-   "source": 261,
+   "source": 418,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -8347,7 +3580,994 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 293,
+   "source": 233,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 128,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 29,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 433,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 656,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 79,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 113,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 208,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 328,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 375,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 577,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 216,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 221,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 489,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 378,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 246,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 332,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 371,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 461,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 37,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 400,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 275,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 143,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 31,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 132,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 640,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 28,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 643,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 655,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 644,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 507,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 518,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 377,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 653,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 330,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 638,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 40,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 509,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 64,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 49,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 380,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 10,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 611,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 45,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 217,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 422,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 5,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 516,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 130,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 491,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 651,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 669,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 276,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 119,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 310,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 511,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 249,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 597,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 688,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 166,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 502,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 386,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 22,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 191,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 259,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 473,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 81,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 624,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 352,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 376,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 412,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 492,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 415,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 15,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 435,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 468,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 543,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 319,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 481,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 649,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 300,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 185,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 441,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 561,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 455,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 514,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 479,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 177,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 315,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 477,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 539,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 206,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 534,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 440,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 169,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 19,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 296,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 349,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 89,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 222,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 568,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 196,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 327,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 67,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 546,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 149,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 470,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 277,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 192,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 426,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 83,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 97,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 432,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 110,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 394,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 140,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 504,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 610,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 6,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 237,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 2,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 493,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 32,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 619,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 538,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 417,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 23,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 168,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 333,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 694,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 320,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 137,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 118,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 425,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 614,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 260,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 226,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 311,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 36,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 486,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 150,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 548,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -8361,14 +4581,826 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 526,
+   "source": 589,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 8,
+   "source": 369,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 529,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 687,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 501,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 306,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 442,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 609,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 146,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 261,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 38,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 211,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 244,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 456,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 262,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 391,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 212,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 431,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 678,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 337,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 106,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 236,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 625,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 636,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 198,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 180,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 93,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 247,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 329,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 90,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 581,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 652,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 393,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 527,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 297,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 403,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 693,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 102,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 496,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 467,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 239,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 387,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 360,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 44,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 421,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 654,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 683,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 550,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 265,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 290,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 71,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 562,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 309,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 204,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 453,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 193,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 347,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 121,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 141,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 588,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 553,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 148,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 676,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 460,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 556,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 9,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 156,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 355,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 623,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 622,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 689,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 11,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 16,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 250,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 346,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 457,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 510,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 639,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 68,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 696,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 242,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 183,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 350,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 599,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 115,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 413,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 145,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 323,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 94,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 91,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 125,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 463,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 677,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 117,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 174,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 280,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 591,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 312,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 698,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 87,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 321,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 20,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 374,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 657,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 524,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 545,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 264,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 298,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 697,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 288,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 151,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 335,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 95,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 483,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 634,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 381,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 396,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -8382,7 +5414,168 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 582,
+   "source": 353,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 69,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 175,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 199,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 675,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 24,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 266,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 302,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 27,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 160,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 590,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 51,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 267,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 1,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 163,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 272,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 336,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 334,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 512,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 531,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 434,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 84,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 659,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 370,
    "target": 8,
    "valueTo": "type",
    "propertyTo": "class",
@@ -8396,21 +5589,2828 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 6,
-   "target": 2,
-   "valueTo": "allValuesFrom",
+   "source": 200,
+   "target": 8,
+   "valueTo": "type",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2002/07/owl#allValuesFrom"
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   {
-   "source": 5,
+   "source": 586,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 57,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 620,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 499,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 430,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 668,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 646,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 666,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 56,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 613,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 203,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 86,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 223,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 537,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 338,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 124,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 248,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 566,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 291,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 144,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 73,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 12,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 523,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 214,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 299,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 116,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 252,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 181,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 368,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 494,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 690,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 255,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 176,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 326,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 648,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 404,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 303,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 626,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 411,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 270,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 602,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 451,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 345,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 213,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 484,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 127,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 348,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 517,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 563,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 61,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 111,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 182,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 295,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 465,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 680,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 356,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 136,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 188,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 436,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 402,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 607,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 253,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 445,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 535,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 54,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 195,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 471,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 475,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 596,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 570,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 62,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 416,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 357,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 284,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 342,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 234,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 487,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 579,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 43,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 454,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 283,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 58,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 339,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 257,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 515,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 583,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 3,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 75,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 184,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 254,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 344,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 220,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 230,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 155,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 637,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 100,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 427,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 63,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 105,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 190,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 560,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 530,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 363,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 383,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 316,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 658,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 572,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 351,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 76,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 279,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 340,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 42,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 13,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 229,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 364,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 462,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 225,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 526,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 567,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 382,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 544,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 476,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 187,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 147,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 231,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 294,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 419,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 681,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 522,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 47,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 256,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 308,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 632,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 46,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 104,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 528,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 318,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 26,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 304,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 268,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 379,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 14,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 107,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 154,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 202,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 293,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 8,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 126,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 170,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 429,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 292,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 366,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 139,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 641,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 99,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 158,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 228,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 389,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 85,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 447,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 0,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 269,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 662,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 495,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 92,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 490,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 173,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 684,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 167,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 540,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 112,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 108,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 506,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 663,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 618,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 80,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 162,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 482,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 307,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 281,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 695,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 367,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 542,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 660,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 424,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 667,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 384,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 682,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 274,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 165,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 142,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 575,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 595,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 134,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 478,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 60,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 500,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 608,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 33,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 498,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 133,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 443,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 152,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 39,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 565,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 521,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 205,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 235,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 635,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 287,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 665,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 671,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 409,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 558,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 674,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 227,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 488,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 78,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 395,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 365,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 547,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 503,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 480,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 552,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 633,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 585,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 65,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 420,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 549,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 604,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 218,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 354,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 201,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 41,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 285,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 388,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 600,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 616,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 194,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 161,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 34,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 157,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 30,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 129,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 401,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 172,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 428,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 629,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 373,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 123,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 466,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 408,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 448,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 278,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 238,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 508,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 164,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 505,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 399,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 219,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 592,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 661,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 96,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 77,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 289,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 17,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 584,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 243,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 25,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 21,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 621,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 240,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 449,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 232,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 210,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 631,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 131,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 271,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 617,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 390,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 469,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 557,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 472,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 120,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 88,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 410,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 576,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 647,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 135,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 513,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 691,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 215,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 178,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 398,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 645,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 153,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 53,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 324,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 692,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 598,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 241,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 407,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 179,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 209,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 497,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 474,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 630,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 559,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 4,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 159,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 423,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 50,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 322,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 405,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 437,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 392,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 103,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 372,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 615,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 35,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 286,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 670,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 573,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 406,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 343,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 593,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 605,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 313,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 359,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 606,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 82,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 362,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 414,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 55,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 385,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 555,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 519,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 601,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 574,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 171,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 594,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 603,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 331,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 245,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 439,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 361,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 282,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 189,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 207,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 554,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 52,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 114,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 438,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 444,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 452,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 59,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 459,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 74,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 258,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 464,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 582,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 587,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 673,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 578,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 66,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 186,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 98,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 341,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 485,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 571,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 397,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 533,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 642,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 672,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 251,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 301,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 686,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 551,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 532,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 305,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 48,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 564,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 450,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 536,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 138,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 612,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 325,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 664,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 580,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 101,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 109,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 627,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 569,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 358,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 314,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 273,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 18,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 458,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 541,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 263,
+   "target": 8,
+   "valueTo": "type",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "source": 3,
    "target": 2,
    "valueTo": "range",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
   },
   {
-   "source": 1,
+   "source": 7,
+   "target": 2,
+   "valueTo": "range",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
+  },
+  {
+   "source": 5,
    "target": 2,
    "valueTo": "range",
    "propertyTo": "class",
@@ -8424,13 +8424,6 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
   },
   {
-   "source": 3,
-   "target": 2,
-   "valueTo": "range",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
-  },
-  {
    "source": 4,
    "target": 2,
    "valueTo": "range",
@@ -8438,7 +8431,7 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
   },
   {
-   "source": 7,
+   "source": 1,
    "target": 2,
    "valueTo": "range",
    "propertyTo": "class",
@@ -8452,14 +8445,21 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2002/07/owl#onProperty"
   },
   {
-   "source": 7,
+   "source": 6,
+   "target": 2,
+   "valueTo": "allValuesFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2002/07/owl#allValuesFrom"
+  },
+  {
+   "source": 156,
    "target": 156,
    "valueTo": "sameAs",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2002/07/owl#sameAs"
   },
   {
-   "source": 156,
+   "source": 7,
    "target": 156,
    "valueTo": "sameAs",
    "propertyTo": "class",
