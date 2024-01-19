@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FunktionHGr_K_TNHGR_Vegetation> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FunktionHGr_K_TNHGR>,
-        owl:NamedIndividual ;
-    rdfs:label "Vegetation",
-        "Vegetation"@de .
-

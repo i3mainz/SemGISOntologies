@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#RP_SonstVerkehrTypen_1600> a owl:NamedIndividual,
-        <http://www.xplanung.de/xplangml/5/0#RP_SonstVerkehrTypen> ;
-    rdfs:label "1600" ;
-    rdfs:comment "Park-and-Ride und/oder Bike-and-Ride."@de .
-

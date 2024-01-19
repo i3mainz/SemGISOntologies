@@ -1,7 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.07.50> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Modellart>,
-        owl:NamedIndividual ;
-    rdfs:label "advStandardModellLiegenschaftskatasterModellKatasterkartenModell500KatasterkartenModell1000KatasterkartenModell2000KatasterkartenModell5000BasisLandschaftsModellLandschaftsModell50LandschaftsModell250LandschaftsModell1000TopographischeKarte10TopographischeKarte25TopographischeKarte50TopographischeKarte100TopographischeKarte250TopographischeKarte1000FestpunktmodellDigitalesGelaendemodell2DigitalesGelaendemodell5DigitalesGelaendemodell25Digitales Gelaendemodell50"@de .
-

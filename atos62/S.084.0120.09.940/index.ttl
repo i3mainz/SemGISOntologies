@@ -1,7 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.09.940> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Einrichtungsauftrag>,
-        owl:NamedIndividual ;
-    rdfs:label "verwendeteInstanzenthemenTats�chliche Nutzung DLKM (�berlagerungsfl�che)Tats�chliche Nutzung DLKM (Ebenen �bergreifend)Tats�chliche Nutzung Basis-DLM (Grundfl�che)Tats�chliche Nutzung Basis-DLM (�berlagerungsfl�che)Tats�chliche Nutzung Basis-DLM (Ebenen �bergreifend)Tats�chliche Nutzung DLM50 (Grundfl�che)Tats�chliche Nutzung DLM50 (�berlagerungsfl�che)Tats�chliche Nutzung DLM50 (Ebenen �bergreifend)Flurst�cke und Tats�chliche Nutzung DLKMFlurst�cke und Geb�ude DLKMFlurst�cke und �ffentlich-rechtliche Festlegung DLKMFlurst�cke und Bodensch�tzung DLKMFlurst�cke und D�mme DLKM"@de .
-

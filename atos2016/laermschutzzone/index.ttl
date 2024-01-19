@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#laermschutzzone> a owl:ObjectProperty ;
-    rdfs:label "laermschutzzone"@de ;
-    rdfs:domain <http://www.xplanung.de/xplangml/5/0#SO_Luftverkehrsrecht> ;
-    rdfs:range <http://www.xplanung.de/xplangml/5/0#SO_LaermschutzzoneTypen> ;
-    rdfs:subPropertyOf <http://www.xplanung.de/xplangml/5/0#XPlanung5Property> .
-
