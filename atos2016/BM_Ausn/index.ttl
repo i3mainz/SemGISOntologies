@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BM_Ausn> a owl:ObjectProperty ;
+    rdfs:label "BM_Ausn"@de ;
+    rdfs:domain [ ] ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Volume> ;
+    rdfs:subPropertyOf <http://www.xplanung.de/xplangml/5/0#XPlanung5Property> .
+

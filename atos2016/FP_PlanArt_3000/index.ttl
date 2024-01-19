@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#FP_PlanArt_3000> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#FP_PlanArt> ;
+    rdfs:label "3000" ;
+    rdfs:comment "Regionaler FPlan, der Zugleich die Funktion eines Regionalplans als auch eines gemeinsamen FPlans nach § 204 BauGB erfüllt."@de .
+

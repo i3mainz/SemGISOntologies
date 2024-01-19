@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#SO_Plan> a owl:Class ;
+    rdfs:label "SO_Plan"@de ;
+    ns1:propOrder "planArt;plangeber;bereich" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Klasse für sonstige, z. B. länderspezifische raumbezogene Planwerke.
+"""@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#XP_Plan> .
+

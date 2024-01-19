@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Forstwirtschaft> a owl:Class ;
+    rdfs:label "RP_Forstwirtschaft"@de ;
+    ns1:propOrder "typ" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Forstwirtschaft ist die zielgerichtete Bewirtschaftung von Wäldern.
+Die natürlichen Abläufe in den Waldökosystemen werden dabei so gestaltet und gesteuert, dass sie einen möglichst großen Beitrag zur Erfüllung von Leistungen erbringen, die von den Waldeigentümern und der Gesellschaft gewünscht werden."""@de ;
+    rdfs:subClassOf [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Freiraum> .
+

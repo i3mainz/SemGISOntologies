@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#SO_KlassifizNachWasserrecht_2000> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#SO_KlassifizNachWasserrecht> ;
+    rdfs:label "2000" ;
+    rdfs:comment "'Überschwemmungsgebiet' nach . § 31b Abs. 1 WHG  ist ein durch Rechtsverordnung festgesetztes oder natürliches Gebiet, das bei Hochwasser überschwemmt werden kann bzw. überschwemmt wird."@de .
+
