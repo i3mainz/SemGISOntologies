@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_LI_ProcessStep_OhneDatenerhebung_Description> a owl:DatatypeProperty,
+        owl:ObjectProperty ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_LI_ProcessStep_OhneDatenerhebung_Description_> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6>,
+        <http://www.isotc211.org/2005/gco#CharacterString> .
+

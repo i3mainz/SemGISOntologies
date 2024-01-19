@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#besondereBedeutung> a owl:ObjectProperty ;
+    rdfs:label "besondereBedeutung"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BesondererHoehenpunkt> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BesondereBedeutung> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

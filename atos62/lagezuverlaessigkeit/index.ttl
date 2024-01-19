@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:lagezuverlaessigkeit a owl:AnnotationProperty,
+        owl:DatatypeProperty,
+        owl:ObjectProperty ;
+    ns1:kennung "LZK"@de ;
+    rdfs:domain ns1:AX_DQPunktort ;
+    rdfs:range ns1:boolean,
+        xsd:boolean ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition """'Lagezuverlässigkeit' enthält eine Aussage über die Identität zwischen den Koordinaten des amtlichen Nachweises und den bei der Grenzuntersuchung bestimmten Koordinaten von Objektpunkten.
+
+TRUE belegt die Überprüfung eines Punktes nach dem Katsternachweis. Damit wird zum Ausdruck gebracht, dass ein Punkt in der Örtlichkeit eindeutig identifiziert und unter Berücksichtigung der Nachbarschaftsbeziehungen als identisch mit dem Katasterzahlenwerk festgestellt wurde.
+
+FALSE gibt an, dass für eine aufgemessene Koordinate eine derartige Überprüfung nicht stattgefunden hat und die Koordinate zunächst vorläufigen Character besitzt, um eine spätere, genauere Bestimmung zu erleichtern (z.B. durch Transformation).
+
+Wird die Attribuart nicht geführt, entfällt eine Aussage über die Lagezuverlässigkeit."""@de .
+

@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.2839> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Hoehenfestpunkt>,
+        owl:NamedIndividual ;
+    rdfs:label "ordnungNivP(1) - Haupth�henpunkt, Zwischenlinienpunkt 1.OrdnungNivP(1) - Netzverdichtung GPS (Niedersachsen)NivP(2) - Nivellementpunkt 2. OrdnungNivP(3) - Nivellementpunkt 3. OrdnungNivP(3) - nivellitisch bestimmter Bodenpunkt f�r ReferenzstationNivP(4) - Nivellementpunkt 4. Ordnung�H - �bergeordneter H�henfestpunkt (Berlin)H�henfestpunkt, der nur eine interne Bedeutung hatNach Quellenlage nicht zu spezifizieren"@de .
+

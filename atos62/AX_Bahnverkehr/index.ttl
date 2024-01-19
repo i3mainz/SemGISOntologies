@@ -1,0 +1,28 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix ns2: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:AX_Bahnverkehr a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_Bahnverkehr"@de ;
+    ns1:kennung 42010 ;
+    ns2:polygonStyle " \"fill\":true, \"fillColor\":\"#ffb7e7\" , \"stroke\":true, \"color\":\"black\"  "^^ns2:cssLiteral ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AX_TatsaechlicheNutzung ;
+    rdfs:subPropertyOf ns1:AX_TatsaechlicheNutzung ;
+    skos:definition "'Bahnverkehr' umfasst alle für den Schienenverkehr erforderlichen Flächen und die dem Schienenverkehr dienenden bebauten und unbebauten Flächen."@de .
+

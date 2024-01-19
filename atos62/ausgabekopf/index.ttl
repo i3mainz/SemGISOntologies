@@ -1,0 +1,29 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:ausgabekopf a owl:AnnotationProperty,
+        owl:ObjectProperty ;
+    ns1:kennung "AKS"@de ;
+    rdfs:domain ns1:AX_Bestandsnachweis,
+        ns1:AX_FGraphik,
+        ns1:AX_FlurstuecksEigentumsnachweis,
+        ns1:AX_Flurstuecksnachweis,
+        ns1:AX_FortfuehrungsnachweisDeckblatt,
+        ns1:AX_Gebaeudenachweis,
+        ns1:AX_Grundstuecksnachweis,
+        ns1:AX_K_FM_Titel,
+        ns1:AX_K_FN_Deckblatt,
+        ns1:AX_Liegenschaftskarte,
+        ns1:AX_ListeDerReserviertenFachkennzeichen,
+        ns1:AX_Punktliste,
+        ns1:AX_StatistikDerFlaechenDerTatsaechlichenNutzung,
+        ns1:AX_StatistikDerFlaechenDerTatsaechlichenNutzung_all,
+        ns1:AX_StatistikDerFlaechenNachDemBewertungsgesetz,
+        ns1:AX_VergleichendesPunktnummernverzeichnis ;
+    rdfs:range ns1:AX_K_AUSGKOPF_Standard,
+        ns1:AX_K_AUSGKOPF_StandardProperty ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Ausgabekopf' enthält Angaben, die im Kopf des FME-Textteiles benötigt werden."@de .
+

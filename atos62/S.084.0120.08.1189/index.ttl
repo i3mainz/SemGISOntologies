@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.1189> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gleis>,
+        owl:NamedIndividual ;
+    rdfs:label "lageZurOberflaecheUnter der Erdoberfl�cheAufgest�ndert"@de .
+

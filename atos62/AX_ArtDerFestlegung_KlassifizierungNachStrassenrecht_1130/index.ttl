@@ -1,0 +1,9 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_ArtDerFestlegung_KlassifizierungNachStrassenrecht_1130> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_ArtDerFestlegung_KlassifizierungNachStrassenrecht>,
+        owl:NamedIndividual ;
+    rdfs:label "Landes- oder Staatsstraße"@de ;
+    ns1:value "1130" .
+

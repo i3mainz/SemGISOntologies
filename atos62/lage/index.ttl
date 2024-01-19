@@ -1,0 +1,17 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#lage> a owl:AnnotationProperty,
+        owl:DatatypeProperty,
+        owl:ObjectProperty ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinzelnachweisGrundnetzpunkt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinzelnachweisHoehenfestpunkt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinzelnachweisLagefestpunkt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinzelnachweisReferenzstationspunkt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinzelnachweisSchwerefestpunkt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_VerschluesselteLagebezeichnung> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_Lagesystem>,
+        xsd:string ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+
