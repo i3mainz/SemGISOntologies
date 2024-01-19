@@ -63,10 +63,8 @@ jobs:
     - name: Initial checkout
       uses: actions/checkout@v1
     - name: Create Doxygen Documentation 🔧
-      run: |
-         sudo apt-get install doxygen graphviz -y   
-         cd docs
-         doxygen Doxyfile 
+      run: |  
+         echo "deploy index page"
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4.3.3
       with:
