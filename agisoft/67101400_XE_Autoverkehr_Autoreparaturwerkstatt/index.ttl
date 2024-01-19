@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:67101400_XE_Autoverkehr_Autoreparaturwerkstatt a owl:Class ;
+ns1:67101400_XE_Autoverkehr_Autoreparaturwerkstatt a owl:Class ;
     rdfs:label "Autoreparaturwerkstatt"@de ;
-    rdfs:subClassOf ns2:XE_Autoverkehr ;
+    rdfs:subClassOf ns1:XE_Autoverkehr ;
     owl:equivalentClass [ ] ;
     skos:definition "Gebäude oder Einrichtung, welche der Reparatur von Kraftfahrzeugen dient. "@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67101400_XE_Autoverkehr_Autoreparaturwerkstatt.svg" ;
-    ns2:code "67101400" ;
-    ns2:sinceVersion "3.1" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67101400_XE_Autoverkehr_Autoreparaturwerkstatt.svg" ;
+    ns1:code "67101400" ;
+    ns1:sinceVersion "3.1" .
 

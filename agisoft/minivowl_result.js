@@ -238,13 +238,6 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 4,
-   "target": 2,
-   "valueTo": "range",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
-  },
-  {
    "source": 5,
    "target": 2,
    "valueTo": "range",
@@ -253,6 +246,13 @@ var minivowlresult={
   },
   {
    "source": 3,
+   "target": 2,
+   "valueTo": "range",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#range"
+  },
+  {
+   "source": 4,
    "target": 2,
    "valueTo": "range",
    "propertyTo": "class",

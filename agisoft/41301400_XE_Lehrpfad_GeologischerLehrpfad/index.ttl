@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:41301400_XE_Lehrpfad_GeologischerLehrpfad a owl:Class ;
+ns1:41301400_XE_Lehrpfad_GeologischerLehrpfad a owl:Class ;
     rdfs:label "GeologischerLehrpfad"@de ;
-    rdfs:subClassOf ns2:XE_Lehrpfad ;
+    rdfs:subClassOf ns1:XE_Lehrpfad ;
     owl:equivalentClass [ ] ;
     skos:definition "'Lehrpfad mit Schwerpunktthema ''Geologie''.'"@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/41301400_XE_Lehrpfad_GeologischerLehrpfad.svg" ;
-    ns2:code "41301400" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/41301400_XE_Lehrpfad_GeologischerLehrpfad.svg" ;
+    ns1:code "41301400" ;
+    ns1:sinceVersion "1.0" .
 

@@ -144,13 +144,16 @@ var tree={
             },
             "http://www.w3.org/2002/07/owl#equivalentClass": {
               "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#definition": {
+              "instancecount": 1
             }
           },
           "from": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#NamedIndividual": 11,
-              "http://www.xerleben.de/schema/2.0_1/XE_BARRIEREGRUPPE": 11
+              "http://www.w3.org/2002/07/owl#NamedIndividual": 4,
+              "http://www.xerleben.de/schema/2.0_1/XE_BETRIEBSSTOFF": 4
             },
             "http://www.w3.org/2000/01/rdf-schema#range": {
               "instancecount": 0,
@@ -158,7 +161,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_ADMINHIERARCHYLEVEL_1stOrder",
@@ -327,6 +330,9 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#definition": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -335,7 +341,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_ASP_ROLLE_Hausmeister",
@@ -1940,9 +1946,6 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
-            },
-            "http://www.w3.org/2004/02/skos/core#definition": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -1951,7 +1954,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 3
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_NATURSCHUTZSTATUS_Biosphaerenreservat",
@@ -2050,6 +2053,9 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#definition": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -2058,7 +2064,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_NUTSEBENE_EUR",
@@ -2490,9 +2496,6 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
-            },
-            "http://www.w3.org/2004/02/skos/core#definition": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -2501,7 +2504,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 3
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_TRAEGERART_Bund",
@@ -3402,36 +3405,27 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_OrtVonInteresse",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b429",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b429",
         "type": "class",
         "text": "XE_OrtVonInteresse (xerl:XE_OrtVonInteresse)",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2,
+              "instancecount": 1,
               "http://www.w3.org/2002/07/owl#AnnotationProperty": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#range": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
               "http://www.w3.org/2002/07/owl#Class": 1
             },
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": {
-              "instancecount": 2,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 2,
-              "http://www.w3.org/2002/07/owl#Class": 2,
-              "http://www.w3.org/2002/07/owl#Ontology": 1,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 1
-            },
             "http://www.w3.org/2004/02/skos/core#definition": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/entity/Property:P18": {
               "instancecount": 1
             },
             "http://www.xerleben.de/schema/2.0_1/code": {
@@ -3441,22 +3435,9 @@ var tree={
               "instancecount": 1
             }
           },
-          "from": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": {
-              "instancecount": 0
-            },
-            "http://www.w3.org/2000/01/rdf-schema#range": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#Class": 55
-            }
-          }
+          "from": {}
         },
-        "instancecount": 10
+        "instancecount": 7
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Autoverkehr",
@@ -3825,7 +3806,7 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Freizeitweg",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b398",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b398",
         "type": "class",
         "text": "XE_Freizeitweg (xerl:XE_Freizeitweg)",
         "data": {
@@ -3875,17 +3856,17 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
               "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#Class": 12
+              "http://www.w3.org/2002/07/owl#Class": 11
             }
           }
         },
         "instancecount": 11
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b398",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b398",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b398",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b398",
         "data": {}
       },
       {
@@ -4677,7 +4658,7 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_OEVLinie",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b399",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b399",
         "type": "class",
         "text": "XE_OEVLinie (xerl:XE_OEVLinie)",
         "data": {
@@ -4715,10 +4696,10 @@ var tree={
         "instancecount": 8
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b399",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b399",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b399",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b399",
         "data": {}
       },
       {
@@ -5080,25 +5061,13 @@ var tree={
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2,
+              "instancecount": 1,
               "http://www.w3.org/2002/07/owl#AnnotationProperty": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
-            "http://www.w3.org/2000/01/rdf-schema#range": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
-              "instancecount": 2,
-              "http://www.w3.org/2002/07/owl#Class": 2,
-              "http://www.w3.org/2002/07/owl#Ontology": 1,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": {
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Ontology": 1,
               "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
@@ -5106,20 +5075,9 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#domain": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 2,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#range": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            }
-          }
+          "from": {}
         },
-        "instancecount": 7
+        "instancecount": 3
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_SchuleAllgemein",
@@ -5637,7 +5595,7 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Traegerabschnitt",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b437",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b437",
         "type": "class",
         "text": "XE_Traegerabschnitt (xerl:XE_Traegerabschnitt)",
         "data": {
@@ -5675,10 +5633,10 @@ var tree={
         "instancecount": 8
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b437",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b437",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b437",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b437",
         "data": {}
       },
       {
@@ -6159,6 +6117,10 @@ var tree={
             }
           },
           "from": {
+            "http://www.w3.org/2000/01/rdf-schema#domain": {
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#ObjectProperty": 2
+            },
             "http://www.w3.org/2000/01/rdf-schema#range": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#ObjectProperty": 1,
@@ -6191,16 +6153,16 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Ansprechpartner",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b397",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b397",
         "type": "class",
         "text": "XE_Ansprechpartner (xerl:XE_Ansprechpartner)",
         "data": {}
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b397",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b397",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b397",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b397",
         "data": {}
       },
       {
@@ -6316,10 +6278,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b429",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b429",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b429",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b429",
         "data": {}
       },
       {
@@ -6331,16 +6293,16 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Person",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b435",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b435",
         "type": "class",
         "text": "XE_Person (xerl:XE_Person)",
         "data": {}
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b435",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b435",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b435",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b435",
         "data": {}
       },
       {
@@ -6408,16 +6370,16 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Streckenvariante",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b436",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b436",
         "type": "class",
         "text": "XE_Streckenvariante (xerl:XE_Streckenvariante)",
         "data": {}
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b436",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b436",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b436",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b436",
         "data": {}
       },
       {
@@ -6471,30 +6433,30 @@ var tree={
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Wegabschnitt",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b449",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b449",
         "type": "class",
         "text": "XE_Wegabschnitt (xerl:XE_Wegabschnitt)",
         "data": {}
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b449",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b449",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b449",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b449",
         "data": {}
       },
       {
         "id": "http://www.xerleben.de/schema/2.0_1/XE_Wegknoten",
-        "parent": "n8b741e43c80b4a6fb01959f924a44521b451",
+        "parent": "nc0e6be01049b48fd8104085d7cdcd601b451",
         "type": "class",
         "text": "XE_Wegknoten (xerl:XE_Wegknoten)",
         "data": {}
       },
       {
-        "id": "n8b741e43c80b4a6fb01959f924a44521b451",
+        "id": "nc0e6be01049b48fd8104085d7cdcd601b451",
         "parent": "#",
         "type": "class",
-        "text": "n8b741e43c80b4a6fb01959f924a44521b451",
+        "text": "nc0e6be01049b48fd8104085d7cdcd601b451",
         "data": {}
       },
       {

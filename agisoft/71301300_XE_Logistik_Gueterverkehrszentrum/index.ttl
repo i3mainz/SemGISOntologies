@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:71301300_XE_Logistik_Gueterverkehrszentrum a owl:Class ;
+ns1:71301300_XE_Logistik_Gueterverkehrszentrum a owl:Class ;
     rdfs:label "Gueterverkehrszentrum"@de ;
-    rdfs:subClassOf ns2:XE_Logistik ;
+    rdfs:subClassOf ns1:XE_Logistik ;
     owl:equivalentClass [ ] ;
     skos:definition "GVZ der Bahn zur Verladung Bahn-LKW und umgekehrt."@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/71301300_XE_Logistik_Gueterverkehrszentrum.svg" ;
-    ns2:code "71301300" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/71301300_XE_Logistik_Gueterverkehrszentrum.svg" ;
+    ns1:code "71301300" ;
+    ns1:sinceVersion "1.0" .
 

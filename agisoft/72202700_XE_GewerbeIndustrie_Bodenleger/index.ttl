@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:72202700_XE_GewerbeIndustrie_Bodenleger a owl:Class ;
+ns1:72202700_XE_GewerbeIndustrie_Bodenleger a owl:Class ;
     rdfs:label "Bodenleger"@de ;
-    rdfs:subClassOf ns2:XE_GewerbeIndustrie ;
+    rdfs:subClassOf ns1:XE_GewerbeIndustrie ;
     owl:equivalentClass [ ] ;
     skos:definition "Bodenleger"@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72202700_XE_GewerbeIndustrie_Bodenleger.svg" ;
-    ns2:code "72202700" ;
-    ns2:sinceVersion "3.1" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72202700_XE_GewerbeIndustrie_Bodenleger.svg" ;
+    ns1:code "72202700" ;
+    ns1:sinceVersion "3.1" .
 

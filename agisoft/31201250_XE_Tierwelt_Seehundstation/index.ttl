@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:31201250_XE_Tierwelt_Seehundstation a owl:Class ;
+ns2:31201250_XE_Tierwelt_Seehundstation a owl:Class ;
     rdfs:label "Seehundstation"@de ;
-    rdfs:subClassOf ns1:XE_Tierwelt ;
+    rdfs:subClassOf ns2:XE_Tierwelt ;
     owl:equivalentClass [ ] ;
     skos:definition "'Gebäude oder Anlage zur Aufzucht von Seehunden mit regelmäßigen Öffungszeiten und Zugang für ''Dritte'' (ggf gegen Entgelt)'"@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31201250_XE_Tierwelt_Seehundstation.svg" ;
-    ns1:code "31201250" ;
-    ns1:sinceVersion "1.0" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31201250_XE_Tierwelt_Seehundstation.svg" ;
+    ns2:code "31201250" ;
+    ns2:sinceVersion "1.0" .
 

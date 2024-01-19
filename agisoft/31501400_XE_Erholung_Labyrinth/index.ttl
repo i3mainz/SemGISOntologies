@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:31501400_XE_Erholung_Labyrinth a owl:Class ;
+ns2:31501400_XE_Erholung_Labyrinth a owl:Class ;
     rdfs:label "Labyrinth"@de ;
-    rdfs:subClassOf ns1:XE_Erholung ;
+    rdfs:subClassOf ns2:XE_Erholung ;
     owl:equivalentClass [ ] ;
     skos:definition "Ein System von Wegen, das durch zahlreiche Richtungsänderungen ein Verfolgen oder Abschreiten des Musters zu einem Rätsel macht. Labyrinthe können als Bauwerk und Pflanzung (Heckenirrgarten und Maislabyrinth) ausgeführt sein."@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31501400_XE_Erholung_Labyrinth.svg" ;
-    ns1:code "31501400" ;
-    ns1:sinceVersion "1.0" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31501400_XE_Erholung_Labyrinth.svg" ;
+    ns2:code "31501400" ;
+    ns2:sinceVersion "1.0" .
 

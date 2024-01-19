@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:67101250_XE_Autoverkehr_Wohnmobilstellplatz a owl:Class ;
+ns1:67101250_XE_Autoverkehr_Wohnmobilstellplatz a owl:Class ;
     rdfs:label "Wohnmobilstellplatz"@de ;
-    rdfs:subClassOf ns2:XE_Autoverkehr ;
+    rdfs:subClassOf ns1:XE_Autoverkehr ;
     owl:equivalentClass [ ] ;
     skos:definition "Ausgewiesene Fläche zum Abstellen von Wohnmobilen mit Ver- und Entsorgungsinfrastruktur (Wasser, Strom). I.d.R.gegen Entgelt. "@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67101250_XE_Autoverkehr_Wohnmobilstellplatz.svg" ;
-    ns2:code "67101250" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67101250_XE_Autoverkehr_Wohnmobilstellplatz.svg" ;
+    ns1:code "67101250" ;
+    ns1:sinceVersion "1.0" .
 

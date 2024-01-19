@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:11401610_XE_Unterkunft_Jugendzeltplatz a owl:Class ;
+ns1:11401610_XE_Unterkunft_Jugendzeltplatz a owl:Class ;
     rdfs:label "Jugendzeltplatz"@de ;
-    rdfs:subClassOf ns2:XE_Unterkunft ;
+    rdfs:subClassOf ns1:XE_Unterkunft ;
     owl:equivalentClass [ ] ;
     skos:definition "Bewirtschafteter Platz oder Fläche für Kinder und Jugendliche, auf der gegen Entgelt gezeltet oder gecampt werden kann."@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11401610_XE_Unterkunft_Jugendzeltplatz.svg" ;
-    ns2:code "11401610" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11401610_XE_Unterkunft_Jugendzeltplatz.svg" ;
+    ns1:code "11401610" ;
+    ns1:sinceVersion "1.0" .
 

@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:72301610_XE_Einzelhandel_AntiquitaetenKunstgeschaeft a owl:Class ;
+ns2:72301610_XE_Einzelhandel_AntiquitaetenKunstgeschaeft a owl:Class ;
     rdfs:label "AntiquitaetenKunstgeschaeft"@de ;
-    rdfs:subClassOf ns1:XE_Einzelhandel ;
+    rdfs:subClassOf ns2:XE_Einzelhandel ;
     owl:equivalentClass [ ] ;
     skos:definition "Geschäft zum Verkauf von Antiquitäten und Kunst"@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72301610_XE_Einzelhandel_AntiquitaetenKunstgeschaeft.svg" ;
-    ns1:code "72301610" ;
-    ns1:sinceVersion "3.1" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72301610_XE_Einzelhandel_AntiquitaetenKunstgeschaeft.svg" ;
+    ns2:code "72301610" ;
+    ns2:sinceVersion "3.1" .
 

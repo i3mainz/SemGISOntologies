@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:21101150_XE_Museum_MuseumUrFruehgeschichte a owl:Class ;
+ns2:21101150_XE_Museum_MuseumUrFruehgeschichte a owl:Class ;
     rdfs:label "MuseumUrFruehgeschichte"@de ;
-    rdfs:subClassOf ns1:XE_Museum ;
+    rdfs:subClassOf ns2:XE_Museum ;
     owl:equivalentClass [ ] ;
     skos:definition "'Museum mit dem Themenschwerpunkt ''Ur- und Frühgeschichte''.'"@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/21101150_XE_Museum_MuseumUrFruehgeschichte.svg" ;
-    ns1:code "21101150" ;
-    ns1:sinceVersion "1.0" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/21101150_XE_Museum_MuseumUrFruehgeschichte.svg" ;
+    ns2:code "21101150" ;
+    ns2:sinceVersion "1.0" .
 

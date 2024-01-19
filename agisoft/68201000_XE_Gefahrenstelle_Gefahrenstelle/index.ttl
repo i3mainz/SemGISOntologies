@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:68201000_XE_Gefahrenstelle_Gefahrenstelle a owl:Class ;
+ns2:68201000_XE_Gefahrenstelle_Gefahrenstelle a owl:Class ;
     rdfs:label "Gefahrenstelle"@de ;
-    rdfs:subClassOf ns1:XE_Gefahrenstelle ;
+    rdfs:subClassOf ns2:XE_Gefahrenstelle ;
     owl:equivalentClass [ ] ;
     skos:definition "Gefahrenstelle, Kreuzung von Verkehrswegen für Kinder, Reiter, Radfahrer und weitere Verkehrteilnehmer"@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/68201000_XE_Gefahrenstelle_Gefahrenstelle.svg" ;
-    ns1:code "68201000" ;
-    ns1:sinceVersion "2.8" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/68201000_XE_Gefahrenstelle_Gefahrenstelle.svg" ;
+    ns2:code "68201000" ;
+    ns2:sinceVersion "2.8" .
 

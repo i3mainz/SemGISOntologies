@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:31102500_XE_NaturLandschaft_Berg a owl:Class ;
+ns2:31102500_XE_NaturLandschaft_Berg a owl:Class ;
     rdfs:label "Berg"@de ;
-    rdfs:subClassOf ns1:XE_NaturLandschaft ;
+    rdfs:subClassOf ns2:XE_NaturLandschaft ;
     owl:equivalentClass [ ] ;
     skos:definition "Geländeform, die sich über die Umgebung erhebt"@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31102500_XE_NaturLandschaft_Berg.svg" ;
-    ns1:code "31102500" ;
-    ns1:sinceVersion "1.0" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31102500_XE_NaturLandschaft_Berg.svg" ;
+    ns2:code "31102500" ;
+    ns2:sinceVersion "1.0" .
 

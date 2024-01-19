@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:31304550_XE_Sport_DrachenflugParagliding a owl:Class ;
+ns1:31304550_XE_Sport_DrachenflugParagliding a owl:Class ;
     rdfs:label "DrachenflugParagliding"@de ;
-    rdfs:subClassOf ns2:XE_Sport ;
+    rdfs:subClassOf ns1:XE_Sport ;
     owl:equivalentClass [ ] ;
     skos:definition "'Gelände (i.d.R. ''Wiese am Hang'') mit Startgelegenheit für Drachenflieger oder Paraglider.'"@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31304550_XE_Sport_DrachenflugParagliding.svg" ;
-    ns2:code "31304550" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31304550_XE_Sport_DrachenflugParagliding.svg" ;
+    ns1:code "31304550" ;
+    ns1:sinceVersion "1.0" .
 

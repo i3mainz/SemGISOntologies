@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:61101100_XE_SchuleAllgemein_HauptRealschule a owl:Class ;
+ns2:61101100_XE_SchuleAllgemein_HauptRealschule a owl:Class ;
     rdfs:label "HauptRealschule"@de ;
-    rdfs:subClassOf ns1:XE_SchuleAllgemein ;
+    rdfs:subClassOf ns2:XE_SchuleAllgemein ;
     owl:equivalentClass [ ] ;
     skos:definition "Allgemeinbildende weiterführende Schule der Klassenstufen 5 bis 9 bzw. 10 mit dem Hauptschul-Abschluss (Berufsschulreife) bzw. dem Realschul-Abschluss Mittlere Reife (Fachoberschulreife)."@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/61101100_XE_SchuleAllgemein_HauptRealschule.svg" ;
-    ns1:code "61101100" ;
-    ns1:sinceVersion "1.0" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/61101100_XE_SchuleAllgemein_HauptRealschule.svg" ;
+    ns2:code "61101100" ;
+    ns2:sinceVersion "1.0" .
 

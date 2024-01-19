@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:72401320_XE_Dienstleistung_GeldverleihPfandleihe a owl:Class ;
+ns2:72401320_XE_Dienstleistung_GeldverleihPfandleihe a owl:Class ;
     rdfs:label "GeldverleihPfandleihe"@de ;
-    rdfs:subClassOf ns1:XE_Dienstleistung ;
+    rdfs:subClassOf ns2:XE_Dienstleistung ;
     owl:equivalentClass [ ] ;
     skos:definition "Geldverleiher, der Kleinkredite gegen hohe Zinssätze anbietet, oder Pfandgegenstände gegen Geld eintauscht."@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72401320_XE_Dienstleistung_GeldverleihPfandleihe.svg" ;
-    ns1:code "72401320" ;
-    ns1:sinceVersion "3.1" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72401320_XE_Dienstleistung_GeldverleihPfandleihe.svg" ;
+    ns2:code "72401320" ;
+    ns2:sinceVersion "3.1" .
 

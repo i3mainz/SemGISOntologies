@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:64201200_XE_Sammelstelle_Hundekotstation a owl:Class ;
+ns1:64201200_XE_Sammelstelle_Hundekotstation a owl:Class ;
     rdfs:label "Hundekotstation"@de ;
-    rdfs:subClassOf ns2:XE_Sammelstelle ;
+    rdfs:subClassOf ns1:XE_Sammelstelle ;
     owl:equivalentClass [ ] ;
     skos:definition "Spezieller Sammelbehälter für Hundekot, besteht oft aus Abfallbehälter und Tütenspender."@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/64201200_XE_Sammelstelle_Hundekotstation.svg" ;
-    ns2:code "64201200" ;
-    ns2:sinceVersion "2.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/64201200_XE_Sammelstelle_Hundekotstation.svg" ;
+    ns1:code "64201200" ;
+    ns1:sinceVersion "2.0" .
 

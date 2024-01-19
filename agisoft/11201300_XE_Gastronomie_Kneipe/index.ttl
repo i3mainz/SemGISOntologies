@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:11201300_XE_Gastronomie_Kneipe a owl:Class ;
+ns1:11201300_XE_Gastronomie_Kneipe a owl:Class ;
     rdfs:label "Kneipe"@de ;
-    rdfs:subClassOf ns2:XE_Gastronomie ;
+    rdfs:subClassOf ns1:XE_Gastronomie ;
     owl:equivalentClass [ ] ;
     skos:definition "Schankwirtschaft (Gaststätte), die hauptsächlich dem Konsum von Bier, aber auch anderen alkoholischen und nicht-alkoholischen Getränken dient. Da in Kneipen häufig auch kleine Speisen angeboten werden, ist die Grenze zum Restaurant fließend."@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11201300_XE_Gastronomie_Kneipe.svg" ;
-    ns2:code "11201300" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11201300_XE_Gastronomie_Kneipe.svg" ;
+    ns1:code "11201300" ;
+    ns1:sinceVersion "1.0" .
 

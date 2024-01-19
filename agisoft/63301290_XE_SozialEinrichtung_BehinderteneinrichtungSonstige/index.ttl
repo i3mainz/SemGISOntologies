@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:63301290_XE_SozialEinrichtung_BehinderteneinrichtungSonstige a owl:Class ;
+ns1:63301290_XE_SozialEinrichtung_BehinderteneinrichtungSonstige a owl:Class ;
     rdfs:label "BehinderteneinrichtungSonstige"@de ;
-    rdfs:subClassOf ns2:XE_SozialEinrichtung ;
+    rdfs:subClassOf ns1:XE_SozialEinrichtung ;
     owl:equivalentClass [ ] ;
     skos:definition "Sonstige soziale Einrichtung für Menschen mit Behinderungen, die nicht zu den bisher Aufgeführten zählt, um eine gesellschaftliche und wirtschaftliche Teilhabe bzw. Teilnahme barrierearm zu ermöglichen."@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301290_XE_SozialEinrichtung_BehinderteneinrichtungSonstige.svg" ;
-    ns2:code "63301290" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301290_XE_SozialEinrichtung_BehinderteneinrichtungSonstige.svg" ;
+    ns1:code "63301290" ;
+    ns1:sinceVersion "1.0" .
 

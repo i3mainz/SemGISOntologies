@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:63301820_XE_SozialEinrichtung_Fluechtlingsunterkunft a owl:Class ;
+ns1:63301820_XE_SozialEinrichtung_Fluechtlingsunterkunft a owl:Class ;
     rdfs:label "Fluechtlingsunterkunft"@de ;
-    rdfs:subClassOf ns2:XE_SozialEinrichtung ;
+    rdfs:subClassOf ns1:XE_SozialEinrichtung ;
     owl:equivalentClass [ ] ;
     skos:definition "Soziale Einrichtung zur Unterbringung von Zuwanderern, wie Notunterkünfte oder Wohnheime."@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301820_XE_SozialEinrichtung_Fluechtlingsunterkunft.svg" ;
-    ns2:code "63301820" ;
-    ns2:sinceVersion "2.8" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301820_XE_SozialEinrichtung_Fluechtlingsunterkunft.svg" ;
+    ns1:code "63301820" ;
+    ns1:sinceVersion "2.8" .
 

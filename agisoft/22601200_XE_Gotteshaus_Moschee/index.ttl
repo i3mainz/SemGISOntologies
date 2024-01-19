@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.wikidata.org/entity/Property:> .
-@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns2:22601200_XE_Gotteshaus_Moschee a owl:Class ;
+ns1:22601200_XE_Gotteshaus_Moschee a owl:Class ;
     rdfs:label "Moschee"@de ;
-    rdfs:subClassOf ns2:XE_Gotteshaus ;
+    rdfs:subClassOf ns1:XE_Gotteshaus ;
     owl:equivalentClass [ ] ;
     skos:definition "Muslimisches Gebetshaus mit besonderer touristischer Bedeutung (Baustil, Historie, Inventar). "@de ;
-    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22601200_XE_Gotteshaus_Moschee.svg" ;
-    ns2:code "22601200" ;
-    ns2:sinceVersion "1.0" .
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22601200_XE_Gotteshaus_Moschee.svg" ;
+    ns1:code "22601200" ;
+    ns1:sinceVersion "1.0" .
 

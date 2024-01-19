@@ -1,15 +1,15 @@
-@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
-@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ns1:22301200_XE_TechnischesBauwerk_Schiffshebewerk a owl:Class ;
+ns2:22301200_XE_TechnischesBauwerk_Schiffshebewerk a owl:Class ;
     rdfs:label "Schiffshebewerk"@de ;
-    rdfs:subClassOf ns1:XE_TechnischesBauwerk ;
+    rdfs:subClassOf ns2:XE_TechnischesBauwerk ;
     owl:equivalentClass [ ] ;
     skos:definition "Technische Anlage für Schiffe, welche zur Überwindung von großen Höhenunterschieden auf Kanälen dient. "@de ;
-    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22301200_XE_TechnischesBauwerk_Schiffshebewerk.svg" ;
-    ns1:code "22301200" ;
-    ns1:sinceVersion "1.0" .
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22301200_XE_TechnischesBauwerk_Schiffshebewerk.svg" ;
+    ns2:code "22301200" ;
+    ns2:sinceVersion "1.0" .
 
