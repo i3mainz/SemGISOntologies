@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_NaturLandschaftTypen_1702> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#RP_NaturLandschaftTypen> ;
+    rdfs:label "1702" ;
+    rdfs:comment "Biotopverbundsachse."@de .
+

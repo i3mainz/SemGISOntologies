@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_TextAbschnitt> a owl:Class ;
+    rdfs:label "XP_TextAbschnitt"@de,
+        "XP_TextAbschnitt"@en ;
+    ns1:propOrder "schluessel;gesetzlicheGrundlage;text;refText" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Ein Abschnitt der textlich formulierten Inhalte  des Plans."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.opengis.net/gml/3.2#AbstractFeature>,
+        <http://www.xplanung.de/xplangml/5/0#XPlanung5> .
+

@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_URLAttribut> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "XP_URLAttribut"@de,
+        "XP_URLAttribut"@en ;
+    ns1:propOrder "wert" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Generische Attribute vom Datentyp "URL"
+"""@de ;
+    rdfs:subClassOf [ ],
+        <http://www.xplanung.de/xplangml/5/0#XP_GenerAttribut> ;
+    rdfs:subPropertyOf <http://www.xplanung.de/xplangml/5/0#XP_GenerAttribut>,
+        <http://www.xplanung.de/xplangml/5/0#XPlanung5Property> .
+

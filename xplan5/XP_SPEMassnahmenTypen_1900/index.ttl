@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_SPEMassnahmenTypen_1900> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#XP_SPEMassnahmenTypen> ;
+    rdfs:label "1900" ;
+    rdfs:comment "Als Grünlandbrachen werden solche Biotope angesprochen, die seit kurzer Zeit aus der Nutzung herausgenommen worden sind. Sie entstehen, indem Grünland mindestens eine Vegetationsperiode nicht mehr bewirtschaftet wird."@de .
+

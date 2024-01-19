@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_Rechtsstand_2200> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#BP_Rechtsstand> ;
+    rdfs:label "2200" ;
+    rdfs:comment "Die frühzeitige Beteiligung der Öffentlichkeit (§ 3 Abs. 1 BauGB), bzw. bei einem Verfahren nach § 13a BauGB die Unterrichtung der Öffentlichkeit (§ 13a Abs. 3 BauGB) hat stattgefunden."@de .
+

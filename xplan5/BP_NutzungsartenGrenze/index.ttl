@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_NutzungsartenGrenze> a owl:Class ;
+    rdfs:label "BP_NutzungsartenGrenze"@de ;
+    ns1:propOrder "typ;detailTyp" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Abgrenzung unterschiedlicher Nutzung, z.B. von Baugebieten wenn diese nach PlanzVO in der gleichen Farbe dargestellt werden, oder Abgrenzung unterschiedlicher Nutzungsmaße innerhalb eines Baugebiets (\"Knödellinie\", § 1 Abs. 4, § 16 Abs. 5 BauNVO)."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Linienobjekt> .
+

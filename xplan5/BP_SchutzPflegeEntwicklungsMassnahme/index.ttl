@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_SchutzPflegeEntwicklungsMassnahme> a owl:Class ;
+    rdfs:label "BP_SchutzPflegeEntwicklungsMassnahme"@de ;
+    ns1:propOrder "ziel;sonstZiel;massnahme;istAusgleich;refMassnahmenText;refLandschaftsplan" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft (§9 Abs. 1 Nr. 20 und Abs. 4 BauGB)."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Geometrieobjekt> .
+

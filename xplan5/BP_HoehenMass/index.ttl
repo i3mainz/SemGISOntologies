@@ -1,0 +1,10 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_HoehenMass> a owl:Class ;
+    rdfs:label "BP_HoehenMass"@de ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Festsetzungen nach §9 Abs. 1 Nr. 1 BauGB für übereinanderliegende Geschosse und Ebenen und sonstige Teile baulicher Anlagen (§9 Abs.3 BauGB), sowie Hinweise auf Geländehöhen. Die Höhenwerte werden über das Attribut <i>hoehenangabe </i>der Basisklasse <i>XP_Objekt </i>spezifiziert."@de ;
+    rdfs:subClassOf <http://www.xplanung.de/xplangml/5/0#BP_Geometrieobjekt> .
+

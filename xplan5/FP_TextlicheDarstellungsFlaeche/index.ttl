@@ -1,0 +1,10 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#FP_TextlicheDarstellungsFlaeche> a owl:Class ;
+    rdfs:label "FP_TextlicheDarstellungsFlaeche"@de ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Bereich, in dem bestimmte Textliche Darstellungen gültig sind, die über die Relation \"<i>refTextInhalt</i>\" (Basisklasse <i>FP_Objekt</i>) spezifiziert werden."@de ;
+    rdfs:subClassOf <http://www.xplanung.de/xplangml/5/0#FP_Ueberlagerungsobjekt> .
+

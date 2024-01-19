@@ -1,0 +1,12 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XPlanung5> a owl:Class,
+        owl:DatatypeProperty ;
+    rdfs:label "XPlanung5"@en ;
+    ns1:abstractClass "true"^^<http://www.w3.org/2001/XMLSchemaboolean> ;
+    ns1:standard "xplanung"@en ;
+    rdfs:subClassOf geo:Feature .
+

@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Hochwasserschutz> a owl:Class ;
+    rdfs:label "RP_Hochwasserschutz"@de ;
+    ns1:propOrder "typ" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Die Klasse RP_Hochwasserschutz enthält Hochwasserschutz und vorbeugenden Hochwasserschutz.
+Hochwasserschutz und vorbeugender Hochwasserschutz beinhaltet den Schutz von Siedlungen, Nutz- und Verkehrsflächen vor Überschwemmungen. Im Binnenland besteht der Hochwasserschutz vor allem in der Sicherung und Rückgewinnung von Auen, Wasserrückhalteflächen (Retentionsflächen) und überschwemmungsgefährdeten Bereichen. An der Nord- und Ostsee erfolgt der Schutz vor Sturmfluten hauptsächlich durch Deiche und Siele (Küstenschutz)."""@de ;
+    rdfs:subClassOf [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Freiraum> .
+

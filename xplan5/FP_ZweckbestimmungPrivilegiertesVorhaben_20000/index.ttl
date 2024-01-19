@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#FP_ZweckbestimmungPrivilegiertesVorhaben_20000> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#FP_ZweckbestimmungPrivilegiertesVorhaben> ;
+    rdfs:label "20000" ;
+    rdfs:comment "Vorhaben der Erforschung, Entwicklung oder Nutzung der Kernenergie zu friedlichen Zwecken."@de .
+

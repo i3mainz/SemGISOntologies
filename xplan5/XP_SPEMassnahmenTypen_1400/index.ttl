@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_SPEMassnahmenTypen_1400> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#XP_SPEMassnahmenTypen> ;
+    rdfs:label "1400" ;
+    rdfs:comment "Obstwiesen umfassen mittel- oder hochstämmige, großkronige Obstbäume auf beweidetem (Obstweide) oder gemähtem (obstwiese) Grünland. Im Optimalfall setzt sich der aufgelockerte Baumbestand aus verschiedenen, möglichst alten, regional-typischen Kultursorten zusammen."@de .
+

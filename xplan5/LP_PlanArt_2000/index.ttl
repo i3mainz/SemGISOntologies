@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#LP_PlanArt_2000> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#LP_PlanArt> ;
+    rdfs:label "2000" ;
+    rdfs:comment "Die überörtlichen konkretisierten Ziele, Erfordernisse und Maßnahmen des Naturschutzes und der Landschaftspflege werden für Teile des Landes in Landschaftsrahmenplänen dargestellt (§ 10, Abs .1 BNatSchG)"@de .
+

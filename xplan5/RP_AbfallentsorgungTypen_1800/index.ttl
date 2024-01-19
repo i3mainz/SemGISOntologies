@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_AbfallentsorgungTypen_1800> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#RP_AbfallentsorgungTypen> ;
+    rdfs:label "1800" ;
+    rdfs:comment "Standortsicherung."@de .
+

@@ -1,0 +1,12 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Klimaschutz> a owl:Class ;
+    rdfs:label "RP_Klimaschutz"@de ;
+    ns1:propOrder "typ" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "(Siedlungs-) Klimaschutz. Beinhaltet zum Beispiel auch Kalt- und Frischluftschneisen."@de ;
+    rdfs:subClassOf [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Freiraum> .
+

@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#LP_ErholungFreizeit> a owl:Class ;
+    rdfs:label "LP_ErholungFreizeit"@de ;
+    ns1:propOrder "funktion;detaillierteFunktion" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Sonstige Gebiete, Objekte, Zweckbestimmungen oder Maßnahmen mit besonderen Funktionen für die landschaftsgebundene Erholung und Freizeit."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#LP_Geometrieobjekt> .
+

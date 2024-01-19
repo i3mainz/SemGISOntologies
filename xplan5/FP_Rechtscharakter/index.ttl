@@ -1,0 +1,10 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#FP_Rechtscharakter> a owl:Class ;
+    rdfs:label "FP_Rechtscharakter"@de ;
+    ns1:standard "xplanung"@en ;
+    rdfs:subClassOf <http://www.xplanung.de/xplangml/5/0#Enumeration> ;
+    owl:equivalentClass [ ] .
+
