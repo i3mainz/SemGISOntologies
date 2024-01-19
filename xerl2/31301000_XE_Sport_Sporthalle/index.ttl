@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:31301000_XE_Sport_Sporthalle a owl:Class ;
+    rdfs:label "Sporthalle"@de ;
+    rdfs:subClassOf ns1:XE_Sport ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Sporthalle für mehrere Sportarten. Vormals 31301000 mit Inoutdoor=indoor."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31301000_XE_Sport_Sporthalle.svg" ;
+    ns1:code "31301005" ;
+    ns1:sinceVersion "2.9" .
+

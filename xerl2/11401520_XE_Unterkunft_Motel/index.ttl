@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:11401520_XE_Unterkunft_Motel a owl:Class ;
+    rdfs:label "Motel"@de ;
+    rdfs:subClassOf ns1:XE_Unterkunft ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Gebäude oder Einrichtung zur Beherbergung von Gästen i.d.R. in Nachbarschaft zu großen Verkehrsachsen."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11401520_XE_Unterkunft_Motel.svg" ;
+    ns1:code "11401520" ;
+    ns1:sinceVersion "1.0" .
+

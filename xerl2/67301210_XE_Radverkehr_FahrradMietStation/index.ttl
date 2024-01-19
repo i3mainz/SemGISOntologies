@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:67301210_XE_Radverkehr_FahrradMietStation a owl:Class ;
+    rdfs:label "FahrradMietStation"@de ;
+    rdfs:subClassOf ns2:XE_Radverkehr ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Station des öffentlichen Fahrradangebots"@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67301210_XE_Radverkehr_FahrradMietStation.svg" ;
+    ns2:code "67301210" ;
+    ns2:sinceVersion "2.0" .
+

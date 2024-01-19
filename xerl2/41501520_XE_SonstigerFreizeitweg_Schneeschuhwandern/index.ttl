@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:41501520_XE_SonstigerFreizeitweg_Schneeschuhwandern a owl:Class ;
+    rdfs:label "Schneeschuhwandern"@de ;
+    rdfs:subClassOf ns1:XE_SonstigerFreizeitweg ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Verlauf einer ausgewiesenen Schneeschuhwanderstrecke. "@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/41501520_XE_SonstigerFreizeitweg_Schneeschuhwandern.svg" ;
+    ns1:code "41501520" ;
+    ns1:sinceVersion "1.0" .
+

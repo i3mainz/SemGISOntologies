@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.xerleben.de/schema/2.0_1/bezeichnung> a owl:DatatypeProperty,
+        owl:ObjectProperty ;
+    rdfs:label "bezeichnung"@de ;
+    rdfs:domain <http://www.xerleben.de/schema/2.0_1/XE_Praedikat> ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> ;
+    skos:definition "Name oder Bezeichnung eines Prädikates"@de .
+

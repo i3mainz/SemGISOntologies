@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:51109900_XE_Veranstaltung_VeranstaltungSonstige a owl:Class ;
+    rdfs:label "VeranstaltungSonstige"@de ;
+    rdfs:subClassOf ns2:XE_Veranstaltung ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Sonstige Veranstaltung, die keiner hier angeführten Kategorie entspricht."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/51109900_XE_Veranstaltung_VeranstaltungSonstige.svg" ;
+    ns2:code "51109900" ;
+    ns2:sinceVersion "1.0" .
+

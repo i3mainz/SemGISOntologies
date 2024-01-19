@@ -1,0 +1,12 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_Bildung a owl:Class ;
+    rdfs:label "XE_Bildung"@de ;
+    rdfs:subClassOf ns1:XE_OrtVonInteresse ;
+    skos:definition "Orte von Interesse aus der Kategorie Bildung umfassen Objekte aus den Bereichen Allgemeinbildende Schulen, Weiterbildung, Hochschule und Wissenschaft, Mediatheken und Spezialschulen."@de ;
+    ns1:code "61000000" ;
+    ns1:sinceVersion "1.0" .
+

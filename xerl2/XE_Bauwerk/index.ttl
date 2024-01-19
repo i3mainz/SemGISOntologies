@@ -1,0 +1,19 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_Bauwerk a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "EN_Bauwerke"@de,
+        "XE_Bauwerk"@de ;
+    rdfs:range ns1:XE_Bauwerk ;
+    rdfs:subClassOf ns1:XE_OrtVonInteresse ;
+    rdfs:subPropertyOf ns1:XE_OrtVonInteresse,
+        ns1:XErleben2 ;
+    skos:definition "Orte von Interesse aus dem Bereich umfassen Objekte aus den Kategorien Siedlung, Bauwerk, technisches Bauwerk, Landmarke, Aussichtspunkt, Gotteshaus und Religiöses."@de,
+        "Orte von Interesse aus der Kategorie Bauwerk umfassen Objekte wie Stadtbefestigungen, Burgen, Schlösser, die sich durch ihre Historie oder besondere Architektur auszeichnen."@de ;
+    ns1:code "22000000",
+        "22200000" ;
+    ns1:sinceVersion "1.0" .
+

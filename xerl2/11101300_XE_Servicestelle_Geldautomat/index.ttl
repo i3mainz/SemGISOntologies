@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:11101300_XE_Servicestelle_Geldautomat a owl:Class ;
+    rdfs:label "Geldautomat"@de ;
+    rdfs:subClassOf ns2:XE_Servicestelle ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Technische Einrichtung bzw. technisches Gerät zur Bargeldabhebung oder auch -einzahlung bei Geld- und Kreditinstituten. "@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11101300_EN_Servicestelle_Geldautomat",
+        "http://www.xerleben.de/signaturen/2.8/standard/svg/11101300_XE_Servicestelle_Geldautomat.svg" ;
+    ns2:code "11101300" ;
+    ns2:sinceVersion "2.0" .
+

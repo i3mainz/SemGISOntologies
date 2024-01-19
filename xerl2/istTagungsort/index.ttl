@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.xerleben.de/schema/2.0_1/istTagungsort> a owl:DatatypeProperty,
+        owl:ObjectProperty ;
+    rdfs:label "istTagungsort"@de ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> ;
+    skos:definition "Information zu der Frage, ob ein Veranstaltungsort als Tagungsort geeignet ist, beispielsweise indem er die notwendige Ausstattung aufweist (Ja/Nein)."@de .
+

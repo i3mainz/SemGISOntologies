@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:71201300_XE_Gewerbeimmobilie_Industrieflaeche a owl:Class ;
+    rdfs:label "Industrieflaeche"@de ;
+    rdfs:subClassOf ns1:XE_Gewerbeimmobilie ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Freie zu vermarktende Industriefläche, z.B. Grundstück im Industriegebiet."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/71201300_XE_Gewerbeimmobilie_Industrieflaeche.svg" ;
+    ns1:code "71201300" ;
+    ns1:sinceVersion "1.0" .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:67101040_XE_Autoverkehr_Parkhaus a owl:Class ;
+    rdfs:label "Parkhaus"@de ;
+    rdfs:subClassOf ns1:XE_Autoverkehr ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Gebäude oder Untergeschoss eines Gebäudes, das zum Parken von PKW dient (i.d.R. kostenpflichtig). "@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67101040_XE_Autoverkehr_Parkhaus.svg" ;
+    ns1:code "67101040" ;
+    ns1:sinceVersion "1.0" .
+

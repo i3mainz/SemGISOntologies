@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.xerleben.de/schema/2.0_1/XE_ART_BESCHILDERUNG_Knotenpunktwegweiser> a owl:NamedIndividual,
+        <http://www.xerleben.de/schema/2.0_1/XE_ART_BESCHILDERUNG> ;
+    rdfs:label "Knotenpunktwegweiser" ;
+    skos:definition "Genormter Wegweiser für Radverkehrsnetz"@de .
+

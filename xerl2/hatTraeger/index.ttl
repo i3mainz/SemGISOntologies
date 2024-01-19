@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/hatTraeger> a owl:ObjectProperty ;
+    rdfs:label "hatTraeger"@de ;
+    rdfs:domain <http://www.xerleben.de/schema/2.0_1/XE_Traegerabschnitt> ;
+    rdfs:range <http://www.xerleben.de/schema/2.0_1/XE_OrtVonInteresse> ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> .
+
