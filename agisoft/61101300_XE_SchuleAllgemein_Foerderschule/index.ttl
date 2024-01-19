@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:61101300_XE_SchuleAllgemein_Foerderschule a owl:Class ;
+    rdfs:label "Foerderschule"@de ;
+    rdfs:subClassOf ns2:XE_SchuleAllgemein ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Förderschulen noch weiter differenzieren! Eine Förderschule ist eine Schule für Schüler, die in ihren Bildungs-, Entwicklungs- und Lernmöglichkeiten schwer beeinträchtigt sind."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/61101300_XE_SchuleAllgemein_Foerderschule.svg" ;
+    ns2:code "61101300" ;
+    ns2:sinceVersion "1.0" .
+

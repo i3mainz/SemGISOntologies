@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:31101030_XE_NaturLandschaft_Kleingartenanlage a owl:Class ;
+    rdfs:label "Kleingartenanlage"@de ;
+    rdfs:subClassOf ns1:XE_NaturLandschaft ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Anlage von abgeteilten Grundstücken, die von Vereinen (Kleingärtnervereinen, Kleingartenvereinen) verwaltet und günstig an Mitglieder als Gartenland verpachtet werden"@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31101030_XE_NaturLandschaft_Kleingartenanlage.svg" ;
+    ns1:code "31101030" ;
+    ns1:sinceVersion "1.0" .
+

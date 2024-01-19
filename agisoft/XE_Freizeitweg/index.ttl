@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_Freizeitweg a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "XE_Freizeitweg"@de ;
+    rdfs:range ns1:XE_Freizeitweg ;
+    rdfs:subClassOf [ ],
+        ns1:XE_OrtVonInteresse ;
+    rdfs:subPropertyOf ns1:XE_OrtVonInteresse,
+        ns1:XErleben2 ;
+    skos:definition "Ein Freizeitweg ist eine bezeichnete Route, die sich in der Regel aus Wegabschnitten zusammensetzt."@de,
+        "Orte von Interesse aus dem Bereich Freizeitweg gliedern sich in Wege für verschiedenen Nutzer auf."@de ;
+    ns1:code "40000000" ;
+    ns1:sinceVersion "1.0" .
+

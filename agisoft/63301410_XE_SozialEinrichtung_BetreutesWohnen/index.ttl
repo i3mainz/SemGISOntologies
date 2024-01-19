@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:63301410_XE_SozialEinrichtung_BetreutesWohnen a owl:Class ;
+    rdfs:label "BetreutesWohnen"@de ;
+    rdfs:subClassOf ns1:XE_SozialEinrichtung ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Als betreutes Wohnen werden Wohnformen bezeichnet, in denen Menschen möglichst autonom wohnen können und gleichzeitig in Hinblick auf ihre individuellen Probleme betreut und unterstützt werden."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301410_XE_SozialEinrichtung_BetreutesWohnen.svg" ;
+    ns1:code "63301410" ;
+    ns1:sinceVersion "1.0" .
+

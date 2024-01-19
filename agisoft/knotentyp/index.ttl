@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/knotentyp> a owl:ObjectProperty ;
+    rdfs:label "knotentyp"@de ;
+    rdfs:domain <http://www.xerleben.de/schema/2.0_1/XE_Wegknoten> ;
+    rdfs:range <http://www.xerleben.de/schema/2.0_1/XE_KNOTENTYP> ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> .
+

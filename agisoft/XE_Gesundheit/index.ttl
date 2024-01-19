@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_Gesundheit a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "XE_Gesundheit"@de ;
+    rdfs:range ns1:XE_Gesundheit ;
+    rdfs:subClassOf ns1:XE_OrtVonInteresse ;
+    rdfs:subPropertyOf ns1:XE_OrtVonInteresse,
+        ns1:XErleben2 ;
+    skos:definition "Funktionen der Kategorie XE_Gesundheit sind Arztpraxen, Krankenhäuser, Apotheken etc. Eine Differenzierung nach medizinischem Fach erfolgt ggf über die Attributierung."@de,
+        "Orte von Interesse aus der Kategorie Gesundheit werden in die Funktionen KrankenhausKlinik, RehaKlinik, Arztpraxis, NotfallAmbulanz, Apotheke etc. unterteilt."@de ;
+    ns1:code "63100000" ;
+    ns1:sinceVersion "1.0" .
+

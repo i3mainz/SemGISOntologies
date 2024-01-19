@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:31305020_XE_Sport_SeilgartenKlettergarten a owl:Class ;
+    rdfs:label "SeilgartenKlettergarten"@de ;
+    rdfs:subClassOf ns2:XE_Sport ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Künstliche Anlage i.d.R. unter freiem Himmel, in der gesapnnte Seile sowie Strickleitern, Hängebrücken und Holzbalken als Kletterelemente dienen. "@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31305020_XE_Sport_SeilgartenKlettergarten.svg" ;
+    ns2:code "31305020" ;
+    ns2:sinceVersion "1.0" .
+

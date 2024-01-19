@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:31302200_XE_Sport_Wasserski a owl:Class ;
+    rdfs:label "Wasserski"@de ;
+    rdfs:subClassOf ns2:XE_Sport ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Anlage/Einrichtung, die zum Wasserskifahren genutzt werden kann, i.d.R. gegen Entgelt. Gewässer (See, Fluß, Kanal) auf dem das Wasserskifahren erlaubt ist."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/31302200_XE_Sport_Wasserski.svg" ;
+    ns2:code "31302200" ;
+    ns2:sinceVersion "1.0" .
+

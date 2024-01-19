@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:67101210_XE_Autoverkehr_Autobahnparkplatz a owl:Class ;
+    rdfs:label "Autobahnparkplatz"@de ;
+    rdfs:subClassOf ns2:XE_Autoverkehr ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Parkplatzanlage entlang einer Autobahn ohne kommerzielle Dienstleistungen wie Tankstellen, Restaurants, etc."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/67101210_XE_Autoverkehr_Autobahnparkplatz.svg" ;
+    ns2:code "67101210" ;
+    ns2:sinceVersion "1.0" .
+

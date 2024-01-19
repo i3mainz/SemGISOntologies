@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:22301310_XE_TechnischesBauwerk_Aquaedukt a owl:Class ;
+    rdfs:label "Aquaedukt"@de ;
+    rdfs:subClassOf ns1:XE_TechnischesBauwerk ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Aquädukt mit besonderer touristischer Bedeutung (z.B. Historie, Größe, Höhe o.ä.). "@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22301310_XE_TechnischesBauwerk_Aquaedukt.svg" ;
+    ns1:code "22301310" ;
+    ns1:sinceVersion "1.0" .
+

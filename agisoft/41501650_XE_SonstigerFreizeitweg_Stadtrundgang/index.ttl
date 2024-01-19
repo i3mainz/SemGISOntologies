@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:41501650_XE_SonstigerFreizeitweg_Stadtrundgang a owl:Class ;
+    rdfs:label "Stadtrundgang"@de ;
+    rdfs:subClassOf ns1:XE_SonstigerFreizeitweg ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Ein Stadtrundgang führt Besucher an die touristisch oder historische interessanten Ort einer Stadt. Der Stadtrundgang kann ein markierter Weg mit Schautafeln oder ein nicht markierter Weg in Infobroschüren oder digitale Stadtrundgänge sein."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/41501650_XE_SonstigerFreizeitweg_Stadtrundgang.svg" ;
+    ns1:code "41501650" ;
+    ns1:sinceVersion "3.0" .
+

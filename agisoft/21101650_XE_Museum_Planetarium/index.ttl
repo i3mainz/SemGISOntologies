@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:21101650_XE_Museum_Planetarium a owl:Class ;
+    rdfs:label "Planetarium"@de ;
+    rdfs:subClassOf ns2:XE_Museum ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Gebäude oder Anlage zur Projektion eines künstlichen Sternenhimmel mit regelmäßigem Programm. "@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/21101650_XE_Museum_Planetarium.svg" ;
+    ns2:code "21101650" ;
+    ns2:sinceVersion "1.0" .
+

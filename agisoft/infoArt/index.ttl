@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/infoArt> a owl:ObjectProperty ;
+    rdfs:label "infoArt"@de ;
+    rdfs:domain <http://www.xerleben.de/schema/2.0_1/XE_Externe_Info> ;
+    rdfs:range <http://www.xerleben.de/schema/2.0_1/XE_INFOART> ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> .
+
