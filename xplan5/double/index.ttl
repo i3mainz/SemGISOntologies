@@ -1,4 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#double> a rdfs:Datatype .
-

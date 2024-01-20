@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xerleben.de/schema/2.0_1/XE_INFOART> a owl:Class ;
-    rdfs:label "EN_INFOART"@de ;
-    rdfs:subClassOf <http://www.xerleben.de/schema/2.0_1/Enumeration> ;
-    owl:equivalentClass [ ] .
-

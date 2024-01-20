@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#FP_ZweckbestimmungPrivilegiertesVorhaben_1600> a owl:NamedIndividual,
-        <http://www.xplanung.de/xplangml/5/0#FP_ZweckbestimmungPrivilegiertesVorhaben> ;
-    rdfs:label "1600" ;
-    rdfs:comment "Vorhaben nach §35 Abs. 1 Nr. 4 BauGB: Vorhaben, dass \"wegen seiner besonderen Anforderungen an die Umgebung, wegen seiner nachteiligen Wirkung auf die Umgebung oder wegen seiner besonderen Zweckbestimmung nur im Außenbereich ausgeführt werden soll\"."@de .
-

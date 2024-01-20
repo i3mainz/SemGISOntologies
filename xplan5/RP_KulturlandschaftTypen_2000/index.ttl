@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#RP_KulturlandschaftTypen_2000> a owl:NamedIndividual,
-        <http://www.xplanung.de/xplangml/5/0#RP_KulturlandschaftTypen> ;
-    rdfs:label "2000" ;
-    rdfs:comment "Welterbe. Von der UNESCO verliehener Titel an Stätten mit außergewöhnlichem, universellem Wert, die als \"Teile des Kultur- und Naturerbes von außergewöhnlicher Bedeutung sind und daher als Bestandteil des Welterbes der ganzen Menschheit erhalten werden müssen\" (Präambel der Welterbekonvention von 1972)"@de .
-

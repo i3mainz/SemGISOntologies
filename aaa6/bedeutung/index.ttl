@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#bedeutung> a owl:ObjectProperty ;
-    rdfs:label "bedeutung"@de ;
-    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_GrablochDerBodenschaetzung> ;
-    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bedeutung_GrablochDerBodenschaetzung> ;
-    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
-

@@ -1,4 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#duration> a rdfs:Datatype .
-

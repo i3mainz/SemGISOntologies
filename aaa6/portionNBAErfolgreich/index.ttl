@@ -1,4 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#portionNBAErfolgreich> a owl:ObjectProperty .
-

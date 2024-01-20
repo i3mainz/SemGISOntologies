@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#BP_Rechtscharakter_5000> a owl:NamedIndividual,
-        <http://www.xplanung.de/xplangml/5/0#BP_Rechtscharakter> ;
-    rdfs:label "5000" ;
-    rdfs:comment "Kennzeichnung von Flächen nach $9 Absatz 5 BauGB. Kennzeichnungen sind keine rechtsverbindlichen Festsetzungen, sondern Hinweise auf Besonderheiten (insbesondere der Baugrundverhältnisse), deren Kenntnis für das Verständnis des Bebauungsplans und seiner Festsetzungen wie auch für die Vorbereitung und Genehmigung von Vorhaben notwendig sind."@de .
-

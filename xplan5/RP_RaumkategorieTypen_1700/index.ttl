@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#RP_RaumkategorieTypen_1700> a owl:NamedIndividual,
-        <http://www.xplanung.de/xplangml/5/0#RP_RaumkategorieTypen> ;
-    rdfs:label "1700" ;
-    rdfs:comment "Raum mit besonderem Handlungsbedarf, zum Beispiel vor dem Hintergrund des demographischen Wandels."@de .
-
