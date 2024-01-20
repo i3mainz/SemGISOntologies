@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+[] a owl:Restriction,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "n936bc3bb5f3d4c478bcee8703a3ba85fb2645 [Restriction of ]"@en ;
+    owl:hasValue <http://www.geonames.org/ontology#L.CONT> ;
+    owl:onProperty <http://www.geonames.org/ontology#featureCode> .
+

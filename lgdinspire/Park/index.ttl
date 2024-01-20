@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linkedgeodata.org/ontology/Park> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:subClassOf [ ] ;
+    owl:equivalentClass [ ],
+        <http://schema.org/Park>,
+        <http://www.wikidata.org/entity/Q22698> .
+

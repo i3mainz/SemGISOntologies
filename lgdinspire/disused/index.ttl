@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://linkedgeodata.org/ontology/disused> a owl:DatatypeProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    owl:equivalentProperty <http://www.xerleben.de/schema/2.0_1/istStillgelegt> .
+

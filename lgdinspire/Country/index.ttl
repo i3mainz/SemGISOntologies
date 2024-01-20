@@ -1,0 +1,13 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linkedgeodata.org/ontology/Country> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Country"@en ;
+    rdfs:subClassOf <http://schema.org/AdministrativeArea> ;
+    owl:equivalentClass <http://rdf.geospecies.org/ont/geospecies#Country>,
+        <http://rdf.insee.fr/geo/Pays>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Nationalstaat>,
+        <http://www.wikidata.org/entity/Q6256> .
+

@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://linkedgeodata.org/ontology/Market> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    owl:equivalentClass [ ],
+        <http://www.wikidata.org/entity/Q2080521> .
+

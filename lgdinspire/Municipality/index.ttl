@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linkedgeodata.org/ontology/Municipality> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:subClassOf <http://inspire.ec.europa.eu/schemas/am/4.0#AdministrativeUnit> ;
+    owl:equivalentClass <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemeinde>,
+        <http://www.wikidata.org/entity/Q262166> .
+

@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://linkedgeodata.org/ontology/CommunityCenter> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    owl:equivalentClass [ ],
+        [ ],
+        <http://linkedgeodata.org/ontology/CommunityCentre>,
+        <http://www.wikidata.org/entity/Q77115> .
+
