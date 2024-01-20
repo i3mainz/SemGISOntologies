@@ -3,7 +3,7 @@ Ontologies developed in the SemanticGIS project
 
 The Semantic GIS project aims at the integration of heterogenous geospatial data from OGC compliant standards. For this purpose several ontologies have been extracted from common OGC formats and are published in this repository.
 
-The ontologies are as follows:
+The ontologies are as follows: 
 
 - [XPlanung](http://www.xplanungwiki.de/index.php?title=Xplanung_Wiki) Version 2,3,4,5 Ontology
 - [INSPIRE](http://inspire.ec.europa.eu) Version 4 Ontology
