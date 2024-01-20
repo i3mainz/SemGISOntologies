@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:71201200_XE_Gewerbeimmobilie_Gewerbeflaeche a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Gewerbeflaeche"@de ;
+    rdfs:subClassOf ns2:XE_Gewerbeimmobilie ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Freie zu vermarktende Gewerbefläche, z.B. Grundstück im Gewerbegebiet."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/71201200_XE_Gewerbeimmobilie_Gewerbeflaeche.svg" ;
+    ns2:code "71201200" ;
+    ns2:sinceVersion "1.0" .
+

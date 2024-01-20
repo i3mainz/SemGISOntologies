@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:22301230_XE_TechnischesBauwerk_Wehr a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Wehr"@de ;
+    rdfs:subClassOf ns1:XE_TechnischesBauwerk ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Stauwerk mit besonderer Touristischer Bedeutung (z.B. Historie, Erhaltungszustand o.ä.). "@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22301230_XE_TechnischesBauwerk_Wehr.svg" ;
+    ns1:code "22301230" ;
+    ns1:sinceVersion "1.0" .
+

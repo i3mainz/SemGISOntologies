@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:22601150_XE_Gotteshaus_Kloster a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Kloster"@de ;
+    rdfs:subClassOf ns1:XE_Gotteshaus ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Kloster oder Klostergebäude mit besonderer touristischer Bedeutung (Baustil, Historie, Inventar). "@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22601150_XE_Gotteshaus_Kloster.svg" ;
+    ns1:code "22601150" ;
+    ns1:sinceVersion "1.0" .
+
