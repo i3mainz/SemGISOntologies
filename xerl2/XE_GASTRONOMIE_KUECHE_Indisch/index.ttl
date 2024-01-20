@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/XE_GASTRONOMIE_KUECHE_Indisch> a owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.xerleben.de/schema/2.0_1/XE_GASTRONOMIE_KUECHE>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Indisch" .
+
