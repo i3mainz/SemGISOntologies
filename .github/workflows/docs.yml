@@ -8,6 +8,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     name: Ontdoc I      
     with: 
+          version: v017dev
           rdffilepath: AAA-Data/aaa6.ttl
           docpath: docs/aaa6/
           prefixns: http://www.adv-online.de/namespaces/adv/gid/6.0#
@@ -25,6 +26,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     name: Ontdoc II      
     with: 
+          version: v017dev
           rdffilepath: XPlanung/xplanung5_0.ttl
           docpath: docs/xplan5/
           prefixns: http://www.xplanung.de/xplangml/5/0#
@@ -42,6 +44,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     name: Ontdoc III      
     with: 
+          version: v017dev
           rdffilepath: XErleben/xerleben2_1.ttl_mod.ttl
           docpath: docs/xerleben2/
           prefixns: http://www.xerleben.de/schema/2.0_1/
