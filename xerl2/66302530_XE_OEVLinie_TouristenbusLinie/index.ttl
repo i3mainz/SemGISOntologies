@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:66302530_XE_OEVLinie_TouristenbusLinie a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "TouristenbusLinie"@de ;
+    rdfs:subClassOf ns2:XE_OEVLinie ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Linienverlauf eines Touristenbus. Eine Touristenbuslinie verbindet auf einer festen Route Sehenswürdigkeiten in einer Stadt oder Region miteinander."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/66302530_XE_OEVLinie_TouristenbusLinie.svg" ;
+    ns2:code "66302530" ;
+    ns2:sinceVersion "3.0" .
+

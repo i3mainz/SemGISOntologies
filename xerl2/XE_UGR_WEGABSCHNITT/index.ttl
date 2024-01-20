@@ -1,0 +1,6 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://www.xerleben.de/schema/2.0_1/XE_UGR_WEGABSCHNITT> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> .
+

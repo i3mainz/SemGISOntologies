@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/istTouristisch> a owl:DatatypeProperty,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "istTouristisch"@de ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> .
+

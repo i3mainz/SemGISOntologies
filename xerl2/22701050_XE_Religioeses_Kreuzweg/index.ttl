@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:22701050_XE_Religioeses_Kreuzweg a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Kreuzweg"@de ;
+    rdfs:subClassOf ns2:XE_Religioeses ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Kreuzweg mit besonderer touristischer Bedeutung (z.B Schönheit, Historie, Erhaltungsgrad o.ä.). "@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22701050_XE_Religioeses_Kreuzweg.svg" ;
+    ns2:code "22701050" ;
+    ns2:sinceVersion "1.0" .
+
