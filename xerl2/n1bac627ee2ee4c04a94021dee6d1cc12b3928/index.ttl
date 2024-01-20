@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-[] a owl:Restriction,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    owl:hasValue "66101300"^^<http://www.w3.org/2001/XMLSchemastring> ;
-    owl:onProperty <http://www.xerleben.de/schema/2.0_1/objektCode> .
-

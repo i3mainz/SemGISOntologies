@@ -1,8 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-[] a owl:Restriction,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    owl:allValuesFrom <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_Eigentum> ;
-    owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#eigentum> .
-
