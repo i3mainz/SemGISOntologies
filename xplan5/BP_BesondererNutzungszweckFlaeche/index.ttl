@@ -1,0 +1,61 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_BesondererNutzungszweckFlaeche> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "BP_BesondererNutzungszweckFlaeche"@de ;
+    ns1:propOrder "DNmin;DNmax;DN;DNZwingend;FR;dachform;detaillierteDachform;MaxZahlWohnungen;Fmin;Fmax;Bmin;Bmax;Tmin;Tmax;GFZmin;GFZmax;GFZ;GFZ_Ausn;GFmin;GFmax;GF;GF_Ausn;BMZ;BMZ_Ausn;BM;BM_Ausn;GRZmin;GRZmax;GRZ;GRZ_Ausn;GRmin;GRmax;GR;GR_Ausn;Zmin;Zmax;Zzwingend;Z;Z_Ausn;Z_Staffel;Z_Dach;ZUmin;ZUmax;ZUzwingend;ZU;ZU_Ausn;zweckbestimmung" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Festsetzung einer Fläche mit besonderem Nutzungszweck, der durch besondere städtebauliche Gründe erfordert wird (§9 Abs. 1 Nr. 9 BauGB.)
+"""@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Flaechenobjekt> .
+

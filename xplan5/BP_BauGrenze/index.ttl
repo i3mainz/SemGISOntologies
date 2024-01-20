@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_BauGrenze> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "BP_BauGrenze"@de ;
+    ns1:propOrder "bautiefe;geschossMin;geschossMax" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Festsetzung einer Baugrenze (§9 Abs. 1 Nr. 2 BauGB, §22 und 23 BauNVO). Über die Attribute <i>geschossMin </i>und <i>geschossMax </i>kann die Festsetzung auf einen Bereich von Geschossen beschränkt werden. Wenn eine Einschränkung der Festsetzung durch expliziter Höhenangaben erfolgen soll, ist dazu die Oberklassen-Relation <i>hoehenangabe </i>auf den komplexen Datentyp <i>XP_Hoehenangabe </i>zu verwenden. 
+Durch die Digitalisierungsreihenfolge der Linienstützpunkte muss sichergestellt sein, dass die überbaute Fläche (<i>BP_UeberbaubareGrundstuecksFlaeche</i>) relativ zur Laufrichtung auf der linken Seite liegt."""@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Linienobjekt> .
+

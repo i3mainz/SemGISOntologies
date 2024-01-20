@@ -1,0 +1,12 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_KleintierhaltungFlaeche> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "BP_KleintierhaltungFlaeche"@de ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Fläche für die Errichtung von Anlagen für die Kleintierhaltung wie Ausstellungs- und Zuchtanlagen, Zwinger, Koppeln und dergleichen (§ 9 Abs. 19 BauGB)."@de ;
+    rdfs:subClassOf <http://www.xplanung.de/xplangml/5/0#BP_Flaechenschlussobjekt> .
+

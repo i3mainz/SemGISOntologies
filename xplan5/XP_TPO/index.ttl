@@ -1,0 +1,20 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_TPO> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "XP_TPO"@de,
+        "XP_TPO"@en ;
+    ns1:propOrder "schriftinhalt;fontSperrung;skalierung;horizontaleAusrichtung;vertikaleAusrichtung;hat" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Abstrakte Oberklasse für textliche Präsentationsobjekte. Entspricht der ALKIS Objektklasse AP_TPO"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#XP_AbstraktesPraesentationsobjekt> .
+

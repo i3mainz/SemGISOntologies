@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Luftverkehr> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "RP_Luftverkehr"@de ;
+    ns1:propOrder "typ" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Luftverkehr-Infrastruktur ist Infrastruktur, die  im Zusammenhang mit der Beförderung von Personen, Gepäck, Fracht und Post mit staatlich zugelassenen Luftfahrzeugen, besonders Flugzeugen steht."@de ;
+    rdfs:subClassOf [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Verkehr> .
+

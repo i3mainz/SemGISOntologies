@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Geometrieobjekt> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "RP_Geometrieobjekt"@de ;
+    ns1:abstractClass "true"^^<http://www.w3.org/2001/XMLSchemaboolean> ;
+    ns1:propOrder "position;flaechenschluss;flussrichtung" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Basisklasse für alle Objekte eines Raumordnungsplans mit variablem Raumbezug. Ein konkretes Objekt muss entweder punktförmigen, linienförmigen oder flächenhaften Raumbezug haben, gemischte Geometrie ist nicht zugelassen. RP_Geometrieobjekt selbst ist abstrakt."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Objekt> .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_ZentralerOrt> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "RP_ZentralerOrt"@de ;
+    ns1:propOrder "typ;sonstigerTyp" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Zentrale Orte übernehmen die Versorgung ihrer Einwohner sowie Versorgungs und Entwicklungsfunktionen für den Einzugsbereich des Zentralen Ortes. Das zentralörtliche System ist hierarchisch gegliedert."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Geometrieobjekt> .
+
