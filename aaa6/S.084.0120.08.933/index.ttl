@@ -1,7 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.933> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkOderAnlageFuerSportFreizeitUndErholung>,
-        owl:NamedIndividual ;
-    rdfs:label "sportartBallsportFu�ballLeichtathletikTennisReitenSchwimmenSkisportEislaufsport, RollschuhlaufenEislaufsportRollschuhlaufenSkatingMotorrennsportRadsportPferderennsportHunderennsport"@de .
-

@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#anzahlDerStreckengleise> a owl:ObjectProperty ;
-    rdfs:label "anzahlDerStreckengleise"@de ;
-    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bahnstrecke> ;
-    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_AnzahlDerStreckengleise> ;
-    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
-

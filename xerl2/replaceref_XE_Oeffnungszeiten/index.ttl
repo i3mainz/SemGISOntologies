@@ -1,4 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-<http://www.xerleben.de/schema/2.0_1/replaceref_XE_Oeffnungszeiten> a owl:Class .
-

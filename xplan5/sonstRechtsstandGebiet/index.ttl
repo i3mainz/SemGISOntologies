@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.xplanung.de/xplangml/5/0#sonstRechtsstandGebiet> a owl:ObjectProperty ;
-    rdfs:label "sonstRechtsstandGebiet"@de ;
-    rdfs:domain <http://www.xplanung.de/xplangml/5/0#SO_Gebiet> ;
-    rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
-    rdfs:subPropertyOf <http://www.xplanung.de/xplangml/5/0#XPlanung5Property> .
-
