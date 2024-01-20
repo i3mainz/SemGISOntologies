@@ -1,7 +1,0 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
-[] a <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdf:first <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Darstellung_Gebaeudeausgestaltung_1041> ;
-    rdf:rest [ ] .
-
