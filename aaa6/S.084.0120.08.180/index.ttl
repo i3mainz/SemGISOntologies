@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.180> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_IndustrieUndGewerbeflaeche>,
-        owl:NamedIndividual,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "funktionIndustrie und GewerbeGeb�ude- und Freifl�che Industrie und GewerbeProduktionHandwerkTankstelleLagerplatzTransportForschungGrundstoffBetriebliche SozialeinrichtungWerftHandel und DienstleistungVerwaltung, freie BerufeBank, KreditVersicherungHandelAusstellung, MesseBeherbergungRestaurationVergn�gungG�rtnereiVersorgungsanlageGeb�ude- und Freifl�che VersorgungsanlageBetriebsfl�che VersorgungsanlageF�rderanlageWasserwerkGeb�ude- und Freifl�che Versorgungsanlage, WasserBetriebsfl�che Versorgungsanlage, WasserKraftwerkGeb�ude- und Freifl�che Versorgungsanlage, Elektrizit�tBetriebsfl�che Versorgungsanlage, Elektrizit�tUmspannstationRaffinerieGeb�ude- und Freifl�che Versorgungsanlage, �lBetriebsfl�che Versorganlage, �lGaswerkGeb�ude- und Freifl�che Versorgungsanlage, GasBetriebsfl�che Versorgungsanlage, GasHeizwerkGeb�ude- und Freifl�che Versorgungsanlage, W�rmeBetriebsfl�che Versorgungsanlage, W�rmeFunk- und FernmeldeanlageGeb�ude- und Freifl�che Versorgungsanlage, Funk- und FernmeldewesenBetriebsfl�che Versorgungsanlage, Funk- und FernmeldewesenEntsorgungGeb�ude- und Freifl�che EntsorgungsanlageBetriebsfl�che EntsorgungsanlageKl�ranlage, Kl�rwerkGeb�ude- und Freifl�che Entsorgungsanlage, AbwasserbeseitigungBetriebsfl�che Entsorgungsanlage, AbwasserbeseitigungAbfallbehandlungsanlageGeb�ude- und Freifl�che Entsorgungsanlage, AbfallbeseitigungBetriebsfl�che Entsorgungsanlage, AbfallbeseitigungBetriebsfl�che Entsorgungsanlage, SchlammDeponie (oberirdisch)Deponie (untert�gig)"@de .
-

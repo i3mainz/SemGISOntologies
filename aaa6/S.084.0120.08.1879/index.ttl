@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.1879> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_MusterLandesmusterUndVergleichsstueck>,
-        owl:NamedIndividual,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "entstehungsartOderKlimastufeWasserverhaeltnisseDiluvium (D)Diluvium �ber Alluvium (DAl)Diluvium �ber L�� (DL�)Diluvium �ber Verwitterung (DV)Diluvium, gesteinig (Dg)Diluvium, gesteinig �ber Alluvium (DgAl)Diluvium, gesteinig �ber L�� (DgL�)Diluvium, gesteinig �ber Verwitterung (DgV)L�� (L�)L�� �ber Diluvium (L�D)L�� �ber Alluvium (L�Al)L�� �ber Verwitterung (L�V)Alluvium (Al)Alluvium �ber Diluvium (AlD)Alluvium �ber L�� (AlL�)Alluvium �ber Verwitterung (AlV)Alluvium, gesteinig (Alg)Alluvium, gesteinig �ber Diluvium (AlgD)Alluvium, gesteinig �ber L�� (AlgL�)Alluvium, gesteinig �ber Verwitterung (AlgV)Verwitterung (V)Verwitterung �ber Diluvium (VD)Verwitterung �ber Alluvium (VAl)Verwitterung �ber L�� (VL�)Verwitterung, Gesteinsb�den (Vg)Verwitterung, Gesteinsb�den �ber Diluvium (VgD)Entstehungsart nicht erkennbar (-)Klimastufe 8 Grad C und dar�ber (a)Klimastufe 7,9 Grad - 7,0 Grad C (b)Klimastufe 6,9 Grad - 5,7 Grad C (c)Klimastufe 5,6 Grad C und darunter (d)Wasserstufe (1)Wasserstufe (2)Wasserstufe (3)Wasserstufe (4)Wasserstufe (4-)Wasserstufe (5)Wasserstufe (5-)"@de .
-

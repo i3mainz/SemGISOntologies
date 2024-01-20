@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.09.1347> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_BEWFL>,
-        owl:NamedIndividual,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "klassifizierungOBGAckerlandAckerland-Gr�nlandAcherland-HackrainGr�nlandGr�nland-AckerGr�nland-HackrainWieseStreuwieseHutungHopfenSpargelHolzungWeingarten (allgemein)Weingarten 1Weingarten 2Weingarten 3Weingarten 4Weingarten 5Weingarten 6Weingarten 7GartenlandObstplantageBaumschuleAnbaufl�che unter GlasKleingartenWeihnachtsbaumkulturSaatzuchtTeichwirtschaftAbbauland der Land- und ForstwirtschaftGeringstlandUnlandNebenfl�chen des Betriebs der Land- und Forstwirtschaft"@de .
-
