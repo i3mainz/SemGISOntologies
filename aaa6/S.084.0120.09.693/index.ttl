@@ -1,9 +1,0 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.09.693> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_DQSchwere>,
-        owl:NamedIndividual,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "datenerhebungSchwerewert direkt gemessen oder mittels Freiluftreduktion �ber geringe Entfernung abgeleitet (H�henunterschied bis 1 m, Horizontalabstand bis 5 m)Schwerewert mittels Freiluftreduktion �ber gr��ere Entfernung abgeleitetSchwerewert mittels Interpolation unter Verwendung einfacher Bougueranomalien ermitteltSchwerewert im System DHSN 96 durch Abschlag ( -19 10-8 m s-2 ) aus Schwerewert im System DHSN 82 ermittelt (alte Bundesl�nder)Schwerewert DHSN 96 durch Transformation aus System 71 ermittelt (neue Bundesl�nder)Schwerewert durch andere Methode ermitteltMethode der 'Datenerhebung Schwere' unbekannt"@de .
-

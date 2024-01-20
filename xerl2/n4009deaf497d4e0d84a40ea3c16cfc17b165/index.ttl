@@ -1,7 +1,0 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
-[] a <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdf:first <http://www.xerleben.de/schema/2.0_1/XE_GASTRONOMIE_KUECHE_Steakhaus> ;
-    rdf:rest [ ] .
-
