@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:63301400_XE_SozialEinrichtung_AltenPflegeheim a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AltenPflegeheim"@de ;
+    rdfs:subClassOf ns2:XE_SozialEinrichtung ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Eine Einrichtung, in der pflegebedürftige alte Menschen ganztägig untergebracht und unter der Verantwortung professioneller Pflegekräfte gepflegt und versorgt werden."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301400_XE_SozialEinrichtung_AltenPflegeheim.svg" ;
+    ns2:code "63301400" ;
+    ns2:sinceVersion "1.0" .
+

@@ -1,0 +1,15 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.xerleben.de/schema/2.0_1/XE_OEVHaltestelle_Info> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "XE_OEVHaltestelle_Info"@de ;
+    rdfs:range <http://www.xerleben.de/schema/2.0_1/XE_OEVHaltestelle_Info> ;
+    rdfs:subClassOf <http://www.opengis.net/gml/3.2#AbstractObject>,
+        <http://www.xerleben.de/schema/2.0_1/Info> ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> ;
+    skos:definition "Zusatzinformationen zu Objekten des Featuretypes XE_OEVHaltestelle."@de .
+

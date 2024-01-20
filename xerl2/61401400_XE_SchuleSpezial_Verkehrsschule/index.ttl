@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:61401400_XE_SchuleSpezial_Verkehrsschule a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Verkehrsschule"@de ;
+    rdfs:subClassOf ns2:XE_SchuleSpezial ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Eine Verkehrsschule ist ein Ort, an dem Verkehrsteilnehmer (Kinder, Erwachsenene) die Teilnahme am Straßenverkehr lernen. Z.B. Fahrschule zum Erwerb der Fahrerlaubnis für motorisierte Fahrzeuge."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/61401400_XE_SchuleSpezial_Verkehrsschule.svg" ;
+    ns2:code "61401400" ;
+    ns2:sinceVersion "2.0" .
+

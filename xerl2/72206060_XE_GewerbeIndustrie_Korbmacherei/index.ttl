@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:72206060_XE_GewerbeIndustrie_Korbmacherei a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Korbmacherei"@de ;
+    rdfs:subClassOf ns1:XE_GewerbeIndustrie ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Korbmacherei"@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72206060_XE_GewerbeIndustrie_Korbmacherei.svg" ;
+    ns1:code "72206060" ;
+    ns1:sinceVersion "3.1" .
+
