@@ -1,0 +1,45 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#inversZu_gehoertZuBauwerk> a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "inversZu_gehoertZuBauwerk"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Abschnitt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Ast>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Bahnverkehrsanlage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImGewaesserbereich>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkImVerkehrsbereich>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkOderAnlageFuerIndustrieUndGewerbe>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BauwerkOderAnlageFuerSportFreizeitUndErholung>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinrichtungInOeffentlichenBereichen>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_EinrichtungenFuerDenSchiffsverkehr>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Flugverkehrsanlage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gewaessermerkmal>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gewaesserstationierungsachse>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gleis>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Grenzuebergang>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Hafen>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HeilquelleGasquelle>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_HistorischesBauwerkOderHistorischeEinrichtung>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Leitung>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Netzknoten>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Nullpunkt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Ortslage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Polder>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_SchifffahrtslinieFaehrverkehr>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schleuse>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_SeilbahnSchwebebahn>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Sickerstrecke>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strassenverkehrsanlage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Testgelaende>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Transportanlage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Turm>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_UntergeordnetesGewaesser>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Vegetationsmerkmal>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_VorratsbehaelterSpeicherbauwerk>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Wasserspiegelhoehe>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_WegPfadSteig> ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Reference> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

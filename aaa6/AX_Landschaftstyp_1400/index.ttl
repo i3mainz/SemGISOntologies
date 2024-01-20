@@ -1,0 +1,11 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landschaftstyp_1400> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Landschaftstyp>,
+        owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Tal"@de ;
+    ns1:value "1400" .
+

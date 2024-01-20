@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> a owl:Class,
+        owl:DatatypeProperty,
+        owl:ObjectProperty,
+        owl:Ontology,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dcterms:creator " \"Timo Homburg\" " ;
+    dcterms:description " \"AAA-Data Version 6.0 Ontology extracted from the official XML schemas.\" " ;
+    dcterms:format " \"Turtle\" " ;
+    dcterms:license " \"GPLv3\" " ;
+    dcterms:publisher " \"i3Mainz\" " ;
+    dcterms:references " \"http://www.adv-online.de/\" " ;
+    dcterms:subject " \"Ontology of the german existing landuse standard AAA-Data in Version 6.0\" " ;
+    dcterms:title " \"Alkis Version 6.0 Ontology\" " ;
+    rdfs:seeAlso " \"http://www.adv-online.de/\" " ;
+    rdfs:subClassOf geo:Feature ;
+    skos:definition "AAA-Data Version 6.0 Ontology extracted from the official XML schemas." .
+

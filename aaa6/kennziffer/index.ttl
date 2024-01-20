@@ -1,0 +1,12 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#kennziffer> a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "kennziffer"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_GrablochDerBodenschaetzung> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_KennzifferGrabloch>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_KennzifferGrablochProperty> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

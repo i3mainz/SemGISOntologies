@@ -1,0 +1,35 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemeindekennzeichen> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_Gemeindekennzeichen"@de ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemeindekennzeichen> ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6>,
+        <http://www.opengis.net/gml/3.2#AbstractObject> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6>,
+        <http://www.opengis.net/gml/3.2#AbstractObject> ;
+    skos:definition """'Gemeindekennzeichen' ist die vom Statistischen Bundesamt veröffentlichte Schlüsselnummer des kommunalen Gebietes (Stadt-, Landgemeinde, gemeindefreies Gebiet).
+
+Das Gemeindekennzeichen (siehe Katalog der Gemeinden) besteht aus den Verschlüsselungen für :
+
+1. Spalte: Land
+
+2. Spalte: Regierungsbezirk
+
+3. Spalte: Kreis (kreisfreie Stadt)
+
+4. Spalte: Gemeinde
+
+und optional (siehe Katalog der Gemeindeteile) dem
+
+5. Spalte: Gemeindeteil"""@de .
+

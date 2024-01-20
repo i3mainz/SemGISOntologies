@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:enthaeltEWP a owl:AnnotationProperty,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:kennung "EWP"@de ;
+    rdfs:domain ns1:AX_K_AUSGKOPF_Standard ;
+    rdfs:range ns1:AX_Landeswappen,
+        ns1:AX_LandeswappenProperty ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'EnthältEWP' enthält eine eindeutige Dateibezeichnung (uri), in der das Landeswappen vorgehalten wird."@de .
+
