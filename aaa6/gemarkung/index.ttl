@@ -1,0 +1,26 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:gemarkung a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "gemarkung"@de ;
+    ns1:kennung "GMK"@de ;
+    rdfs:domain ns1:AX_Festpunkt,
+        ns1:AX_Flurstueck,
+        ns1:AX_GemarkungsteilFlur_Schluessel,
+        ns1:AX_HistorischesFlurstueck,
+        ns1:AX_HistorischesFlurstueckALB,
+        ns1:AX_HistorischesFlurstueckOhneRaumbezug,
+        ns1:AX_K_FLUSU,
+        ns1:AX_Reservierungsauftrag_Gebietskennung,
+        ns1:AX_StatistikDerFlaechenNachDemBewertungsgesetz ;
+    rdfs:range ns1:AX_Gemarkung_Schluessel,
+        ns1:AX_K_GKG,
+        xsd:string ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Gemarkung' enthält die Eigenschaften aus dem Datentyp 'AX_Gemarkung_Schlüssel': 'land' und 'gemarkungsnummer'."@de .
+

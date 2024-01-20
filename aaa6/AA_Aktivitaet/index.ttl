@@ -1,0 +1,21 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Aktivitaet> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AA_Aktivitaet"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    skos:definition "Die Aktivität ist Teil eines Vorgangs. Ein in Projektsteuerungskatalog vorzugebender Workflow legt die Reihenfolge und Abhängigkeiten der Aktivitäten und deren Arbeitsschritte fest. Die Aktivitäten werden in einer bestimmten Reihenfolge nacheinander bzw. nebeneinander bearbeitet. Die Entscheidung über den Abschluss der einzelnen Aktivitäten wird im Status (Meilenstein) dokumentiert."@de .
+

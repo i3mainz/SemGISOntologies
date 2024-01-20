@@ -1,0 +1,26 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix ns2: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:AX_SportFreizeitUndErholungsflaeche a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_SportFreizeitUndErholungsflaeche"@de ;
+    ns2:kennung 41008 ;
+    ns1:polygonStyle " \"fill\":true, \"fillColor\":\"#22b14c\" , \"stroke\":true, \"color\":\"black\" , \"stroke-width\":\"0.5\"  "^^ns1:cssLiteral ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns2:AX_TatsaechlicheNutzung ;
+    rdfs:subPropertyOf ns2:AX_TatsaechlicheNutzung ;
+    skos:definition "'Sport-, Freizeit- und Erholungsfläche' ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient."@de .
+

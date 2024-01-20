@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:ueberschriftImFortfuehrungsnachweis a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "ueberschriftImFortfuehrungsnachweis"@de ;
+    ns1:kennung "UIV"^^xsd:string ;
+    rdfs:domain ns1:AX_Fortfuehrungsfall,
+        ns1:AX_K_Fortfuehrungsfall_Ausgabe,
+        ns1:AX_K_Fortfuehrungsfall_FM,
+        ns1:AX_K_Fortfuehrungsfall_FMJ ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Code> ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition """'Überschrift im Fortführungsnachweis' gibt für den Fortführungsnachweis und
+die Mitteilungsverfahren den Grund der unter einem Fortführungsfall beschriebenen
+Veränderung bzw. Fortführung gemäß dem Katalog der Fortführungsanlässe
+an."""@de .
+

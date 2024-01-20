@@ -1,0 +1,16 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#TA_PointComponent> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AG_ObjektMitGemeinsamerGeometrie> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AG_ObjektMitGemeinsamerGeometrie> ;
+    skos:definition """TA_PointComponent ist eine Klasse von punktförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende Punktgeometrie realisieren. Insofern sind diese Fachobjekte mit den im Modul "Simple Topology" von ISO 19107 definierten TS_PointComponent identisch. Jeder referenzierte Knoten (TS_Node) realisiert gleichzeitig die Eigenschaften eines GM_Point. Topologie und Geometrie fallen also zusammen. Die von einer TA_PointComponent referenzierten Knoten / Punkte sind überschneidungsfrei in einem topologischen Thema organisiert. Zusätzlich zu diesen topologisch - geometrischen Eigenschaften gehören die Knoten / Punkte einem Punkt-Linienthema an, das es ermöglicht, dass die Linienendpunkte auch von anderen Objekten genutzt werden können, die zum gleichen Punkt-Linienthema gehören.
+
+Es handelt sich um eine abstrakte Objektart."""@de .
+
