@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:datumAbgabe a owl:DatatypeProperty,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:kennung "DAB"^^xsd:string ;
+    rdfs:domain ns1:AX_BauRaumOderBodenordnungsrecht ;
+    rdfs:range ns1:date ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Datum Abgabe' ist das Datum, an dem der neue Stand an das Kataster- und Vermessungsamt abgegeben wurde."@de .
+

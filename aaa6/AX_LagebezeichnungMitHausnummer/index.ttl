@@ -1,0 +1,34 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:AX_LagebezeichnungMitHausnummer a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_LagebezeichnungMitHausnummer"@de ;
+    ns1:kennung 12002 ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AX_Lage ;
+    rdfs:subPropertyOf ns1:AX_Lage ;
+    skos:definition """'Lagebezeichnung mit Hausnummer' ist die ortsübliche oder amtlich festgesetzte Benennung der Lage von Flurstücken und Gebäuden, die eine Lagebezeichnung mit Hausnummer haben.
+
+Hinweis zur Ableitung einer punktförmigen Geometrie zur Verortung der Hausnummer:
+
+Bei einer abweichenden Positionierung von der Standardposition liegt ein Präsentationsobjekt (Text) vor aus dem diese abgeleitet werden kann."""@de .
+

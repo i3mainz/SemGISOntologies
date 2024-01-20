@@ -1,0 +1,27 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AP_KPO_3D> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AP_KPO_3D"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt_3D> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt_3D> ;
+    skos:definition "Das 3D Präsentationsobjekt AP_KPO_3D wird für 3D Symbole verwendet deren 3D Geometrie in einem externen Datenformat gespeichert wird und über eine URI referenziert wird. AP_KPO_3D leitet sich AU_Punktobjekt_3D und seine 3D Punktgeometrie positioniert das Symbol. Über eine Transformationsmatrix wird die lageunabhängige 3D Geometrie in dem externen Datenformat in den Raumbezug des Präsentationsobjekt AP_KPO_3D transformiert."@de .
+
