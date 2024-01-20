@@ -1,0 +1,14 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#oberflaechenmaterial> a owl:ObjectProperty ;
+    rdfs:label "oberflaechenmaterial"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fahrbahnachse>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Flugverkehrsanlage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Strassenachse>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_UnlandVegetationsloseFlaeche> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Oberflaechenmaterial_Flugverkehrsanlage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Oberflaechenmaterial_Strasse>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Oberflaechenmaterial_UnlandVegetationsloseFlaeche> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

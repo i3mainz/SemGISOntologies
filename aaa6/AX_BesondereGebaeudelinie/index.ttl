@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_BesondereGebaeudelinie> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_BesondereGebaeudelinie"@de ;
+    ns1:linestringStyle " \"stroke\":true, \"color\":\"blue\"  "^^ns1:cssLiteral ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Linienobjekt> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AG_Linienobjekt> .
+

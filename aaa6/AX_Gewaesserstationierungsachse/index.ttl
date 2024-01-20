@@ -1,0 +1,28 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gewaesserstationierungsachse> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_Gewaesserstationierungsachse"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#TA_CurveComponent> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#TA_CurveComponent> ;
+    skos:definition "'Gewässerstationierungsachse' ist eine von einer Wasserfachstelle festgelegte Linie in Gewässern."@de .
+

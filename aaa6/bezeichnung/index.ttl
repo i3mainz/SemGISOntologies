@@ -1,0 +1,67 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:bezeichnung a owl:ObjectProperty ;
+    rdfs:label "bezeichnung"@de ;
+    ns1:kennung "BEZ"^^xsd:string ;
+    rdfs:domain ns1:AX_Abschnitt,
+        ns1:AX_Ast,
+        ns1:AX_Bahnverkehr,
+        ns1:AX_Bahnverkehrsanlage,
+        ns1:AX_BauRaumOderBodenordnungsrecht,
+        ns1:AX_BauwerkImGewaesserbereich,
+        ns1:AX_BauwerkImVerkehrsbereich,
+        ns1:AX_BauwerkOderAnlageFuerIndustrieUndGewerbe,
+        ns1:AX_Benutzergruppe,
+        ns1:AX_Bergbaubetrieb,
+        ns1:AX_Buchungsblattbezirk,
+        ns1:AX_Bundesland,
+        ns1:AX_DammWallDeich,
+        ns1:AX_Denkmalschutzrecht,
+        ns1:AX_Dienststelle,
+        ns1:AX_EinrichtungenFuerDenSchiffsverkehr,
+        ns1:AX_FelsenFelsblockFelsnadel,
+        ns1:AX_FestlegungOSW,
+        ns1:AX_Flugverkehr,
+        ns1:AX_Flugverkehrsanlage,
+        ns1:AX_Forstrecht,
+        ns1:AX_Gebiet_StatistikDerFlaechenNachDemBewertungsgesetz,
+        ns1:AX_Gemarkung,
+        ns1:AX_GemarkungsteilFlur,
+        ns1:AX_Gemeinde,
+        ns1:AX_Gemeindeteil,
+        ns1:AX_Gewaessermerkmal,
+        ns1:AX_IndustrieUndGewerbeflaeche,
+        ns1:AX_KlassifizierungNachStrassenrecht,
+        ns1:AX_KlassifizierungNachWasserrecht,
+        ns1:AX_KreisRegion,
+        ns1:AX_LagebezeichnungKatalogeintrag,
+        ns1:AX_Meer,
+        ns1:AX_Nationalstaat,
+        ns1:AX_NaturUmweltOderBodenschutzrecht,
+        ns1:AX_Netzknoten,
+        ns1:AX_Nullpunkt,
+        ns1:AX_Regierungsbezirk,
+        ns1:AX_Schleuse,
+        ns1:AX_SonstigesBauwerkOderSonstigeEinrichtung,
+        ns1:AX_SonstigesRecht,
+        ns1:AX_SportFreizeitUndErholungsflaeche,
+        ns1:AX_StehendesGewaesser,
+        ns1:AX_Strasse,
+        ns1:AX_Strassenverkehrsanlage,
+        ns1:AX_TagebauGrubeSteinbruch,
+        ns1:AX_Vegetationsmerkmal,
+        ns1:AX_Verband,
+        ns1:AX_Verwaltungsgemeinschaft,
+        ns1:AX_Wald,
+        ns1:AX_Weg,
+        ns1:AX_WegPfadSteig,
+        ns1:AX_Wohnplatz ;
+    rdfs:range ns1:AX_Lagebezeichnung,
+        xsd:string ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "'Bezeichnung' ist die amtlich festgelegte Verschlüsselung von 'Bau-, Raum- oder Bodenordnungsrecht'."@de .
+

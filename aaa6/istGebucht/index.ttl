@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:istGebucht a owl:ObjectProperty ;
+    rdfs:label "istGebucht"@de ;
+    ns1:kennung "11001-21008"^^xsd:string ;
+    rdfs:domain ns1:AX_Flurstueck,
+        ns1:AX_HistorischesFlurstueckOhneRaumbezug ;
+    rdfs:range <http://www.opengis.net/gml/3.2#Reference> ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition """Ein (oder mehrere) Flurstück(e) ist (sind) unter genau einer Buchungsstelle
+gebucht. Bei Anteilsbuchungen ist dies nur dann möglich, wenn ein fiktives Buchungsblatt
+angelegt wird."""@de .
+

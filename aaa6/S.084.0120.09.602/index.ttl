@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.09.602> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_DQPunktort>,
+        owl:NamedIndividual ;
+    rdfs:label "genauigkeitsstufeStandardabweichung S kleiner 1 mmStandardabweichung S kleiner gleich 2 mmStandardabweichung S kleiner gleich 5 mmStandardabweichung S kleiner gleich 1 cmStandardabweichung S kleiner gleich 1,5 cmStandardabweichung S kleiner gleich 2 cmStandardabweichung S kleiner gleich 2,5 cmStandardabweichung S kleiner gleich 3 cmStandardabweichung S kleiner gleich 6 cmStandardabweichung S kleiner gleich 10 cmStandardabweichung S kleiner gleich 30 cmStandardabweichung S kleiner gleich 60 cmStandardabweichung S kleiner gleich 100 cmStandardabweichung S kleiner gleich 500 cmStandardabweichung S groesser 500 cm"@de .
+

@@ -1,0 +1,15 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Benutzergruppe> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AA_Benutzergruppe"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    skos:definition """In den aus der abstrakten Objektart 'Benutzergruppe' abgeleiteten Objektarten werden Benutzergruppen verwaltet. Diese Objektart bündelt die fachsystemspezifischen Ausprägungen von Benutzergruppen.
+
+Es handelt sich um eine abstrakte Objektart."""@de .
+

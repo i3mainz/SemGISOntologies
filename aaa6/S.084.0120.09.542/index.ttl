@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.09.542> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Schwere>,
+        owl:NamedIndividual ;
+    rdfs:label "schweresystemSchwerewert im System des DHSN 82 (System der Landesvermessung)Schwerewert im System des DSGN 62 (auch als DSN 62 bezeichnet)Schwerewert im System des SGN der DDR (auch als System 71 bezeichnet)Schwerewert im System des DHSN 96 (System der Landesvermessung)Schwerewert im System des ISGN 71 (wissenschaftliches System)Schwerewert im System des DSGN 76 (wissenschaftliches System)Schwerewert im System des DSGN 94 (wissenschaftliches System)Potsdamer Schweresystem 1909Schweresystem der Geophysikalischen Reichsaufnahme 1934 - 1943"@de .
+

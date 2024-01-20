@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.09.102> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Punktstabilitaet_Hoehenfestpunkt>,
+        owl:NamedIndividual ;
+    rdfs:label "grundwasserstandGrundwasserstand sehr tief (groesser 10 m)Grundwasserstand tief (groesser 5 m und kleiner gleich 10 m)Grundwasserstand normal (groesser 2 m und kleiner gleich 5 m)Grundwasserstand hoch (groesser 0,5 m und kleiner gleich 2 m)Grundwasserstand sehr hoch (kleiner gleich 0,5 m)Grundwasserstand abgesenktGrundwasserstand nicht ermittelt"@de .
+

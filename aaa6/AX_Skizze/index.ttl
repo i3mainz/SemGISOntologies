@@ -1,0 +1,17 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Skizze> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "AX_Skizze"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    skos:definition "Ein Objekt der Objektart 'Skizze' ergänzt ein Objekt 'Lagefestpunkt', 'Höhenfestpunkt', 'Schwerefestpunkt' oder 'Referenzstationspunkt'. Es beinhaltet die URI einer Datei, welche eine Einmessungsskizze, ein Foto oder eine ähnliche grafische oder sonstige Information zu dem jeweiligen Festpunkt enthält."@de .
+
