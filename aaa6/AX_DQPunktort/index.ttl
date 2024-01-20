@@ -1,0 +1,25 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:AX_DQPunktort a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_DQPunktort"@de ;
+    ns1:kennung "14006"@de ;
+    rdfs:range ns1:AX_DQPunktort ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AAA6,
+        <http://www.opengis.net/gml/3.2#AbstractObject> ;
+    rdfs:subPropertyOf ns1:AAA6,
+        <http://www.opengis.net/gml/3.2#AbstractObject> ;
+    skos:definition "'DQPunktort' enthält Angaben zur Herkunft, Genauigkeit und Vertrauenswürdigkeit der Informationen zu einem Punktort. Die Angaben zur Herkunft sind konform zu den Vorgaben aus ISO 19115 zu repräsentieren."@de .
+

@@ -1,0 +1,23 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Gemarkung> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_Gemarkung"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    skos:definition "\"Gemarkung\" ist ein Katasterbezirk, der eine zusammenhängende Gruppe von Flurstücken umfasst. Er kann von Gemarkungsteilen/Fluren unterteilt werden."@de .
+
