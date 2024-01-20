@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:11401620_XE_Unterkunft_Dauercampingplatz a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "'Gelände für Camping (Unterkunft in Zelten, Wohnwagen und -mobilen) mit Strom- und Wasseranschlüssen sowie sanitären Einrichtungen für längere Zeiträume (i. d. R. 1 Jahr"@de ;
+    rdfs:subClassOf ns2:XE_Unterkunft ;
+    owl:equivalentClass [ ] ;
+    skos:definition " Erstwohnsitz z. T. möglich). Klassifizierung nach Größe und Ausstattung (Sterne).'"@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11401620_XE_Unterkunft_Dauercampingplatz.svg" ;
+    ns2:code "11401620;Dauercampingplatz" ;
+    ns2:sinceVersion "1.0" .
+

@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:11201200_XE_Gastronomie_ImbissFastfood a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "ImbissFastfood"@de ;
+    rdfs:subClassOf ns2:XE_Gastronomie ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Gastronomische Einrichtung für den Verkauf von Imbiss-Speisen, einer Zwischenmahlzeit (auch Snack genannt). Fast Food sind Schnellimbiss-Speisen, bei denen die Zeitspanne zwischen Bestellung und Erhalt meist weniger als zehn Minuten beträgt."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/11201200_XE_Gastronomie_ImbissFastfood.svg" ;
+    ns2:code "11201200" ;
+    ns2:sinceVersion "1.0" .
+
