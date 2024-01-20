@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.2409> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_SonstigesRecht>,
+        owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "artDerFestlegungLuftverkehrsgesetzBauschutzbereichBeschr�nkter BauschutzbereichBundeskleingartengesetzDauerkleingartenBerggesetzBodenbewegungsgebietBruchfeldBaubeschr�nkungReichsheimst�ttengesetzReichsheimst�tteSchutzbereichsgesetzSchutzbereichEisenbahnneuordnungsgesetz�bergabebescheidverfahrenBaubeschr�nkungen durch RichtfunkverbindungenTruppen�bungsplatz, Standort�bungsplatzVermessungs- und KatasterrechtSchutzfl�che FestpunktSchutzfl�che Festpunkt, 1 m RadiusSchutzfl�che Festpunkt, 2 m RadiusSchutzfl�che Festpunkt, 5 m RadiusSchutzfl�che Festpunkt, 10 m RadiusSchutzfl�che Festpunkt, 30 m RadiusMarksteinschutzfl�cheLiegenschaftskatastererneuerungFischereirechtJagdkatasterLandesgrundbesitzkatasterBombenblindg�ngerverdachtRieselfeldSicherungsstreifenGrenzbereinigungHochwasserdeichHauptdeich, 1. Deichlinie2. DeichlinieBeregnungsverbandWeinlageWeinbausteillageWeinbergsrolleWeinbausteilstlageBenachteiligtes landwirtschaftliches GebietMitverwendung Hochwasserschutz, Oberirdische AnlagenMitverwendung Hochwasserschutz, Unterirdische AnlagenHafennutzungsgebietHafenerweiterungsgebietHafenbeckenBohrung verf�lltZollgrenzeBelastung nach �7 Abs. 2 GBOSonstiges"@de .
+

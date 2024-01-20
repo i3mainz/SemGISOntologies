@@ -1,0 +1,17 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AA_ZUSO> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AA_ZUSO"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt> ;
+    skos:definition """Neben den Elementarobjekten kennt das gemeinsame Datenmodell auch ein zusammengesetztes Objekt (AA_ZUSO). Es kann aus einer beliebigen Zahl und Mischung semantisch zusammengehörender raumbezogener Elementarobjekte, nicht raumbezogener Elementarobjekte oder zusammengesetzter Objekte bestehen. Ein zusammengesetztes Objekt muss aber mindestens aus einem Objekt bestehen.
+
+Es handelt sich um eine abstrakte Objektart."""@de .
+

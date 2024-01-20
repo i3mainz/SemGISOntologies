@@ -1,0 +1,27 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Projektsteuerung> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AA_Projektsteuerung"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_NREO> ;
+    skos:definition """Das Antrags-Objekt wird mit dem Projektsteuerungs-Objekt (AA_Projektsteuerung) verbunden, um die Zuordnung des Antrags zu einem oder mehreren Projektsteuerungs-Objekten festzulegen und um die nicht zulässigen Kombinationen zu überwachen. Weiterhin steuert und überwacht das Projektsteuerungs-Objekt die korrekte Abwicklung der Vorgänge im Teilprozess "fachtechnische Qualifizierung". Die Fortführungsanlässe werden beim Projektsteuerungs-Objekt geführt.
+
+Der AA_Projektsteuerung regelt und überwacht die Zeichnungsbefugnis.
+
+Zu klären sind zukünftig Aspekte zur Rechtssicherheit, Authentifizierung, usw."""@de .
+

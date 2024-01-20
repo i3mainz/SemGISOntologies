@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#S.084.0120.08.2126> a <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_AndereFestlegungNachStrassenrecht>,
+        owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "artDerFestlegungBundesfernstra�engesetzAnbauverbotAnbauverbot nach Bundesfernstra�engesetzAnbauverbot (40m)Anbauverbot (20m)Anbaubeschr�nkungAnbaubeschr�nkung (100m)Anbaubeschr�nkung (40m)Ver�nderungssperre nach Bundesfernstra�engesetzLandesstra�engesetzAnbauverbot nach Landesstra�engesetzVer�nderungssperre"@de .
+
