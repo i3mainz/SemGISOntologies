@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_Unternehmen a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "XE_Unternehmen"@de ;
+    rdfs:range ns1:XE_Unternehmen ;
+    rdfs:subClassOf ns1:XE_OrtVonInteresse ;
+    rdfs:subPropertyOf ns1:XE_OrtVonInteresse,
+        ns1:XErleben2 ;
+    skos:definition "Sonstige Unternehmen und Einrichtungen werden durch eine Einordnung in das Branchenverzeichnis vom Statistischen Bundesamts (Wirtschaftszweige 2008) differenziert. Dieser Featuretype eignet sich fuer die Verwendung als Branchenbuch."@de,
+        "Sonstige Unternehmen und Einrichtungen werden durch eine Einordnung in das Branchenverzeichnis vom Statistischen Bundesamts (Wirtschaftszweige 2008) differenziert. Grundsätzlich geeignet für alle Unternehmen, aber weniger \"bürgernah\" als die Kategorien XE_Handel, XE_Gewerbe und XE_Dienstleistung"@de ;
+    ns1:code "72100000" ;
+    ns1:sinceVersion "1.0" .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:21201990_XE_TheaterMusik_TheaterMusikSonstiges a owl:Class ;
+    rdfs:label "TheaterMusikSonstiges"@de ;
+    rdfs:subClassOf ns2:XE_TheaterMusik ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Theater, Bühne oder Saal, dem keine spezielle Bedeutung zugewiesen werden kann. "@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/21201990_XE_TheaterMusik_TheaterMusikSonstiges.svg" ;
+    ns2:code "21201990" ;
+    ns2:sinceVersion "1.0" .
+

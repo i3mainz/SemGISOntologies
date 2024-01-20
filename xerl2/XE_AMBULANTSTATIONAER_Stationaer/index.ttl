@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/XE_AMBULANTSTATIONAER_Stationaer> a owl:NamedIndividual,
+        <http://www.xerleben.de/schema/2.0_1/XE_AMBULANTSTATIONAER> ;
+    rdfs:label "Stationaer" .
+

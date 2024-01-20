@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:62101800_XE_Behoerde_FachbehoerdeVerkehr a owl:Class ;
+    rdfs:label "FachbehoerdeVerkehr"@de ;
+    rdfs:subClassOf ns2:XE_Behoerde ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Fachbehörde für den Straßenverkehr und die Zulassung von Personen und Fahrzeugen zum Straßenverkehr, die Anordnungen von Verkehrsbeschränkungen, etc."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/62101800_XE_Behoerde_FachbehoerdeVerkehr.svg" ;
+    ns2:code "62101800" ;
+    ns2:sinceVersion "1.0" .
+

@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:72301620_XE_Einzelhandel_Musikaliengeschaeft a owl:Class ;
+    rdfs:label "Musikaliengeschaeft"@de ;
+    rdfs:subClassOf ns1:XE_Einzelhandel ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Musikaliengeschäft Verkauf von Instrumenten"@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72301620_XE_Einzelhandel_Musikaliengeschaeft.svg" ;
+    ns1:code "72301620" ;
+    ns1:sinceVersion "3.1" .
+

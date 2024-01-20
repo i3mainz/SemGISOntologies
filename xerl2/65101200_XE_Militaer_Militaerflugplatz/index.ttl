@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:65101200_XE_Militaer_Militaerflugplatz a owl:Class ;
+    rdfs:label "Militaerflugplatz"@de ;
+    rdfs:subClassOf ns1:XE_Militaer ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Ein Militärflugplatz (Fliegerhorst bzw. Heeresflugplatz) ist ein vom Militär genutzter Flugplatz."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/65101200_XE_Militaer_Militaerflugplatz.svg" ;
+    ns1:code "65101200" ;
+    ns1:sinceVersion "1.0" .
+

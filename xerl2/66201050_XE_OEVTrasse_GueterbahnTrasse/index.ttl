@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:66201050_XE_OEVTrasse_GueterbahnTrasse a owl:Class ;
+    rdfs:label "GueterbahnTrasse"@de ;
+    rdfs:subClassOf ns2:XE_OEVTrasse ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Verkehrsweg einer Güterbahn, der zum Transport von Gütern dient."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/66201050_XE_OEVTrasse_GueterbahnTrasse.svg" ;
+    ns2:code "66201050" ;
+    ns2:sinceVersion "1.0" .
+

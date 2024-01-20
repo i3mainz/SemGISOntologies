@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:66101000_XE_OEVHaltestelle_TouristenbahnHSt a owl:Class ;
+    rdfs:label "TouristenbahnHSt"@de ;
+    rdfs:subClassOf ns1:XE_OEVHaltestelle ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Ein Bahnhof, eine Station, Halte- oder Anlegestelle für verschiedene, überwiegend touristisch genutzte Verkehrsmittel. Dazu zählen z. B. nostalgische Museums-Eisenbahnen."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/66101000_XE_OEVHaltestelle_TouristenbahnHSt.svg" ;
+    ns1:code "66101000" ;
+    ns1:sinceVersion "1.0" .
+

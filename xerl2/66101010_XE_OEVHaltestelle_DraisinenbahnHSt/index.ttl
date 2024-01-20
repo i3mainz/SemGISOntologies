@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:66101010_XE_OEVHaltestelle_DraisinenbahnHSt a owl:Class ;
+    rdfs:label "DraisinenbahnHSt"@de ;
+    rdfs:subClassOf ns2:XE_OEVHaltestelle ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Haltestelle für meist vierrädrige Bahndienstfahrzeuge (Draisinen), die mit Muskel- oder Motorantrieb ausgestattet sind. Sie dienen als Hilfsfahrzeug bei Inspektionen sowie für touristische Zwecke."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/66101010_XE_OEVHaltestelle_DraisinenbahnHSt.svg" ;
+    ns2:code "66101010" ;
+    ns2:sinceVersion "1.0" .
+

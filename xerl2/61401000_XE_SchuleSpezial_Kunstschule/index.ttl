@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:61401000_XE_SchuleSpezial_Kunstschule a owl:Class ;
+    rdfs:label "Kunstschule"@de ;
+    rdfs:subClassOf ns2:XE_SchuleSpezial ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Kunstschule ist eine Sammelbezeichnung für unterschiedliche kunstpädagogische Einrichtungen künstlerischer und musischer Ausrichtung."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/61401000_XE_SchuleSpezial_Kunstschule.svg" ;
+    ns2:code "61401000" ;
+    ns2:sinceVersion "2.0" .
+

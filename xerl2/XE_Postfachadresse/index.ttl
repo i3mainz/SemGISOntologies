@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xerleben.de/schema/2.0_1/XE_Postfachadresse> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "XE_Postfachadresse"@de ;
+    rdfs:range <http://www.xerleben.de/schema/2.0_1/XE_Postfachadresse> ;
+    rdfs:subClassOf <http://www.opengis.net/gml/3.2#AbstractObject>,
+        <http://www.xerleben.de/schema/2.0_1/XErleben2> ;
+    rdfs:subPropertyOf <http://www.xerleben.de/schema/2.0_1/XErleben2> .
+

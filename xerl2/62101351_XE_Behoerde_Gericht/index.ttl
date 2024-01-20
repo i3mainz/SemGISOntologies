@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:62101351_XE_Behoerde_Gericht a owl:Class ;
+    rdfs:label "Gericht"@de ;
+    rdfs:subClassOf ns2:XE_Behoerde ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Standort und Sitz eines Gerichts als Organ der Rechtsprechung (Judikative)."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/62101351_XE_Behoerde_Gericht.svg" ;
+    ns2:code "62101351" ;
+    ns2:sinceVersion "2.0" .
+

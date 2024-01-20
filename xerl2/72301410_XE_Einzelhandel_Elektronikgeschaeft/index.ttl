@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:72301410_XE_Einzelhandel_Elektronikgeschaeft a owl:Class ;
+    rdfs:label "Elektronikgeschaeft"@de ;
+    rdfs:subClassOf ns2:XE_Einzelhandel ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Elektronikgeschäft, z.B. Computer(zubehör), Fernseher, (Mobil-)Telefone, Navigationsgeräte, Kopiergeräte, Kameras und Kamerazubehör, Software, Autoradios"@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/72301410_XE_Einzelhandel_Elektronikgeschaeft.svg" ;
+    ns2:code "72301410" ;
+    ns2:sinceVersion "3.1" .
+

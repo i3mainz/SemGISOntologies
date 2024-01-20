@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.wikidata.org/entity/Property:> .
+@prefix ns2: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns2:22101200_XE_Siedlung_Promenade a owl:Class ;
+    rdfs:label "Promenade"@de ;
+    rdfs:subClassOf ns2:XE_Siedlung ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Großzügiger Fußgängerbereich. Bedeutung und Funktionen variieren von Fußgängerzone, Einkaufsmeile über Fußweg bis zum öffentlichen Forum. Räumliche Anlagen variieren von der Strandpromenade über ehemalige Stadtbefestigungsanlagen bis zu Hafenanlagen."@de ;
+    ns1:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/22101200_XE_Siedlung_Promenade.svg" ;
+    ns2:code "22101200" ;
+    ns2:sinceVersion "1.0" .
+
