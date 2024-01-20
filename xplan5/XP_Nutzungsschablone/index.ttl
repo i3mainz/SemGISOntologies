@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_Nutzungsschablone> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "XP_Nutzungsschablone"@de,
+        "XP_Nutzungsschablone"@en ;
+    ns1:propOrder "spaltenAnz;zeilenAnz" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment """Modelliert eine Nutzungsschablone. Die darzustellenden Attributwerte werden zeilenweise in die Nutzungsschablone geschrieben.
+"""@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#XP_PTO> .
+

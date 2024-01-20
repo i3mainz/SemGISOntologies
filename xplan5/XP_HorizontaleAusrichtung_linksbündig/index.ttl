@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_HorizontaleAusrichtung_linksbündig> a owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.xplanung.de/xplangml/5/0#XP_HorizontaleAusrichtung>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "linksbündig" ;
+    rdfs:comment "Text linksbündig am Textpunkt bzw. am ersten Punkt der Linie."@de .
+

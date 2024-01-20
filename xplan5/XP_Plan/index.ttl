@@ -1,0 +1,33 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_Plan> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "XP_Plan"@de,
+        "XP_Plan"@en ;
+    ns1:propOrder "name;nummer;internalId;beschreibung;kommentar;technHerstellDatum;genehmigungsDatum;untergangsDatum;aendert;wurdeGeaendertVon;erstellungsMassstab;xPlanGMLVersion;bezugshoehe;raeumlicherGeltungsbereich;verfahrensMerkmale;rechtsverbindlich;informell;hatGenerAttribut;refBeschreibung;refBegruendung;refExternalCodeList;refLegende;refRechtsplan;refPlangrundlage;texte;begruendungsTexte" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Abstrakte Oberklasse für alle Klassen raumbezogener Pläne."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.opengis.net/gml/3.2#AbstractFeature>,
+        <http://www.xplanung.de/xplangml/5/0#XPlanung5> .
+

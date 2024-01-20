@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_Veraenderungssperre> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "BP_Veraenderungssperre"@de ;
+    ns1:propOrder "gueltigkeitsDatum;verlaengerung;refBeschluss" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Ausweisung einer Veränderungssperre, die nicht den gesamten Geltungsbereich des Plans umfasst. Bei Verwendung dieser Klasse muss das Attribut \"<i>veraenderungssperre</i>\" des zugehörigen Plans (Klasse <i>BP_Plan</i>) auf \"<i>false</i>\" gesetzt werden."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Ueberlagerungsobjekt> .
+

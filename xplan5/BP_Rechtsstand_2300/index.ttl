@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_Rechtsstand_2300> a owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.xplanung.de/xplangml/5/0#BP_Rechtsstand>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "2300" ;
+    rdfs:comment "Die Beteiligung der Behörden hat stattgefunden (§ 4 Abs. 2 BauGB)."@de .
+

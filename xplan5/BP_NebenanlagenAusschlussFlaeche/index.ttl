@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_NebenanlagenAusschlussFlaeche> a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "BP_NebenanlagenAusschlussFlaeche"@de ;
+    ns1:propOrder "typ;abweichungText" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Festsetzung einer Flche fr die Einschrnkung oder den Ausschluss von Nebenanlagen nach $14 Absatz 1 Satz 3 BauNVO."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Ueberlagerungsobjekt> .
+
