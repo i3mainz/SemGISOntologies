@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix ns2: <http://www.wikidata.org/entity/Property:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:63301150_XE_SozialEinrichtung_Familienzentrum a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Familienzentrum"@de ;
+    rdfs:subClassOf ns1:XE_SozialEinrichtung ;
+    owl:equivalentClass [ ] ;
+    skos:definition "Familienzentren (oder: Kinder- und Familienzentren) bieten für Kinder, Eltern und Familien Angebote einer leicht zugänglichen Unterstützung und Förderung. Familienzentren sind teilweise an Kindergärten angegliedert."@de ;
+    ns2:P18 "http://www.xerleben.de/signaturen/2.8/standard/svg/63301150_XE_SozialEinrichtung_Familienzentrum.svg" ;
+    ns1:code "63301150" ;
+    ns1:sinceVersion "3.0" .
+

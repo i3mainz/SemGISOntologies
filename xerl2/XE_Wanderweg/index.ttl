@@ -1,0 +1,19 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_Wanderweg a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "XE_Wanderweg"@de ;
+    rdfs:range ns1:XE_Wanderweg ;
+    rdfs:subClassOf ns1:XE_Freizeitweg ;
+    rdfs:subPropertyOf ns1:XE_Freizeitweg,
+        ns1:XErleben2 ;
+    skos:definition "Wanderwege sind in der Örtlichkeit durch Markierungen gekennzeichnete Wege für Wanderer und Spaziergänger."@de,
+        "Wanderwege sind in der Örtlichkeit durch Markierungen gekennzeichnete Wege für Wanderer und Spaziergänger. Die Wege werden von den Wandervereinen markiert und von GEObasis.nrw digitalisiert. "@de ;
+    ns1:code "41000000" ;
+    ns1:sinceVersion "1.0" .
+
