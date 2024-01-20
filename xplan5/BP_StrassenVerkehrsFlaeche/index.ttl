@@ -1,0 +1,52 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_StrassenVerkehrsFlaeche> a owl:Class ;
+    rdfs:label "BP_StrassenVerkehrsFlaeche"@de ;
+    ns1:propOrder "MaxZahlWohnungen;Fmin;Fmax;Bmin;Bmax;Tmin;Tmax;GFZmin;GFZmax;GFZ;GFZ_Ausn;GFmin;GFmax;GF;GF_Ausn;BMZ;BMZ_Ausn;BM;BM_Ausn;GRZmin;GRZmax;GRZ;GRZ_Ausn;GRmin;GRmax;GR;GR_Ausn;Zmin;Zmax;Zzwingend;Z;Z_Ausn;Z_Staffel;Z_Dach;ZUmin;ZUmax;ZUzwingend;ZU;ZU_Ausn;nutzungsform;begrenzungslinie" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Strassenverkehrsfläche (§ 9 Abs. 1 Nr. 11 und Abs. 6 BauGB) ."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Flaechenschlussobjekt> .
+

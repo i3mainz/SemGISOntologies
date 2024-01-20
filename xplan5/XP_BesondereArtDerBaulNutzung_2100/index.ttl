@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_BesondereArtDerBaulNutzung_2100> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#XP_BesondereArtDerBaulNutzung> ;
+    rdfs:label "2100" ;
+    rdfs:comment "Sonstiges Sondergebiet nach§ 11 BauNVO 1977 und 1990; z.B. Klinikgebiet"@de .
+

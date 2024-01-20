@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#BP_WaldFlaeche> a owl:Class ;
+    rdfs:label "BP_WaldFlaeche"@de ;
+    ns1:propOrder "zweckbestimmung;detaillierteZweckbestimmung" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Festsetzung von Waldflächen  (§ 9, Abs. 1, Nr. 18b BauGB)."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#BP_Flaechenschlussobjekt> .
+

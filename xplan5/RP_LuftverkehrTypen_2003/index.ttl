@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_LuftverkehrTypen_2003> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#RP_LuftverkehrTypen> ;
+    rdfs:label "2003" ;
+    rdfs:comment "Sonstiger Flugplatz."@de .
+

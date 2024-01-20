@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_BesondereArtDerBaulNutzung_4000> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#XP_BesondereArtDerBaulNutzung> ;
+    rdfs:label "4000" ;
+    rdfs:comment "Sondergebiet nach §11der BauNVO von 1962 und 1968"@de .
+

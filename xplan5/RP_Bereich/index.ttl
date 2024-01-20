@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Bereich> a owl:Class ;
+    rdfs:label "RP_Bereich"@de ;
+    ns1:propOrder "versionBROG;versionBROGText;versionLPLG;versionLPLGText;geltungsmassstab;gehoertZuPlan" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Die Klasse RP_Bereich modelliert einen Bereich eines Raumordnungsplans. Bereiche strukturieren Pläne räumlich und inhaltlich."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#XP_Bereich> .
+

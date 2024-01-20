@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#LP_Punktobjekt> a owl:Class ;
+    rdfs:label "LP_Punktobjekt"@de ;
+    ns1:propOrder "position;nordwinkel" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Basisklasse für alle Objekte eines Landschaftsplans mit punktförmigem Raumbezug (Einzelpunkt oder Punktmenge)."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#LP_Objekt> .
+

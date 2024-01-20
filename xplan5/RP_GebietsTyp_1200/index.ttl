@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_GebietsTyp_1200> a owl:NamedIndividual,
+        <http://www.xplanung.de/xplangml/5/0#RP_GebietsTyp> ;
+    rdfs:label "1200" ;
+    rdfs:comment """Eignungsgebiete steuern raumbedeutsame Maßnahmen im bauplanungsrechtlichen Außenbereich. Diese Maßnahmen sind außerhalb dieser Gebiete regelmäßig ausgeschlossen, z.B. die Planung und Einrichtung von Windkraftanlagen. 
+Eignungsgebiete haben den Charakter von Zielen der Raumordnung."""@de .
+

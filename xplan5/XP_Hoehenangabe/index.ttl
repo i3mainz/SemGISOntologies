@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#XP_Hoehenangabe> a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "XP_Hoehenangabe"@de,
+        "XP_Hoehenangabe"@en ;
+    ns1:propOrder "abweichenderHoehenbezug;hoehenbezug;bezugspunkt;hMin;hMax;hZwingend;h" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Spezifikation einer Angabe zur vertikalen Höhe oder zu einem Bereich vertikaler Höhen. Es ist möglich, spezifische Höhenangaben (z.B. die First- oder Traufhöhe eines Gebäudes) vorzugeben oder einzuschränken, oder den Gültigkeitsbereich eines Planinhalts auf eine bestimmte Höhe (<i>hZwingend</i>) bzw. einen Höhenbereich (<i>hMin </i>- <i>hMax</i>) zu beschränken, was vor allem bei der höhenabhängigen Festsetzung einer überbaubaren Grundstücksfläche (<i>BP_UeberbaubareGrundstuecksflaeche</i>), einer Baulinie (<i>BP_Baulinie</i>) oder einer Baugrenze (<i>BP_Baugrenze</i>) relevant ist. In diesem Fall bleiben die Attribute <i>bezugspunkt und abweichenderBezugspunkt </i>unbelegt."@de ;
+    rdfs:subClassOf <http://www.xplanung.de/xplangml/5/0#XPlanung5> ;
+    rdfs:subPropertyOf <http://www.xplanung.de/xplangml/5/0#XPlanung5Property> .
+

@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.xplanung.de/xplangml/5/0#RP_Verkehr> a owl:Class ;
+    rdfs:label "RP_Verkehr"@de ;
+    ns1:propOrder "allgemeinerTyp;status;bezeichnung" ;
+    ns1:standard "xplanung"@en ;
+    rdfs:comment "Enthält allgemeine Verkehrs-Infrastruktur, die auch multiple Typen (etwa Straße und Schiene) beinhalten kann. Die Klasse selbst vererbt an spezialisierte Verkehrsarten, ist aber nicht abstrakt (d.h. sie kann selbst auch verwendet werden)."@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        <http://www.xplanung.de/xplangml/5/0#RP_Geometrieobjekt> .
+
