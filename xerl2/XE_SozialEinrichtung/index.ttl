@@ -1,0 +1,19 @@
+@prefix ns1: <http://www.xerleben.de/schema/2.0_1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:XE_SozialEinrichtung a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "XE_SozialEinrichtung"@de ;
+    rdfs:range ns1:XE_SozialEinrichtung ;
+    rdfs:subClassOf ns1:XE_OrtVonInteresse ;
+    rdfs:subPropertyOf ns1:XE_OrtVonInteresse,
+        ns1:XErleben2 ;
+    skos:definition "Die Kategorie XE_SozialEinrichtung umfasst verschiedenste Beratungs-,  Hilfs- und Betreuungseinrichtungen. Die Funktionsliste enthält die häufigsten Einrichtungsarten. "@de,
+        "Orte von Interesse aus der Kategorie Sozialeinrichtung umfassen Angebote mit den Funktionen Altenpflegeheim, Betreutes Wohnen, Behindertenwohnheim, Beratungsstellen, Kindergarten, Jugendzentrum etc."@de ;
+    ns1:code "63300000" ;
+    ns1:sinceVersion "1.0" .
+
