@@ -1,0 +1,41 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ns1:AX_HistorischesFlurstueckALB a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_HistorischesFlurstueckALB"@de ;
+    ns1:kennung "17002"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AA_NREO ;
+    rdfs:subPropertyOf ns1:AA_NREO ;
+    skos:definition "'Historisches Flurstück ALB' ist ein nicht mehr aktuelles Flurstück, das schon im ALB historisch geworden ist und nach ALKIS migriert wird und in der ALKIS-Standardhistorie geführt wird."@de .
+

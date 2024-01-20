@@ -1,0 +1,29 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AA_REO> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AA_REO"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt> ;
+    skos:definition """Ein raumbezogenes Elementarobjekt (AA_REO) ist ein Objekt, das seinen Raumbezug, seine geometrische und topologische Beschreibung durch eine oder mehrere Raumbezugsgrundformen erhält. Raumbezogene Elementarobjekte können auch Präsentationsobjekte oder Kartengeometrieobjekte sein. Präsentationsobjekte sind Texte und Kartensignaturen, die nicht vollautomatisch aus den entsprechenden Fachobjekten für einen bestimmten Zielmaßstab erzeugt und platziert werden können. Die Präsentationsobjekte sind wie andere Objekte im Objektartenkatalog in Verbindung mit dem jeweiligen Signaturenkatalog zu definieren.
+
+Kartengeometrieobjekte sind Objekte, die bei der Ableitung für einen bestimmten Kartenmaßstab aus Gründen der kartographischen Modellgeneralisierung ihre geometrische Form und/oder Lage verändern müssen. Sie verweisen über eine einseitige Relation "istAbgeleitetAus" auf das zugehörige raumbezogene Elementarobjekt. Diese Objekte tragen die Modellart der jeweiligen DTK (Digitale Topographische Karte) und übernehmen alle Attribute des zugehörigen raumbezogenen Elementarobjekts des DLM (Digitales Landschaftsmodell).
+
+Mit der Einführung der Modellart lassen sich Präsentations- und Kartengeometrieobjekte von den "normalen" topographischen DLM-Objekten bzw. den liegenschaftsbezogenen Objekten der ALKIS-Bestandsdaten unterscheiden und entsprechend auswerten.
+
+Für raumbezogene Elementarobjekte stellt das Modell weitere Subklassen mit konkretisierten raumbezogenen Eigenschaften zur Verfügung; erst aus diesen sollten die konkreten fachlichen Objekte mit Raumbezug abgeleitet werden.
+
+Es handelt sich um eine abstrakte Objektart."""@de .
+

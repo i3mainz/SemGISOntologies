@@ -1,0 +1,26 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:AX_Benutzergruppe a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_Benutzergruppe"@de ;
+    ns1:kennung 81002 ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AA_Benutzergruppe ;
+    rdfs:subPropertyOf ns1:AA_Benutzergruppe ;
+    skos:definition """In der 'Benutzergruppe' werden Informationen über die Benutzer der Bestandsdaten verwaltet, die den Umfang der Benutzung und Fortführung aus Gründen der Datenkonsistenz und des Datenschutzes einschränken sowie Standardparameter für die Benutzergruppe vermerken.
+
+Es handelt sich um eine abstrakte Objektart."""@de .
+

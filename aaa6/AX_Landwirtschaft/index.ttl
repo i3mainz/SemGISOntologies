@@ -1,0 +1,20 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:AX_Landwirtschaft a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AX_Landwirtschaft"@de ;
+    ns1:kennung 43001 ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        ns1:AX_TatsaechlicheNutzung ;
+    rdfs:subPropertyOf ns1:AX_TatsaechlicheNutzung ;
+    skos:definition "'Landwirtschaft' ist eine Fläche für den Anbau von Feldfrüchten sowie eine Fläche, die beweidet und gemäht werden kann, einschließlich der mit besonderen Pflanzen angebauten Fläche (einschließlich landwirtschaftlichen Brachlands)."@de .
+

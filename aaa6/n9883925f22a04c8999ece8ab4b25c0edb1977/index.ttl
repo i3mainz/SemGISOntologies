@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a owl:Restriction,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#bezeichnung> .
+
