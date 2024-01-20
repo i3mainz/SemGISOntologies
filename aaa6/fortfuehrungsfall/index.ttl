@@ -1,0 +1,16 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#fortfuehrungsfall> a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "fortfuehrungsfall"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FortfuehrungsmitteilungAnEigentuemer>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FortfuehrungsmitteilungAnFinanzverwaltung>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_FortfuehrungsmitteilungAnJustizverwaltung>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_Fortfuehrungsnachweis> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_Fortfuehrungsfall_Ausgabe>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_Fortfuehrungsfall_FM>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AX_K_Fortfuehrungsfall_FMJ> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+

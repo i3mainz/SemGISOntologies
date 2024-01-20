@@ -1,0 +1,13 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix ns2: <http://www.semgis.de/geodata#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:AX_Gebaeudefunktion_2083 a ns1:AX_Gebaeudefunktion,
+        owl:NamedIndividual,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Kantine"@de ;
+    ns1:uri "https://www.wikidata.org/wiki/Q1206714" ;
+    ns2:value "2083" .
+

@@ -1,0 +1,11 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a owl:Restriction,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "n6fb0c771471343e995b37ace5749ec2db5908 [Restriction]"@en ;
+    owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+    owl:onProperty <http://www.adv-online.de/namespaces/adv/gid/6.0#qualitaetsangaben> .
+
