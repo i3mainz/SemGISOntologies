@@ -1,0 +1,39 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#AP_PTO> a owl:Class,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "AP_PTO"@de ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AU_Punktobjekt> ;
+    skos:definition """'AP_PTO' ist ein Präsentationsobjekt mit punktförmiger Geometrie und Angaben zur Steuerung und Darstellung von Texten. Dabei werden in ATKIS alle Schriften auf der Grundlage der Signaturenkataloge als Präsentationsobjekte gespeichert, in ALKIS diejenigen, die nicht vollautomatisch für einen bestimmten Zielmaßstab einer Karte erzeugt und platziert werden können.
+
+Durch den Verweis dientZurDarstellungVon gibt das Präsentationsobjekt in der Regel an, zu wessen Präsentation es dient. In ATKIS gibt es "freie Präsentationsobjekte", die keinen Verweis tragen. Das Ziel der Relation darf nicht wiederum ein Präsentationsobjekt oder ein AA_Objekt vom Typ AP_GPO sein.
+
+Das Objekt wird geometrisch durch einen Punkt beschrieben, der auch Bezugspunkt zur Ausrichtung des Textes ist."""@de .
+

@@ -1,0 +1,1 @@
+{"http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.w3.org/2002/07/owl#Restriction"], "http://www.w3.org/2000/01/rdf-schema#label": ["nf3025520dac94da498cb290fa0056e52b5125 [Restriction of ]"], "http://www.w3.org/2002/07/owl#minCardinality": ["0"], "http://www.w3.org/2002/07/owl#onProperty": ["http://www.adv-online.de/namespaces/adv/gid/6.0#kartendarstellung"]}

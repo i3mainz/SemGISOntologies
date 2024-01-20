@@ -1,0 +1,26 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:regierungsbezirk a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "regierungsbezirk"@de ;
+    ns1:kennung "RBZ"^^xsd:string ;
+    rdfs:domain ns1:AX_Gebiet_Regierungsbezirk,
+        ns1:AX_Gemeindekennzeichen,
+        ns1:AX_GeoreferenzierteGebaeudeadresse,
+        ns1:AX_K_FLURSTUECK1,
+        ns1:AX_K_FLURSTUECK2,
+        ns1:AX_Kreis_Schluessel,
+        ns1:AX_Liegenschaftskarte,
+        ns1:AX_Regierungsbezirk_Schluessel,
+        ns1:AX_VerschluesselteLagebezeichnung,
+        ns1:AX_Verwaltungsgemeinschaft_Schluessel ;
+    rdfs:range ns1:AX_Regierungsbezirk_Schluessel,
+        xsd:string ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition "Belegt mit einer Stelle. Falls Regierungsbezirk nicht vorkommt, wird Füllzeichen '0' verwendet."@de .
+

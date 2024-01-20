@@ -1,0 +1,18 @@
+@prefix ns1: <http://www.adv-online.de/namespaces/adv/gid/6.0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:zeitpunktDerHistorisierung a owl:DatatypeProperty,
+        owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:kennung "ZDH"^^xsd:string ;
+    rdfs:domain ns1:AX_HistorischesFlurstueck ;
+    rdfs:range ns1:date ;
+    rdfs:subPropertyOf ns1:AAA6 ;
+    skos:definition """'Zeitpunkt der Historisierung' ist der Zeitpunkt, zu dem das Objekt 'Historisches Flurstück' fachlich entstanden ist. Dieser Zeitpunkt ist identisch mit dem Zeitpunkt, zu dem das Objekt 'Flurstück', aus dem das Objekt 'Historisches Flurstück' direkt abgeleitet ist, fachlich untergegangen ist.
+
+Das Attribut kommt vor, wenn der Zeitpunkt der Historisierung vom Zeitpunkt der Löschung in den aktuellen Bestandsdaten, der systemseitig gesetzt wird, abweicht."""@de .
+

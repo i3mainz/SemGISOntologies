@@ -1,0 +1,14 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.adv-online.de/namespaces/adv/gid/6.0#zeigtAufExternes> a owl:ObjectProperty,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "zeigtAufExternes"@de ;
+    rdfs:domain <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Objekt>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AD_GitterCoverage>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AD_PunktCoverage> ;
+    rdfs:range <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_Fachdatenverbindung>,
+        <http://www.adv-online.de/namespaces/adv/gid/6.0#AA_FachdatenverbindungProperty> ;
+    rdfs:subPropertyOf <http://www.adv-online.de/namespaces/adv/gid/6.0#AAA6> .
+
