@@ -58,6 +58,24 @@ jobs:
           ghpages: true
           ghpagesfolder: xerl2/
 
+  ontdocIV:
+    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    name: Ontdoc IV  
+    with: 
+          version: v017dev
+          rdffilepath: EquivalenceRelations/linkedgeodata_inspire.ttl
+          docpath: docs/lgdinspire/
+          prefixns: http://linkedgeodata.org/ontology/
+          prefixnsshort: lgd
+          indexpages: true
+          metadatatable: true
+          createcollections: false
+          createnonNSPages: true
+          createVOWL: true
+          preferredlang: en
+          ghpages: true
+          ghpagesfolder: lgdinspire/
+
   build:
 
     runs-on: ubuntu-latest
